@@ -1,0 +1,20 @@
+# Dépendances locales et fichiers temporaires.
+__pycache__/
+*.pyc
+tools/temp/
+tools/vendor/
+.venv/
+.DS_Store
+.ruff_cache/
+tmp/
+
+# Configuration locale et secrets du robot.
+Logiciel/.venv/
+Logiciel/config/robot.local.json
+Logiciel/secrets/
+*.key
+
+# État local KiCad et sauvegardes automatiques.
+*.kicad_prl
+*.lck
+*-backups/

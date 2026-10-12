@@ -1,0 +1,33 @@
+{
+  "slug": "camera",
+  "name": "InnoMaker U20CAM-4M USB HDR 4MP",
+  "manufacturer": "InnoMaker",
+  "model": "U20CAM-4M",
+  "sensor": "OV4688",
+  "asin": "B0H36XDQY8",
+  "purchase_url": "https://www.amazon.fr/dp/B0H36XDQY8",
+  "purchase_channel": "Amazon.fr",
+  "variant": "Caméra USB HDR 4MP OV4688 / U20CAM-4M",
+  "lot_price_eur": 23.0,
+  "price_includes_vat": true,
+  "order_lots": 1,
+  "total_eur": 23.0,
+  "seller": "InnoMaker",
+  "fulfilled_by": "Amazon",
+  "availability_observed": "En stock",
+  "delivery_observed": "Livraison gratuite affichée dans la session consultée ; revalider à la commande",
+  "checked_on": "2026-10-12",
+  "procurement_state": "non acheté",
+  "purchase_decision": "retenue pour étude V3 sous réserve de contrôle du mode réel 1080p60",
+  "verification_method": "Page Amazon.fr consultée directement dans Chrome et notice officielle téléchargée puis tableau des modes lu",
+  "target_mode": {"width": 1920, "height": 1080, "fps": 60, "format": "MJPEG", "evidence": "Annonce Amazon et tableau page 4 de la notice constructeur", "measured": false},
+  "interface": "USB 2.0 High-Speed UVC 1.0",
+  "lot_contents_announced": "Module caméra et câble USB de 1 m ; réception à contrôler",
+  "compatibility_note": "Raspberry Pi cité par Amazon ; Linux UVC dans la notice. USB hôte requis, adaptateur OTG pour Pi Zero. Capture et transmission Wi-Fi 1080p60 à valider séparément.",
+  "uncertainties": ["Notice page 3 : cadence générale 30 fps, contradictoire avec tableau détaillé 1080p60 MJPEG page 4", "Un avis Amazon rapporte des modes par défaut à 30 fps", "Autofocus ambigu ; ne pas le considérer acquis", "Consommation, masse, hauteur et entraxes non mesurés", "Débit, latence et cadence effective du retour Wi-Fi non validés"],
+  "sources": [
+    {"type": "purchase", "url": "https://www.amazon.fr/dp/B0H36XDQY8", "checked_on": "2026-10-12"},
+    {"type": "manufacturer_repository", "url": "https://github.com/INNO-MAKER/U20CAM-4M", "checked_on": "2026-10-12"},
+    {"type": "manufacturer_manual", "url": "https://raw.githubusercontent.com/INNO-MAKER/U20CAM-4M/main/U20CAM-4M%20Usermanual.pdf", "local_file": "notices/U20CAM-4M-Usermanual.pdf", "version": "V1.0", "document_date": "2026-05-21", "checked_on": "2026-10-12", "relevant_pages": [2, 3, 4]}
+  ]
+}
