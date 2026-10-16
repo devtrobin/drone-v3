@@ -1,0 +1,40 @@
+{
+  "file": "notice-coupure-manuelle-v3.pdf",
+  "pages": 6,
+  "sha256": "258d79c514a53409cb4f4190767ae9969045da1392bcfda7e8e40c4c028c06a7",
+  "rendered_pages": [
+    {
+      "page": 1,
+      "png": "tools\\temp\\final-components\\pdf\\coupure-manuelle\\page-01.png",
+      "characters": 897
+    },
+    {
+      "page": 2,
+      "png": "tools\\temp\\final-components\\pdf\\coupure-manuelle\\page-02.png",
+      "characters": 1500
+    },
+    {
+      "page": 3,
+      "png": "tools\\temp\\final-components\\pdf\\coupure-manuelle\\page-03.png",
+      "characters": 3158
+    },
+    {
+      "page": 4,
+      "png": "tools\\temp\\final-components\\pdf\\coupure-manuelle\\page-04.png",
+      "characters": 322
+    },
+    {
+      "page": 5,
+      "png": "tools\\temp\\final-components\\pdf\\coupure-manuelle\\page-05.png",
+      "characters": 994
+    },
+    {
+      "page": 6,
+      "png": "tools\\temp\\final-components\\pdf\\coupure-manuelle\\page-06.png",
+      "characters": 1423
+    }
+  ],
+  "visual_review_complete": true,
+  "visual_review_date": "2026-10-14",
+  "visual_review_method": "Rendered every final page and viewed all contact sheets, with full page checks for layout issues."
+}

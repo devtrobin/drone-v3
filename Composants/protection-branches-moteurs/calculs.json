@@ -1,0 +1,132 @@
+{
+  "checked_on": "2026-10-14",
+  "status": "study; no hardware tested",
+  "assumptions": {
+    "total_motor_current_A": 40,
+    "individual_ESC_input_current_A": 20,
+    "distribution_balanced_assumed": true,
+    "limits_enforced": false,
+    "SSR_local_ambient_study_C": 40,
+    "fuse_rating_A": 30,
+    "cold_fuse_resistance_ohm": 0.00197,
+    "added_branch_wire_area_mm2": 4,
+    "example_oneway_length_m": 0.2,
+    "copper_resistivity_20C_ohm_mm2_m": 0.0175
+  },
+  "derating_source_revision": "ATO aftermarket 2022-11-15",
+  "derating_A": {
+    "20": [
+      18,
+      15,
+      14
+    ],
+    "25": [
+      23,
+      19,
+      18
+    ],
+    "30": [
+      27,
+      23,
+      21
+    ]
+  },
+  "derating_ambient_C": [
+    20,
+    65,
+    85
+  ],
+  "fuse_losses": [
+    {
+      "input_A": 10,
+      "typical_cold_drop_V": 0.0197,
+      "typical_cold_loss_W": 0.197
+    },
+    {
+      "input_A": 20,
+      "typical_cold_drop_V": 0.0394,
+      "typical_cold_loss_W": 0.788
+    },
+    {
+      "input_A": 25,
+      "typical_cold_drop_V": 0.04925,
+      "typical_cold_loss_W": 1.23125
+    },
+    {
+      "input_A": 30,
+      "typical_cold_drop_V": 0.0591,
+      "typical_cold_loss_W": 1.773
+    }
+  ],
+  "two_fuses_at20A_loss_W": 1.576,
+  "example_added_4mm2_loop": {
+    "length_total_m": 0.4,
+    "resistance_20C_ohm": 0.0017500000000000003,
+    "drop20A_V": 0.035,
+    "loss20A_W": 0.7000000000000002,
+    "excludes": "holder pigtails, ESC16AWG, contacts, connectors and warming"
+  },
+  "time_current_table": [
+    {
+      "ratio": 1.1,
+      "current_A": 33.0,
+      "min_s": 360000,
+      "max_s": null
+    },
+    {
+      "ratio": 1.35,
+      "current_A": 40.5,
+      "min_s": 0.75,
+      "max_s": 600
+    },
+    {
+      "ratio": 1.6,
+      "current_A": 48.0,
+      "min_s": 0.25,
+      "max_s": 50
+    },
+    {
+      "ratio": 2,
+      "current_A": 60,
+      "min_s": 0.15,
+      "max_s": 5
+    },
+    {
+      "ratio": 3.5,
+      "current_A": 105.0,
+      "min_s": 0.08,
+      "max_s": 0.5
+    },
+    {
+      "ratio": 6,
+      "current_A": 180,
+      "min_s": null,
+      "max_s": 0.1
+    }
+  ],
+  "interrupting_rating": {
+    "A": 1000,
+    "V_DC": 32,
+    "prospective_current_verified": false,
+    "reference_pack_max_V": 8.4,
+    "reference_loop_R_ohm": 0.008400000000000001,
+    "exclude_branch_fuse_resistance": true
+  },
+  "typical_melting_I2t_A2s": 1500,
+  "total_clearing_I2t_verified": false,
+  "selectivity_verified": false,
+  "holder_12AWG_nominal_mm2": 3.31,
+  "ESC16AWG_nominal_mm2": 1.31,
+  "ESC_input_lead_published_length_mm": 75,
+  "original_ESC_wires_protection_verified": false,
+  "inrush_verified": false,
+  "main_SSR_thermal_envelope_verified": false,
+  "amazon_fr_offers_verified": false,
+  "XT60H_tail_proposal_AWG": 12,
+  "XT60H_tail_nominal_mm2": 3.31,
+  "added_4mm2_is_loss_example_not_godet_fit": true,
+  "XT60H_reference": "AMASS XT60H-F with cap, two proposed; contact current unqualified",
+  "supply_revision_scope": "historical_before_alimentation_r2",
+  "current_supply_source": "../verification-alimentation/selection-active.json",
+  "historical_values_preserved": true
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "part": "C01_R2",
+    "step_sha256": "da475a018791e34acd11d18f0a563cdf64a9cbb3fb8c6422a7fc6e3e6c8adeae",
+    "dxf_sha256": "bef2718c9f6e37ca34a61828910b34d85878e4bbaa7ab3f15e1937dae08084d1",
+    "symmetric_difference_mm3": 0.0,
+    "unit": "mm",
+    "frame": "assembly globalXY"
+  },
+  {
+    "part": "C03_R2",
+    "step_sha256": "4ee2e3c5b0e6010f7b05db24433896f5d004839eb81422b6f07eca78011d132c",
+    "dxf_sha256": "9c9adbd31d2ceecedb84af7fa672129c595ba751eb8e50b6571cb5b485e42ae5",
+    "symmetric_difference_mm3": 0.0,
+    "unit": "mm",
+    "frame": "assembly globalXY"
+  },
+  {
+    "part": "C04_R2_droite",
+    "step_sha256": "3dd150765a60ea7729da754d23f17aaad5f740fa5a75d467ff0d547514f9bae4",
+    "dxf_sha256": "59ec7bb479712b37133aef61e5b9fb5ede9fc0edfd46268d8e7af764d793a1e6",
+    "symmetric_difference_mm3": 0.0,
+    "unit": "mm",
+    "frame": "assembly globalXY"
+  },
+  {
+    "part": "C04_R2_gauche",
+    "step_sha256": "a29a52ab136ab3d23045259138988856a5ecb0892b270d51e43647d7b51c4d9e",
+    "dxf_sha256": "71c324cac1f54ccd3e22839eb76db8b9803d73bcdae32bd81c270dfcd687d81d",
+    "symmetric_difference_mm3": 0.0,
+    "unit": "mm",
+    "frame": "assembly globalXY"
+  },
+  {
+    "part": "R212_support_servo",
+    "step_sha256": "16b28bf8725a487bef1c745358ae849b7d492203338c103bd35a21eb3c29f3d9",
+    "dxf_sha256": "b8ae3e9395a50ffa9c608a83f9c896db0a050b5be5e6e3e7cf0694ece87d233c",
+    "symmetric_difference_mm3": 0.0,
+    "unit": "mm",
+    "frame": "assembly globalXY"
+  },
+  {
+    "part": "R213_support_UBEC",
+    "step_sha256": "2c1ef506784a21df81d21f74b364592b8a7528f8e14cc50dd57124949f5a2efb",
+    "dxf_sha256": "6341cd83e204a3f6643c717729a6bf1c1a13245120a544dce74c06774fba40a0",
+    "symmetric_difference_mm3": 0.0,
+    "unit": "mm",
+    "frame": "assembly globalXY"
+  },
+  {
+    "part": "R214_cassette_FS",
+    "step_sha256": "3203cb6c2ed5517111744576cc19e7db4fae764950a6b14100a26891b9c0df67",
+    "dxf_sha256": "4cf91fac6d0f4039e84124bb5d4c9c9102abd0447bd8dacf7dce639db067f9f3",
+    "symmetric_difference_mm3": 0.0,
+    "unit": "mm",
+    "frame": "assembly globalXY"
+  }
+]

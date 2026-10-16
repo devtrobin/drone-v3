@@ -1,0 +1,58 @@
+{
+  "checked_on": "2026-10-14",
+  "manufacturer_housing": "https://www.molex.com/en-us/products/part-detail/0022552401",
+  "manufacturer_contact": "https://www.molex.com/en-us/products/part-detail/0016020103",
+  "wire_reference": "https://www.adafruit.com/product/3175",
+  "product_family_current_up_to_A": 3,
+  "family_source": "https://www.molex.com/en-us/products/connectors/wire-to-wire-connectors/sl-connectors",
+  "Pi_header_current_certified": false,
+  "Pi5_current5A_validated": false,
+  "housing_drawing_mm": {
+    "pitch": 2.54,
+    "rows": 2,
+    "positions": 40,
+    "A_centres": 48.26,
+    "B_length_reference": 50.77,
+    "width_reference": 5.05,
+    "height_reference": 15.24
+  },
+  "contact": {
+    "AWG": [
+      22,
+      24
+    ],
+    "insulation_OD_max_mm": 1.63,
+    "mating_plating": "or sélectif",
+    "termination_plating": "étain",
+    "material": "bronze phosphoreux"
+  },
+  "crimp_reference": {
+    "document": "ATS-638118700",
+    "revision": "E, 2017-11-09, actuellement publiée",
+    "strip_length_mm": [
+      2.54,
+      3.17
+    ],
+    "insulation_profile_range_mm": [
+      1.3,
+      1.65
+    ],
+    "conductor_height_AWG22_mm": [
+      0.75,
+      0.85
+    ],
+    "conductor_width_reference_mm": 1.43,
+    "insulation_height_reference_mm": 1.7,
+    "insulation_width_reference_mm": 1.76,
+    "pull_min_AWG22_N": 39.2,
+    "pull_min_AWG24_N": 29.4,
+    "manufacturer_tool_reference": "63811-8700",
+    "tool_in_budget": false
+  },
+  "amazon_exact_offer_verified": false,
+  "ASIN": null,
+  "price_EUR_TTC": null,
+  "assets": "assets.json",
+  "models": "3D/catalogue.json",
+  "hardware_tested": false
+}

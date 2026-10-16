@@ -1,0 +1,49 @@
+{
+  "file": "Composants\\capteurs-vitesse\\notices\\notice-capteurs-vitesse-v3.pdf",
+  "pages": 7,
+  "generated_on": "2026-10-15",
+  "generator": "tools/build_speed_sensor_pdf.py",
+  "sha256": "dbabe88cc887e12f891c373296828edc822231d4e905577afa4f778d49608d0f",
+  "renders": [
+    {
+      "page": 1,
+      "file": "tools\\temp\\speed-review\\pdf\\page-1.png"
+    },
+    {
+      "page": 2,
+      "file": "tools\\temp\\speed-review\\pdf\\page-2.png"
+    },
+    {
+      "page": 3,
+      "file": "tools\\temp\\speed-review\\pdf\\page-3.png"
+    },
+    {
+      "page": 4,
+      "file": "tools\\temp\\speed-review\\pdf\\page-4.png"
+    },
+    {
+      "page": 5,
+      "file": "tools\\temp\\speed-review\\pdf\\page-5.png"
+    },
+    {
+      "page": 6,
+      "file": "tools\\temp\\speed-review\\pdf\\page-6.png"
+    },
+    {
+      "page": 7,
+      "file": "tools\\temp\\speed-review\\pdf\\page-7.png"
+    }
+  ],
+  "visual_review_complete": true,
+  "visual_review_date": "2026-10-15",
+  "reviewed_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "visual_review_method": "Every final rendered page inspected with view_image, including functional circuit, tables, drawings and source links; no clipping or overlap observed"
+}

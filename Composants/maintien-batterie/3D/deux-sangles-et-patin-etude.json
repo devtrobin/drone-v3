@@ -1,0 +1,120 @@
+{
+  "file": "deux-sangles-et-patin-etude.step",
+  "title": "Maintien | deuxsangles etpatin",
+  "generated_on": "2026-10-14",
+  "unit": "mm",
+  "cadquery_version": "2.8.0",
+  "coordinate_system": "Axe principal Z; face de reference z=0; dimensions selon parametres",
+  "bytes": 358356,
+  "sha256": "191109916f2e9ab7765262721ac37952dc8cfecbc5a66fd0d22f116bf78d681b",
+  "native_vendor_cad": false,
+  "hardware_measured": false,
+  "is_custom_project_design": true,
+  "published_nominal": [
+    "GEPRC :20x250, jaune/bleu,lot5 ; métalboucleobservé."
+  ],
+  "estimates_and_limitations": [
+    "Épaisseurs, boucle, texture etcoutures reconstruites ; fibres etcrochetsmicroscopiques noninventés. Formesdepose provisoires.",
+    "Batterieetchâssisabsents ; sections etespacements provisoires ; niveauintérieurbas1.2,padjusquà3.2,pack25hypothétique.",
+    "Nuances optiques estimées ; géométrie non mesurée. Pas de plan de fabrication ni de qualification mécanique/électrique."
+  ],
+  "parameters": {},
+  "source_pages": [
+    "Voir sources.json et cotes.md du composant / ensemble"
+  ],
+  "bounds_mm": {
+    "xmin": -71.0,
+    "xmax": 71.0,
+    "ymin": -25.5,
+    "ymax": 25.5,
+    "zmin": -4.440892098501e-16,
+    "zmax": 30.7
+  },
+  "validation": {
+    "valid_after_reimport": true,
+    "solids": 7,
+    "faces": 102,
+    "colors": 4,
+    "volume_relative_error": 1.951027996433099e-15,
+    "volume_relative_error_limit": 0.0001,
+    "volume_before_mm3": 22375.765885939458,
+    "volume_after_mm3": 22375.765885939414,
+    "adaptive_volume_tolerance": 1e-09,
+    "bbox_error_mm": 3.552713678800501e-15,
+    "bbox_error_limit_mm": 0.01,
+    "void_and_material_probes": [],
+    "elapsed_seconds": 1.3048350000026403,
+    "volume_after_default_quadrature_mm3": 22375.76588593972
+  },
+  "parts": [
+    {
+      "name": "Piece_patin_provisoire",
+      "color_linear_rgb": [
+        0.87,
+        0.87,
+        0.83
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Piece_sangle1_ruban_ferme_pose_etude",
+      "color_linear_rgb": [
+        0.018,
+        0.021,
+        0.025
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Piece_sangle1_renfort_superieur_jaune",
+      "color_linear_rgb": [
+        0.66,
+        0.85,
+        0.016
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Piece_sangle1_boucle_metal",
+      "color_linear_rgb": [
+        0.54,
+        0.59,
+        0.62
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Piece_sangle2_ruban_ferme_pose_etude",
+      "color_linear_rgb": [
+        0.018,
+        0.021,
+        0.025
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Piece_sangle2_renfort_superieur_jaune",
+      "color_linear_rgb": [
+        0.66,
+        0.85,
+        0.016
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Piece_sangle2_boucle_metal",
+      "color_linear_rgb": [
+        0.54,
+        0.59,
+        0.62
+      ],
+      "solids": 1
+    }
+  ],
+  "preview": {
+    "file": "deux-sangles-et-patin-etude.png",
+    "sha256": "ec88d8ef0b6bd779c2fda5fab695d84be0f116d053f106d55eb61fea6eefdc33"
+  },
+  "component_folder": "maintien-batterie",
+  "relative_step_path": "maintien-batterie/3D/deux-sangles-et-patin-etude.step"
+}

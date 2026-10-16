@@ -1,0 +1,89 @@
+{
+  "checked_on": "2026-10-15",
+  "document_and_CAD_checks_passed": true,
+  "hardware_tested": false,
+  "mount_designed": false,
+  "Amazon_exact_offer_verified": false,
+  "checks": [
+    {
+      "check": "JSON syntax",
+      "passed": true,
+      "details": []
+    },
+    {
+      "check": "Original archive hashes",
+      "passed": true,
+      "details": {
+        "files": 13,
+        "errors": []
+      }
+    },
+    {
+      "check": "Local document links",
+      "passed": true,
+      "details": {
+        "links": 87,
+        "errors": []
+      }
+    },
+    {
+      "check": "Wheel speed and two-pulse conversion",
+      "passed": true,
+      "details": {
+        "rows": 4,
+        "errors": []
+      }
+    },
+    {
+      "check": "Pullup, line-rise and current calculations",
+      "passed": true,
+      "details": {
+        "supply_budget_A": 0.007866666666666666,
+        "scope": "Conditional budget; no rail/cable measured"
+      }
+    },
+    {
+      "check": "Illustrative magnet centrifugal force",
+      "passed": true,
+      "details": {
+        "force_N": 0.1642357903380831,
+        "radius_m": 0.012,
+        "scope": "Radius assumption; not validated retention"
+      }
+    },
+    {
+      "check": "GPIO extension and preserved R2 power separation",
+      "passed": true,
+      "details": {
+        "installed": 13,
+        "total_contacts_to_buy": 18,
+        "new_physical_pins": [
+          16,
+          17,
+          18,
+          25
+        ],
+        "power_5V_separate": true
+      }
+    },
+    {
+      "check": "Five STEP files and independent FreeCAD evidence",
+      "passed": true,
+      "details": {
+        "models": 5,
+        "errors": [],
+        "scope": "Headless CAD import, not GUI or hardware test"
+      }
+    },
+    {
+      "check": "Seven-page notice integrity and layout bounds",
+      "passed": true,
+      "details": []
+    },
+    {
+      "check": "Package Python syntax",
+      "passed": true,
+      "details": []
+    }
+  ]
+}

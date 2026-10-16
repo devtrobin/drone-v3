@@ -1,0 +1,509 @@
+{
+  "file": "cordon-principal-xt60-12awg-etude.step",
+  "title": "Cordon principal | XT60H et deux cosses",
+  "generated_on": "2026-10-15",
+  "unit": "mm",
+  "cadquery_version": "2.8.0",
+  "coordinate_system": "Axe principal Z; face de reference z=0; dimensions selon parametres",
+  "bytes": 2057880,
+  "sha256": "e45b640d81a30be0d77efef03da6a622721f5845f9377a9bf9ed5665433204ae",
+  "native_vendor_cad": false,
+  "hardware_measured": false,
+  "is_custom_project_design": true,
+  "published_nominal": [
+    "AMASS2026 : M23,85 ×16,4 ×9,2 ; entraxe7,2historique",
+    "TE130191 : L19,3 ; œil5,26 ; paume0,79 ; IDcanon3,28 ; 12-10AWG.",
+    "BNTECHGO : siliconeØ4,5 ; faisceauØ2,41 annoncé."
+  ],
+  "estimates_and_limitations": [
+    "Pose provisoire, environ0,20m par pôle ; aucune longueur finale ni emplacement de borne imposé.",
+    "Faisceau métalliqueØ2,41 rempli pour implantation : pas680brins dans l’ensemble et pas un volume de cuivre réel ; voir les échantillons détaillés.",
+    "Soudure et sertissage illustratifs ; manchon installé18mm avec profil/adhésif estimés, pas modèle du retrait réel.",
+    "Contacts avant mâles et paumes sont volontairement nus pour raccordement ; arrière isolé par capot et manchons. Aucun fil interrompu ou extrémité flottante.",
+    "La polarité dessinée ne dispense pas du contrôle sur le pack et les marques réels ; version44A non validée.",
+    "Couleurs et détails non cotés estimés, aucune pièce mesurée ; aucune qualification à44A."
+  ],
+  "parameters": {
+    "provision_m_per_color": 0.2,
+    "wire_OD_mm": 4.5,
+    "wire_bundle_envelope_mm": 2.41,
+    "lug_install_z_mm": 210
+  },
+  "source_pages": [
+    "Voir sources.json et assets.json du cordon"
+  ],
+  "bounds_mm": {
+    "xmin": -24.7650001,
+    "xmax": 24.7650001,
+    "ymin": -4.6000001,
+    "ymax": 4.600000000000007,
+    "zmin": 0.0,
+    "zmax": 229.30000009999998
+  },
+  "validation": {
+    "valid_after_reimport": true,
+    "solids": 16,
+    "faces": 549,
+    "colors": 7,
+    "volume_relative_error": 1.2677778551076122e-14,
+    "volume_relative_error_limit": 0.0001,
+    "volume_before_mm3": 8895.670685955489,
+    "volume_after_mm3": 8895.670685955376,
+    "adaptive_volume_tolerance": 1e-09,
+    "bbox_error_mm": 7.105427357601002e-15,
+    "bbox_error_limit_mm": 0.01,
+    "void_and_material_probes": [
+      {
+        "point": [
+          -3.6,
+          0.0,
+          17.78
+        ],
+        "occupied": true
+      },
+      {
+        "point": [
+          -3.6,
+          0.0,
+          32.099999999999994
+        ],
+        "occupied": true
+      },
+      {
+        "point": [
+          -3.6,
+          0.0,
+          46.42
+        ],
+        "occupied": true
+      },
+      {
+        "point": [
+          -3.683919421665564,
+          0.0,
+          53.17226860945525
+        ],
+        "occupied": true
+      },
+      {
+        "point": [
+          -5.686271057718976,
+          0.0,
+          65.68438714135812
+        ],
+        "occupied": true
+      },
+      {
+        "point": [
+          -10.271615580095457,
+          0.0,
+          77.49697101796636
+        ],
+        "occupied": true
+      },
+      {
+        "point": [
+          -13.328384419904545,
+          0.0,
+          83.05911868406113
+        ],
+        "occupied": true
+      },
+      {
+        "point": [
+          -17.913728942281033,
+          0.0,
+          94.87170256066938
+        ],
+        "occupied": true
+      },
+      {
+        "point": [
+          -19.916080578334423,
+          0.0,
+          107.38382109257225
+        ],
+        "occupied": true
+      },
+      {
+        "point": [
+          -20.0,
+          0.0,
+          121.16048073182475
+        ],
+        "occupied": true
+      },
+      {
+        "point": [
+          -20.0,
+          0.0,
+          163.57804485101374
+        ],
+        "occupied": true
+      },
+      {
+        "point": [
+          -20.0,
+          0.0,
+          205.99560897020274
+        ],
+        "occupied": true
+      },
+      {
+        "point": [
+          -3.6,
+          1.7275,
+          34.5
+        ],
+        "occupied": true,
+        "material": "gaine_silicone_annulaire"
+      },
+      {
+        "point": [
+          -5.686271057718976,
+          1.7275,
+          65.68438714135812
+        ],
+        "occupied": true,
+        "material": "gaine_silicone_annulaire"
+      },
+      {
+        "point": [
+          -17.913728942281033,
+          1.7275,
+          94.87170256066938
+        ],
+        "occupied": true,
+        "material": "gaine_silicone_annulaire"
+      },
+      {
+        "point": [
+          -20.0,
+          1.7275,
+          160.27804485101376
+        ],
+        "occupied": true,
+        "material": "gaine_silicone_annulaire"
+      },
+      {
+        "point": [
+          3.6,
+          0.0,
+          17.78
+        ],
+        "occupied": true
+      },
+      {
+        "point": [
+          3.6,
+          0.0,
+          32.099999999999994
+        ],
+        "occupied": true
+      },
+      {
+        "point": [
+          3.6,
+          0.0,
+          46.42
+        ],
+        "occupied": true
+      },
+      {
+        "point": [
+          3.683919421665564,
+          0.0,
+          53.17226860945525
+        ],
+        "occupied": true
+      },
+      {
+        "point": [
+          5.686271057718976,
+          0.0,
+          65.68438714135812
+        ],
+        "occupied": true
+      },
+      {
+        "point": [
+          10.271615580095457,
+          0.0,
+          77.49697101796636
+        ],
+        "occupied": true
+      },
+      {
+        "point": [
+          13.328384419904545,
+          0.0,
+          83.05911868406113
+        ],
+        "occupied": true
+      },
+      {
+        "point": [
+          17.913728942281033,
+          0.0,
+          94.87170256066938
+        ],
+        "occupied": true
+      },
+      {
+        "point": [
+          19.916080578334423,
+          0.0,
+          107.38382109257225
+        ],
+        "occupied": true
+      },
+      {
+        "point": [
+          20.0,
+          0.0,
+          121.16048073182475
+        ],
+        "occupied": true
+      },
+      {
+        "point": [
+          20.0,
+          0.0,
+          163.57804485101374
+        ],
+        "occupied": true
+      },
+      {
+        "point": [
+          20.0,
+          0.0,
+          205.99560897020274
+        ],
+        "occupied": true
+      },
+      {
+        "point": [
+          3.6,
+          1.7275,
+          34.5
+        ],
+        "occupied": true,
+        "material": "gaine_silicone_annulaire"
+      },
+      {
+        "point": [
+          5.686271057718976,
+          1.7275,
+          65.68438714135812
+        ],
+        "occupied": true,
+        "material": "gaine_silicone_annulaire"
+      },
+      {
+        "point": [
+          17.913728942281033,
+          1.7275,
+          94.87170256066938
+        ],
+        "occupied": true,
+        "material": "gaine_silicone_annulaire"
+      },
+      {
+        "point": [
+          20.0,
+          1.7275,
+          160.27804485101376
+        ],
+        "occupied": true,
+        "material": "gaine_silicone_annulaire"
+      }
+    ],
+    "elapsed_seconds": 4.293388199999754,
+    "volume_after_default_quadrature_mm3": 8895.670685988236
+  },
+  "parts": [
+    {
+      "name": "Piece_Boitier_PA_XT60H_M",
+      "color_linear_rgb": [
+        0.95,
+        0.54,
+        0.008
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Piece_Contact_M_1_laiton_dore",
+      "color_linear_rgb": [
+        0.72,
+        0.46,
+        0.1
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Piece_Contact_M_2_laiton_dore",
+      "color_linear_rgb": [
+        0.72,
+        0.46,
+        0.1
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Piece_Capot_PA_gris_sombre",
+      "color_linear_rgb": [
+        0.055,
+        0.065,
+        0.08
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Piece_CP0_moins_faisceau_etame_enveloppe",
+      "color_linear_rgb": [
+        0.57,
+        0.62,
+        0.65
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Piece_CP0_moins_silicone",
+      "color_linear_rgb": [
+        0.015,
+        0.019,
+        0.024
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Piece_CP0_moins_soudure",
+      "color_linear_rgb": [
+        0.57,
+        0.62,
+        0.65
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Piece_CP0_moins_cosse_sertie_estimee",
+      "color_linear_rgb": [
+        0.57,
+        0.62,
+        0.65
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Piece_CP0_moins_adhesif_installe_estime",
+      "color_linear_rgb": [
+        0.13,
+        0.1,
+        0.075
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Piece_CP0_moins_paroi_installee_estimee",
+      "color_linear_rgb": [
+        0.015,
+        0.019,
+        0.024
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Piece_CP0_plus_faisceau_etame_enveloppe",
+      "color_linear_rgb": [
+        0.57,
+        0.62,
+        0.65
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Piece_CP0_plus_silicone",
+      "color_linear_rgb": [
+        0.7,
+        0.01,
+        0.01
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Piece_CP0_plus_soudure",
+      "color_linear_rgb": [
+        0.57,
+        0.62,
+        0.65
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Piece_CP0_plus_cosse_sertie_estimee",
+      "color_linear_rgb": [
+        0.57,
+        0.62,
+        0.65
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Piece_CP0_plus_adhesif_installe_estime",
+      "color_linear_rgb": [
+        0.13,
+        0.1,
+        0.075
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Piece_CP0_plus_paroi_installee_estimee",
+      "color_linear_rgb": [
+        0.015,
+        0.019,
+        0.024
+      ],
+      "solids": 1
+    }
+  ],
+  "preview": {
+    "file": "cordon-principal-xt60-12awg-etude.png",
+    "sha256": "9818690d1d46bc0d0b8ea812c7e375cc21843348dc5acc6a37049e57060df416"
+  },
+  "component_folder": "cordon-principal-batterie",
+  "relative_step_path": "cordon-principal-batterie/3D/cordon-principal-xt60-12awg-etude.step",
+  "generator": "tools/build_main_cord_step.py",
+  "generator_sha256": "fa32714620f5b29cb53937cc7563fa4b8b90d2d2824c13b66ada142267b73bed",
+  "wire_continuity_checks": [
+    {
+      "pole": "CP0_moins",
+      "core_solids": 1,
+      "jacket_solids": 1,
+      "core_radial_samples": 1872,
+      "jacket_radial_samples": 1872,
+      "core_path_length_mm": 205.3188784841629,
+      "bonds": {
+        "contact_solder_mm": 0.0,
+        "solder_core_mm": 4.930380657631324e-32,
+        "core_lug_mm": 0.0
+      }
+    },
+    {
+      "pole": "CP0_plus",
+      "core_solids": 1,
+      "jacket_solids": 1,
+      "core_radial_samples": 1872,
+      "jacket_radial_samples": 1872,
+      "core_path_length_mm": 205.3188784841629,
+      "bonds": {
+        "contact_solder_mm": 0.0,
+        "solder_core_mm": 4.930380657631324e-32,
+        "core_lug_mm": 0.0
+      }
+    },
+    {
+      "opposite_cores_min_gap_mm": 4.79
+    }
+  ]
+}

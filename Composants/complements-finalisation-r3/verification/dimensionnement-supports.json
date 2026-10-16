@@ -1,0 +1,17 @@
+{
+  "load_envelope_total_N": 20,
+  "required_aluminium_yield_MPa": 200,
+  "post_stress_MPa": 3.5295819470562706,
+  "post_deflection_mm": 0.050757775555541576,
+  "crossbar_stress_MPa": 2.6046986721144028,
+  "crossbar_deflection_mm": 0.04654734941007535,
+  "offset_console_load_N": 10,
+  "offset_console_stress_MPa": 31.666666666666668,
+  "offset_console_deflection_mm": 0.9204240472356414,
+  "new_custom_parts_estimated_g": 575.2630400986613,
+  "four_cables_estimated_g": 134.76760663464097,
+  "fasteners_and_tails_mass_not_included": true,
+  "not_impact_or_hand_support_rated": true,
+  "full_frame_FEA": false,
+  "vehicle_mass_must_stay_under_9kg": true
+}

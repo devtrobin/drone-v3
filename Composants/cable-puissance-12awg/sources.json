@@ -1,0 +1,62 @@
+{
+  "checked_on": "2026-10-14",
+  "sources": [
+    {
+      "id": "brand",
+      "url": "https://bntechgo.com/bntechgo-12-gauge-silicone-wire-kit-ultra-flexible-20-ft-black-and-red-each-color-10-ft-high-temp-200-c-600v-12-awg-silicone-wire-680-strands-of-tinned-copper-wire-stranded-wire-stranded-wire-for-model-battery/",
+      "type": "brand_primary",
+      "supports": "SW12G68008F10C2,2x10ft,680x0.08,materiaux,prixUSD et avis",
+      "local": "sources-web/BNTECHGO-SW12G68008F10C2.html"
+    },
+    {
+      "id": "image-brand",
+      "url": "https://cdn11.bigcommerce.com/s-clng77kigt/product_images/uploaded_images/sw-12-3.jpg",
+      "type": "brand_primary_image",
+      "local": "photos/BNTECHGO-original-2.jpg",
+      "supports": "Ø2.41,3.4mm2,5.06ohm/km,1.05,4.5"
+    },
+    {
+      "id": "amazon-exact",
+      "url": "https://www.amazon.com/dp/B01ABOPMEI",
+      "type": "marketplace_brand_listing",
+      "supports": "titre12AWG,680x0.08,4.5+/-0.1,2x10ft",
+      "FR_stock_verified": false
+    },
+    {
+      "id": "amazon-excluded",
+      "url": "https://www.amazon.com/dp/B01AO7586O",
+      "type": "marketplace_wrong_variant",
+      "supports": "14AWG a la consultation ; exclu"
+    },
+    {
+      "id": "junhao-comparison",
+      "url": "https://en.junhaodx.com/Catalogue.pdf",
+      "type": "other_manufacturer_comparison",
+      "local": "notices/Junhao-catalogue-comparaison.pdf",
+      "supports": "famillevoisinepage12;pas homologationBNTECHGO"
+    },
+    {
+      "id": "modalai-example",
+      "url": "https://storage.googleapis.com/modalai_public/modal_drawings/MCBL-00110%20Drawing%20v4.pdf",
+      "type": "manufacturer_wiring_example",
+      "local": "notices/ModalAI-MCBL00110-v4-cable-BNTECHGO-XT60.pdf",
+      "supports": "usageBNTECHGO12AWGsurXT60, pas courantV3"
+    },
+    {
+      "id": "forum",
+      "url": "https://www.rctech.net/forum/radio-electronics/1131751-where-buy-silicone-copper-wire.html?styleid=21",
+      "type": "firsthand_users",
+      "supports": "cordonscharge/souplesse; lienvariante14AWG"
+    },
+    {
+      "id": "AMASS-interface",
+      "url": "https://www.china-amass.com/biao/283.html",
+      "type": "connector_manufacturer",
+      "supports": "conditions12AWGsurXT60H ;pas qualificationcable"
+    }
+  ],
+  "native_STEP_obtained": false,
+  "hardware_measured": false,
+  "official_BNTECHGO_PDF_obtained": false,
+  "exact_measured_youtube_test_found": false
+}

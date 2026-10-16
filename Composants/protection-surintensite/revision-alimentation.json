@@ -1,0 +1,6 @@
+{
+  "date": "2026-10-15",
+  "current_source": "../verification-alimentation/selection-active.json",
+  "note": "MIDI 60 A et support M5 retirés de la sélection active. Remplacement proposé : JLLN050.T 50 A et LFT300601C avec capot. Confirmation de la terminaison fine brins avant achat.",
+  "old_project_PDFs_and_complete_CAD_historical": true
+}

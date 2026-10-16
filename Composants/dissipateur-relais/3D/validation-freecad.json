@@ -1,0 +1,69 @@
+{
+  "method": "FreeCAD Part.read; headless",
+  "version": [
+    "1",
+    "1",
+    "4",
+    "20260928 (Git shallow)",
+    "Unknown",
+    "2026/09/28 13:46:34",
+    "(HEAD detached at 4fd3bf320)",
+    "4fd3bf320d9566a27e60069fc8387448aaa3a094"
+  ],
+  "checked_on": "2026-10-13",
+  "all_passed": true,
+  "GUI_tested": false,
+  "VSCode_CAD_View_tested": false,
+  "checks": [
+    {
+      "file": "sensata-hs251-officiel.step",
+      "passed": true,
+      "valid": true,
+      "solids": 1,
+      "faces": 88,
+      "bbox_error_mm": 0.0,
+      "seconds": 0.1542801000032341,
+      "sha256": "0205bb9ca8d5a5ede282401681bf73ae1e72846dbbf2cabb05274b79f33a66ce"
+    },
+    {
+      "file": "sensata-hs251-implantation-v3.step",
+      "passed": true,
+      "valid": true,
+      "solids": 1,
+      "faces": 88,
+      "bbox_error_mm": 0.0,
+      "seconds": 0.2865176999985124,
+      "sha256": "8da60eaaabd2879eb9e054aa8c08cc2c8192fdc0632341214c5a99038cd7fcba"
+    },
+    {
+      "file": "sensata-hsp1-gris-2018.step",
+      "passed": true,
+      "valid": true,
+      "solids": 1,
+      "faces": 14,
+      "bbox_error_mm": 0.0,
+      "seconds": 0.06551480000052834,
+      "sha256": "0f514b9d739b70242aebe352732ce5b891a7fce5ea7c941b3811260fe3a53ef7"
+    },
+    {
+      "file": "sensata-hsp1-rose-pcn-2023.step",
+      "passed": true,
+      "valid": true,
+      "solids": 1,
+      "faces": 14,
+      "bbox_error_mm": 0.0,
+      "seconds": 0.024398999994446058,
+      "sha256": "a792220030062583f6424acaa10eedbe0dcc4506576c9c34babe10ede761bcea"
+    },
+    {
+      "file": "assemblage-d1d100-hs251-hsp1-etude.step",
+      "passed": true,
+      "valid": true,
+      "solids": 96,
+      "faces": 1620,
+      "bbox_error_mm": 0.0,
+      "seconds": 3.8273493999950006,
+      "sha256": "1059165fdd23b291443b0dd108065bef0f9625fbd98b04b56878be7b2544fc66"
+    }
+  ]
+}

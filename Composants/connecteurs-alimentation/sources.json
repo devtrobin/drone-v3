@@ -1,0 +1,67 @@
+{
+  "checked_on": "2026-10-14",
+  "sources": [
+    {
+      "id": "amass-current",
+      "url": "https://www.china-amass.com/biao/283.html",
+      "type": "manufacturer",
+      "supports": "35A, conditions, materiaux, dimensions arrondies, erreur unite CR signalee"
+    },
+    {
+      "id": "amass-catalog-2026",
+      "url": "https://www.china-amass.com/public/upload/20260207/7fa24f5a6f35ec66c7a115c07a34ab06.pdf",
+      "type": "manufacturer_pdf",
+      "local": "notices/AMASS-catalogue-XT-2026-original.pdf",
+      "pages": "15 imprimee / index14",
+      "supports": "F24.95/M23.85,16.4,9.2,35A/12AWG/Delta,100cycles,capot optionnel"
+    },
+    {
+      "id": "amass-legacy",
+      "url": "https://www.shoptronica.com/ficheros/XT60H.pdf",
+      "type": "manufacturer_pdf_on_distributor",
+      "local": "notices/AMASS-XT60H-F-M-V1.2-via-Shoptronica.pdf",
+      "supports": "F/M usage,7.2pitch,30/60A,0.5mohm,cotes anciennes"
+    },
+    {
+      "id": "hobbywing",
+      "url": "https://www.hobbywing.com/en/products/quicrun-wp-16bl30-g2",
+      "type": "manufacturer",
+      "local": "photos/Hobbywing-WP16BL30-G2-contacts-originaux.jpg",
+      "supports": "XT60,16AWG75mm et photo contacts males"
+    },
+    {
+      "id": "amazon",
+      "url": "https://www.amazon.com/dp/B074PN6N4K",
+      "type": "marketplace",
+      "supports": "titre10paires et boutiqueSoloGood",
+      "availability_FR_confirmed": false,
+      "price_FR_EUR": null
+    },
+    {
+      "id": "tme",
+      "url": "https://www.tme.eu/fr/details/xt60h-f/connecteurs-dc/amass/",
+      "type": "distributor",
+      "supports": "reference AMASS F ; prix/stock non confirmes"
+    },
+    {
+      "id": "forum-rc",
+      "url": "https://www.rccrawler.com/forums/threads/genuine-connectors.619280/",
+      "type": "firsthand_user_forum",
+      "supports": "capot, marquage et maintien ; pas amperage certifie"
+    },
+    {
+      "id": "forum-dashcam",
+      "url": "https://dashcamtalk.com/forum/threads/7500-mah-96-wh-blackboxmycar-powercell-8-blackvue-b-130x-thinkware-ivolt-xtra-bab-95.48162/page-2",
+      "type": "firsthand_user_forum",
+      "supports": "fabrication de cables avec cet ASIN, XT60 distinctXT60I"
+    },
+    {
+      "id": "video-sologood",
+      "url": "https://www.youtube.com/watch?v=dDZxkl8b3hs",
+      "type": "seller_video",
+      "published": "2019-10-08",
+      "supports": "titre et description seulement",
+      "full_visual_review": false
+    }
+  ]
+}

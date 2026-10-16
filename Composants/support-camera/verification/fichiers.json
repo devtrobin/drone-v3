@@ -1,0 +1,140 @@
+{
+  "all_passed": true,
+  "hardware_tested": false,
+  "FreeCAD_current_imports_valid": true,
+  "camera_original_unchanged": true,
+  "local_links_valid": true,
+  "PDF_pages_visually_reviewed": [
+    1,
+    2,
+    3
+  ],
+  "CAD_DXF_STL": [
+    {
+      "file": "plans\\C01-base-CP6.dxf",
+      "valid": true,
+      "units": "mm",
+      "volume_at6mm_mm3": 32896.148246294426,
+      "expected_volume_mm3": 32896.14824629442
+    },
+    {
+      "file": "plans\\C02-montant-CP6.dxf",
+      "valid": true,
+      "units": "mm",
+      "volume_at6mm_mm3": 56273.77767577491,
+      "expected_volume_mm3": 56273.777675774894
+    },
+    {
+      "file": "plans\\C03-gousset-CP6.dxf",
+      "valid": true,
+      "units": "mm",
+      "volume_at6mm_mm3": 4799.999999999999,
+      "expected_volume_mm3": 4800.0
+    },
+    {
+      "file": "3D\\berceau-camera-provisoire-p1.stl",
+      "triangles": 2616,
+      "watertight": true,
+      "on_print_bed": true,
+      "volume_relative_error": 6.956495342311139e-07
+    }
+  ],
+  "files": [
+    {
+      "file": "3D/berceau-camera-provisoire-p1.json",
+      "sha256": "71a4995f7b592584de87a683e0f0b15718f3b1e5db1ff77b35c0172803dd9c45"
+    },
+    {
+      "file": "3D/berceau-camera-provisoire-p1.png",
+      "sha256": "ccfb7d9cb8970ed4c97f647ec6bb8fd910e5192572b1d4c1d66201fe499270fb"
+    },
+    {
+      "file": "3D/berceau-camera-provisoire-p1.step",
+      "sha256": "636fb0ae57eec109a9b27a5304fe5fba94e1cd6d8247f51870bb3c60b62c2bb3"
+    },
+    {
+      "file": "3D/berceau-camera-provisoire-p1.stl",
+      "sha256": "140e1ea579712877640fb76f3f091d5714987d40ccbe95bfe8bb9719cfcac821"
+    },
+    {
+      "file": "3D/pieces-support-camera-p1.json",
+      "sha256": "357b2e96ffebf46f888472b7aef7495ec876264e999c081999a2a246f6312af0"
+    },
+    {
+      "file": "3D/pieces-support-camera-p1.png",
+      "sha256": "46585ef467e6a5155874f64f4bdb09048a4c3012bee1f1b71ae6c2598f33ad5e"
+    },
+    {
+      "file": "3D/pieces-support-camera-p1.step",
+      "sha256": "e1d3e6581c1a06efd5a4a0bb99d852f934630acc33a3ab417d3af5914a02a6c1"
+    },
+    {
+      "file": "3D/provenance.json",
+      "sha256": "66457a73dcc9bbff58c88a1a438f5088c759fd2c2c4570b42462d97f95b9bce2"
+    },
+    {
+      "file": "3D/README.md",
+      "sha256": "e1d3f2a80d0cdf42ae608aa79b39d13765c49ff7e5232f68edff97eaf723c50a"
+    },
+    {
+      "file": "3D/support-camera-provisoire-p1.json",
+      "sha256": "c08123a3dff1b7a4608f1086cbb292fc1c1258e17177429f35276692a0eea80b"
+    },
+    {
+      "file": "3D/support-camera-provisoire-p1.png",
+      "sha256": "1b28f519766acac718aaca31c7bbee35cadbf6e980689a81ca130504d821ec1f"
+    },
+    {
+      "file": "3D/support-camera-provisoire-p1.step",
+      "sha256": "3df487b1ad1c50bdb06183160c874a28cd347171c382c08004995af81cf43daf"
+    },
+    {
+      "file": "3D/validation-freecad.json",
+      "sha256": "6625650c0949ce465f6396b776ef8a20f9d250c242cf6d2d0aa2a7866043ac65"
+    },
+    {
+      "file": "cotes.json",
+      "sha256": "3caf86c7b7829d7230b5cf22570b6602c085ea96b63505083dd02563ffff24a0"
+    },
+    {
+      "file": "nomenclature.csv",
+      "sha256": "e6798f45adbd358579656c6087971d7d24d8c4cc9ebfa090ced85b31090c27f6"
+    },
+    {
+      "file": "notices/notice-support-camera-provisoire-p1.json",
+      "sha256": "9a78480d9bcfc17901a3c3b885dd6bc4edfa30398848108a6c9802f6bb51887c"
+    },
+    {
+      "file": "notices/notice-support-camera-provisoire-p1.pdf",
+      "sha256": "84ee21cea506d9f862635e60d16103c343d6f4694ccf5bde81d3780b11dd2346"
+    },
+    {
+      "file": "plans/C01-base-CP6.dxf",
+      "sha256": "46f4dfc5058a0b5f5a97368e4fc6acfd82f5ab76d7435ec314f48cdf41d13a0c"
+    },
+    {
+      "file": "plans/C02-montant-CP6.dxf",
+      "sha256": "6f0169c0bca06c1c461e74a25cd862531446e2866266ca40509f9e4b35dcb0fb"
+    },
+    {
+      "file": "plans/C03-gousset-CP6.dxf",
+      "sha256": "e4dbedc424405901530d5e0af09dbcd9f1e13cf78768d204ee5561fba5becbac"
+    },
+    {
+      "file": "plans/decoupe-bois-cotes.svg",
+      "sha256": "afc62be73c5d8aa58de44e918763c89a3f8dc26e951068abf9cbaebd0e5fdc33"
+    },
+    {
+      "file": "plans/README.md",
+      "sha256": "4adbebbb558f15d875e037d72405fa13265c844f8dd3facebbd366768e2164a0"
+    },
+    {
+      "file": "README.md",
+      "sha256": "7f67e701a49838eeef21f48a9babd17d1fcc9274250d500472e01e0dceef5a28"
+    },
+    {
+      "file": "verification/conception.json",
+      "sha256": "abed6d7cdc2c30bec99c561dbefd36b9f5c485a780937e8b3a8b7bfe1cea4361"
+    }
+  ]
+}

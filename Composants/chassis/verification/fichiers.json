@@ -1,0 +1,588 @@
+{
+  "all_passed": true,
+  "hardware_tested": false,
+  "custom_interferences": 0,
+  "selected_equipment_to_chassis_clear": true,
+  "front_tire_sampled_poses": 62,
+  "STEP_imports_FreeCAD": 23,
+  "DXF_flat_parts_checked": 21,
+  "DXF_angle_templates_sections_checked": 8,
+  "PDF_pages_visually_reviewed": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "sources_unchanged": true,
+  "details": [
+    {
+      "piece": "C01",
+      "DXF_units": "mm",
+      "valid": true,
+      "solids": 1,
+      "thickness_mm": 3,
+      "volume_mm3": 463733.77912828594,
+      "relative_volume_error": 4.1421455511720174e-15,
+      "symmetric_difference_mm3": 0.0,
+      "features": 86
+    },
+    {
+      "piece": "C05",
+      "DXF_units": "mm",
+      "valid": true,
+      "solids": 1,
+      "thickness_mm": 5,
+      "volume_mm3": 56057.57744996762,
+      "relative_volume_error": 0.0,
+      "symmetric_difference_mm3": 0.0,
+      "features": 4
+    },
+    {
+      "piece": "C06",
+      "DXF_units": "mm",
+      "valid": true,
+      "solids": 1,
+      "thickness_mm": 5,
+      "volume_mm3": 62207.57744996762,
+      "relative_volume_error": 0.0,
+      "symmetric_difference_mm3": 0.0,
+      "features": 4
+    },
+    {
+      "piece": "C12",
+      "DXF_units": "mm",
+      "valid": true,
+      "solids": 1,
+      "thickness_mm": 5,
+      "volume_mm3": 21057.57744996763,
+      "relative_volume_error": 5.182902186733698e-16,
+      "symmetric_difference_mm3": 0.0,
+      "features": 4
+    },
+    {
+      "piece": "C13",
+      "DXF_units": "mm",
+      "valid": true,
+      "solids": 1,
+      "thickness_mm": 3,
+      "volume_mm3": 15136.546469980578,
+      "relative_volume_error": 2.403440450770394e-16,
+      "symmetric_difference_mm3": 0.0,
+      "features": 4
+    },
+    {
+      "piece": "C14",
+      "DXF_units": "mm",
+      "valid": true,
+      "solids": 1,
+      "thickness_mm": 3,
+      "volume_mm3": 20554.54646998058,
+      "relative_volume_error": 5.30974324206797e-16,
+      "symmetric_difference_mm3": 0.0,
+      "features": 4
+    },
+    {
+      "piece": "C15",
+      "DXF_units": "mm",
+      "valid": true,
+      "solids": 1,
+      "thickness_mm": 3,
+      "volume_mm3": 4482.433087475719,
+      "relative_volume_error": 1.2174120849421684e-15,
+      "symmetric_difference_mm3": 0.0,
+      "features": 5
+    },
+    {
+      "piece": "C11G",
+      "DXF_units": "mm",
+      "valid": true,
+      "solids": 1,
+      "thickness_mm": 3,
+      "volume_mm3": 5375.319704970862,
+      "relative_volume_error": 1.1843877688843469e-15,
+      "symmetric_difference_mm3": 0.0,
+      "features": 6
+    },
+    {
+      "piece": "C11D",
+      "DXF_units": "mm",
+      "valid": true,
+      "solids": 1,
+      "thickness_mm": 3,
+      "volume_mm3": 5375.319704970862,
+      "relative_volume_error": 1.1843877688843469e-15,
+      "symmetric_difference_mm3": 0.0,
+      "features": 6
+    },
+    {
+      "piece": "C04D",
+      "DXF_units": "mm",
+      "valid": true,
+      "solids": 1,
+      "thickness_mm": 3,
+      "volume_mm3": 22522.148246294426,
+      "relative_volume_error": 3.230578866019383e-16,
+      "symmetric_difference_mm3": 0.0,
+      "features": 4
+    },
+    {
+      "piece": "C04G",
+      "DXF_units": "mm",
+      "valid": true,
+      "solids": 1,
+      "thickness_mm": 3,
+      "volume_mm3": 22522.148246294426,
+      "relative_volume_error": 4.845868299029075e-16,
+      "symmetric_difference_mm3": 0.0,
+      "features": 4
+    },
+    {
+      "piece": "C03",
+      "DXF_units": "mm",
+      "valid": true,
+      "solids": 1,
+      "thickness_mm": 2.5,
+      "volume_mm3": 43657.074705752006,
+      "relative_volume_error": 1.6666159295425235e-16,
+      "symmetric_difference_mm3": 0.0,
+      "features": 14
+    },
+    {
+      "piece": "C07",
+      "DXF_units": "mm",
+      "valid": true,
+      "solids": 1,
+      "thickness_mm": 3,
+      "volume_mm3": 22493.976923267564,
+      "relative_volume_error": 2.4259686178449595e-15,
+      "symmetric_difference_mm3": 0.0,
+      "features": 7
+    },
+    {
+      "piece": "C08",
+      "DXF_units": "mm",
+      "valid": true,
+      "solids": 1,
+      "thickness_mm": 3,
+      "volume_mm3": 4750.06062804016,
+      "relative_volume_error": 9.57350624541586e-16,
+      "symmetric_difference_mm3": 0.0,
+      "features": 7
+    },
+    {
+      "piece": "C02",
+      "DXF_units": "mm",
+      "valid": true,
+      "solids": 1,
+      "thickness_mm": 2,
+      "volume_mm3": 78960.87924617666,
+      "relative_volume_error": 2.21151264281112e-15,
+      "symmetric_difference_mm3": 0.0,
+      "features": 31
+    },
+    {
+      "piece": "C09",
+      "DXF_units": "mm",
+      "valid": true,
+      "solids": 1,
+      "thickness_mm": 3,
+      "volume_mm3": 15088.13496915712,
+      "relative_volume_error": 4.822304167517592e-16,
+      "symmetric_difference_mm3": 0.0,
+      "features": 6
+    },
+    {
+      "piece": "C10",
+      "DXF_units": "mm",
+      "valid": true,
+      "solids": 1,
+      "thickness_mm": 3,
+      "volume_mm3": 4504.546469980575,
+      "relative_volume_error": 4.0381188554009993e-16,
+      "symmetric_difference_mm3": 0.0,
+      "features": 4
+    },
+    {
+      "piece": "C16",
+      "DXF_units": "mm",
+      "valid": true,
+      "solids": 1,
+      "thickness_mm": 8,
+      "volume_mm3": 5222.061959974099,
+      "relative_volume_error": 6.9665561898269e-16,
+      "symmetric_difference_mm3": 0.0,
+      "features": 2
+    },
+    {
+      "piece": "C17",
+      "DXF_units": "mm",
+      "valid": true,
+      "solids": 1,
+      "thickness_mm": 8,
+      "volume_mm3": 947.0309799870498,
+      "relative_volume_error": 2.7610472337799677e-15,
+      "symmetric_difference_mm3": 0.0,
+      "features": 1
+    },
+    {
+      "piece": "C18",
+      "DXF_units": "mm",
+      "valid": true,
+      "solids": 1,
+      "thickness_mm": 6,
+      "volume_mm3": 34118.29649258883,
+      "relative_volume_error": 4.265135345056815e-16,
+      "symmetric_difference_mm3": 0.0,
+      "features": 4
+    },
+    {
+      "piece": "C19",
+      "DXF_units": "mm",
+      "valid": true,
+      "solids": 1,
+      "thickness_mm": 3,
+      "volume_mm3": 21013.722369441624,
+      "relative_volume_error": 3.462479177303778e-16,
+      "symmetric_difference_mm3": 0.0,
+      "features": 6
+    }
+  ],
+  "angle_templates": [
+    {
+      "template": "L01-semelle",
+      "features": 3,
+      "reference_layer_not_for_cutting": true,
+      "valid": true,
+      "area_mm2": 6827.287061573605
+    },
+    {
+      "template": "L02-semelle",
+      "features": 2,
+      "reference_layer_not_for_cutting": true,
+      "valid": true,
+      "area_mm2": 1568.1913743824032
+    },
+    {
+      "template": "L02-verticale",
+      "features": 2,
+      "reference_layer_not_for_cutting": true,
+      "valid": true,
+      "area_mm2": 1568.1913743824032
+    },
+    {
+      "template": "L03-arriere",
+      "features": 2,
+      "reference_layer_not_for_cutting": true,
+      "valid": true,
+      "area_mm2": 1968.1913743824032
+    },
+    {
+      "template": "L03-pivot",
+      "features": 1,
+      "reference_layer_not_for_cutting": true,
+      "valid": true,
+      "area_mm2": 1804.0956871912015
+    },
+    {
+      "section": "L01-section",
+      "area_mm2": 140.99999999999997,
+      "valid": true
+    },
+    {
+      "section": "L02-section",
+      "area_mm2": 231.00000000000006,
+      "valid": true
+    },
+    {
+      "section": "L03-section",
+      "area_mm2": 231.00000000000006,
+      "valid": true
+    }
+  ],
+  "files": [
+    {
+      "file": "3D/C01.step",
+      "sha256": "dc065fc37ac7cace17aaa50a146f452405cf2f1e84d8133ce3ee408832c298d3"
+    },
+    {
+      "file": "3D/C02.step",
+      "sha256": "d8800dd91b7549f94bd36ea08fa971d9a12b9d6c740e66ba0529a02356c024c1"
+    },
+    {
+      "file": "3D/C03.step",
+      "sha256": "5c48a0c027303ae4ae95142acf497113bcfdf200adf251b10f7205a39b554c85"
+    },
+    {
+      "file": "3D/C04D.step",
+      "sha256": "c79452d8c9592961b3d0953b370b8898068dcc13bafa25765f73b269f9674dc2"
+    },
+    {
+      "file": "3D/C04G.step",
+      "sha256": "26ac4a6af5c5ccba0b241cb61c7a54db2d7716b83e5b292d203875e2eec72f19"
+    },
+    {
+      "file": "3D/C05.step",
+      "sha256": "7b989186f490be2fa229392aa81014d3ff816ec052f238beec6ec4cb36939de6"
+    },
+    {
+      "file": "3D/C06.step",
+      "sha256": "e41bb625ff6681b76f02a972b1f354f2a20c3ca27274ca9bb30c61d7ec3b45f6"
+    },
+    {
+      "file": "3D/C07.step",
+      "sha256": "685201170ceb7439b7d7ee9e7ff53754b0bb88764367b58de55352dfa1895703"
+    },
+    {
+      "file": "3D/C08.step",
+      "sha256": "fe6e000b71ad26d64c033e674a31582e11c68171426b570cdce6090dcc972abf"
+    },
+    {
+      "file": "3D/C09.step",
+      "sha256": "5c3200ebdf75c18e6a4e0aa372b5267b6b40b248761d7d316f2280fc76cca1f8"
+    },
+    {
+      "file": "3D/C10.step",
+      "sha256": "a8897be52a2d08a0c0bc2697763a4a25be1cf51bd20c1361ee6ff0131923cc7f"
+    },
+    {
+      "file": "3D/C11D.step",
+      "sha256": "997abeb464f60f7e6835818ee00bb9f8b8e1445ffbebbe1006c0016771b2faf8"
+    },
+    {
+      "file": "3D/C11G.step",
+      "sha256": "35b7eeedb5363ce498fc7d34786e2ba040b7b96a063ec6118a1934590937dc83"
+    },
+    {
+      "file": "3D/C12.step",
+      "sha256": "60c1310da004b4acebbb4c5f6c055dae926486a9258236586ab6564b70f5a5eb"
+    },
+    {
+      "file": "3D/C13.step",
+      "sha256": "2ac5752966fa17a9c65f5c5c728970a4c2114efe08332719f8f82e92aebdb40b"
+    },
+    {
+      "file": "3D/C14.step",
+      "sha256": "266eb52736bc123efaabc225c9a426ff34b2fc24d044666c7384221e68d9bf80"
+    },
+    {
+      "file": "3D/C15.step",
+      "sha256": "c23f69a0421b52b022a2a0afc121783e191d0eb33ae4e49dbbd32c76d03d5c85"
+    },
+    {
+      "file": "3D/C16.step",
+      "sha256": "66a254427c9a4e544aa82b9936939f30c38724cd670213e61e977937f728b2b6"
+    },
+    {
+      "file": "3D/C17.step",
+      "sha256": "94dc344b87167402e21f2e1bbec42f24a89b140a71f3f69ec4a9e1a780c9ab43"
+    },
+    {
+      "file": "3D/C18.step",
+      "sha256": "1bbec28b6be1730664579908df18565dbbf71d955f0f3a65230ae0125f76be16"
+    },
+    {
+      "file": "3D/C19.step",
+      "sha256": "a5d6e09885b5b2c5b1f1f8adc1692e55d404fa1681f21baafaed34915da75be7"
+    },
+    {
+      "file": "3D/chassis-a2-r1-implante.json",
+      "sha256": "134d478c7f3230c9b59a3d559bd6e1fbac5865f96cc25882a93a4bc5efaa44ff"
+    },
+    {
+      "file": "3D/chassis-a2-r1-implante.png",
+      "sha256": "6854c3eebf5138d508fcdc5b37fe3eaf1a870f76fbfd683d827290715424649a"
+    },
+    {
+      "file": "3D/chassis-a2-r1-implante.step",
+      "sha256": "5b015bf59800b186dc31814df4c4378941578aacca3340b4b615a4e91fa311f5"
+    },
+    {
+      "file": "3D/chassis-a2-r1-nu.json",
+      "sha256": "67ec633cd0ec7bccaec425b1aa2ba2301c4ee7616db6c1a91be4606424bb48c1"
+    },
+    {
+      "file": "3D/chassis-a2-r1-nu.png",
+      "sha256": "bf517ccb763ed417855e9f8440ae8c417148aa06261ce0d4534b7b51589d8ee4"
+    },
+    {
+      "file": "3D/chassis-a2-r1-nu.step",
+      "sha256": "6bd6d772299c6eb8137525dc151c7c58a80bb462e23eeaeca8b43a2180bc58c3"
+    },
+    {
+      "file": "3D/provenance.json",
+      "sha256": "9ba021bb7181d0d0ca1c6fd124d32136ac4a3d9bcf5cbc5d37c08b05060c91c5"
+    },
+    {
+      "file": "3D/README.md",
+      "sha256": "6f7a4e2770df2d32bcc95b9e3b4633ddf9f26381bcfcabea1018b67af0e12478"
+    },
+    {
+      "file": "3D/validation-freecad.json",
+      "sha256": "23ba37a267152da39b42645e56b058ddfe0246056589737cf5125b72ffd4aac6"
+    },
+    {
+      "file": "implantation.json",
+      "sha256": "334fb8c2ff4c6a7748b9a0f614b1871935b66f82d22da348f5703b3253346db6"
+    },
+    {
+      "file": "liste-debit.csv",
+      "sha256": "14b843970eee9d9f86239ccf9a5d55dbe64a5263aa3080b3f5cc737a5589dd90"
+    },
+    {
+      "file": "pieces.json",
+      "sha256": "5ecfb9af168a569fff5aef160c2db17a985e94f6458c5e2c712c24ea069ed386"
+    },
+    {
+      "file": "plans/C01.dxf",
+      "sha256": "e2c66a28cfed8cce1d70f6e0de1a5c9ad8165d52d11700f8a24de361d860ecc0"
+    },
+    {
+      "file": "plans/C02.dxf",
+      "sha256": "24b062a830afe4b1987a095fa6193725baaf6bb2987bfdf0a301e9bd45fb3339"
+    },
+    {
+      "file": "plans/C03.dxf",
+      "sha256": "0c7915687a3bf97f89e103072812c0eadc00fc34f0585adbc7c089ff6edf228d"
+    },
+    {
+      "file": "plans/C04D.dxf",
+      "sha256": "1a014b1874ddba6f21db0fbe2e85d7f8758f60236ffbb229f5f4285ac79f3b65"
+    },
+    {
+      "file": "plans/C04G.dxf",
+      "sha256": "41d735110696642aae760b5ceef1a2df20183c8dc21b640d06d1f8ce991cbf78"
+    },
+    {
+      "file": "plans/C05.dxf",
+      "sha256": "a84edd16db52e2e8968630632a102e778fd626efe435f76f79aa96eb5814b999"
+    },
+    {
+      "file": "plans/C06.dxf",
+      "sha256": "0f749a52d043b39ca2cb2721e20035b4b0849d0bf3a8187ebcec81e0eb036462"
+    },
+    {
+      "file": "plans/C07.dxf",
+      "sha256": "467398e8f2a46dd065386107f8b31ce07b98a0048033b8de50d5bd14f6874e5c"
+    },
+    {
+      "file": "plans/C08.dxf",
+      "sha256": "7672566d7f46599150454eb77a7e4728a5f863b65ea839d843384e5838e93f3a"
+    },
+    {
+      "file": "plans/C09.dxf",
+      "sha256": "98bdaf4c8f8f99f85c4564cf7213a626043f108ceca980c56cef3156bef8ad07"
+    },
+    {
+      "file": "plans/C10.dxf",
+      "sha256": "c4cb276d395b18fbe7f72515637d87dfb477e37905e4c13731ef8ab430b496a8"
+    },
+    {
+      "file": "plans/C11D.dxf",
+      "sha256": "88cf5879568f3a668f4437dea76061e364d95569cb013097ffb55c16131ddaa6"
+    },
+    {
+      "file": "plans/C11G.dxf",
+      "sha256": "76308e5ead2e36fb4957bb6444def0f00b233def8990945b51d6ddb2d6466e9a"
+    },
+    {
+      "file": "plans/C12.dxf",
+      "sha256": "330c32f4f1efebe5c1f3b383f62d23a122deefef9c31fb26cd13c3b21863134f"
+    },
+    {
+      "file": "plans/C13.dxf",
+      "sha256": "f4f73f04d837c29348cb100e7e9cfdcda9740a4f63ae02d7cc49b5719a08b737"
+    },
+    {
+      "file": "plans/C14.dxf",
+      "sha256": "4707da0ef8890331864752e437cc7cb89e0f9726e57978fa8e560c90931a327c"
+    },
+    {
+      "file": "plans/C15.dxf",
+      "sha256": "3a5151c98f6849cdecba91844b7021f4500d034d32e20223148f48425c19f43f"
+    },
+    {
+      "file": "plans/C16.dxf",
+      "sha256": "900bbe593edd4ac163e59a1f17446b84093938db6a263e86e492f1ffe75bec13"
+    },
+    {
+      "file": "plans/C17.dxf",
+      "sha256": "bb6eb0ba933f1a1980786c7187c8ecaf3649736e7e23fee891a66c6ccf8cb58e"
+    },
+    {
+      "file": "plans/C18.dxf",
+      "sha256": "ab7ff5eb584b956a13466c079fd3e12d754836ec35ac7104cc794eb657df7472"
+    },
+    {
+      "file": "plans/C19.dxf",
+      "sha256": "2fc5483b9705311f10af44611f4777f00fffbceb0ee04cc722b75f332992d63c"
+    },
+    {
+      "file": "plans/L01-section.dxf",
+      "sha256": "d0e1b3829ef476b47a33af516c11454ef7d71c817b25b0fbad5dee07aaa072c5"
+    },
+    {
+      "file": "plans/L01-semelle.dxf",
+      "sha256": "5bbc9f7bf4c13dcf1447261f9007de589310f1a4c048e5419977e3586cb514e8"
+    },
+    {
+      "file": "plans/L02-section.dxf",
+      "sha256": "788b526607a8919d8e341f9adb8e11e26d483fb49b1132dc8b55617a7bcd3642"
+    },
+    {
+      "file": "plans/L02-semelle.dxf",
+      "sha256": "542f68504aa49b852d8b4988601c8d09f9f888a8dc6665e7b0c150b8f82f8d51"
+    },
+    {
+      "file": "plans/L02-verticale.dxf",
+      "sha256": "243a8c635413d952ef4a82ccf59a681dda540390ed9e8cfc1b1219cc251a5e9c"
+    },
+    {
+      "file": "plans/L03-arriere.dxf",
+      "sha256": "d0963d883ff4c8d89a45d4ac5254947b8b1893d03b894505c0d4df8f54b98285"
+    },
+    {
+      "file": "plans/L03-pivot.dxf",
+      "sha256": "8415f6d4ecfef4b3aea4b3d152c7eccc82b6910bc96f41b0e44a6900317c2d14"
+    },
+    {
+      "file": "plans/L03-section.dxf",
+      "sha256": "5b12385df8cfa7e7e41bef0c082f5a138a5eda04bcc9f76450c37da614a1416f"
+    },
+    {
+      "file": "plans/percages-et-decoupes.csv",
+      "sha256": "56af75e5d2b13f53ef1f078835224e5d71f41866056d73f1be8c2d02324a78ff"
+    },
+    {
+      "file": "plans/plans-chassis-a2-r1.json",
+      "sha256": "e45ea347424501c0611ce962d9bec791be5de54b1943ec0863e5d665f3dbf748"
+    },
+    {
+      "file": "plans/plans-chassis-a2-r1.pdf",
+      "sha256": "ceca83ca9318b94b5299d67a231256782c7baaf09086fab9da5dffaabeac1b36"
+    },
+    {
+      "file": "plans/README.md",
+      "sha256": "a1847ad7d8b567ecc17bb88e3be7fe5b6bf139c4380a57750c97ebcb9547ee6f"
+    },
+    {
+      "file": "README.md",
+      "sha256": "7fb38a53559b04d3f196703a18a0491879b414003934de2361b58e93bbc8a0c7"
+    },
+    {
+      "file": "verification/conception.json",
+      "sha256": "dcf6da1472ad10f05fc775f56fb0d78bc41fcb31eae3987f46a398d3146b3bfb"
+    },
+    {
+      "file": "kit-chassis-a2-r1.zip",
+      "sha256": "3cf026709ef79728c8161090d98c84dc05b33ac114f9a44623d5c743afe0a689"
+    }
+  ],
+  "archive_integrity_checked": true
+}

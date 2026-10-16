@@ -1,0 +1,470 @@
+{
+  "generated_on": "2026-10-14",
+  "models": [
+    {
+      "file": "deux-sangles-et-patin-etude.step",
+      "title": "Maintien | deuxsangles etpatin",
+      "generated_on": "2026-10-14",
+      "unit": "mm",
+      "cadquery_version": "2.8.0",
+      "coordinate_system": "Axe principal Z; face de reference z=0; dimensions selon parametres",
+      "bytes": 358356,
+      "sha256": "191109916f2e9ab7765262721ac37952dc8cfecbc5a66fd0d22f116bf78d681b",
+      "native_vendor_cad": false,
+      "hardware_measured": false,
+      "is_custom_project_design": true,
+      "published_nominal": [
+        "GEPRC :20x250, jaune/bleu,lot5 ; métalboucleobservé."
+      ],
+      "estimates_and_limitations": [
+        "Épaisseurs, boucle, texture etcoutures reconstruites ; fibres etcrochetsmicroscopiques noninventés. Formesdepose provisoires.",
+        "Batterieetchâssisabsents ; sections etespacements provisoires ; niveauintérieurbas1.2,padjusquà3.2,pack25hypothétique.",
+        "Nuances optiques estimées ; géométrie non mesurée. Pas de plan de fabrication ni de qualification mécanique/électrique."
+      ],
+      "parameters": {},
+      "source_pages": [
+        "Voir sources.json et cotes.md du composant / ensemble"
+      ],
+      "bounds_mm": {
+        "xmin": -71.0,
+        "xmax": 71.0,
+        "ymin": -25.5,
+        "ymax": 25.5,
+        "zmin": -4.440892098501e-16,
+        "zmax": 30.7
+      },
+      "validation": {
+        "valid_after_reimport": true,
+        "solids": 7,
+        "faces": 102,
+        "colors": 4,
+        "volume_relative_error": 1.951027996433099e-15,
+        "volume_relative_error_limit": 0.0001,
+        "volume_before_mm3": 22375.765885939458,
+        "volume_after_mm3": 22375.765885939414,
+        "adaptive_volume_tolerance": 1e-09,
+        "bbox_error_mm": 3.552713678800501e-15,
+        "bbox_error_limit_mm": 0.01,
+        "void_and_material_probes": [],
+        "elapsed_seconds": 1.3048350000026403,
+        "volume_after_default_quadrature_mm3": 22375.76588593972
+      },
+      "parts": [
+        {
+          "name": "Piece_patin_provisoire",
+          "color_linear_rgb": [
+            0.87,
+            0.87,
+            0.83
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_sangle1_ruban_ferme_pose_etude",
+          "color_linear_rgb": [
+            0.018,
+            0.021,
+            0.025
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_sangle1_renfort_superieur_jaune",
+          "color_linear_rgb": [
+            0.66,
+            0.85,
+            0.016
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_sangle1_boucle_metal",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_sangle2_ruban_ferme_pose_etude",
+          "color_linear_rgb": [
+            0.018,
+            0.021,
+            0.025
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_sangle2_renfort_superieur_jaune",
+          "color_linear_rgb": [
+            0.66,
+            0.85,
+            0.016
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_sangle2_boucle_metal",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        }
+      ],
+      "preview": {
+        "file": "deux-sangles-et-patin-etude.png",
+        "sha256": "ec88d8ef0b6bd779c2fda5fab695d84be0f116d053f106d55eb61fea6eefdc33"
+      },
+      "component_folder": "maintien-batterie",
+      "relative_step_path": "maintien-batterie/3D/deux-sangles-et-patin-etude.step"
+    },
+    {
+      "file": "feuille-silicone-200x200x2.step",
+      "title": "Silicone | feuille200x200x2",
+      "generated_on": "2026-10-14",
+      "unit": "mm",
+      "cadquery_version": "2.8.0",
+      "coordinate_system": "Axe principal Z; face de reference z=0; dimensions selon parametres",
+      "bytes": 34071,
+      "sha256": "2ed70bd6bbc02a8acd0213c0cf311ab841df0a69ae094006c91d6443ed6e691d",
+      "native_vendor_cad": false,
+      "hardware_measured": false,
+      "is_custom_project_design": false,
+      "published_nominal": [
+        "BENECREAT : deuxfeuilles200x200x2 blanches."
+      ],
+      "estimates_and_limitations": [
+        "Coinsetaspect surfaceestimés ; patin142x51choixprovisoire, duretéetfriction inconnues.",
+        "Nuances optiques estimées ; géométrie non mesurée. Pas de plan de fabrication ni de qualification mécanique/électrique."
+      ],
+      "parameters": {
+        "length_mm": 200,
+        "width_mm": 200,
+        "thickness_mm": 2
+      },
+      "source_pages": [
+        "Voir sources.json et cotes.md du composant / ensemble"
+      ],
+      "bounds_mm": {
+        "xmin": -100.0,
+        "xmax": 100.0,
+        "ymin": -100.0,
+        "ymax": 100.0,
+        "zmin": 0.0,
+        "zmax": 2.0
+      },
+      "validation": {
+        "valid_after_reimport": true,
+        "solids": 1,
+        "faces": 10,
+        "colors": 1,
+        "volume_relative_error": 1.8189918432895461e-16,
+        "volume_relative_error_limit": 0.0001,
+        "volume_before_mm3": 79999.8926990817,
+        "volume_after_mm3": 79999.89269908168,
+        "adaptive_volume_tolerance": 1e-09,
+        "bbox_error_mm": 0.0,
+        "bbox_error_limit_mm": 0.01,
+        "void_and_material_probes": [],
+        "elapsed_seconds": 0.18438560000504367,
+        "volume_after_default_quadrature_mm3": 79999.89269908171
+      },
+      "parts": [
+        {
+          "name": "Piece_silicone_blanc",
+          "color_linear_rgb": [
+            0.87,
+            0.87,
+            0.83
+          ],
+          "solids": 1
+        }
+      ],
+      "preview": {
+        "file": "feuille-silicone-200x200x2.png",
+        "sha256": "59e9ac5d2b6fcb02baaaaf94d623fba4fea3eaaf630a78a7359ae8cd78e7bf65"
+      },
+      "component_folder": "maintien-batterie/patin-silicone",
+      "relative_step_path": "maintien-batterie/patin-silicone/3D/feuille-silicone-200x200x2.step"
+    },
+    {
+      "file": "patin-silicone-142x51-etude.step",
+      "title": "Silicone | patin142x51 provisoire",
+      "generated_on": "2026-10-14",
+      "unit": "mm",
+      "cadquery_version": "2.8.0",
+      "coordinate_system": "Axe principal Z; face de reference z=0; dimensions selon parametres",
+      "bytes": 33829,
+      "sha256": "259ba1da2e5d27e3389454a725370b63f2bbaa149c873243b54df3d4a23d26df",
+      "native_vendor_cad": false,
+      "hardware_measured": false,
+      "is_custom_project_design": true,
+      "published_nominal": [
+        "BENECREAT : deuxfeuilles200x200x2 blanches."
+      ],
+      "estimates_and_limitations": [
+        "Coinsetaspect surfaceestimés ; patin142x51choixprovisoire, duretéetfriction inconnues.",
+        "Nuances optiques estimées ; géométrie non mesurée. Pas de plan de fabrication ni de qualification mécanique/électrique."
+      ],
+      "parameters": {
+        "length_mm": 142,
+        "width_mm": 51,
+        "thickness_mm": 2
+      },
+      "source_pages": [
+        "Voir sources.json et cotes.md du composant / ensemble"
+      ],
+      "bounds_mm": {
+        "xmin": -71.0,
+        "xmax": 71.0,
+        "ymin": -25.5,
+        "ymax": 25.5,
+        "zmin": 0.0,
+        "zmax": 2.0
+      },
+      "validation": {
+        "valid_after_reimport": true,
+        "solids": 1,
+        "faces": 10,
+        "colors": 1,
+        "volume_relative_error": 5.024040423104808e-16,
+        "volume_relative_error_limit": 0.0001,
+        "volume_before_mm3": 14482.283185307166,
+        "volume_after_mm3": 14482.283185307173,
+        "adaptive_volume_tolerance": 1e-09,
+        "bbox_error_mm": 0.0,
+        "bbox_error_limit_mm": 0.01,
+        "void_and_material_probes": [],
+        "elapsed_seconds": 0.205134600000747,
+        "volume_after_default_quadrature_mm3": 14482.283185307188
+      },
+      "parts": [
+        {
+          "name": "Piece_silicone_blanc",
+          "color_linear_rgb": [
+            0.87,
+            0.87,
+            0.83
+          ],
+          "solids": 1
+        }
+      ],
+      "preview": {
+        "file": "patin-silicone-142x51-etude.png",
+        "sha256": "21a92d09ab26f1f09d19623d5ea70a4ce6987c2b3c5d96f9f1c9ebbc55be4f81"
+      },
+      "component_folder": "maintien-batterie/patin-silicone",
+      "relative_step_path": "maintien-batterie/patin-silicone/3D/patin-silicone-142x51-etude.step"
+    },
+    {
+      "file": "sangle-geprc-20x250-detaillee.step",
+      "title": "GEPRC | sangle20x250",
+      "generated_on": "2026-10-14",
+      "unit": "mm",
+      "cadquery_version": "2.8.0",
+      "coordinate_system": "Axe principal Z; face de reference z=0; dimensions selon parametres",
+      "bytes": 1527769,
+      "sha256": "8424aa70032a7e196d3c2e552937333b10130d69e2c1c51c99517e3da5aac8a2",
+      "native_vendor_cad": false,
+      "hardware_measured": false,
+      "is_custom_project_design": false,
+      "published_nominal": [
+        "GEPRC :20x250, jaune/bleu,lot5 ; métalboucleobservé."
+      ],
+      "estimates_and_limitations": [
+        "Épaisseurs, boucle, texture etcoutures reconstruites ; fibres etcrochetsmicroscopiques noninventés. Formesdepose provisoires.",
+        "Nuances optiques estimées ; géométrie non mesurée. Pas de plan de fabrication ni de qualification mécanique/électrique."
+      ],
+      "parameters": {
+        "tape_width_mm": 20,
+        "tape_nominal_length_mm": 250,
+        "study_thickness_mm": 1.2
+      },
+      "source_pages": [
+        "Voir sources.json et cotes.md du composant / ensemble"
+      ],
+      "bounds_mm": {
+        "xmin": -125.0,
+        "xmax": 131.9,
+        "ymin": -12.4,
+        "ymax": 12.4,
+        "zmin": -0.2,
+        "zmax": 1.4
+      },
+      "validation": {
+        "valid_after_reimport": true,
+        "solids": 67,
+        "faces": 508,
+        "colors": 4,
+        "volume_relative_error": 2.091507439101551e-15,
+        "volume_relative_error_limit": 0.0001,
+        "volume_before_mm3": 5218.215444628511,
+        "volume_after_mm3": 5218.2154446285,
+        "adaptive_volume_tolerance": 1e-09,
+        "bbox_error_mm": 4.440892098500626e-16,
+        "bbox_error_limit_mm": 0.01,
+        "void_and_material_probes": [],
+        "elapsed_seconds": 6.112750000000233,
+        "volume_after_default_quadrature_mm3": 5218.215444628524
+      },
+      "parts": [
+        {
+          "name": "Piece_ruban_noir",
+          "color_linear_rgb": [
+            0.018,
+            0.021,
+            0.025
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_renfort_jaune_-91",
+          "color_linear_rgb": [
+            0.66,
+            0.85,
+            0.016
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_coutures_estimees_-91",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 42
+        },
+        {
+          "name": "Piece_renfort_jaune_108",
+          "color_linear_rgb": [
+            0.66,
+            0.85,
+            0.016
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_coutures_estimees_108",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 16
+        },
+        {
+          "name": "Piece_boucle_metal_reconstruite",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_marquage_GEPRC_estime",
+          "color_linear_rgb": [
+            0.87,
+            0.87,
+            0.83
+          ],
+          "solids": 5
+        }
+      ],
+      "preview": {
+        "file": "sangle-geprc-20x250-detaillee.png",
+        "sha256": "98ea05e2ce97aacf002ccc2b1964c68338b59b4b4633dafceabc4bd71656e8cd"
+      },
+      "component_folder": "maintien-batterie/sangles-geprc",
+      "relative_step_path": "maintien-batterie/sangles-geprc/3D/sangle-geprc-20x250-detaillee.step"
+    },
+    {
+      "file": "sangle-geprc-fermee-etude.step",
+      "title": "GEPRC | posefermée provisoire",
+      "generated_on": "2026-10-14",
+      "unit": "mm",
+      "cadquery_version": "2.8.0",
+      "coordinate_system": "Axe principal Z; face de reference z=0; dimensions selon parametres",
+      "bytes": 161853,
+      "sha256": "2719a60bbc3490021784d629b3bf9ebb9e060b1d3e9465b058ed4ab93748d36d",
+      "native_vendor_cad": false,
+      "hardware_measured": false,
+      "is_custom_project_design": true,
+      "published_nominal": [
+        "GEPRC :20x250, jaune/bleu,lot5 ; métalboucleobservé."
+      ],
+      "estimates_and_limitations": [
+        "Épaisseurs, boucle, texture etcoutures reconstruites ; fibres etcrochetsmicroscopiques noninventés. Formesdepose provisoires.",
+        "Modèlefermé simplifié, recouvrementreprésentéparrenfort, paslongueurdéveloppéefabrication.",
+        "Nuances optiques estimées ; géométrie non mesurée. Pas de plan de fabrication ni de qualification mécanique/électrique."
+      ],
+      "parameters": {},
+      "source_pages": [
+        "Voir sources.json et cotes.md du composant / ensemble"
+      ],
+      "bounds_mm": {
+        "xmin": -12.4,
+        "xmax": 12.4,
+        "ymin": -24.7,
+        "ymax": 24.7,
+        "zmin": -4.440892098501e-16,
+        "zmax": 30.7
+      },
+      "validation": {
+        "valid_after_reimport": true,
+        "solids": 3,
+        "faces": 46,
+        "colors": 3,
+        "volume_relative_error": 6.913257959253478e-15,
+        "volume_relative_error_limit": 0.0001,
+        "volume_before_mm3": 3946.741350316136,
+        "volume_after_mm3": 3946.7413503161088,
+        "adaptive_volume_tolerance": 1e-09,
+        "bbox_error_mm": 3.552713678800501e-15,
+        "bbox_error_limit_mm": 0.01,
+        "void_and_material_probes": [],
+        "elapsed_seconds": 1.5342273999995086,
+        "volume_after_default_quadrature_mm3": 3946.741350316251
+      },
+      "parts": [
+        {
+          "name": "Piece_ruban_ferme_pose_etude",
+          "color_linear_rgb": [
+            0.018,
+            0.021,
+            0.025
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_renfort_superieur_jaune",
+          "color_linear_rgb": [
+            0.66,
+            0.85,
+            0.016
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_boucle_metal",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        }
+      ],
+      "preview": {
+        "file": "sangle-geprc-fermee-etude.png",
+        "sha256": "22f17d88b07164c4acd8c132a26c850dd1e1fb1d2fbef3f3b9df4febdce500fd"
+      },
+      "component_folder": "maintien-batterie/sangles-geprc",
+      "relative_step_path": "maintien-batterie/sangles-geprc/3D/sangle-geprc-fermee-etude.step"
+    }
+  ]
+}

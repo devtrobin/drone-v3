@@ -1,0 +1,176 @@
+{
+  "file": "station-capteur-vitesse-p1.step",
+  "title": "P1 | capteur reglable et rotor captif",
+  "generated_on": "2026-10-15",
+  "unit": "mm",
+  "cadquery_version": "2.8.0",
+  "coordinate_system": "X shaft axis; rotor frontX0, backX8; sensor marked face on negativeX looking+X. Mounting planeZ0, nominal shaftZ24, magnet orbitR12.",
+  "bytes": 570679,
+  "sha256": "44de2087bd8824bfddb5e713b63c88718e5e3ed5246ecc32d1d3ea71fb6c724e",
+  "native_vendor_cad": false,
+  "hardware_measured": false,
+  "is_custom_project_design": true,
+  "published_nominal": [
+    "TI LPG body maximum4.1x1.62x3.25mm; magnet3x2mm +/-0.1 from existing primary-source dossier."
+  ],
+  "estimates_and_limitations": [
+    "Project prototype dimensions, not manufactured or tested.",
+    "Hall active point height, axle and magnet alignment require physical adjustment. Pins shown shortened to6mm; solder and cable routes absent.",
+    "Provisional screw envelopes without thread geometry. No final chassis, gear, bearing or wheel assembly is claimed."
+  ],
+  "parameters": {
+    "axle_height": 24,
+    "gap": 2.5,
+    "shaft_reservation_mm": 11
+  },
+  "source_pages": [
+    "../capteurs-vitesse/README.md; ../capteurs-vitesse/notices/TI-DRV5033-original.pdf; ../capteurs-vitesse/aimants-s-03-02-n/cotes.md"
+  ],
+  "bounds_mm": {
+    "xmin": -45.0,
+    "xmax": 20.0,
+    "ymin": -16.0000001,
+    "ymax": 16.0000001,
+    "zmin": 0.0,
+    "zmax": 52.0
+  },
+  "validation": {
+    "valid_after_reimport": true,
+    "solids": 13,
+    "faces": 159,
+    "colors": 4,
+    "volume_relative_error": 7.667231557165716e-15,
+    "volume_relative_error_limit": 0.0001,
+    "volume_before_mm3": 16369.698490110615,
+    "volume_after_mm3": 16369.69849011074,
+    "adaptive_volume_tolerance": 1e-09,
+    "bbox_error_mm": 0.0,
+    "bbox_error_limit_mm": 0.01,
+    "void_and_material_probes": [],
+    "elapsed_seconds": 0.7337461999995867
+  },
+  "parts": [
+    {
+      "name": "P01_Equerre_fourche",
+      "color_linear_rgb": [
+        0.035,
+        0.15,
+        0.23
+      ],
+      "solids": 1
+    },
+    {
+      "name": "P02_Porte_capteur",
+      "color_linear_rgb": [
+        0.035,
+        0.15,
+        0.23
+      ],
+      "solids": 1
+    },
+    {
+      "name": "P03_Retenue_capteur",
+      "color_linear_rgb": [
+        0.035,
+        0.15,
+        0.23
+      ],
+      "solids": 1
+    },
+    {
+      "name": "DRV5033_corps_nominal_face_plusX",
+      "color_linear_rgb": [
+        0.015,
+        0.018,
+        0.022
+      ],
+      "solids": 1
+    },
+    {
+      "name": "DRV5033_VCC_patte_raccourcie6",
+      "color_linear_rgb": [
+        0.48,
+        0.51,
+        0.54
+      ],
+      "solids": 1
+    },
+    {
+      "name": "DRV5033_GND_patte_raccourcie6",
+      "color_linear_rgb": [
+        0.48,
+        0.51,
+        0.54
+      ],
+      "solids": 1
+    },
+    {
+      "name": "DRV5033_OUT_patte_raccourcie6",
+      "color_linear_rgb": [
+        0.48,
+        0.51,
+        0.54
+      ],
+      "solids": 1
+    },
+    {
+      "name": "P04_Rotor_capteur_faceX0",
+      "color_linear_rgb": [
+        0.75,
+        0.19,
+        0.025
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Aimant_3x2_-1",
+      "color_linear_rgb": [
+        0.48,
+        0.51,
+        0.54
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Vis_blocage_M3x8_nominale_-1",
+      "color_linear_rgb": [
+        0.48,
+        0.51,
+        0.54
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Aimant_3x2_1",
+      "color_linear_rgb": [
+        0.48,
+        0.51,
+        0.54
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Vis_blocage_M3x8_nominale_1",
+      "color_linear_rgb": [
+        0.48,
+        0.51,
+        0.54
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Axe5_gabarit_non_fourni",
+      "color_linear_rgb": [
+        0.48,
+        0.51,
+        0.54
+      ],
+      "solids": 1
+    }
+  ],
+  "preview": {
+    "file": "station-capteur-vitesse-p1.png",
+    "sha256": "6b0266aef5fd18ea65917e598670410254171d3a70b2dd32799d903a9b727ec1"
+  },
+  "hardware_tested": false
+}

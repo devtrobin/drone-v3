@@ -1,0 +1,65 @@
+{
+  "checked_on": "2026-10-13",
+  "status": "etude stationnaire non qualifiee",
+  "current_definition": "Courant efficace traversant le relais: somme instantanee des branches ESC",
+  "resistance_ohm": 0.005,
+  "heatsink_C_per_W": 2.5,
+  "junction_case_C_per_W": 0.27,
+  "interface_C_per_W": 0.2,
+  "interface_is_assumption": true,
+  "ambient_C": 40,
+  "rows": [
+    {
+      "current_A": 10,
+      "loss_W": 0.5,
+      "voltage_drop_V": 0.05,
+      "estimated_junction_C": 41.485,
+      "within_proposed_current_envelope": true
+    },
+    {
+      "current_A": 20,
+      "loss_W": 2.0,
+      "voltage_drop_V": 0.1,
+      "estimated_junction_C": 45.94,
+      "within_proposed_current_envelope": true
+    },
+    {
+      "current_A": 30,
+      "loss_W": 4.5,
+      "voltage_drop_V": 0.15,
+      "estimated_junction_C": 53.365,
+      "within_proposed_current_envelope": true
+    },
+    {
+      "current_A": 40,
+      "loss_W": 8.0,
+      "voltage_drop_V": 0.2,
+      "estimated_junction_C": 63.76,
+      "within_proposed_current_envelope": true
+    },
+    {
+      "current_A": 60,
+      "loss_W": 18.0,
+      "voltage_drop_V": 0.3,
+      "estimated_junction_C": 93.46,
+      "within_proposed_current_envelope": false
+    }
+  ],
+  "manufacturer_derating_crosscheck": {
+    "source": "../protection-batterie/coupure-moteurs/notices/Sensata-Crydom-1-DC-D1D100-datasheet.pdf",
+    "page": 4,
+    "curve_C_per_W": 3,
+    "approx_current_A_at_40C": 50,
+    "reading": "graphique approximative",
+    "not_a_new_rating": true
+  },
+  "losses_over_45min_Wh_at_30A": 3.375,
+  "losses_over_45min_Wh_at_40A": 6,
+  "does_not_predict_vehicle_autonomy": true,
+  "thermal_test_done": false,
+  "limitations": [
+    "Rds varie avec temperature; alimentation ESC impulsionnelle et transitoires non modelises",
+    "Resistance d interface non garantie; convection, boitier et orientation a qualifier",
+    "60 A continus et 100 A hors enveloppe proposee"
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "file": "ed80-et-deux-cosses-etude.step",
+  "title": "Coupure | ED80 etdeuxcosses",
+  "generated_on": "2026-10-14",
+  "unit": "mm",
+  "cadquery_version": "2.8.0",
+  "coordinate_system": "Axe principal Z; face de reference z=0; dimensions selon parametres",
+  "bytes": 1834579,
+  "sha256": "45c6956d12746ed9984b0f5c42faff6127ab056c68f87b4e5389e65c33274aa6",
+  "native_vendor_cad": false,
+  "hardware_measured": false,
+  "is_custom_project_design": true,
+  "published_nominal": [
+    "Albright2024 :59xcontourØ58, corps37 ;bornesM6 ;dessous55 ;hauteurhaut56/51 ;boutonØ48,h14."
+  ],
+  "estimates_and_limitations": [
+    "Corps àpans, axe,collet etformesfinestêtesécrous reconstruits ; bornesM6x1 supposéespasusuel, filetshélicoïdaux ;contactsressortsinternes nonreproduits.",
+    "Positiondescossesprovisoire,sanscâblesdepuissance ;5mmdeborneetpaume peuventdemander autreempilement,lectureseulement. Visserieauchâssisreportée.",
+    "Nuances optiques estimées ; géométrie non mesurée. Pas de plan de fabrication ni de qualification mécanique/électrique."
+  ],
+  "parameters": {},
+  "source_pages": [
+    "Voir sources.json et cotes.md du composant / ensemble"
+  ],
+  "bounds_mm": {
+    "xmin": -29.5,
+    "xmax": 29.5,
+    "ymin": -29.000000000001965,
+    "ymax": 29.000000000001965,
+    "zmin": -55.000000100000044,
+    "zmax": 56.0
+  },
+  "validation": {
+    "valid_after_reimport": true,
+    "solids": 14,
+    "faces": 215,
+    "colors": 3,
+    "volume_relative_error": 3.3404565999689377e-09,
+    "volume_relative_error_limit": 0.0001,
+    "volume_before_mm3": 159168.69067700335,
+    "volume_after_mm3": 159168.69120869946,
+    "adaptive_volume_tolerance": 1e-09,
+    "bbox_error_mm": 1.964650664376677e-12,
+    "bbox_error_limit_mm": 0.01,
+    "void_and_material_probes": [],
+    "elapsed_seconds": 6.198886599995603,
+    "volume_after_default_quadrature_mm3": 159168.63656614607
+  },
+  "parts": [
+    {
+      "name": "Piece_corps_noir_details_estimes",
+      "color_linear_rgb": [
+        0.018,
+        0.021,
+        0.025
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Piece_capot_superieur",
+      "color_linear_rgb": [
+        0.018,
+        0.021,
+        0.025
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Piece_axe_et_collet_noir_selon_photo",
+      "color_linear_rgb": [
+        0.018,
+        0.021,
+        0.025
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Piece_bouton_rouge",
+      "color_linear_rgb": [
+        0.7,
+        0.008,
+        0.009
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Piece_borne_M6_1",
+      "color_linear_rgb": [
+        0.54,
+        0.59,
+        0.62
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Piece_ecrou_borne_fourni_1",
+      "color_linear_rgb": [
+        0.54,
+        0.59,
+        0.62
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Piece_rondelle_borne_fournie_1",
+      "color_linear_rgb": [
+        0.54,
+        0.59,
+        0.62
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Piece_borne_M6_2",
+      "color_linear_rgb": [
+        0.54,
+        0.59,
+        0.62
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Piece_ecrou_borne_fourni_2",
+      "color_linear_rgb": [
+        0.54,
+        0.59,
+        0.62
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Piece_rondelle_borne_fournie_2",
+      "color_linear_rgb": [
+        0.54,
+        0.59,
+        0.62
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Piece_tete_M5_posidriv_fournie_estimee_1",
+      "color_linear_rgb": [
+        0.54,
+        0.59,
+        0.62
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Piece_tete_M5_posidriv_fournie_estimee_2",
+      "color_linear_rgb": [
+        0.54,
+        0.59,
+        0.62
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Piece_cosse95R6_1_pose_nonsertie",
+      "color_linear_rgb": [
+        0.54,
+        0.59,
+        0.62
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Piece_cosse95R6_2_pose_nonsertie",
+      "color_linear_rgb": [
+        0.54,
+        0.59,
+        0.62
+      ],
+      "solids": 1
+    }
+  ],
+  "preview": {
+    "file": "ed80-et-deux-cosses-etude.png",
+    "sha256": "e930c5cc0092fab95fdce46ba5faf994954e601eac1d1eaeb61fd8dc9f4b9e48"
+  },
+  "component_folder": "coupure-manuelle",
+  "relative_step_path": "coupure-manuelle/3D/ed80-et-deux-cosses-etude.step"
+}

@@ -1,0 +1,63 @@
+{
+  "selected_on": "2026-10-13",
+  "selected_by": "assistant, authorized by user",
+  "reference": "A5-V3 et A5M4-V3 — arbres à fabriquer",
+  "quantity_design": "2 intermédiaires Ø5 + 2 sorties Ø5 avec extrémité M4",
+  "purchased": false,
+  "hardware_tested": false,
+  "model_3d_created": true,
+  "purchase_status": "Not an identified or verified Amazon offer; fabrication lines are not purchase-ready",
+  "price_eur": null,
+  "amazon_search_url": "https://www.amazon.fr/s?k=barre+acier+rectifiee+5mm",
+  "specifications": {
+    "portées nominales": "Ø5 mm pour roulements, roues dentées et moyeux",
+    "sorties de roue": "Extrémité réduite et filetée M4 + trou de goupille Ø2 mm",
+    "matière de travail": "Acier C45 ; état, rectitude, ajustements et traitement à préciser avec le fabricant",
+    "longueurs": "Après implantation ; ébauches de travail 100 mm recoupables, pas des axes finis achetés"
+  },
+  "sources": [
+    {
+      "url": "https://khkgears.net/pdf/ss.pdf",
+      "type": "primary or explicitly identified supplier reference",
+      "checked_on": "2026-10-13"
+    },
+    {
+      "url": "https://www.smbbearings.com/products/miniature-bearings.html",
+      "type": "primary or explicitly identified supplier reference",
+      "checked_on": "2026-10-13"
+    }
+  ],
+  "documents": [
+    {
+      "file": "KHK-engrenages-acier-SS.pdf",
+      "url": "https://khkgears.net/pdf/ss.pdf",
+      "bytes": 718814,
+      "sha256": "f226fe80d3b8295cc8146be91280061474965f033cf4db471618b6d5f66dda74",
+      "modified": false,
+      "local_file": "../direction-et-transmission/notices/KHK-engrenages-acier-SS.pdf"
+    },
+    {
+      "file": "SMB-MR115ZZ-fiche-technique.pdf",
+      "url": "https://www.smbbearings.com/firebrick/ckeditor/plugins/upload/Uploads/Documents/bearingpdfs/MR115ZZ-miniature-bearing-5x11x4mm.pdf",
+      "bytes": 110429,
+      "sha256": "47124fe7b5bda8ddf055701f9a28959712bba733bc043704eec517f020169c94",
+      "modified": false,
+      "local_file": "../direction-et-transmission/notices/SMB-MR115ZZ-fiche-technique.pdf"
+    },
+    {
+      "file": "Tamiya-TT01R-notice-constructeur.pdf",
+      "url": "https://www.tamiya.com/cms/english/rc/rcmanual/tt01r.pdf",
+      "bytes": 4744628,
+      "sha256": "c8ef6f865c9a81df967932ec86143cf1074ecc2f6d48df566a94c0d2643a9ed1",
+      "modified": false,
+      "local_file": "../direction-et-transmission/notices/Tamiya-TT01R-notice-constructeur.pdf"
+    }
+  ],
+  "unknowns": [
+    "Plans de fabrication, portée de filetage et position du trou de goupille",
+    "Tolérances selon bagues des roulements, fixation, flexion et faux-rond",
+    "Longueur entre paliers et porte-à-faux de roue",
+    "Fournisseur de matière et prix d’usinage ; référence interne de fabrication, pas une offre prête à monter"
+  ],
+  "model_3d_manifest": "3D/provenance.json"
+}

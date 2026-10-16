@@ -1,0 +1,59 @@
+{
+  "checked_on": "2026-10-14",
+  "selection": {
+    "id": "ancor312303",
+    "folder": "cosses-puissance/ancor-312303",
+    "reference": "Ancor 312303",
+    "role": "Cosses jaunes des fils 12 AWG sur les goujons MiniBus #10",
+    "quantity": 3,
+    "mandatory": 2,
+    "conditional": 1,
+    "pack": 3,
+    "maker": "https://docs.navico.com/view/362211770/24/",
+    "amazon_query": "Ancor 312303",
+    "spec": "12–10 AWG, plage catalogue 3–5 mm² ; œillet #10 ; cuivre étamé, joint brasé, isolation thermorétractable avec adhésif.",
+    "usage": "Deux cosses sur les retours CM1− et CM2− en D− N1/N3. La troisième peut raccorder le fil 12 AWG du 5065 Pi à D+ P4 ; elle ne concerne pas automatiquement le retour électronique N4, dont la section doit être arrêtée.",
+    "dimensions": [
+      [
+        "Section admise",
+        "3–5 mm² / 12–10 AWG",
+        "Catalogue fabricant"
+      ],
+      [
+        "Taille de goujon",
+        "#10, appelée 4,8 mm au catalogue",
+        "Taille nominale de vis, pas diamètre du trou"
+      ],
+      [
+        "Alésage du modèle",
+        "5,2 mm",
+        "Estimation ; passage sur #10 Ø4,826 à vérifier"
+      ],
+      [
+        "Enveloppe CAO",
+        "24 × 9,6 × 5,9 mm",
+        "Estimation complète"
+      ],
+      [
+        "Rétraction annoncée",
+        "135 °C",
+        "Catalogue fabricant ; température de la gaine, pas consigne du pistolet"
+      ]
+    ],
+    "source_files": [
+      "notices/Ancor-catalogue-2020-original.pdf"
+    ],
+    "source_pages": "PDF 2020 p.26 ; catalogue en ligne 2024 p.24",
+    "fit": "Section nominale compatible avec le 12 AWG BNTECHGO ; très fins brins, diamètre de gaine 4,5 ±0,1 mm, outil et sertissage à qualifier. La compatibilité avec du 6 mm² n’est pas annoncée.",
+    "amazon_search": "https://www.amazon.fr/s?k=Ancor+312303",
+    "amazon_FR_verified": false,
+    "price_EUR_TTC": null
+  },
+  "manufacturer_source_verified": true,
+  "hardware_measured": false,
+  "model_3d_created": true,
+  "model_3d_manifest": "3D/provenance.json",
+  "source_archive_manifest": "../../faisceau-puissance/assets.json",
+  "exact_reviews_verified": false,
+  "qualification_complete": false
+}

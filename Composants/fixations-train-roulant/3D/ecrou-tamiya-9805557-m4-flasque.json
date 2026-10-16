@@ -1,0 +1,69 @@
+{
+  "file": "ecrou-tamiya-9805557-m4-flasque.step",
+  "title": "Tamiya 9805557 | ecrou M4 a flasque",
+  "generated_on": "2026-10-13",
+  "unit": "mm",
+  "cadquery_version": "2.8.0",
+  "coordinate_system": "Axe principal Z; face de reference z=0; dimensions selon parametres",
+  "bytes": 48087,
+  "sha256": "ec0aba768a2afedff18ac0da3343f62f16313de92117f3132817d770dcd407c2",
+  "native_vendor_cad": false,
+  "hardware_measured": false,
+  "is_custom_project_design": false,
+  "published_nominal": [
+    "Ecrou de roue nylstop a flasque M4, MC4 dans la notice"
+  ],
+  "estimates_and_limitations": [
+    "AF7, flasqueOD9, hauteur4 et bague de couleur bleue estimes",
+    "Taraudage interieur represente par alesage4, sans tolerances ni helix interne"
+  ],
+  "parameters": {},
+  "source_pages": [],
+  "bounds_mm": {
+    "xmin": -4.5,
+    "xmax": 4.5,
+    "ymin": -4.5,
+    "ymax": 4.5,
+    "zmin": 0.0,
+    "zmax": 4.05
+  },
+  "validation": {
+    "valid_after_reimport": true,
+    "solids": 2,
+    "faces": 17,
+    "colors": 2,
+    "volume_relative_error": 7.484654090498723e-14,
+    "volume_relative_error_limit": 0.0001,
+    "volume_before_mm3": 140.12151601144015,
+    "volume_after_mm3": 140.12151601142966,
+    "adaptive_volume_tolerance": 1e-09,
+    "bbox_error_mm": 8.881784197001252e-16,
+    "bbox_error_limit_mm": 0.01,
+    "void_and_material_probes": [],
+    "elapsed_seconds": 0.08403239999825018
+  },
+  "parts": [
+    {
+      "name": "Ecrou_metal",
+      "color_linear_rgb": [
+        0.62,
+        0.65,
+        0.69
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Bague_nylon_estimee",
+      "color_linear_rgb": [
+        0.018,
+        0.09,
+        0.39
+      ],
+      "solids": 1
+    }
+  ],
+  "preview": {
+    "file": "ecrou-tamiya-9805557-m4-flasque.png",
+    "sha256": "40aa2b136dfc2902522764fb4c1ab32ed18ac126c4649b094c11fac3e4a5cfe5"
+  }
+}

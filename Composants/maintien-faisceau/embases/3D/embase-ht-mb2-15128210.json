@@ -1,0 +1,84 @@
+{
+  "file": "embase-ht-mb2-15128210.step",
+  "title": "HellermannTyton MB2 | 20.5 x 12.5 x 3.3",
+  "generated_on": "2026-10-14",
+  "unit": "mm",
+  "cadquery_version": "2.8.0",
+  "coordinate_system": "Cosses/cables/gaines: axe X, holecentreX0 Klauke; MB2 baseZ0; collier droitX0..100. Voir parametres.",
+  "bytes": 48200,
+  "sha256": "95d93189f3e0483a67a5c51815e8876a959c7a5cc1221464205ee07f849e11bd",
+  "native_vendor_cad": false,
+  "hardware_measured": false,
+  "is_custom_project_design": false,
+  "published_nominal": [
+    "Plan141622: A12.5+/-0.5 B20.5+/-0.5 C3.3+/-0.2 D2.5+/-0.2 E5+/-0.2 F5+/-0.2 G10+/-0.2 H1.7+/-0.2",
+    "TDS actuelle: passage collier max5mm, visM4, trou5mm, noir PA66"
+  ],
+  "estimates_and_limitations": [
+    "Position du trou et longueur de languette extrapolees du dessin non cotees",
+    "Rayons de moulage, faible depouille et details de surface non mesures",
+    "Vis, rondelle, ecrou et chassis absents; longueur vis a determiner"
+  ],
+  "parameters": {
+    "length": 20.5,
+    "width": 12.5,
+    "height": 3.3,
+    "hole": 5,
+    "tie_passage_length": 5,
+    "bridge_width": 10,
+    "bridge_height": 1.7
+  },
+  "source_pages": [
+    "HT plan141622,15Oct2002",
+    "HT MB2 page actuelle151-28210"
+  ],
+  "bounds_mm": {
+    "xmin": 0.0,
+    "xmax": 12.5,
+    "ymin": 0.0,
+    "ymax": 20.5,
+    "zmin": 0.0,
+    "zmax": 3.3
+  },
+  "validation": {
+    "valid_after_reimport": true,
+    "solids": 1,
+    "faces": 15,
+    "colors": 1,
+    "volume_relative_error": 1.5051564170549972e-14,
+    "volume_relative_error_limit": 0.0001,
+    "volume_before_mm3": 604.2526155204878,
+    "volume_after_mm3": 604.2526155204969,
+    "adaptive_volume_tolerance": 1e-09,
+    "bbox_error_mm": 0.0,
+    "bbox_error_limit_mm": 0.01,
+    "void_and_material_probes": [
+      {
+        "point": [
+          6.25,
+          14.25,
+          1
+        ],
+        "occupied": false
+      }
+    ],
+    "elapsed_seconds": 0.0927587999995012
+  },
+  "parts": [
+    {
+      "name": "PA66_noir_embase_vis",
+      "color_linear_rgb": [
+        0.022,
+        0.026,
+        0.032
+      ],
+      "solids": 1
+    }
+  ],
+  "preview": {
+    "file": "embase-ht-mb2-15128210.png",
+    "sha256": "c439b39071f832ce8cbd7d6f1e62a28962078c59d7a88b15c5e741b7450e3422"
+  },
+  "generator": "tools/build_harness_step.py",
+  "generator_sha256": "343c45a6f573cd2d4205b4159948bddbdee9c39cf2bcf267fc7d6b8eb9957edc"
+}

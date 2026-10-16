@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-15",
+  "revision": "alimentation-r2",
+  "battery": "SPMX50002S30H5 G1 2S IC5",
+  "cord": "SPMXCA510 10 AWG",
+  "main_fuse": "JLLN050.T",
+  "main_holder": "LFT300601C + LFT30060FBC",
+  "motor_fuses": [
+    "KLKD020.T",
+    "KLKD020.T"
+  ],
+  "Pi_input_fuse": "KLKD010.T",
+  "branch_holders": "L60030M1PQ ×3 + SPL001 ×3; DC association remains to confirm",
+  "main_wire": "LAPP 0054104 / 0054001 6 mm²",
+  "Pi_regulator": "D42V55F5 / 5571",
+  "Pi_feed": "Two +5 V and four GND 18 AWG wires, <=50 mm, soldered to Pi header PCB pads; no power through Molex contacts",
+  "charger": "S65 retained + BEEC1067 + dedicated 2S balance extension",
+  "normal_main_budget_A": 36,
+  "models_status": "Previous complete harnesses and GPIO power model are historical; native D42V55Fx CAD is current regulator reference",
+  "hardware_tested": false,
+  "ready_for_power_on": false,
+  "full_fuse_coordination_validated": false,
+  "remaining_manufacturer_confirmations": [
+    "LFT acceptance of fine-stranded conductor/termination",
+    "L60030M1PQ + KLKD DC assembly withstand",
+    "Maximum clearing energy at 8.4 V and relevant fault currents"
+  ],
+  "deferred": "Surveillance schematic/routing and mechanical integration with final chassis",
+  "positive_extension": {
+    "reference": "LAPP0054104 + TE32151 + ATUM8/2",
+    "OEM_positive_conductor_min_mm": 85,
+    "extension_positive_conductor_min_mm": 120,
+    "protected_against_abrasion": true
+  },
+  "additional_input_WAGO_221_413_quantity": 2,
+  "Pi_support_wire_AWG": 12
+}

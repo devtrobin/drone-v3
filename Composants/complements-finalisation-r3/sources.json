@@ -1,0 +1,186 @@
+[
+  {
+    "id": "TI-TPS3700EVM-gerbers.zip",
+    "url": "https://www.ti.com/lit/zip/slvc413",
+    "note": "TI original design files, source of nominal PCB geometry",
+    "consulted_on": "2026-10-16",
+    "archived": false,
+    "error": "HTTP Error 401: Unauthorized",
+    "content_verified_via_web": false,
+    "public_link_verified": true,
+    "downloaded": false,
+    "PCB_dimensions_extracted": false
+  },
+  {
+    "id": "FEETECH-Pololu3429.html",
+    "url": "https://www.pololu.com/product/3429",
+    "note": "Identified seller variant; bursts over 9 A at 7.4 V reported by Pololu; not a maximum at 6 V",
+    "consulted_on": "2026-10-16",
+    "archived": true,
+    "file": "references/FEETECH-Pololu3429.html",
+    "bytes": 58054,
+    "sha256": "3aded3435cf8258b7699be67dd78c53238c103da76b979a6255210ed688ebfe1"
+  },
+  {
+    "id": "FEETECH-horn3431.html",
+    "url": "https://www.pololu.com/product/3431",
+    "note": "Matching horn for Pololu 3429, not for an arbitrary 25T revision",
+    "consulted_on": "2026-10-16",
+    "archived": true,
+    "file": "references/FEETECH-horn3431.html",
+    "bytes": 41227,
+    "sha256": "5b76a9c5d849b6952670241d81d7bd18aebeb0b7c250598b5e68a465d259e949"
+  },
+  {
+    "id": "FEETECH-horn3431-drawing.pdf",
+    "url": "https://www.pololu.com/file/0J1367/metal-servo-horn-for-feetech-giant-servo-ft5335m-dimensions.pdf",
+    "note": "Original Pololu drawing; radius of supplied holes must be read, not assumed 20 mm",
+    "consulted_on": "2026-10-16",
+    "archived": true,
+    "file": "references/FEETECH-horn3431-drawing.pdf",
+    "bytes": 75204,
+    "sha256": "69cc9e5d66d21c84ff70c6e50a332cc11a38c41e2cc5c3d6d954a607f4a30fb6"
+  },
+  {
+    "id": "KHK-SS.pdf",
+    "url": "https://khkgears.net/pdf/ss.pdf",
+    "note": "KHK SS specifications and torque tables; do not confuse surface durability with bending capacity",
+    "consulted_on": "2026-10-16",
+    "archived": true,
+    "file": "references/KHK-SS.pdf",
+    "bytes": 718814,
+    "sha256": "f226fe80d3b8295cc8146be91280061474965f033cf4db471618b6d5f66dda74"
+  },
+  {
+    "id": "KHK-spur-2025.pdf",
+    "url": "https://khkgears.net/pdf/2025/spur-gears.pdf",
+    "note": "2025 full spur catalogue, includes rating conditions and selection precautions",
+    "consulted_on": "2026-10-16",
+    "archived": true,
+    "file": "references/KHK-spur-2025.pdf",
+    "bytes": 6474683,
+    "sha256": "8353df7a62f5a3adf6f8f6e2dae70d07dc341994416779092b96012703df721f"
+  },
+  {
+    "id": "Losi-LOS212054.html",
+    "url": "https://www.horizonhobby.com/product/pinion-gear-16t-0.5m-2mm-shaft-mini-lmt/LOS212054.html",
+    "note": "Original vendor confirms 16T m0.5 bore2; pressure angle not inferred",
+    "consulted_on": "2026-10-16",
+    "archived": true,
+    "file": "references/Losi-LOS212054.html",
+    "bytes": 2045363,
+    "sha256": "21bb9e9a0e12eba6ff4d681861c2f320e6806845b0149f2e2ebf90bd285116e5"
+  },
+  {
+    "id": "Littelfuse-LFT.pdf",
+    "url": "https://www.littelfuse.com/assetdocs/lft-datasheet?assetguid=56b8955c-9cf7-4814-a923-97a4406bfa77",
+    "note": "Original drawing OL-LFT30060 and wire/torque table",
+    "consulted_on": "2026-10-16",
+    "archived": false,
+    "error": "HTTP Error 403: Forbidden",
+    "content_verified_via_web": true
+  },
+  {
+    "id": "Littelfuse-CSA.pdf",
+    "url": "https://www.littelfuse.com/assetdocs/csa-6225-01-007316?assetguid=203ad805-7e22-463f-997a-2431bbdfbbd1",
+    "note": "CSA certificate lists LFT30060 20 kA dc; not a test report of the complete vehicle",
+    "consulted_on": "2026-10-16",
+    "archived": false,
+    "error": "HTTP Error 403: Forbidden",
+    "content_verified_via_web": true
+  },
+  {
+    "id": "Littelfuse-JLLN.pdf",
+    "url": "https://www.littelfuse.com/assetdocs/jlln-datasheet?assetguid=3a7bc9bf-d932-4401-bdc7-b39f302195cf",
+    "note": "JLLN050 rating160VDC/20kA; low-voltage total clearing envelope not manufactured",
+    "consulted_on": "2026-10-16",
+    "archived": false,
+    "error": "HTTP Error 403: Forbidden",
+    "content_verified_via_web": true
+  },
+  {
+    "id": "Littelfuse-LF-technical.pdf",
+    "url": "https://m.littelfuse.com/~/media/electrical/brochures/littelfuse_lf_series_fuse_block_technical_brochure.pdf",
+    "note": "Original LF-series block drawings and termination table",
+    "consulted_on": "2026-10-16",
+    "archived": false,
+    "error": "HTTP Error 403: Forbidden",
+    "content_verified_via_web": false
+  },
+  {
+    "id": "Hitec-D950TW-US.html",
+    "url": "https://hitecrcd.com/d950tw-wide-voltage-titanium-gear-25t-digital-coreless-servo/",
+    "note": "Manufacturer expressly states4.8..8.4V, unlike nominal voltage columns",
+    "consulted_on": "2026-10-16",
+    "archived": true,
+    "file": "references/Hitec-D950TW-US.html",
+    "bytes": 250910,
+    "sha256": "4488ccb6d013776f027b372b50bba4708eba0c8edeb1334dc3b395a428e535a5"
+  },
+  {
+    "id": "Hitec-D950TW-CS.html",
+    "url": "https://www.hiteccs.com/actuators/product-details/D950TW",
+    "note": "Manufacturer data and CAD links",
+    "consulted_on": "2026-10-16",
+    "archived": false,
+    "error": "HTTP Error 406: Not Acceptable",
+    "content_verified_via_web": false
+  },
+  {
+    "id": "Hitec-D950TW-EU.html",
+    "url": "https://shop.hitec-europe.eu/collections/standard-servos/products/servo-d950tw",
+    "note": "Official European site and original STEP link",
+    "consulted_on": "2026-10-16",
+    "archived": true,
+    "file": "references/Hitec-D950TW-EU.html",
+    "bytes": 782470,
+    "sha256": "f30d5b1f87edad7c2396326fe26783efb311ed12f8328145570a1ec29c5c3bc4"
+  },
+  {
+    "id": "Hitec-D950TW-datasheet.pdf",
+    "url": "https://www.hiteccs.com/public/uploads/data_sheet/HCS_D950TW_Specsheetv2.2_102-1729876661.pdf",
+    "note": "Original Hitec V2.2 sheet; not D951TW",
+    "consulted_on": "2026-10-16",
+    "archived": true,
+    "file": "references/Hitec-D950TW-datasheet.pdf",
+    "bytes": 355628,
+    "sha256": "17c71233bd9d90f70f22811f40a1d94fb6bf4c1e08dd971235a6073dad46b208"
+  },
+  {
+    "id": "Hitec-D950TW-original.stp",
+    "url": "https://shop.hitec-europe.eu/cdn/shop/files/3D_CAD_model_servo_D950TW.stp?v=10543801481042728484",
+    "note": "Original manufacturer CAD linked by official product page",
+    "consulted_on": "2026-10-16",
+    "archived": true,
+    "file": "references/Hitec-D950TW-original.stp",
+    "bytes": 5233087,
+    "sha256": "22d5ef3bdd4603cf250639ff7e28168f2fd67cf92c045ec4157dbb52eb75756b"
+  },
+  {
+    "id": "Microchip-MCP1703A-original.pdf",
+    "url": "https://ww1.microchip.com/downloads/aemDocuments/documents/APID/ProductDocuments/DataSheets/MCP1703A-250-mA-16V-Low-IQ-LDO-Regulator-DS20005122C.pdf",
+    "file": "references/Microchip-MCP1703A-original.pdf",
+    "archived": true,
+    "sha256": "6fdfc2f20167c7292c92c9c4c8003fd4d8615e0f2f90e224e1e10dce6ed65b5f",
+    "copied_unchanged_from": "Composants/carte-surveillance-electrique/notices/Microchip-MCP1703A-datasheet.pdf",
+    "note": "Original manufacturer document previously archived in this project"
+  },
+  {
+    "id": "TI-ISO7710-original.pdf",
+    "url": "https://www.ti.com/lit/ds/symlink/iso7710.pdf",
+    "file": "references/TI-ISO7710-original.pdf",
+    "archived": true,
+    "sha256": "42fc3c704c9ca0c451282373b4a7ffb22d4691d56029b2b485ab111f3cc431c5",
+    "copied_unchanged_from": "Composants/finalisation-theorique-r2/references/TI-ISO7710.pdf",
+    "note": "Original manufacturer document previously archived in this project"
+  },
+  {
+    "id": "Hobbywing-UBEC-original.pdf",
+    "url": "https://hobbywing.oss-cn-shenzhen.aliyuncs.com/pdf/pdfen/UBEC10ACar.pdf",
+    "file": "references/Hobbywing-UBEC-original.pdf",
+    "archived": true,
+    "sha256": "0d74492495504a52aa387897d1d0ae1c1ba5c0f43cbe9d8f0a666651e90b0595",
+    "copied_unchanged_from": "Composants/finalisation-theorique-r2/references/Hobbywing-UBEC10ACar.pdf",
+    "note": "Original manufacturer document previously archived in this project"
+  }
+]

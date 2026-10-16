@@ -1,0 +1,47 @@
+{
+  "checked_on": "2026-10-14",
+  "purchase_made": false,
+  "hardware_tested": false,
+  "id": "cosses-klauke-95r6",
+  "ref": "Klauke95R6 - cosse cuivre étamé6mm², M6",
+  "qty": 2,
+  "unit": "pièce",
+  "price": null,
+  "currency": "EUR",
+  "tax": "Non relevé",
+  "buy": "https://www.buerklin.com/en/p/klauke/cable-lugs/95r6/07F2055/",
+  "maker": "https://www.klauke.com/gb/en/tubular-cable-lugs-cu-standard-type-4959",
+  "query": "Klauke 95R6 6mm2 M6",
+  "stock": "Référence exacte identifiée ; offre française et prix à l’unité non vérifiés, ne pas budgéter un lot100 à prix2pièces.",
+  "scope": "Deux nouvelles cosses pour les bornes ED80 ; ne remplacent pas les95R5 aux extrémitésMIDI et MiniBus.",
+  "role": "Terminer les deux segments6mm² MIDI→ED80 puisED80→D+ ; outil/matrice Klauke compatibles, contrôle du sertissage.",
+  "cotes": [
+    [
+      "d1 / a / b",
+      "4 /9 /10",
+      "CatalogueKlauke p.14PDF /12 imprimée"
+    ],
+    [
+      "d2 / d4",
+      "6,5 /6",
+      "TrouM6 / canon"
+    ],
+    [
+      "c1 / c2 / l",
+      "7 /6,5 /19",
+      "Longueur l depuis centre trou"
+    ],
+    [
+      "Longueur CAO",
+      "26 =7+19",
+      "Déduite du dessin, pas l seule"
+    ],
+    [
+      "Paume / fenêtre inspection",
+      "2 /Ø1,4",
+      "Estimations non cotées"
+    ]
+  ],
+  "amazon_search": "https://www.amazon.fr/s?k=Klauke+95R6+6mm2+M6",
+  "amazon_FR_verified": false
+}

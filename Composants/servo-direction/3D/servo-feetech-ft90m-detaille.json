@@ -1,0 +1,228 @@
+{
+  "file": "servo-feetech-ft90m-detaille.step",
+  "title": "FEETECH FT90M | servo sans palonnier",
+  "generated_on": "2026-10-13",
+  "unit": "mm",
+  "cadquery_version": "2.8.0",
+  "coordinate_system": "Z vertical; corps centre X/Y, fond z=0; sortie x=-5.7; etiquette vers -Y",
+  "bytes": 1811882,
+  "sha256": "e381ee1a9f918e887b9c31f5d1d037d3da78069da430483f25482591dc75e739",
+  "native_vendor_cad": false,
+  "hardware_measured": false,
+  "is_custom_project_design": false,
+  "published_nominal": [
+    "PDF p.5: corps 23.3 x 12.1 mm; epaulement 21.45 mm; sortie 25.25 mm",
+    "Oreilles: longueur 32.5 mm, deux trous diametre 2 mm; sortie 20T OD3.95",
+    "Vue/photo PDF p.7: boitier noir, sortie laiton, cable brun/rouge/orange"
+  ],
+  "estimates_and_limitations": [
+    "Rayons, epaisseurs, petites vis et etiquettes reconstruits",
+    "Pas de moteur, electronique ou reducteur internes inventes",
+    "Cable dessine compact: longueur du routage NON equivalente a 200/250 mm",
+    "Connecteur non cote, pas de contacts propose 2.54 mm; variante recue a confirmer",
+    "FT90M revision 2020, variante actuelle a confirmer"
+  ],
+  "parameters": {
+    "body_width": 12.1,
+    "body_length": 23.3,
+    "body_shoulder_height": 21.45,
+    "cables": 3,
+    "each_cable_closed_solids": 1,
+    "cable_axis_and_joint_material_probes_passed": true,
+    "connector_pitch_assumed": 2.54
+  },
+  "source_pages": [
+    "FEETECH-FT90M-fiche-historique-miroir.pdf p.5 et p.7"
+  ],
+  "bounds_mm": {
+    "xmin": -41.5,
+    "xmax": 16.25,
+    "ymin": -6.2100001,
+    "ymax": 6.050000000000001,
+    "zmin": -6.2,
+    "zmax": 32.19702199076338
+  },
+  "validation": {
+    "valid_after_reimport": true,
+    "solids": 30,
+    "faces": 443,
+    "colors": 7,
+    "volume_relative_error": 1.449800140534056e-14,
+    "volume_relative_error_limit": 0.0001,
+    "volume_before_mm3": 6649.636435572257,
+    "volume_after_mm3": 6649.636435572354,
+    "adaptive_volume_tolerance": 1e-09,
+    "bbox_error_mm": 0.0034438241287375604,
+    "bbox_error_limit_mm": 0.01,
+    "void_and_material_probes": [],
+    "elapsed_seconds": 3.0571116999999504
+  },
+  "parts": [
+    {
+      "name": "Boitier_central_PC",
+      "color_linear_rgb": [
+        0.022,
+        0.026,
+        0.032
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Capot_inferieur_PC",
+      "color_linear_rgb": [
+        0.022,
+        0.026,
+        0.032
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Capot_reducteur_et_oreilles",
+      "color_linear_rgb": [
+        0.022,
+        0.026,
+        0.032
+      ],
+      "solids": 3
+    },
+    {
+      "name": "Sortie_laiton_20T_OD3_95_estimee",
+      "color_linear_rgb": [
+        0.54,
+        0.34,
+        0.085
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Tete_vis_boite_1_estimee",
+      "color_linear_rgb": [
+        0.62,
+        0.65,
+        0.69
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Tete_vis_boite_2_estimee",
+      "color_linear_rgb": [
+        0.62,
+        0.65,
+        0.69
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Tete_vis_boite_3_estimee",
+      "color_linear_rgb": [
+        0.62,
+        0.65,
+        0.69
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Tete_vis_boite_4_estimee",
+      "color_linear_rgb": [
+        0.62,
+        0.65,
+        0.69
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Etiquette_fond_blanc",
+      "color_linear_rgb": [
+        0.88,
+        0.87,
+        0.8
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Marquage_FEETECH",
+      "color_linear_rgb": [
+        0.022,
+        0.026,
+        0.032
+      ],
+      "solids": 7
+    },
+    {
+      "name": "Marquage_FT90M",
+      "color_linear_rgb": [
+        0.022,
+        0.026,
+        0.032
+      ],
+      "solids": 5
+    },
+    {
+      "name": "Cordon_1_trace_illustratif_longueur_non_imposee",
+      "color_linear_rgb": [
+        0.085,
+        0.033,
+        0.012
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Cordon_2_trace_illustratif_longueur_non_imposee",
+      "color_linear_rgb": [
+        0.57,
+        0.014,
+        0.009
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Cordon_3_trace_illustratif_longueur_non_imposee",
+      "color_linear_rgb": [
+        0.92,
+        0.33,
+        0.012
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Contact_femelle_1_estime",
+      "color_linear_rgb": [
+        0.54,
+        0.34,
+        0.085
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Contact_femelle_2_estime",
+      "color_linear_rgb": [
+        0.54,
+        0.34,
+        0.085
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Contact_femelle_3_estime",
+      "color_linear_rgb": [
+        0.54,
+        0.34,
+        0.085
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Connecteur_3_voies_geometrie_estimee",
+      "color_linear_rgb": [
+        0.022,
+        0.026,
+        0.032
+      ],
+      "solids": 1
+    }
+  ],
+  "preview": {
+    "file": "servo-feetech-ft90m-detaille.png",
+    "sha256": "36d6cb7d43c77a17e05ad7a4b149cfc41da565eecfe5596201ac10d24e6707f0"
+  }
+}

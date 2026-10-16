@@ -1,0 +1,149 @@
+{
+  "checked_on": "2026-10-13",
+  "assets": [
+    {
+      "file": "sources-web/skyrc-produit.html",
+      "url": "https://www1.skyrc.com/s65?from=nav",
+      "final_url": "https://www1.skyrc.com/s65?from=nav",
+      "kind": "manufacturer-page",
+      "bytes": 893774,
+      "sha256": "73d08ea660b2c5e3d89956db228a7d5f11d50e6f83dad219785a4802b080b226",
+      "modified": false
+    },
+    {
+      "file": "notices/SkyRC-S65-notice-constructeur-EN-V2-10.pdf",
+      "url": "https://www.skyrc.com/files/201/S65_Instruction_Manual_EN_V2.10.pdf",
+      "final_url": "https://www.skyrc.com/files/201/S65_Instruction_Manual_EN_V2.10.pdf",
+      "kind": "manufacturer-manual",
+      "bytes": 7498694,
+      "sha256": "59f56d5461682e9238f41a7e0701c7e37b773fc9ef7eaea6ed381e7df1e656fe",
+      "modified": false
+    },
+    {
+      "file": "photos/01-skyrc-s65.png",
+      "url": "https://www1.skyrc.com/image/catalog/product/charger/s65/banner2.png?20181224",
+      "final_url": "https://www1.skyrc.com/image/catalog/product/charger/s65/banner2.png?20181224",
+      "kind": "manufacturer-photo-or-diagram",
+      "bytes": 251513,
+      "sha256": "113307af36bd58582174e9303005804cf8a7ad425aa7397da992d068d46de4fd",
+      "modified": false
+    },
+    {
+      "file": "photos/02-skyrc-s65.png",
+      "url": "https://www1.skyrc.com/image/catalog/product/charger/s65/banner2_m.png",
+      "final_url": "https://www1.skyrc.com/image/catalog/product/charger/s65/banner2_m.png",
+      "kind": "manufacturer-photo-or-diagram",
+      "bytes": 346408,
+      "sha256": "00b24f4d372f82322c3bf0e094641f4dbc4a57f2639e447b9fe707140ae08e04",
+      "modified": false
+    },
+    {
+      "file": "photos/03-skyrc-s65.png",
+      "url": "https://www1.skyrc.com/image/catalog/product/charger/s65/icon.png",
+      "final_url": "https://www1.skyrc.com/image/catalog/product/charger/s65/icon.png",
+      "kind": "manufacturer-photo-or-diagram",
+      "bytes": 26175,
+      "sha256": "937fb2596440f51c00a12b2556130e784324ab54026ce36628d07a56e95dbb05",
+      "modified": false
+    },
+    {
+      "file": "photos/04-skyrc-s65.jpg",
+      "url": "https://www1.skyrc.com/image/catalog/product/charger/s65/lv2.jpg",
+      "final_url": "https://www1.skyrc.com/image/catalog/product/charger/s65/lv2.jpg",
+      "kind": "manufacturer-photo-or-diagram",
+      "bytes": 36795,
+      "sha256": "15b077e08935ef4e188be30c7fe225215e682d4942893f98e5bbd52fd4305cad",
+      "modified": false
+    },
+    {
+      "file": "photos/05-skyrc-s65.jpg",
+      "url": "https://www1.skyrc.com/image/catalog/product/charger/s65/lv2zezao.jpg",
+      "final_url": "https://www1.skyrc.com/image/catalog/product/charger/s65/lv2zezao.jpg",
+      "kind": "manufacturer-photo-or-diagram",
+      "bytes": 35871,
+      "sha256": "63ae2c7387e3d13f0f1212fff15c6aac5fc033ffbda4ea12abebb705ad029aac",
+      "modified": false
+    },
+    {
+      "file": "photos/06-skyrc-s65.jpg",
+      "url": "https://www1.skyrc.com/image/catalog/product/charger/s65/new3.jpg",
+      "final_url": "https://www1.skyrc.com/image/catalog/product/charger/s65/new3.jpg",
+      "kind": "manufacturer-photo-or-diagram",
+      "bytes": 66332,
+      "sha256": "2707a6f9eb8075398bc4123cedde309273fd7cf550eadc25e99f739623587389",
+      "modified": false
+    },
+    {
+      "file": "photos/07-skyrc-s65.jpg",
+      "url": "https://www1.skyrc.com/image/catalog/product/charger/s65/3.jpg",
+      "final_url": "https://www1.skyrc.com/image/catalog/product/charger/s65/3.jpg",
+      "kind": "manufacturer-photo-or-diagram",
+      "bytes": 100957,
+      "sha256": "9e36d82f6660094a4a01a124d20c9b086e9da8716bc9ee94f8b9fc1e8fbbee41",
+      "modified": false
+    },
+    {
+      "file": "photos/08-skyrc-s65.jpg",
+      "url": "https://www1.skyrc.com/image/catalog/product/charger/s65/3m.jpg",
+      "final_url": "https://www1.skyrc.com/image/catalog/product/charger/s65/3m.jpg",
+      "kind": "manufacturer-photo-or-diagram",
+      "bytes": 156164,
+      "sha256": "7700d22de8bf60dde89305cce182f38cf11b1c51580c0d9c525a3f29842c4e1b",
+      "modified": false
+    },
+    {
+      "file": "photos/09-skyrc-s65.jpg",
+      "url": "https://www1.skyrc.com/image/catalog/product/charger/s65/new4.jpg",
+      "final_url": "https://www1.skyrc.com/image/catalog/product/charger/s65/new4.jpg",
+      "kind": "manufacturer-photo-or-diagram",
+      "bytes": 94014,
+      "sha256": "f6cd5425a884b7a63411bd9ca730d4c849251d6c42fb3af9fa6a71f3e7c12983",
+      "modified": false
+    },
+    {
+      "file": "photos/10-skyrc-s65.png",
+      "url": "https://www1.skyrc.com/image/catalog/product/charger/s65/4.png",
+      "final_url": "https://www1.skyrc.com/image/catalog/product/charger/s65/4.png",
+      "kind": "manufacturer-photo-or-diagram",
+      "bytes": 370360,
+      "sha256": "6c0c2ea2cd975e486d8093635ac81033053cfc32047bed66e6fe0383bdd33171",
+      "modified": false
+    },
+    {
+      "file": "photos/11-skyrc-s65.jpg",
+      "url": "https://www1.skyrc.com/image/catalog/product/charger/s65/new5.jpg",
+      "final_url": "https://www1.skyrc.com/image/catalog/product/charger/s65/new5.jpg",
+      "kind": "manufacturer-photo-or-diagram",
+      "bytes": 65928,
+      "sha256": "8e97cd3303793cc546c3710f38e5d075d5752d1ebb40817cec38becd0a788de3",
+      "modified": false
+    },
+    {
+      "file": "photos/12-skyrc-s65.jpg",
+      "url": "https://www1.skyrc.com/image/catalog/product/charger/s65/new6.jpg",
+      "final_url": "https://www1.skyrc.com/image/catalog/product/charger/s65/new6.jpg",
+      "kind": "manufacturer-photo-or-diagram",
+      "bytes": 141915,
+      "sha256": "0812a42e9b93b1f2461a893fc6f02f9432ab083c93573b1d9cccc9d3dff2381d",
+      "modified": false
+    },
+    {
+      "file": "photos/13-skyrc-s65.jpg",
+      "url": "https://www1.skyrc.com/image/catalog/product/charger/s65/7.jpg",
+      "final_url": "https://www1.skyrc.com/image/catalog/product/charger/s65/7.jpg",
+      "kind": "manufacturer-photo-or-diagram",
+      "bytes": 286028,
+      "sha256": "8cd882a20b3ca2a8c496f92feaf652d3d81934926bdf37d15700063489fd090e",
+      "modified": false
+    },
+    {
+      "file": "photos/14-skyrc-s65.jpg",
+      "url": "https://www1.skyrc.com/image/catalog/product/charger/s65/7m.jpg",
+      "final_url": "https://www1.skyrc.com/image/catalog/product/charger/s65/7m.jpg",
+      "kind": "manufacturer-photo-or-diagram",
+      "bytes": 191986,
+      "sha256": "fab506064e93397e6e18dc9748b2436b2d54f8589f6e01f16d0b03d0dbbc5277",
+      "modified": false
+    }
+  ]
+}

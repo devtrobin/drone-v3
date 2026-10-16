@@ -1,0 +1,163 @@
+{
+  "date": "2026-10-15",
+  "revision": "alimentation-r2",
+  "scope": "Document consistency and conditional calculations; not electrical qualification",
+  "document_checks_passed": true,
+  "hardware_tested": false,
+  "ready_for_power_on": false,
+  "full_fuse_coordination_validated": false,
+  "checks": [
+    {
+      "check": "JSON syntax",
+      "passed": true,
+      "details": {
+        "files": 21,
+        "errors": []
+      }
+    },
+    {
+      "check": "Archived original integrity",
+      "passed": true,
+      "details": {
+        "files": 24,
+        "errors": []
+      }
+    },
+    {
+      "check": "Native regulator STEP and existing FreeCAD import evidence",
+      "passed": true,
+      "details": {
+        "sha256": "849512fa686206951d282a92b8701418b7f5707e91d0abd70312e0af01caae5e",
+        "importer": "FreeCAD 1.1.4",
+        "bbox_mm": [
+          25.4000002,
+          25.4000002,
+          10.8248001000001
+        ],
+        "scope": "Checks unchanged file against earlier headless import; no GUI test"
+      }
+    },
+    {
+      "check": "Local Markdown links",
+      "passed": true,
+      "details": {
+        "links": 145,
+        "errors": []
+      }
+    },
+    {
+      "check": "Active battery, fuse and charge references agree",
+      "passed": true,
+      "details": {
+        "revision": "alimentation-r2",
+        "battery": "SPMX50002S30H5 G1 2S IC5",
+        "main_fuse": "JLLN050.T"
+      }
+    },
+    {
+      "check": "Signal connector excludes Pi power contacts",
+      "passed": true,
+      "details": {
+        "signal_pins": [
+          1,
+          11,
+          12,
+          13,
+          15,
+          16,
+          17,
+          18,
+          25,
+          32,
+          33,
+          34,
+          39
+        ],
+        "separate_power_pads": [
+          2,
+          4,
+          6,
+          9,
+          14,
+          20
+        ],
+        "contacts": 18,
+        "later_speed_sensor_extension": true
+      }
+    },
+    {
+      "check": "Constant-power input and voltage budgets",
+      "passed": true,
+      "details": {
+        "rows": 8,
+        "max_residual": 8.881784197001252e-16,
+        "minimum_calculated_VIN_V": 5.899074983479119,
+        "scope": "Conditional calculation using resistance and efficiency acceptance assumptions"
+      }
+    },
+    {
+      "check": "Conditional downstream fault bound uses positive wire only",
+      "passed": true,
+      "details": {
+        "calculated_upper_A": 16402.605867658778,
+        "scope": "Downstream faults, stated lengths/sections/topology only; not pack measurement"
+      }
+    },
+    {
+      "check": "Supplier strand count used for actual 18 AWG screening",
+      "passed": true,
+      "details": {
+        "supplier_area_mm2": 0.7539822368615504,
+        "comparison_I2t_A2s": 5684.89213502747,
+        "scope": "Supplier dimensions, not measured conductor or completed fuse coordination"
+      }
+    },
+    {
+      "check": "Charge SKU evidence and power budget",
+      "passed": true,
+      "details": {
+        "cable_price_EUR_TTC": 6.9,
+        "archive_date": "2026-10-15",
+        "charge_A": 5,
+        "charge_max_W": 42,
+        "scope": "Archived seller declaration and charge settings, not physical connector/polarity check"
+      }
+    },
+    {
+      "check": "Final authored PDFs",
+      "passed": true,
+      "details": {
+        "files": [
+          {
+            "file": "Composants\\verification-alimentation\\notices\\verification-alimentation-v3.pdf",
+            "pages": 7,
+            "sha256": "81aac28815d66c98a42e4436878df889273fecfd2c646d3b25ee0efaceb07dea",
+            "links": 9
+          },
+          {
+            "file": "Composants\\cordon-charge-s65-ic5\\notices\\notice-cordon-charge-s65-ic5-v3.pdf",
+            "pages": 3,
+            "sha256": "2bdba7552728e12a200d0411f11d8ab4368cf72b55a287f6952463032af5ccc6",
+            "links": 5
+          }
+        ],
+        "errors": [],
+        "visual_review": "All final 7+3 rendered pages inspected in conversation on 2026-10-15"
+      }
+    },
+    {
+      "check": "Audit tools Python syntax",
+      "passed": true,
+      "details": []
+    },
+    {
+      "check": "Unresolved qualification remains explicit",
+      "passed": true,
+      "details": [
+        "LFT acceptance of fine-stranded conductor/termination",
+        "L60030M1PQ + KLKD DC assembly withstand",
+        "Maximum clearing energy at 8.4 V and relevant fault currents"
+      ]
+    }
+  ]
+}

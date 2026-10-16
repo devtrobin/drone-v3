@@ -1,0 +1,1189 @@
+{
+  "checked_on": "2026-10-15",
+  "all_passed": true,
+  "checks": [
+    {
+      "file": "amass-xt60h-m-cordon-detaille.step",
+      "relative_step_path": "cordon-principal-batterie/prise-xt60h-m/3D/amass-xt60h-m-cordon-detaille.step",
+      "sha256": "115e9ac59ff691deaa2685b7a61afac3bd56d580e00d66080634d40d38e5a118",
+      "passed": true,
+      "valid": true,
+      "solids_closed": true,
+      "solids": 4,
+      "faces": 305,
+      "bbox_error_mm": 0.0,
+      "volume_relative_error": 0.0,
+      "material_probes": [],
+      "seconds": 1.2556283000012627
+    },
+    {
+      "file": "bntechgo-12awg-rouge-680brins-detaille.step",
+      "relative_step_path": "cordon-principal-batterie/fils-12awg/3D/bntechgo-12awg-rouge-680brins-detaille.step",
+      "sha256": "f0f66e45407a8a0535d8a729274a70f16900475378e2002d1551e9545308b637",
+      "passed": true,
+      "valid": true,
+      "solids_closed": true,
+      "solids": 681,
+      "faces": 2044,
+      "bbox_error_mm": 0.0,
+      "volume_relative_error": 0.0,
+      "material_probes": [],
+      "seconds": 4.161068199995498
+    },
+    {
+      "file": "bntechgo-12awg-noir-680brins-detaille.step",
+      "relative_step_path": "cordon-principal-batterie/fils-12awg/3D/bntechgo-12awg-noir-680brins-detaille.step",
+      "sha256": "2aa6f82dc6ecf9dc68aa71fb0c838900d0299f031bd35649e16a88fa9bb1422f",
+      "passed": true,
+      "valid": true,
+      "solids_closed": true,
+      "solids": 681,
+      "faces": 2044,
+      "bbox_error_mm": 0.0,
+      "volume_relative_error": 0.0,
+      "material_probes": [],
+      "seconds": 4.566718000001856
+    },
+    {
+      "file": "te-130191-nue-detaillee.step",
+      "relative_step_path": "cordon-principal-batterie/cosses-te-130191/3D/te-130191-nue-detaillee.step",
+      "sha256": "5074bbbc42981a326f9dd17c7cb8ac6d230fe94f7069897edcb57bb43b331f37",
+      "passed": true,
+      "valid": true,
+      "solids_closed": true,
+      "solids": 1,
+      "faces": 105,
+      "bbox_error_mm": 0.0,
+      "volume_relative_error": 0.0,
+      "material_probes": [
+        {
+          "point": [
+            0,
+            -2.0,
+            14.535
+          ],
+          "expected": false,
+          "actual": false,
+          "passed": true
+        },
+        {
+          "point": [
+            0,
+            -2.0,
+            12.05
+          ],
+          "expected": false,
+          "actual": false,
+          "passed": true
+        },
+        {
+          "point": [
+            4.0,
+            -2.0,
+            14.535
+          ],
+          "expected": true,
+          "actual": true,
+          "passed": true
+        }
+      ],
+      "seconds": 0.6075313999972423
+    },
+    {
+      "file": "te-130191-sertissage-illustratif.step",
+      "relative_step_path": "cordon-principal-batterie/cosses-te-130191/3D/te-130191-sertissage-illustratif.step",
+      "sha256": "c4454e165a05a11f00c6a5783f3ecd4c2979c4f16dce2eff7cff88af56c63813",
+      "passed": true,
+      "valid": true,
+      "solids_closed": true,
+      "solids": 1,
+      "faces": 78,
+      "bbox_error_mm": 0.0,
+      "volume_relative_error": 0.0,
+      "material_probes": [],
+      "seconds": 0.3272480000014184
+    },
+    {
+      "file": "atum-8-2-coupe-20mm.step",
+      "relative_step_path": "cordon-principal-batterie/isolation-atum/3D/atum-8-2-coupe-20mm.step",
+      "sha256": "db61507c4f0d49deee50b6d3e8d464c5e3a8c2af3acc884ee31d4b96864b15f6",
+      "passed": true,
+      "valid": true,
+      "solids_closed": true,
+      "solids": 2,
+      "faces": 8,
+      "bbox_error_mm": 0.0,
+      "volume_relative_error": 0.0,
+      "material_probes": [],
+      "seconds": 0.027317100000800565
+    },
+    {
+      "file": "cordon-principal-xt60-12awg-etude.step",
+      "relative_step_path": "cordon-principal-batterie/3D/cordon-principal-xt60-12awg-etude.step",
+      "sha256": "e45b640d81a30be0d77efef03da6a622721f5845f9377a9bf9ed5665433204ae",
+      "passed": true,
+      "valid": true,
+      "solids_closed": true,
+      "solids": 16,
+      "faces": 549,
+      "bbox_error_mm": 0.0,
+      "volume_relative_error": 0.0,
+      "material_probes": [
+        {
+          "point": [
+            -3.6,
+            0.0,
+            17.78
+          ],
+          "expected": true,
+          "actual": true,
+          "passed": true
+        },
+        {
+          "point": [
+            -3.6,
+            0.0,
+            32.099999999999994
+          ],
+          "expected": true,
+          "actual": true,
+          "passed": true
+        },
+        {
+          "point": [
+            -3.6,
+            0.0,
+            46.42
+          ],
+          "expected": true,
+          "actual": true,
+          "passed": true
+        },
+        {
+          "point": [
+            -3.683919421665564,
+            0.0,
+            53.17226860945525
+          ],
+          "expected": true,
+          "actual": true,
+          "passed": true
+        },
+        {
+          "point": [
+            -5.686271057718976,
+            0.0,
+            65.68438714135812
+          ],
+          "expected": true,
+          "actual": true,
+          "passed": true
+        },
+        {
+          "point": [
+            -10.271615580095457,
+            0.0,
+            77.49697101796636
+          ],
+          "expected": true,
+          "actual": true,
+          "passed": true
+        },
+        {
+          "point": [
+            -13.328384419904545,
+            0.0,
+            83.05911868406113
+          ],
+          "expected": true,
+          "actual": true,
+          "passed": true
+        },
+        {
+          "point": [
+            -17.913728942281033,
+            0.0,
+            94.87170256066938
+          ],
+          "expected": true,
+          "actual": true,
+          "passed": true
+        },
+        {
+          "point": [
+            -19.916080578334423,
+            0.0,
+            107.38382109257225
+          ],
+          "expected": true,
+          "actual": true,
+          "passed": true
+        },
+        {
+          "point": [
+            -20.0,
+            0.0,
+            121.16048073182475
+          ],
+          "expected": true,
+          "actual": true,
+          "passed": true
+        },
+        {
+          "point": [
+            -20.0,
+            0.0,
+            163.57804485101374
+          ],
+          "expected": true,
+          "actual": true,
+          "passed": true
+        },
+        {
+          "point": [
+            -20.0,
+            0.0,
+            205.99560897020274
+          ],
+          "expected": true,
+          "actual": true,
+          "passed": true
+        },
+        {
+          "point": [
+            -3.6,
+            1.7275,
+            34.5
+          ],
+          "expected": true,
+          "actual": true,
+          "passed": true
+        },
+        {
+          "point": [
+            -5.686271057718976,
+            1.7275,
+            65.68438714135812
+          ],
+          "expected": true,
+          "actual": true,
+          "passed": true
+        },
+        {
+          "point": [
+            -17.913728942281033,
+            1.7275,
+            94.87170256066938
+          ],
+          "expected": true,
+          "actual": true,
+          "passed": true
+        },
+        {
+          "point": [
+            -20.0,
+            1.7275,
+            160.27804485101376
+          ],
+          "expected": true,
+          "actual": true,
+          "passed": true
+        },
+        {
+          "point": [
+            3.6,
+            0.0,
+            17.78
+          ],
+          "expected": true,
+          "actual": true,
+          "passed": true
+        },
+        {
+          "point": [
+            3.6,
+            0.0,
+            32.099999999999994
+          ],
+          "expected": true,
+          "actual": true,
+          "passed": true
+        },
+        {
+          "point": [
+            3.6,
+            0.0,
+            46.42
+          ],
+          "expected": true,
+          "actual": true,
+          "passed": true
+        },
+        {
+          "point": [
+            3.683919421665564,
+            0.0,
+            53.17226860945525
+          ],
+          "expected": true,
+          "actual": true,
+          "passed": true
+        },
+        {
+          "point": [
+            5.686271057718976,
+            0.0,
+            65.68438714135812
+          ],
+          "expected": true,
+          "actual": true,
+          "passed": true
+        },
+        {
+          "point": [
+            10.271615580095457,
+            0.0,
+            77.49697101796636
+          ],
+          "expected": true,
+          "actual": true,
+          "passed": true
+        },
+        {
+          "point": [
+            13.328384419904545,
+            0.0,
+            83.05911868406113
+          ],
+          "expected": true,
+          "actual": true,
+          "passed": true
+        },
+        {
+          "point": [
+            17.913728942281033,
+            0.0,
+            94.87170256066938
+          ],
+          "expected": true,
+          "actual": true,
+          "passed": true
+        },
+        {
+          "point": [
+            19.916080578334423,
+            0.0,
+            107.38382109257225
+          ],
+          "expected": true,
+          "actual": true,
+          "passed": true
+        },
+        {
+          "point": [
+            20.0,
+            0.0,
+            121.16048073182475
+          ],
+          "expected": true,
+          "actual": true,
+          "passed": true
+        },
+        {
+          "point": [
+            20.0,
+            0.0,
+            163.57804485101374
+          ],
+          "expected": true,
+          "actual": true,
+          "passed": true
+        },
+        {
+          "point": [
+            20.0,
+            0.0,
+            205.99560897020274
+          ],
+          "expected": true,
+          "actual": true,
+          "passed": true
+        },
+        {
+          "point": [
+            3.6,
+            1.7275,
+            34.5
+          ],
+          "expected": true,
+          "actual": true,
+          "passed": true
+        },
+        {
+          "point": [
+            5.686271057718976,
+            1.7275,
+            65.68438714135812
+          ],
+          "expected": true,
+          "actual": true,
+          "passed": true
+        },
+        {
+          "point": [
+            17.913728942281033,
+            1.7275,
+            94.87170256066938
+          ],
+          "expected": true,
+          "actual": true,
+          "passed": true
+        },
+        {
+          "point": [
+            20.0,
+            1.7275,
+            160.27804485101376
+          ],
+          "expected": true,
+          "actual": true,
+          "passed": true
+        }
+      ],
+      "seconds": 4.541252399998484
+    },
+    {
+      "file": "terminaison-cosse-isolee-detail.step",
+      "relative_step_path": "cordon-principal-batterie/3D/terminaison-cosse-isolee-detail.step",
+      "sha256": "8faa354ba0b704bbd2383304676eeff5d85bc946a3aaa0aa1c41ee6ea44a0e88",
+      "passed": true,
+      "valid": true,
+      "solids_closed": true,
+      "solids": 5,
+      "faces": 109,
+      "bbox_error_mm": 0.0,
+      "volume_relative_error": 0.0,
+      "material_probes": [],
+      "seconds": 0.3974534000008134
+    },
+    {
+      "file": "ic5-device-reconstruction-detaillee.step",
+      "relative_step_path": "cordon-principal-batterie/cordon-ic5-spektrum/3D/ic5-device-reconstruction-detaillee.step",
+      "sha256": "a896277d7247847e4af874d352b84768851331a799bb9a1728a1f47ade880c15",
+      "passed": true,
+      "valid": true,
+      "solids_closed": true,
+      "solids": 4,
+      "faces": 174,
+      "bbox_error_mm": 0.0,
+      "volume_relative_error": 0.0,
+      "material_probes": [],
+      "seconds": 0.5957561999966856
+    },
+    {
+      "file": "spektrum-spmxca510-queue-etude.step",
+      "relative_step_path": "cordon-principal-batterie/cordon-ic5-spektrum/3D/spektrum-spmxca510-queue-etude.step",
+      "sha256": "483d6aee14b40261146ad35d8026f8d22c849774aea05ee04a5bde29075a9b49",
+      "passed": true,
+      "valid": true,
+      "solids_closed": true,
+      "solids": 10,
+      "faces": 214,
+      "bbox_error_mm": 0.0,
+      "volume_relative_error": 0.0,
+      "material_probes": [
+        {
+          "point": [
+            -4.8,
+            0.0,
+            15.65
+          ],
+          "expected": true,
+          "actual": true,
+          "passed": true
+        },
+        {
+          "point": [
+            -4.8,
+            0.0,
+            24.25
+          ],
+          "expected": true,
+          "actual": true,
+          "passed": true
+        },
+        {
+          "point": [
+            -4.8,
+            0.0,
+            32.85
+          ],
+          "expected": true,
+          "actual": true,
+          "passed": true
+        },
+        {
+          "point": [
+            -4.851066979385195,
+            0.0,
+            37.020581726739145
+          ],
+          "expected": true,
+          "actual": true,
+          "passed": true
+        },
+        {
+          "point": [
+            -6.070166537925836,
+            0.0,
+            45.0
+          ],
+          "expected": true,
+          "actual": true,
+          "passed": true
+        },
+        {
+          "point": [
+            -8.86647368479808,
+            0.0,
+            52.57218502505284
+          ],
+          "expected": true,
+          "actual": true,
+          "passed": true
+        },
+        {
+          "point": [
+            -10.733526315201914,
+            0.0,
+            56.15764843702133
+          ],
+          "expected": true,
+          "actual": true,
+          "passed": true
+        },
+        {
+          "point": [
+            -13.529833462074158,
+            0.0,
+            63.72983346207417
+          ],
+          "expected": true,
+          "actual": true,
+          "passed": true
+        },
+        {
+          "point": [
+            -14.748933020614807,
+            0.0,
+            71.70925173533503
+          ],
+          "expected": true,
+          "actual": true,
+          "passed": true
+        },
+        {
+          "point": [
+            -14.8,
+            0.0,
+            77.75685011586675
+          ],
+          "expected": true,
+          "actual": true,
+          "passed": true
+        },
+        {
+          "point": [
+            -14.8,
+            0.0,
+            93.86491673103708
+          ],
+          "expected": true,
+          "actual": true,
+          "passed": true
+        },
+        {
+          "point": [
+            -14.8,
+            0.0,
+            109.97298334620743
+          ],
+          "expected": true,
+          "actual": true,
+          "passed": true
+        },
+        {
+          "point": [
+            -4.8,
+            2.125,
+            27.75
+          ],
+          "expected": true,
+          "actual": true,
+          "passed": true
+        },
+        {
+          "point": [
+            -6.070166537925836,
+            2.125,
+            45.0
+          ],
+          "expected": true,
+          "actual": true,
+          "passed": true
+        },
+        {
+          "point": [
+            -13.529833462074158,
+            2.125,
+            63.72983346207417
+          ],
+          "expected": true,
+          "actual": true,
+          "passed": true
+        },
+        {
+          "point": [
+            -14.8,
+            2.125,
+            91.36491673103708
+          ],
+          "expected": true,
+          "actual": true,
+          "passed": true
+        },
+        {
+          "point": [
+            4.8,
+            0.0,
+            15.65
+          ],
+          "expected": true,
+          "actual": true,
+          "passed": true
+        },
+        {
+          "point": [
+            4.8,
+            0.0,
+            24.25
+          ],
+          "expected": true,
+          "actual": true,
+          "passed": true
+        },
+        {
+          "point": [
+            4.8,
+            0.0,
+            32.85
+          ],
+          "expected": true,
+          "actual": true,
+          "passed": true
+        },
+        {
+          "point": [
+            4.851066979385195,
+            0.0,
+            37.020581726739145
+          ],
+          "expected": true,
+          "actual": true,
+          "passed": true
+        },
+        {
+          "point": [
+            6.070166537925836,
+            0.0,
+            45.0
+          ],
+          "expected": true,
+          "actual": true,
+          "passed": true
+        },
+        {
+          "point": [
+            8.86647368479808,
+            0.0,
+            52.57218502505284
+          ],
+          "expected": true,
+          "actual": true,
+          "passed": true
+        },
+        {
+          "point": [
+            10.733526315201914,
+            0.0,
+            56.15764843702133
+          ],
+          "expected": true,
+          "actual": true,
+          "passed": true
+        },
+        {
+          "point": [
+            13.529833462074158,
+            0.0,
+            63.72983346207417
+          ],
+          "expected": true,
+          "actual": true,
+          "passed": true
+        },
+        {
+          "point": [
+            14.748933020614807,
+            0.0,
+            71.70925173533503
+          ],
+          "expected": true,
+          "actual": true,
+          "passed": true
+        },
+        {
+          "point": [
+            14.8,
+            0.0,
+            77.75685011586675
+          ],
+          "expected": true,
+          "actual": true,
+          "passed": true
+        },
+        {
+          "point": [
+            14.8,
+            0.0,
+            93.86491673103708
+          ],
+          "expected": true,
+          "actual": true,
+          "passed": true
+        },
+        {
+          "point": [
+            14.8,
+            0.0,
+            109.97298334620743
+          ],
+          "expected": true,
+          "actual": true,
+          "passed": true
+        },
+        {
+          "point": [
+            4.8,
+            2.125,
+            27.75
+          ],
+          "expected": true,
+          "actual": true,
+          "passed": true
+        },
+        {
+          "point": [
+            6.070166537925836,
+            2.125,
+            45.0
+          ],
+          "expected": true,
+          "actual": true,
+          "passed": true
+        },
+        {
+          "point": [
+            13.529833462074158,
+            2.125,
+            63.72983346207417
+          ],
+          "expected": true,
+          "actual": true,
+          "passed": true
+        },
+        {
+          "point": [
+            14.8,
+            2.125,
+            91.36491673103708
+          ],
+          "expected": true,
+          "actual": true,
+          "passed": true
+        }
+      ],
+      "seconds": 2.045769400006975
+    },
+    {
+      "file": "cordon-principal-ic5-10awg-etude.step",
+      "relative_step_path": "cordon-principal-batterie/cordon-ic5-spektrum/3D/cordon-principal-ic5-10awg-etude.step",
+      "sha256": "4e11fcf6c7fab730e17862a18a5f57681db688c0bd3069a17db8ac0c69c04312",
+      "passed": true,
+      "valid": true,
+      "solids_closed": true,
+      "solids": 16,
+      "faces": 284,
+      "bbox_error_mm": 0.0,
+      "volume_relative_error": 0.0,
+      "material_probes": [
+        {
+          "point": [
+            -14.8,
+            -2.0,
+            109.95
+          ],
+          "expected": false,
+          "actual": false,
+          "passed": true
+        },
+        {
+          "point": [
+            -4.8,
+            0.0,
+            15.65
+          ],
+          "expected": true,
+          "actual": true,
+          "passed": true
+        },
+        {
+          "point": [
+            -4.8,
+            0.0,
+            24.25
+          ],
+          "expected": true,
+          "actual": true,
+          "passed": true
+        },
+        {
+          "point": [
+            -4.8,
+            0.0,
+            32.85
+          ],
+          "expected": true,
+          "actual": true,
+          "passed": true
+        },
+        {
+          "point": [
+            -4.851066979385195,
+            0.0,
+            37.020581726739145
+          ],
+          "expected": true,
+          "actual": true,
+          "passed": true
+        },
+        {
+          "point": [
+            -6.070166537925836,
+            0.0,
+            45.0
+          ],
+          "expected": true,
+          "actual": true,
+          "passed": true
+        },
+        {
+          "point": [
+            -8.86647368479808,
+            0.0,
+            52.57218502505284
+          ],
+          "expected": true,
+          "actual": true,
+          "passed": true
+        },
+        {
+          "point": [
+            -10.733526315201914,
+            0.0,
+            56.15764843702133
+          ],
+          "expected": true,
+          "actual": true,
+          "passed": true
+        },
+        {
+          "point": [
+            -13.529833462074158,
+            0.0,
+            63.72983346207417
+          ],
+          "expected": true,
+          "actual": true,
+          "passed": true
+        },
+        {
+          "point": [
+            -14.748933020614807,
+            0.0,
+            71.70925173533503
+          ],
+          "expected": true,
+          "actual": true,
+          "passed": true
+        },
+        {
+          "point": [
+            -14.8,
+            0.0,
+            76.80685011586675
+          ],
+          "expected": true,
+          "actual": true,
+          "passed": true
+        },
+        {
+          "point": [
+            -14.8,
+            0.0,
+            89.11491673103708
+          ],
+          "expected": true,
+          "actual": true,
+          "passed": true
+        },
+        {
+          "point": [
+            -14.8,
+            0.0,
+            101.42298334620742
+          ],
+          "expected": true,
+          "actual": true,
+          "passed": true
+        },
+        {
+          "point": [
+            -4.8,
+            2.125,
+            27.75
+          ],
+          "expected": true,
+          "actual": true,
+          "passed": true
+        },
+        {
+          "point": [
+            -6.070166537925836,
+            2.125,
+            45.0
+          ],
+          "expected": true,
+          "actual": true,
+          "passed": true
+        },
+        {
+          "point": [
+            -13.529833462074158,
+            2.125,
+            63.72983346207417
+          ],
+          "expected": true,
+          "actual": true,
+          "passed": true
+        },
+        {
+          "point": [
+            -14.8,
+            2.125,
+            85.81491673103709
+          ],
+          "expected": true,
+          "actual": true,
+          "passed": true
+        },
+        {
+          "point": [
+            14.8,
+            -2.0,
+            109.95
+          ],
+          "expected": false,
+          "actual": false,
+          "passed": true
+        },
+        {
+          "point": [
+            4.8,
+            0.0,
+            15.65
+          ],
+          "expected": true,
+          "actual": true,
+          "passed": true
+        },
+        {
+          "point": [
+            4.8,
+            0.0,
+            24.25
+          ],
+          "expected": true,
+          "actual": true,
+          "passed": true
+        },
+        {
+          "point": [
+            4.8,
+            0.0,
+            32.85
+          ],
+          "expected": true,
+          "actual": true,
+          "passed": true
+        },
+        {
+          "point": [
+            4.851066979385195,
+            0.0,
+            37.020581726739145
+          ],
+          "expected": true,
+          "actual": true,
+          "passed": true
+        },
+        {
+          "point": [
+            6.070166537925836,
+            0.0,
+            45.0
+          ],
+          "expected": true,
+          "actual": true,
+          "passed": true
+        },
+        {
+          "point": [
+            8.86647368479808,
+            0.0,
+            52.57218502505284
+          ],
+          "expected": true,
+          "actual": true,
+          "passed": true
+        },
+        {
+          "point": [
+            10.733526315201914,
+            0.0,
+            56.15764843702133
+          ],
+          "expected": true,
+          "actual": true,
+          "passed": true
+        },
+        {
+          "point": [
+            13.529833462074158,
+            0.0,
+            63.72983346207417
+          ],
+          "expected": true,
+          "actual": true,
+          "passed": true
+        },
+        {
+          "point": [
+            14.748933020614807,
+            0.0,
+            71.70925173533503
+          ],
+          "expected": true,
+          "actual": true,
+          "passed": true
+        },
+        {
+          "point": [
+            14.8,
+            0.0,
+            76.80685011586675
+          ],
+          "expected": true,
+          "actual": true,
+          "passed": true
+        },
+        {
+          "point": [
+            14.8,
+            0.0,
+            89.11491673103708
+          ],
+          "expected": true,
+          "actual": true,
+          "passed": true
+        },
+        {
+          "point": [
+            14.8,
+            0.0,
+            101.42298334620742
+          ],
+          "expected": true,
+          "actual": true,
+          "passed": true
+        },
+        {
+          "point": [
+            4.8,
+            2.125,
+            27.75
+          ],
+          "expected": true,
+          "actual": true,
+          "passed": true
+        },
+        {
+          "point": [
+            6.070166537925836,
+            2.125,
+            45.0
+          ],
+          "expected": true,
+          "actual": true,
+          "passed": true
+        },
+        {
+          "point": [
+            13.529833462074158,
+            2.125,
+            63.72983346207417
+          ],
+          "expected": true,
+          "actual": true,
+          "passed": true
+        },
+        {
+          "point": [
+            14.8,
+            2.125,
+            85.81491673103709
+          ],
+          "expected": true,
+          "actual": true,
+          "passed": true
+        }
+      ],
+      "seconds": 2.4126934000014444
+    }
+  ],
+  "mode": "headless",
+  "FreeCAD_version": [
+    "1",
+    "1",
+    "4",
+    "20260928 (Git shallow)",
+    "Unknown",
+    "2026/09/28 13:46:34",
+    "(HEAD detached at 4fd3bf320)",
+    "4fd3bf320d9566a27e60069fc8387448aaa3a094"
+  ],
+  "GUI_tested": false,
+  "CADView_tested": false,
+  "hardware_tested": false,
+  "comparison": "Default volume quadrature versus CadQuery imported STEP; adaptive roundtrip independently in model JSON."
+}

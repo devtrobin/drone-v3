@@ -1,0 +1,88 @@
+{
+  "date": "2026-10-16",
+  "revision": "R2 étude théorique, sous conditions",
+  "hardware_tested": false,
+  "mass": {
+    "design_ceiling_kg": 9.0,
+    "front_fraction_max": 0.45,
+    "rear_fraction": 0.55,
+    "vertical_load_factor": 3,
+    "coefficient_friction": 0.8,
+    "effective_steering_friction_radius_mm": 45,
+    "not_a_weighed_vehicle": true
+  },
+  "direction": {
+    "required_servo_torque_Nm": 1.177576958038984,
+    "margin_factor_included": 2,
+    "selected": "FEETECH FT5335M current manufacturer revision,6V",
+    "published_rated_Nm": 1.32389775,
+    "margin": 1.1242558212116205,
+    "old_FT90M_rated_Nm": 0.06864655,
+    "old_servo_rejected": true,
+    "servo_pwm_soft_limit_deg": 55,
+    "mechanical_wheel_stop_deg": 25,
+    "nominal_kinematics_only": true
+  },
+  "rear_shaft": {
+    "outside_support_x_mm": 193,
+    "wheel_centre_x_mm": 200,
+    "overhang_mm": 7,
+    "old_overhang_mm": 28.5,
+    "radial_study_load_N": 72.83925,
+    "wheel_torque_design_Nm": 0.5,
+    "bending_notch_factor": 2,
+    "torsion_notch_factor": 1.5,
+    "bending_MPa": 83.09666490393025,
+    "torsion_MPa": 30.557749073643905,
+    "von_mises_MPa": 98.5209815394641,
+    "material_yield_required_MPa": 355,
+    "allowable_MPa": 177.5,
+    "pass_screening": true,
+    "fatigue_and_holes_not_fea": true
+  },
+  "speeds": {
+    "wheel_rpm_40": 3368.3585839554567,
+    "intermediate_rpm_40": 7578.806813899778,
+    "motor_rpm_40": 25578.47299691175,
+    "ratio": 7.59375,
+    "mesh1_centre_mm": 17.5,
+    "mesh2_centre_mm": 19.5,
+    "mesh1_pitch_speed_m_s": 10.714285714285715,
+    "gear_ratings_at_this_speed_unconfirmed": true
+  },
+  "electricity": {
+    "energy_usable_study_Wh": 29.6,
+    "capacity_use_fraction": 0.8,
+    "power_budget_45min_W": 39.46666666666667,
+    "power_budget_20min_W": 88.80000000000001,
+    "power_budget_10min_W": 177.60000000000002,
+    "main_budget_previous_A": 36,
+    "main_budget_with_servo_A": 40,
+    "servo_peak_6V_A": 6,
+    "servo_BEC1_supply_rejected": true,
+    "FS_candidate": "KLKD005.T +L60030M1PQ",
+    "main_fault_current_bound_A": 16402.605867658778,
+    "full_coordination_proven": false,
+    "hardware_current_limit": false
+  },
+  "fit": {
+    "shafts_nominal_mm": 5,
+    "bearing_housing_nominal_mm": 11,
+    "bearing_clearance_selection": "MC5 to order and verify",
+    "shaft_interference_target_um": [
+      1,
+      3
+    ],
+    "housing": "H7 light stationary load; floating pocket0.4mm ; confirm exact bearing maker",
+    "kinematic_joint_radial_clearance_mm": [
+      0.02,
+      0.06
+    ],
+    "axial_running_clearance_mm": [
+      0.05,
+      0.15
+    ],
+    "gear_flat_depth_mm": 0.3,
+    "gear_pressure_angle_Losi_unconfirmed": true
+  }
+}

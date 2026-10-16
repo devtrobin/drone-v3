@@ -1,0 +1,109 @@
+{
+  "status": "preliminary; no validated purchasing basket",
+  "items": [
+    {
+      "ref": "U1,U2",
+      "part": "TLV6700DDCR",
+      "quantity": 2,
+      "role": "Deux comparateurs locaux par cellule"
+    },
+    {
+      "ref": "OP1-OP4",
+      "part": "VOS618A-8T",
+      "quantity": 4,
+      "role": "WARN et HEALTHY de chaque cellule; bin CTR130-260 %"
+    },
+    {
+      "ref": "U3",
+      "part": "SN74LVC2G17DCKR",
+      "quantity": 1,
+      "role": "Deux tampons non inverseurs pour OFF"
+    },
+    {
+      "ref": "U4",
+      "part": "MCP1703AT-3302E/MB",
+      "quantity": 1,
+      "role": "SOT-89;3,3 V auxiliaire depuis batterie; pas alimentation du Pi"
+    },
+    {
+      "ref": "D1-D3",
+      "part": "BAT54-7-F",
+      "quantity": 3,
+      "role": "OU de commandes OFF; cathodes communes"
+    },
+    {
+      "ref": "R_mesure",
+      "part": "40,2k x4 /75k x2 /10k x4, 0,1 %",
+      "quantity": 10,
+      "role": "Deux ponts de seuil par cellule"
+    },
+    {
+      "ref": "R_LED",
+      "part": "1,5k,1 %",
+      "quantity": 4,
+      "role": "Courant LED optocoupleurs"
+    },
+    {
+      "ref": "R_pull",
+      "part": "47k x4 /100k x1",
+      "quantity": 5,
+      "role": "Collecteurs et OFF; valeurs àqualifier"
+    },
+    {
+      "ref": "C_mesure",
+      "part": "100nF",
+      "quantity": 4,
+      "role": "Filtrage entrées"
+    },
+    {
+      "ref": "C_decouplage",
+      "part": "100nF",
+      "quantity": 3,
+      "role": "TLVx2 et logique"
+    },
+    {
+      "ref": "C_LDO",
+      "part": "1uF x2, type selon datasheet",
+      "quantity": 2,
+      "role": "MCP entrée/sortie"
+    },
+    {
+      "ref": "J1,J2",
+      "part": "XH3 voies, header6 voies; références àarrêter",
+      "quantity": 2,
+      "role": "Mesure et logique; cotes CAO estimées"
+    },
+    {
+      "ref": "SW1",
+      "part": "Pololu2813 HP",
+      "quantity": 1,
+      "role": "Puissance branche Pi uniquement"
+    },
+    {
+      "ref": "SSR1",
+      "part": "Sensata/CrydomD1D100",
+      "quantity": 1,
+      "role": "Puissance deux ESC; refroidissement requis"
+    },
+    {
+      "ref": "HS1",
+      "part": "Sensata/Crydom HS251",
+      "quantity": 1,
+      "role": "Refroidissement du relais; enveloppe 40 A / 40 °C d'étude, non testée",
+      "documentation": "../dissipateur-relais/README.md"
+    },
+    {
+      "ref": "TIM1",
+      "part": "Sensata/Crydom HSP-1; variante selon lot reçu",
+      "quantity": 1,
+      "role": "Une seule interface thermique, sans empilage de variantes"
+    }
+  ],
+  "not_included_yet": [
+    "qualification thermique dissipateur HS251 et interface reçue",
+    "fusibles,TVS/diodes de suppression adaptés",
+    "faisceau,PCB et entretoises",
+    "schéma détaillé,ERC/DRC et routage"
+  ],
+  "total_price_eur": null
+}

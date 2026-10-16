@@ -1,0 +1,6 @@
+{
+  "date": "2026-10-15",
+  "current_source": "../verification-alimentation/selection-active.json",
+  "note": "Pack actif Spektrum G1 2S IC5 5 Ah / 37 Wh, énergie utilisable supposée 29,6 Wh. Régulateur actif D42V55F5. S65 + BEEC1067 + équilibrage dédié. Les calculs Zeee précédents ne sont plus ceux de la batterie active.",
+  "old_project_PDFs_and_complete_CAD_historical": true
+}

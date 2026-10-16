@@ -1,0 +1,6 @@
+{
+  "date": "2026-10-15",
+  "current_source": "../verification-alimentation/selection-active.json",
+  "note": "Positif CP0+ préparé sans cosse M5 vers le support classe T ; négatif CP0− avec une TE 130191 vers D−. Une seule cosse 130191 active, pas deux. Les STEP et l’ancien PDF avec deux cosses sont historiques.",
+  "old_project_PDFs_and_complete_CAD_historical": true
+}

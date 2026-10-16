@@ -1,0 +1,344 @@
+[
+  {
+    "code": "C04_R2_droite",
+    "description": "Remplace C04D-R1, largeur93mm, ancien évidement supprimé après déplacementHall",
+    "quantity": 1,
+    "material": "6082-T6",
+    "dimensions": "X92..185 Y380..470 Z11..14 ;4lumières conservées ;8nouveauxtrous",
+    "solid_count": 1,
+    "volume_mm3": 23948.060891226403
+  },
+  {
+    "code": "C04_R2_gauche",
+    "description": "Remplace C04G-R1",
+    "quantity": 1,
+    "material": "6082-T6",
+    "dimensions": "",
+    "solid_count": 1,
+    "volume_mm3": 23948.060891226403
+  },
+  {
+    "code": "R201_arbre_intermediaire",
+    "description": "Arbre intermédiaire droit ; gauche symétrique",
+    "quantity": 2,
+    "material": "C45E, Re minimal 355 MPa",
+    "dimensions": "L91.5 ; X95..186.5 ; épaulementØ6 X95..99 ; portées99..103 /179..183 ; gorgeØ4.8 largeur0.7 X184.8..185.5",
+    "solid_count": 1,
+    "volume_mm3": 1822.7018351783809
+  },
+  {
+    "code": "R202_arbre_sortie",
+    "description": "Arbre de roue arrière, filetage M4 représenté au diamètre nominal",
+    "quantity": 2,
+    "material": "C45E, Re minimal 355 MPa",
+    "dimensions": "L145.5 ; X73..218.5 ; épaulementsØ7 X88..91 et105..108 ; gorgeØ4.8 L0.7 X79.3..80 ; M4final10 ; goupilleØ2 X202.5",
+    "solid_count": 1,
+    "volume_mm3": 2882.8326644999506
+  },
+  {
+    "code": "R203_palier_interieur_intermediaire",
+    "description": "Palier à poche Ø11, passageØ9 et taraudages M3 de semelle",
+    "quantity": 2,
+    "material": "6082-T6",
+    "dimensions": "Plan X97..103 ; Y425.5 ; Zaxe31.5 ; poche4 fixe",
+    "solid_count": 1,
+    "volume_mm3": 2399.2933918568165
+  },
+  {
+    "code": "R203_palier_interieur_intermediaire_capot",
+    "description": "Retenue de bague extérieure",
+    "quantity": 2,
+    "material": "6082-T6",
+    "dimensions": "Épaisseur1.5 ; Ø17 /Ø9 ; deux passagesØ2.2 àY±7",
+    "solid_count": 1,
+    "volume_mm3": 255.26552127260442
+  },
+  {
+    "code": "R204_palier_exterieur_intermediaire",
+    "description": "Palier à poche Ø11, passageØ9 et taraudages M3 de semelle",
+    "quantity": 2,
+    "material": "6082-T6",
+    "dimensions": "Plan X177..183 ; Y425.5 ; Zaxe31.5 ; poche4.4 flottante",
+    "solid_count": 1,
+    "volume_mm3": 2386.7270212424564
+  },
+  {
+    "code": "R204_palier_exterieur_intermediaire_capot",
+    "description": "Retenue de bague extérieure",
+    "quantity": 2,
+    "material": "6082-T6",
+    "dimensions": "Épaisseur1.5 ; Ø17 /Ø9 ; deux passagesØ2.2 àY±7",
+    "solid_count": 1,
+    "volume_mm3": 255.26552127260442
+  },
+  {
+    "code": "R205_palier_interieur_sortie",
+    "description": "Palier à poche Ø11, passageØ9 et taraudages M3 de semelle",
+    "quantity": 2,
+    "material": "6082-T6",
+    "dimensions": "Plan X106..112 ; Y445 ; Zaxe31.5 ; poche4 fixe",
+    "solid_count": 1,
+    "volume_mm3": 2399.2933918568165
+  },
+  {
+    "code": "R205_palier_interieur_sortie_capot",
+    "description": "Retenue de bague extérieure",
+    "quantity": 2,
+    "material": "6082-T6",
+    "dimensions": "Épaisseur1.5 ; Ø17 /Ø9 ; deux passagesØ2.2 àY±7",
+    "solid_count": 1,
+    "volume_mm3": 255.26552127260442
+  },
+  {
+    "code": "R206_palier_sortie_porte_a_faux",
+    "description": "Palier extérieur à pied déporté ; roulement dans le creux de jante",
+    "quantity": 2,
+    "material": "6082-T6",
+    "dimensions": "Pied X166..174 ; axeX193 Y445 Z31.5 ; appui flottant ; pocheØ11 L4.4",
+    "solid_count": 1,
+    "volume_mm3": 4162.727021242448
+  },
+  {
+    "code": "R206_capot",
+    "description": "Retenue extérieure de palier",
+    "quantity": 2,
+    "material": "6082-T6",
+    "dimensions": "Ø17 /Ø9 ; e1.5 ; M2 entraxe14",
+    "solid_count": 1,
+    "volume_mm3": 255.26552127260442
+  },
+  {
+    "code": "R207_E1",
+    "description": "Entretoise de bague intérieure",
+    "quantity": 2,
+    "material": "Acier rectifié",
+    "dimensions": "Ø6 /Ø5.1 ; L3 ; tolérance longueur±0.02",
+    "solid_count": 1,
+    "volume_mm3": 23.538382957021504
+  },
+  {
+    "code": "R207_E2",
+    "description": "Entretoise de bague intérieure",
+    "quantity": 2,
+    "material": "Acier rectifié",
+    "dimensions": "Ø6 /Ø5.1 ; L6 ; tolérance longueur±0.02",
+    "solid_count": 1,
+    "volume_mm3": 47.07676591404301
+  },
+  {
+    "code": "R207_E3",
+    "description": "Entretoise de bague intérieure",
+    "quantity": 2,
+    "material": "Acier rectifié",
+    "dimensions": "Ø6 /Ø5.1 ; L39 ; tolérance longueur±0.02",
+    "solid_count": 1,
+    "volume_mm3": 305.99897844127963
+  },
+  {
+    "code": "R207_E4",
+    "description": "Entretoise de bague intérieure",
+    "quantity": 2,
+    "material": "Acier rectifié",
+    "dimensions": "Ø6 /Ø5.1 ; L5 ; tolérance longueur±0.02",
+    "solid_count": 1,
+    "volume_mm3": 39.230638261702495
+  },
+  {
+    "code": "R207_E5",
+    "description": "Entretoise de bague intérieure",
+    "quantity": 2,
+    "material": "Acier rectifié",
+    "dimensions": "Ø6 /Ø5.1 ; L62 ; tolérance longueur±0.02",
+    "solid_count": 1,
+    "volume_mm3": 486.45991444511117
+  },
+  {
+    "code": "R207_E6",
+    "description": "Entretoise de bague intérieure",
+    "quantity": 2,
+    "material": "Acier rectifié",
+    "dimensions": "Ø6 /Ø5.1 ; L7.5 ; tolérance longueur±0.02",
+    "solid_count": 1,
+    "volume_mm3": 56.90730159492375
+  },
+  {
+    "code": "R225_circlip_DIN471_5",
+    "description": "Circlip acheté DIN471-5, profil desoreilles reconstruit",
+    "quantity": 4,
+    "material": "Acier àressort, fabricantBeneri ouéquivalentdocumenté",
+    "dimensions": "Épaisseur0.6 ; gorgeØ4.8 largeur0.70..0.73 ; enveloppe de montageØ10.3",
+    "solid_count": 1,
+    "volume_mm3": 14.452262334384784
+  },
+  {
+    "code": "R226_entretoise_clip",
+    "description": "Entretoise debague intérieure avantcirclip",
+    "quantity": 2,
+    "material": "Acier rectifié",
+    "dimensions": "Ø6 /Ø5.1 L1.8±0.02 ; jeu axial àcaler",
+    "solid_count": 1,
+    "volume_mm3": 14.123029774212782
+  },
+  {
+    "code": "R208_fusee_droite",
+    "description": "Fusée usinée à axe de pivotØ6 et deux MR115",
+    "quantity": 1,
+    "material": "6082-T6",
+    "dimensions": "Pivot(170,55) ; axe roueZ31.5 ; roulements178..182 /190..194 ; bras calculé",
+    "solid_count": 1,
+    "volume_mm3": 7082.5366317530315
+  },
+  {
+    "code": "R208_fusee_gauche",
+    "description": "Symétrique de la fusée droite",
+    "quantity": 1,
+    "material": "6082-T6",
+    "dimensions": "",
+    "solid_count": 1,
+    "volume_mm3": 7082.536631753031
+  },
+  {
+    "code": "R209_fourche_droite",
+    "description": "Fourche fixe, deux appuis de pivot, colonne avantY10 et butée haute",
+    "quantity": 1,
+    "material": "6082-T6",
+    "dimensions": "Base26x30x4 +extension16x42.5 ; perçages(158,54)/(158,74) ; passagepivotØ6.1 ; appuisZ20.5/76 ; pont de butée12x4.5 àZ65",
+    "solid_count": 1,
+    "volume_mm3": 20737.785887466394
+  },
+  {
+    "code": "R209_fourche_gauche",
+    "description": "Symétrique de R209 droite",
+    "quantity": 1,
+    "material": "6082-T6",
+    "dimensions": "",
+    "solid_count": 1,
+    "volume_mm3": 20737.785887466394
+  },
+  {
+    "code": "R210_axe_roue_avant",
+    "description": "Axe avant tournant, filetage nominal",
+    "quantity": 2,
+    "material": "C45E Re355MPa min",
+    "dimensions": "L42.5 ; X176..218.5 ; épaulementØ7 X176..178 ; M4x0.7 final10 ; trouØ2 àX202.5",
+    "solid_count": 1,
+    "volume_mm3": 786.1117220740911
+  },
+  {
+    "code": "R220_capot_roulements_avant",
+    "description": "Retenue des bagues extérieures du porte-fusée",
+    "quantity": 2,
+    "material": "6082-T6",
+    "dimensions": "Épaisseur1.5 ; ouvertureØ9 ; deuxM2 entraxe14",
+    "solid_count": 1,
+    "volume_mm3": 128.91295702687535
+  },
+  {
+    "code": "R211_pivot6",
+    "description": "Pivot fixe defusée, M5nominal",
+    "quantity": 2,
+    "material": "C45E Re355MPa minimal",
+    "dimensions": "L79 ; têteØ10 e2 ; corpsØ6 L69 ; M5x0.8 L8 ; repèreZ9..88",
+    "solid_count": 1,
+    "volume_mm3": 2265.0883032382403
+  },
+  {
+    "code": "R219_butee_avant",
+    "description": "Butée mécanique25deg, support positif ; deuxième montant intégré àR209",
+    "quantity": 2,
+    "material": "6082-T6",
+    "dimensions": "PionØ3 au point[146.23412011619925, 64.50962424855759] ; sommetsupportZ69.8 ; pionZ64.5..74.5",
+    "solid_count": 1,
+    "volume_mm3": 3222.7376152658912
+  },
+  {
+    "code": "R212_support_servo",
+    "description": "Support démontable R2",
+    "quantity": 1,
+    "material": "6082-T6",
+    "dimensions": "105x60x3 ; Z14 ; trousØ3.5 [(-30, 55), (-30, 105), (60, 55), (60, 105)]",
+    "solid_count": 1,
+    "volume_mm3": 18283.22955745628
+  },
+  {
+    "code": "R213_support_UBEC",
+    "description": "Support démontable R2",
+    "quantity": 1,
+    "material": "6082-T6",
+    "dimensions": "50x70x3 ; Z42 ; trousØ3.5 [(-47, 104), (-3, 104), (-47, 166), (-3, 166)]",
+    "solid_count": 1,
+    "volume_mm3": 9912.092939961156
+  },
+  {
+    "code": "R214_cassette_FS",
+    "description": "Support démontable R2",
+    "quantity": 1,
+    "material": "6082-T6",
+    "dimensions": "34x97x3 ; Z14 ; trousØ3.5 [(84, 17.5), (106, 17.5), (84, 102.5), (106, 102.5)]",
+    "solid_count": 1,
+    "volume_mm3": 9542.319704970861
+  },
+  {
+    "code": "R218_platine_moteur",
+    "description": "Support moteur ajustable enY, empreinteM2.5 entraxe16",
+    "quantity": 2,
+    "material": "6082-T6",
+    "dimensions": "FaceX140 ; épaisseur3 ; 2xØ2.7 àZ23.5/39.5 ; portéeY408 ;2lumières7x3.5 ensemelle",
+    "solid_count": 1,
+    "volume_mm3": 3873.1815566857076
+  },
+  {
+    "code": "R215_carter_transmission_droit",
+    "description": "Écran anti-contact démontable ; non qualifié contre éclatement",
+    "quantity": 1,
+    "material": "Polycarbonate compact 2mm",
+    "dimensions": "Enveloppe44x71.5x39 ; ouvert en dessous ; ouverture moteurØ26 ; passagesØ8 ; encoche autoursemelleR203",
+    "solid_count": 1,
+    "volume_mm3": 20631.948677948385
+  },
+  {
+    "code": "R215_carter_transmission_gauche",
+    "description": "Symétrique du carter droit",
+    "quantity": 1,
+    "material": "Polycarbonate compact 2mm",
+    "dimensions": "",
+    "solid_count": 1,
+    "volume_mm3": 20631.948677948338
+  },
+  {
+    "code": "R216_tube_intermediaire",
+    "description": "Tube de protection desmontable, maintien àqualifier",
+    "quantity": 2,
+    "material": "Polycarbonate compact",
+    "dimensions": "Ø9 /Ø7 L30.2",
+    "solid_count": 1,
+    "volume_mm3": 759.0087851072936
+  },
+  {
+    "code": "R216_tube_sortie",
+    "description": "Tube de protection desmontable, maintien àqualifier",
+    "quantity": 2,
+    "material": "Polycarbonate compact",
+    "dimensions": "Ø9 /Ø7 L42.2",
+    "solid_count": 1,
+    "volume_mm3": 1060.6016798519138
+  },
+  {
+    "code": "C01_R2",
+    "description": "R1 avec perçages additionnels R2, même repère global",
+    "quantity": 1,
+    "material": "6082-T6",
+    "dimensions": "",
+    "solid_count": 1,
+    "volume_mm3": 462694.6973581125
+  },
+  {
+    "code": "C03_R2",
+    "description": "R1 avec perçages additionnels R2, même repère global",
+    "quantity": 1,
+    "material": "6082-T6",
+    "dimensions": "",
+    "solid_count": 1,
+    "volume_mm3": 43313.69862871463
+  }
+]

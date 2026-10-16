@@ -1,0 +1,32 @@
+"""Readable French text for the short charging notice."""
+def charge_story(folder,p,t,banner,pic,ref,Spacer,PageBreak,mm):
+ return [p('Cordon de charge<br/>S65 vers IC5','title'),p('Beez2B BEEC1067 — XT60 / EC5 — Spektrum G1 2S'),
+ banner('<b>Sélection complétée, matériel non testé.</b> Le S65 est conservé. Le lot devra être contrôlé pour les contacts, la polarité, la section et l’échauffement.'),Spacer(1,3*mm),
+ pic(folder/'references/Beez2B-photo-0.jpg',100),p('Photo RC Team du BEEC1067 : XT60 jaune / EC5 bleu, 12 cm annoncés. Crédit RC Team / Beez2B.','small'),
+ t([['Référence / quantité','Achat et compatibilité'],['BEEC1067, 1 cordon','6,90 EUR TTC chez RC Team ; SKU exact disponible dans le JSON public consulté le 15 octobre 2026'],['INTERMODEL 3-RAL2S, 1 en plus','Rallonge XH 2S dédiée à la charge ; ancien prix de 1,40 EUR à revalider'],['Complément de charge','8,30 EUR hors port, revalidation et outillage'],['Puissance','S65 XT60 → BEEC1067 → EC5 compatible IC5 du G1'],['Équilibrage','Prise trois voies G1 → rallonge dédiée → port XH 2–4S du S65']]),PageBreak(),
+ p('Compatibilité et réglage','title'),
+ t([['Grandeur','Valeur et justification'],['Batterie retenue','SPMX50002S30H5 G1, LiPo 2S 5 Ah ; 7,4 V nominal / 8,4 V maximum'],['Génération','G1 avec équilibrage classique. Un G2 sans câble d’équilibrage ne remplace pas ce pack.'],['Réglage initial','LiPo BALANCE 2S, 5 A = 1C, fin à 4,20 V par cellule'],['Puissance','8,4 × 5 = 42 W ; S65 : 65 W et 6 A disponibles'],['Données Smart','Aucune donnée sur EC5 ; deux contacts de puissance et équilibrage par XH'],['Adaptateur inclus au S65 ?','Non annoncé dans le contenu de sa notice ; achat séparé'],['Emploi','Chargeur à l’atelier, pack retiré du véhicule']]),Spacer(1,4*mm),
+ p('Le vendeur cite explicitement le S65, NANO B6 / Lite et T200. Spektrum documente la compatibilité IC5 / EC5 pour la puissance. Les mots mâle/femelle peuvent désigner les logements ou les contacts : utiliser la référence compatible S65 et contrôler la pièce reçue.'),
+ p('Section et isolant du BEEC1067 non publiés dans la fiche consultée. Critère de réception choisi : au moins 16 AWG, polarité correcte et absence d’échauffement anormal à 5 A. Ce cordon ne remplace pas celui de propulsion.'),
+ p('Montage et première charge','sub'),
+ p('Chargeur hors tension, pack retiré et débranché du véhicule. Respecter la notice S65 : cordon côté chargeur avant le pack ; puissance et équilibrage selon les repères. Vérifier les deux cellules détectées avant START. À la fin, retirer le pack avant le cordon du chargeur.'),
+ p('Les 5,2 A de l’ancienne Zeee sont historiques. Appliquer la notice du G1 et surveiller la charge. Ne pas confondre LiPo, LiHV et STORAGE.'),PageBreak(),
+ p('Contrôles et documentation','title'),
+ p('Sans pack, vérifier continuité rouge/noir, absence de court-circuit et polarité. Contrôler les contacts IC5 / EC5 et le repère négatif XH. Ne pas forcer un logement ni centrer au hasard les trois voies dans le port 2–4S.'),
+ p('Effectuer la première charge sous surveillance selon les notices SkyRC et Spektrum, puis contrôler les températures. Arrêter en cas d’erreur ou d’échauffement anormal. Pour le stockage, débrancher aussi la prise d’équilibrage du véhicule.'),
+ ref('RC Team : achat BEEC1067 et compatibilité S65','https://www.rcteam.com/products/beez2b-cable-de-charge-xt60-vers-ec5-beec1067'),
+ ref('INTERMODEL 3-RAL2S : rallonge 2S dédiée','https://www.intermodel.fr/cordons-et-prises-de-charge/548-rallonge-pour-prise-equilibrage-2s-intermodel-rallonge-2s-rallonge-prise-equilibrage-2s.html'),
+ ref('Spektrum : connecteur IC5 et compatibilité EC5','https://www.spektrumrc.com/product/connector-ic5-device-w-4-10awg-wires/SPMXCA510.html'),
+ ref('Horizon : FAQ G1 / G2 et charge classique','https://www.horizonhobby.com/on/demandware.static/-/Sites-horizon-master/default/dwdb93431e/Manuals/Smart_G2_Battery_and_Charger_FAQ.pdf'),
+ ref('SkyRC : notice originale S65 V2.10','https://www.skyrc.com/files/201/S65_Instruction_Manual_EN_V2.10.pdf'),
+ p('JSON public RC Team avec SKU, stock et prix, ainsi que photos archivés. Notices originales S65 et Horizon conservées dans leurs dossiers. Aucun achat ou essai ; aucune offre Amazon.fr exacte vérifiée.'),
+ banner('Charger le pack déconnecté : puissance et équilibrage retirés du véhicule. Le cordon BEEC1067 est distinct du cordon principal embarqué ; aucune charge à travers D+ / D− ou ED80.')]
+
+PARAGRAPH_CORRECTIONS={
+ 'AnciensPDF/STEPavecMIDI': 'Les anciens PDF et STEP avec MIDI, deux cosses CP0 ou alimentation par contacts Molex sont historiques. Les index le signalent. Les anciens contrôles 303 PASS ne valident pas cette révision. Le STEP officiel du nouveau Pololu est conservé. Les autres nouveaux composants ne sont pas modélisés ici. Châssis, support caméra, visserie finale et routage restent pour la fin.',
+ 'Charge :BEEC1067': 'Charge : BEEC1067 à 6,90 EUR TTC, SKU exact disponible dans le JSON public ; rallonge dédiée 2S à 1,40 EUR au relevé antérieur, à revalider. Complément de 8,30 EUR hors port. Deux WAGO supplémentaires à 0,75 EUR par pièce au relevé antérieur. Aucun total global avec les prix inconnus.',
+ 'Pololu5571 :': 'Pololu 5571 : 47,95 USD fabricant. Prix France non confirmés pour nouvelles protections, capots, LAPP et raccord. Les prix du support Midget C ne sont pas transférés au PQ. Aucune offre Amazon.fr exacte validée ; une recherche par référence ne prouve pas le stock.',
+ 'Archiveslocales': 'Archives locales : plan Pololu, fiche LAPP, table Blue Sea 2011 (page PDF 5), fiche TE 32151, documents Midget et KLKD 2021, photos et JSON de stock. Documents JLLN, KLKD et LFT 2025 consultés en ligne ; copie directe refusée 403. Fichiers et SHA256 dans assets.json. Notices S65, Horizon et ESC dans leurs dossiers ; aucun original modifié.',
+ 'Réception et polarités': 'Réception et polarités ; préparation et traction des sertissages ; alimentation limitée au laboratoire ; source Pi de 0–5 A et échelons ; mesure Kelvin des budgets ; stabilisation thermique à 15 A par ESC avec Pi active ; pointes, freinage, perte Wi-Fi et commandes ; cellules simulées ; charge Balance 2S et parcours d’autonomie avec vidéo.',
+ 'Ne pas court-circuiter': 'Ne pas court-circuiter la LiPo pour mesurer son courant de défaut. La température du radiateur ne mesure pas directement la jonction SSR. Les tolérances fabricant et les limites les plus basses prévalent sur les critères du projet.',
+}

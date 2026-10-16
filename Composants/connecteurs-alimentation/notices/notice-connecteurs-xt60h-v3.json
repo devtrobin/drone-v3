@@ -1,0 +1,31 @@
+{
+  "file": "notice-connecteurs-xt60h-v3.pdf",
+  "pages": 4,
+  "sha256": "a909c691a5455318ee0a940e68f580c3dcb16e30f15d3cd2da00a3aea2552a64",
+  "generated_on": "2026-10-14",
+  "generator": "tools/build_connector_pdf.py",
+  "renders": [
+    {
+      "page": 1,
+      "render": "tools/temp/connectors-review/pdf/page-1.png",
+      "chars": 1060
+    },
+    {
+      "page": 2,
+      "render": "tools/temp/connectors-review/pdf/page-2.png",
+      "chars": 2094
+    },
+    {
+      "page": 3,
+      "render": "tools/temp/connectors-review/pdf/page-3.png",
+      "chars": 1999
+    },
+    {
+      "page": 4,
+      "render": "tools/temp/connectors-review/pdf/page-4.png",
+      "chars": 1995
+    }
+  ],
+  "visual_review_complete": true,
+  "review_note": "All four rendered pages visually reviewed: no clipping, overlap or missing glyphs; all eight final CAD previews reviewed."
+}

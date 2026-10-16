@@ -1,0 +1,64 @@
+{
+  "checked_on": "2026-10-14",
+  "purchased": false,
+  "items": [
+    {
+      "part_number": "5065",
+      "manufacturer": "Blue Sea Systems",
+      "quantity_installed": 1,
+      "included": [
+        "support un circuit",
+        "capot et joint",
+        "deux fils12AWG"
+      ],
+      "excluded": [
+        "fusible",
+        "cosses",
+        "vis"
+      ],
+      "asin": "B004ZIUA62",
+      "asin_verified_at": "Amazon.com title/description via web",
+      "amazon_fr_url": "https://www.amazon.fr/dp/B004ZIUA62",
+      "amazon_fr_offer_confirmed": false,
+      "price_eur": null,
+      "indicative_foreign_price": {
+        "supplier": "Hodges Marine",
+        "unit_price": 15.01,
+        "currency": "USD",
+        "france_delivery_and_taxes_included": false
+      }
+    },
+    {
+      "part_number": "0ATO07.5V",
+      "manufacturer": "Littelfuse",
+      "quantity_installed": 1,
+      "nominal_A": 7.5,
+      "retail_pack_alternative": {
+        "part_number": "0ATO07.5VP",
+        "catalogue_name": "ATO7.5BP",
+        "pack_count": 5,
+        "installed_from_pack": 1,
+        "spares_from_pack": 4,
+        "conditioned_pack_to_verify_before_purchase": true
+      },
+      "asin": null,
+      "amazon_fr_search": "https://www.amazon.fr/s?k=Littelfuse+ATO7.5BP",
+      "amazon_fr_offer_confirmed": false,
+      "price_eur": null,
+      "indicative_foreign_price": {
+        "supplier": "DigiKey",
+        "unit_price": 1.35,
+        "currency": "USD",
+        "france_delivery_and_taxes_included": false
+      }
+    }
+  ],
+  "remaining_parts": [
+    "cosses et raccords de sections adaptees",
+    "fils de prolongement",
+    "fixation du support"
+  ],
+  "supply_revision_scope": "historical_before_alimentation_r2",
+  "current_supply_source": "../verification-alimentation/selection-active.json",
+  "historical_values_preserved": true
+}

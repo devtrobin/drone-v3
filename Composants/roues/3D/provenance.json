@@ -1,0 +1,123 @@
+{
+  "name": "HobbyPark Touring Color A, one wheel",
+  "asin": "B0CTNVV7BJ",
+  "generated_on": "2026-10-13",
+  "file": "roue-hobbypark-63x26-detaillee.step",
+  "unit": "mm",
+  "bytes": 11802325,
+  "sha256": "5acd110e323142003f358b34157e08aed4d9b675e8c89cf7ac990e66bb14a7ef",
+  "vendor_native_cad": false,
+  "hardware_measured": false,
+  "axis": "Z axle; tire centered on z=0; front positive Z",
+  "parameters": {
+    "tire_diameter_mm": 63,
+    "tire_width_mm": 26,
+    "nominal_inner_diameter_mm": 47,
+    "axle_bore_mm": 4,
+    "hex_across_flats_mm": 12,
+    "spokes": 18,
+    "tread_repetitions": 24,
+    "hex_depth_mm_estimated": 3.5,
+    "hex_rear_datum_z_mm_estimated": 5.0,
+    "tread_cut_radius_mm_estimated": 0.62,
+    "front_spoke_depth_mm_estimated": 2.2
+  },
+  "published_nominal_dimensions": [
+    "63 mm tire OD",
+    "26 mm width",
+    "47 mm nominal inner diameter interpreted as rim/bead envelope",
+    "12 mm hex across flats",
+    "4 mm axle bore"
+  ],
+  "estimates": [
+    "18-spoke visual count and reconstructed profile",
+    "24 tread pattern repetitions, .62 mm cutter radius; actual depth unmeasured",
+    "Axial hub position, hex depth 3.5 mm, dish, all wall thicknesses",
+    "Shoulder shape, bead section and foam cavity inferred",
+    "Five moulded front details and rear ejector marks; dimensions estimated",
+    "No photographic rubber grain, unreadable sidewall text or exact optical finish"
+  ],
+  "validation": {
+    "valid_after_reimport": true,
+    "solids": 3,
+    "faces": 681,
+    "colors": 3,
+    "volume_relative_error": 8.604690216402635e-08,
+    "bbox_error_mm": 1.5099033134902129e-12,
+    "pairwise_intersection_volume_below_mm3": 1e-05,
+    "axle_bore_and_hex_void_probes_passed": true,
+    "build_seconds": 74.2547042999995
+  },
+  "bounds_mm": {
+    "xmin": -31.5000001,
+    "xmax": 31.5000001,
+    "ymin": -31.5000001,
+    "ymax": 31.500000100001273,
+    "zmin": -13.0000001,
+    "zmax": 13.0000001
+  },
+  "source_page": "https://www.amazon.com/dp/B0CTNVV7BJ",
+  "photo_manifest": "../photos/assets.json",
+  "generator": "../../../tools/build_wheel_step.py",
+  "generator_sha256": "77e1721b58f952497ddb0fbeacb306cecd31fc840d3befd9944a79a3c845c090",
+  "parts": [
+    {
+      "name": "Pneu_caoutchouc_rainures_directionnelles",
+      "rgb_linear": [
+        0.055,
+        0.06,
+        0.065
+      ],
+      "volume_mm3": 10792.539562663631,
+      "faces": 350
+    },
+    {
+      "name": "Jante_nylon_18_branches_hex12_axe4",
+      "rgb_linear": [
+        0.028,
+        0.032,
+        0.037
+      ],
+      "volume_mm3": 6376.747217143463,
+      "faces": 325
+    },
+    {
+      "name": "Insert_mousse_geometrie_interne_estimee",
+      "rgb_linear": [
+        0.19,
+        0.2,
+        0.21
+      ],
+      "volume_mm3": 20936.460477076176,
+      "faces": 6
+    }
+  ],
+  "limitations": [
+    "Not a certified fabrication model or tolerance drawing",
+    "No simulation of tire deformation or grip",
+    "Actual hub offset, nut and spindle must be measured",
+    "FreeCAD GUI and VSCode CAD View not tested here"
+  ],
+  "previews": [
+    {
+      "file": "vue-arriere.png",
+      "sha256": "0d8a803aa042419a407b3916f30299d339fe19ed2cbf4818836c0605ee8853ba"
+    },
+    {
+      "file": "vue-bande-roulement.png",
+      "sha256": "c15e350638bd2bbb8c12a83c5eec8265e2d3261d5d07026bcf60ed0117ff6212"
+    },
+    {
+      "file": "vue-coupe.png",
+      "sha256": "0f14d8c1014d2552d209ca2ef8b09c32587f3d5e4f34178985044429ea52e835"
+    },
+    {
+      "file": "vue-face.png",
+      "sha256": "96a910d6a5f5bf8092078b14802b6cfae776610e0e22dc44f3d70bb6ffdb9d6a"
+    },
+    {
+      "file": "vue-isometrique.png",
+      "sha256": "96efeaf3798779bec9889cfb8df127e284c49f8d4335aa7150346778ed22683a"
+    }
+  ]
+}

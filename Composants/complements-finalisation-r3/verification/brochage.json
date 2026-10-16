@@ -1,0 +1,10 @@
+{
+  "three_ISO_D8_pinmaps_checked": true,
+  "MCP_SOT223_pin1": "VIN",
+  "MCP_SOT223_pin2_and_tab": "GND",
+  "MCP_SOT223_pin3": "VOUT",
+  "no_direct_signal_ground_bridge": true,
+  "actual_adapter_continuity_not_tested": true,
+  "rows": 98,
+  "not_a_PCB_ERC": true
+}

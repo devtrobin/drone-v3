@@ -1,0 +1,363 @@
+{
+  "generator": "tools/build_battery_protection_step.py",
+  "generator_sha256": "cc8bb7df58beee5f3b7123dfbc44a64e6dbcedbc421e0b51758303c1138ad14a",
+  "generated_on": "2026-10-13",
+  "models": [
+    {
+      "file": "crydom-d1d100-exterieur-detaille.step",
+      "title": "Crydom D1D100 | exterieur reconstruit",
+      "generated_on": "2026-10-13",
+      "unit": "mm",
+      "cadquery_version": "2.8.0",
+      "coordinate_system": "Centre X/Y; bas du PCB ou de la semelle z=0",
+      "bytes": 5843571,
+      "sha256": "4c11d34e08eb28f808071703659c519d4b91b3be92c74d64eb8b8c2624b73ef2",
+      "native_vendor_cad": false,
+      "hardware_measured": false,
+      "is_custom_project_design": false,
+      "published_nominal": [
+        "Sensata PDF3: largeur44.5, longueur57.3, hauteur22.6, trous/slot4.9, entraxe47.6; tolerance0.5mm",
+        "Sensata PDF2: vis entree #6-32 UNC et sortie #8-32 UNC; semelle aluminium"
+      ],
+      "estimates_and_limitations": [
+        "Moulage, barriers, rondelles, tete de vis et etiquette reconstruits: cotes locales estimees",
+        "Pas de circuit interne, dissipateur ou capot KS101 supposes inclus",
+        "Pas de garantie de courant depuis la CAO; qualification thermique et dissipateur a definir"
+      ],
+      "parameters": {
+        "nominal_envelope_mm": [
+          44.5,
+          57.3,
+          22.6
+        ],
+        "mounting_hole_diameter_mm": 4.9,
+        "mounting_centres_mm": 47.6,
+        "screws": "UNC #6-32 input / #8-32 output; threads not modeled",
+        "heatsink_included": false
+      },
+      "source_pages": [
+        "Sensata-Crydom-1-DC-D1D100-datasheet.pdf PDF1-4"
+      ],
+      "bounds_mm": {
+        "xmin": -22.25,
+        "xmax": 22.25,
+        "ymin": -28.650000000000002,
+        "ymax": 28.650000000000002,
+        "zmin": 0.0,
+        "zmax": 22.6
+      },
+      "validation": {
+        "valid_after_reimport": true,
+        "solids": 94,
+        "faces": 1518,
+        "colors": 3,
+        "volume_relative_error": 1.467524560561654e-15,
+        "volume_relative_error_limit": 0.0001,
+        "volume_before_mm3": 44621.82118614002,
+        "volume_after_mm3": 44621.821186139954,
+        "adaptive_volume_tolerance": 1e-09,
+        "bbox_error_mm": 3.552713678800501e-15,
+        "bbox_error_limit_mm": 0.01,
+        "void_and_material_probes": [],
+        "elapsed_seconds": 7.244746500000474
+      },
+      "parts": [
+        {
+          "name": "Semelle_aluminium_cotes_nominales",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Coque_noire_exterieure_estimee",
+          "color_linear_rgb": [
+            0.015,
+            0.02,
+            0.025
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Borne_1_plaque_metal",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Borne_1_rondelle",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Borne_1_vis_UNC_empreinte_estimee",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Borne_1_barriere_-5.3",
+          "color_linear_rgb": [
+            0.015,
+            0.02,
+            0.025
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Borne_1_barriere_5.3",
+          "color_linear_rgb": [
+            0.015,
+            0.02,
+            0.025
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Borne_2_plaque_metal",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Borne_2_rondelle",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Borne_2_vis_UNC_empreinte_estimee",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Borne_2_barriere_-5.3",
+          "color_linear_rgb": [
+            0.015,
+            0.02,
+            0.025
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Borne_2_barriere_5.3",
+          "color_linear_rgb": [
+            0.015,
+            0.02,
+            0.025
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Borne_3_plaque_metal",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Borne_3_rondelle",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Borne_3_vis_UNC_empreinte_estimee",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Borne_3_barriere_-5.3",
+          "color_linear_rgb": [
+            0.015,
+            0.02,
+            0.025
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Borne_3_barriere_5.3",
+          "color_linear_rgb": [
+            0.015,
+            0.02,
+            0.025
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Borne_4_plaque_metal",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Borne_4_rondelle",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Borne_4_vis_UNC_empreinte_estimee",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Borne_4_barriere_-5.3",
+          "color_linear_rgb": [
+            0.015,
+            0.02,
+            0.025
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Borne_4_barriere_5.3",
+          "color_linear_rgb": [
+            0.015,
+            0.02,
+            0.025
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Etiquette_fond_blanc",
+          "color_linear_rgb": [
+            0.87,
+            0.9,
+            0.93
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Logo_texte_approche",
+          "color_linear_rgb": [
+            0.015,
+            0.02,
+            0.025
+          ],
+          "solids": 6
+        },
+        {
+          "name": "Type_texte_approche",
+          "color_linear_rgb": [
+            0.015,
+            0.02,
+            0.025
+          ],
+          "solids": 6
+        },
+        {
+          "name": "Fonction_texte_approche",
+          "color_linear_rgb": [
+            0.015,
+            0.02,
+            0.025
+          ],
+          "solids": 15
+        },
+        {
+          "name": "Output_texte_approche",
+          "color_linear_rgb": [
+            0.015,
+            0.02,
+            0.025
+          ],
+          "solids": 13
+        },
+        {
+          "name": "Input_texte_approche",
+          "color_linear_rgb": [
+            0.015,
+            0.02,
+            0.025
+          ],
+          "solids": 14
+        },
+        {
+          "name": "Repere_1_OUTPUT",
+          "color_linear_rgb": [
+            0.87,
+            0.9,
+            0.93
+          ],
+          "solids": 7
+        },
+        {
+          "name": "Repere_+2",
+          "color_linear_rgb": [
+            0.87,
+            0.9,
+            0.93
+          ],
+          "solids": 2
+        },
+        {
+          "name": "Repere_4_INPUT",
+          "color_linear_rgb": [
+            0.87,
+            0.9,
+            0.93
+          ],
+          "solids": 6
+        },
+        {
+          "name": "Repere_+3",
+          "color_linear_rgb": [
+            0.87,
+            0.9,
+            0.93
+          ],
+          "solids": 2
+        }
+      ],
+      "preview": {
+        "file": "crydom-d1d100-exterieur-detaille.png",
+        "sha256": "77f7a14309a766161e30b21092dc076f2edc941ac0742edd051711373d8afb59"
+      },
+      "generator": "tools/build_battery_protection_step.py",
+      "generator_sha256": "cc8bb7df58beee5f3b7123dfbc44a64e6dbcedbc421e0b51758303c1138ad14a"
+    }
+  ],
+  "source_assets": "../assets.json"
+}

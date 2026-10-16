@@ -1,0 +1,1096 @@
+{
+  "generated_on": "2026-10-14",
+  "unit": "mm",
+  "models": [
+    {
+      "folder": "distribution-alimentation/bornier-2315",
+      "file": "bluesea-2305-borniers-sans-capot-detaille.step",
+      "title": "MiniBus 2315 | socle, bus et quatre goujons",
+      "generated_on": "2026-10-14",
+      "unit": "mm",
+      "cadquery_version": "2.8.0",
+      "coordinate_system": "X longueur; Y largeur; Z vertical; centre XY du socle; dessous z=0. Assemblages: decalages explicites.",
+      "bytes": 19005570,
+      "sha256": "e90afee48718a273eda13c25a428eaf0d044b955a596ab2ae1843f61453d1368",
+      "native_vendor_cad": false,
+      "hardware_measured": false,
+      "is_custom_project_design": false,
+      "published_nominal": [
+        "2315: quatre goujons #10-32, bus commun, capot 2713 inclus.",
+        "Plan constructeur: L106.68 W22.86; fixation90.49; goujons extremes64.77.",
+        "Hauteur minimum avec capot31.75; cote verticale sans capot15.88 du plan."
+      ],
+      "estimates_and_limitations": [
+        "Reconstruction, pas un STEP natif fabricant; dimensions non mesurees sur pieces.",
+        "Hauteur31.75 est MINIMUM constructeur: ne garantit pas enveloppe maximum avec cosses.",
+        "Diametres de fixation5.5 et lamages11, epaisseurs, contour du bus et visserie estimes.",
+        "Filetages externes #10-32 UNF par sections reglees, erreur radiale de corde<=0.047mm; taraudages simplifies.",
+        "Manchons, clips, parois, reliefs, rayons et logos du capot non cotes estimes.",
+        "Cosses, cables, vis de chassis et fusibles de branches absents; implantation a terminer.",
+        "Cote15.88 du plan utilisee comme dessus de barre pour reconstruction; interpretation interne non cotee."
+      ],
+      "parameters": {
+        "base_envelope_mm": [
+          106.68,
+          22.86
+        ],
+        "mount_pitch_mm": 90.49,
+        "mount_bore_estimated_mm": 5.5,
+        "stud_thread": "#10-32 UNF",
+        "stud_diameter_mm": 4.826,
+        "stud_pitch_mm": 0.79375,
+        "extreme_stud_pitch_mm": 64.77,
+        "stud_centres_mm": [
+          -32.385,
+          -10.795,
+          10.795,
+          32.385
+        ],
+        "adjacent_stud_pitch_inferred_mm": 21.59,
+        "closed_minimum_height_mm": 31.75,
+        "bus_cross_section_estimated_mm": [
+          12.7,
+          1.98
+        ]
+      },
+      "source_pages": [
+        "Plan JPG2315 officiel",
+        "Catalogue BlueSea2024: PDF p100",
+        "Photos Amazon.com ASINB000OTJ8A0"
+      ],
+      "bounds_mm": {
+        "xmin": -53.34,
+        "xmax": 53.34,
+        "ymin": -11.43,
+        "ymax": 11.43,
+        "zmin": 0.0,
+        "zmax": 28.98000010025724
+      },
+      "validation": {
+        "valid_after_reimport": true,
+        "solids": 10,
+        "faces": 3856,
+        "colors": 2,
+        "volume_relative_error": 3.3297360262450243e-10,
+        "volume_relative_error_limit": 0.0001,
+        "volume_before_mm3": 29248.63107745272,
+        "volume_after_mm3": 29248.63108719174,
+        "adaptive_volume_tolerance": 1e-09,
+        "bbox_error_mm": 5.997427585668902e-07,
+        "bbox_error_limit_mm": 0.01,
+        "void_and_material_probes": [
+          {
+            "point": [
+              -45.245,
+              0,
+              2
+            ],
+            "occupied": false
+          },
+          {
+            "point": [
+              0,
+              0,
+              14.7
+            ],
+            "occupied": true
+          }
+        ],
+        "elapsed_seconds": 41.003153500001645,
+        "pairwise_overlap_limit_mm3": 1e-05,
+        "pairwise_material_overlaps": [],
+        "visible_thread_verified": true,
+        "external_thread_validation": {
+          "radius_mm": 2.2,
+          "z_start_mm": 22,
+          "z_step_mm": 0.049609375,
+          "samples_occupied": [
+            false,
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "sections_per_turn_minimum": 16,
+          "maximum_radial_chord_error_mm": 0.047
+        }
+      },
+      "parts": [
+        {
+          "name": "Socle_noir_moule_reconstruction",
+          "color_linear_rgb": [
+            0.012,
+            0.014,
+            0.017
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Barre_cuivre_C110_etame_estimee",
+          "color_linear_rgb": [
+            0.65,
+            0.67,
+            0.69
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Goujon_10_32_UNF_1_longueur_estimee",
+          "color_linear_rgb": [
+            0.65,
+            0.67,
+            0.69
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Ecrou_flange_dentee_1_alesage_simplifie",
+          "color_linear_rgb": [
+            0.65,
+            0.67,
+            0.69
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Goujon_10_32_UNF_2_longueur_estimee",
+          "color_linear_rgb": [
+            0.65,
+            0.67,
+            0.69
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Ecrou_flange_dentee_2_alesage_simplifie",
+          "color_linear_rgb": [
+            0.65,
+            0.67,
+            0.69
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Goujon_10_32_UNF_3_longueur_estimee",
+          "color_linear_rgb": [
+            0.65,
+            0.67,
+            0.69
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Ecrou_flange_dentee_3_alesage_simplifie",
+          "color_linear_rgb": [
+            0.65,
+            0.67,
+            0.69
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Goujon_10_32_UNF_4_longueur_estimee",
+          "color_linear_rgb": [
+            0.65,
+            0.67,
+            0.69
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Ecrou_flange_dentee_4_alesage_simplifie",
+          "color_linear_rgb": [
+            0.65,
+            0.67,
+            0.69
+          ],
+          "solids": 1
+        }
+      ],
+      "preview": {
+        "file": "bluesea-2305-borniers-sans-capot-detaille.png",
+        "sha256": "466d1a03d0056ec8e379ef8cce2f9e51480aa75a3091941118a84a2e6badb1ba"
+      },
+      "appearance_note": "Polycarbonate transparent reel; teinte claire opaque dans cet export pour compatibilite. Aucun indice optique valide."
+    },
+    {
+      "folder": "distribution-alimentation/capot-2713",
+      "file": "bluesea-2713-capot-detaille.step",
+      "title": "2713 | capot de protection MiniBus",
+      "generated_on": "2026-10-14",
+      "unit": "mm",
+      "cadquery_version": "2.8.0",
+      "coordinate_system": "X longueur; Y largeur; Z vertical; centre XY du socle; dessous z=0. Assemblages: decalages explicites.",
+      "bytes": 1633492,
+      "sha256": "d061c292e6f81af3a386e1a8398340ead52d2e7ef24097bff269921a09a2fb05",
+      "native_vendor_cad": false,
+      "hardware_measured": false,
+      "is_custom_project_design": false,
+      "published_nominal": [
+        "2315: quatre goujons #10-32, bus commun, capot 2713 inclus.",
+        "Plan constructeur: L106.68 W22.86; fixation90.49; goujons extremes64.77.",
+        "Hauteur minimum avec capot31.75; cote verticale sans capot15.88 du plan."
+      ],
+      "estimates_and_limitations": [
+        "Reconstruction, pas un STEP natif fabricant; dimensions non mesurees sur pieces.",
+        "Hauteur31.75 est MINIMUM constructeur: ne garantit pas enveloppe maximum avec cosses.",
+        "Diametres de fixation5.5 et lamages11, epaisseurs, contour du bus et visserie estimes.",
+        "Filetages externes #10-32 UNF par sections reglees, erreur radiale de corde<=0.047mm; taraudages simplifies.",
+        "Manchons, clips, parois, reliefs, rayons et logos du capot non cotes estimes.",
+        "Cosses, cables, vis de chassis et fusibles de branches absents; implantation a terminer.",
+        "Cote15.88 du plan utilisee comme dessus de barre pour reconstruction; interpretation interne non cotee."
+      ],
+      "parameters": {
+        "base_envelope_mm": [
+          106.68,
+          22.86
+        ],
+        "mount_pitch_mm": 90.49,
+        "mount_bore_estimated_mm": 5.5,
+        "stud_thread": "#10-32 UNF",
+        "stud_diameter_mm": 4.826,
+        "stud_pitch_mm": 0.79375,
+        "extreme_stud_pitch_mm": 64.77,
+        "stud_centres_mm": [
+          -32.385,
+          -10.795,
+          10.795,
+          32.385
+        ],
+        "adjacent_stud_pitch_inferred_mm": 21.59,
+        "closed_minimum_height_mm": 31.75,
+        "bus_cross_section_estimated_mm": [
+          12.7,
+          1.98
+        ]
+      },
+      "source_pages": [
+        "Plan JPG2315 officiel",
+        "Catalogue BlueSea2024: PDF p100",
+        "Photos Amazon.com ASINB000OTJ8A0"
+      ],
+      "bounds_mm": {
+        "xmin": -43.1800001,
+        "xmax": 43.1800001,
+        "ymin": -11.0000001,
+        "ymax": 11.0000001,
+        "zmin": 18.0,
+        "zmax": 31.7500001
+      },
+      "validation": {
+        "valid_after_reimport": true,
+        "solids": 1,
+        "faces": 331,
+        "colors": 1,
+        "volume_relative_error": 1.1913458646544324e-13,
+        "volume_relative_error_limit": 0.0001,
+        "volume_before_mm3": 5191.241398105525,
+        "volume_after_mm3": 5191.241398106144,
+        "adaptive_volume_tolerance": 1e-09,
+        "bbox_error_mm": 7.105427357601002e-15,
+        "bbox_error_limit_mm": 0.01,
+        "void_and_material_probes": [],
+        "elapsed_seconds": 4.992642199998954,
+        "pairwise_overlap_limit_mm3": 1e-05,
+        "pairwise_material_overlaps": [],
+        "visible_thread_verified": false,
+        "external_thread_validation": null
+      },
+      "parts": [
+        {
+          "name": "Capot_2713_PC_clair_affichage_opaque",
+          "color_linear_rgb": [
+            0.78,
+            0.81,
+            0.82
+          ],
+          "solids": 1
+        }
+      ],
+      "preview": {
+        "file": "bluesea-2713-capot-detaille.png",
+        "sha256": "1f7acf7361b36b8cb469ab1ffd23549c608293e2e329a99cf16c9030c83d6f1f"
+      },
+      "appearance_note": "Polycarbonate transparent reel; teinte claire opaque dans cet export pour compatibilite. Aucun indice optique valide."
+    },
+    {
+      "folder": "distribution-alimentation/bornier-2315",
+      "file": "bluesea-2315-complet-detaille.step",
+      "title": "MiniBus 2315 | ensemble ferme",
+      "generated_on": "2026-10-14",
+      "unit": "mm",
+      "cadquery_version": "2.8.0",
+      "coordinate_system": "X longueur; Y largeur; Z vertical; centre XY du socle; dessous z=0. Assemblages: decalages explicites.",
+      "bytes": 20721781,
+      "sha256": "7d06cb397015a81eee7815601b76c3cf250e16ec4d51ac3010454fc6e9a364b7",
+      "native_vendor_cad": false,
+      "hardware_measured": false,
+      "is_custom_project_design": false,
+      "published_nominal": [
+        "2315: quatre goujons #10-32, bus commun, capot 2713 inclus.",
+        "Plan constructeur: L106.68 W22.86; fixation90.49; goujons extremes64.77.",
+        "Hauteur minimum avec capot31.75; cote verticale sans capot15.88 du plan."
+      ],
+      "estimates_and_limitations": [
+        "Reconstruction, pas un STEP natif fabricant; dimensions non mesurees sur pieces.",
+        "Hauteur31.75 est MINIMUM constructeur: ne garantit pas enveloppe maximum avec cosses.",
+        "Diametres de fixation5.5 et lamages11, epaisseurs, contour du bus et visserie estimes.",
+        "Filetages externes #10-32 UNF par sections reglees, erreur radiale de corde<=0.047mm; taraudages simplifies.",
+        "Manchons, clips, parois, reliefs, rayons et logos du capot non cotes estimes.",
+        "Cosses, cables, vis de chassis et fusibles de branches absents; implantation a terminer.",
+        "Cote15.88 du plan utilisee comme dessus de barre pour reconstruction; interpretation interne non cotee."
+      ],
+      "parameters": {
+        "base_envelope_mm": [
+          106.68,
+          22.86
+        ],
+        "mount_pitch_mm": 90.49,
+        "mount_bore_estimated_mm": 5.5,
+        "stud_thread": "#10-32 UNF",
+        "stud_diameter_mm": 4.826,
+        "stud_pitch_mm": 0.79375,
+        "extreme_stud_pitch_mm": 64.77,
+        "stud_centres_mm": [
+          -32.385,
+          -10.795,
+          10.795,
+          32.385
+        ],
+        "adjacent_stud_pitch_inferred_mm": 21.59,
+        "closed_minimum_height_mm": 31.75,
+        "bus_cross_section_estimated_mm": [
+          12.7,
+          1.98
+        ]
+      },
+      "source_pages": [
+        "Plan JPG2315 officiel",
+        "Catalogue BlueSea2024: PDF p100",
+        "Photos Amazon.com ASINB000OTJ8A0"
+      ],
+      "bounds_mm": {
+        "xmin": -53.34,
+        "xmax": 53.34,
+        "ymin": -11.43,
+        "ymax": 11.43,
+        "zmin": 0.0,
+        "zmax": 31.7500001
+      },
+      "validation": {
+        "valid_after_reimport": true,
+        "solids": 11,
+        "faces": 4187,
+        "colors": 3,
+        "volume_relative_error": 2.887877143034089e-10,
+        "volume_relative_error_limit": 0.0001,
+        "volume_before_mm3": 34439.87247531505,
+        "volume_after_mm3": 34439.872485260865,
+        "adaptive_volume_tolerance": 1e-09,
+        "bbox_error_mm": 0.0,
+        "bbox_error_limit_mm": 0.01,
+        "void_and_material_probes": [],
+        "elapsed_seconds": 42.16134469999815,
+        "pairwise_overlap_limit_mm3": 1e-05,
+        "pairwise_material_overlaps": [],
+        "visible_thread_verified": true,
+        "external_thread_validation": {
+          "radius_mm": 2.2,
+          "z_start_mm": 22,
+          "z_step_mm": 0.049609375,
+          "samples_occupied": [
+            false,
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "sections_per_turn_minimum": 16,
+          "maximum_radial_chord_error_mm": 0.047
+        }
+      },
+      "parts": [
+        {
+          "name": "Socle_noir_moule_reconstruction",
+          "color_linear_rgb": [
+            0.012,
+            0.014,
+            0.017
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Barre_cuivre_C110_etame_estimee",
+          "color_linear_rgb": [
+            0.65,
+            0.67,
+            0.69
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Goujon_10_32_UNF_1_longueur_estimee",
+          "color_linear_rgb": [
+            0.65,
+            0.67,
+            0.69
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Ecrou_flange_dentee_1_alesage_simplifie",
+          "color_linear_rgb": [
+            0.65,
+            0.67,
+            0.69
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Goujon_10_32_UNF_2_longueur_estimee",
+          "color_linear_rgb": [
+            0.65,
+            0.67,
+            0.69
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Ecrou_flange_dentee_2_alesage_simplifie",
+          "color_linear_rgb": [
+            0.65,
+            0.67,
+            0.69
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Goujon_10_32_UNF_3_longueur_estimee",
+          "color_linear_rgb": [
+            0.65,
+            0.67,
+            0.69
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Ecrou_flange_dentee_3_alesage_simplifie",
+          "color_linear_rgb": [
+            0.65,
+            0.67,
+            0.69
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Goujon_10_32_UNF_4_longueur_estimee",
+          "color_linear_rgb": [
+            0.65,
+            0.67,
+            0.69
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Ecrou_flange_dentee_4_alesage_simplifie",
+          "color_linear_rgb": [
+            0.65,
+            0.67,
+            0.69
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Capot_2713_PC_clair_affichage_opaque",
+          "color_linear_rgb": [
+            0.78,
+            0.81,
+            0.82
+          ],
+          "solids": 1
+        }
+      ],
+      "preview": {
+        "file": "bluesea-2315-complet-detaille.png",
+        "sha256": "87b447cf6a5efda0a0e7474285239908686aa16b092f33aba2b3e12b43654efa"
+      },
+      "appearance_note": "Polycarbonate transparent reel; teinte claire opaque dans cet export pour compatibilite. Aucun indice optique valide."
+    },
+    {
+      "folder": "distribution-alimentation",
+      "file": "bluesea-2315-vue-eclatee.step",
+      "title": "MiniBus 2315 | vue eclatee",
+      "generated_on": "2026-10-14",
+      "unit": "mm",
+      "cadquery_version": "2.8.0",
+      "coordinate_system": "X longueur; Y largeur; Z vertical; centre XY du socle; dessous z=0. Assemblages: decalages explicites.",
+      "bytes": 20702538,
+      "sha256": "f5c368984ba912ab9ffd5a4bc97baa47eed9b6cd43c841a65550472dcf3528bb",
+      "native_vendor_cad": false,
+      "hardware_measured": false,
+      "is_custom_project_design": false,
+      "published_nominal": [
+        "2315: quatre goujons #10-32, bus commun, capot 2713 inclus.",
+        "Plan constructeur: L106.68 W22.86; fixation90.49; goujons extremes64.77.",
+        "Hauteur minimum avec capot31.75; cote verticale sans capot15.88 du plan."
+      ],
+      "estimates_and_limitations": [
+        "Reconstruction, pas un STEP natif fabricant; dimensions non mesurees sur pieces.",
+        "Hauteur31.75 est MINIMUM constructeur: ne garantit pas enveloppe maximum avec cosses.",
+        "Diametres de fixation5.5 et lamages11, epaisseurs, contour du bus et visserie estimes.",
+        "Filetages externes #10-32 UNF par sections reglees, erreur radiale de corde<=0.047mm; taraudages simplifies.",
+        "Manchons, clips, parois, reliefs, rayons et logos du capot non cotes estimes.",
+        "Cosses, cables, vis de chassis et fusibles de branches absents; implantation a terminer.",
+        "Cote15.88 du plan utilisee comme dessus de barre pour reconstruction; interpretation interne non cotee."
+      ],
+      "parameters": {
+        "base_envelope_mm": [
+          106.68,
+          22.86
+        ],
+        "mount_pitch_mm": 90.49,
+        "mount_bore_estimated_mm": 5.5,
+        "stud_thread": "#10-32 UNF",
+        "stud_diameter_mm": 4.826,
+        "stud_pitch_mm": 0.79375,
+        "extreme_stud_pitch_mm": 64.77,
+        "stud_centres_mm": [
+          -32.385,
+          -10.795,
+          10.795,
+          32.385
+        ],
+        "adjacent_stud_pitch_inferred_mm": 21.59,
+        "closed_minimum_height_mm": 31.75,
+        "bus_cross_section_estimated_mm": [
+          12.7,
+          1.98
+        ],
+        "cover_exploded_offset_mm": 19
+      },
+      "source_pages": [
+        "Plan JPG2315 officiel",
+        "Catalogue BlueSea2024: PDF p100",
+        "Photos Amazon.com ASINB000OTJ8A0"
+      ],
+      "bounds_mm": {
+        "xmin": -53.34,
+        "xmax": 53.34,
+        "ymin": -11.43,
+        "ymax": 11.43,
+        "zmin": 0.0,
+        "zmax": 50.7500001
+      },
+      "validation": {
+        "valid_after_reimport": true,
+        "solids": 11,
+        "faces": 4187,
+        "colors": 3,
+        "volume_relative_error": 2.972869262309736e-10,
+        "volume_relative_error_limit": 0.0001,
+        "volume_before_mm3": 34439.87247495377,
+        "volume_after_mm3": 34439.872485192296,
+        "adaptive_volume_tolerance": 1e-09,
+        "bbox_error_mm": 0.0,
+        "bbox_error_limit_mm": 0.01,
+        "void_and_material_probes": [],
+        "elapsed_seconds": 46.79144819999783,
+        "pairwise_overlap_limit_mm3": 1e-05,
+        "pairwise_material_overlaps": [],
+        "visible_thread_verified": true,
+        "external_thread_validation": {
+          "radius_mm": 2.2,
+          "z_start_mm": 22,
+          "z_step_mm": 0.049609375,
+          "samples_occupied": [
+            false,
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "sections_per_turn_minimum": 16,
+          "maximum_radial_chord_error_mm": 0.047
+        }
+      },
+      "parts": [
+        {
+          "name": "Socle_noir_moule_reconstruction",
+          "color_linear_rgb": [
+            0.012,
+            0.014,
+            0.017
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Barre_cuivre_C110_etame_estimee",
+          "color_linear_rgb": [
+            0.65,
+            0.67,
+            0.69
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Goujon_10_32_UNF_1_longueur_estimee",
+          "color_linear_rgb": [
+            0.65,
+            0.67,
+            0.69
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Ecrou_flange_dentee_1_alesage_simplifie",
+          "color_linear_rgb": [
+            0.65,
+            0.67,
+            0.69
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Goujon_10_32_UNF_2_longueur_estimee",
+          "color_linear_rgb": [
+            0.65,
+            0.67,
+            0.69
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Ecrou_flange_dentee_2_alesage_simplifie",
+          "color_linear_rgb": [
+            0.65,
+            0.67,
+            0.69
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Goujon_10_32_UNF_3_longueur_estimee",
+          "color_linear_rgb": [
+            0.65,
+            0.67,
+            0.69
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Ecrou_flange_dentee_3_alesage_simplifie",
+          "color_linear_rgb": [
+            0.65,
+            0.67,
+            0.69
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Goujon_10_32_UNF_4_longueur_estimee",
+          "color_linear_rgb": [
+            0.65,
+            0.67,
+            0.69
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Ecrou_flange_dentee_4_alesage_simplifie",
+          "color_linear_rgb": [
+            0.65,
+            0.67,
+            0.69
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Capot_2713_PC_clair_affichage_opaque",
+          "color_linear_rgb": [
+            0.78,
+            0.81,
+            0.82
+          ],
+          "solids": 1
+        }
+      ],
+      "preview": {
+        "file": "bluesea-2315-vue-eclatee.png",
+        "sha256": "9667f4657a9ee647f4ca04d5136e45c9cb91721f634967564d7711758681e23c"
+      },
+      "appearance_note": "Polycarbonate transparent reel; teinte claire opaque dans cet export pour compatibilite. Aucun indice optique valide."
+    },
+    {
+      "folder": "distribution-alimentation",
+      "file": "distribution-deux-minibus-2315-etude.step",
+      "title": "V3 | deux MiniBus isoles, positif et negatif",
+      "generated_on": "2026-10-14",
+      "unit": "mm",
+      "cadquery_version": "2.8.0",
+      "coordinate_system": "X longueur; Y largeur; Z vertical; centre XY du socle; dessous z=0. Assemblages: decalages explicites.",
+      "bytes": 41684082,
+      "sha256": "6172f2891930c685a1ad4413dfe1588a5d111b323bf630b2805b96a562e91c99",
+      "native_vendor_cad": false,
+      "hardware_measured": false,
+      "is_custom_project_design": true,
+      "published_nominal": [
+        "2315: quatre goujons #10-32, bus commun, capot 2713 inclus.",
+        "Plan constructeur: L106.68 W22.86; fixation90.49; goujons extremes64.77.",
+        "Hauteur minimum avec capot31.75; cote verticale sans capot15.88 du plan."
+      ],
+      "estimates_and_limitations": [
+        "Reconstruction, pas un STEP natif fabricant; dimensions non mesurees sur pieces.",
+        "Hauteur31.75 est MINIMUM constructeur: ne garantit pas enveloppe maximum avec cosses.",
+        "Diametres de fixation5.5 et lamages11, epaisseurs, contour du bus et visserie estimes.",
+        "Filetages externes #10-32 UNF par sections reglees, erreur radiale de corde<=0.047mm; taraudages simplifies.",
+        "Manchons, clips, parois, reliefs, rayons et logos du capot non cotes estimes.",
+        "Cosses, cables, vis de chassis et fusibles de branches absents; implantation a terminer.",
+        "Cote15.88 du plan utilisee comme dessus de barre pour reconstruction; interpretation interne non cotee.",
+        "Decalage des rails46 et etiquettes rouge/noire: implantation de projet, pas un produit double vendu.",
+        "Le socle est represente sans chassis. Encombrement de fils/cosses non valide."
+      ],
+      "parameters": {
+        "base_envelope_mm": [
+          106.68,
+          22.86
+        ],
+        "mount_pitch_mm": 90.49,
+        "mount_bore_estimated_mm": 5.5,
+        "stud_thread": "#10-32 UNF",
+        "stud_diameter_mm": 4.826,
+        "stud_pitch_mm": 0.79375,
+        "extreme_stud_pitch_mm": 64.77,
+        "stud_centres_mm": [
+          -32.385,
+          -10.795,
+          10.795,
+          32.385
+        ],
+        "adjacent_stud_pitch_inferred_mm": 21.59,
+        "closed_minimum_height_mm": 31.75,
+        "bus_cross_section_estimated_mm": [
+          12.7,
+          1.98
+        ],
+        "rail_centres_y_mm": [
+          -23,
+          23
+        ],
+        "base_edge_gap_mm": 23.14
+      },
+      "source_pages": [
+        "Plan JPG2315 officiel",
+        "Catalogue BlueSea2024: PDF p100",
+        "Photos Amazon.com ASINB000OTJ8A0"
+      ],
+      "bounds_mm": {
+        "xmin": -53.34,
+        "xmax": 53.34,
+        "ymin": -34.43,
+        "ymax": 34.43,
+        "zmin": 0.0,
+        "zmax": 31.7500001
+      },
+      "validation": {
+        "valid_after_reimport": true,
+        "solids": 24,
+        "faces": 8386,
+        "colors": 5,
+        "volume_relative_error": 2.8899081181097024e-10,
+        "volume_relative_error_limit": 0.0001,
+        "volume_before_mm3": 68882.14495061677,
+        "volume_after_mm3": 68882.14497052308,
+        "adaptive_volume_tolerance": 1e-09,
+        "bbox_error_mm": 0.0,
+        "bbox_error_limit_mm": 0.01,
+        "void_and_material_probes": [],
+        "elapsed_seconds": 88.5102068999986,
+        "pairwise_overlap_limit_mm3": 1e-05,
+        "pairwise_material_overlaps": [],
+        "visible_thread_verified": true,
+        "external_thread_validation": {
+          "radius_mm": 2.2,
+          "z_start_mm": 22,
+          "z_step_mm": 0.049609375,
+          "samples_occupied": [
+            false,
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "sections_per_turn_minimum": 16,
+          "maximum_radial_chord_error_mm": 0.047
+        }
+      },
+      "parts": [
+        {
+          "name": "POSITIF_Socle_noir_moule_reconstruction",
+          "color_linear_rgb": [
+            0.012,
+            0.014,
+            0.017
+          ],
+          "solids": 1
+        },
+        {
+          "name": "POSITIF_Barre_cuivre_C110_etame_estimee",
+          "color_linear_rgb": [
+            0.65,
+            0.67,
+            0.69
+          ],
+          "solids": 1
+        },
+        {
+          "name": "POSITIF_Goujon_10_32_UNF_1_longueur_estimee",
+          "color_linear_rgb": [
+            0.65,
+            0.67,
+            0.69
+          ],
+          "solids": 1
+        },
+        {
+          "name": "POSITIF_Ecrou_flange_dentee_1_alesage_simplifie",
+          "color_linear_rgb": [
+            0.65,
+            0.67,
+            0.69
+          ],
+          "solids": 1
+        },
+        {
+          "name": "POSITIF_Goujon_10_32_UNF_2_longueur_estimee",
+          "color_linear_rgb": [
+            0.65,
+            0.67,
+            0.69
+          ],
+          "solids": 1
+        },
+        {
+          "name": "POSITIF_Ecrou_flange_dentee_2_alesage_simplifie",
+          "color_linear_rgb": [
+            0.65,
+            0.67,
+            0.69
+          ],
+          "solids": 1
+        },
+        {
+          "name": "POSITIF_Goujon_10_32_UNF_3_longueur_estimee",
+          "color_linear_rgb": [
+            0.65,
+            0.67,
+            0.69
+          ],
+          "solids": 1
+        },
+        {
+          "name": "POSITIF_Ecrou_flange_dentee_3_alesage_simplifie",
+          "color_linear_rgb": [
+            0.65,
+            0.67,
+            0.69
+          ],
+          "solids": 1
+        },
+        {
+          "name": "POSITIF_Goujon_10_32_UNF_4_longueur_estimee",
+          "color_linear_rgb": [
+            0.65,
+            0.67,
+            0.69
+          ],
+          "solids": 1
+        },
+        {
+          "name": "POSITIF_Ecrou_flange_dentee_4_alesage_simplifie",
+          "color_linear_rgb": [
+            0.65,
+            0.67,
+            0.69
+          ],
+          "solids": 1
+        },
+        {
+          "name": "POSITIF_Capot_2713_PC_clair_affichage_opaque",
+          "color_linear_rgb": [
+            0.78,
+            0.81,
+            0.82
+          ],
+          "solids": 1
+        },
+        {
+          "name": "POSITIF_Etiquette_V3_ajoutee",
+          "color_linear_rgb": [
+            0.65,
+            0.015,
+            0.012
+          ],
+          "solids": 1
+        },
+        {
+          "name": "NEGATIF_Socle_noir_moule_reconstruction",
+          "color_linear_rgb": [
+            0.012,
+            0.014,
+            0.017
+          ],
+          "solids": 1
+        },
+        {
+          "name": "NEGATIF_Barre_cuivre_C110_etame_estimee",
+          "color_linear_rgb": [
+            0.65,
+            0.67,
+            0.69
+          ],
+          "solids": 1
+        },
+        {
+          "name": "NEGATIF_Goujon_10_32_UNF_1_longueur_estimee",
+          "color_linear_rgb": [
+            0.65,
+            0.67,
+            0.69
+          ],
+          "solids": 1
+        },
+        {
+          "name": "NEGATIF_Ecrou_flange_dentee_1_alesage_simplifie",
+          "color_linear_rgb": [
+            0.65,
+            0.67,
+            0.69
+          ],
+          "solids": 1
+        },
+        {
+          "name": "NEGATIF_Goujon_10_32_UNF_2_longueur_estimee",
+          "color_linear_rgb": [
+            0.65,
+            0.67,
+            0.69
+          ],
+          "solids": 1
+        },
+        {
+          "name": "NEGATIF_Ecrou_flange_dentee_2_alesage_simplifie",
+          "color_linear_rgb": [
+            0.65,
+            0.67,
+            0.69
+          ],
+          "solids": 1
+        },
+        {
+          "name": "NEGATIF_Goujon_10_32_UNF_3_longueur_estimee",
+          "color_linear_rgb": [
+            0.65,
+            0.67,
+            0.69
+          ],
+          "solids": 1
+        },
+        {
+          "name": "NEGATIF_Ecrou_flange_dentee_3_alesage_simplifie",
+          "color_linear_rgb": [
+            0.65,
+            0.67,
+            0.69
+          ],
+          "solids": 1
+        },
+        {
+          "name": "NEGATIF_Goujon_10_32_UNF_4_longueur_estimee",
+          "color_linear_rgb": [
+            0.65,
+            0.67,
+            0.69
+          ],
+          "solids": 1
+        },
+        {
+          "name": "NEGATIF_Ecrou_flange_dentee_4_alesage_simplifie",
+          "color_linear_rgb": [
+            0.65,
+            0.67,
+            0.69
+          ],
+          "solids": 1
+        },
+        {
+          "name": "NEGATIF_Capot_2713_PC_clair_affichage_opaque",
+          "color_linear_rgb": [
+            0.78,
+            0.81,
+            0.82
+          ],
+          "solids": 1
+        },
+        {
+          "name": "NEGATIF_Etiquette_V3_ajoutee",
+          "color_linear_rgb": [
+            0.012,
+            0.012,
+            0.012
+          ],
+          "solids": 1
+        }
+      ],
+      "preview": {
+        "file": "distribution-deux-minibus-2315-etude.png",
+        "sha256": "8391e18c3ccffc8d4ee99658c10d4ed3de21114bd43080bafa9b5777aae4722f"
+      },
+      "appearance_note": "Polycarbonate transparent reel; teinte claire opaque dans cet export pour compatibilite. Aucun indice optique valide."
+    }
+  ],
+  "model_count": 5
+}

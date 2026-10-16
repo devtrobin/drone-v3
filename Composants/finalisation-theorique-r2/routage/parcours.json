@@ -1,0 +1,537 @@
+[
+  {
+    "code": "P01",
+    "net": "IC5+ vers F0, chemin fixe protégé",
+    "wire": "10 AWG puis6mm²",
+    "diameter_design_mm": 6.5,
+    "bend_radius_mm": 30,
+    "centreline_mm": 414.37,
+    "service_and_termination_allowance_mm": 40,
+    "blank_length_mm": 460,
+    "status": "Approches des bornes à relever",
+    "points_mm": [
+      [
+        0,
+        190,
+        55
+      ],
+      [
+        -40,
+        190,
+        55
+      ],
+      [
+        -40,
+        350,
+        55
+      ],
+      [
+        33,
+        350,
+        55
+      ],
+      [
+        33,
+        170,
+        55
+      ]
+    ]
+  },
+  {
+    "code": "P02",
+    "net": "IC5- vers D-",
+    "wire": "10 AWG puis6mm², extensionnégative160mm àprésenter",
+    "diameter_design_mm": 6.5,
+    "bend_radius_mm": 30,
+    "centreline_mm": 191.25,
+    "service_and_termination_allowance_mm": 30,
+    "blank_length_mm": 230,
+    "status": "Approches des bornes à relever",
+    "points_mm": [
+      [
+        0,
+        190,
+        64
+      ],
+      [
+        -46,
+        190,
+        64
+      ],
+      [
+        -46,
+        320,
+        64
+      ],
+      [
+        -87,
+        320,
+        64
+      ]
+    ]
+  },
+  {
+    "code": "P03",
+    "net": "F0 sortie vers ED80",
+    "wire": "6mm²",
+    "diameter_design_mm": 6.5,
+    "bend_radius_mm": 30,
+    "centreline_mm": 269.25,
+    "service_and_termination_allowance_mm": 60,
+    "blank_length_mm": 330,
+    "status": "Corridor haut, supports et descentes aux bornes à confirmer",
+    "points_mm": [
+      [
+        120,
+        110,
+        110
+      ],
+      [
+        120,
+        70,
+        110
+      ],
+      [
+        -65,
+        70,
+        110
+      ],
+      [
+        -65,
+        140,
+        110
+      ]
+    ]
+  },
+  {
+    "code": "P04",
+    "net": "ED80 vers D+",
+    "wire": "6mm²",
+    "diameter_design_mm": 6.5,
+    "bend_radius_mm": 30,
+    "centreline_mm": 277.25,
+    "service_and_termination_allowance_mm": 60,
+    "blank_length_mm": 340,
+    "status": "Corridor latéral haut ; descentes aux bornes à confirmer",
+    "points_mm": [
+      [
+        -65,
+        140,
+        110
+      ],
+      [
+        -155,
+        140,
+        110
+      ],
+      [
+        -155,
+        285,
+        110
+      ],
+      [
+        -87,
+        285,
+        110
+      ]
+    ]
+  },
+  {
+    "code": "P05",
+    "net": "D+ vers SSR",
+    "wire": "6mm²",
+    "diameter_design_mm": 6.5,
+    "bend_radius_mm": 30,
+    "centreline_mm": 177.25,
+    "service_and_termination_allowance_mm": 80,
+    "blank_length_mm": 260,
+    "status": "Corridor latéral haut ; descentes aux bornes à confirmer",
+    "points_mm": [
+      [
+        -87,
+        290,
+        125
+      ],
+      [
+        -155,
+        290,
+        125
+      ],
+      [
+        -155,
+        220,
+        125
+      ],
+      [
+        -90,
+        220,
+        125
+      ]
+    ]
+  },
+  {
+    "code": "P06",
+    "net": "SSR vers UD80",
+    "wire": "6mm²",
+    "diameter_design_mm": 6.5,
+    "bend_radius_mm": 30,
+    "centreline_mm": 594.37,
+    "service_and_termination_allowance_mm": 60,
+    "blank_length_mm": 660,
+    "status": "Corridor supérieur avec pont de maintien à concevoir ; non libéré",
+    "points_mm": [
+      [
+        -90,
+        227,
+        135
+      ],
+      [
+        -155,
+        227,
+        135
+      ],
+      [
+        -155,
+        450,
+        135
+      ],
+      [
+        108,
+        450,
+        135
+      ],
+      [
+        108,
+        368,
+        135
+      ]
+    ]
+  },
+  {
+    "code": "M_G",
+    "net": "F1 vers XT60 ESCG",
+    "wire": "12 AWG",
+    "diameter_design_mm": 4,
+    "bend_radius_mm": 8,
+    "centreline_mm": 166.13,
+    "service_and_termination_allowance_mm": 40,
+    "blank_length_mm": 210,
+    "status": "Approches des bornes à relever",
+    "points_mm": [
+      [
+        -47,
+        376,
+        44
+      ],
+      [
+        -47,
+        340,
+        44
+      ],
+      [
+        60,
+        340,
+        44
+      ],
+      [
+        60,
+        310,
+        44
+      ]
+    ]
+  },
+  {
+    "code": "N_G",
+    "net": "ESCG retour D-",
+    "wire": "12 AWG",
+    "diameter_design_mm": 4,
+    "bend_radius_mm": 4,
+    "centreline_mm": 92.57,
+    "service_and_termination_allowance_mm": 35,
+    "blank_length_mm": 130,
+    "status": "Approches des bornes à relever",
+    "points_mm": [
+      [
+        -47,
+        376,
+        47
+      ],
+      [
+        -47,
+        330,
+        47
+      ],
+      [
+        -87,
+        330,
+        47
+      ],
+      [
+        -87,
+        320,
+        47
+      ]
+    ]
+  },
+  {
+    "code": "M_D",
+    "net": "F2 vers XT60 ESCD",
+    "wire": "12 AWG",
+    "diameter_design_mm": 4,
+    "bend_radius_mm": 8,
+    "centreline_mm": 97.13,
+    "service_and_termination_allowance_mm": 40,
+    "blank_length_mm": 140,
+    "status": "Approches des bornes à relever",
+    "points_mm": [
+      [
+        47,
+        376,
+        44
+      ],
+      [
+        47,
+        340,
+        44
+      ],
+      [
+        85,
+        340,
+        44
+      ],
+      [
+        85,
+        310,
+        44
+      ]
+    ]
+  },
+  {
+    "code": "N_D",
+    "net": "ESCD retour D-",
+    "wire": "12 AWG",
+    "diameter_design_mm": 4,
+    "bend_radius_mm": 4,
+    "centreline_mm": 186.57,
+    "service_and_termination_allowance_mm": 35,
+    "blank_length_mm": 230,
+    "status": "Approches des bornes à relever",
+    "points_mm": [
+      [
+        47,
+        376,
+        47
+      ],
+      [
+        47,
+        330,
+        47
+      ],
+      [
+        -87,
+        330,
+        47
+      ],
+      [
+        -87,
+        320,
+        47
+      ]
+    ]
+  },
+  {
+    "code": "S01",
+    "net": "FS5A vers UBEC6V",
+    "wire": "18 AWG",
+    "diameter_design_mm": 2.8,
+    "bend_radius_mm": 5,
+    "centreline_mm": 218.7,
+    "service_and_termination_allowance_mm": 40,
+    "blank_length_mm": 260,
+    "status": "Approches des bornes à relever",
+    "points_mm": [
+      [
+        95,
+        20,
+        24
+      ],
+      [
+        70,
+        20,
+        24
+      ],
+      [
+        70,
+        105,
+        54
+      ],
+      [
+        -25,
+        105,
+        54
+      ],
+      [
+        -25,
+        120,
+        54
+      ]
+    ]
+  },
+  {
+    "code": "L01",
+    "net": "GPIO vers interface avant",
+    "wire": "22 AWG signaux, enveloppe8mm",
+    "diameter_design_mm": 8,
+    "bend_radius_mm": 8,
+    "centreline_mm": 445.17,
+    "service_and_termination_allowance_mm": 60,
+    "blank_length_mm": 510,
+    "status": "Approches des bornes à relever",
+    "points_mm": [
+      [
+        -10,
+        407,
+        123
+      ],
+      [
+        65,
+        407,
+        123
+      ],
+      [
+        65,
+        185,
+        123
+      ],
+      [
+        65,
+        175,
+        95
+      ],
+      [
+        0,
+        175,
+        95
+      ],
+      [
+        0,
+        110,
+        90
+      ]
+    ]
+  },
+  {
+    "code": "H_G",
+    "net": "HallG VCC/GND/OUT",
+    "wire": "3x22 AWG",
+    "diameter_design_mm": 3.5,
+    "bend_radius_mm": 5,
+    "centreline_mm": 149.99,
+    "service_and_termination_allowance_mm": 50,
+    "blank_length_mm": 200,
+    "status": "Approches des bornes à relever",
+    "points_mm": [
+      [
+        0,
+        407,
+        123
+      ],
+      [
+        -60,
+        407,
+        123
+      ],
+      [
+        -60,
+        445,
+        70
+      ],
+      [
+        -76,
+        445,
+        48
+      ]
+    ]
+  },
+  {
+    "code": "H_D",
+    "net": "HallD VCC/GND/OUT",
+    "wire": "3x22 AWG",
+    "diameter_design_mm": 3.5,
+    "bend_radius_mm": 5,
+    "centreline_mm": 149.99,
+    "service_and_termination_allowance_mm": 50,
+    "blank_length_mm": 200,
+    "status": "Approches des bornes à relever",
+    "points_mm": [
+      [
+        0,
+        407,
+        123
+      ],
+      [
+        60,
+        407,
+        123
+      ],
+      [
+        60,
+        445,
+        70
+      ],
+      [
+        76,
+        445,
+        48
+      ]
+    ]
+  },
+  {
+    "code": "USB",
+    "net": "Caméra vers USB Pi",
+    "wire": "USB blindé, câble caméra à confirmer",
+    "diameter_design_mm": 5,
+    "bend_radius_mm": 20,
+    "centreline_mm": 357.26,
+    "service_and_termination_allowance_mm": 100,
+    "blank_length_mm": 460,
+    "status": "Approches des bornes à relever",
+    "points_mm": [
+      [
+        0,
+        482,
+        231
+      ],
+      [
+        118,
+        482,
+        231
+      ],
+      [
+        118,
+        490,
+        150
+      ],
+      [
+        118,
+        490,
+        128
+      ],
+      [
+        70,
+        490,
+        128
+      ],
+      [
+        70,
+        395,
+        128
+      ],
+      [
+        48,
+        395,
+        112
+      ]
+    ]
+  }
+]

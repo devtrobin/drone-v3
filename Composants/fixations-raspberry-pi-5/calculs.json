@@ -1,0 +1,90 @@
+{
+  "date": "2026-10-14",
+  "hardware_tested": false,
+  "chassis_final_component": true,
+  "geometry": {
+    "board_holes_reference_mm": [
+      [
+        3.5,
+        3.5
+      ],
+      [
+        61.5,
+        3.5
+      ],
+      [
+        61.5,
+        52.5
+      ],
+      [
+        3.5,
+        52.5
+      ]
+    ],
+    "rectangle_mm": [
+      58,
+      49
+    ],
+    "board_hole_diameter_reference_mm": 2.7,
+    "thread_nominal_mm": 2.5,
+    "nominal_radial_clearance_mm": 0.10000000000000009,
+    "assumed_hex_surplats_mm": 5,
+    "assumed_hex_corner_radius_mm": 2.886751345948129,
+    "reference_land_diameter_mm": 6,
+    "nominal_corner_margin_mm": 0.1132486540518709,
+    "reference_drawing_not_production_data": true
+  },
+  "mounting_study": {
+    "body_mm": 10,
+    "stud_mm": 6,
+    "pcb_thickness_assumed_mm": 1.6,
+    "panel_thickness_assumed_mm": 2,
+    "washer_thickness_assumed_mm": 0.5,
+    "nut_height_assumed_mm": 2,
+    "screw_under_head_mm": 8,
+    "bottom_engagement_mm": 5.5,
+    "assumed_female_depth_mm": 6.5,
+    "female_bottom_margin_mm": 1.0,
+    "stud_protrusion_above_nut_mm": 1.9000000000000004,
+    "body_base_z_mm": 0,
+    "pcb_lower_face_z_mm": 10,
+    "nut_lower_face_z_mm": 12.1,
+    "stud_end_z_mm": 16,
+    "sole_component_caos": true,
+    "no_chassis_no_pcb_solid": true,
+    "final_height_selected": false
+  },
+  "candidates": [
+    {
+      "body_height_mm": 6,
+      "stud_mm": 6,
+      "nut_end_z_study_mm": 10.1,
+      "stud_end_z_mm": 12
+    },
+    {
+      "body_height_mm": 8,
+      "stud_mm": 6,
+      "nut_end_z_study_mm": 12.1,
+      "stud_end_z_mm": 14
+    },
+    {
+      "body_height_mm": 10,
+      "stud_mm": 6,
+      "nut_end_z_study_mm": 14.1,
+      "stud_end_z_mm": 16
+    },
+    {
+      "body_height_mm": 15,
+      "stud_mm": 6,
+      "nut_end_z_study_mm": 19.1,
+      "stud_end_z_mm": 21
+    },
+    {
+      "body_height_mm": 20,
+      "stud_mm": 6,
+      "nut_end_z_study_mm": 24.1,
+      "stud_end_z_mm": 26
+    }
+  ],
+  "warning": "Toutes les cotes fines du kit et épaisseurs de montage sont des hypothèses. Ne certifie ni serrage, ni résistance, ni tenue aux chocs, ni dégagement réel au Pi/cooler/GPIO."
+}

@@ -1,0 +1,2584 @@
+{
+  "generated_on": "2026-10-14",
+  "models": [
+    {
+      "file": "trois-bornes-potentiels-separes-etude.step",
+      "title": "Liaisons |5V,GND,6V distincts",
+      "generated_on": "2026-10-14",
+      "unit": "mm",
+      "cadquery_version": "2.8.0",
+      "coordinate_system": "Axe principal Z; face de reference z=0; dimensions selon parametres",
+      "bytes": 2141598,
+      "sha256": "d1b83ad679b3de12f6d4418368e993f9ab58bca9f343cc757f9f4a4ca7c118ed",
+      "native_vendor_cad": false,
+      "hardware_measured": false,
+      "is_custom_project_design": true,
+      "published_nominal": [
+        "WAGO2025/2024 :18.8ou30 x18.6x8.4,3ou5ports et unpotentiel."
+      ],
+      "estimates_and_limitations": [
+        "Poches, leviers, ressorts etbarreconductrice reconstruits ; transparence réelle représentée pargrisopaque dansSTEP.",
+        "Implantationisolée pourlecture, aucuneconnexionentrelesbarres, longueursfinalesauchâssis. La3e413masseServo estdanslenomenclaturecommande.",
+        "Nuances optiques estimées ; géométrie non mesurée. Pas de plan de fabrication ni de qualification mécanique/électrique."
+      ],
+      "parameters": {},
+      "source_pages": [
+        "Voir sources.json et cotes.md du composant / ensemble"
+      ],
+      "bounds_mm": {
+        "xmin": -15.0,
+        "xmax": 15.0,
+        "ymin": -9.3,
+        "ymax": 61.3,
+        "zmin": 0.0,
+        "zmax": 8.4000001
+      },
+      "validation": {
+        "valid_after_reimport": true,
+        "solids": 17,
+        "faces": 620,
+        "colors": 3,
+        "volume_relative_error": 1.2095672579955716e-14,
+        "volume_relative_error_limit": 0.0001,
+        "volume_before_mm3": 6917.640338724822,
+        "volume_after_mm3": 6917.640338724738,
+        "adaptive_volume_tolerance": 1e-09,
+        "bbox_error_mm": 0.0,
+        "bbox_error_limit_mm": 0.01,
+        "void_and_material_probes": [],
+        "elapsed_seconds": 6.573687600000994,
+        "volume_after_default_quadrature_mm3": 6917.640338724698
+      },
+      "parts": [
+        {
+          "name": "Piece_5V_boitier_PC_transparence_non_encodee",
+          "color_linear_rgb": [
+            0.56,
+            0.65,
+            0.68
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_5V_levier_orange_1",
+          "color_linear_rgb": [
+            0.93,
+            0.22,
+            0.008
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_5V_levier_orange_2",
+          "color_linear_rgb": [
+            0.93,
+            0.22,
+            0.008
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_5V_levier_orange_3",
+          "color_linear_rgb": [
+            0.93,
+            0.22,
+            0.008
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_5V_barre_et_ressorts_estimes_un_potentiel",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_GND_boitier_PC_transparence_non_encodee",
+          "color_linear_rgb": [
+            0.56,
+            0.65,
+            0.68
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_GND_levier_orange_1",
+          "color_linear_rgb": [
+            0.93,
+            0.22,
+            0.008
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_GND_levier_orange_2",
+          "color_linear_rgb": [
+            0.93,
+            0.22,
+            0.008
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_GND_levier_orange_3",
+          "color_linear_rgb": [
+            0.93,
+            0.22,
+            0.008
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_GND_levier_orange_4",
+          "color_linear_rgb": [
+            0.93,
+            0.22,
+            0.008
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_GND_levier_orange_5",
+          "color_linear_rgb": [
+            0.93,
+            0.22,
+            0.008
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_GND_barre_et_ressorts_estimes_un_potentiel",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_BEC6V_boitier_PC_transparence_non_encodee",
+          "color_linear_rgb": [
+            0.56,
+            0.65,
+            0.68
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_BEC6V_levier_orange_1",
+          "color_linear_rgb": [
+            0.93,
+            0.22,
+            0.008
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_BEC6V_levier_orange_2",
+          "color_linear_rgb": [
+            0.93,
+            0.22,
+            0.008
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_BEC6V_levier_orange_3",
+          "color_linear_rgb": [
+            0.93,
+            0.22,
+            0.008
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_BEC6V_barre_et_ressorts_estimes_un_potentiel",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        }
+      ],
+      "preview": {
+        "file": "trois-bornes-potentiels-separes-etude.png",
+        "sha256": "d082852d3f3e9d066decadc91c559142411ee95565787470e6d336f8ed25a0cf"
+      },
+      "component_folder": "liaisons-alimentation-surveillance",
+      "relative_step_path": "liaisons-alimentation-surveillance/3D/trois-bornes-potentiels-separes-etude.step"
+    },
+    {
+      "file": "bntechgo-18awg-150brins.step",
+      "title": "BNTECHGO 18 AWG | 150 brins",
+      "generated_on": "2026-10-14",
+      "unit": "mm",
+      "cadquery_version": "2.8.0",
+      "coordinate_system": "Axe principal Z; face de reference z=0; dimensions selon parametres",
+      "bytes": 1002962,
+      "sha256": "aa97f3c7971c5d29dab6e2e9dbb95ade92693cc2c4f16315fbaeeb2bccef04ac",
+      "native_vendor_cad": false,
+      "hardware_measured": false,
+      "is_custom_project_design": false,
+      "published_nominal": [
+        "150 brins Ø0.08 ; faisceauØ1.13 ; gaineØ2.3 ; épaisseurannoncée0.58 ; résistance22.98Ω/km, imageBNTECHGO."
+      ],
+      "estimates_and_limitations": [
+        "Répartition hexagonale de150brinsdroits, pasdetorsadeinconnu. Faisceau CAO tient dansleØ1.13publié.",
+        "Échantillon30mm,gaine24mm, pas longueurvendue ; nuanceset arrangement reconstruit, pas de gravureinventée.",
+        "Nuances optiques estimées ; géométrie non mesurée. Pas de plan de fabrication ni de qualification mécanique/électrique."
+      ],
+      "parameters": {
+        "strands": 150,
+        "strand_diameter_mm": 0.08,
+        "published_conductor_OD_mm": 1.13,
+        "reconstructed_strand_envelope_mm": 1.0816976789431032,
+        "outer_diameter_mm": 2.3,
+        "specimen_mm": 30
+      },
+      "source_pages": [
+        "Voir sources.json et cotes.md du composant / ensemble"
+      ],
+      "bounds_mm": {
+        "xmin": -1.15,
+        "xmax": 1.15,
+        "ymin": -1.15,
+        "ymax": 1.15,
+        "zmin": 0.0,
+        "zmax": 30.0
+      },
+      "validation": {
+        "valid_after_reimport": true,
+        "solids": 151,
+        "faces": 454,
+        "colors": 2,
+        "volume_relative_error": 2.8923644581089566e-16,
+        "volume_relative_error_limit": 0.0001,
+        "volume_before_mm3": 98.26461997457359,
+        "volume_after_mm3": 98.26461997457362,
+        "adaptive_volume_tolerance": 1e-09,
+        "bbox_error_mm": 0.0,
+        "bbox_error_limit_mm": 0.01,
+        "void_and_material_probes": [],
+        "elapsed_seconds": 5.330342900000687,
+        "volume_after_default_quadrature_mm3": 98.26461997457659
+      },
+      "parts": [
+        {
+          "name": "Piece_brin_001",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_002",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_003",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_004",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_005",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_006",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_007",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_008",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_009",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_010",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_011",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_012",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_013",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_014",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_015",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_016",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_017",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_018",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_019",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_020",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_021",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_022",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_023",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_024",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_025",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_026",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_027",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_028",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_029",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_030",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_031",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_032",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_033",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_034",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_035",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_036",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_037",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_038",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_039",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_040",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_041",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_042",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_043",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_044",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_045",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_046",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_047",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_048",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_049",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_050",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_051",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_052",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_053",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_054",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_055",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_056",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_057",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_058",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_059",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_060",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_061",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_062",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_063",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_064",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_065",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_066",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_067",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_068",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_069",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_070",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_071",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_072",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_073",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_074",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_075",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_076",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_077",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_078",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_079",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_080",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_081",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_082",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_083",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_084",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_085",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_086",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_087",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_088",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_089",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_090",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_091",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_092",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_093",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_094",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_095",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_096",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_097",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_098",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_099",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_100",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_101",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_102",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_103",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_104",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_105",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_106",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_107",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_108",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_109",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_110",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_111",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_112",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_113",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_114",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_115",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_116",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_117",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_118",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_119",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_120",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_121",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_122",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_123",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_124",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_125",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_126",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_127",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_128",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_129",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_130",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_131",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_132",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_133",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_134",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_135",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_136",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_137",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_138",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_139",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_140",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_141",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_142",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_143",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_144",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_145",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_146",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_147",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_148",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_149",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_brin_150",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_silicone_rouge",
+          "color_linear_rgb": [
+            0.7,
+            0.008,
+            0.009
+          ],
+          "solids": 1
+        }
+      ],
+      "preview": {
+        "file": "bntechgo-18awg-150brins.png",
+        "sha256": "1ca633def2c8e442ccdd1d375e1afbd8531fb95b7e50cdb6d666a9d6328c1730"
+      },
+      "component_folder": "liaisons-alimentation-surveillance/fil-18awg",
+      "relative_step_path": "liaisons-alimentation-surveillance/fil-18awg/3D/bntechgo-18awg-150brins.step"
+    },
+    {
+      "file": "paire-18awg-courbe-etude.step",
+      "title": "AlimentationPi | paire18AWG",
+      "generated_on": "2026-10-14",
+      "unit": "mm",
+      "cadquery_version": "2.8.0",
+      "coordinate_system": "Axe principal Z; face de reference z=0; dimensions selon parametres",
+      "bytes": 97264,
+      "sha256": "fccb59ee1754979a36b1fbcbdcb56b447b34a847fb93e0e20c1ac9fd8ca133cb",
+      "native_vendor_cad": false,
+      "hardware_measured": false,
+      "is_custom_project_design": true,
+      "published_nominal": [
+        "18AWGBNTECHGO, siliconeØ2.3."
+      ],
+      "estimates_and_limitations": [
+        "Âmeéquivalente0.754mm² pourreprésentationcourbe ; pas150brinscourbesdanscemodèle, longueurcourteillustrative.",
+        "Nuances optiques estimées ; géométrie non mesurée. Pas de plan de fabrication ni de qualification mécanique/électrique."
+      ],
+      "parameters": {},
+      "source_pages": [
+        "Voir sources.json et cotes.md du composant / ensemble"
+      ],
+      "bounds_mm": {
+        "xmin": -3.150000099999712,
+        "xmax": 3.1500001000000037,
+        "ymin": -1.1500001000002222,
+        "ymax": 13.150000100000222,
+        "zmin": -1.0000000355271367e-07,
+        "zmax": 58.00000010000008
+      },
+      "validation": {
+        "valid_after_reimport": true,
+        "solids": 4,
+        "faces": 14,
+        "colors": 3,
+        "volume_relative_error": 1.3210306822152509e-14,
+        "volume_relative_error_limit": 0.0001,
+        "volume_before_mm3": 494.84037403514094,
+        "volume_after_mm3": 494.8403740351344,
+        "adaptive_volume_tolerance": 1e-09,
+        "bbox_error_mm": 2.8954616482224083e-13,
+        "bbox_error_limit_mm": 0.01,
+        "void_and_material_probes": [],
+        "elapsed_seconds": 0.8664599999974598,
+        "volume_after_default_quadrature_mm3": 494.84037403559904
+      },
+      "parts": [
+        {
+          "name": "Piece_fil18_rouge_ame_equivalente",
+          "color_linear_rgb": [
+            0.58,
+            0.25,
+            0.1
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_fil18_rouge_gaine",
+          "color_linear_rgb": [
+            0.7,
+            0.008,
+            0.009
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_fil18_noir_ame_equivalente",
+          "color_linear_rgb": [
+            0.58,
+            0.25,
+            0.1
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_fil18_noir_gaine",
+          "color_linear_rgb": [
+            0.018,
+            0.021,
+            0.025
+          ],
+          "solids": 1
+        }
+      ],
+      "preview": {
+        "file": "paire-18awg-courbe-etude.png",
+        "sha256": "3abdfa7ff2be841234b8f8d8aa805e972cd132936c7cbb4f152ecc1ff9ef237a"
+      },
+      "component_folder": "liaisons-alimentation-surveillance/fil-18awg",
+      "relative_step_path": "liaisons-alimentation-surveillance/fil-18awg/3D/paire-18awg-courbe-etude.step"
+    },
+    {
+      "file": "jst-b3b-xh-a.step",
+      "title": "JSTB3B-XH-A | embase3positions",
+      "generated_on": "2026-10-14",
+      "unit": "mm",
+      "cadquery_version": "2.8.0",
+      "coordinate_system": "Axe principal Z; face de reference z=0; dimensions selon parametres",
+      "bytes": 158417,
+      "sha256": "d881353e873f3e15e876d373dea9529974d5463d6bff34210ae18f1179c9599a",
+      "native_vendor_cad": false,
+      "hardware_measured": false,
+      "is_custom_project_design": false,
+      "published_nominal": [
+        "JST2025 : pas2.50,3positions ; embasesansboss9.9x5.75x7 ;XHP3collerette9.8x5.7x7.5 ;pin0.64."
+      ],
+      "estimates_and_limitations": [
+        "Réconstruction des évidements etressorts à partirdu catalogue, ajustement visuel seulement ; aucune donnéeCAO native téléchargée (distributionfabricantparformulaire/email).",
+        "Nuances optiques estimées ; géométrie non mesurée. Pas de plan de fabrication ni de qualification mécanique/électrique."
+      ],
+      "parameters": {},
+      "source_pages": [
+        "Voir sources.json et cotes.md du composant / ensemble"
+      ],
+      "bounds_mm": {
+        "xmin": -4.95,
+        "xmax": 4.95,
+        "ymin": -2.875,
+        "ymax": 2.875,
+        "zmin": -3.4,
+        "zmax": 7.0
+      },
+      "validation": {
+        "valid_after_reimport": true,
+        "solids": 4,
+        "faces": 48,
+        "colors": 2,
+        "volume_relative_error": 0.0,
+        "volume_relative_error_limit": 0.0001,
+        "volume_before_mm3": 188.78352000000004,
+        "volume_after_mm3": 188.78352000000004,
+        "adaptive_volume_tolerance": 1e-09,
+        "bbox_error_mm": 0.0,
+        "bbox_error_limit_mm": 0.01,
+        "void_and_material_probes": [],
+        "elapsed_seconds": 0.5995867999954498,
+        "volume_after_default_quadrature_mm3": 188.78352000000004
+      },
+      "parts": [
+        {
+          "name": "Piece_boitier",
+          "color_linear_rgb": [
+            0.87,
+            0.87,
+            0.83
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_pin_1",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_pin_2",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_pin_3",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        }
+      ],
+      "preview": {
+        "file": "jst-b3b-xh-a.png",
+        "sha256": "f0708efc2c1732f6dc0d6049baf67554ab85e317d69953203af18d84f850766d"
+      },
+      "component_folder": "liaisons-alimentation-surveillance/jst-xh-3",
+      "relative_step_path": "liaisons-alimentation-surveillance/jst-xh-3/3D/jst-b3b-xh-a.step"
+    },
+    {
+      "file": "jst-sxh-001t-p06.step",
+      "title": "JSTSXH | contact femelle",
+      "generated_on": "2026-10-14",
+      "unit": "mm",
+      "cadquery_version": "2.8.0",
+      "coordinate_system": "Axe principal Z; face de reference z=0; dimensions selon parametres",
+      "bytes": 259410,
+      "sha256": "2b66f125f978e99a39139ea656af60e42e8f5ae89d87c3d1ca722cebf02668bb",
+      "native_vendor_cad": false,
+      "hardware_measured": false,
+      "is_custom_project_design": false,
+      "published_nominal": [
+        "JST2025 : pas2.50,3positions ; embasesansboss9.9x5.75x7 ;XHP3collerette9.8x5.7x7.5 ;pin0.64."
+      ],
+      "estimates_and_limitations": [
+        "Réconstruction des évidements etressorts à partirdu catalogue, ajustement visuel seulement ; aucune donnéeCAO native téléchargée (distributionfabricantparformulaire/email).",
+        "Dimensionsdel’enroulementdecrimp estimées ; aucunegéométrie d’outil oucotationsertissage inventée.",
+        "Nuances optiques estimées ; géométrie non mesurée. Pas de plan de fabrication ni de qualification mécanique/électrique."
+      ],
+      "parameters": {},
+      "source_pages": [
+        "Voir sources.json et cotes.md du composant / ensemble"
+      ],
+      "bounds_mm": {
+        "xmin": -0.85,
+        "xmax": 0.85,
+        "ymin": -0.844097150807,
+        "ymax": 0.844097150807,
+        "zmin": 0.2,
+        "zmax": 6.2
+      },
+      "validation": {
+        "valid_after_reimport": true,
+        "solids": 1,
+        "faces": 70,
+        "colors": 1,
+        "volume_relative_error": 7.869697403517938e-14,
+        "volume_relative_error_limit": 0.0001,
+        "volume_before_mm3": 3.335029411728877,
+        "volume_after_mm3": 3.3350294117286143,
+        "adaptive_volume_tolerance": 1e-09,
+        "bbox_error_mm": 2.9343194540842887e-13,
+        "bbox_error_limit_mm": 0.01,
+        "void_and_material_probes": [],
+        "elapsed_seconds": 0.6517502000060631,
+        "volume_after_default_quadrature_mm3": 3.3350294117285313
+      },
+      "parts": [
+        {
+          "name": "Piece_contact",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        }
+      ],
+      "preview": {
+        "file": "jst-sxh-001t-p06.png",
+        "sha256": "d291c7a81af862ec90f03b5126b1578809423f086d86c40beaca606fb16fdd29"
+      },
+      "component_folder": "liaisons-alimentation-surveillance/jst-xh-3",
+      "relative_step_path": "liaisons-alimentation-surveillance/jst-xh-3/3D/jst-sxh-001t-p06.step"
+    },
+    {
+      "file": "jst-xh-3-accouple-etude.step",
+      "title": "JSTXH3 | accouplement de lecture",
+      "generated_on": "2026-10-14",
+      "unit": "mm",
+      "cadquery_version": "2.8.0",
+      "coordinate_system": "Axe principal Z; face de reference z=0; dimensions selon parametres",
+      "bytes": 1070175,
+      "sha256": "6bd3bfdbb89a0996abbd8889c740b6a27cbc5191ba160a4957c60751c2de9de8",
+      "native_vendor_cad": false,
+      "hardware_measured": false,
+      "is_custom_project_design": true,
+      "published_nominal": [
+        "JST2025 : pas2.50,3positions ; embasesansboss9.9x5.75x7 ;XHP3collerette9.8x5.7x7.5 ;pin0.64."
+      ],
+      "estimates_and_limitations": [
+        "Réconstruction des évidements etressorts à partirdu catalogue, ajustement visuel seulement ; aucune donnéeCAO native téléchargée (distributionfabricantparformulaire/email).",
+        "Hauteurmâtée9.8nominale, positiondescontacts reconstruite ; assemblagenon validéen tolérances.",
+        "Nuances optiques estimées ; géométrie non mesurée. Pas de plan de fabrication ni de qualification mécanique/électrique."
+      ],
+      "parameters": {},
+      "source_pages": [
+        "Voir sources.json et cotes.md du composant / ensemble"
+      ],
+      "bounds_mm": {
+        "xmin": -4.95,
+        "xmax": 4.95,
+        "ymin": -2.875,
+        "ymax": 2.875,
+        "zmin": -3.4,
+        "zmax": 9.8
+      },
+      "validation": {
+        "valid_after_reimport": true,
+        "solids": 8,
+        "faces": 306,
+        "colors": 2,
+        "volume_relative_error": 1.34671448317522e-16,
+        "volume_relative_error_limit": 0.0001,
+        "volume_before_mm3": 422.0896082351864,
+        "volume_after_mm3": 422.08960823518635,
+        "adaptive_volume_tolerance": 1e-09,
+        "bbox_error_mm": 0.0,
+        "bbox_error_limit_mm": 0.01,
+        "void_and_material_probes": [],
+        "elapsed_seconds": 6.193089399996097,
+        "volume_after_default_quadrature_mm3": 422.089608235186
+      },
+      "parts": [
+        {
+          "name": "Piece_embase",
+          "color_linear_rgb": [
+            0.87,
+            0.87,
+            0.83
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_pin_1",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_pin_2",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_pin_3",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_boitier_femelle",
+          "color_linear_rgb": [
+            0.87,
+            0.87,
+            0.83
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_contact_femelle1",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_contact_femelle2",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_contact_femelle3",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        }
+      ],
+      "preview": {
+        "file": "jst-xh-3-accouple-etude.png",
+        "sha256": "4d730312a91bb61b86d7b0bbfc1a97c1c97edf2033bb6612f3f78a8a15301e98"
+      },
+      "component_folder": "liaisons-alimentation-surveillance/jst-xh-3",
+      "relative_step_path": "liaisons-alimentation-surveillance/jst-xh-3/3D/jst-xh-3-accouple-etude.step"
+    },
+    {
+      "file": "jst-xhp-3.step",
+      "title": "JSTXHP-3 | boîtier3positions",
+      "generated_on": "2026-10-14",
+      "unit": "mm",
+      "cadquery_version": "2.8.0",
+      "coordinate_system": "Axe principal Z; face de reference z=0; dimensions selon parametres",
+      "bytes": 152810,
+      "sha256": "0d9bdfccc689baac16f40d22ebc31c239d79438aaa84d59a14792b62d9e01b8c",
+      "native_vendor_cad": false,
+      "hardware_measured": false,
+      "is_custom_project_design": false,
+      "published_nominal": [
+        "JST2025 : pas2.50,3positions ; embasesansboss9.9x5.75x7 ;XHP3collerette9.8x5.7x7.5 ;pin0.64."
+      ],
+      "estimates_and_limitations": [
+        "Réconstruction des évidements etressorts à partirdu catalogue, ajustement visuel seulement ; aucune donnéeCAO native téléchargée (distributionfabricantparformulaire/email).",
+        "Nuances optiques estimées ; géométrie non mesurée. Pas de plan de fabrication ni de qualification mécanique/électrique."
+      ],
+      "parameters": {},
+      "source_pages": [
+        "Voir sources.json et cotes.md du composant / ensemble"
+      ],
+      "bounds_mm": {
+        "xmin": -4.9,
+        "xmax": 4.9,
+        "ymin": -2.85,
+        "ymax": 2.85,
+        "zmin": 0.0,
+        "zmax": 7.5
+      },
+      "validation": {
+        "valid_after_reimport": true,
+        "solids": 1,
+        "faces": 48,
+        "colors": 1,
+        "volume_relative_error": 0.0,
+        "volume_relative_error_limit": 0.0001,
+        "volume_before_mm3": 223.30099999999982,
+        "volume_after_mm3": 223.30099999999982,
+        "adaptive_volume_tolerance": 1e-09,
+        "bbox_error_mm": 0.0,
+        "bbox_error_limit_mm": 0.01,
+        "void_and_material_probes": [],
+        "elapsed_seconds": 0.3851025000039954,
+        "volume_after_default_quadrature_mm3": 223.30099999999982
+      },
+      "parts": [
+        {
+          "name": "Piece_boitier",
+          "color_linear_rgb": [
+            0.87,
+            0.87,
+            0.83
+          ],
+          "solids": 1
+        }
+      ],
+      "preview": {
+        "file": "jst-xhp-3.png",
+        "sha256": "1d78dd88030ed49542bc683a10f0c73c5ccd3bc270fc015b3413e42e1fafdd4e"
+      },
+      "component_folder": "liaisons-alimentation-surveillance/jst-xh-3",
+      "relative_step_path": "liaisons-alimentation-surveillance/jst-xh-3/3D/jst-xhp-3.step"
+    },
+    {
+      "file": "rallonge-equilibrage-2s-20cm.step",
+      "title": "Équilibrage 2S | cordon 20 cm",
+      "generated_on": "2026-10-14",
+      "unit": "mm",
+      "cadquery_version": "2.8.0",
+      "coordinate_system": "Axe principal Z; face de reference z=0; dimensions selon parametres",
+      "bytes": 1162044,
+      "sha256": "077d335a550b30493204a3825f301b2cc7ad2d6be0902bf57c183d0c1e975b2b",
+      "native_vendor_cad": false,
+      "hardware_measured": false,
+      "is_custom_project_design": false,
+      "published_nominal": [
+        "INTERMODEL : 20 cm, trois positions, type XH annoncé."
+      ],
+      "estimates_and_limitations": [
+        "Famille XH reconstruite ; pas de CAO native du cordon. Calibre et OD non publiés : âme équivalente22AWG et gaine1.5 estimées.",
+        "Trois âmes et trois gaines continues, entrées orientées vers le câble. Plansde référence séparésde200mm, conventionfournisseuràconfirmer.",
+        "Contacts à sertir non déformés, extrémités conductrices insérées dans les terminaisons ; sertissage et isolation réels à contrôler.",
+        "Nuances optiques estimées ; géométrie non mesurée. Pas de plan de fabrication ni de qualification mécanique/électrique."
+      ],
+      "parameters": {
+        "length_advertised_mm": 200,
+        "gauge_CAD_assumed_only": 22,
+        "leads_continuous": true
+      },
+      "source_pages": [
+        "Voir sources.json et cotes.md du composant / ensemble"
+      ],
+      "bounds_mm": {
+        "xmin": -5.4,
+        "xmax": 5.4,
+        "ymin": -3.4,
+        "ymax": 3.4,
+        "zmin": -200.0,
+        "zmax": 7.0
+      },
+      "validation": {
+        "valid_after_reimport": true,
+        "solids": 15,
+        "faces": 337,
+        "colors": 5,
+        "volume_relative_error": 6.438036422702019e-14,
+        "volume_relative_error_limit": 0.0001,
+        "volume_before_mm3": 1617.529577586551,
+        "volume_after_mm3": 1617.5295775866553,
+        "adaptive_volume_tolerance": 1e-09,
+        "bbox_error_mm": 0.0,
+        "bbox_error_limit_mm": 0.01,
+        "void_and_material_probes": [
+          {
+            "point": [
+              -2.5,
+              -0.525,
+              -194.5
+            ],
+            "occupied": true
+          },
+          {
+            "point": [
+              -2.5,
+              -0.525,
+              -100
+            ],
+            "occupied": true
+          },
+          {
+            "point": [
+              -2.5,
+              -0.525,
+              -3.3
+            ],
+            "occupied": true
+          },
+          {
+            "point": [
+              0,
+              -0.525,
+              -194.5
+            ],
+            "occupied": true
+          },
+          {
+            "point": [
+              0,
+              -0.525,
+              -100
+            ],
+            "occupied": true
+          },
+          {
+            "point": [
+              0,
+              -0.525,
+              -3.3
+            ],
+            "occupied": true
+          },
+          {
+            "point": [
+              2.5,
+              -0.525,
+              -194.5
+            ],
+            "occupied": true
+          },
+          {
+            "point": [
+              2.5,
+              -0.525,
+              -100
+            ],
+            "occupied": true
+          },
+          {
+            "point": [
+              2.5,
+              -0.525,
+              -3.3
+            ],
+            "occupied": true
+          }
+        ],
+        "elapsed_seconds": 3.5255881999983103,
+        "volume_after_default_quadrature_mm3": 1617.5295775866966
+      },
+      "parts": [
+        {
+          "name": "Piece_prise_male_corps",
+          "color_linear_rgb": [
+            0.87,
+            0.87,
+            0.83
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_pin_1",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_pin_2",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_pin_3",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_prise_femelle_corps",
+          "color_linear_rgb": [
+            0.87,
+            0.87,
+            0.83
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_protection_arriere_male_estimee",
+          "color_linear_rgb": [
+            0.87,
+            0.87,
+            0.83
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_contact_femelle1",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_fil1_ame_estimee22AWG",
+          "color_linear_rgb": [
+            0.58,
+            0.25,
+            0.1
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_fil1_gaine_estimee",
+          "color_linear_rgb": [
+            0.018,
+            0.021,
+            0.025
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_contact_femelle2",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_fil2_ame_estimee22AWG",
+          "color_linear_rgb": [
+            0.58,
+            0.25,
+            0.1
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_fil2_gaine_estimee",
+          "color_linear_rgb": [
+            0.018,
+            0.021,
+            0.025
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_contact_femelle3",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_fil3_ame_estimee22AWG",
+          "color_linear_rgb": [
+            0.58,
+            0.25,
+            0.1
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_fil3_gaine_estimee",
+          "color_linear_rgb": [
+            0.7,
+            0.008,
+            0.009
+          ],
+          "solids": 1
+        }
+      ],
+      "preview": {
+        "file": "rallonge-equilibrage-2s-20cm.png",
+        "sha256": "fdd0ef6dff3ed247bcd3a0ba9d418e137f705a12a136aaf02af069c57979fcc7"
+      },
+      "component_folder": "liaisons-alimentation-surveillance/rallonge-equilibrage-2s",
+      "relative_step_path": "liaisons-alimentation-surveillance/rallonge-equilibrage-2s/3D/rallonge-equilibrage-2s-20cm.step"
+    },
+    {
+      "file": "wago-221-413-detaille.step",
+      "title": "WAGO221-413 | 3 ports",
+      "generated_on": "2026-10-14",
+      "unit": "mm",
+      "cadquery_version": "2.8.0",
+      "coordinate_system": "Axe principal Z; face de reference z=0; dimensions selon parametres",
+      "bytes": 584740,
+      "sha256": "52931185f012a2661667840c4f48cd3058e9a3af6b8c54483011ea639304b851",
+      "native_vendor_cad": false,
+      "hardware_measured": false,
+      "is_custom_project_design": false,
+      "published_nominal": [
+        "WAGO2025/2024 :18.8ou30 x18.6x8.4,3ou5ports et unpotentiel."
+      ],
+      "estimates_and_limitations": [
+        "Poches, leviers, ressorts etbarreconductrice reconstruits ; transparence réelle représentée pargrisopaque dansSTEP.",
+        "Nuances optiques estimées ; géométrie non mesurée. Pas de plan de fabrication ni de qualification mécanique/électrique."
+      ],
+      "parameters": {
+        "width_mm": 18.8,
+        "depth_mm": 18.6,
+        "height_mm": 8.4,
+        "strip_mm": 11,
+        "common_potentials": 1
+      },
+      "source_pages": [
+        "Voir sources.json et cotes.md du composant / ensemble"
+      ],
+      "bounds_mm": {
+        "xmin": -9.4,
+        "xmax": 9.4,
+        "ymin": -9.3,
+        "ymax": 9.3,
+        "zmin": 0.0,
+        "zmax": 8.4000001
+      },
+      "validation": {
+        "valid_after_reimport": true,
+        "solids": 5,
+        "faces": 172,
+        "colors": 3,
+        "volume_relative_error": 1.3254975486685389e-14,
+        "volume_relative_error_limit": 0.0001,
+        "volume_before_mm3": 1938.3834659591823,
+        "volume_after_mm3": 1938.3834659591566,
+        "adaptive_volume_tolerance": 1e-09,
+        "bbox_error_mm": 0.0,
+        "bbox_error_limit_mm": 0.01,
+        "void_and_material_probes": [],
+        "elapsed_seconds": 1.2128007999999681,
+        "volume_after_default_quadrature_mm3": 1938.3834659591457
+      },
+      "parts": [
+        {
+          "name": "Piece_boitier_PC_transparence_non_encodee",
+          "color_linear_rgb": [
+            0.56,
+            0.65,
+            0.68
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_levier_orange_1",
+          "color_linear_rgb": [
+            0.93,
+            0.22,
+            0.008
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_levier_orange_2",
+          "color_linear_rgb": [
+            0.93,
+            0.22,
+            0.008
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_levier_orange_3",
+          "color_linear_rgb": [
+            0.93,
+            0.22,
+            0.008
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_barre_et_ressorts_estimes_un_potentiel",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        }
+      ],
+      "preview": {
+        "file": "wago-221-413-detaille.png",
+        "sha256": "3a9eeeab31361fb85046275469edc3698a9780be08cc48efb8f0a781e006020c"
+      },
+      "component_folder": "liaisons-alimentation-surveillance/wago-221-413",
+      "relative_step_path": "liaisons-alimentation-surveillance/wago-221-413/3D/wago-221-413-detaille.step"
+    },
+    {
+      "file": "wago-221-415-detaille.step",
+      "title": "WAGO221-415 | 5 ports",
+      "generated_on": "2026-10-14",
+      "unit": "mm",
+      "cadquery_version": "2.8.0",
+      "coordinate_system": "Axe principal Z; face de reference z=0; dimensions selon parametres",
+      "bytes": 954680,
+      "sha256": "9922243f818c2c25e37e8839b88bfdf5966682c851fef74ee39b47e69200266f",
+      "native_vendor_cad": false,
+      "hardware_measured": false,
+      "is_custom_project_design": false,
+      "published_nominal": [
+        "WAGO2025/2024 :18.8ou30 x18.6x8.4,3ou5ports et unpotentiel."
+      ],
+      "estimates_and_limitations": [
+        "Poches, leviers, ressorts etbarreconductrice reconstruits ; transparence réelle représentée pargrisopaque dansSTEP.",
+        "Nuances optiques estimées ; géométrie non mesurée. Pas de plan de fabrication ni de qualification mécanique/électrique."
+      ],
+      "parameters": {
+        "width_mm": 30,
+        "depth_mm": 18.6,
+        "height_mm": 8.4,
+        "strip_mm": 11,
+        "common_potentials": 1
+      },
+      "source_pages": [
+        "Voir sources.json et cotes.md du composant / ensemble"
+      ],
+      "bounds_mm": {
+        "xmin": -15.0,
+        "xmax": 15.0,
+        "ymin": -9.3,
+        "ymax": 9.3,
+        "zmin": 0.0,
+        "zmax": 8.4000001
+      },
+      "validation": {
+        "valid_after_reimport": true,
+        "solids": 7,
+        "faces": 276,
+        "colors": 3,
+        "volume_relative_error": 1.465540797822152e-14,
+        "volume_relative_error_limit": 0.0001,
+        "volume_before_mm3": 3040.8734068064896,
+        "volume_after_mm3": 3040.873406806445,
+        "adaptive_volume_tolerance": 1e-09,
+        "bbox_error_mm": 0.0,
+        "bbox_error_limit_mm": 0.01,
+        "void_and_material_probes": [],
+        "elapsed_seconds": 2.1761425000004238,
+        "volume_after_default_quadrature_mm3": 3040.8734068064273
+      },
+      "parts": [
+        {
+          "name": "Piece_boitier_PC_transparence_non_encodee",
+          "color_linear_rgb": [
+            0.56,
+            0.65,
+            0.68
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_levier_orange_1",
+          "color_linear_rgb": [
+            0.93,
+            0.22,
+            0.008
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_levier_orange_2",
+          "color_linear_rgb": [
+            0.93,
+            0.22,
+            0.008
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_levier_orange_3",
+          "color_linear_rgb": [
+            0.93,
+            0.22,
+            0.008
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_levier_orange_4",
+          "color_linear_rgb": [
+            0.93,
+            0.22,
+            0.008
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_levier_orange_5",
+          "color_linear_rgb": [
+            0.93,
+            0.22,
+            0.008
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_barre_et_ressorts_estimes_un_potentiel",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        }
+      ],
+      "preview": {
+        "file": "wago-221-415-detaille.png",
+        "sha256": "de1a0faf8ff47d61f37fe40ad523867f0458a5b061c714b64d328d3ae7d31e2e"
+      },
+      "component_folder": "liaisons-alimentation-surveillance/wago-221-415",
+      "relative_step_path": "liaisons-alimentation-surveillance/wago-221-415/3D/wago-221-415-detaille.step"
+    }
+  ]
+}

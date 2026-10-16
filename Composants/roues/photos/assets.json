@@ -1,0 +1,63 @@
+{
+  "asin": "B0CTNVV7BJ",
+  "checked_on": "2026-10-13",
+  "source_page": "https://www.amazon.com/dp/B0CTNVV7BJ",
+  "assets": [
+    {
+      "file": "photos/01-hobbypark-color-a.jpg",
+      "url": "https://m.media-amazon.com/images/I/71b3NqikBXL._AC_SL1500_.jpg",
+      "sha256": "3a8d50e29deaf8c2bf513d7ae1d1d817d62ff86fe94081a020861157e6b212f0",
+      "bytes": 149818,
+      "modified": false
+    },
+    {
+      "file": "photos/02-hobbypark-color-a.jpg",
+      "url": "https://m.media-amazon.com/images/I/71wcgoRimJL._AC_SL1500_.jpg",
+      "sha256": "8452a8d42c99de970738b29721f1e481b984493597399b8bf2653226c4de0d31",
+      "bytes": 143459,
+      "modified": false
+    },
+    {
+      "file": "photos/03-hobbypark-color-a.jpg",
+      "url": "https://m.media-amazon.com/images/I/7187ZYAZswL._AC_SL1500_.jpg",
+      "sha256": "a6af9c20883ba26e69f59994bfafd50a378512ce397120edc7494a35a99161ec",
+      "bytes": 194400,
+      "modified": false
+    },
+    {
+      "file": "photos/04-hobbypark-color-a.jpg",
+      "url": "https://m.media-amazon.com/images/I/81GE2a5k9IL._AC_SL1500_.jpg",
+      "sha256": "1ad9bc67bcd58932ccf94e73a17c26a7c55f217771a1eaba354655f3ff8fe072",
+      "bytes": 265093,
+      "modified": false
+    },
+    {
+      "file": "photos/05-hobbypark-color-a.jpg",
+      "url": "https://m.media-amazon.com/images/I/8101osXgWhL._AC_SL1500_.jpg",
+      "sha256": "4ebf09fe4c66e38f20ee37bf4f53e3ed7bedb89e25f53681820661eca969e96d",
+      "bytes": 292259,
+      "modified": false
+    },
+    {
+      "file": "photos/06-hobbypark-color-a.jpg",
+      "url": "https://m.media-amazon.com/images/I/81dIXHqIfNL._AC_SL1500_.jpg",
+      "sha256": "9a1ddac05e41f0d0e0e9270c16be60dcb3a29ca16f21e423d0e5010386a1ce47",
+      "bytes": 258882,
+      "modified": false
+    },
+    {
+      "file": "photos/07-hobbypark-color-a.jpg",
+      "url": "https://m.media-amazon.com/images/I/81EiKinNTOL._AC_SL1500_.jpg",
+      "sha256": "c4825164f78b0f660ecde2614fecd72bdefb9357da8173ede7abbe79f7934036",
+      "bytes": 258994,
+      "modified": false
+    },
+    {
+      "file": "photos/08-hobbypark-color-a.jpg",
+      "url": "https://m.media-amazon.com/images/I/81xDa6V93dL._AC_SL1500_.jpg",
+      "sha256": "8acabfbe7c183450cd87214b7e5ffe21249cfe67893731643d2dfeee9bc44352",
+      "bytes": 426402,
+      "modified": false
+    }
+  ]
+}

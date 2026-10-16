@@ -1,0 +1,566 @@
+{
+  "files": [
+    {
+      "file": "Composants/finalisation-theorique-r2/budget-masse.csv",
+      "bytes": 945,
+      "sha256": "9fa71e06aa32b77f00ea945f82c2dc9e92392263d9e37dbf49a35a89cb0aa377"
+    },
+    {
+      "file": "Composants/finalisation-theorique-r2/calculs.json",
+      "bytes": 2791,
+      "sha256": "5e89bc0b174fb172b52be546228cda1d18a1db7f57d2cedd952ddaea00ad342b"
+    },
+    {
+      "file": "Composants/finalisation-theorique-r2/cinematique.json",
+      "bytes": 427,
+      "sha256": "0116fa89501aabd4f8f4efb9602e1a889cc1cbd1658e85f9bbf18bfa9eaab5fe"
+    },
+    {
+      "file": "Composants/finalisation-theorique-r2/conditions-restantes.json",
+      "bytes": 4112,
+      "sha256": "c534f2d1735e96ec62d206ce037cf421a3ee5086deb211654d48a29d3c1819cb"
+    },
+    {
+      "file": "Composants/finalisation-theorique-r2/conditions-restantes.md",
+      "bytes": 3351,
+      "sha256": "884bf2a21d79801868e774b0e1d1b0cdc5921f237fa984e2287a6b4362dd1a78"
+    },
+    {
+      "file": "Composants/finalisation-theorique-r2/electricite.md",
+      "bytes": 6685,
+      "sha256": "d647c718fa73024829f0139bfcfe46f6f5dba0bd320a6dd7af8520279d6c4f32"
+    },
+    {
+      "file": "Composants/finalisation-theorique-r2/integration.md",
+      "bytes": 3617,
+      "sha256": "e8031ff23ae453924ba87a31cdb74881872ed6e30b57a119c3007af373a4830b"
+    },
+    {
+      "file": "Composants/finalisation-theorique-r2/mecanique.md",
+      "bytes": 7187,
+      "sha256": "c38f36632334181926cdc06482963fd3b737cc3a9e91208453a8cd29aa78b90b"
+    },
+    {
+      "file": "Composants/finalisation-theorique-r2/pieces.json",
+      "bytes": 11595,
+      "sha256": "1abaa0a1ccd5308c64312a9a8025b9b5327cf88f035eed12ca1f4a36a5cac8ea"
+    },
+    {
+      "file": "Composants/finalisation-theorique-r2/questions-fabricants-non-envoyees.md",
+      "bytes": 1001,
+      "sha256": "0a3ef7af5677846ea83abf1010acacbf7173814d79308b3ac40a592825621f46"
+    },
+    {
+      "file": "Composants/finalisation-theorique-r2/README.md",
+      "bytes": 3735,
+      "sha256": "89228f1d2c5b576cc325c268e1d7e267f449496525283360e2ef649aafba18a8"
+    },
+    {
+      "file": "Composants/finalisation-theorique-r2/scenarios-performance.csv",
+      "bytes": 520,
+      "sha256": "79cddb18466693569b7cacae19ade8fa300f26b093aba5009594a16c687f4fe3"
+    },
+    {
+      "file": "Composants/finalisation-theorique-r2/sources.json",
+      "bytes": 3158,
+      "sha256": "add893605815339fa05bc5aaefbc40b074fcfec890268224882be730121fa525"
+    },
+    {
+      "file": "Composants/finalisation-theorique-r2/table-direction.csv",
+      "bytes": 56731,
+      "sha256": "ce64b56d489905951bb8c6b9daa6f873e5fbaccf41f4c24b0cae4f9e3ff7e058"
+    },
+    {
+      "file": "Composants/finalisation-theorique-r2/3D/C01_R2.step",
+      "bytes": 555918,
+      "sha256": "da475a018791e34acd11d18f0a563cdf64a9cbb3fb8c6422a7fc6e3e6c8adeae"
+    },
+    {
+      "file": "Composants/finalisation-theorique-r2/3D/C03_R2.step",
+      "bytes": 135328,
+      "sha256": "4ee2e3c5b0e6010f7b05db24433896f5d004839eb81422b6f07eca78011d132c"
+    },
+    {
+      "file": "Composants/finalisation-theorique-r2/3D/C04_R2_droite.step",
+      "bytes": 138108,
+      "sha256": "3dd150765a60ea7729da754d23f17aaad5f740fa5a75d467ff0d547514f9bae4"
+    },
+    {
+      "file": "Composants/finalisation-theorique-r2/3D/C04_R2_gauche.step",
+      "bytes": 143431,
+      "sha256": "a29a52ab136ab3d23045259138988856a5ecb0892b270d51e43647d7b51c4d9e"
+    },
+    {
+      "file": "Composants/finalisation-theorique-r2/3D/complement-mecanique-integration-r2.step",
+      "bytes": 6160469,
+      "sha256": "d6b18bb20ea978b00012cb90b369f494d1ec627b354c38dbcee32ee20065ef2d"
+    },
+    {
+      "file": "Composants/finalisation-theorique-r2/3D/R201_arbre_intermediaire.step",
+      "bytes": 34039,
+      "sha256": "6e38d4983da5ee817fe414890f3995d0cb423186d4613e49fef1a9e20d7d1ba4"
+    },
+    {
+      "file": "Composants/finalisation-theorique-r2/3D/R202_arbre_sortie.step",
+      "bytes": 76860,
+      "sha256": "816e9a849729d81412b045bb7d970be3d3328689c14dd9b39301898dea9e801f"
+    },
+    {
+      "file": "Composants/finalisation-theorique-r2/3D/R203_palier_interieur_intermediaire.step",
+      "bytes": 70771,
+      "sha256": "c9457a4964f344d3c8a981fb29477f77b7a8ee930f8ecd2d0090411abd19c465"
+    },
+    {
+      "file": "Composants/finalisation-theorique-r2/3D/R203_palier_interieur_intermediaire_capot.step",
+      "bytes": 41832,
+      "sha256": "6e4fb99d03a4640b0eb4eba56e48d927cc65a57a2fe506285004afdd50eba830"
+    },
+    {
+      "file": "Composants/finalisation-theorique-r2/3D/R204_palier_exterieur_intermediaire.step",
+      "bytes": 70849,
+      "sha256": "1d75e7a0034d755ad7247f5039ca960f23934db08a19a8f8efdbf558cd7c8a48"
+    },
+    {
+      "file": "Composants/finalisation-theorique-r2/3D/R204_palier_exterieur_intermediaire_capot.step",
+      "bytes": 41776,
+      "sha256": "4ffab39a6fc3b00d791db477f1b7284ed117994951ca1960a1af0d4e9c70c295"
+    },
+    {
+      "file": "Composants/finalisation-theorique-r2/3D/R205_palier_interieur_sortie.step",
+      "bytes": 70740,
+      "sha256": "22619c02f98dc5800ec7347e46755f029fe78af603faa56c8fc559f761013bf8"
+    },
+    {
+      "file": "Composants/finalisation-theorique-r2/3D/R205_palier_interieur_sortie_capot.step",
+      "bytes": 41796,
+      "sha256": "3adbe7fa5b6aca38f00e35a56987bd575d96ce3c6d2bf3a41d0bb9989fb32523"
+    },
+    {
+      "file": "Composants/finalisation-theorique-r2/3D/R206_capot.step",
+      "bytes": 41740,
+      "sha256": "1e797b9d5bf6f486e379c378a353f2a31aa6b35597604947d2555f87ed095c6d"
+    },
+    {
+      "file": "Composants/finalisation-theorique-r2/3D/R206_palier_sortie_porte_a_faux.step",
+      "bytes": 91091,
+      "sha256": "7cb64638a5c3c1137e3ebebe5396b8c0e4d8be855a2ec5a3541a104d902751b1"
+    },
+    {
+      "file": "Composants/finalisation-theorique-r2/3D/R207_E1.step",
+      "bytes": 9325,
+      "sha256": "73259a2ad575dde989effea8c35b965c02a88507bb6acbf2dc9f1433d0c1bde1"
+    },
+    {
+      "file": "Composants/finalisation-theorique-r2/3D/R207_E2.step",
+      "bytes": 9325,
+      "sha256": "62fdb84464b3b44c549ab8b2560f562998ea47ff7f3c0b0512256cf9b085aa71"
+    },
+    {
+      "file": "Composants/finalisation-theorique-r2/3D/R207_E3.step",
+      "bytes": 9327,
+      "sha256": "d6150b10fe649113c1f5928f072694a59fb44061e1d1c2eb3cf20e4d55ebe170"
+    },
+    {
+      "file": "Composants/finalisation-theorique-r2/3D/R207_E4.step",
+      "bytes": 9311,
+      "sha256": "13a77a4215d139d5a17facbd1898f0ceacc3dcdbf88a8febd64664f14191ef9f"
+    },
+    {
+      "file": "Composants/finalisation-theorique-r2/3D/R207_E5.step",
+      "bytes": 9313,
+      "sha256": "9543ee37490c2767d3a9628798a7c6500b14837dea8c7afc36a9da843d26a2f4"
+    },
+    {
+      "file": "Composants/finalisation-theorique-r2/3D/R207_E6.step",
+      "bytes": 39104,
+      "sha256": "2024d0dfe88f5d40839e330133b9fde88cf651de9754dc7d1f9e76c1c0ac5f56"
+    },
+    {
+      "file": "Composants/finalisation-theorique-r2/3D/R208_fusee_droite.step",
+      "bytes": 145008,
+      "sha256": "757cd9f821dcc7e74015a15e3d668c48c47d0af9fd2cb532cce599a26eff1137"
+    },
+    {
+      "file": "Composants/finalisation-theorique-r2/3D/R208_fusee_gauche.step",
+      "bytes": 158881,
+      "sha256": "165c6d081107374ae3c5905bb3c9a003a225af0dbedec791e1d9fab2d7c95bb9"
+    },
+    {
+      "file": "Composants/finalisation-theorique-r2/3D/R209_fourche_droite.step",
+      "bytes": 182929,
+      "sha256": "afb58fc67bffad6dc46d16a7590ec983e69cf3738e180f6e9bb53b75cda0abac"
+    },
+    {
+      "file": "Composants/finalisation-theorique-r2/3D/R209_fourche_gauche.step",
+      "bytes": 186167,
+      "sha256": "713e9b9fa82e7c3f66bc947647f6c6fb6c4c14878ee7ae7c49b370d7aca68597"
+    },
+    {
+      "file": "Composants/finalisation-theorique-r2/3D/R210_axe_roue_avant.step",
+      "bytes": 58275,
+      "sha256": "5d8629d470f6e1c1c56a052b7e5c639d6d472beaa88643941d42fdae96173f9c"
+    },
+    {
+      "file": "Composants/finalisation-theorique-r2/3D/R211_pivot6.step",
+      "bytes": 13316,
+      "sha256": "bb5f2547227d0a1cb1f90ab935637941db845602b822db2ae68d38836b9686ac"
+    },
+    {
+      "file": "Composants/finalisation-theorique-r2/3D/R212_support_servo.step",
+      "bytes": 103374,
+      "sha256": "16b28bf8725a487bef1c745358ae849b7d492203338c103bd35a21eb3c29f3d9"
+    },
+    {
+      "file": "Composants/finalisation-theorique-r2/3D/R213_support_UBEC.step",
+      "bytes": 99668,
+      "sha256": "2c1ef506784a21df81d21f74b364592b8a7528f8e14cc50dd57124949f5a2efb"
+    },
+    {
+      "file": "Composants/finalisation-theorique-r2/3D/R214_cassette_FS.step",
+      "bytes": 64510,
+      "sha256": "3203cb6c2ed5517111744576cc19e7db4fae764950a6b14100a26891b9c0df67"
+    },
+    {
+      "file": "Composants/finalisation-theorique-r2/3D/R215_carter_transmission_droit.step",
+      "bytes": 152018,
+      "sha256": "2039945da536de7e7c6d1735658463c25b205649c6d8c85b6da6d373354f2ae5"
+    },
+    {
+      "file": "Composants/finalisation-theorique-r2/3D/R215_carter_transmission_gauche.step",
+      "bytes": 198823,
+      "sha256": "557d778cd8146b3dfda3e97baf6d8f8368febd01ceea45ddeaa80b18c391c87f"
+    },
+    {
+      "file": "Composants/finalisation-theorique-r2/3D/R216_tube_intermediaire.step",
+      "bytes": 9326,
+      "sha256": "7c0f63a5f5ed2fe81d527fa45a0a5bf84ffeb8329b6dd21f4b5ec799a1ddbed3"
+    },
+    {
+      "file": "Composants/finalisation-theorique-r2/3D/R216_tube_sortie.step",
+      "bytes": 9312,
+      "sha256": "f149e183d5278704b8c948dcb706043a4f2367ae2ad00d82e7a059ebc49e0778"
+    },
+    {
+      "file": "Composants/finalisation-theorique-r2/3D/R218_platine_moteur.step",
+      "bytes": 76054,
+      "sha256": "56ba7480669609e05b788235b6098d75b0051334f74248d21f9f85ec9417013b"
+    },
+    {
+      "file": "Composants/finalisation-theorique-r2/3D/R219_butee_avant.step",
+      "bytes": 31289,
+      "sha256": "589bc27b1974a6e67d1802b95e2aed2a4e7e0deafc647a61a8893917d899459d"
+    },
+    {
+      "file": "Composants/finalisation-theorique-r2/3D/R220_capot_roulements_avant.step",
+      "bytes": 89941,
+      "sha256": "035ee9836fd0be69a9698da059dea46328dc8844977ccdd8119442bfc85f900b"
+    },
+    {
+      "file": "Composants/finalisation-theorique-r2/3D/R225_circlip_DIN471_5.step",
+      "bytes": 42791,
+      "sha256": "374f55b5a20a3a678ed3e3d8d76810f5afcb52643b3f014c363e97772a645a34"
+    },
+    {
+      "file": "Composants/finalisation-theorique-r2/3D/R226_entretoise_clip.step",
+      "bytes": 9331,
+      "sha256": "bfcc2e356b110db2cde17c5e8e811ba288425f807b2a48d2a516b87faf1a7a87"
+    },
+    {
+      "file": "Composants/finalisation-theorique-r2/3D/README.md",
+      "bytes": 764,
+      "sha256": "ab94fddf2cba7c752edd18d5c049a489285270a429c67c0ee418f12b65b78068"
+    },
+    {
+      "file": "Composants/finalisation-theorique-r2/plans/C01_R2.dxf",
+      "bytes": 35879,
+      "sha256": "bef2718c9f6e37ca34a61828910b34d85878e4bbaa7ab3f15e1937dae08084d1"
+    },
+    {
+      "file": "Composants/finalisation-theorique-r2/plans/C03_R2.dxf",
+      "bytes": 22931,
+      "sha256": "9c9adbd31d2ceecedb84af7fa672129c595ba751eb8e50b6571cb5b485e42ae5"
+    },
+    {
+      "file": "Composants/finalisation-theorique-r2/plans/C04_R2_droite.dxf",
+      "bytes": 22991,
+      "sha256": "59ec7bb479712b37133aef61e5b9fb5ede9fc0edfd46268d8e7af764d793a1e6"
+    },
+    {
+      "file": "Composants/finalisation-theorique-r2/plans/C04_R2_gauche.dxf",
+      "bytes": 23038,
+      "sha256": "71c324cac1f54ccd3e22839eb76db8b9803d73bcdae32bd81c270dfcd687d81d"
+    },
+    {
+      "file": "Composants/finalisation-theorique-r2/plans/dossier-finalisation-r2.pdf",
+      "bytes": 100446,
+      "sha256": "8428f68acf3b287af5fd0f42793b2f4bb35a3d3c1f10d4979ade0632a8e9361e"
+    },
+    {
+      "file": "Composants/finalisation-theorique-r2/plans/empilages-arbres.csv",
+      "bytes": 1474,
+      "sha256": "e9111977622de3980eb1613c9b470c1f1b5640bd5a4b5a6c390e93760f1a5a05"
+    },
+    {
+      "file": "Composants/finalisation-theorique-r2/plans/percages-r2-global.csv",
+      "bytes": 3815,
+      "sha256": "51bc21b59fd6a1194e39c0a22ef69e316495610c85b02a282475fcbf21d97444"
+    },
+    {
+      "file": "Composants/finalisation-theorique-r2/plans/R212_support_servo.dxf",
+      "bytes": 21874,
+      "sha256": "b8ae3e9395a50ffa9c608a83f9c896db0a050b5be5e6e3e7cf0694ece87d233c"
+    },
+    {
+      "file": "Composants/finalisation-theorique-r2/plans/R213_support_UBEC.dxf",
+      "bytes": 21803,
+      "sha256": "6341cd83e204a3f6643c717729a6bf1c1a13245120a544dce74c06774fba40a0"
+    },
+    {
+      "file": "Composants/finalisation-theorique-r2/plans/R214_cassette_FS.dxf",
+      "bytes": 20605,
+      "sha256": "4cf91fac6d0f4039e84124bb5d4c9c9102abd0447bd8dacf7dce639db067f9f3"
+    },
+    {
+      "file": "Composants/finalisation-theorique-r2/plans/README.md",
+      "bytes": 1154,
+      "sha256": "a94ea8b484b5325f8382b44cb3ca7aff83ee986681060213bdf2322a7329621f"
+    },
+    {
+      "file": "Composants/finalisation-theorique-r2/plans/surcouche-percages-r2.dxf",
+      "bytes": 25768,
+      "sha256": "df531e0a4ea002380a4c38942e82c429f1eaacd1aae47ee88e7d54cc5b12a633"
+    },
+    {
+      "file": "Composants/finalisation-theorique-r2/references/Beneri-DIN471.html",
+      "bytes": 209212,
+      "sha256": "15a154d49d0030d7017c0583367480fb924c7ddca7bd8c8202509519bf265393"
+    },
+    {
+      "file": "Composants/finalisation-theorique-r2/references/FEETECH-FT5335M-historique.pdf",
+      "bytes": 111176,
+      "sha256": "ffddc77cfe128972df754ec7a670be641b9b51182dca252604ccfe40e106d484"
+    },
+    {
+      "file": "Composants/finalisation-theorique-r2/references/Hobbywing-UBEC10ACar.pdf",
+      "bytes": 1802176,
+      "sha256": "0d74492495504a52aa387897d1d0ae1c1ba5c0f43cbe9d8f0a666651e90b0595"
+    },
+    {
+      "file": "Composants/finalisation-theorique-r2/references/HPC-circlips-DIN471.pdf",
+      "bytes": 447671,
+      "sha256": "91367214d0c39ab49ec0043fae78f18f0c31bc47a602f8ed085c59ce7fc4a4fe"
+    },
+    {
+      "file": "Composants/finalisation-theorique-r2/references/NSK-ajustements.html",
+      "bytes": 348132,
+      "sha256": "1e3cc7974f60889871062f46d9661661245a7c889d1870f0c6438d0e3fda9012"
+    },
+    {
+      "file": "Composants/finalisation-theorique-r2/references/SMB-MR115ZZ.pdf",
+      "bytes": 110429,
+      "sha256": "47124fe7b5bda8ddf055701f9a28959712bba733bc043704eec517f020169c94"
+    },
+    {
+      "file": "Composants/finalisation-theorique-r2/references/TI-ISO7710.pdf",
+      "bytes": 1457891,
+      "sha256": "42fc3c704c9ca0c451282373b4a7ffb22d4691d56029b2b485ab111f3cc431c5"
+    },
+    {
+      "file": "Composants/finalisation-theorique-r2/routage/brochage-gpio-r2.json",
+      "bytes": 4591,
+      "sha256": "4fb1ae4d103b4ac3d62cb74c9ac75724bd18038577d4c891068aaa7999797def"
+    },
+    {
+      "file": "Composants/finalisation-theorique-r2/routage/complements-nomenclature-electrique.json",
+      "bytes": 555,
+      "sha256": "d0ca80835e04cd5d3a90746a1e93b567d3adc8250d5b1a38b5cc257b87efa56c"
+    },
+    {
+      "file": "Composants/finalisation-theorique-r2/routage/interface-pwm-bom.json",
+      "bytes": 223,
+      "sha256": "c2db475dca0cf452a3ac13de005a9d4888476a3a5ce9b1bbdc5720526fc7194f"
+    },
+    {
+      "file": "Composants/finalisation-theorique-r2/routage/interface-pwm-netlist.csv",
+      "bytes": 646,
+      "sha256": "97a17f5eac0327f7816e8d2f2a0733645e61a5d7b20538ae1911b9de85941e1a"
+    },
+    {
+      "file": "Composants/finalisation-theorique-r2/routage/longueurs-cables.csv",
+      "bytes": 1593,
+      "sha256": "52c7500c5c04549c0a6a36c629080926d996c3a872f2fff8c325245760b4b9c6"
+    },
+    {
+      "file": "Composants/finalisation-theorique-r2/routage/parcours.json",
+      "bytes": 9180,
+      "sha256": "fa18b3c520e47e432e7843334f16064489e7191d8f9c5c3f1139bf78cc145518"
+    },
+    {
+      "file": "Composants/finalisation-theorique-r2/routage/raccordements-r2.csv",
+      "bytes": 1301,
+      "sha256": "f5b6ab70265f179d0caeb5d5990578b673596b51e6ee452e6d118020a1b79bff"
+    },
+    {
+      "file": "Composants/finalisation-theorique-r2/verification/assemblage.json",
+      "bytes": 1128,
+      "sha256": "0661aa6c27892e4378866c925ff23b90a73982dbc70d42762834a5e8a9eab614"
+    },
+    {
+      "file": "Composants/finalisation-theorique-r2/verification/balayage-direction.json",
+      "bytes": 3534,
+      "sha256": "2f62fd503e2c2bbad0ffbc61c9c36c88d94a76d75dab10361b304a8660bcf887"
+    },
+    {
+      "file": "Composants/finalisation-theorique-r2/verification/budget-masse.json",
+      "bytes": 183,
+      "sha256": "d174ee9a8367efda6db2f09c6b7c917f84fbd2dbea2d3b7f32e0ab08aaf15e5b"
+    },
+    {
+      "file": "Composants/finalisation-theorique-r2/verification/cables-batterie-support.json",
+      "bytes": 912,
+      "sha256": "769607f3bc26e15a12107d3fa3b592ba371fad06315da5153f2bb9134072a61d"
+    },
+    {
+      "file": "Composants/finalisation-theorique-r2/verification/cad-viewer.json",
+      "bytes": 480,
+      "sha256": "844a9f66099f4a8457ba84b123f9d26d2e68be67704746744191f88330337cba"
+    },
+    {
+      "file": "Composants/finalisation-theorique-r2/verification/dxf.json",
+      "bytes": 2152,
+      "sha256": "3831c1d6c5c508f647b913332ea29e0f9563ec17079aa9d77df74bf2e7f05c83"
+    },
+    {
+      "file": "Composants/finalisation-theorique-r2/verification/etat-liberation.json",
+      "bytes": 514,
+      "sha256": "5841c10ff1ff27f5897fb997642bc7f2c6400e05859c32980b2ebc8f4e15d096"
+    },
+    {
+      "file": "Composants/finalisation-theorique-r2/verification/freecad.json",
+      "bytes": 428,
+      "sha256": "96311edea875834739fb0f564e21c9b89b01456f3f9c69c4b54567f3457aea9f"
+    },
+    {
+      "file": "Composants/finalisation-theorique-r2/verification/generation.json",
+      "bytes": 225,
+      "sha256": "da3330f451714bb311efc7b641d3862bee171f3f1e017e904b9d1d754c2c1dbb"
+    },
+    {
+      "file": "Composants/finalisation-theorique-r2/verification/interfaces-roues.json",
+      "bytes": 124,
+      "sha256": "cd962f84632f8df80d4e8e15b457de6ad36be4e41f5ae2ba76c7fe9e1f4fa955"
+    },
+    {
+      "file": "Composants/finalisation-theorique-r2/verification/interferences-mecanique.json",
+      "bytes": 162,
+      "sha256": "aabb7b6476cfddbb6a3c2c8019a06acff39d5271a22a8b43ac908828d675e219"
+    },
+    {
+      "file": "Composants/finalisation-theorique-r2/verification/livraison.json",
+      "bytes": 950,
+      "sha256": "9334f3a663fc502f2bd135b805e847e895711a8ca98024ae154f2ddec9758ede"
+    },
+    {
+      "file": "Composants/finalisation-theorique-r2/verification/pdf.json",
+      "bytes": 2143,
+      "sha256": "bdbc961d1dccad4bc97ebcb85a13e43ffa534e1d32538356fb09d42b1884318b"
+    },
+    {
+      "file": "Composants/finalisation-theorique-r2/verification/retenue-hall.json",
+      "bytes": 1408,
+      "sha256": "cfaa48df5b5b1fb4c62d658866a6dc7949931b486816622aff2d7a5ac9d5c02e"
+    },
+    {
+      "file": "Composants/finalisation-theorique-r2/verification/revue-electrique-r2.json",
+      "bytes": 748,
+      "sha256": "10f859026359cd308403bb37bc7c2b8b8318cf20978c010bd3b1491e01c805b6"
+    },
+    {
+      "file": "Composants/finalisation-theorique-r2/verification/synthese.json",
+      "bytes": 5319,
+      "sha256": "8c064b62921f29dd0e587e0b15a15dc614584d4d3e0e2f5cec3b25581adfdf63"
+    },
+    {
+      "file": "Composants/visserie-finale/accessoires-et-interfaces.json",
+      "bytes": 1409,
+      "sha256": "20a7b51ebe435646607789b84d4df64ffee0a996d9a73f2deaedf50e26033dd9"
+    },
+    {
+      "file": "Composants/visserie-finale/nomenclature.csv",
+      "bytes": 5124,
+      "sha256": "066740ffb74aa80ff7b04f8f8143d33bcabd5f6a4f1ea026e05c0206c1ba1da5"
+    },
+    {
+      "file": "Composants/visserie-finale/README.md",
+      "bytes": 1848,
+      "sha256": "49a164f2d7fb4eaad639a3edc1ddf4f981f33d16a93ca33665d5539a15bdf72c"
+    },
+    {
+      "file": "Composants/visserie-finale/recapitulatif-approvisionnement.csv",
+      "bytes": 2732,
+      "sha256": "d096a07701ebb350f13b6c3789f73992874633a4de91e49b0a7abd65316a1a91"
+    },
+    {
+      "file": "Composants/retenues-axiales/README.md",
+      "bytes": 1096,
+      "sha256": "50238955565f1f886d3d4335c2cf5e3051adb5fd4c4fb09533f68a1823a31004"
+    },
+    {
+      "file": "Composants/alimentation-direction/README.md",
+      "bytes": 750,
+      "sha256": "03e865a8f1d47db8ed690edd18c22350f56efc47bbb6b8217e6611153ade2929"
+    },
+    {
+      "file": "Composants/alimentation-direction/3D/gabarit-r2.step",
+      "bytes": 15535,
+      "sha256": "9c6d20e2f7cd0dabcc654c0a2c24e5211e8960263ed4abe172fab11bc6d446eb"
+    },
+    {
+      "file": "Composants/interface-pwm-isolee/README.md",
+      "bytes": 748,
+      "sha256": "cfefe5075d468c7bde16b9b1024eea95ef1e7c02a01f060bea43c2003b428794"
+    },
+    {
+      "file": "Composants/interface-pwm-isolee/3D/gabarit-r2.step",
+      "bytes": 15496,
+      "sha256": "b544d76fb356185d5d68275ea3cf1a8d30240a922886199d0f14e9bce9742130"
+    },
+    {
+      "file": "Composants/servo-direction/ft5335m-r2/README.md",
+      "bytes": 756,
+      "sha256": "6d7c7cc3a57ae45713855a0ff859034ab5e94019d64baa23d8371d59cf9901ff"
+    },
+    {
+      "file": "Composants/servo-direction/ft5335m-r2/3D/gabarit-r2.step",
+      "bytes": 15569,
+      "sha256": "7c30c4d4b32194369f43aee611c33df7c77fab5d9697e1d31560c81e31eeb04f"
+    },
+    {
+      "file": "Assemblage/R2/apercu-r2-dessus.png",
+      "bytes": 66650,
+      "sha256": "7e0b02db0353419d578d223e1bab98e5b996b32edb07e4d662ae3853a536cdd6"
+    },
+    {
+      "file": "Assemblage/R2/apercu-r2-isometrique.png",
+      "bytes": 81153,
+      "sha256": "dfc61de787e4f5a57012a4dcdd5495e1c9d22b965011b028987c4c7a5e00ad92"
+    },
+    {
+      "file": "Assemblage/R2/drone-v3-r2-etude.FCStd",
+      "bytes": 706631,
+      "sha256": "61d1ee5f8afd1a9b251d37e958725d2fcbf37dc6b7e46caef8c03b4ca05c25a2"
+    },
+    {
+      "file": "Assemblage/R2/drone-v3-r2-etude.step",
+      "bytes": 11569420,
+      "sha256": "73eeda462a399ace5944e6d0def9d6d0e59cf865d48b0b6b81b3e594732edc18"
+    },
+    {
+      "file": "Assemblage/R2/README.md",
+      "bytes": 1252,
+      "sha256": "ace29a170fe6401dd5b90e7afb0ada53d0a86fae628449d82100da9013f24b03"
+    }
+  ],
+  "includes_self": false,
+  "archive_record_excluded": true
+}

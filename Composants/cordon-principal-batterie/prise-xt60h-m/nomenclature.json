@@ -1,0 +1,33 @@
+{
+  "folder": "prise-xt60h-m",
+  "ref": "AMASS XT60H-M avec capot",
+  "qty": 1,
+  "unit": "prise",
+  "buy": "https://www.tme.eu/fr/details/xt60h-m/connecteurs-dc/amass/",
+  "role": "Interface côté véhicule : contacts mâles, à brancher sur les contacts femelles du pack 2S actuellement choisi.",
+  "reuse": "Une prise du lot déjà prévu, si lot confirmé authentique et en quantité suffisante ; sinon une pièce à acheter.",
+  "price": null,
+  "currency": "EUR",
+  "cotes": [
+    [
+      "Enveloppe actuelle M",
+      "23,85 ×16,4 ×9,2 mm",
+      "Catalogue AMASS2026 p15"
+    ],
+    [
+      "Entraxe contacts",
+      "7,2 mm",
+      "Fiche V1.2 historique ; lot actuel à contrôler"
+    ],
+    [
+      "Courant annoncé",
+      "35 A MAX /12 AWG /élévation <85 K",
+      "Document actuel ; 44,39 A non justifiés"
+    ],
+    [
+      "Révision ancienne",
+      "30 A RC /60 A MC",
+      "V1.2 ; pas 60 A continu garantis"
+    ]
+  ]
+}

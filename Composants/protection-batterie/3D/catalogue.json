@@ -1,0 +1,2729 @@
+{
+  "model_count": 3,
+  "models": [
+    {
+      "folder": "protection-batterie/surveillance-2s",
+      "file": "surveillance-2s-v3-concept-detaille.step",
+      "title": "V3 | supervision 2S analogique - CONCEPT",
+      "generated_on": "2026-10-13",
+      "unit": "mm",
+      "cadquery_version": "2.8.0",
+      "coordinate_system": "Centre X/Y; bas du PCB ou de la semelle z=0",
+      "bytes": 16512993,
+      "sha256": "fb34302ac436526aa58b33f9973d93d24c4417c11e2b5c22a237d151697acfe3",
+      "native_vendor_cad": false,
+      "hardware_measured": false,
+      "is_custom_project_design": true,
+      "published_nominal": [
+        "TLV6700 DDC: corps nominal 2.9x1.6 mm, reference/hysteresis dans PDF TI",
+        "Composants reels proposes; pas de microcontroleur de commande ajoute"
+      ],
+      "estimates_and_limitations": [
+        "Carte propre au projet, non fabriquee: aucune photographie de carte commerciale",
+        "Implantation, connecteurs et hauteurs de certains boitiers approximatifs",
+        "Pistes visibles illustratives: pas un routage valide, pas de Gerber ni plan CNC",
+        "Les valences/marquages sont des annotations CAO, pas une copie de codes fabricant"
+      ],
+      "parameters": {
+        "project_board_mm": [
+          54,
+          32,
+          1.6
+        ],
+        "holes_diameter_mm": 2.2,
+        "holes_centres_mm": [
+          48,
+          26
+        ],
+        "domains": "Cell1 B0/B1; Cell2 B1/B2; logic B0/3.3V",
+        "manufacturing_ready": false
+      },
+      "source_pages": [
+        "TI TLV6700 PDF3,5; Vishay VOS618A PDF7; project integration.md"
+      ],
+      "bounds_mm": {
+        "xmin": -27.0,
+        "xmax": 27.0,
+        "ymin": -16.0,
+        "ymax": 16.0,
+        "zmin": 0.0,
+        "zmax": 8.62
+      },
+      "validation": {
+        "valid_after_reimport": true,
+        "solids": 352,
+        "faces": 4317,
+        "colors": 8,
+        "volume_relative_error": 6.326922443616473e-15,
+        "volume_relative_error_limit": 0.0001,
+        "volume_before_mm3": 3234.373579296455,
+        "volume_after_mm3": 3234.3735792964753,
+        "adaptive_volume_tolerance": 1e-09,
+        "bbox_error_mm": 1.7763568394002505e-15,
+        "bbox_error_limit_mm": 0.01,
+        "void_and_material_probes": [],
+        "elapsed_seconds": 18.757335000002058
+      },
+      "parts": [
+        {
+          "name": "PCB_V3_etude_non_routee_pour_fabrication",
+          "color_linear_rgb": [
+            0.008,
+            0.14,
+            0.035
+          ],
+          "solids": 1
+        },
+        {
+          "name": "U1_TLV6700_DDC_boitier",
+          "color_linear_rgb": [
+            0.015,
+            0.02,
+            0.025
+          ],
+          "solids": 1
+        },
+        {
+          "name": "U1_TLV6700_DDC_patte_-1_0",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "U1_TLV6700_DDC_pad_-1_0",
+          "color_linear_rgb": [
+            0.62,
+            0.4,
+            0.09
+          ],
+          "solids": 1
+        },
+        {
+          "name": "U1_TLV6700_DDC_patte_-1_1",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "U1_TLV6700_DDC_pad_-1_1",
+          "color_linear_rgb": [
+            0.62,
+            0.4,
+            0.09
+          ],
+          "solids": 1
+        },
+        {
+          "name": "U1_TLV6700_DDC_patte_-1_2",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "U1_TLV6700_DDC_pad_-1_2",
+          "color_linear_rgb": [
+            0.62,
+            0.4,
+            0.09
+          ],
+          "solids": 1
+        },
+        {
+          "name": "U1_TLV6700_DDC_patte_1_0",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "U1_TLV6700_DDC_pad_1_0",
+          "color_linear_rgb": [
+            0.62,
+            0.4,
+            0.09
+          ],
+          "solids": 1
+        },
+        {
+          "name": "U1_TLV6700_DDC_patte_1_1",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "U1_TLV6700_DDC_pad_1_1",
+          "color_linear_rgb": [
+            0.62,
+            0.4,
+            0.09
+          ],
+          "solids": 1
+        },
+        {
+          "name": "U1_TLV6700_DDC_patte_1_2",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "U1_TLV6700_DDC_pad_1_2",
+          "color_linear_rgb": [
+            0.62,
+            0.4,
+            0.09
+          ],
+          "solids": 1
+        },
+        {
+          "name": "R_C1_1_ceramique",
+          "color_linear_rgb": [
+            0.015,
+            0.02,
+            0.025
+          ],
+          "solids": 1
+        },
+        {
+          "name": "R_C1_1_terminaison_-1",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "R_C1_1_pad_-1",
+          "color_linear_rgb": [
+            0.62,
+            0.4,
+            0.09
+          ],
+          "solids": 1
+        },
+        {
+          "name": "R_C1_1_terminaison_1",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "R_C1_1_pad_1",
+          "color_linear_rgb": [
+            0.62,
+            0.4,
+            0.09
+          ],
+          "solids": 1
+        },
+        {
+          "name": "R_C1_1_valeur_illustrative",
+          "color_linear_rgb": [
+            0.87,
+            0.9,
+            0.93
+          ],
+          "solids": 4
+        },
+        {
+          "name": "R_C1_2_ceramique",
+          "color_linear_rgb": [
+            0.015,
+            0.02,
+            0.025
+          ],
+          "solids": 1
+        },
+        {
+          "name": "R_C1_2_terminaison_-1",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "R_C1_2_pad_-1",
+          "color_linear_rgb": [
+            0.62,
+            0.4,
+            0.09
+          ],
+          "solids": 1
+        },
+        {
+          "name": "R_C1_2_terminaison_1",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "R_C1_2_pad_1",
+          "color_linear_rgb": [
+            0.62,
+            0.4,
+            0.09
+          ],
+          "solids": 1
+        },
+        {
+          "name": "R_C1_2_valeur_illustrative",
+          "color_linear_rgb": [
+            0.87,
+            0.9,
+            0.93
+          ],
+          "solids": 4
+        },
+        {
+          "name": "R_C1_3_ceramique",
+          "color_linear_rgb": [
+            0.015,
+            0.02,
+            0.025
+          ],
+          "solids": 1
+        },
+        {
+          "name": "R_C1_3_terminaison_-1",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "R_C1_3_pad_-1",
+          "color_linear_rgb": [
+            0.62,
+            0.4,
+            0.09
+          ],
+          "solids": 1
+        },
+        {
+          "name": "R_C1_3_terminaison_1",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "R_C1_3_pad_1",
+          "color_linear_rgb": [
+            0.62,
+            0.4,
+            0.09
+          ],
+          "solids": 1
+        },
+        {
+          "name": "R_C1_3_valeur_illustrative",
+          "color_linear_rgb": [
+            0.87,
+            0.9,
+            0.93
+          ],
+          "solids": 4
+        },
+        {
+          "name": "R_C1_4_ceramique",
+          "color_linear_rgb": [
+            0.015,
+            0.02,
+            0.025
+          ],
+          "solids": 1
+        },
+        {
+          "name": "R_C1_4_terminaison_-1",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "R_C1_4_pad_-1",
+          "color_linear_rgb": [
+            0.62,
+            0.4,
+            0.09
+          ],
+          "solids": 1
+        },
+        {
+          "name": "R_C1_4_terminaison_1",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "R_C1_4_pad_1",
+          "color_linear_rgb": [
+            0.62,
+            0.4,
+            0.09
+          ],
+          "solids": 1
+        },
+        {
+          "name": "R_C1_4_valeur_illustrative",
+          "color_linear_rgb": [
+            0.87,
+            0.9,
+            0.93
+          ],
+          "solids": 4
+        },
+        {
+          "name": "R_C1_5_ceramique",
+          "color_linear_rgb": [
+            0.015,
+            0.02,
+            0.025
+          ],
+          "solids": 1
+        },
+        {
+          "name": "R_C1_5_terminaison_-1",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "R_C1_5_pad_-1",
+          "color_linear_rgb": [
+            0.62,
+            0.4,
+            0.09
+          ],
+          "solids": 1
+        },
+        {
+          "name": "R_C1_5_terminaison_1",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "R_C1_5_pad_1",
+          "color_linear_rgb": [
+            0.62,
+            0.4,
+            0.09
+          ],
+          "solids": 1
+        },
+        {
+          "name": "R_C1_5_valeur_illustrative",
+          "color_linear_rgb": [
+            0.87,
+            0.9,
+            0.93
+          ],
+          "solids": 4
+        },
+        {
+          "name": "R_C1_6_ceramique",
+          "color_linear_rgb": [
+            0.015,
+            0.02,
+            0.025
+          ],
+          "solids": 1
+        },
+        {
+          "name": "R_C1_6_terminaison_-1",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "R_C1_6_pad_-1",
+          "color_linear_rgb": [
+            0.62,
+            0.4,
+            0.09
+          ],
+          "solids": 1
+        },
+        {
+          "name": "R_C1_6_terminaison_1",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "R_C1_6_pad_1",
+          "color_linear_rgb": [
+            0.62,
+            0.4,
+            0.09
+          ],
+          "solids": 1
+        },
+        {
+          "name": "R_C1_6_valeur_illustrative",
+          "color_linear_rgb": [
+            0.87,
+            0.9,
+            0.93
+          ],
+          "solids": 4
+        },
+        {
+          "name": "R_C1_7_ceramique",
+          "color_linear_rgb": [
+            0.015,
+            0.02,
+            0.025
+          ],
+          "solids": 1
+        },
+        {
+          "name": "R_C1_7_terminaison_-1",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "R_C1_7_pad_-1",
+          "color_linear_rgb": [
+            0.62,
+            0.4,
+            0.09
+          ],
+          "solids": 1
+        },
+        {
+          "name": "R_C1_7_terminaison_1",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "R_C1_7_pad_1",
+          "color_linear_rgb": [
+            0.62,
+            0.4,
+            0.09
+          ],
+          "solids": 1
+        },
+        {
+          "name": "R_C1_7_valeur_illustrative",
+          "color_linear_rgb": [
+            0.87,
+            0.9,
+            0.93
+          ],
+          "solids": 4
+        },
+        {
+          "name": "C_C1_100nF",
+          "color_linear_rgb": [
+            0.51,
+            0.3,
+            0.12
+          ],
+          "solids": 1
+        },
+        {
+          "name": "C_FIL_C1_1_100nF",
+          "color_linear_rgb": [
+            0.51,
+            0.3,
+            0.12
+          ],
+          "solids": 1
+        },
+        {
+          "name": "C_FIL_C1_2_100nF",
+          "color_linear_rgb": [
+            0.51,
+            0.3,
+            0.12
+          ],
+          "solids": 1
+        },
+        {
+          "name": "OP_C1_1_VOS618A8T_boitier",
+          "color_linear_rgb": [
+            0.015,
+            0.02,
+            0.025
+          ],
+          "solids": 1
+        },
+        {
+          "name": "OP_C1_1_VOS618A8T_patte_-1_-1",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "OP_C1_1_VOS618A8T_pad_-1_-1",
+          "color_linear_rgb": [
+            0.62,
+            0.4,
+            0.09
+          ],
+          "solids": 1
+        },
+        {
+          "name": "OP_C1_1_VOS618A8T_patte_-1_1",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "OP_C1_1_VOS618A8T_pad_-1_1",
+          "color_linear_rgb": [
+            0.62,
+            0.4,
+            0.09
+          ],
+          "solids": 1
+        },
+        {
+          "name": "OP_C1_1_VOS618A8T_patte_1_-1",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "OP_C1_1_VOS618A8T_pad_1_-1",
+          "color_linear_rgb": [
+            0.62,
+            0.4,
+            0.09
+          ],
+          "solids": 1
+        },
+        {
+          "name": "OP_C1_1_VOS618A8T_patte_1_1",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "OP_C1_1_VOS618A8T_pad_1_1",
+          "color_linear_rgb": [
+            0.62,
+            0.4,
+            0.09
+          ],
+          "solids": 1
+        },
+        {
+          "name": "OP_C1_1_VOS618A8T_texte_indicatif",
+          "color_linear_rgb": [
+            0.87,
+            0.9,
+            0.93
+          ],
+          "solids": 3
+        },
+        {
+          "name": "OP_C1_2_VOS618A8T_boitier",
+          "color_linear_rgb": [
+            0.015,
+            0.02,
+            0.025
+          ],
+          "solids": 1
+        },
+        {
+          "name": "OP_C1_2_VOS618A8T_patte_-1_-1",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "OP_C1_2_VOS618A8T_pad_-1_-1",
+          "color_linear_rgb": [
+            0.62,
+            0.4,
+            0.09
+          ],
+          "solids": 1
+        },
+        {
+          "name": "OP_C1_2_VOS618A8T_patte_-1_1",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "OP_C1_2_VOS618A8T_pad_-1_1",
+          "color_linear_rgb": [
+            0.62,
+            0.4,
+            0.09
+          ],
+          "solids": 1
+        },
+        {
+          "name": "OP_C1_2_VOS618A8T_patte_1_-1",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "OP_C1_2_VOS618A8T_pad_1_-1",
+          "color_linear_rgb": [
+            0.62,
+            0.4,
+            0.09
+          ],
+          "solids": 1
+        },
+        {
+          "name": "OP_C1_2_VOS618A8T_patte_1_1",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "OP_C1_2_VOS618A8T_pad_1_1",
+          "color_linear_rgb": [
+            0.62,
+            0.4,
+            0.09
+          ],
+          "solids": 1
+        },
+        {
+          "name": "OP_C1_2_VOS618A8T_texte_indicatif",
+          "color_linear_rgb": [
+            0.87,
+            0.9,
+            0.93
+          ],
+          "solids": 3
+        },
+        {
+          "name": "Piste_C1_0_illustrative",
+          "color_linear_rgb": [
+            0.64,
+            0.3,
+            0.08
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piste_C1_1_illustrative",
+          "color_linear_rgb": [
+            0.64,
+            0.3,
+            0.08
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Serig_C1",
+          "color_linear_rgb": [
+            0.87,
+            0.9,
+            0.93
+          ],
+          "solids": 5
+        },
+        {
+          "name": "U2_TLV6700_DDC_boitier",
+          "color_linear_rgb": [
+            0.015,
+            0.02,
+            0.025
+          ],
+          "solids": 1
+        },
+        {
+          "name": "U2_TLV6700_DDC_patte_-1_0",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "U2_TLV6700_DDC_pad_-1_0",
+          "color_linear_rgb": [
+            0.62,
+            0.4,
+            0.09
+          ],
+          "solids": 1
+        },
+        {
+          "name": "U2_TLV6700_DDC_patte_-1_1",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "U2_TLV6700_DDC_pad_-1_1",
+          "color_linear_rgb": [
+            0.62,
+            0.4,
+            0.09
+          ],
+          "solids": 1
+        },
+        {
+          "name": "U2_TLV6700_DDC_patte_-1_2",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "U2_TLV6700_DDC_pad_-1_2",
+          "color_linear_rgb": [
+            0.62,
+            0.4,
+            0.09
+          ],
+          "solids": 1
+        },
+        {
+          "name": "U2_TLV6700_DDC_patte_1_0",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "U2_TLV6700_DDC_pad_1_0",
+          "color_linear_rgb": [
+            0.62,
+            0.4,
+            0.09
+          ],
+          "solids": 1
+        },
+        {
+          "name": "U2_TLV6700_DDC_patte_1_1",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "U2_TLV6700_DDC_pad_1_1",
+          "color_linear_rgb": [
+            0.62,
+            0.4,
+            0.09
+          ],
+          "solids": 1
+        },
+        {
+          "name": "U2_TLV6700_DDC_patte_1_2",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "U2_TLV6700_DDC_pad_1_2",
+          "color_linear_rgb": [
+            0.62,
+            0.4,
+            0.09
+          ],
+          "solids": 1
+        },
+        {
+          "name": "R_C2_1_ceramique",
+          "color_linear_rgb": [
+            0.015,
+            0.02,
+            0.025
+          ],
+          "solids": 1
+        },
+        {
+          "name": "R_C2_1_terminaison_-1",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "R_C2_1_pad_-1",
+          "color_linear_rgb": [
+            0.62,
+            0.4,
+            0.09
+          ],
+          "solids": 1
+        },
+        {
+          "name": "R_C2_1_terminaison_1",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "R_C2_1_pad_1",
+          "color_linear_rgb": [
+            0.62,
+            0.4,
+            0.09
+          ],
+          "solids": 1
+        },
+        {
+          "name": "R_C2_1_valeur_illustrative",
+          "color_linear_rgb": [
+            0.87,
+            0.9,
+            0.93
+          ],
+          "solids": 4
+        },
+        {
+          "name": "R_C2_2_ceramique",
+          "color_linear_rgb": [
+            0.015,
+            0.02,
+            0.025
+          ],
+          "solids": 1
+        },
+        {
+          "name": "R_C2_2_terminaison_-1",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "R_C2_2_pad_-1",
+          "color_linear_rgb": [
+            0.62,
+            0.4,
+            0.09
+          ],
+          "solids": 1
+        },
+        {
+          "name": "R_C2_2_terminaison_1",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "R_C2_2_pad_1",
+          "color_linear_rgb": [
+            0.62,
+            0.4,
+            0.09
+          ],
+          "solids": 1
+        },
+        {
+          "name": "R_C2_2_valeur_illustrative",
+          "color_linear_rgb": [
+            0.87,
+            0.9,
+            0.93
+          ],
+          "solids": 4
+        },
+        {
+          "name": "R_C2_3_ceramique",
+          "color_linear_rgb": [
+            0.015,
+            0.02,
+            0.025
+          ],
+          "solids": 1
+        },
+        {
+          "name": "R_C2_3_terminaison_-1",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "R_C2_3_pad_-1",
+          "color_linear_rgb": [
+            0.62,
+            0.4,
+            0.09
+          ],
+          "solids": 1
+        },
+        {
+          "name": "R_C2_3_terminaison_1",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "R_C2_3_pad_1",
+          "color_linear_rgb": [
+            0.62,
+            0.4,
+            0.09
+          ],
+          "solids": 1
+        },
+        {
+          "name": "R_C2_3_valeur_illustrative",
+          "color_linear_rgb": [
+            0.87,
+            0.9,
+            0.93
+          ],
+          "solids": 4
+        },
+        {
+          "name": "R_C2_4_ceramique",
+          "color_linear_rgb": [
+            0.015,
+            0.02,
+            0.025
+          ],
+          "solids": 1
+        },
+        {
+          "name": "R_C2_4_terminaison_-1",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "R_C2_4_pad_-1",
+          "color_linear_rgb": [
+            0.62,
+            0.4,
+            0.09
+          ],
+          "solids": 1
+        },
+        {
+          "name": "R_C2_4_terminaison_1",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "R_C2_4_pad_1",
+          "color_linear_rgb": [
+            0.62,
+            0.4,
+            0.09
+          ],
+          "solids": 1
+        },
+        {
+          "name": "R_C2_4_valeur_illustrative",
+          "color_linear_rgb": [
+            0.87,
+            0.9,
+            0.93
+          ],
+          "solids": 4
+        },
+        {
+          "name": "R_C2_5_ceramique",
+          "color_linear_rgb": [
+            0.015,
+            0.02,
+            0.025
+          ],
+          "solids": 1
+        },
+        {
+          "name": "R_C2_5_terminaison_-1",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "R_C2_5_pad_-1",
+          "color_linear_rgb": [
+            0.62,
+            0.4,
+            0.09
+          ],
+          "solids": 1
+        },
+        {
+          "name": "R_C2_5_terminaison_1",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "R_C2_5_pad_1",
+          "color_linear_rgb": [
+            0.62,
+            0.4,
+            0.09
+          ],
+          "solids": 1
+        },
+        {
+          "name": "R_C2_5_valeur_illustrative",
+          "color_linear_rgb": [
+            0.87,
+            0.9,
+            0.93
+          ],
+          "solids": 4
+        },
+        {
+          "name": "R_C2_6_ceramique",
+          "color_linear_rgb": [
+            0.015,
+            0.02,
+            0.025
+          ],
+          "solids": 1
+        },
+        {
+          "name": "R_C2_6_terminaison_-1",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "R_C2_6_pad_-1",
+          "color_linear_rgb": [
+            0.62,
+            0.4,
+            0.09
+          ],
+          "solids": 1
+        },
+        {
+          "name": "R_C2_6_terminaison_1",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "R_C2_6_pad_1",
+          "color_linear_rgb": [
+            0.62,
+            0.4,
+            0.09
+          ],
+          "solids": 1
+        },
+        {
+          "name": "R_C2_6_valeur_illustrative",
+          "color_linear_rgb": [
+            0.87,
+            0.9,
+            0.93
+          ],
+          "solids": 4
+        },
+        {
+          "name": "R_C2_7_ceramique",
+          "color_linear_rgb": [
+            0.015,
+            0.02,
+            0.025
+          ],
+          "solids": 1
+        },
+        {
+          "name": "R_C2_7_terminaison_-1",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "R_C2_7_pad_-1",
+          "color_linear_rgb": [
+            0.62,
+            0.4,
+            0.09
+          ],
+          "solids": 1
+        },
+        {
+          "name": "R_C2_7_terminaison_1",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "R_C2_7_pad_1",
+          "color_linear_rgb": [
+            0.62,
+            0.4,
+            0.09
+          ],
+          "solids": 1
+        },
+        {
+          "name": "R_C2_7_valeur_illustrative",
+          "color_linear_rgb": [
+            0.87,
+            0.9,
+            0.93
+          ],
+          "solids": 4
+        },
+        {
+          "name": "C_C2_100nF",
+          "color_linear_rgb": [
+            0.51,
+            0.3,
+            0.12
+          ],
+          "solids": 1
+        },
+        {
+          "name": "C_FIL_C2_1_100nF",
+          "color_linear_rgb": [
+            0.51,
+            0.3,
+            0.12
+          ],
+          "solids": 1
+        },
+        {
+          "name": "C_FIL_C2_2_100nF",
+          "color_linear_rgb": [
+            0.51,
+            0.3,
+            0.12
+          ],
+          "solids": 1
+        },
+        {
+          "name": "OP_C2_1_VOS618A8T_boitier",
+          "color_linear_rgb": [
+            0.015,
+            0.02,
+            0.025
+          ],
+          "solids": 1
+        },
+        {
+          "name": "OP_C2_1_VOS618A8T_patte_-1_-1",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "OP_C2_1_VOS618A8T_pad_-1_-1",
+          "color_linear_rgb": [
+            0.62,
+            0.4,
+            0.09
+          ],
+          "solids": 1
+        },
+        {
+          "name": "OP_C2_1_VOS618A8T_patte_-1_1",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "OP_C2_1_VOS618A8T_pad_-1_1",
+          "color_linear_rgb": [
+            0.62,
+            0.4,
+            0.09
+          ],
+          "solids": 1
+        },
+        {
+          "name": "OP_C2_1_VOS618A8T_patte_1_-1",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "OP_C2_1_VOS618A8T_pad_1_-1",
+          "color_linear_rgb": [
+            0.62,
+            0.4,
+            0.09
+          ],
+          "solids": 1
+        },
+        {
+          "name": "OP_C2_1_VOS618A8T_patte_1_1",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "OP_C2_1_VOS618A8T_pad_1_1",
+          "color_linear_rgb": [
+            0.62,
+            0.4,
+            0.09
+          ],
+          "solids": 1
+        },
+        {
+          "name": "OP_C2_1_VOS618A8T_texte_indicatif",
+          "color_linear_rgb": [
+            0.87,
+            0.9,
+            0.93
+          ],
+          "solids": 3
+        },
+        {
+          "name": "OP_C2_2_VOS618A8T_boitier",
+          "color_linear_rgb": [
+            0.015,
+            0.02,
+            0.025
+          ],
+          "solids": 1
+        },
+        {
+          "name": "OP_C2_2_VOS618A8T_patte_-1_-1",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "OP_C2_2_VOS618A8T_pad_-1_-1",
+          "color_linear_rgb": [
+            0.62,
+            0.4,
+            0.09
+          ],
+          "solids": 1
+        },
+        {
+          "name": "OP_C2_2_VOS618A8T_patte_-1_1",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "OP_C2_2_VOS618A8T_pad_-1_1",
+          "color_linear_rgb": [
+            0.62,
+            0.4,
+            0.09
+          ],
+          "solids": 1
+        },
+        {
+          "name": "OP_C2_2_VOS618A8T_patte_1_-1",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "OP_C2_2_VOS618A8T_pad_1_-1",
+          "color_linear_rgb": [
+            0.62,
+            0.4,
+            0.09
+          ],
+          "solids": 1
+        },
+        {
+          "name": "OP_C2_2_VOS618A8T_patte_1_1",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "OP_C2_2_VOS618A8T_pad_1_1",
+          "color_linear_rgb": [
+            0.62,
+            0.4,
+            0.09
+          ],
+          "solids": 1
+        },
+        {
+          "name": "OP_C2_2_VOS618A8T_texte_indicatif",
+          "color_linear_rgb": [
+            0.87,
+            0.9,
+            0.93
+          ],
+          "solids": 3
+        },
+        {
+          "name": "Piste_C2_0_illustrative",
+          "color_linear_rgb": [
+            0.64,
+            0.3,
+            0.08
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piste_C2_1_illustrative",
+          "color_linear_rgb": [
+            0.64,
+            0.3,
+            0.08
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Serig_C2",
+          "color_linear_rgb": [
+            0.87,
+            0.9,
+            0.93
+          ],
+          "solids": 5
+        },
+        {
+          "name": "U3_SN74LVC2G17_DCK_boitier",
+          "color_linear_rgb": [
+            0.015,
+            0.02,
+            0.025
+          ],
+          "solids": 1
+        },
+        {
+          "name": "U3_SN74LVC2G17_DCK_patte_-1_0",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "U3_SN74LVC2G17_DCK_pad_-1_0",
+          "color_linear_rgb": [
+            0.62,
+            0.4,
+            0.09
+          ],
+          "solids": 1
+        },
+        {
+          "name": "U3_SN74LVC2G17_DCK_patte_-1_1",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "U3_SN74LVC2G17_DCK_pad_-1_1",
+          "color_linear_rgb": [
+            0.62,
+            0.4,
+            0.09
+          ],
+          "solids": 1
+        },
+        {
+          "name": "U3_SN74LVC2G17_DCK_patte_-1_2",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "U3_SN74LVC2G17_DCK_pad_-1_2",
+          "color_linear_rgb": [
+            0.62,
+            0.4,
+            0.09
+          ],
+          "solids": 1
+        },
+        {
+          "name": "U3_SN74LVC2G17_DCK_patte_1_0",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "U3_SN74LVC2G17_DCK_pad_1_0",
+          "color_linear_rgb": [
+            0.62,
+            0.4,
+            0.09
+          ],
+          "solids": 1
+        },
+        {
+          "name": "U3_SN74LVC2G17_DCK_patte_1_1",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "U3_SN74LVC2G17_DCK_pad_1_1",
+          "color_linear_rgb": [
+            0.62,
+            0.4,
+            0.09
+          ],
+          "solids": 1
+        },
+        {
+          "name": "U3_SN74LVC2G17_DCK_patte_1_2",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "U3_SN74LVC2G17_DCK_pad_1_2",
+          "color_linear_rgb": [
+            0.62,
+            0.4,
+            0.09
+          ],
+          "solids": 1
+        },
+        {
+          "name": "U4_MCP1703A_SOT89_corps_estime",
+          "color_linear_rgb": [
+            0.015,
+            0.02,
+            0.025
+          ],
+          "solids": 1
+        },
+        {
+          "name": "U4_broche_1",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "U4_broche_2",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "U4_broche_3",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "U4_SOT89_tab_metal_non_quatrieme_broche",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "D1_BAT54_SOT23_boitier",
+          "color_linear_rgb": [
+            0.015,
+            0.02,
+            0.025
+          ],
+          "solids": 1
+        },
+        {
+          "name": "D1_BAT54_SOT23_patte_-1_0",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "D1_BAT54_SOT23_pad_-1_0",
+          "color_linear_rgb": [
+            0.62,
+            0.4,
+            0.09
+          ],
+          "solids": 1
+        },
+        {
+          "name": "D1_BAT54_SOT23_patte_-1_1",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "D1_BAT54_SOT23_pad_-1_1",
+          "color_linear_rgb": [
+            0.62,
+            0.4,
+            0.09
+          ],
+          "solids": 1
+        },
+        {
+          "name": "D1_BAT54_SOT23_patte_1_0",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "D1_BAT54_SOT23_pad_1_0",
+          "color_linear_rgb": [
+            0.62,
+            0.4,
+            0.09
+          ],
+          "solids": 1
+        },
+        {
+          "name": "D2_BAT54_SOT23_boitier",
+          "color_linear_rgb": [
+            0.015,
+            0.02,
+            0.025
+          ],
+          "solids": 1
+        },
+        {
+          "name": "D2_BAT54_SOT23_patte_-1_0",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "D2_BAT54_SOT23_pad_-1_0",
+          "color_linear_rgb": [
+            0.62,
+            0.4,
+            0.09
+          ],
+          "solids": 1
+        },
+        {
+          "name": "D2_BAT54_SOT23_patte_-1_1",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "D2_BAT54_SOT23_pad_-1_1",
+          "color_linear_rgb": [
+            0.62,
+            0.4,
+            0.09
+          ],
+          "solids": 1
+        },
+        {
+          "name": "D2_BAT54_SOT23_patte_1_0",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "D2_BAT54_SOT23_pad_1_0",
+          "color_linear_rgb": [
+            0.62,
+            0.4,
+            0.09
+          ],
+          "solids": 1
+        },
+        {
+          "name": "D3_BAT54_SOT23_boitier",
+          "color_linear_rgb": [
+            0.015,
+            0.02,
+            0.025
+          ],
+          "solids": 1
+        },
+        {
+          "name": "D3_BAT54_SOT23_patte_-1_0",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "D3_BAT54_SOT23_pad_-1_0",
+          "color_linear_rgb": [
+            0.62,
+            0.4,
+            0.09
+          ],
+          "solids": 1
+        },
+        {
+          "name": "D3_BAT54_SOT23_patte_-1_1",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "D3_BAT54_SOT23_pad_-1_1",
+          "color_linear_rgb": [
+            0.62,
+            0.4,
+            0.09
+          ],
+          "solids": 1
+        },
+        {
+          "name": "D3_BAT54_SOT23_patte_1_0",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "D3_BAT54_SOT23_pad_1_0",
+          "color_linear_rgb": [
+            0.62,
+            0.4,
+            0.09
+          ],
+          "solids": 1
+        },
+        {
+          "name": "R_LOG_1_ceramique",
+          "color_linear_rgb": [
+            0.015,
+            0.02,
+            0.025
+          ],
+          "solids": 1
+        },
+        {
+          "name": "R_LOG_1_terminaison_-1",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "R_LOG_1_pad_-1",
+          "color_linear_rgb": [
+            0.62,
+            0.4,
+            0.09
+          ],
+          "solids": 1
+        },
+        {
+          "name": "R_LOG_1_terminaison_1",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "R_LOG_1_pad_1",
+          "color_linear_rgb": [
+            0.62,
+            0.4,
+            0.09
+          ],
+          "solids": 1
+        },
+        {
+          "name": "R_LOG_1_valeur_illustrative",
+          "color_linear_rgb": [
+            0.87,
+            0.9,
+            0.93
+          ],
+          "solids": 4
+        },
+        {
+          "name": "R_LOG_2_ceramique",
+          "color_linear_rgb": [
+            0.015,
+            0.02,
+            0.025
+          ],
+          "solids": 1
+        },
+        {
+          "name": "R_LOG_2_terminaison_-1",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "R_LOG_2_pad_-1",
+          "color_linear_rgb": [
+            0.62,
+            0.4,
+            0.09
+          ],
+          "solids": 1
+        },
+        {
+          "name": "R_LOG_2_terminaison_1",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "R_LOG_2_pad_1",
+          "color_linear_rgb": [
+            0.62,
+            0.4,
+            0.09
+          ],
+          "solids": 1
+        },
+        {
+          "name": "R_LOG_2_valeur_illustrative",
+          "color_linear_rgb": [
+            0.87,
+            0.9,
+            0.93
+          ],
+          "solids": 4
+        },
+        {
+          "name": "R_LOG_3_ceramique",
+          "color_linear_rgb": [
+            0.015,
+            0.02,
+            0.025
+          ],
+          "solids": 1
+        },
+        {
+          "name": "R_LOG_3_terminaison_-1",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "R_LOG_3_pad_-1",
+          "color_linear_rgb": [
+            0.62,
+            0.4,
+            0.09
+          ],
+          "solids": 1
+        },
+        {
+          "name": "R_LOG_3_terminaison_1",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "R_LOG_3_pad_1",
+          "color_linear_rgb": [
+            0.62,
+            0.4,
+            0.09
+          ],
+          "solids": 1
+        },
+        {
+          "name": "R_LOG_3_valeur_illustrative",
+          "color_linear_rgb": [
+            0.87,
+            0.9,
+            0.93
+          ],
+          "solids": 4
+        },
+        {
+          "name": "R_LOG_4_ceramique",
+          "color_linear_rgb": [
+            0.015,
+            0.02,
+            0.025
+          ],
+          "solids": 1
+        },
+        {
+          "name": "R_LOG_4_terminaison_-1",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "R_LOG_4_pad_-1",
+          "color_linear_rgb": [
+            0.62,
+            0.4,
+            0.09
+          ],
+          "solids": 1
+        },
+        {
+          "name": "R_LOG_4_terminaison_1",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "R_LOG_4_pad_1",
+          "color_linear_rgb": [
+            0.62,
+            0.4,
+            0.09
+          ],
+          "solids": 1
+        },
+        {
+          "name": "R_LOG_4_valeur_illustrative",
+          "color_linear_rgb": [
+            0.87,
+            0.9,
+            0.93
+          ],
+          "solids": 4
+        },
+        {
+          "name": "R_LOG_5_ceramique",
+          "color_linear_rgb": [
+            0.015,
+            0.02,
+            0.025
+          ],
+          "solids": 1
+        },
+        {
+          "name": "R_LOG_5_terminaison_-1",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "R_LOG_5_pad_-1",
+          "color_linear_rgb": [
+            0.62,
+            0.4,
+            0.09
+          ],
+          "solids": 1
+        },
+        {
+          "name": "R_LOG_5_terminaison_1",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "R_LOG_5_pad_1",
+          "color_linear_rgb": [
+            0.62,
+            0.4,
+            0.09
+          ],
+          "solids": 1
+        },
+        {
+          "name": "R_LOG_5_valeur_illustrative",
+          "color_linear_rgb": [
+            0.87,
+            0.9,
+            0.93
+          ],
+          "solids": 4
+        },
+        {
+          "name": "C_LDO_12",
+          "color_linear_rgb": [
+            0.53,
+            0.33,
+            0.15
+          ],
+          "solids": 1
+        },
+        {
+          "name": "C_LDO_22",
+          "color_linear_rgb": [
+            0.53,
+            0.33,
+            0.15
+          ],
+          "solids": 1
+        },
+        {
+          "name": "C_LOG_100nF",
+          "color_linear_rgb": [
+            0.53,
+            0.33,
+            0.15
+          ],
+          "solids": 1
+        },
+        {
+          "name": "J1_equilibrage_XH_estime",
+          "color_linear_rgb": [
+            0.87,
+            0.9,
+            0.93
+          ],
+          "solids": 1
+        },
+        {
+          "name": "J1_broche_1",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "J1_pad_1",
+          "color_linear_rgb": [
+            0.62,
+            0.4,
+            0.09
+          ],
+          "solids": 1
+        },
+        {
+          "name": "J1_broche_2",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "J1_pad_2",
+          "color_linear_rgb": [
+            0.62,
+            0.4,
+            0.09
+          ],
+          "solids": 1
+        },
+        {
+          "name": "J1_broche_3",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "J1_pad_3",
+          "color_linear_rgb": [
+            0.62,
+            0.4,
+            0.09
+          ],
+          "solids": 1
+        },
+        {
+          "name": "J2_logique_6_voies_etude",
+          "color_linear_rgb": [
+            0.015,
+            0.02,
+            0.025
+          ],
+          "solids": 1
+        },
+        {
+          "name": "J2_broche_1",
+          "color_linear_rgb": [
+            0.62,
+            0.4,
+            0.09
+          ],
+          "solids": 1
+        },
+        {
+          "name": "J2_broche_2",
+          "color_linear_rgb": [
+            0.62,
+            0.4,
+            0.09
+          ],
+          "solids": 1
+        },
+        {
+          "name": "J2_broche_3",
+          "color_linear_rgb": [
+            0.62,
+            0.4,
+            0.09
+          ],
+          "solids": 1
+        },
+        {
+          "name": "J2_broche_4",
+          "color_linear_rgb": [
+            0.62,
+            0.4,
+            0.09
+          ],
+          "solids": 1
+        },
+        {
+          "name": "J2_broche_5",
+          "color_linear_rgb": [
+            0.62,
+            0.4,
+            0.09
+          ],
+          "solids": 1
+        },
+        {
+          "name": "J2_broche_6",
+          "color_linear_rgb": [
+            0.62,
+            0.4,
+            0.09
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Titre_carte_V3",
+          "color_linear_rgb": [
+            0.87,
+            0.9,
+            0.93
+          ],
+          "solids": 15
+        },
+        {
+          "name": "Statut_carte",
+          "color_linear_rgb": [
+            0.87,
+            0.9,
+            0.93
+          ],
+          "solids": 15
+        }
+      ],
+      "preview": {
+        "file": "surveillance-2s-v3-concept-detaille.png",
+        "sha256": "35f50a104e0bf4a415d72927e770782717f200d1d51eb8be0295328efd4d84f8"
+      },
+      "generator": "tools/build_battery_protection_step.py",
+      "generator_sha256": "cc8bb7df58beee5f3b7123dfbc44a64e6dbcedbc421e0b51758303c1138ad14a"
+    },
+    {
+      "folder": "protection-batterie/interrupteur-pi",
+      "file": "pololu-2813-officiel.step",
+      "title": "Pololu 2813 HP - CAO officielle commune",
+      "unit": "mm",
+      "bytes": 4385103,
+      "sha256": "89dceed662b33acde2cf32cef641e73ba3a7763c03d66824b471639f7bcb5de8",
+      "source_url": "https://www.pololu.com/file/0J1405/big-pushbutton-power-switch-with-reverse-voltage-protection.step",
+      "native_vendor_cad": true,
+      "geometry_modified": false,
+      "hardware_measured": false,
+      "family_model": "2812 MP / 2813 HP",
+      "generated_on": "2026-10-13",
+      "preview": {
+        "file": "pololu-2813-officiel.png",
+        "sha256": "bb8a6e3e8573e82d63b67b32856a65c17a158b5c1063706c8dcba7a2094f5153"
+      },
+      "bounds_mm": {
+        "xmin": -0.00012510000000414957,
+        "xmax": 20.320125100000006,
+        "ymin": -0.00012510000000414957,
+        "ymax": 25.400125100000004,
+        "zmin": -0.00745153118302378,
+        "zmax": 3.9664014319740364
+      },
+      "validation": {
+        "valid_after_reimport": true,
+        "solids": 1,
+        "faces": 980,
+        "xcaf_colors": 13
+      },
+      "estimates_and_limitations": [
+        "Modele commun constructeur; revision recue et accessoires a verifier",
+        "Modele fusionnant plusieurs materiaux: masse physique non deduite du volume"
+      ],
+      "manufacturer_copyright": "Pololu Corporation; no separate redistribution licence identified"
+    },
+    {
+      "folder": "protection-batterie/coupure-moteurs",
+      "file": "crydom-d1d100-exterieur-detaille.step",
+      "title": "Crydom D1D100 | exterieur reconstruit",
+      "generated_on": "2026-10-13",
+      "unit": "mm",
+      "cadquery_version": "2.8.0",
+      "coordinate_system": "Centre X/Y; bas du PCB ou de la semelle z=0",
+      "bytes": 5843571,
+      "sha256": "4c11d34e08eb28f808071703659c519d4b91b3be92c74d64eb8b8c2624b73ef2",
+      "native_vendor_cad": false,
+      "hardware_measured": false,
+      "is_custom_project_design": false,
+      "published_nominal": [
+        "Sensata PDF3: largeur44.5, longueur57.3, hauteur22.6, trous/slot4.9, entraxe47.6; tolerance0.5mm",
+        "Sensata PDF2: vis entree #6-32 UNC et sortie #8-32 UNC; semelle aluminium"
+      ],
+      "estimates_and_limitations": [
+        "Moulage, barriers, rondelles, tete de vis et etiquette reconstruits: cotes locales estimees",
+        "Pas de circuit interne, dissipateur ou capot KS101 supposes inclus",
+        "Pas de garantie de courant depuis la CAO; qualification thermique et dissipateur a definir"
+      ],
+      "parameters": {
+        "nominal_envelope_mm": [
+          44.5,
+          57.3,
+          22.6
+        ],
+        "mounting_hole_diameter_mm": 4.9,
+        "mounting_centres_mm": 47.6,
+        "screws": "UNC #6-32 input / #8-32 output; threads not modeled",
+        "heatsink_included": false
+      },
+      "source_pages": [
+        "Sensata-Crydom-1-DC-D1D100-datasheet.pdf PDF1-4"
+      ],
+      "bounds_mm": {
+        "xmin": -22.25,
+        "xmax": 22.25,
+        "ymin": -28.650000000000002,
+        "ymax": 28.650000000000002,
+        "zmin": 0.0,
+        "zmax": 22.6
+      },
+      "validation": {
+        "valid_after_reimport": true,
+        "solids": 94,
+        "faces": 1518,
+        "colors": 3,
+        "volume_relative_error": 1.467524560561654e-15,
+        "volume_relative_error_limit": 0.0001,
+        "volume_before_mm3": 44621.82118614002,
+        "volume_after_mm3": 44621.821186139954,
+        "adaptive_volume_tolerance": 1e-09,
+        "bbox_error_mm": 3.552713678800501e-15,
+        "bbox_error_limit_mm": 0.01,
+        "void_and_material_probes": [],
+        "elapsed_seconds": 7.244746500000474
+      },
+      "parts": [
+        {
+          "name": "Semelle_aluminium_cotes_nominales",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Coque_noire_exterieure_estimee",
+          "color_linear_rgb": [
+            0.015,
+            0.02,
+            0.025
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Borne_1_plaque_metal",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Borne_1_rondelle",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Borne_1_vis_UNC_empreinte_estimee",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Borne_1_barriere_-5.3",
+          "color_linear_rgb": [
+            0.015,
+            0.02,
+            0.025
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Borne_1_barriere_5.3",
+          "color_linear_rgb": [
+            0.015,
+            0.02,
+            0.025
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Borne_2_plaque_metal",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Borne_2_rondelle",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Borne_2_vis_UNC_empreinte_estimee",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Borne_2_barriere_-5.3",
+          "color_linear_rgb": [
+            0.015,
+            0.02,
+            0.025
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Borne_2_barriere_5.3",
+          "color_linear_rgb": [
+            0.015,
+            0.02,
+            0.025
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Borne_3_plaque_metal",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Borne_3_rondelle",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Borne_3_vis_UNC_empreinte_estimee",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Borne_3_barriere_-5.3",
+          "color_linear_rgb": [
+            0.015,
+            0.02,
+            0.025
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Borne_3_barriere_5.3",
+          "color_linear_rgb": [
+            0.015,
+            0.02,
+            0.025
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Borne_4_plaque_metal",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Borne_4_rondelle",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Borne_4_vis_UNC_empreinte_estimee",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Borne_4_barriere_-5.3",
+          "color_linear_rgb": [
+            0.015,
+            0.02,
+            0.025
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Borne_4_barriere_5.3",
+          "color_linear_rgb": [
+            0.015,
+            0.02,
+            0.025
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Etiquette_fond_blanc",
+          "color_linear_rgb": [
+            0.87,
+            0.9,
+            0.93
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Logo_texte_approche",
+          "color_linear_rgb": [
+            0.015,
+            0.02,
+            0.025
+          ],
+          "solids": 6
+        },
+        {
+          "name": "Type_texte_approche",
+          "color_linear_rgb": [
+            0.015,
+            0.02,
+            0.025
+          ],
+          "solids": 6
+        },
+        {
+          "name": "Fonction_texte_approche",
+          "color_linear_rgb": [
+            0.015,
+            0.02,
+            0.025
+          ],
+          "solids": 15
+        },
+        {
+          "name": "Output_texte_approche",
+          "color_linear_rgb": [
+            0.015,
+            0.02,
+            0.025
+          ],
+          "solids": 13
+        },
+        {
+          "name": "Input_texte_approche",
+          "color_linear_rgb": [
+            0.015,
+            0.02,
+            0.025
+          ],
+          "solids": 14
+        },
+        {
+          "name": "Repere_1_OUTPUT",
+          "color_linear_rgb": [
+            0.87,
+            0.9,
+            0.93
+          ],
+          "solids": 7
+        },
+        {
+          "name": "Repere_+2",
+          "color_linear_rgb": [
+            0.87,
+            0.9,
+            0.93
+          ],
+          "solids": 2
+        },
+        {
+          "name": "Repere_4_INPUT",
+          "color_linear_rgb": [
+            0.87,
+            0.9,
+            0.93
+          ],
+          "solids": 6
+        },
+        {
+          "name": "Repere_+3",
+          "color_linear_rgb": [
+            0.87,
+            0.9,
+            0.93
+          ],
+          "solids": 2
+        }
+      ],
+      "preview": {
+        "file": "crydom-d1d100-exterieur-detaille.png",
+        "sha256": "77f7a14309a766161e30b21092dc076f2edc941ac0742edd051711373d8afb59"
+      },
+      "generator": "tools/build_battery_protection_step.py",
+      "generator_sha256": "cc8bb7df58beee5f3b7123dfbc44a64e6dbcedbc421e0b51758303c1138ad14a"
+    }
+  ]
+}

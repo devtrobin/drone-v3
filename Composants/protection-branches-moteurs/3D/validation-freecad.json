@@ -1,0 +1,74 @@
+{
+  "method": "FreeCAD Part.read, headless",
+  "version": [
+    "1",
+    "1",
+    "4",
+    "20260928 (Git shallow)",
+    "Unknown",
+    "2026/09/28 13:46:34",
+    "(HEAD detached at 4fd3bf320)",
+    "4fd3bf320d9566a27e60069fc8387448aaa3a094"
+  ],
+  "checked_on": "2026-10-14",
+  "GUI_tested": false,
+  "VSCode_CAD_View_tested": false,
+  "all_passed": true,
+  "checks": [
+    {
+      "file": "littelfuse-0ato030-v-detaille.step",
+      "folder": "protection-branches-moteurs/fusible-30a",
+      "passed": true,
+      "valid": true,
+      "solids": 7,
+      "faces": 258,
+      "bbox_error_mm": 0.0,
+      "seconds": 0.3827755999955116,
+      "sha256": "fc6a94de9104960901e5a531f35520fce95d67138bb2cc2cab47f9afebf3a856"
+    },
+    {
+      "file": "bluesea-5065-porte-fusible-detaille.step",
+      "folder": "protection-branches-moteurs/porte-fusible",
+      "passed": true,
+      "valid": true,
+      "solids": 49,
+      "faces": 321,
+      "bbox_error_mm": 0.0,
+      "seconds": 0.31101169998873957,
+      "sha256": "f97420a396eda74b1bf2990685695c831d3545c508f6de3910c7d58d08ac0e07"
+    },
+    {
+      "file": "ensemble-moteur-ato30-ferme-etude.step",
+      "folder": "protection-branches-moteurs",
+      "passed": true,
+      "valid": true,
+      "solids": 56,
+      "faces": 579,
+      "bbox_error_mm": 0.0,
+      "seconds": 0.7390508000098635,
+      "sha256": "8eb7529f106060da33b3d6f421d2a1c7bf98b21a3988226a3f69ac3d5bda6c6a"
+    },
+    {
+      "file": "ensemble-moteur-ato30-ouvert-etude.step",
+      "folder": "protection-branches-moteurs",
+      "passed": true,
+      "valid": true,
+      "solids": 56,
+      "faces": 579,
+      "bbox_error_mm": 0.0,
+      "seconds": 0.6445030999893788,
+      "sha256": "279ecc43154ecdd244558adf52dd4ec0c1a8ba392b526e696a10ab14ac6149c7"
+    },
+    {
+      "file": "deux-protections-moteurs-ato30-etude.step",
+      "folder": "protection-branches-moteurs",
+      "passed": true,
+      "valid": true,
+      "solids": 112,
+      "faces": 1158,
+      "bbox_error_mm": 0.0,
+      "seconds": 1.2740791999967769,
+      "sha256": "a819eefa517d96ff63d1d996104aac7a2459845cedc7caa21c8bfb7c587a759e"
+    }
+  ]
+}

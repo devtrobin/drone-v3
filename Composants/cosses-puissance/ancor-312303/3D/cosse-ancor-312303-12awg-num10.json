@@ -1,0 +1,99 @@
+{
+  "file": "cosse-ancor-312303-12awg-num10.step",
+  "title": "Ancor 312303 | oeillet #10, 12-10 AWG",
+  "generated_on": "2026-10-14",
+  "unit": "mm",
+  "cadquery_version": "2.8.0",
+  "coordinate_system": "Cosses/cables/gaines: axe X, holecentreX0 Klauke; MB2 baseZ0; collier droitX0..100. Voir parametres.",
+  "bytes": 108187,
+  "sha256": "fe2719499eaf9557c32027edca12e0283f15bbc716baa8bc165969bf19023164",
+  "native_vendor_cad": false,
+  "hardware_measured": false,
+  "is_custom_project_design": false,
+  "published_nominal": [
+    "12-10 AWG / 3-5 mm2; oeillet pour goujon #10; cuivre etame, joint brase, gaine adhesive"
+  ],
+  "estimates_and_limitations": [
+    "Toutes cotes mecaniques estimees: encombrement24x9.6x5.9; trou5.2 et canon3.2 non publies",
+    "4.8 mm catalogue = taille nominale de vis #10, pas un alesage mesure",
+    "Etat non serti; epaisseurs, raccord de paume et couleur optique reconstruits"
+  ],
+  "parameters": {
+    "hole_assumed_mm": 5.2,
+    "terminal_stud_designation": "#10",
+    "wire_AWG": [
+      12,
+      10
+    ]
+  },
+  "source_pages": [
+    "Ancor catalogue2020 p.26 / catalogue2024 p.24"
+  ],
+  "bounds_mm": {
+    "xmin": -1e-07,
+    "xmax": 24.0,
+    "ymin": -4.8000001,
+    "ymax": 4.8000001,
+    "zmin": -0.6000000000000001,
+    "zmax": 5.300000000000001
+  },
+  "validation": {
+    "valid_after_reimport": true,
+    "solids": 3,
+    "faces": 29,
+    "colors": 3,
+    "volume_relative_error": 3.4388019911019364e-13,
+    "volume_relative_error_limit": 0.0001,
+    "volume_before_mm3": 300.18491590482324,
+    "volume_after_mm3": 300.18491590492647,
+    "adaptive_volume_tolerance": 1e-09,
+    "bbox_error_mm": 8.881784197001252e-16,
+    "bbox_error_limit_mm": 0.01,
+    "void_and_material_probes": [
+      {
+        "point": [
+          4.2,
+          0,
+          0.5
+        ],
+        "occupied": false
+      }
+    ],
+    "elapsed_seconds": 0.21589209999910963
+  },
+  "parts": [
+    {
+      "name": "Cuivre_etame_forme_estimee",
+      "color_linear_rgb": [
+        0.62,
+        0.65,
+        0.69
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Adhesif_geometrie_estimee",
+      "color_linear_rgb": [
+        0.65,
+        0.39,
+        0.13
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Gaine_jaune_estimee",
+      "color_linear_rgb": [
+        0.85,
+        0.59,
+        0.015
+      ],
+      "solids": 1
+    }
+  ],
+  "preview": {
+    "file": "cosse-ancor-312303-12awg-num10.png",
+    "sha256": "a3d488df2c9ffa63b16f629a99283de3dc3147897147514e5fd20fd50d8fb345"
+  },
+  "generator": "tools/build_harness_step.py",
+  "generator_sha256": "343c45a6f573cd2d4205b4159948bddbdee9c39cf2bcf267fc7d6b8eb9957edc"
+}

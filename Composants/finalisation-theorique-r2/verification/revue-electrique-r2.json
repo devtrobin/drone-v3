@@ -1,0 +1,18 @@
+{
+  "servo_feed_after_SSR": true,
+  "servo_off_on_hard_undervoltage": true,
+  "Pi_warning_polarity_unchanged": "activeHIGH",
+  "power_and_signal_domains_separated_in_proposed_interface": true,
+  "common_candidate_wire_path_m": 1.1521199999999998,
+  "common_copper_only_R20_ohm": 0.003310616819999999,
+  "common_old_R_budget_ohm": 0.005,
+  "contacts_fuses_ED80_not_included_in_wire_R": true,
+  "total_loop_budget_not_proven": true,
+  "UBEC_6V_at_end_of_pack_not_proven": true,
+  "negative_extension_added": true,
+  "main_fault_bound_unchanged_conditionally_A": 16402.605867658778,
+  "full_protection_coordination_proven": false,
+  "new_interface_PCB_routed": false,
+  "ready_for_vehicle_power": false,
+  "hardware_tested": false
+}

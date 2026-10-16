@@ -1,0 +1,10 @@
+piece;grandeur;unite;valeur_mesuree;document_ou_lot
+Roue;fond hexagonal et face écrou;mm;;
+FT5335M Pololu3429;cannelure et tension du lot;texte;;
+FT5335M Pololu3429;pointe réelle à6V;A;;
+LFT300601C;bornes et fixation;mm;;
+L60030M1PQ;bornes et fixation;mm;;
+TPS3700EVM-114;contour et épaisseur assemblée;mm;;
+UBEC30603003;sortie àVin minimal sous charge;V;;
+Véhicule;masse totale;kg;;
+Véhicule;charge avant;pourcent;;

@@ -1,0 +1,88 @@
+{
+  "file": "palier-p115-v3-un-appui-etude.step",
+  "title": "P115-V3 | appui et capot de retenue",
+  "generated_on": "2026-10-13",
+  "unit": "mm",
+  "cadquery_version": "2.8.0",
+  "coordinate_system": "Palier: axe arbre Z, face entree roulement z=0; fourche: axe pivot Z",
+  "bytes": 125700,
+  "sha256": "642115819e96f7cb86f790e9eb03c3c93ffd1498a2d4eeb1834dcaf82e6e5e14",
+  "native_vendor_cad": false,
+  "hardware_measured": false,
+  "is_custom_project_design": true,
+  "published_nominal": [
+    "Nominal roulement MR115ZZ OD11, largeur4; passage arbre5"
+  ],
+  "estimates_and_limitations": [
+    "Enveloppe23x25x6, trou11 profondeur4, chapeau1.5, fixationM3 nominale: conception provisoire",
+    "Un appui modelise: deux appuis par arbre; espacement a definir",
+    "Ajustement, vis, rigidite et retenue a valider avant fabrication"
+  ],
+  "parameters": {
+    "body": [
+      23,
+      25,
+      6
+    ],
+    "bearing_seat_OD": 11,
+    "seat_depth": 4,
+    "shaft_clearance": 6.2
+  },
+  "source_pages": [],
+  "bounds_mm": {
+    "xmin": -11.5,
+    "xmax": 11.5,
+    "ymin": -11.0,
+    "ymax": 14.0,
+    "zmin": -1.5,
+    "zmax": 6.0
+  },
+  "validation": {
+    "valid_after_reimport": true,
+    "solids": 2,
+    "faces": 36,
+    "colors": 1,
+    "volume_relative_error": 8.985889898333821e-15,
+    "volume_relative_error_limit": 0.0001,
+    "volume_before_mm3": 3087.0162797362823,
+    "volume_after_mm3": 3087.01627973631,
+    "adaptive_volume_tolerance": 1e-09,
+    "bbox_error_mm": 0.0,
+    "bbox_error_limit_mm": 0.01,
+    "void_and_material_probes": [
+      {
+        "point": [
+          0,
+          0,
+          2
+        ],
+        "occupied": false
+      }
+    ],
+    "elapsed_seconds": 0.2171794999994745
+  },
+  "parts": [
+    {
+      "name": "Corps_palier_aluminium",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.65
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Capot_retenue",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.65
+      ],
+      "solids": 1
+    }
+  ],
+  "preview": {
+    "file": "palier-p115-v3-un-appui-etude.png",
+    "sha256": "26f85c0ba50d109484b6d92e9c2371ba89d0a2a7061c07052a59dfcad9bc2ae5"
+  }
+}

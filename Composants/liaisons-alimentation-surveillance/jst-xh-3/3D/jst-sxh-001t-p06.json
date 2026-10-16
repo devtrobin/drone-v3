@@ -1,0 +1,66 @@
+{
+  "file": "jst-sxh-001t-p06.step",
+  "title": "JSTSXH | contact femelle",
+  "generated_on": "2026-10-14",
+  "unit": "mm",
+  "cadquery_version": "2.8.0",
+  "coordinate_system": "Axe principal Z; face de reference z=0; dimensions selon parametres",
+  "bytes": 259410,
+  "sha256": "2b66f125f978e99a39139ea656af60e42e8f5ae89d87c3d1ca722cebf02668bb",
+  "native_vendor_cad": false,
+  "hardware_measured": false,
+  "is_custom_project_design": false,
+  "published_nominal": [
+    "JST2025 : pas2.50,3positions ; embasesansboss9.9x5.75x7 ;XHP3collerette9.8x5.7x7.5 ;pin0.64."
+  ],
+  "estimates_and_limitations": [
+    "Réconstruction des évidements etressorts à partirdu catalogue, ajustement visuel seulement ; aucune donnéeCAO native téléchargée (distributionfabricantparformulaire/email).",
+    "Dimensionsdel’enroulementdecrimp estimées ; aucunegéométrie d’outil oucotationsertissage inventée.",
+    "Nuances optiques estimées ; géométrie non mesurée. Pas de plan de fabrication ni de qualification mécanique/électrique."
+  ],
+  "parameters": {},
+  "source_pages": [
+    "Voir sources.json et cotes.md du composant / ensemble"
+  ],
+  "bounds_mm": {
+    "xmin": -0.85,
+    "xmax": 0.85,
+    "ymin": -0.844097150807,
+    "ymax": 0.844097150807,
+    "zmin": 0.2,
+    "zmax": 6.2
+  },
+  "validation": {
+    "valid_after_reimport": true,
+    "solids": 1,
+    "faces": 70,
+    "colors": 1,
+    "volume_relative_error": 7.869697403517938e-14,
+    "volume_relative_error_limit": 0.0001,
+    "volume_before_mm3": 3.335029411728877,
+    "volume_after_mm3": 3.3350294117286143,
+    "adaptive_volume_tolerance": 1e-09,
+    "bbox_error_mm": 2.9343194540842887e-13,
+    "bbox_error_limit_mm": 0.01,
+    "void_and_material_probes": [],
+    "elapsed_seconds": 0.6517502000060631,
+    "volume_after_default_quadrature_mm3": 3.3350294117285313
+  },
+  "parts": [
+    {
+      "name": "Piece_contact",
+      "color_linear_rgb": [
+        0.54,
+        0.59,
+        0.62
+      ],
+      "solids": 1
+    }
+  ],
+  "preview": {
+    "file": "jst-sxh-001t-p06.png",
+    "sha256": "d291c7a81af862ec90f03b5126b1578809423f086d86c40beaca606fb16fdd29"
+  },
+  "component_folder": "liaisons-alimentation-surveillance/jst-xh-3",
+  "relative_step_path": "liaisons-alimentation-surveillance/jst-xh-3/3D/jst-sxh-001t-p06.step"
+}

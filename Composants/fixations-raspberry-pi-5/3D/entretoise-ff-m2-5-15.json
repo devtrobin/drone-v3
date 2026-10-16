@@ -1,0 +1,296 @@
+{
+  "file": "entretoise-ff-m2-5-15.step",
+  "title": "Entretoise FF M2.5 | 15 mm",
+  "generated_on": "2026-10-14",
+  "unit": "mm",
+  "cadquery_version": "2.8.0",
+  "coordinate_system": "Axe Z. Pièce seule : base du corps z=0 ; vis : pointe z=0, dessous tête z=L. Pose : assise z=0, PCB étudié à z=10, châssis absent.",
+  "bytes": 1278117,
+  "sha256": "5ab86168de4b510ee89742df6163068197557380d8446f13794d755d89df94e6",
+  "native_vendor_cad": false,
+  "hardware_measured": false,
+  "is_custom_project_design": false,
+  "published_nominal": [
+    "Nylon noir, filetage commercial M2.5, longueur nominale selon variante Amazon.",
+    "Raspberry Pi 5 : quatre trous Ø2.7 mm, rectangle de référence 58 x 49 mm."
+  ],
+  "estimates_and_limitations": [
+    "Longueurs et quantités : fiche et illustration Amazon de la variante noire M2.5.",
+    "Surplats 5 mm, tête 4.7 x 2 mm, écrou 2 mm, rondelle 5 x 2.7 x 0.5 mm : estimations, à mesurer.",
+    "Filetage M2.5 x 0.45 : pas métrique usuel d’étude ; pas et classe du lot non mesurés.",
+    "Profils hélicoïdaux proches de 60 degrés, fonds et crêtes simplifiés ; jeu radial CAO 0.03 mm estimé.",
+    "MF et FF hexagonales confirmées par les images haute définition ; surplats exact non publié.",
+    "Taraudage MF borgne, profondeur min(6.5, L-2) mm ; FF traversant : hypothèses non publiées.",
+    "Pas de matière interne, marquage ni tolérance inventés ; aucune CAO fabricant propre au kit trouvée.",
+    "Châssis conçu en dernier selon décision utilisateur du 14 octobre 2026 ; hauteurs définitives ouvertes."
+  ],
+  "parameters": {
+    "body_length_mm": 15,
+    "male_length_mm": 0,
+    "surplats_estimated_mm": 5.0,
+    "female_depth_estimated_mm": 15,
+    "female_through_assumed": true,
+    "thread_nominal_mm": 2.5,
+    "pitch_assumed_mm": 0.45,
+    "spline_preparation": {
+      "method": "Initial STEP spline preparation, explicit reconstruction conversion",
+      "volume_before_mm3": 263.5108382531104,
+      "volume_after_mm3": 263.5103348284489,
+      "volume_relative_change": 1.91045144430612e-06,
+      "volume_relative_change_limit": 0.001,
+      "bbox_change_mm": 2.078337502098293e-13,
+      "valid": true
+    }
+  },
+  "source_pages": [
+    "photos/Ewwtrey-longueurs-original.jpg",
+    "photos/Ewwtrey-details-original.jpg",
+    "notices/RaspberryPi-5-plan-mecanique-original.pdf p.1",
+    "Essentra-filetages-plastiques-reference-original.pdf : autre fabricant, pas usuel seulement"
+  ],
+  "bounds_mm": {
+    "xmin": -2.8867513459482743,
+    "xmax": 2.8867513459482743,
+    "ymin": -2.5000000000000013,
+    "ymax": 2.5000000000000004,
+    "zmin": -1e-07,
+    "zmax": 15.000000100000207
+  },
+  "validation": {
+    "valid_after_reimport": true,
+    "solids": 1,
+    "faces": 61,
+    "colors": 1,
+    "volume_relative_error": 7.310889120601031e-07,
+    "volume_relative_error_limit": 0.0001,
+    "volume_before_mm3": 263.5103348284489,
+    "volume_after_mm3": 263.5101421789649,
+    "adaptive_volume_tolerance": 1e-09,
+    "bbox_error_mm": 0.0,
+    "bbox_error_limit_mm": 0.01,
+    "void_and_material_probes": [
+      {
+        "point": [
+          0,
+          0,
+          0.5
+        ],
+        "occupied": false
+      },
+      {
+        "point": [
+          2.2,
+          0,
+          2
+        ],
+        "occupied": true
+      },
+      {
+        "point": [
+          1.18,
+          0,
+          0.9
+        ],
+        "occupied": false,
+        "kind": "helical_crest"
+      },
+      {
+        "point": [
+          1.18,
+          0,
+          1.125
+        ],
+        "occupied": true,
+        "kind": "helical_valley"
+      },
+      {
+        "point": [
+          1.18,
+          0,
+          2.25
+        ],
+        "occupied": false,
+        "kind": "helical_crest"
+      },
+      {
+        "point": [
+          1.18,
+          0,
+          2.475
+        ],
+        "occupied": true,
+        "kind": "helical_valley"
+      },
+      {
+        "point": [
+          1.18,
+          0,
+          3.6
+        ],
+        "occupied": false,
+        "kind": "helical_crest"
+      },
+      {
+        "point": [
+          1.18,
+          0,
+          3.825
+        ],
+        "occupied": true,
+        "kind": "helical_valley"
+      },
+      {
+        "point": [
+          1.18,
+          0,
+          4.95
+        ],
+        "occupied": false,
+        "kind": "helical_crest"
+      },
+      {
+        "point": [
+          1.18,
+          0,
+          5.175
+        ],
+        "occupied": true,
+        "kind": "helical_valley"
+      },
+      {
+        "point": [
+          1.18,
+          0,
+          6.3
+        ],
+        "occupied": false,
+        "kind": "helical_crest"
+      },
+      {
+        "point": [
+          1.18,
+          0,
+          6.525
+        ],
+        "occupied": true,
+        "kind": "helical_valley"
+      },
+      {
+        "point": [
+          1.18,
+          0,
+          7.65
+        ],
+        "occupied": false,
+        "kind": "helical_crest"
+      },
+      {
+        "point": [
+          1.18,
+          0,
+          7.875
+        ],
+        "occupied": true,
+        "kind": "helical_valley"
+      },
+      {
+        "point": [
+          1.18,
+          0,
+          9.0
+        ],
+        "occupied": false,
+        "kind": "helical_crest"
+      },
+      {
+        "point": [
+          1.18,
+          0,
+          9.225
+        ],
+        "occupied": true,
+        "kind": "helical_valley"
+      },
+      {
+        "point": [
+          1.18,
+          0,
+          10.35
+        ],
+        "occupied": false,
+        "kind": "helical_crest"
+      },
+      {
+        "point": [
+          1.18,
+          0,
+          10.575000000000001
+        ],
+        "occupied": true,
+        "kind": "helical_valley"
+      },
+      {
+        "point": [
+          1.18,
+          0,
+          11.700000000000001
+        ],
+        "occupied": false,
+        "kind": "helical_crest"
+      },
+      {
+        "point": [
+          1.18,
+          0,
+          11.925
+        ],
+        "occupied": true,
+        "kind": "helical_valley"
+      },
+      {
+        "point": [
+          1.18,
+          0,
+          13.05
+        ],
+        "occupied": false,
+        "kind": "helical_crest"
+      },
+      {
+        "point": [
+          1.18,
+          0,
+          13.275
+        ],
+        "occupied": true,
+        "kind": "helical_valley"
+      },
+      {
+        "point": [
+          0,
+          0,
+          7.5
+        ],
+        "occupied": false
+      }
+    ],
+    "elapsed_seconds": 3.249124000001757,
+    "volume_after_default_quadrature_mm3": 263.50946881172473,
+    "default_volume_purpose": "Compare with FreeCAD default Volume; adaptive values remain the strict STEP round-trip reference."
+  },
+  "parts": [
+    {
+      "name": "Piece_entretoise-ff-m2-5-15",
+      "color_linear_rgb": [
+        0.018,
+        0.02,
+        0.023
+      ],
+      "solids": 1
+    }
+  ],
+  "preview": {
+    "file": "entretoise-ff-m2-5-15.png",
+    "sha256": "de2664f67e5cc84a090e2913dd80cf6825162818ba78046e973f81c8a2ce0a35"
+  }
+}

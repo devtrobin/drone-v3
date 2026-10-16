@@ -1,0 +1,15 @@
+﻿ensemble;min_kg;max_kg;origine
+StructureR1 hors équipements;2.55;2.8;"2.264kg deplats calculés +profilés/tubes ; estimation"
+PiècesR2 ajoutées nettes;0.35;0.65;Ordre de grandeur issu des volumes, hors structureR1 réutilisée
+Batterie;0.25;0.35;Enveloppe de devis non pesée
+PrincipalF0/support/capot;0.15;0.4;Réservation, masse inconnue
+5supports branches etfusibles;0.35;0.8;Masse inconnue, marge de conception
+ED80;0.12;0.3;Masse non relevée surlot
+SSR etHS251;0.2;0.4;Masse de montage non pesée
+Rails/UD80/connexions;0.2;0.4;Masse totale non pesée
+2moteurs et2ESC;0.18;0.28;Inclutfils, ordre de grandeur
+4roues;0.16;0.32;Masse non pesée
+EngrenagesKHK etpignons;0.224;0.24;KHK214g publiés, pignons estimés
+FT5335M etUBEC;0.212;0.24;178g +34g publiés, marge accessoires
+Pi/cooler/caméra/cartes;0.1;0.2;Modules et câbles courts non pesés
+Faisceaux/visserie/maintien;0.35;0.8;Corridors principaux non arrêtés

@@ -1,0 +1,79 @@
+{
+  "generated_on": "2026-10-13",
+  "generator": "tools/build_running_gear_step.py",
+  "generator_sha256": "3cc48dca6f563d7222132a9fb3986d9d3a72dfa92d4309f8bec62fd5da2b6ec8",
+  "source_manifest_sha256": "39f448ceb321d4ac6979a72053b436e6d68592100ffde328eac1119eca2f2739",
+  "models": [
+    {
+      "file": "chape-tamiya-50596-5mm.step",
+      "title": "Tamiya 50596 | chape pour rotule 5 mm",
+      "generated_on": "2026-10-13",
+      "unit": "mm",
+      "cadquery_version": "2.8.0",
+      "coordinate_system": "Boule centre (0,0,0), ouverture Z, tige de biellette vers +X",
+      "bytes": 166618,
+      "sha256": "ef2866193fd1a5dedc5404f14ddfd7dfec43224062a3d0c5175557abac82b890",
+      "native_vendor_cad": false,
+      "hardware_measured": false,
+      "is_custom_project_design": false,
+      "published_nominal": [
+        "Famille 5 mm; tige M3 selon notice TT01R p.10"
+      ],
+      "estimates_and_limitations": [
+        "Longueur 14.4, anneau OD8, epaisseur3.6 et empreinte de prehension estimes",
+        "Logement spherique R2.55 estime; precharge, clip et taraudage non certifies"
+      ],
+      "parameters": {},
+      "source_pages": [
+        "Tamiya-TT01R-notice-constructeur.pdf p.10"
+      ],
+      "bounds_mm": {
+        "xmin": -4.0,
+        "xmax": 10.4,
+        "ymin": -4.0,
+        "ymax": 4.0,
+        "zmin": -1.8,
+        "zmax": 1.8
+      },
+      "validation": {
+        "valid_after_reimport": true,
+        "solids": 1,
+        "faces": 52,
+        "colors": 1,
+        "volume_relative_error": 1.309825467997042e-13,
+        "volume_relative_error_limit": 0.0001,
+        "volume_before_mm3": 215.90358085261977,
+        "volume_after_mm3": 215.9035808525915,
+        "adaptive_volume_tolerance": 1e-09,
+        "bbox_error_mm": 0.0,
+        "bbox_error_limit_mm": 0.01,
+        "void_and_material_probes": [
+          {
+            "point": [
+              0,
+              0,
+              0
+            ],
+            "occupied": false
+          }
+        ],
+        "elapsed_seconds": 0.22188019999885
+      },
+      "parts": [
+        {
+          "name": "Chape_plastique",
+          "color_linear_rgb": [
+            0.022,
+            0.026,
+            0.032
+          ],
+          "solids": 1
+        }
+      ],
+      "preview": {
+        "file": "chape-tamiya-50596-5mm.png",
+        "sha256": "3efd0e8ef8e43cce99352074eb84ec7415ab5ba86ae08325e9809254df2381a8"
+      }
+    }
+  ]
+}

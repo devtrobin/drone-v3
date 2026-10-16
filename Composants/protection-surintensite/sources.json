@@ -1,0 +1,38 @@
+{
+  "checked_on": "2026-10-14",
+  "purchased": false,
+  "bench_tested": false,
+  "holder": "Littelfuse 04980900ZXT",
+  "fuse": "Littelfuse 0498060.M",
+  "fuse_current_A": 60,
+  "current_selection_is_preliminary": true,
+  "amazon": {
+    "exact_asins": null,
+    "france_offer_confirmed": false,
+    "price_eur_ttc": null,
+    "status": "Challenge bm-verify; aucune fiche produit verifiee"
+  },
+  "sources": [
+    {
+      "title": "Holder TME public reference",
+      "url": "https://www.tme.eu/en/details/04980900zxt/car-fuseholders/littelfuse/"
+    },
+    {
+      "title": "Fuse exact Farnell reference",
+      "url": "https://uk.farnell.com/littelfuse/0498060-m/automotive-fuse-time-delay-60a/dp/3516004"
+    },
+    {
+      "title": "Manufacturer current fuse datasheet",
+      "url": "https://www.littelfuse.com/assetdocs/midi-32v-bolt-down-series-data-sheet?assetguid=b55e8034-180d-40f6-a0a7-bebc2d4a94f5",
+      "local_downloaded": false
+    },
+    {
+      "title": "Manufacturer CAD form",
+      "url": "https://info.littelfuse.com/midi-498-series-3dmodel-landingpage",
+      "form_submitted": false
+    }
+  ],
+  "vendor_cad_downloaded": false,
+  "originals": "assets.json",
+  "cad": "3D/catalogue.json"
+}

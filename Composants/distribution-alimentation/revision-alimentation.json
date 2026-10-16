@@ -1,0 +1,6 @@
+{
+  "date": "2026-10-15",
+  "current_source": "../verification-alimentation/selection-active.json",
+  "note": "D+ / D− conservés. F0 devient classe T 50 A. Masse de logique et retours des commandes SSR sur D−, sans parallèle de puissance par B0 d’équilibrage.",
+  "old_project_PDFs_and_complete_CAD_historical": true
+}

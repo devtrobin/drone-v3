@@ -1,0 +1,39 @@
+{
+  "file": "kemet-c315c104k5r5ta-officiel.step",
+  "title": "KEMET C315C104K5R5TA | CAO officielle",
+  "generated_on": "2026-10-15",
+  "unit": "mm",
+  "component_folder": "condensateurs-decouplage-100nf",
+  "relative_step_path": "Composants/capteurs-vitesse/condensateurs-decouplage-100nf/3D/kemet-c315c104k5r5ta-officiel.step",
+  "source": "https://search.kemet.com/component-documentation/download/step/C315C104K5R5TA.STEP",
+  "sha256": "a04191a57c7125d1f98f6e9bfec61852b51d1cd429f0c37ff5337bdf3e913fa9",
+  "bytes": 272604,
+  "native_vendor_cad": true,
+  "original_unchanged": true,
+  "hardware_measured": false,
+  "published_nominal": [
+    "See specific KEMET PDF; official STEP is nominal, not lot tolerance"
+  ],
+  "estimates_and_limitations": [
+    "No geometry or original colours modified; installed lead forming not designed"
+  ],
+  "bounds_mm": {
+    "xmin": -3.8100001,
+    "xmax": 1.0000000077715611e-07,
+    "ymin": -7.0,
+    "ymax": 4.66,
+    "zmin": -1e-07,
+    "zmax": 2.545
+  },
+  "validation": {
+    "valid_after_reimport": true,
+    "solids": 4,
+    "faces": 83,
+    "colors": 4,
+    "volume_after_default_quadrature_mm3": 44.93186366597579
+  },
+  "preview": {
+    "file": "kemet-c315c104k5r5ta-officiel.png",
+    "sha256": "49a975ba6fd378ce2a4b3d4337f9bec92252d32ea9160139b46d7a030817ea6c"
+  }
+}

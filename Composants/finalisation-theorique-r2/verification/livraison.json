@@ -1,0 +1,36 @@
+{
+  "local_markdown_links": 58,
+  "all_local_links_exist": true,
+  "assembly_sha256": "73eeda462a399ace5944e6d0def9d6d0e59cf865d48b0b6b81b3e594732edc18",
+  "native_round_trip_passed": true,
+  "native_reopen_seconds": 3.5291705999998157,
+  "cad_viewer_parser_passed": true,
+  "all_selected_geometry_checks_passed": true,
+  "R1_steps_unchanged": [
+    {
+      "file": "drone-v3-structure.step",
+      "unchanged": true
+    },
+    {
+      "file": "drone-v3-roulage.step",
+      "unchanged": true
+    },
+    {
+      "file": "drone-v3-electronique.step",
+      "unchanged": true
+    },
+    {
+      "file": "drone-v3-puissance.step",
+      "unchanged": true
+    },
+    {
+      "file": "drone-v3-complet-detaille.step",
+      "unchanged": true
+    }
+  ],
+  "flat_DXF_checks": 7,
+  "PDF_pages": 11,
+  "visual_PDF_review_pending": false,
+  "physical_vehicle_fit_validated": false,
+  "vehicle_fabrication_released": false
+}

@@ -1,0 +1,52 @@
+{
+  "file": "pololu-d24v90f5-officiel.step",
+  "title": "Pololu D24V90F5, native shared manufacturer model",
+  "generated_on": "2026-10-13",
+  "unit": "mm",
+  "native_vendor_cad": true,
+  "geometry_modified": false,
+  "hardware_measured": false,
+  "family_model": "D24V60F5 and D24V90F5, supplied by manufacturer for both items",
+  "manufacturer_copyright": "Pololu Corporation; no separate CAD redistribution licence identified",
+  "bytes": 4884801,
+  "sha256": "cdb901f06d5b13f49c6af5d5e64b2a2cd8bafedf1ddfd5c23ed21663bb8f295a",
+  "source_url": "https://www.pololu.com/file/0J1582/step-down-voltage-regulator-d24vxf5.step",
+  "bounds_mm": {
+    "xmin": -1e-07,
+    "xmax": 40.6400001,
+    "ymin": -1e-07,
+    "ymax": 20.3200001,
+    "zmin": -1.0000000000043368e-07,
+    "zmax": 7.674799999999999
+  },
+  "validation": {
+    "valid_after_reimport": true,
+    "solids": 1,
+    "faces": 1155,
+    "xcaf_colors": 12,
+    "rendered_face_colors": 11,
+    "identical_to_download_sha256": true
+  },
+  "previews": [
+    {
+      "file": "pololu-d24v90f5-dessus.png",
+      "sha256": "1ce8ac1d0c28d38770e6cca0a00c609c78587b886bd8e80e2cfa0954bb058e20"
+    },
+    {
+      "file": "pololu-d24v90f5-dessous.png",
+      "sha256": "324c2c4ff7ef88a836cd43442cba86a940cef344378b28c50decabb7e45ade46"
+    },
+    {
+      "file": "pololu-d24v90f5-isometrique.png",
+      "sha256": "7281afe03862403fd42072b6515d627c20f482f135cb733d8e13a2fb7023fcbc"
+    }
+  ],
+  "published_nominal": [
+    "PCB40.64 x20.32 mm; 4 trousØ2.18, centres35.56x15.24"
+  ],
+  "estimates_and_limitations": [
+    "Native model is guidance; actual item revision and component markings may differ",
+    "No inference of internal copper layers, electrical netlist, performance or measured connector clearances",
+    "Factory STEP fuses different materials into one BRep solid; do not calculate physical mass from this one volume"
+  ]
+}

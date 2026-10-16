@@ -1,0 +1,1379 @@
+{
+  "file": "ensemble-surveillance-2s-m1-gabarits.step",
+  "title": "Surveillance M1 | implantation allegee et modules reserves",
+  "generated_on": "2026-10-15",
+  "unit": "mm",
+  "cadquery_version": "2.8.0",
+  "coordinate_system": "Carrier X0..140,Y0..75; finished copper facesZ0..1.6; substrateZ0.07..1.53 at70um nominal copper. KiCad Y mirrored into CAD Y.",
+  "bytes": 4751940,
+  "sha256": "41e9c06262968655145cf9e9249882704c2d51ae1c793da7f07e9839e83bede6",
+  "native_vendor_cad": false,
+  "hardware_measured": false,
+  "is_custom_project_design": true,
+  "published_nominal": [
+    "Same external carrier/package envelopes; copper, plating and small markings omitted for faster assembly loading.",
+    "EVM60x60x12mm are DESIGN RESERVATIONS ONLY, not manufacturer dimensions."
+  ],
+  "estimates_and_limitations": [
+    "Study reconstruction, not native vendor CAD; no measured hardware.",
+    "Package colours, component markings, solder fillets and micro-details estimated.",
+    "EVM and Pololu reserves are open frames, not their true geometry. Harnesses and mounting hardware not defined."
+  ],
+  "parameters": {
+    "reserved_assembly_mm": [
+      140,
+      75,
+      30
+    ],
+    "EVM_vendor_dimensions_known": false,
+    "simplified_carrier_for_assembly": true
+  },
+  "source_pages": [
+    "KiCad/implantation.json; notices/TI-TPS3700EVM-114-original.pdf; notices/Traco-TMR1-original.pdf"
+  ],
+  "bounds_mm": {
+    "xmin": 0.0,
+    "xmax": 140.0,
+    "ymin": 0.0,
+    "ymax": 75.0,
+    "zmin": -1.5,
+    "zmax": 27.1120001
+  },
+  "validation": {
+    "valid_after_reimport": true,
+    "solids": 168,
+    "faces": 1439,
+    "colors": 9,
+    "volume_relative_error": 4.83228964423475e-15,
+    "volume_relative_error_limit": 0.0001,
+    "volume_before_mm3": 20326.8916027552,
+    "volume_after_mm3": 20326.891602755102,
+    "adaptive_volume_tolerance": 1e-09,
+    "bbox_error_mm": 3.552713678800501e-15,
+    "bbox_error_limit_mm": 0.01,
+    "void_and_material_probes": [],
+    "elapsed_seconds": 11.956023700000515
+  },
+  "parts": [
+    {
+      "name": "PCB_substrat_FR4_pour_epaisseur_finie1_6",
+      "color_linear_rgb": [
+        0.012,
+        0.12,
+        0.045
+      ],
+      "solids": 1
+    },
+    {
+      "name": "J1_corps_XH_nominal",
+      "color_linear_rgb": [
+        0.82,
+        0.83,
+        0.79
+      ],
+      "solids": 1
+    },
+    {
+      "name": "J1_broche1",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "J1_broche2",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "J2_corps_XH_nominal",
+      "color_linear_rgb": [
+        0.82,
+        0.83,
+        0.79
+      ],
+      "solids": 1
+    },
+    {
+      "name": "J2_broche1",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "J2_broche2",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "J2_broche3",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "J3_corps_XH_nominal",
+      "color_linear_rgb": [
+        0.82,
+        0.83,
+        0.79
+      ],
+      "solids": 1
+    },
+    {
+      "name": "J3_broche1",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "J3_broche2",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "J3_broche3",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "J3_broche4",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "J3_broche5",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "M3_TMR1_corps_17x7_62x11",
+      "color_linear_rgb": [
+        0.013,
+        0.015,
+        0.018
+      ],
+      "solids": 1
+    },
+    {
+      "name": "M3_pin6",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "M3_pin4",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "M3_pin2",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "M3_pin1",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "F1_ceramique_454",
+      "color_linear_rgb": [
+        0.7,
+        0.64,
+        0.4
+      ],
+      "solids": 1
+    },
+    {
+      "name": "R1_corps",
+      "color_linear_rgb": [
+        0.013,
+        0.015,
+        0.018
+      ],
+      "solids": 1
+    },
+    {
+      "name": "U1_VOS618A_corps",
+      "color_linear_rgb": [
+        0.013,
+        0.015,
+        0.018
+      ],
+      "solids": 1
+    },
+    {
+      "name": "U1_repere1",
+      "color_linear_rgb": [
+        0.4,
+        0.4,
+        0.4
+      ],
+      "solids": 1
+    },
+    {
+      "name": "U1_patte1",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "U1_patte2",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "U1_patte3",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "U1_patte4",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "R2_corps",
+      "color_linear_rgb": [
+        0.013,
+        0.015,
+        0.018
+      ],
+      "solids": 1
+    },
+    {
+      "name": "U2_VOS618A_corps",
+      "color_linear_rgb": [
+        0.013,
+        0.015,
+        0.018
+      ],
+      "solids": 1
+    },
+    {
+      "name": "U2_repere1",
+      "color_linear_rgb": [
+        0.4,
+        0.4,
+        0.4
+      ],
+      "solids": 1
+    },
+    {
+      "name": "U2_patte1",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "U2_patte2",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "U2_patte3",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "U2_patte4",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "R5_corps",
+      "color_linear_rgb": [
+        0.013,
+        0.015,
+        0.018
+      ],
+      "solids": 1
+    },
+    {
+      "name": "C1_corps",
+      "color_linear_rgb": [
+        0.46,
+        0.32,
+        0.18
+      ],
+      "solids": 1
+    },
+    {
+      "name": "C3_corps",
+      "color_linear_rgb": [
+        0.46,
+        0.32,
+        0.18
+      ],
+      "solids": 1
+    },
+    {
+      "name": "C5_corps",
+      "color_linear_rgb": [
+        0.46,
+        0.32,
+        0.18
+      ],
+      "solids": 1
+    },
+    {
+      "name": "J4_corps_XH_nominal",
+      "color_linear_rgb": [
+        0.82,
+        0.83,
+        0.79
+      ],
+      "solids": 1
+    },
+    {
+      "name": "J4_broche1",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "J4_broche2",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "J4_broche3",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "J4_broche4",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "J4_broche5",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "M4_TMR1_corps_17x7_62x11",
+      "color_linear_rgb": [
+        0.013,
+        0.015,
+        0.018
+      ],
+      "solids": 1
+    },
+    {
+      "name": "M4_pin6",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "M4_pin4",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "M4_pin2",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "M4_pin1",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "F2_ceramique_454",
+      "color_linear_rgb": [
+        0.7,
+        0.64,
+        0.4
+      ],
+      "solids": 1
+    },
+    {
+      "name": "R3_corps",
+      "color_linear_rgb": [
+        0.013,
+        0.015,
+        0.018
+      ],
+      "solids": 1
+    },
+    {
+      "name": "U3_VOS618A_corps",
+      "color_linear_rgb": [
+        0.013,
+        0.015,
+        0.018
+      ],
+      "solids": 1
+    },
+    {
+      "name": "U3_repere1",
+      "color_linear_rgb": [
+        0.4,
+        0.4,
+        0.4
+      ],
+      "solids": 1
+    },
+    {
+      "name": "U3_patte1",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "U3_patte2",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "U3_patte3",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "U3_patte4",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "R4_corps",
+      "color_linear_rgb": [
+        0.013,
+        0.015,
+        0.018
+      ],
+      "solids": 1
+    },
+    {
+      "name": "U4_VOS618A_corps",
+      "color_linear_rgb": [
+        0.013,
+        0.015,
+        0.018
+      ],
+      "solids": 1
+    },
+    {
+      "name": "U4_repere1",
+      "color_linear_rgb": [
+        0.4,
+        0.4,
+        0.4
+      ],
+      "solids": 1
+    },
+    {
+      "name": "U4_patte1",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "U4_patte2",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "U4_patte3",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "U4_patte4",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "R6_corps",
+      "color_linear_rgb": [
+        0.013,
+        0.015,
+        0.018
+      ],
+      "solids": 1
+    },
+    {
+      "name": "C2_corps",
+      "color_linear_rgb": [
+        0.46,
+        0.32,
+        0.18
+      ],
+      "solids": 1
+    },
+    {
+      "name": "C4_corps",
+      "color_linear_rgb": [
+        0.46,
+        0.32,
+        0.18
+      ],
+      "solids": 1
+    },
+    {
+      "name": "C6_corps",
+      "color_linear_rgb": [
+        0.46,
+        0.32,
+        0.18
+      ],
+      "solids": 1
+    },
+    {
+      "name": "J5_corps_XH_nominal",
+      "color_linear_rgb": [
+        0.82,
+        0.83,
+        0.79
+      ],
+      "solids": 1
+    },
+    {
+      "name": "J5_broche1",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "J5_broche2",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "J5_broche3",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "J6_corps_XH_nominal",
+      "color_linear_rgb": [
+        0.82,
+        0.83,
+        0.79
+      ],
+      "solids": 1
+    },
+    {
+      "name": "J6_broche1",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "J6_broche2",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "J6_broche3",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "J6_broche4",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "J6_broche5",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "J7_corps_XH_nominal",
+      "color_linear_rgb": [
+        0.82,
+        0.83,
+        0.79
+      ],
+      "solids": 1
+    },
+    {
+      "name": "J7_broche1",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "J7_broche2",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "U5_boitier_nominal",
+      "color_linear_rgb": [
+        0.013,
+        0.015,
+        0.018
+      ],
+      "solids": 1
+    },
+    {
+      "name": "U5_terminal1",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "U5_terminal2",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "U5_terminal3",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "U5_terminal4",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "U5_terminal5",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "U5_terminal6",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "U6_boitier_nominal",
+      "color_linear_rgb": [
+        0.013,
+        0.015,
+        0.018
+      ],
+      "solids": 1
+    },
+    {
+      "name": "U6_terminal1",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "U6_terminal2",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "U6_terminal3",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "D1_boitier_nominal",
+      "color_linear_rgb": [
+        0.013,
+        0.015,
+        0.018
+      ],
+      "solids": 1
+    },
+    {
+      "name": "D1_terminal1",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "D1_terminal3",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "D2_boitier_nominal",
+      "color_linear_rgb": [
+        0.013,
+        0.015,
+        0.018
+      ],
+      "solids": 1
+    },
+    {
+      "name": "D2_terminal1",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "D2_terminal3",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "D3_boitier_nominal",
+      "color_linear_rgb": [
+        0.013,
+        0.015,
+        0.018
+      ],
+      "solids": 1
+    },
+    {
+      "name": "D3_terminal1",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "D3_terminal3",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "R9_corps",
+      "color_linear_rgb": [
+        0.013,
+        0.015,
+        0.018
+      ],
+      "solids": 1
+    },
+    {
+      "name": "R10_corps",
+      "color_linear_rgb": [
+        0.013,
+        0.015,
+        0.018
+      ],
+      "solids": 1
+    },
+    {
+      "name": "C7_corps",
+      "color_linear_rgb": [
+        0.46,
+        0.32,
+        0.18
+      ],
+      "solids": 1
+    },
+    {
+      "name": "C8_corps",
+      "color_linear_rgb": [
+        0.46,
+        0.32,
+        0.18
+      ],
+      "solids": 1
+    },
+    {
+      "name": "C9_corps",
+      "color_linear_rgb": [
+        0.46,
+        0.32,
+        0.18
+      ],
+      "solids": 1
+    },
+    {
+      "name": "C10_corps",
+      "color_linear_rgb": [
+        0.46,
+        0.32,
+        0.18
+      ],
+      "solids": 1
+    },
+    {
+      "name": "C11_corps",
+      "color_linear_rgb": [
+        0.46,
+        0.32,
+        0.18
+      ],
+      "solids": 1
+    },
+    {
+      "name": "RESERVE_EVM_CELL1_railX_15_0",
+      "color_linear_rgb": [
+        0.1,
+        0.32,
+        0.55
+      ],
+      "solids": 1
+    },
+    {
+      "name": "RESERVE_EVM_CELL1_railX_15_1",
+      "color_linear_rgb": [
+        0.1,
+        0.32,
+        0.55
+      ],
+      "solids": 1
+    },
+    {
+      "name": "RESERVE_EVM_CELL1_railY_15_0",
+      "color_linear_rgb": [
+        0.1,
+        0.32,
+        0.55
+      ],
+      "solids": 1
+    },
+    {
+      "name": "RESERVE_EVM_CELL1_railY_15_1",
+      "color_linear_rgb": [
+        0.1,
+        0.32,
+        0.55
+      ],
+      "solids": 1
+    },
+    {
+      "name": "RESERVE_EVM_CELL1_railX_26.55_0",
+      "color_linear_rgb": [
+        0.1,
+        0.32,
+        0.55
+      ],
+      "solids": 1
+    },
+    {
+      "name": "RESERVE_EVM_CELL1_railX_26.55_1",
+      "color_linear_rgb": [
+        0.1,
+        0.32,
+        0.55
+      ],
+      "solids": 1
+    },
+    {
+      "name": "RESERVE_EVM_CELL1_railY_26.55_0",
+      "color_linear_rgb": [
+        0.1,
+        0.32,
+        0.55
+      ],
+      "solids": 1
+    },
+    {
+      "name": "RESERVE_EVM_CELL1_railY_26.55_1",
+      "color_linear_rgb": [
+        0.1,
+        0.32,
+        0.55
+      ],
+      "solids": 1
+    },
+    {
+      "name": "RESERVE_EVM_CELL1_montant_0_0",
+      "color_linear_rgb": [
+        0.1,
+        0.32,
+        0.55
+      ],
+      "solids": 1
+    },
+    {
+      "name": "RESERVE_EVM_CELL1_montant_0_1",
+      "color_linear_rgb": [
+        0.1,
+        0.32,
+        0.55
+      ],
+      "solids": 1
+    },
+    {
+      "name": "RESERVE_EVM_CELL1_montant_1_0",
+      "color_linear_rgb": [
+        0.1,
+        0.32,
+        0.55
+      ],
+      "solids": 1
+    },
+    {
+      "name": "RESERVE_EVM_CELL1_montant_1_1",
+      "color_linear_rgb": [
+        0.1,
+        0.32,
+        0.55
+      ],
+      "solids": 1
+    },
+    {
+      "name": "RESERVE_EVM_CELL2_railX_15_0",
+      "color_linear_rgb": [
+        0.1,
+        0.32,
+        0.55
+      ],
+      "solids": 1
+    },
+    {
+      "name": "RESERVE_EVM_CELL2_railX_15_1",
+      "color_linear_rgb": [
+        0.1,
+        0.32,
+        0.55
+      ],
+      "solids": 1
+    },
+    {
+      "name": "RESERVE_EVM_CELL2_railY_15_0",
+      "color_linear_rgb": [
+        0.1,
+        0.32,
+        0.55
+      ],
+      "solids": 1
+    },
+    {
+      "name": "RESERVE_EVM_CELL2_railY_15_1",
+      "color_linear_rgb": [
+        0.1,
+        0.32,
+        0.55
+      ],
+      "solids": 1
+    },
+    {
+      "name": "RESERVE_EVM_CELL2_railX_26.55_0",
+      "color_linear_rgb": [
+        0.1,
+        0.32,
+        0.55
+      ],
+      "solids": 1
+    },
+    {
+      "name": "RESERVE_EVM_CELL2_railX_26.55_1",
+      "color_linear_rgb": [
+        0.1,
+        0.32,
+        0.55
+      ],
+      "solids": 1
+    },
+    {
+      "name": "RESERVE_EVM_CELL2_railY_26.55_0",
+      "color_linear_rgb": [
+        0.1,
+        0.32,
+        0.55
+      ],
+      "solids": 1
+    },
+    {
+      "name": "RESERVE_EVM_CELL2_railY_26.55_1",
+      "color_linear_rgb": [
+        0.1,
+        0.32,
+        0.55
+      ],
+      "solids": 1
+    },
+    {
+      "name": "RESERVE_EVM_CELL2_montant_0_0",
+      "color_linear_rgb": [
+        0.1,
+        0.32,
+        0.55
+      ],
+      "solids": 1
+    },
+    {
+      "name": "RESERVE_EVM_CELL2_montant_0_1",
+      "color_linear_rgb": [
+        0.1,
+        0.32,
+        0.55
+      ],
+      "solids": 1
+    },
+    {
+      "name": "RESERVE_EVM_CELL2_montant_1_0",
+      "color_linear_rgb": [
+        0.1,
+        0.32,
+        0.55
+      ],
+      "solids": 1
+    },
+    {
+      "name": "RESERVE_EVM_CELL2_montant_1_1",
+      "color_linear_rgb": [
+        0.1,
+        0.32,
+        0.55
+      ],
+      "solids": 1
+    },
+    {
+      "name": "RESERVE_POLOLU2831_railX_7.8_0",
+      "color_linear_rgb": [
+        0.4,
+        0.2,
+        0.05
+      ],
+      "solids": 1
+    },
+    {
+      "name": "RESERVE_POLOLU2831_railX_7.8_1",
+      "color_linear_rgb": [
+        0.4,
+        0.2,
+        0.05
+      ],
+      "solids": 1
+    },
+    {
+      "name": "RESERVE_POLOLU2831_railY_7.8_0",
+      "color_linear_rgb": [
+        0.4,
+        0.2,
+        0.05
+      ],
+      "solids": 1
+    },
+    {
+      "name": "RESERVE_POLOLU2831_railY_7.8_1",
+      "color_linear_rgb": [
+        0.4,
+        0.2,
+        0.05
+      ],
+      "solids": 1
+    },
+    {
+      "name": "RESERVE_POLOLU2831_railX_12.850000000000001_0",
+      "color_linear_rgb": [
+        0.4,
+        0.2,
+        0.05
+      ],
+      "solids": 1
+    },
+    {
+      "name": "RESERVE_POLOLU2831_railX_12.850000000000001_1",
+      "color_linear_rgb": [
+        0.4,
+        0.2,
+        0.05
+      ],
+      "solids": 1
+    },
+    {
+      "name": "RESERVE_POLOLU2831_railY_12.850000000000001_0",
+      "color_linear_rgb": [
+        0.4,
+        0.2,
+        0.05
+      ],
+      "solids": 1
+    },
+    {
+      "name": "RESERVE_POLOLU2831_railY_12.850000000000001_1",
+      "color_linear_rgb": [
+        0.4,
+        0.2,
+        0.05
+      ],
+      "solids": 1
+    },
+    {
+      "name": "RESERVE_POLOLU2831_montant_0_0",
+      "color_linear_rgb": [
+        0.4,
+        0.2,
+        0.05
+      ],
+      "solids": 1
+    },
+    {
+      "name": "RESERVE_POLOLU2831_montant_0_1",
+      "color_linear_rgb": [
+        0.4,
+        0.2,
+        0.05
+      ],
+      "solids": 1
+    },
+    {
+      "name": "RESERVE_POLOLU2831_montant_1_0",
+      "color_linear_rgb": [
+        0.4,
+        0.2,
+        0.05
+      ],
+      "solids": 1
+    },
+    {
+      "name": "RESERVE_POLOLU2831_montant_1_1",
+      "color_linear_rgb": [
+        0.4,
+        0.2,
+        0.05
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Marquage_144",
+      "color_linear_rgb": [
+        0.1,
+        0.32,
+        0.55
+      ],
+      "solids": 12
+    },
+    {
+      "name": "Marquage_145",
+      "color_linear_rgb": [
+        0.1,
+        0.32,
+        0.55
+      ],
+      "solids": 12
+    }
+  ],
+  "preview": {
+    "file": "ensemble-surveillance-2s-m1-gabarits.png",
+    "sha256": "5a77fbee2e74dcb442a960f3c4efac90ee53c57d5c0a4632c552fffc4af07914"
+  },
+  "CAD_status": "Prototype exact board outline and checked routing; nominal package reconstructions and explicit reserved modules.",
+  "kicad_pcb_sha256": "5718bafb44bbc3d06ca01ec1fb87dfc1a3a8de3496c4c755b7ff713b3b4e6a05"
+}

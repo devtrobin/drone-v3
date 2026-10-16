@@ -1,0 +1,108 @@
+{
+  "checked_on": "2026-10-14",
+  "status": "study, not measured",
+  "motor_total_assumed_A": 40,
+  "individual_motor_assumed_A": 20,
+  "current_limit_enforced": false,
+  "nominal_current_IEC_A": 80,
+  "nominal_current_UL_A": 85,
+  "nominal_IEC_loading_fraction": 0.5,
+  "derating": [
+    {
+      "ambient_C": 30,
+      "coefficient": 1,
+      "computed_IEC_allowance_A": 80,
+      "scenario40A_within_nominal": true
+    },
+    {
+      "ambient_C": 35,
+      "coefficient": 1,
+      "computed_IEC_allowance_A": 80,
+      "scenario40A_within_nominal": true
+    },
+    {
+      "ambient_C": 40,
+      "coefficient": 1,
+      "computed_IEC_allowance_A": 80,
+      "scenario40A_within_nominal": true
+    },
+    {
+      "ambient_C": 45,
+      "coefficient": 0.94,
+      "computed_IEC_allowance_A": 75.19999999999999,
+      "scenario40A_within_nominal": true
+    },
+    {
+      "ambient_C": 50,
+      "coefficient": 0.88,
+      "computed_IEC_allowance_A": 70.4,
+      "scenario40A_within_nominal": true
+    },
+    {
+      "ambient_C": 55,
+      "coefficient": 0.82,
+      "computed_IEC_allowance_A": 65.6,
+      "scenario40A_within_nominal": true
+    },
+    {
+      "ambient_C": 60,
+      "coefficient": 0.75,
+      "computed_IEC_allowance_A": 60.0,
+      "scenario40A_within_nominal": true
+    },
+    {
+      "ambient_C": 65,
+      "coefficient": 0.67,
+      "computed_IEC_allowance_A": 53.6,
+      "scenario40A_within_nominal": true
+    },
+    {
+      "ambient_C": 70,
+      "coefficient": 0.58,
+      "computed_IEC_allowance_A": 46.4,
+      "scenario40A_within_nominal": true
+    },
+    {
+      "ambient_C": 75,
+      "coefficient": 0.47,
+      "computed_IEC_allowance_A": 37.599999999999994,
+      "scenario40A_within_nominal": false
+    }
+  ],
+  "terminal_operating_target_C": 85,
+  "manufacturer_ambient_context": "inside enclosure",
+  "rating_with_6mm2_actual_wire_validated": false,
+  "holder_12AWG_nominal_mm2": 3.31,
+  "ESC16AWG_nominal_mm2": 1.31,
+  "small_output_min_mm2": 2.5,
+  "IEC_preparation": {
+    "input_torque_Nm": 3.5,
+    "input_strip_mm": 17,
+    "large_output_torque_Nm": 3.5,
+    "large_output_strip_mm": 17,
+    "small_output_torque_Nm": 1.2,
+    "small_output_strip_mm": 10.2
+  },
+  "UL_table": {
+    "input_large_torque_in_lb": 19.5,
+    "input_large_torque_converted_Nm": 2.2032041655,
+    "input_large_strip_in": 0.36,
+    "input_large_strip_converted_mm": 9.143999999999998,
+    "small_torque_in_lb": 10.6,
+    "small_torque_converted_Nm": 1.1976391873999999,
+    "small_strip_in": 0.4,
+    "small_strip_converted_mm": 10.16
+  },
+  "large_terminal_IEC_UL_difference_resolved_on_received_lot": false,
+  "contact_resistance_published_ohm": null,
+  "power_loss_guaranteed": false,
+  "short_circuit": {
+    "Icw_A": 3000,
+    "Icw_seconds": 1,
+    "Ipk_A": 22000,
+    "SCCR_A": 100000,
+    "SCCR_condition": "IP7802 UL:200A ClassJ orT fuse,600Vmax",
+    "SCCR_transferred_to_MIDI60A": false,
+    "V3_combined_qualification": false
+  }
+}

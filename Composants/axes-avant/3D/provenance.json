@@ -1,0 +1,85 @@
+{
+  "generated_on": "2026-10-13",
+  "generator": "tools/build_running_gear_step.py",
+  "generator_sha256": "3cc48dca6f563d7222132a9fb3986d9d3a72dfa92d4309f8bec62fd5da2b6ec8",
+  "source_manifest_sha256": "39f448ceb321d4ac6979a72053b436e6d68592100ffde328eac1119eca2f2739",
+  "models": [
+    {
+      "file": "axe-tamiya-50823-35mm.step",
+      "title": "Tamiya 50823 | axe de roue 35 mm",
+      "generated_on": "2026-10-13",
+      "unit": "mm",
+      "cadquery_version": "2.8.0",
+      "coordinate_system": "Axe principal Z; face de reference z=0; dimensions selon parametres",
+      "bytes": 94414,
+      "sha256": "982c92044e79a647a71d01bcd373b52fce36ee7a554039598f211609378792f3",
+      "native_vendor_cad": false,
+      "hardware_measured": false,
+      "is_custom_project_design": false,
+      "published_nominal": [
+        "Longueur totale 35 mm (fiche Tamiya); famille roulement Ø5, ecrou M4, goupille Ø2"
+      ],
+      "estimates_and_limitations": [
+        "Coupelle OD9.8/L9, fentes, epaulements et trou de goupille z26 estimes",
+        "Longueur filetage M4x0.7 de 6 mm proposee; cote a mesurer",
+        "Coupelle conservee mais sans dogbone dans architecture avant non motrice"
+      ],
+      "parameters": {
+        "overall_length": 35,
+        "bearing_diameter": 5,
+        "wheel_thread": "M4x0.7 assumed",
+        "pin_diameter": 2
+      },
+      "source_pages": [
+        "Tamiya-TT01R-notice-constructeur.pdf p.10 et p.15"
+      ],
+      "bounds_mm": {
+        "xmin": -4.9,
+        "xmax": 4.9,
+        "ymin": -4.9,
+        "ymax": 4.9,
+        "zmin": 0.0,
+        "zmax": 35.0
+      },
+      "validation": {
+        "valid_after_reimport": true,
+        "solids": 1,
+        "faces": 17,
+        "colors": 1,
+        "volume_relative_error": 2.9259574708194804e-14,
+        "volume_relative_error_limit": 0.0001,
+        "volume_before_mm3": 777.091525460727,
+        "volume_after_mm3": 777.0915254607042,
+        "adaptive_volume_tolerance": 1e-09,
+        "bbox_error_mm": 0.0,
+        "bbox_error_limit_mm": 0.01,
+        "void_and_material_probes": [
+          {
+            "point": [
+              0,
+              0,
+              26
+            ],
+            "occupied": false
+          }
+        ],
+        "elapsed_seconds": 0.12008219999916037
+      },
+      "parts": [
+        {
+          "name": "Axe_acier",
+          "color_linear_rgb": [
+            0.38,
+            0.41,
+            0.45
+          ],
+          "solids": 1
+        }
+      ],
+      "preview": {
+        "file": "axe-tamiya-50823-35mm.png",
+        "sha256": "28812399e619ef7c1c67de5efef2d99fd5a20eb822bf5a1ddb00dd7e1c01bc38"
+      }
+    }
+  ]
+}

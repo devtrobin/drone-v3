@@ -1,0 +1,57 @@
+{
+  "checked_on": "2026-10-14",
+  "purchase_made": false,
+  "hardware_tested": false,
+  "id": "albright-ed80",
+  "ref": "Albright ED80-1 - coupure d’urgence unipolaire80 A",
+  "qty": 1,
+  "unit": "dispositif",
+  "price": 83.88,
+  "currency": "EUR",
+  "tax": "TTC affiché Parts&Go, hors port",
+  "buy": "https://www.partsandgo.fr/fr/arrets-d-urgence/52668-arret-d-urgence.html",
+  "maker": "https://www.albrightinternational.com/products/ed80-2/",
+  "query": "Albright ED80-1 coupe batterie",
+  "stock": "Disponible/InStock sur page publique ; réf.vendeur52668, marqueAlbright annoncée. Authenticité du lot à contrôler.",
+  "scope": "Contact mécanique à action brusque,80A thermique ; rupture de défaut500A/48V selon conditionsAlbright, pas capacité de court-circuit du véhicule entier.",
+  "role": "Insérer sur positif commun après MIDI et avant D+ ; ouvre moteurs ET alimentationPi. Usage d’urgence ou isolation hors charge, pas commutation courante en charge.",
+  "cotes": [
+    [
+      "Corps / hauteur",
+      "59 x contourØ58 ;37",
+      "PlanAlbright2024, corps à pans reconstruit"
+    ],
+    [
+      "Bouton",
+      "Ø48, hauteur14",
+      "PlanAlbright"
+    ],
+    [
+      "Au-dessus face de montage",
+      "56 fermé /51 ouvert",
+      "PlanAlbright"
+    ],
+    [
+      "Sous face de montage",
+      "55 avec bornes",
+      "PlanAlbright"
+    ],
+    [
+      "Fixation",
+      "CentreØ25 +2trousØ5,5 entraxe48",
+      "Plan de référence ; perçages châssis reportés"
+    ],
+    [
+      "Bornes",
+      "M6 ; serrage3,6-3,9N·m",
+      "PlanAlbright ; cosses et appui à contrôler"
+    ],
+    [
+      "Masse indicative",
+      "223g",
+      "FicheAlbright, pas820g de l’autre produit52666"
+    ]
+  ],
+  "amazon_search": "https://www.amazon.fr/s?k=Albright+ED80-1+coupe+batterie",
+  "amazon_FR_verified": false
+}

@@ -1,0 +1,5 @@
+﻿vitesse_kmh;puissance_totale_W;autonomie_min;hypothese;angle_moyen_max_deg
+5;15.687286890064668;113.21269333862989;"9kg,Crr0.02,CdA0.08m²,eta0.7,aux12W ; aucune mesure";22
+10;20.476866549088772;86.73202004527556;"9kg,Crr0.02,CdA0.08m²,eta0.7,aux12W ; aucune mesure";8.46076466507517
+20;37.77207524985303;47.01886216873695;"9kg,Crr0.02,CdA0.08m²,eta0.7,aux12W ; aucune mesure";2.129719621725547
+40;134.09088771310996;13.244747874290953;"9kg,Crr0.02,CdA0.08m²,eta0.7,aux12W ; aucune mesure";0.5326599063814834

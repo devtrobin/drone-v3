@@ -1,0 +1,1227 @@
+{
+  "model_count": 14,
+  "folder_count": 8,
+  "models": [
+    {
+      "folder": "cosses-puissance/ancor-312303",
+      "file": "cosse-ancor-312303-12awg-num10.step",
+      "title": "Ancor 312303 | oeillet #10, 12-10 AWG",
+      "generated_on": "2026-10-14",
+      "unit": "mm",
+      "cadquery_version": "2.8.0",
+      "coordinate_system": "Cosses/cables/gaines: axe X, holecentreX0 Klauke; MB2 baseZ0; collier droitX0..100. Voir parametres.",
+      "bytes": 108187,
+      "sha256": "fe2719499eaf9557c32027edca12e0283f15bbc716baa8bc165969bf19023164",
+      "native_vendor_cad": false,
+      "hardware_measured": false,
+      "is_custom_project_design": false,
+      "published_nominal": [
+        "12-10 AWG / 3-5 mm2; oeillet pour goujon #10; cuivre etame, joint brase, gaine adhesive"
+      ],
+      "estimates_and_limitations": [
+        "Toutes cotes mecaniques estimees: encombrement24x9.6x5.9; trou5.2 et canon3.2 non publies",
+        "4.8 mm catalogue = taille nominale de vis #10, pas un alesage mesure",
+        "Etat non serti; epaisseurs, raccord de paume et couleur optique reconstruits"
+      ],
+      "parameters": {
+        "hole_assumed_mm": 5.2,
+        "terminal_stud_designation": "#10",
+        "wire_AWG": [
+          12,
+          10
+        ]
+      },
+      "source_pages": [
+        "Ancor catalogue2020 p.26 / catalogue2024 p.24"
+      ],
+      "bounds_mm": {
+        "xmin": -1e-07,
+        "xmax": 24.0,
+        "ymin": -4.8000001,
+        "ymax": 4.8000001,
+        "zmin": -0.6000000000000001,
+        "zmax": 5.300000000000001
+      },
+      "validation": {
+        "valid_after_reimport": true,
+        "solids": 3,
+        "faces": 29,
+        "colors": 3,
+        "volume_relative_error": 3.4388019911019364e-13,
+        "volume_relative_error_limit": 0.0001,
+        "volume_before_mm3": 300.18491590482324,
+        "volume_after_mm3": 300.18491590492647,
+        "adaptive_volume_tolerance": 1e-09,
+        "bbox_error_mm": 8.881784197001252e-16,
+        "bbox_error_limit_mm": 0.01,
+        "void_and_material_probes": [
+          {
+            "point": [
+              4.2,
+              0,
+              0.5
+            ],
+            "occupied": false
+          }
+        ],
+        "elapsed_seconds": 0.21589209999910963
+      },
+      "parts": [
+        {
+          "name": "Cuivre_etame_forme_estimee",
+          "color_linear_rgb": [
+            0.62,
+            0.65,
+            0.69
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Adhesif_geometrie_estimee",
+          "color_linear_rgb": [
+            0.65,
+            0.39,
+            0.13
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Gaine_jaune_estimee",
+          "color_linear_rgb": [
+            0.85,
+            0.59,
+            0.015
+          ],
+          "solids": 1
+        }
+      ],
+      "preview": {
+        "file": "cosse-ancor-312303-12awg-num10.png",
+        "sha256": "a3d488df2c9ffa63b16f629a99283de3dc3147897147514e5fd20fd50d8fb345"
+      },
+      "generator": "tools/build_harness_step.py",
+      "generator_sha256": "343c45a6f573cd2d4205b4159948bddbdee9c39cf2bcf267fc7d6b8eb9957edc"
+    },
+    {
+      "folder": "cosses-puissance/klauke-95r4",
+      "file": "cosse-klauke-95r4-6mm2.step",
+      "title": "Klauke 95R4 | 6 mm2, trou 4.3 mm",
+      "generated_on": "2026-10-14",
+      "unit": "mm",
+      "cadquery_version": "2.8.0",
+      "coordinate_system": "Cosses/cables/gaines: axe X, holecentreX0 Klauke; MB2 baseZ0; collier droitX0..100. Voir parametres.",
+      "bytes": 130822,
+      "sha256": "a5006abdc09b91313a74cb70a5b02c3e9c85d7667060c1bc077f7954ce91369c",
+      "native_vendor_cad": false,
+      "hardware_measured": false,
+      "is_custom_project_design": false,
+      "published_nominal": [
+        "d1=4; a=9; b=9.5; d2=4.3; d4=6; c1=5; c2=5.5; l=18 mm",
+        "Dessin famille archive: l est depuis centre trou; l+c1 donne23/25 mm dans reconstruction"
+      ],
+      "estimates_and_limitations": [
+        "Epaisseur de paume2mm, rayons, loft et trou inspection reconstruits; chanfrein interne non cote omis",
+        "Pas de marque gravee ni deformation de sertissage inventee; mesurer le lot avant usinage",
+        "Vis SSR #8-32 ou ecrous #10-32 conserves; trou M4/M5 ne change pas le filetage"
+      ],
+      "parameters": {
+        "section_mm2": 6,
+        "d1": 4,
+        "a": 9,
+        "b": 9.5,
+        "d2": 4.3,
+        "d4": 6,
+        "c1": 5,
+        "c2": 5.5,
+        "l": 18,
+        "reconstructed_overall_length_mm": 23,
+        "palm_thickness_assumed_mm": 2,
+        "inspection_hole_assumed_mm": 1.4,
+        "l_datum": "centre du trou -> extremite du canon, dessin famille archive"
+      },
+      "source_pages": [
+        "Klauke catalogue archive via PowerCables, PDF p.14 / imprimee12",
+        "Klauke tableau actuel 95R4/95R5"
+      ],
+      "bounds_mm": {
+        "xmin": -5.0,
+        "xmax": 18.0000001,
+        "ymin": -4.7500001,
+        "ymax": 4.7500001,
+        "zmin": -1e-07,
+        "zmax": 6.0000001
+      },
+      "validation": {
+        "valid_after_reimport": true,
+        "solids": 1,
+        "faces": 22,
+        "colors": 1,
+        "volume_relative_error": 2.199361183167748e-12,
+        "volume_relative_error_limit": 0.0001,
+        "volume_before_mm3": 380.16031856094367,
+        "volume_after_mm3": 380.1603185617798,
+        "adaptive_volume_tolerance": 1e-09,
+        "bbox_error_mm": 0.0,
+        "bbox_error_limit_mm": 0.01,
+        "void_and_material_probes": [
+          {
+            "point": [
+              0,
+              0,
+              1
+            ],
+            "occupied": false
+          },
+          {
+            "point": [
+              17.5,
+              0,
+              3
+            ],
+            "occupied": false
+          }
+        ],
+        "elapsed_seconds": 0.23246170000129496
+      },
+      "parts": [
+        {
+          "name": "Cosse_Cu_etame_non_sertie",
+          "color_linear_rgb": [
+            0.62,
+            0.65,
+            0.69
+          ],
+          "solids": 1
+        }
+      ],
+      "preview": {
+        "file": "cosse-klauke-95r4-6mm2.png",
+        "sha256": "a0ff387cec4d52aea2eb7ee8076920481fe4f3748d70e7a1c395c88f5a9d9e46"
+      },
+      "generator": "tools/build_harness_step.py",
+      "generator_sha256": "343c45a6f573cd2d4205b4159948bddbdee9c39cf2bcf267fc7d6b8eb9957edc"
+    },
+    {
+      "folder": "cosses-puissance/klauke-95r4",
+      "file": "cosse-klauke-95r4-coupe-etude.step",
+      "title": "Klauke 95R4 | coupe technique",
+      "generated_on": "2026-10-14",
+      "unit": "mm",
+      "cadquery_version": "2.8.0",
+      "coordinate_system": "Cosses/cables/gaines: axe X, holecentreX0 Klauke; MB2 baseZ0; collier droitX0..100. Voir parametres.",
+      "bytes": 94579,
+      "sha256": "84ee238014506ca9ae1d39cc558ff3fa1af0c3e6a02139424a54de6906a315e4",
+      "native_vendor_cad": false,
+      "hardware_measured": false,
+      "is_custom_project_design": false,
+      "published_nominal": [
+        "Meme cotes nominales que variante entiere"
+      ],
+      "estimates_and_limitations": [
+        "Coupe volontaire y>=0, pour lecture du canon et du trou inspection; piece non utilisable"
+      ],
+      "parameters": {
+        "section_mm2": 6,
+        "d1": 4,
+        "a": 9,
+        "b": 9.5,
+        "d2": 4.3,
+        "d4": 6,
+        "c1": 5,
+        "c2": 5.5,
+        "l": 18,
+        "reconstructed_overall_length_mm": 23,
+        "palm_thickness_assumed_mm": 2,
+        "inspection_hole_assumed_mm": 1.4,
+        "l_datum": "centre du trou -> extremite du canon, dessin famille archive"
+      },
+      "source_pages": [],
+      "bounds_mm": {
+        "xmin": -5.0,
+        "xmax": 18.0000001,
+        "ymin": -4.7500001,
+        "ymax": 1.0000000299760216e-07,
+        "zmin": -1e-07,
+        "zmax": 6.0000001
+      },
+      "validation": {
+        "valid_after_reimport": true,
+        "solids": 1,
+        "faces": 19,
+        "colors": 1,
+        "volume_relative_error": 7.339726858888624e-12,
+        "volume_relative_error_limit": 0.0001,
+        "volume_before_mm3": 190.0801593346339,
+        "volume_after_mm3": 190.08015933323875,
+        "adaptive_volume_tolerance": 1e-09,
+        "bbox_error_mm": 5.551115123125783e-17,
+        "bbox_error_limit_mm": 0.01,
+        "void_and_material_probes": [],
+        "elapsed_seconds": 0.15539490000082878
+      },
+      "parts": [
+        {
+          "name": "Demi_cossee_coupe_volontaire",
+          "color_linear_rgb": [
+            0.62,
+            0.65,
+            0.69
+          ],
+          "solids": 1
+        }
+      ],
+      "preview": {
+        "file": "cosse-klauke-95r4-coupe-etude.png",
+        "sha256": "e333456dc6497ec0161e6e8af0bfbdfa10d2ab60b75abf4c6c965210abda4b5a"
+      },
+      "generator": "tools/build_harness_step.py",
+      "generator_sha256": "343c45a6f573cd2d4205b4159948bddbdee9c39cf2bcf267fc7d6b8eb9957edc"
+    },
+    {
+      "folder": "cosses-puissance/klauke-95r5",
+      "file": "cosse-klauke-95r5-6mm2.step",
+      "title": "Klauke 95R5 | 6 mm2, trou 5.3 mm",
+      "generated_on": "2026-10-14",
+      "unit": "mm",
+      "cadquery_version": "2.8.0",
+      "coordinate_system": "Cosses/cables/gaines: axe X, holecentreX0 Klauke; MB2 baseZ0; collier droitX0..100. Voir parametres.",
+      "bytes": 134641,
+      "sha256": "49a923d1399a109b075e560255c9217ad337ba033c85a9708a8b1ae6466c05dc",
+      "native_vendor_cad": false,
+      "hardware_measured": false,
+      "is_custom_project_design": false,
+      "published_nominal": [
+        "d1=4; a=9; b=9.5; d2=5.3; d4=6; c1=6; c2=6; l=19 mm",
+        "Dessin famille archive: l est depuis centre trou; l+c1 donne23/25 mm dans reconstruction"
+      ],
+      "estimates_and_limitations": [
+        "Epaisseur de paume2mm, rayons, loft et trou inspection reconstruits; chanfrein interne non cote omis",
+        "Pas de marque gravee ni deformation de sertissage inventee; mesurer le lot avant usinage",
+        "Vis SSR #8-32 ou ecrous #10-32 conserves; trou M4/M5 ne change pas le filetage"
+      ],
+      "parameters": {
+        "section_mm2": 6,
+        "d1": 4,
+        "a": 9,
+        "b": 9.5,
+        "d2": 5.3,
+        "d4": 6,
+        "c1": 6,
+        "c2": 6,
+        "l": 19,
+        "reconstructed_overall_length_mm": 25,
+        "palm_thickness_assumed_mm": 2,
+        "inspection_hole_assumed_mm": 1.4,
+        "l_datum": "centre du trou -> extremite du canon, dessin famille archive"
+      },
+      "source_pages": [
+        "Klauke catalogue archive via PowerCables, PDF p.14 / imprimee12",
+        "Klauke tableau actuel 95R4/95R5"
+      ],
+      "bounds_mm": {
+        "xmin": -6.0,
+        "xmax": 19.0000001,
+        "ymin": -4.7500001,
+        "ymax": 4.7500001,
+        "zmin": -1e-07,
+        "zmax": 6.0000001
+      },
+      "validation": {
+        "valid_after_reimport": true,
+        "solids": 1,
+        "faces": 23,
+        "colors": 1,
+        "volume_relative_error": 8.858938465767037e-10,
+        "volume_relative_error_limit": 0.0001,
+        "volume_before_mm3": 405.6722063196119,
+        "volume_after_mm3": 405.6722066789944,
+        "adaptive_volume_tolerance": 1e-09,
+        "bbox_error_mm": 0.0,
+        "bbox_error_limit_mm": 0.01,
+        "void_and_material_probes": [
+          {
+            "point": [
+              0,
+              0,
+              1
+            ],
+            "occupied": false
+          },
+          {
+            "point": [
+              18.5,
+              0,
+              3
+            ],
+            "occupied": false
+          }
+        ],
+        "elapsed_seconds": 0.22699029999967024
+      },
+      "parts": [
+        {
+          "name": "Cosse_Cu_etame_non_sertie",
+          "color_linear_rgb": [
+            0.62,
+            0.65,
+            0.69
+          ],
+          "solids": 1
+        }
+      ],
+      "preview": {
+        "file": "cosse-klauke-95r5-6mm2.png",
+        "sha256": "6624f593b29d9d80c213e7dff436164037df9d03c4e817406c92036ed698d6ab"
+      },
+      "generator": "tools/build_harness_step.py",
+      "generator_sha256": "343c45a6f573cd2d4205b4159948bddbdee9c39cf2bcf267fc7d6b8eb9957edc"
+    },
+    {
+      "folder": "raccords-12awg",
+      "file": "raccord-ancor-309203.step",
+      "title": "Ancor 309203 | raccord 12-10 AWG",
+      "generated_on": "2026-10-14",
+      "unit": "mm",
+      "cadquery_version": "2.8.0",
+      "coordinate_system": "Cosses/cables/gaines: axe X, holecentreX0 Klauke; MB2 baseZ0; collier droitX0..100. Voir parametres.",
+      "bytes": 38854,
+      "sha256": "321f53c6eecd060182c9485c41b3125bfaca4a475533efb7c2fe2d9d6cd91ce8",
+      "native_vendor_cad": false,
+      "hardware_measured": false,
+      "is_custom_project_design": false,
+      "published_nominal": [
+        "12-10 AWG / 3-5 mm2; cuivre etame, joint brase, gaine adhesive, lot3"
+      ],
+      "estimates_and_limitations": [
+        "Toutes longueurs, diametres, epaisseurs et butee interne estimes",
+        "Etat non serti; pas de qualification du cuivre silicone tres fin BNTECHGO",
+        "Aucun fil represente: canon libre"
+      ],
+      "parameters": {
+        "metal_length_assumed_mm": 15,
+        "total_length_assumed_mm": 30,
+        "outer_diameter_assumed_mm": 6.1,
+        "wire_AWG": [
+          12,
+          10
+        ]
+      },
+      "source_pages": [
+        "Ancor2020 p.27 /2024 p.25"
+      ],
+      "bounds_mm": {
+        "xmin": -7.5,
+        "xmax": 22.5,
+        "ymin": -3.05,
+        "ymax": 3.05,
+        "zmin": -3.05,
+        "zmax": 3.05
+      },
+      "validation": {
+        "valid_after_reimport": true,
+        "solids": 3,
+        "faces": 16,
+        "colors": 3,
+        "volume_relative_error": 0.0,
+        "volume_relative_error_limit": 0.0001,
+        "volume_before_mm3": 479.4290300863772,
+        "volume_after_mm3": 479.4290300863772,
+        "adaptive_volume_tolerance": 1e-09,
+        "bbox_error_mm": 0.0,
+        "bbox_error_limit_mm": 0.01,
+        "void_and_material_probes": [],
+        "elapsed_seconds": 0.1029541000007157
+      },
+      "parts": [
+        {
+          "name": "Canon_Cu_etame",
+          "color_linear_rgb": [
+            0.62,
+            0.65,
+            0.69
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Adhesif_interieur_estime",
+          "color_linear_rgb": [
+            0.65,
+            0.39,
+            0.13
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Gaine_jaune_estimee",
+          "color_linear_rgb": [
+            0.85,
+            0.59,
+            0.015
+          ],
+          "solids": 1
+        }
+      ],
+      "preview": {
+        "file": "raccord-ancor-309203.png",
+        "sha256": "3bced6be203897ef1d62740ac96e4a4c3880e7fe278174447909e842f8cf47ae"
+      },
+      "generator": "tools/build_harness_step.py",
+      "generator_sha256": "343c45a6f573cd2d4205b4159948bddbdee9c39cf2bcf267fc7d6b8eb9957edc"
+    },
+    {
+      "folder": "raccords-12awg",
+      "file": "raccord-ancor-309203-coupe.step",
+      "title": "Ancor 309203 | coupe technique",
+      "generated_on": "2026-10-14",
+      "unit": "mm",
+      "cadquery_version": "2.8.0",
+      "coordinate_system": "Cosses/cables/gaines: axe X, holecentreX0 Klauke; MB2 baseZ0; collier droitX0..100. Voir parametres.",
+      "bytes": 69859,
+      "sha256": "eae5e1539089653949ba521977cff1c92271cd0c92153a14403e4744c3e88bc2",
+      "native_vendor_cad": false,
+      "hardware_measured": false,
+      "is_custom_project_design": false,
+      "published_nominal": [
+        "12-10 AWG / 3-5 mm2; cuivre etame, joint brase, gaine adhesive, lot3"
+      ],
+      "estimates_and_limitations": [
+        "Toutes longueurs, diametres, epaisseurs et butee interne estimes",
+        "Etat non serti; pas de qualification du cuivre silicone tres fin BNTECHGO",
+        "Coupe y>=0 volontaire"
+      ],
+      "parameters": {
+        "metal_length_assumed_mm": 15,
+        "total_length_assumed_mm": 30,
+        "outer_diameter_assumed_mm": 6.1,
+        "wire_AWG": [
+          12,
+          10
+        ]
+      },
+      "source_pages": [
+        "Ancor2020 p.27 /2024 p.25"
+      ],
+      "bounds_mm": {
+        "xmin": -7.5,
+        "xmax": 22.5,
+        "ymin": -3.05,
+        "ymax": 7.470345474799e-16,
+        "zmin": -3.05,
+        "zmax": 3.05
+      },
+      "validation": {
+        "valid_after_reimport": true,
+        "solids": 3,
+        "faces": 22,
+        "colors": 3,
+        "volume_relative_error": 4.434324440076549e-14,
+        "volume_relative_error_limit": 0.0001,
+        "volume_before_mm3": 239.71451504318884,
+        "volume_after_mm3": 239.71451504319947,
+        "adaptive_volume_tolerance": 1e-09,
+        "bbox_error_mm": 1.4593926746588718e-29,
+        "bbox_error_limit_mm": 0.01,
+        "void_and_material_probes": [],
+        "elapsed_seconds": 0.1508496999995259
+      },
+      "parts": [
+        {
+          "name": "Canon_Cu_etame",
+          "color_linear_rgb": [
+            0.62,
+            0.65,
+            0.69
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Adhesif_interieur_estime",
+          "color_linear_rgb": [
+            0.65,
+            0.39,
+            0.13
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Gaine_jaune_estimee",
+          "color_linear_rgb": [
+            0.85,
+            0.59,
+            0.015
+          ],
+          "solids": 1
+        }
+      ],
+      "preview": {
+        "file": "raccord-ancor-309203-coupe.png",
+        "sha256": "27750eaa9c94a2dfad28f1e8091224deb4f7b91c2bb5a4dd1eefb5e036ab476c"
+      },
+      "generator": "tools/build_harness_step.py",
+      "generator_sha256": "343c45a6f573cd2d4205b4159948bddbdee9c39cf2bcf267fc7d6b8eb9957edc"
+    },
+    {
+      "folder": "gaine-thermoretractable",
+      "file": "gaine-te-atum-8-2-expansee.step",
+      "title": "TE ATUM 8/2 | expansee",
+      "generated_on": "2026-10-14",
+      "unit": "mm",
+      "cadquery_version": "2.8.0",
+      "coordinate_system": "Cosses/cables/gaines: axe X, holecentreX0 Klauke; MB2 baseZ0; collier droitX0..100. Voir parametres.",
+      "bytes": 21238,
+      "sha256": "f3f104e405a6c890a0525db66ab7d2af3db527e4d1bacbcca43bd67f80a7cb96",
+      "native_vendor_cad": false,
+      "hardware_measured": false,
+      "is_custom_project_design": false,
+      "published_nominal": [
+        "Diametre fourni min8; libre retreint max2; paroi libre totale1.0+/-0.3, adhesif0.5nom mm",
+        "Retrait longitudinal0 a -15%: plan TE A2, 2023; couleur noire"
+      ],
+      "estimates_and_limitations": [
+        "Longueurs40/36mm exemples de coupe, pas une longueur livree; 1.2m STK",
+        "Etat expanse: OD8.7 et partage0.17/0.18mm estimes; paroi fournie non publiee",
+        "Adhesif ambre est une couleur de lecture, teinte reelle non documentee",
+        "Retreinte libre n est pas la geometrie installee sur fil4.7 ou canon6mm",
+        "Modele d etude sans marquages inventes"
+      ],
+      "parameters": {
+        "state": "expansee",
+        "inside_mm": 8,
+        "outside_mm": 8.7,
+        "length_example_mm": 40,
+        "free_recovered_wall_mm": 1,
+        "free_recovered_adhesive_mm": 0.5
+      },
+      "source_pages": [
+        "TE drawing ATUM_4_to_RATIO_STANDARD_SIZES revA2",
+        "TE datasheet ATUM05/24",
+        "Raytronics fiche secondaire archivee"
+      ],
+      "bounds_mm": {
+        "xmin": 0.0,
+        "xmax": 40.0,
+        "ymin": -4.35,
+        "ymax": 4.35,
+        "zmin": -4.35,
+        "zmax": 4.35
+      },
+      "validation": {
+        "valid_after_reimport": true,
+        "solids": 2,
+        "faces": 8,
+        "colors": 2,
+        "volume_relative_error": 0.0,
+        "volume_relative_error_limit": 0.0001,
+        "volume_before_mm3": 367.25218120464615,
+        "volume_after_mm3": 367.25218120464615,
+        "adaptive_volume_tolerance": 1e-09,
+        "bbox_error_mm": 0.0,
+        "bbox_error_limit_mm": 0.01,
+        "void_and_material_probes": [],
+        "elapsed_seconds": 0.07551140000032319
+      },
+      "parts": [
+        {
+          "name": "Adhesif_ambre_estime_optique",
+          "color_linear_rgb": [
+            0.65,
+            0.39,
+            0.13
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Polyolefine_noire",
+          "color_linear_rgb": [
+            0.022,
+            0.026,
+            0.032
+          ],
+          "solids": 1
+        }
+      ],
+      "preview": {
+        "file": "gaine-te-atum-8-2-expansee.png",
+        "sha256": "a45f88939f60eb30804a72c0baa8a335a4bb2bb5f95563d9b67b5da9ff80e4a5"
+      },
+      "generator": "tools/build_harness_step.py",
+      "generator_sha256": "343c45a6f573cd2d4205b4159948bddbdee9c39cf2bcf267fc7d6b8eb9957edc"
+    },
+    {
+      "folder": "gaine-thermoretractable",
+      "file": "gaine-te-atum-8-2-retreinte-libre.step",
+      "title": "TE ATUM 8/2 | retreinte-libre",
+      "generated_on": "2026-10-14",
+      "unit": "mm",
+      "cadquery_version": "2.8.0",
+      "coordinate_system": "Cosses/cables/gaines: axe X, holecentreX0 Klauke; MB2 baseZ0; collier droitX0..100. Voir parametres.",
+      "bytes": 21220,
+      "sha256": "047d50864dee9038f29a3da690aa1bc025ff037e0ea95c29061b4cae82d5156b",
+      "native_vendor_cad": false,
+      "hardware_measured": false,
+      "is_custom_project_design": false,
+      "published_nominal": [
+        "Diametre fourni min8; libre retreint max2; paroi libre totale1.0+/-0.3, adhesif0.5nom mm",
+        "Retrait longitudinal0 a -15%: plan TE A2, 2023; couleur noire"
+      ],
+      "estimates_and_limitations": [
+        "Longueurs40/36mm exemples de coupe, pas une longueur livree; 1.2m STK",
+        "Etat expanse: OD8.7 et partage0.17/0.18mm estimes; paroi fournie non publiee",
+        "Adhesif ambre est une couleur de lecture, teinte reelle non documentee",
+        "Retreinte libre n est pas la geometrie installee sur fil4.7 ou canon6mm",
+        "Modele d etude sans marquages inventes"
+      ],
+      "parameters": {
+        "state": "retreinte-libre",
+        "inside_mm": 2,
+        "outside_mm": 4,
+        "length_example_mm": 36,
+        "free_recovered_wall_mm": 1,
+        "free_recovered_adhesive_mm": 0.5
+      },
+      "source_pages": [
+        "TE drawing ATUM_4_to_RATIO_STANDARD_SIZES revA2",
+        "TE datasheet ATUM05/24",
+        "Raytronics fiche secondaire archivee"
+      ],
+      "bounds_mm": {
+        "xmin": 0.0,
+        "xmax": 36.0,
+        "ymin": -2.0,
+        "ymax": 2.0,
+        "zmin": -2.0,
+        "zmax": 2.0
+      },
+      "validation": {
+        "valid_after_reimport": true,
+        "solids": 2,
+        "faces": 8,
+        "colors": 2,
+        "volume_relative_error": 0.0,
+        "volume_relative_error_limit": 0.0001,
+        "volume_before_mm3": 339.29200658769764,
+        "volume_after_mm3": 339.29200658769764,
+        "adaptive_volume_tolerance": 1e-09,
+        "bbox_error_mm": 0.0,
+        "bbox_error_limit_mm": 0.01,
+        "void_and_material_probes": [],
+        "elapsed_seconds": 0.07537950000005367
+      },
+      "parts": [
+        {
+          "name": "Adhesif_ambre_estime_optique",
+          "color_linear_rgb": [
+            0.65,
+            0.39,
+            0.13
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Polyolefine_noire",
+          "color_linear_rgb": [
+            0.022,
+            0.026,
+            0.032
+          ],
+          "solids": 1
+        }
+      ],
+      "preview": {
+        "file": "gaine-te-atum-8-2-retreinte-libre.png",
+        "sha256": "a7b1d87b446d4d811656637e58787b4caa164c66ad4198b0a6724d15be2cbaea"
+      },
+      "generator": "tools/build_harness_step.py",
+      "generator_sha256": "343c45a6f573cd2d4205b4159948bddbdee9c39cf2bcf267fc7d6b8eb9957edc"
+    },
+    {
+      "folder": "gaine-thermoretractable",
+      "file": "gaine-te-atum-8-2-retreinte-libre-coupe.step",
+      "title": "TE ATUM 8/2 | retreinte-libre-coupe",
+      "generated_on": "2026-10-14",
+      "unit": "mm",
+      "cadquery_version": "2.8.0",
+      "coordinate_system": "Cosses/cables/gaines: axe X, holecentreX0 Klauke; MB2 baseZ0; collier droitX0..100. Voir parametres.",
+      "bytes": 36392,
+      "sha256": "8b93d1beceb09a28d9d2e9c77b56e955b945d6b24a71e79732530d9c531287ae",
+      "native_vendor_cad": false,
+      "hardware_measured": false,
+      "is_custom_project_design": false,
+      "published_nominal": [
+        "Diametre fourni min8; libre retreint max2; paroi libre totale1.0+/-0.3, adhesif0.5nom mm",
+        "Retrait longitudinal0 a -15%: plan TE A2, 2023; couleur noire"
+      ],
+      "estimates_and_limitations": [
+        "Longueurs40/36mm exemples de coupe, pas une longueur livree; 1.2m STK",
+        "Etat expanse: OD8.7 et partage0.17/0.18mm estimes; paroi fournie non publiee",
+        "Adhesif ambre est une couleur de lecture, teinte reelle non documentee",
+        "Retreinte libre n est pas la geometrie installee sur fil4.7 ou canon6mm",
+        "Demi-coupe volontaire"
+      ],
+      "parameters": {
+        "state": "retreinte-libre-coupe",
+        "inside_mm": 2,
+        "outside_mm": 4,
+        "length_example_mm": 36,
+        "free_recovered_wall_mm": 1,
+        "free_recovered_adhesive_mm": 0.5
+      },
+      "source_pages": [
+        "TE drawing ATUM_4_to_RATIO_STANDARD_SIZES revA2",
+        "TE datasheet ATUM05/24",
+        "Raytronics fiche secondaire archivee"
+      ],
+      "bounds_mm": {
+        "xmin": 0.0,
+        "xmax": 36.0,
+        "ymin": -2.0,
+        "ymax": 4.898587196589e-16,
+        "zmin": -2.0,
+        "zmax": 2.0
+      },
+      "validation": {
+        "valid_after_reimport": true,
+        "solids": 2,
+        "faces": 12,
+        "colors": 2,
+        "volume_relative_error": 4.355920156341801e-14,
+        "volume_relative_error_limit": 0.0001,
+        "volume_before_mm3": 169.64600329384893,
+        "volume_after_mm3": 169.64600329385632,
+        "adaptive_volume_tolerance": 1e-09,
+        "bbox_error_mm": 4.1316589910950493e-29,
+        "bbox_error_limit_mm": 0.01,
+        "void_and_material_probes": [],
+        "elapsed_seconds": 0.08520099999986996
+      },
+      "parts": [
+        {
+          "name": "Adhesif_ambre_estime_optique",
+          "color_linear_rgb": [
+            0.65,
+            0.39,
+            0.13
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Polyolefine_noire",
+          "color_linear_rgb": [
+            0.022,
+            0.026,
+            0.032
+          ],
+          "solids": 1
+        }
+      ],
+      "preview": {
+        "file": "gaine-te-atum-8-2-retreinte-libre-coupe.png",
+        "sha256": "0c9824a837638ad559172ef635ec3d5a465e13255420ff9bee24b775385d855a"
+      },
+      "generator": "tools/build_harness_step.py",
+      "generator_sha256": "343c45a6f573cd2d4205b4159948bddbdee9c39cf2bcf267fc7d6b8eb9957edc"
+    },
+    {
+      "folder": "maintien-faisceau/colliers",
+      "file": "collier-ht-t18r-11101919.step",
+      "title": "HellermannTyton T18R | 100 x 2.5, naturel",
+      "generated_on": "2026-10-14",
+      "unit": "mm",
+      "cadquery_version": "2.8.0",
+      "coordinate_system": "Cosses/cables/gaines: axe X, holecentreX0 Klauke; MB2 baseZ0; collier droitX0..100. Voir parametres.",
+      "bytes": 1962186,
+      "sha256": "04ad26f4f37b09b7dbc3125c2c60262f722c6610b9756aab85f623378a58216a",
+      "native_vendor_cad": false,
+      "hardware_measured": false,
+      "is_custom_project_design": false,
+      "published_nominal": [
+        "TDS actuelle: L100 W2.5 T1 H3.7mm; tete4.8x4.45 annoncee page; couleur naturelle",
+        "Plan famille2025 different: T1.1+/-0.2; tete4.8 et H3.5+/-0.2"
+      ],
+      "estimates_and_limitations": [
+        "Pas/dentures, forme pointe, logement et cliquet estimes; pose droite, pas pre-serree",
+        "80N est une resistance minimale de boucle, jamais une consigne de serrage",
+        "Les variantes noire et UV ne sont pas la reference111-01919"
+      ],
+      "parameters": {
+        "length": 100,
+        "width": 2.5,
+        "thickness": 1,
+        "head_height": 3.7,
+        "head_width": 4.45,
+        "head_length": 4.8,
+        "teeth_pitch_assumed": 0.65
+      },
+      "source_pages": [
+        "HT TDS111-01919,9Oct2026",
+        "Plan famille10-0585-001-CSC rev10.1,5Dec2025"
+      ],
+      "bounds_mm": {
+        "xmin": 0.0,
+        "xmax": 100.0,
+        "ymin": -2.225,
+        "ymax": 2.225,
+        "zmin": 0.0,
+        "zmax": 3.7
+      },
+      "validation": {
+        "valid_after_reimport": true,
+        "solids": 1,
+        "faces": 635,
+        "colors": 1,
+        "volume_relative_error": 1.638310514531067e-15,
+        "volume_relative_error_limit": 0.0001,
+        "volume_before_mm3": 277.5709164124032,
+        "volume_after_mm3": 277.5709164124037,
+        "adaptive_volume_tolerance": 1e-09,
+        "bbox_error_mm": 0.0,
+        "bbox_error_limit_mm": 0.01,
+        "void_and_material_probes": [],
+        "elapsed_seconds": 3.2619121999996423
+      },
+      "parts": [
+        {
+          "name": "PA66_naturel_serrure_denture",
+          "color_linear_rgb": [
+            0.86,
+            0.82,
+            0.68
+          ],
+          "solids": 1
+        }
+      ],
+      "preview": {
+        "file": "collier-ht-t18r-11101919.png",
+        "sha256": "69af9e2af4fbe9b6645722e31c7ab99f05fc0b452ff6c1be45aef0c0eb6ee52a"
+      },
+      "generator": "tools/build_harness_step.py",
+      "generator_sha256": "343c45a6f573cd2d4205b4159948bddbdee9c39cf2bcf267fc7d6b8eb9957edc"
+    },
+    {
+      "folder": "maintien-faisceau/embases",
+      "file": "embase-ht-mb2-15128210.step",
+      "title": "HellermannTyton MB2 | 20.5 x 12.5 x 3.3",
+      "generated_on": "2026-10-14",
+      "unit": "mm",
+      "cadquery_version": "2.8.0",
+      "coordinate_system": "Cosses/cables/gaines: axe X, holecentreX0 Klauke; MB2 baseZ0; collier droitX0..100. Voir parametres.",
+      "bytes": 48200,
+      "sha256": "95d93189f3e0483a67a5c51815e8876a959c7a5cc1221464205ee07f849e11bd",
+      "native_vendor_cad": false,
+      "hardware_measured": false,
+      "is_custom_project_design": false,
+      "published_nominal": [
+        "Plan141622: A12.5+/-0.5 B20.5+/-0.5 C3.3+/-0.2 D2.5+/-0.2 E5+/-0.2 F5+/-0.2 G10+/-0.2 H1.7+/-0.2",
+        "TDS actuelle: passage collier max5mm, visM4, trou5mm, noir PA66"
+      ],
+      "estimates_and_limitations": [
+        "Position du trou et longueur de languette extrapolees du dessin non cotees",
+        "Rayons de moulage, faible depouille et details de surface non mesures",
+        "Vis, rondelle, ecrou et chassis absents; longueur vis a determiner"
+      ],
+      "parameters": {
+        "length": 20.5,
+        "width": 12.5,
+        "height": 3.3,
+        "hole": 5,
+        "tie_passage_length": 5,
+        "bridge_width": 10,
+        "bridge_height": 1.7
+      },
+      "source_pages": [
+        "HT plan141622,15Oct2002",
+        "HT MB2 page actuelle151-28210"
+      ],
+      "bounds_mm": {
+        "xmin": 0.0,
+        "xmax": 12.5,
+        "ymin": 0.0,
+        "ymax": 20.5,
+        "zmin": 0.0,
+        "zmax": 3.3
+      },
+      "validation": {
+        "valid_after_reimport": true,
+        "solids": 1,
+        "faces": 15,
+        "colors": 1,
+        "volume_relative_error": 1.5051564170549972e-14,
+        "volume_relative_error_limit": 0.0001,
+        "volume_before_mm3": 604.2526155204878,
+        "volume_after_mm3": 604.2526155204969,
+        "adaptive_volume_tolerance": 1e-09,
+        "bbox_error_mm": 0.0,
+        "bbox_error_limit_mm": 0.01,
+        "void_and_material_probes": [
+          {
+            "point": [
+              6.25,
+              14.25,
+              1
+            ],
+            "occupied": false
+          }
+        ],
+        "elapsed_seconds": 0.0927587999995012
+      },
+      "parts": [
+        {
+          "name": "PA66_noir_embase_vis",
+          "color_linear_rgb": [
+            0.022,
+            0.026,
+            0.032
+          ],
+          "solids": 1
+        }
+      ],
+      "preview": {
+        "file": "embase-ht-mb2-15128210.png",
+        "sha256": "c439b39071f832ce8cbd7d6f1e62a28962078c59d7a88b15c5e741b7450e3422"
+      },
+      "generator": "tools/build_harness_step.py",
+      "generator_sha256": "343c45a6f573cd2d4205b4159948bddbdee9c39cf2bcf267fc7d6b8eb9957edc"
+    },
+    {
+      "folder": "cable-principal-6mm2",
+      "file": "cable-auprotec-flryb-6mm2-rouge-100mm.step",
+      "title": "AUPROTEC FLRY-B 6 mm2 | rouge 100 mm",
+      "generated_on": "2026-10-14",
+      "unit": "mm",
+      "cadquery_version": "2.8.0",
+      "coordinate_system": "Cosses/cables/gaines: axe X, holecentreX0 Klauke; MB2 baseZ0; collier droitX0..100. Voir parametres.",
+      "bytes": 17773,
+      "sha256": "91f69e792a2cbf38f545f84a67e7f4167618c19589f16908548904a6e55210da",
+      "native_vendor_cad": false,
+      "hardware_measured": false,
+      "is_custom_project_design": false,
+      "published_nominal": [
+        "Section6mm2, cuivre nu recuitECu; gainePVC; ODenv4.7mm; filamentsmax0.300mm"
+      ],
+      "estimates_and_limitations": [
+        "Ame pleine equivalente aire6mm2: pas le diametre du faisceau ni une reconstruction des brins",
+        "Nombre, toronnage et OD reel du cuivre non publies; couleurs reconstituees",
+        "Longueur100 et denudage10par bout illustratifs, pas liste de coupe"
+      ],
+      "parameters": {
+        "section_mm2": 6,
+        "outside_diameter_nominal_approx_mm": 4.7,
+        "equivalent_core_diameter": 2.763953195770684,
+        "length_example": 100,
+        "strip_example": 10,
+        "actual_strand_count": null,
+        "actual_strand_lay_known": false
+      },
+      "source_pages": [
+        "AUPROTEC page FLRYB6 rouge6m044906"
+      ],
+      "bounds_mm": {
+        "xmin": 0.0,
+        "xmax": 100.0,
+        "ymin": -2.35,
+        "ymax": 2.35,
+        "zmin": -2.35,
+        "zmax": 2.35
+      },
+      "validation": {
+        "valid_after_reimport": true,
+        "solids": 2,
+        "faces": 7,
+        "colors": 2,
+        "volume_relative_error": 3.920351120972373e-14,
+        "volume_relative_error_limit": 0.0001,
+        "volume_before_mm3": 1507.9556343559702,
+        "volume_after_mm3": 1507.9556343559111,
+        "adaptive_volume_tolerance": 1e-09,
+        "bbox_error_mm": 0.0,
+        "bbox_error_limit_mm": 0.01,
+        "void_and_material_probes": [],
+        "elapsed_seconds": 0.05295250000017404
+      },
+      "parts": [
+        {
+          "name": "Cuivre_cylindre_equivalent_section_6mm2",
+          "color_linear_rgb": [
+            0.6,
+            0.23,
+            0.075
+          ],
+          "solids": 1
+        },
+        {
+          "name": "PVC_rouge",
+          "color_linear_rgb": [
+            0.57,
+            0.014,
+            0.009
+          ],
+          "solids": 1
+        }
+      ],
+      "preview": {
+        "file": "cable-auprotec-flryb-6mm2-rouge-100mm.png",
+        "sha256": "688a7cb4758d524099e6aede7e6ea549e7a49f0a5c63aa9e4b11466b91105e6e"
+      },
+      "generator": "tools/build_harness_step.py",
+      "generator_sha256": "343c45a6f573cd2d4205b4159948bddbdee9c39cf2bcf267fc7d6b8eb9957edc"
+    },
+    {
+      "folder": "cable-principal-6mm2",
+      "file": "cable-auprotec-flryb-6mm2-noir-100mm.step",
+      "title": "AUPROTEC FLRY-B 6 mm2 | noir 100 mm",
+      "generated_on": "2026-10-14",
+      "unit": "mm",
+      "cadquery_version": "2.8.0",
+      "coordinate_system": "Cosses/cables/gaines: axe X, holecentreX0 Klauke; MB2 baseZ0; collier droitX0..100. Voir parametres.",
+      "bytes": 17770,
+      "sha256": "e56580db7fbc8af292dd027aff7a8c0d24ea592c2757d16c5b84186a7ee74bfe",
+      "native_vendor_cad": false,
+      "hardware_measured": false,
+      "is_custom_project_design": false,
+      "published_nominal": [
+        "Section6mm2, cuivre nu recuitECu; gainePVC; ODenv4.7mm; filamentsmax0.300mm"
+      ],
+      "estimates_and_limitations": [
+        "Ame pleine equivalente aire6mm2: pas le diametre du faisceau ni une reconstruction des brins",
+        "Nombre, toronnage et OD reel du cuivre non publies; couleurs reconstituees",
+        "Longueur100 et denudage10par bout illustratifs, pas liste de coupe"
+      ],
+      "parameters": {
+        "section_mm2": 6,
+        "outside_diameter_nominal_approx_mm": 4.7,
+        "equivalent_core_diameter": 2.763953195770684,
+        "length_example": 100,
+        "strip_example": 10,
+        "actual_strand_count": null,
+        "actual_strand_lay_known": false
+      },
+      "source_pages": [
+        "AUPROTEC page FLRYB6 rouge6m044906"
+      ],
+      "bounds_mm": {
+        "xmin": 0.0,
+        "xmax": 100.0,
+        "ymin": -2.35,
+        "ymax": 2.35,
+        "zmin": -2.35,
+        "zmax": 2.35
+      },
+      "validation": {
+        "valid_after_reimport": true,
+        "solids": 2,
+        "faces": 7,
+        "colors": 2,
+        "volume_relative_error": 3.920351120972373e-14,
+        "volume_relative_error_limit": 0.0001,
+        "volume_before_mm3": 1507.9556343559702,
+        "volume_after_mm3": 1507.9556343559111,
+        "adaptive_volume_tolerance": 1e-09,
+        "bbox_error_mm": 0.0,
+        "bbox_error_limit_mm": 0.01,
+        "void_and_material_probes": [],
+        "elapsed_seconds": 0.05971739999949932
+      },
+      "parts": [
+        {
+          "name": "Cuivre_cylindre_equivalent_section_6mm2",
+          "color_linear_rgb": [
+            0.6,
+            0.23,
+            0.075
+          ],
+          "solids": 1
+        },
+        {
+          "name": "PVC_noir",
+          "color_linear_rgb": [
+            0.022,
+            0.026,
+            0.032
+          ],
+          "solids": 1
+        }
+      ],
+      "preview": {
+        "file": "cable-auprotec-flryb-6mm2-noir-100mm.png",
+        "sha256": "74cf91081baa5bbb535f61d7d83fd0b1ff72774b8074e722a0363ed4118ec1c6"
+      },
+      "generator": "tools/build_harness_step.py",
+      "generator_sha256": "343c45a6f573cd2d4205b4159948bddbdee9c39cf2bcf267fc7d6b8eb9957edc"
+    },
+    {
+      "folder": "cable-principal-6mm2",
+      "file": "cable-auprotec-flryb-6mm2-coupe-equivalente.step",
+      "title": "FLRY-B 6 mm2 | coupe de lecture",
+      "generated_on": "2026-10-14",
+      "unit": "mm",
+      "cadquery_version": "2.8.0",
+      "coordinate_system": "Cosses/cables/gaines: axe X, holecentreX0 Klauke; MB2 baseZ0; collier droitX0..100. Voir parametres.",
+      "bytes": 25568,
+      "sha256": "dfb2551cfd47646c0ee887665606141a90ef2dca9f912e131ccf6edbd7d20c19",
+      "native_vendor_cad": false,
+      "hardware_measured": false,
+      "is_custom_project_design": false,
+      "published_nominal": [
+        "Section6mm2, ODenv4.7mm"
+      ],
+      "estimates_and_limitations": [
+        "Coupe gaine volontaire; ame equivalente pleine; aucun nombre de brins deduit"
+      ],
+      "parameters": {
+        "section_mm2": 6,
+        "length_example": 40,
+        "actual_strand_count": null
+      },
+      "source_pages": [],
+      "bounds_mm": {
+        "xmin": 0.0,
+        "xmax": 40.0,
+        "ymin": -2.35,
+        "ymax": 1.381976597885,
+        "zmin": -2.35,
+        "zmax": 2.35
+      },
+      "validation": {
+        "valid_after_reimport": true,
+        "solids": 2,
+        "faces": 9,
+        "colors": 2,
+        "volume_relative_error": 1.039516759697915e-13,
+        "volume_relative_error_limit": 0.0001,
+        "volume_before_mm3": 466.98890858899745,
+        "volume_after_mm3": 466.9889085889489,
+        "adaptive_volume_tolerance": 1e-09,
+        "bbox_error_mm": 3.419486915845482e-13,
+        "bbox_error_limit_mm": 0.01,
+        "void_and_material_probes": [],
+        "elapsed_seconds": 0.0596466999995755
+      },
+      "parts": [
+        {
+          "name": "Cuivre_equivalent6mm2_sans_brins_inventes",
+          "color_linear_rgb": [
+            0.6,
+            0.23,
+            0.075
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Demi_gaine_PVC_coupe_volontaire",
+          "color_linear_rgb": [
+            0.57,
+            0.014,
+            0.009
+          ],
+          "solids": 1
+        }
+      ],
+      "preview": {
+        "file": "cable-auprotec-flryb-6mm2-coupe-equivalente.png",
+        "sha256": "cc9969d3fc7d9a9b1c43588c505cdfd20721e1855623ea149e3c1f8ef8892b93"
+      },
+      "generator": "tools/build_harness_step.py",
+      "generator_sha256": "343c45a6f573cd2d4205b4159948bddbdee9c39cf2bcf267fc7d6b8eb9957edc"
+    }
+  ]
+}

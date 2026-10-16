@@ -1,0 +1,76 @@
+{
+  "checked_on": "2026-10-14",
+  "sources": [
+    {
+      "id": "manufacturer",
+      "url": "https://www.nvent.com/en-us/ERIFLEX/products/EFSUD-80A",
+      "type": "manufacturer",
+      "support": "exact attributes, photos, manual andCADdownloadmodule read from archivedpublicHTML"
+    },
+    {
+      "id": "manual",
+      "url": "https://nvent.widen.net/content/vhxyvvgeqg/original/ip7802.pdf",
+      "type": "manufacturer_instruction",
+      "support": "IP7802_M IEC/UL tables andSCCRcondition"
+    },
+    {
+      "id": "datasheet2023",
+      "url": "https://docs.rs-online.com/e8ac/A700000010539200.pdf",
+      "type": "manufacturer_document_via_distributor",
+      "support": "FR2023threepages; cotes/derating/ranges"
+    },
+    {
+      "id": "spec2022",
+      "url": "https://nvent.widen.net/content/ngmdxkxgcd/original/pi-ud_blocks_specs.pdf",
+      "type": "manufacturer_family_specification",
+      "support": "revision2022-11-15; material/ambientcontexts"
+    },
+    {
+      "id": "CAD",
+      "url": "https://noproxy-download.nvent.com/api/traceparts/download?part_number=UD-80A&format=19&brand=ERIFLEX",
+      "type": "manufacturer_CAD_download",
+      "support": "zipE10106602.step intact; geometries reused forderivatives"
+    },
+    {
+      "id": "RSFrance",
+      "url": "https://fr.rs-online.com/web/p/blocs-de-distribution/2776180",
+      "type": "distributor_offer",
+      "support": "17.61HT/21.13TTC; stockannounced; deliverynotincluded"
+    },
+    {
+      "id": "Amazon",
+      "url": "https://www.amazon.fr/s?k=Eriflex+UD-80A+569010",
+      "type": "marketplace_search",
+      "support": "noexactofferorASINverified"
+    },
+    {
+      "id": "forum",
+      "url": "https://www.plctalk.net/forums/threads/sccr-in-the-feeder.125932/",
+      "type": "first_hand_user_forum",
+      "support": "rupej2020-08-11#8 usesUD80A; jraef#9 refersinstruction; noRCtest"
+    },
+    {
+      "id": "reviewexcluded",
+      "url": "https://www.iconopower.com/Single_Pole_Distribution_Block_p/569010.htm",
+      "type": "merchant",
+      "support": "admin test3 reviewexcluded;17.15USDforeignreference"
+    },
+    {
+      "id": "historicalFR",
+      "url": "https://res.cloudinary.com/sonepar-fr/raw/upload/s--hVva9jzD--/v1/documents/3058/569010_FICHE.pdf",
+      "type": "manufacturer_document_via_distributor",
+      "support": "2020two-page reference,70g andderating"
+    },
+    {
+      "id": "RSphoto",
+      "url": "https://media.rs-online.com/f_auto%2Cq_auto%2Cbo_1.5px_solid_white%2Cb_auto%2Cc_pad%2Cdpr_2%2Ch_399%2Cw_710/c_pad%2Ch_399%2Cw_710/Y2776180-01?pgw=1",
+      "type": "merchant_photo",
+      "support": "historicalERICO690Vmark; notlatestfactory marking"
+    }
+  ],
+  "native_vendor_step_obtained": true,
+  "manufacturer_contacted": false,
+  "hardware_measured": false,
+  "exact_youtube_test_found": false,
+  "amazon_fr_offer_verified": false
+}

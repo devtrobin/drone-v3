@@ -1,0 +1,94 @@
+{
+  "hardware_tested": false,
+  "continuous_rotation_swept_envelope_checked": true,
+  "clearance_cases": [
+    {
+      "axle_height": 18,
+      "sensor_flat_face_gap": 2.5,
+      "rotor_swept_overlap_mm3": 0.0,
+      "shaft_overlap_mm3": 0.0
+    },
+    {
+      "axle_height": 18,
+      "sensor_flat_face_gap": 3.5,
+      "rotor_swept_overlap_mm3": 0.0,
+      "shaft_overlap_mm3": 0.0
+    },
+    {
+      "axle_height": 24,
+      "sensor_flat_face_gap": 2.5,
+      "rotor_swept_overlap_mm3": 0.0,
+      "shaft_overlap_mm3": 0.0
+    },
+    {
+      "axle_height": 24,
+      "sensor_flat_face_gap": 3.5,
+      "rotor_swept_overlap_mm3": 0.0,
+      "shaft_overlap_mm3": 0.0
+    },
+    {
+      "axle_height": 30,
+      "sensor_flat_face_gap": 2.5,
+      "rotor_swept_overlap_mm3": 0.0,
+      "shaft_overlap_mm3": 0.0
+    },
+    {
+      "axle_height": 30,
+      "sensor_flat_face_gap": 3.5,
+      "rotor_swept_overlap_mm3": 0.0,
+      "shaft_overlap_mm3": 0.0
+    }
+  ],
+  "magnet_loading": [
+    {
+      "diameter": 2.9,
+      "thickness": 1.9,
+      "radial_loading_positions": [
+        0,
+        3,
+        6,
+        9,
+        12
+      ],
+      "all_fit": true
+    },
+    {
+      "diameter": 3,
+      "thickness": 2,
+      "radial_loading_positions": [
+        0,
+        3,
+        6,
+        9,
+        12
+      ],
+      "all_fit": true
+    },
+    {
+      "diameter": 3.1,
+      "thickness": 2.1,
+      "radial_loading_positions": [
+        0,
+        3,
+        6,
+        9,
+        12
+      ],
+      "all_fit": true
+    }
+  ],
+  "magnet_front_wall_mm": 0.6,
+  "magnet_radial_outer_wall_min_mm": 2.3499999999999996,
+  "magnet_channel_to_clamp_drill_min_mm": 0.8500000000000001,
+  "bore_diameter_mm": 5.1,
+  "assumed_shaft_diameter_mm": 5,
+  "diametral_bore_clearance_mm": 0.1,
+  "retention": "Magnets load from bore; full-length shaft blocks entry after mounting. Adhesive locates magnets, not sole ejection barrier. Rotor axial restraint and clamp endurance remain to qualify.",
+  "nominal_wheel_rpm": 3368.358583955457,
+  "pulses_per_revolution": 2,
+  "frequency_at40_hz": 112.27861946518189,
+  "magnet_force_at40_N": 0.1642357903380831,
+  "magnetic_detection_validated": false,
+  "structural_strength_validated": false,
+  "shaft_height_is_relative_to_mounting_plane_not_ground": true
+}

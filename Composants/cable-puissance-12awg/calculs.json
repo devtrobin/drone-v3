@@ -1,0 +1,101 @@
+{
+  "checked_on": "2026-10-14",
+  "hardware_tested": false,
+  "resistance_published_ohm_per_km": 5.06,
+  "resistance_reference_temperature_C": null,
+  "resistance_is_guaranteed_maximum": false,
+  "source_image": "photos/BNTECHGO-original-2.jpg",
+  "nominal_AWG_area_mm2": 3.31,
+  "commercial_area_mm2": 3.4,
+  "strand_disk_sum_mm2": 3.418052807105695,
+  "copper_resistivity_example_20C_ohm_mm2_per_m": 0.0175,
+  "pure_copper_nominal_estimate_ohm_per_m": 0.005287009063444109,
+  "loop_examples": [
+    {
+      "one_way_length_m": 0.1,
+      "current_A": 10,
+      "loop_resistance_ohm": 0.001012,
+      "drop_V": 0.01012,
+      "loss_per_branch_W": 0.10120000000000001,
+      "loss_two_equal_branches_W": 0.20240000000000002
+    },
+    {
+      "one_way_length_m": 0.1,
+      "current_A": 20,
+      "loop_resistance_ohm": 0.001012,
+      "drop_V": 0.02024,
+      "loss_per_branch_W": 0.40480000000000005,
+      "loss_two_equal_branches_W": 0.8096000000000001
+    },
+    {
+      "one_way_length_m": 0.1,
+      "current_A": 30,
+      "loop_resistance_ohm": 0.001012,
+      "drop_V": 0.03036,
+      "loss_per_branch_W": 0.9108,
+      "loss_two_equal_branches_W": 1.8216
+    },
+    {
+      "one_way_length_m": 0.2,
+      "current_A": 10,
+      "loop_resistance_ohm": 0.002024,
+      "drop_V": 0.02024,
+      "loss_per_branch_W": 0.20240000000000002,
+      "loss_two_equal_branches_W": 0.40480000000000005
+    },
+    {
+      "one_way_length_m": 0.2,
+      "current_A": 20,
+      "loop_resistance_ohm": 0.002024,
+      "drop_V": 0.04048,
+      "loss_per_branch_W": 0.8096000000000001,
+      "loss_two_equal_branches_W": 1.6192000000000002
+    },
+    {
+      "one_way_length_m": 0.2,
+      "current_A": 30,
+      "loop_resistance_ohm": 0.002024,
+      "drop_V": 0.06072,
+      "loss_per_branch_W": 1.8216,
+      "loss_two_equal_branches_W": 3.6432
+    },
+    {
+      "one_way_length_m": 0.4,
+      "current_A": 10,
+      "loop_resistance_ohm": 0.004048,
+      "drop_V": 0.04048,
+      "loss_per_branch_W": 0.40480000000000005,
+      "loss_two_equal_branches_W": 0.8096000000000001
+    },
+    {
+      "one_way_length_m": 0.4,
+      "current_A": 20,
+      "loop_resistance_ohm": 0.004048,
+      "drop_V": 0.08096,
+      "loss_per_branch_W": 1.6192000000000002,
+      "loss_two_equal_branches_W": 3.2384000000000004
+    },
+    {
+      "one_way_length_m": 0.4,
+      "current_A": 30,
+      "loop_resistance_ohm": 0.004048,
+      "drop_V": 0.12144,
+      "loss_per_branch_W": 3.6432,
+      "loss_two_equal_branches_W": 7.2864
+    }
+  ],
+  "excludes": [
+    "holder wires",
+    "ESC16AWG",
+    "contacts",
+    "splices",
+    "warming",
+    "lay and plating tolerance"
+  ],
+  "scenario_individual_current_A": 20,
+  "current_limit_enforced": false,
+  "cable_ampacity_V3_qualified": false,
+  "fault_energy_qualified": false,
+  "XT60H_cap_fit_verified": false,
+  "proposed_lengths_are_not_cut_list": true
+}

@@ -1,0 +1,66 @@
+{
+  "generated_on": "2026-10-15",
+  "tool": "built-in image_gen",
+  "image_count": 5,
+  "concepts_not_validated_CAD": true,
+  "images": [
+    {
+      "concept": "A",
+      "file": "a-plateau-ouvert.png",
+      "bytes": 2543177,
+      "pixels": [
+        1536,
+        1024
+      ],
+      "sha256": "e19d8cbbe4a727a4e797d7ded679fa8f6435e8bab57c531799a99cc4ebc8103f",
+      "visually_reviewed": true
+    },
+    {
+      "concept": "B",
+      "file": "b-poutre-centrale.png",
+      "bytes": 2376385,
+      "pixels": [
+        1536,
+        1024
+      ],
+      "sha256": "0aa61a81f57ec2dd09e2330c1bfcc3763dc97221484be336da7cdb3e583270f7",
+      "visually_reviewed": true
+    },
+    {
+      "concept": "C",
+      "file": "c-bac-deux-niveaux.png",
+      "bytes": 2574567,
+      "pixels": [
+        1536,
+        1024
+      ],
+      "sha256": "4bbc7aa6327d3d28c7521e35a47939da3bfbe699fe416f76058767c447be6636",
+      "visually_reviewed": true
+    },
+    {
+      "concept": "D",
+      "file": "d-cadre-modulaire.png",
+      "bytes": 2578875,
+      "pixels": [
+        1536,
+        1024
+      ],
+      "sha256": "3b1c97a3c768fc80da7f96f25b7ac1e29544f00a20eb115e01b5cac3447c28f4",
+      "visually_reviewed": true
+    },
+    {
+      "concept": "A2",
+      "file": "a2-plateau-ouvert-camera-arriere.png",
+      "bytes": 2391367,
+      "pixels": [
+        1536,
+        1024
+      ],
+      "sha256": "15e8ade2791929cb9ff615b2a3cff52d5e792a33972a4adcb67559a9a87b709b",
+      "visually_reviewed": true,
+      "edit_of": "a-plateau-ouvert.png",
+      "prompt": "a2-camera-arriere-prompt.json"
+    }
+  ],
+  "original_concept_count": 4
+}

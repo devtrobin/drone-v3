@@ -1,0 +1,730 @@
+{
+  "generated_on": "2026-10-14",
+  "models": [
+    {
+      "file": "jr-boitier.step",
+      "title": "JR | boîtier intérieur",
+      "generated_on": "2026-10-14",
+      "unit": "mm",
+      "cadquery_version": "2.8.0",
+      "coordinate_system": "Axe principal Z; face de reference z=0; dimensions selon parametres",
+      "bytes": 210813,
+      "sha256": "e4c83b340ce17df471b3b4f6105459a920542ca35b564087abbdd527a2d20180",
+      "native_vendor_cad": false,
+      "hardware_measured": false,
+      "is_custom_project_design": false,
+      "published_nominal": [
+        "PlansPololu : boîtier14x7.90/7.70x2.75/2.65 ; capot18x10.30x4 ; pas2.54 mm."
+      ],
+      "estimates_and_limitations": [
+        "Contact, crimp, languettes et chanfreins fins reconstruits ; longueurs courtes du câblage illustratives.",
+        "Nuances optiques estimées ; géométrie non mesurée. Pas de plan de fabrication ni de qualification mécanique/électrique."
+      ],
+      "parameters": {
+        "pitch_mm": 2.54
+      },
+      "source_pages": [
+        "Voir sources.json et cotes.md du composant / ensemble"
+      ],
+      "bounds_mm": {
+        "xmin": -3.95,
+        "xmax": 3.95,
+        "ymin": -1.38,
+        "ymax": 1.375,
+        "zmin": 0.0,
+        "zmax": 14.0
+      },
+      "validation": {
+        "valid_after_reimport": true,
+        "solids": 1,
+        "faces": 58,
+        "colors": 1,
+        "volume_relative_error": 1.32303855703458e-16,
+        "volume_relative_error_limit": 0.0001,
+        "volume_before_mm3": 214.82147499999996,
+        "volume_after_mm3": 214.821475,
+        "adaptive_volume_tolerance": 1e-09,
+        "bbox_error_mm": 2.220446049250313e-16,
+        "bbox_error_limit_mm": 0.01,
+        "void_and_material_probes": [],
+        "elapsed_seconds": 0.6518387000032817,
+        "volume_after_default_quadrature_mm3": 214.82147499999996
+      },
+      "parts": [
+        {
+          "name": "Piece_jr-boitier",
+          "color_linear_rgb": [
+            0.018,
+            0.021,
+            0.025
+          ],
+          "solids": 1
+        }
+      ],
+      "preview": {
+        "file": "jr-boitier.png",
+        "sha256": "81b586e8c7c703cbf6c766be98e2826c6992d14ed241a09469d8a572a89dc46f"
+      },
+      "component_folder": "connecteurs-commande/jr-pololu-1925",
+      "relative_step_path": "connecteurs-commande/jr-pololu-1925/3D/jr-boitier.step"
+    },
+    {
+      "file": "jr-capot.step",
+      "title": "JR | capot extérieur",
+      "generated_on": "2026-10-14",
+      "unit": "mm",
+      "cadquery_version": "2.8.0",
+      "coordinate_system": "Axe principal Z; face de reference z=0; dimensions selon parametres",
+      "bytes": 63223,
+      "sha256": "4b938d9264c53ca7c8ee3aa412ec826c0ff6523205aab75564db4419456098f3",
+      "native_vendor_cad": false,
+      "hardware_measured": false,
+      "is_custom_project_design": false,
+      "published_nominal": [
+        "PlansPololu : boîtier14x7.90/7.70x2.75/2.65 ; capot18x10.30x4 ; pas2.54 mm."
+      ],
+      "estimates_and_limitations": [
+        "Contact, crimp, languettes et chanfreins fins reconstruits ; longueurs courtes du câblage illustratives.",
+        "Nuances optiques estimées ; géométrie non mesurée. Pas de plan de fabrication ni de qualification mécanique/électrique."
+      ],
+      "parameters": {
+        "pitch_mm": 2.54
+      },
+      "source_pages": [
+        "Voir sources.json et cotes.md du composant / ensemble"
+      ],
+      "bounds_mm": {
+        "xmin": -5.15,
+        "xmax": 5.15,
+        "ymin": -2.0,
+        "ymax": 2.0,
+        "zmin": 0.0,
+        "zmax": 18.0
+      },
+      "validation": {
+        "valid_after_reimport": true,
+        "solids": 1,
+        "faces": 18,
+        "colors": 1,
+        "volume_relative_error": 1.354583866376878e-15,
+        "volume_relative_error_limit": 0.0001,
+        "volume_before_mm3": 335.7100008158095,
+        "volume_after_mm3": 335.71000081580996,
+        "adaptive_volume_tolerance": 1e-09,
+        "bbox_error_mm": 0.0,
+        "bbox_error_limit_mm": 0.01,
+        "void_and_material_probes": [],
+        "elapsed_seconds": 0.1423203000013018,
+        "volume_after_default_quadrature_mm3": 335.710000815811
+      },
+      "parts": [
+        {
+          "name": "Piece_jr-capot",
+          "color_linear_rgb": [
+            0.018,
+            0.021,
+            0.025
+          ],
+          "solids": 1
+        }
+      ],
+      "preview": {
+        "file": "jr-capot.png",
+        "sha256": "571c72f12722a9cd404776ddf9a0daaf12e1a29c5f447d62833787a850ad5fb6"
+      },
+      "component_folder": "connecteurs-commande/jr-pololu-1925",
+      "relative_step_path": "connecteurs-commande/jr-pololu-1925/3D/jr-capot.step"
+    },
+    {
+      "file": "jr-complet-3contacts.step",
+      "title": "JR | connecteur complet3contacts",
+      "generated_on": "2026-10-14",
+      "unit": "mm",
+      "cadquery_version": "2.8.0",
+      "coordinate_system": "Axe principal Z; face de reference z=0; dimensions selon parametres",
+      "bytes": 932498,
+      "sha256": "3ddd6d75d07aa76fd45d2081322edcc0e6bf30b2da6bf0c277d9b10a85c95a51",
+      "native_vendor_cad": false,
+      "hardware_measured": false,
+      "is_custom_project_design": false,
+      "published_nominal": [
+        "PlansPololu : boîtier14x7.90/7.70x2.75/2.65 ; capot18x10.30x4 ; pas2.54 mm."
+      ],
+      "estimates_and_limitations": [
+        "Contact, crimp, languettes et chanfreins fins reconstruits ; longueurs courtes du câblage illustratives.",
+        "Nuances optiques estimées ; géométrie non mesurée. Pas de plan de fabrication ni de qualification mécanique/électrique."
+      ],
+      "parameters": {},
+      "source_pages": [
+        "Voir sources.json et cotes.md du composant / ensemble"
+      ],
+      "bounds_mm": {
+        "xmin": -5.15,
+        "xmax": 5.15,
+        "ymin": -2.0,
+        "ymax": 2.0,
+        "zmin": 0.0,
+        "zmax": 21.4
+      },
+      "validation": {
+        "valid_after_reimport": true,
+        "solids": 5,
+        "faces": 259,
+        "colors": 2,
+        "volume_relative_error": 6.809787490914391e-15,
+        "volume_relative_error_limit": 0.0001,
+        "volume_before_mm3": 567.6171962329357,
+        "volume_after_mm3": 567.6171962329396,
+        "adaptive_volume_tolerance": 1e-09,
+        "bbox_error_mm": 3.552713678800501e-15,
+        "bbox_error_limit_mm": 0.01,
+        "void_and_material_probes": [],
+        "elapsed_seconds": 2.1633972999989055,
+        "volume_after_default_quadrature_mm3": 567.6171962329407
+      },
+      "parts": [
+        {
+          "name": "Piece_capot",
+          "color_linear_rgb": [
+            0.018,
+            0.021,
+            0.025
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_boitier",
+          "color_linear_rgb": [
+            0.018,
+            0.021,
+            0.025
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_contact_1",
+          "color_linear_rgb": [
+            0.72,
+            0.46,
+            0.12
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_contact_2",
+          "color_linear_rgb": [
+            0.72,
+            0.46,
+            0.12
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_contact_3",
+          "color_linear_rgb": [
+            0.72,
+            0.46,
+            0.12
+          ],
+          "solids": 1
+        }
+      ],
+      "preview": {
+        "file": "jr-complet-3contacts.png",
+        "sha256": "abf714c22d8b5da98cdd6f58d5ddda41576a4198b680a8cfd6b9bedc93a003d6"
+      },
+      "component_folder": "connecteurs-commande/jr-pololu-1925",
+      "relative_step_path": "connecteurs-commande/jr-pololu-1925/3D/jr-complet-3contacts.step"
+    },
+    {
+      "file": "jr-contact-male.step",
+      "title": "JR | contact mâle à sertir",
+      "generated_on": "2026-10-14",
+      "unit": "mm",
+      "cadquery_version": "2.8.0",
+      "coordinate_system": "Axe principal Z; face de reference z=0; dimensions selon parametres",
+      "bytes": 225282,
+      "sha256": "14108da3c0aa2c26232e9f0f43cbf4f2987313fdd1af559688d43d541f2cdd9a",
+      "native_vendor_cad": false,
+      "hardware_measured": false,
+      "is_custom_project_design": false,
+      "published_nominal": [
+        "PlansPololu : boîtier14x7.90/7.70x2.75/2.65 ; capot18x10.30x4 ; pas2.54 mm."
+      ],
+      "estimates_and_limitations": [
+        "Contact, crimp, languettes et chanfreins fins reconstruits ; longueurs courtes du câblage illustratives.",
+        "Nuances optiques estimées ; géométrie non mesurée. Pas de plan de fabrication ni de qualification mécanique/électrique."
+      ],
+      "parameters": {
+        "pitch_mm": 2.54
+      },
+      "source_pages": [
+        "Voir sources.json et cotes.md du composant / ensemble"
+      ],
+      "bounds_mm": {
+        "xmin": -0.85,
+        "xmax": 0.85,
+        "ymin": -0.855,
+        "ymax": 0.8440971508070001,
+        "zmin": 1.0,
+        "zmax": 17.6
+      },
+      "validation": {
+        "valid_after_reimport": true,
+        "solids": 1,
+        "faces": 61,
+        "colors": 1,
+        "volume_relative_error": 1.851138421638824e-13,
+        "volume_relative_error_limit": 0.0001,
+        "volume_before_mm3": 5.6952401390421095,
+        "volume_after_mm3": 5.695240139043164,
+        "adaptive_volume_tolerance": 1e-09,
+        "bbox_error_mm": 2.935429677108914e-13,
+        "bbox_error_limit_mm": 0.01,
+        "void_and_material_probes": [],
+        "elapsed_seconds": 0.8932486000048812,
+        "volume_after_default_quadrature_mm3": 5.695240139043252
+      },
+      "parts": [
+        {
+          "name": "Piece_jr-contact-male",
+          "color_linear_rgb": [
+            0.72,
+            0.46,
+            0.12
+          ],
+          "solids": 1
+        }
+      ],
+      "preview": {
+        "file": "jr-contact-male.png",
+        "sha256": "9297a8c054e24ba45c736e2caad0d7766d2eafbf42d0d9f68f7636c45f23d7ed"
+      },
+      "component_folder": "connecteurs-commande/jr-pololu-1925",
+      "relative_step_path": "connecteurs-commande/jr-pololu-1925/3D/jr-contact-male.step"
+    },
+    {
+      "file": "jr-esc-droit-2contacts.step",
+      "title": "JR | ESC droit, BEC absent",
+      "generated_on": "2026-10-14",
+      "unit": "mm",
+      "cadquery_version": "2.8.0",
+      "coordinate_system": "Axe principal Z; face de reference z=0; dimensions selon parametres",
+      "bytes": 706957,
+      "sha256": "bc04c90fc7544709f5115847e4a5899f57a3f9e7dcaa5d6a4b0b0ba91d641bbc",
+      "native_vendor_cad": false,
+      "hardware_measured": false,
+      "is_custom_project_design": false,
+      "published_nominal": [
+        "PlansPololu : boîtier14x7.90/7.70x2.75/2.65 ; capot18x10.30x4 ; pas2.54 mm."
+      ],
+      "estimates_and_limitations": [
+        "Contact, crimp, languettes et chanfreins fins reconstruits ; longueurs courtes du câblage illustratives.",
+        "Cavité centrale réellement sans métal côté faisceauPi.",
+        "Nuances optiques estimées ; géométrie non mesurée. Pas de plan de fabrication ni de qualification mécanique/électrique."
+      ],
+      "parameters": {},
+      "source_pages": [
+        "Voir sources.json et cotes.md du composant / ensemble"
+      ],
+      "bounds_mm": {
+        "xmin": -5.15,
+        "xmax": 5.15,
+        "ymin": -2.0,
+        "ymax": 2.0,
+        "zmin": 0.0,
+        "zmax": 21.4
+      },
+      "validation": {
+        "valid_after_reimport": true,
+        "solids": 4,
+        "faces": 198,
+        "colors": 2,
+        "volume_relative_error": 3.03476763513276e-15,
+        "volume_relative_error_limit": 0.0001,
+        "volume_before_mm3": 561.9219560938938,
+        "volume_after_mm3": 561.9219560938955,
+        "adaptive_volume_tolerance": 1e-09,
+        "bbox_error_mm": 3.552713678800501e-15,
+        "bbox_error_limit_mm": 0.01,
+        "void_and_material_probes": [],
+        "elapsed_seconds": 1.3787972999998601,
+        "volume_after_default_quadrature_mm3": 561.9219560938969
+      },
+      "parts": [
+        {
+          "name": "Piece_capot",
+          "color_linear_rgb": [
+            0.018,
+            0.021,
+            0.025
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_boitier",
+          "color_linear_rgb": [
+            0.018,
+            0.021,
+            0.025
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_contact_1",
+          "color_linear_rgb": [
+            0.72,
+            0.46,
+            0.12
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_contact_3",
+          "color_linear_rgb": [
+            0.72,
+            0.46,
+            0.12
+          ],
+          "solids": 1
+        }
+      ],
+      "preview": {
+        "file": "jr-esc-droit-2contacts.png",
+        "sha256": "ace32656e996a872f34b13101d5ec8baea5af4e7f4f2ca992cd6b32f50cf51a6"
+      },
+      "component_folder": "connecteurs-commande/jr-pololu-1925",
+      "relative_step_path": "connecteurs-commande/jr-pololu-1925/3D/jr-esc-droit-2contacts.step"
+    },
+    {
+      "file": "trois-commandes-terminaisons-etude.step",
+      "title": "Commandes | trois prises séparées",
+      "generated_on": "2026-10-14",
+      "unit": "mm",
+      "cadquery_version": "2.8.0",
+      "coordinate_system": "Axe principal Z; face de reference z=0; dimensions selon parametres",
+      "bytes": 3033294,
+      "sha256": "9fb83d8dd195af36486a8556fb60aa084491d22e494234758aa48403249e17a0",
+      "native_vendor_cad": false,
+      "hardware_measured": false,
+      "is_custom_project_design": true,
+      "published_nominal": [
+        "PlansPololu : boîtier14x7.90/7.70x2.75/2.65 ; capot18x10.30x4 ; pas2.54 mm."
+      ],
+      "estimates_and_limitations": [
+        "Contact, crimp, languettes et chanfreins fins reconstruits ; longueurs courtes du câblage illustratives.",
+        "Pose éclatée des prises, queuescourtes ; raccordements aux bornes etGPIO décritsdans integration.md, pas reliésvisuellement ici.",
+        "Nuances optiques estimées ; géométrie non mesurée. Pas de plan de fabrication ni de qualification mécanique/électrique."
+      ],
+      "parameters": {
+        "installed_contacts": 8,
+        "unused_in_12_contact_pack": 4
+      },
+      "source_pages": [
+        "Voir sources.json et cotes.md du composant / ensemble"
+      ],
+      "bounds_mm": {
+        "xmin": -23.150000000000002,
+        "xmax": 23.150000000000002,
+        "ymin": -2.0,
+        "ymax": 9.750000100000012,
+        "zmin": 0.0,
+        "zmax": 54.000000100000214
+      },
+      "validation": {
+        "valid_after_reimport": true,
+        "solids": 30,
+        "faces": 772,
+        "colors": 5,
+        "volume_relative_error": 1.3694152371581714e-13,
+        "volume_relative_error_limit": 0.0001,
+        "volume_before_mm3": 2185.047666800075,
+        "volume_after_mm3": 2185.047666799776,
+        "adaptive_volume_tolerance": 1e-09,
+        "bbox_error_mm": 9.237055564881302e-14,
+        "bbox_error_limit_mm": 0.01,
+        "void_and_material_probes": [],
+        "elapsed_seconds": 8.832343499998387,
+        "volume_after_default_quadrature_mm3": 2185.0476668243186
+      },
+      "parts": [
+        {
+          "name": "Piece_ESC_gauche_capot",
+          "color_linear_rgb": [
+            0.018,
+            0.021,
+            0.025
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_ESC_gauche_boitier",
+          "color_linear_rgb": [
+            0.018,
+            0.021,
+            0.025
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_ESC_gauche_contact_1",
+          "color_linear_rgb": [
+            0.72,
+            0.46,
+            0.12
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_ESC_gauche_contact_2",
+          "color_linear_rgb": [
+            0.72,
+            0.46,
+            0.12
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_ESC_gauche_contact_3",
+          "color_linear_rgb": [
+            0.72,
+            0.46,
+            0.12
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_ESC_gauche_fil1_ame_equivalente",
+          "color_linear_rgb": [
+            0.58,
+            0.25,
+            0.1
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_ESC_gauche_fil1_gaine",
+          "color_linear_rgb": [
+            0.018,
+            0.021,
+            0.025
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_ESC_gauche_fil2_ame_equivalente",
+          "color_linear_rgb": [
+            0.58,
+            0.25,
+            0.1
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_ESC_gauche_fil2_gaine",
+          "color_linear_rgb": [
+            0.7,
+            0.008,
+            0.009
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_ESC_gauche_fil3_ame_equivalente",
+          "color_linear_rgb": [
+            0.58,
+            0.25,
+            0.1
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_ESC_gauche_fil3_gaine",
+          "color_linear_rgb": [
+            0.66,
+            0.85,
+            0.016
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_Servo_capot",
+          "color_linear_rgb": [
+            0.018,
+            0.021,
+            0.025
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_Servo_boitier",
+          "color_linear_rgb": [
+            0.018,
+            0.021,
+            0.025
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_Servo_contact_1",
+          "color_linear_rgb": [
+            0.72,
+            0.46,
+            0.12
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_Servo_contact_2",
+          "color_linear_rgb": [
+            0.72,
+            0.46,
+            0.12
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_Servo_contact_3",
+          "color_linear_rgb": [
+            0.72,
+            0.46,
+            0.12
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_Servo_fil1_ame_equivalente",
+          "color_linear_rgb": [
+            0.58,
+            0.25,
+            0.1
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_Servo_fil1_gaine",
+          "color_linear_rgb": [
+            0.018,
+            0.021,
+            0.025
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_Servo_fil2_ame_equivalente",
+          "color_linear_rgb": [
+            0.58,
+            0.25,
+            0.1
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_Servo_fil2_gaine",
+          "color_linear_rgb": [
+            0.7,
+            0.008,
+            0.009
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_Servo_fil3_ame_equivalente",
+          "color_linear_rgb": [
+            0.58,
+            0.25,
+            0.1
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_Servo_fil3_gaine",
+          "color_linear_rgb": [
+            0.66,
+            0.85,
+            0.016
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_ESC_droit_capot",
+          "color_linear_rgb": [
+            0.018,
+            0.021,
+            0.025
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_ESC_droit_boitier",
+          "color_linear_rgb": [
+            0.018,
+            0.021,
+            0.025
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_ESC_droit_contact_1",
+          "color_linear_rgb": [
+            0.72,
+            0.46,
+            0.12
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_ESC_droit_contact_3",
+          "color_linear_rgb": [
+            0.72,
+            0.46,
+            0.12
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_ESC_droit_fil1_ame_equivalente",
+          "color_linear_rgb": [
+            0.58,
+            0.25,
+            0.1
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_ESC_droit_fil1_gaine",
+          "color_linear_rgb": [
+            0.018,
+            0.021,
+            0.025
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_ESC_droit_fil3_ame_equivalente",
+          "color_linear_rgb": [
+            0.58,
+            0.25,
+            0.1
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_ESC_droit_fil3_gaine",
+          "color_linear_rgb": [
+            0.66,
+            0.85,
+            0.016
+          ],
+          "solids": 1
+        }
+      ],
+      "preview": {
+        "file": "trois-commandes-terminaisons-etude.png",
+        "sha256": "d825e69e30f9d1848fcd4953b8c7a63d27a3481309bbf971bf36d63a90365eb9"
+      },
+      "component_folder": "connecteurs-commande/jr-pololu-1925",
+      "relative_step_path": "connecteurs-commande/jr-pololu-1925/3D/trois-commandes-terminaisons-etude.step"
+    }
+  ]
+}

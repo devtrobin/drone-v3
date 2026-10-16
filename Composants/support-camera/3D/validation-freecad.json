@@ -1,0 +1,62 @@
+{
+  "all_passed": true,
+  "FreeCAD_version": [
+    "1",
+    "1",
+    "4",
+    "20260928 (Git shallow)",
+    "Unknown",
+    "2026/09/28 13:46:34",
+    "(HEAD detached at 4fd3bf320)",
+    "4fd3bf320d9566a27e60069fc8387448aaa3a094"
+  ],
+  "models": [
+    {
+      "file": "support-camera-provisoire-p1.step",
+      "sha256": "3df487b1ad1c50bdb06183160c874a28cd347171c382c08004995af81cf43daf",
+      "passed": true,
+      "solids": 25,
+      "bounds_mm": {
+        "xmin": -45.0,
+        "xmax": 35.0,
+        "ymin": -35.0,
+        "ymax": 35.0,
+        "zmin": 0.0,
+        "zmax": 247.68292504874
+      },
+      "max_bbox_error_mm": 0.0
+    },
+    {
+      "file": "berceau-camera-provisoire-p1.step",
+      "sha256": "636fb0ae57eec109a9b27a5304fe5fba94e1cd6d8247f51870bb3c60b62c2bb3",
+      "passed": true,
+      "solids": 1,
+      "bounds_mm": {
+        "xmin": -31.0,
+        "xmax": 24.0,
+        "ymin": -9.0,
+        "ymax": 15.0,
+        "zmin": -24.0,
+        "zmax": 24.0
+      },
+      "max_bbox_error_mm": 0.0
+    },
+    {
+      "file": "pieces-support-camera-p1.step",
+      "sha256": "e1d3e6581c1a06efd5a4a0bb99d852f934630acc33a3ab417d3af5914a02a6c1",
+      "passed": true,
+      "solids": 4,
+      "bounds_mm": {
+        "xmin": -45.0,
+        "xmax": 35.0,
+        "ymin": -35.0,
+        "ymax": 35.0,
+        "zmin": 0.0,
+        "zmax": 247.68292504874
+      },
+      "max_bbox_error_mm": 0.0
+    }
+  ],
+  "hardware_tested": false,
+  "GUI_test": false
+}

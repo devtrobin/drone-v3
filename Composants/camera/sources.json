@@ -19,15 +19,204 @@
   "checked_on": "2026-10-12",
   "procurement_state": "non acheté",
   "purchase_decision": "retenue pour étude V3 sous réserve de contrôle du mode réel 1080p60",
-  "verification_method": "Page Amazon.fr consultée directement dans Chrome et notice officielle téléchargée puis tableau des modes lu",
-  "target_mode": {"width": 1920, "height": 1080, "fps": 60, "format": "MJPEG", "evidence": "Annonce Amazon et tableau page 4 de la notice constructeur", "measured": false},
+  "verification_method": "Page Amazon.fr consultée directement dans Chrome et notice officielle téléchargée puis tableau des modes lu ; recherche forums/YouTube et lecture directe de trois avis du modèle exact",
+  "target_mode": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 60,
+    "format": "MJPEG",
+    "evidence": "Annonce Amazon et tableau page 4 de la notice constructeur",
+    "measured": false
+  },
   "interface": "USB 2.0 High-Speed UVC 1.0",
   "lot_contents_announced": "Module caméra et câble USB de 1 m ; réception à contrôler",
   "compatibility_note": "Raspberry Pi cité par Amazon ; Linux UVC dans la notice. USB hôte requis, adaptateur OTG pour Pi Zero. Capture et transmission Wi-Fi 1080p60 à valider séparément.",
-  "uncertainties": ["Notice page 3 : cadence générale 30 fps, contradictoire avec tableau détaillé 1080p60 MJPEG page 4", "Un avis Amazon rapporte des modes par défaut à 30 fps", "Autofocus ambigu ; ne pas le considérer acquis", "Consommation, masse, hauteur et entraxes non mesurés", "Débit, latence et cadence effective du retour Wi-Fi non validés"],
+  "uncertainties": [
+    "1080p60 réel non vérifié : notice p3 30 fps / p4 MJPEG 60 fps et avis rapportant des modes par défaut à 30 fps",
+    "HDR actif à 60 fps non établi",
+    "Autofocus non établi ; conception basée sur réglage manuel rapporté",
+    "Consommation réelle, masse, hauteur et entraxes inconnus",
+    "Référence et brochage du connecteur 5 broches inconnus",
+    "Distance minimale, profondeur de champ, filtre IR et température admissible du module non établis",
+    "Débit MJPEG, réglage de qualité, latence et portée Wi-Fi non mesurés",
+    "Aucun firmware correctif ou lien entre version et cadence établi"
+  ],
   "sources": [
-    {"type": "purchase", "url": "https://www.amazon.fr/dp/B0H36XDQY8", "checked_on": "2026-10-12"},
-    {"type": "manufacturer_repository", "url": "https://github.com/INNO-MAKER/U20CAM-4M", "checked_on": "2026-10-12"},
-    {"type": "manufacturer_manual", "url": "https://raw.githubusercontent.com/INNO-MAKER/U20CAM-4M/main/U20CAM-4M%20Usermanual.pdf", "local_file": "notices/U20CAM-4M-Usermanual.pdf", "version": "V1.0", "document_date": "2026-05-21", "checked_on": "2026-10-12", "relevant_pages": [2, 3, 4]}
-  ]
+    {
+      "type": "purchase",
+      "url": "https://www.amazon.fr/dp/B0H36XDQY8",
+      "checked_on": "2026-10-12"
+    },
+    {
+      "type": "manufacturer_repository",
+      "url": "https://github.com/INNO-MAKER/U20CAM-4M",
+      "checked_on": "2026-10-12"
+    },
+    {
+      "type": "manufacturer_manual",
+      "url": "https://raw.githubusercontent.com/INNO-MAKER/U20CAM-4M/main/U20CAM-4M%20Usermanual.pdf",
+      "local_file": "notices/U20CAM-4M-Usermanual.pdf",
+      "version": "V1.0",
+      "document_date": "2026-05-21",
+      "checked_on": "2026-10-12",
+      "relevant_pages": [
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "amazon-review-usb",
+      "type": "user_observation",
+      "url": "https://www.amazon.fr/gp/customer-reviews/R3TLNFYAXTGZ5K",
+      "checked_on": "2026-10-12",
+      "review_date": "2026-07-22",
+      "vine_free_product": true,
+      "technical_measurement_verified": false
+    },
+    {
+      "id": "amazon-review-focus",
+      "type": "user_observation",
+      "url": "https://www.amazon.fr/gp/customer-reviews/R18XXIYKPVDNYE",
+      "checked_on": "2026-10-12",
+      "review_date": "2026-07-24",
+      "vine_free_product": true,
+      "technical_measurement_verified": false
+    },
+    {
+      "id": "amazon-review-pi",
+      "type": "user_observation",
+      "url": "https://www.amazon.fr/gp/customer-reviews/RVYF7X6V5XRLS",
+      "checked_on": "2026-10-12",
+      "review_date": "2026-07-30",
+      "vine_free_product": true,
+      "technical_measurement_verified": false
+    },
+    {
+      "id": "manufacturer-uvc-software",
+      "type": "manufacturer_software_guide",
+      "url": "https://github.com/INNO-MAKER/UVC-Camera-Software",
+      "checked_on": "2026-10-12"
+    },
+    {
+      "id": "sensor-ov4688",
+      "type": "sensor_manufacturer",
+      "url": "https://www.ovt.com/products/ov4688/",
+      "checked_on": "2026-10-12"
+    },
+    {
+      "id": "manufacturer-issues",
+      "type": "manufacturer_issue_tracker",
+      "url": "https://github.com/INNO-MAKER/U20CAM-4M/issues",
+      "checked_on": "2026-10-12"
+    },
+    {
+      "id": "linux-frameintervals",
+      "type": "linux_documentation",
+      "url": "https://docs.kernel.org/userspace-api/media/v4l/vidioc-enum-frameintervals.html",
+      "checked_on": "2026-10-12"
+    },
+    {
+      "id": "linux-exposure",
+      "type": "linux_documentation",
+      "url": "https://docs.kernel.org/userspace-api/media/v4l/ext-ctrls-camera.html",
+      "checked_on": "2026-10-12"
+    },
+    {
+      "id": "ffmpeg-v4l2",
+      "type": "software_documentation",
+      "url": "https://ffmpeg.org/ffmpeg-devices.html#video4linux2_002c-v4l2",
+      "checked_on": "2026-10-12"
+    },
+    {
+      "id": "front-photo",
+      "type": "manufacturer_product_photo",
+      "url": "https://m.media-amazon.com/images/I/71wfRhjr-LL._AC_SL1500_.jpg",
+      "local_file": "photos/01-face-avant.jpg",
+      "checked_on": "2026-10-12"
+    },
+    {
+      "id": "lens-profile-photo",
+      "type": "manufacturer_product_photo",
+      "url": "https://m.media-amazon.com/images/I/71g1Kfe231L._AC_SL1500_.jpg",
+      "local_file": "photos/02-profil-objectif.jpg",
+      "checked_on": "2026-10-12"
+    },
+    {
+      "id": "dimension-photo",
+      "type": "manufacturer_product_photo",
+      "url": "https://m.media-amazon.com/images/I/71Svk-r6GPL._AC_SL1500_.jpg",
+      "local_file": "photos/03-gabarit-32mm.jpg",
+      "checked_on": "2026-10-12"
+    },
+    {
+      "id": "rear-user-photo",
+      "type": "user_product_photo",
+      "url": "https://m.media-amazon.com/images/I/71Lm0zAeXrL.jpg",
+      "local_file": "photos/04-verso-utilisateur.jpg",
+      "checked_on": "2026-10-12"
+    }
+  ],
+  "research_checked_on": "2026-10-12",
+  "research_file": "recherche-technique.md",
+  "clarifications": {
+    "focus": {
+      "value": "réglage manuel par rotation de l'objectif",
+      "status": "témoignages concordants ; autofocus non établi",
+      "source_ids": [
+        "amazon-review-focus",
+        "amazon-review-usb"
+      ]
+    },
+    "raspberry_pi": {
+      "value": "reconnaissance Linux et enregistrement Full HD avec FFmpeg rapportés",
+      "status": "témoignage ; modèle Pi et cadence non précisés",
+      "source_ids": [
+        "amazon-review-pi"
+      ]
+    },
+    "usb_power": {
+      "declared_current_ma": 500,
+      "measured_current_ma": null,
+      "measured_power_w": null,
+      "planning_reserve_w_at_5v": 2.5,
+      "status": "déclaration USB rapportée ; réserve de calcul non mesurée",
+      "source_ids": [
+        "amazon-review-usb"
+      ]
+    },
+    "cable": {
+      "host_connector": "USB-A",
+      "board_connector_pin_count": 5,
+      "board_connector_reference": null,
+      "pinout": null,
+      "status": "témoignage ; ne pas fabriquer un câble sans brochage confirmé",
+      "source_ids": [
+        "amazon-review-focus"
+      ]
+    },
+    "fps": {
+      "status": "1080p60 MJPEG annoncé ; cadence réelle et images uniques non validées",
+      "default_reported_fps": 30,
+      "hdr_at_60fps_confirmed": false,
+      "firmware_cause_established": false
+    },
+    "mechanical_missing": {
+      "mass_g": null,
+      "total_height_mm": null,
+      "mounting_hole_spacing_mm": null
+    },
+    "youtube_and_forums": {
+      "exact_model_measured_test_found": false,
+      "status": "aucun test attribuable au modèle exact identifié dans les recherches ; pas une preuve d'absence absolue"
+    }
+  },
+  "model_3d": {
+    "file": "3D/camera-u20cam-4m-detaillee.step",
+    "documentation": "3D/README.md",
+    "provenance": "3D/provenance.json",
+    "vendor_native_cad": false,
+    "hardware_measured": false,
+    "representation": "photo-informed coloured B-rep reconstruction; visible surface detail only"
+  }
 }

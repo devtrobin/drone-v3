@@ -1,0 +1,36 @@
+{
+  "example_only": true,
+  "measured_fan_current_A": null,
+  "rated_fan_current_claimed": false,
+  "supply_V": 5,
+  "current_examples": [
+    {
+      "fan_current_example_A": 0.05,
+      "fan_power_W": 0.25,
+      "energy20min_Wh": 0.08333333333333333,
+      "energy45min_Wh": 0.1875
+    },
+    {
+      "fan_current_example_A": 0.1,
+      "fan_power_W": 0.5,
+      "energy20min_Wh": 0.16666666666666666,
+      "energy45min_Wh": 0.375
+    },
+    {
+      "fan_current_example_A": 0.2,
+      "fan_power_W": 1.0,
+      "energy20min_Wh": 0.3333333333333333,
+      "energy45min_Wh": 0.75
+    },
+    {
+      "fan_current_example_A": 0.4,
+      "fan_power_W": 2.0,
+      "energy20min_Wh": 0.6666666666666666,
+      "energy45min_Wh": 1.5
+    }
+  ],
+  "USB_current_budget_shared": true,
+  "Pi_branch25W_study_already_includes_fan": true,
+  "autonomy_verified": false,
+  "airflow_m3_per_h_ideal_unit_conversion": 1.8519217671168002
+}

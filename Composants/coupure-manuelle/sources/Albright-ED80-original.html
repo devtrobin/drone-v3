@@ -1,0 +1,913 @@
+<!doctype html>
+<html lang="en-GB">
+  <head>
+  <meta charset="utf-8" />
+<script type="text/javascript">
+/* <![CDATA[ */
+
+//----------------------------------------------------------
+//------ JAVASCRIPT HOOK FUNCTIONS FOR GRAVITY FORMS -------
+//----------------------------------------------------------
+
+if ( ! gform ) {
+	document.addEventListener( 'gform_main_scripts_loaded', function() { gform.scriptsLoaded = true; } );
+	document.addEventListener( 'gform/theme/scripts_loaded', function() { gform.themeScriptsLoaded = true; } );
+	window.addEventListener( 'DOMContentLoaded', function() { gform.domLoaded = true; } );
+
+	var gform = {
+		domLoaded: false,
+		scriptsLoaded: false,
+		themeScriptsLoaded: false,
+		isFormEditor: () => typeof InitializeEditor === 'function',
+
+		/**
+		 * @deprecated 2.9 the use of initializeOnLoaded in the form editor context is deprecated.
+		 * @remove-in 4.0 this function will not check for gform.isFormEditor().
+		 */
+		callIfLoaded: function ( fn ) {
+			if ( gform.domLoaded && gform.scriptsLoaded && ( gform.themeScriptsLoaded || gform.isFormEditor() ) ) {
+				if ( gform.isFormEditor() ) {
+					console.warn( 'The use of gform.initializeOnLoaded() is deprecated in the form editor context and will be removed in Gravity Forms 3.1.' );
+				}
+				fn();
+				return true;
+			}
+			return false;
+		},
+
+		/**
+		 * Call a function when all scripts are loaded
+		 *
+		 * @param function fn the callback function to call when all scripts are loaded
+		 *
+		 * @returns void
+		 */
+		initializeOnLoaded: function( fn ) {
+			if ( ! gform.callIfLoaded( fn ) ) {
+				document.addEventListener( 'gform_main_scripts_loaded', () => { gform.scriptsLoaded = true; gform.callIfLoaded( fn ); } );
+				document.addEventListener( 'gform/theme/scripts_loaded', () => { gform.themeScriptsLoaded = true; gform.callIfLoaded( fn ); } );
+				window.addEventListener( 'DOMContentLoaded', () => { gform.domLoaded = true; gform.callIfLoaded( fn ); } );
+			}
+		},
+
+		hooks: { action: {}, filter: {} },
+		addAction: function( action, callable, priority, tag ) {
+			gform.addHook( 'action', action, callable, priority, tag );
+		},
+		addFilter: function( action, callable, priority, tag ) {
+			gform.addHook( 'filter', action, callable, priority, tag );
+		},
+		doAction: function( action ) {
+			gform.doHook( 'action', action, arguments );
+		},
+		applyFilters: function( action ) {
+			return gform.doHook( 'filter', action, arguments );
+		},
+		removeAction: function( action, tag ) {
+			gform.removeHook( 'action', action, tag );
+		},
+		removeFilter: function( action, priority, tag ) {
+			gform.removeHook( 'filter', action, priority, tag );
+		},
+		addHook: function( hookType, action, callable, priority, tag ) {
+			if ( undefined == gform.hooks[hookType][action] ) {
+				gform.hooks[hookType][action] = [];
+			}
+			var hooks = gform.hooks[hookType][action];
+			if ( undefined == tag ) {
+				tag = action + '_' + hooks.length;
+			}
+			if( priority == undefined ){
+				priority = 10;
+			}
+
+			gform.hooks[hookType][action].push( { tag:tag, callable:callable, priority:priority } );
+		},
+		doHook: function( hookType, action, args ) {
+
+			// splice args from object into array and remove first index which is the hook name
+			args = Array.prototype.slice.call(args, 1);
+
+			if ( undefined != gform.hooks[hookType][action] ) {
+				var hooks = gform.hooks[hookType][action], hook;
+				//sort by priority
+				hooks.sort(function(a,b){return a["priority"]-b["priority"]});
+
+				hooks.forEach( function( hookItem ) {
+					hook = hookItem.callable;
+
+					if(typeof hook != 'function')
+						hook = window[hook];
+					if ( 'action' == hookType ) {
+						hook.apply(null, args);
+					} else {
+						args[0] = hook.apply(null, args);
+					}
+				} );
+			}
+			if ( 'filter'==hookType ) {
+				return args[0];
+			}
+		},
+		removeHook: function( hookType, action, priority, tag ) {
+			if ( undefined != gform.hooks[hookType][action] ) {
+				var hooks = gform.hooks[hookType][action];
+				hooks = hooks.filter( function(hook, index, arr) {
+					var removeHook = (undefined==tag||tag==hook.tag) && (undefined==priority||priority==hook.priority);
+					return !removeHook;
+				} );
+				gform.hooks[hookType][action] = hooks;
+			}
+		}
+	};
+}
+
+/* ]]> */
+</script>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+
+	<!-- This site is optimized with the Yoast SEO plugin v28.5 - https://yoast.com/product/yoast-seo-wordpress/ -->
+	<title>ED80 Emergency Disconnect Switch - Albright</title>
+	<meta name="description" content="The ED80 Emergency Disconnect Switch is rated at 80 amperes. Primarily intended for use with battery powered vehicles it is also suitable for use with static power systems." />
+	<link rel="canonical" href="https://www.albrightinternational.com/products/ed80-2/" />
+	<meta property="og:locale" content="en_GB" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="ED80 Emergency Disconnect Switch - Albright" />
+	<meta property="og:description" content="The ED80 Emergency Disconnect Switch is rated at 80 amperes. Primarily intended for use with battery powered vehicles it is also suitable for use with static power systems." />
+	<meta property="og:url" content="https://www.albrightinternational.com/products/ed80-2/" />
+	<meta property="og:site_name" content="Albright" />
+	<meta property="article:modified_time" content="2025-04-10T08:06:14+00:00" />
+	<meta property="og:image" content="https://www.albrightinternational.com/wpcms/wp-content/uploads/2016/07/ED80.jpg" />
+	<meta property="og:image:width" content="600" />
+	<meta property="og:image:height" content="450" />
+	<meta property="og:image:type" content="image/jpeg" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:label1" content="Estimated reading time" />
+	<meta name="twitter:data1" content="1 minute" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/www.albrightinternational.com\/products\/ed80-2\/","url":"https:\/\/www.albrightinternational.com\/products\/ed80-2\/","name":"ED80 Emergency Disconnect Switch - Albright","isPartOf":{"@id":"https:\/\/www.albrightinternational.com\/#website"},"primaryImageOfPage":{"@id":"https:\/\/www.albrightinternational.com\/products\/ed80-2\/#primaryimage"},"image":{"@id":"https:\/\/www.albrightinternational.com\/products\/ed80-2\/#primaryimage"},"thumbnailUrl":"https:\/\/www.albrightinternational.com\/wpcms\/wp-content\/uploads\/2016\/07\/ED80.jpg","datePublished":"2015-07-22T15:13:12+00:00","dateModified":"2025-04-10T08:06:14+00:00","description":"The ED80 Emergency Disconnect Switch is rated at 80 amperes. Primarily intended for use with battery powered vehicles it is also suitable for use with static power systems.","breadcrumb":{"@id":"https:\/\/www.albrightinternational.com\/products\/ed80-2\/#breadcrumb"},"inLanguage":"en-GB","potentialAction":[{"@type":"ReadAction","target":["https:\/\/www.albrightinternational.com\/products\/ed80-2\/"]}]},{"@type":"ImageObject","inLanguage":"en-GB","@id":"https:\/\/www.albrightinternational.com\/products\/ed80-2\/#primaryimage","url":"https:\/\/www.albrightinternational.com\/wpcms\/wp-content\/uploads\/2016\/07\/ED80.jpg","contentUrl":"https:\/\/www.albrightinternational.com\/wpcms\/wp-content\/uploads\/2016\/07\/ED80.jpg","width":600,"height":450,"caption":"Albright ED80 Emergency Disconnect Switch"},{"@type":"BreadcrumbList","@id":"https:\/\/www.albrightinternational.com\/products\/ed80-2\/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https:\/\/www.albrightinternational.com\/"},{"@type":"ListItem","position":2,"name":"Products","item":"https:\/\/www.albrightinternational.com\/products\/"},{"@type":"ListItem","position":3,"name":"ED80"}]},{"@type":"WebSite","@id":"https:\/\/www.albrightinternational.com\/#website","url":"https:\/\/www.albrightinternational.com\/","name":"Albright","description":"Albright Website","publisher":{"@id":"https:\/\/www.albrightinternational.com\/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https:\/\/www.albrightinternational.com\/search\/{search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-GB"},{"@type":"Organization","@id":"https:\/\/www.albrightinternational.com\/#organization","name":"Albright International","url":"https:\/\/www.albrightinternational.com\/","logo":{"@type":"ImageObject","inLanguage":"en-GB","@id":"https:\/\/www.albrightinternational.com\/#\/schema\/logo\/image\/","url":"https:\/\/www.albrightinternational.com\/wpcms\/wp-content\/uploads\/2015\/07\/albright_logo.png","contentUrl":"https:\/\/www.albrightinternational.com\/wpcms\/wp-content\/uploads\/2015\/07\/albright_logo.png","width":238,"height":146,"caption":"Albright International"},"image":{"@id":"https:\/\/www.albrightinternational.com\/#\/schema\/logo\/image\/"}}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<style id='wp-img-auto-sizes-contain-inline-css' type='text/css'>
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<style id='wp-block-library-inline-css' type='text/css'>
+:root{
+  --wp-block-synced-color:#7a00df;
+  --wp-block-synced-color--rgb:122, 0, 223;
+  --wp-bound-block-color:var(--wp-block-synced-color);
+  --wp-editor-canvas-background:#ddd;
+  --wp-admin-theme-color:#007cba;
+  --wp-admin-theme-color--rgb:0, 124, 186;
+  --wp-admin-theme-color-darker-10:#006ba1;
+  --wp-admin-theme-color-darker-10--rgb:0, 107, 160.5;
+  --wp-admin-theme-color-darker-20:#005a87;
+  --wp-admin-theme-color-darker-20--rgb:0, 90, 135;
+  --wp-admin-border-width-focus:2px;
+}
+@media (min-resolution:192dpi){
+  :root{
+    --wp-admin-border-width-focus:1.5px;
+  }
+}
+.wp-element-button{
+  cursor:pointer;
+}
+
+:root .has-very-light-gray-background-color{
+  background-color:#eee;
+}
+:root .has-very-dark-gray-background-color{
+  background-color:#313131;
+}
+:root .has-very-light-gray-color{
+  color:#eee;
+}
+:root .has-very-dark-gray-color{
+  color:#313131;
+}
+:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{
+  background:linear-gradient(135deg, #00d084, #0693e3);
+}
+:root .has-purple-crush-gradient-background{
+  background:linear-gradient(135deg, #34e2e4, #4721fb 50%, #ab1dfe);
+}
+:root .has-hazy-dawn-gradient-background{
+  background:linear-gradient(135deg, #faaca8, #dad0ec);
+}
+:root .has-subdued-olive-gradient-background{
+  background:linear-gradient(135deg, #fafae1, #67a671);
+}
+:root .has-atomic-cream-gradient-background{
+  background:linear-gradient(135deg, #fdd79a, #004a59);
+}
+:root .has-nightshade-gradient-background{
+  background:linear-gradient(135deg, #330968, #31cdcf);
+}
+:root .has-midnight-gradient-background{
+  background:linear-gradient(135deg, #020381, #2874fc);
+}
+:root{
+  --wp--preset--font-size--normal:16px;
+  --wp--preset--font-size--huge:42px;
+}
+
+.has-regular-font-size{
+  font-size:1em;
+}
+
+.has-larger-font-size{
+  font-size:2.625em;
+}
+
+.has-normal-font-size{
+  font-size:var(--wp--preset--font-size--normal);
+}
+
+.has-huge-font-size{
+  font-size:var(--wp--preset--font-size--huge);
+}
+
+.has-text-align-center{
+  text-align:center;
+}
+
+.has-text-align-left{
+  text-align:left;
+}
+
+.has-text-align-right{
+  text-align:right;
+}
+
+.has-fit-text{
+  white-space:nowrap !important;
+}
+
+#end-resizable-editor-section{
+  display:none;
+}
+
+.aligncenter{
+  clear:both;
+}
+
+.items-justified-left{
+  justify-content:flex-start;
+}
+
+.items-justified-center{
+  justify-content:center;
+}
+
+.items-justified-right{
+  justify-content:flex-end;
+}
+
+.items-justified-space-between{
+  justify-content:space-between;
+}
+
+.screen-reader-text{
+  border:0;
+  clip-path:inset(50%);
+  height:1px;
+  margin:-1px;
+  overflow:hidden;
+  padding:0;
+  position:absolute;
+  width:1px;
+  word-wrap:normal !important;
+}
+
+.screen-reader-text:focus{
+  background-color:#ddd;
+  clip-path:none;
+  color:#444;
+  display:block;
+  font-size:1em;
+  height:auto;
+  left:5px;
+  line-height:normal;
+  padding:15px 23px 14px;
+  text-decoration:none;
+  top:5px;
+  width:auto;
+  z-index:100000;
+}
+html :where(.has-border-color){
+  border-style:solid;
+}
+
+html :where([style*=border-top-color]){
+  border-top-style:solid;
+}
+
+html :where([style*=border-right-color]){
+  border-right-style:solid;
+}
+
+html :where([style*=border-bottom-color]){
+  border-bottom-style:solid;
+}
+
+html :where([style*=border-left-color]){
+  border-left-style:solid;
+}
+
+html :where([style*=border-width]){
+  border-style:solid;
+}
+
+html :where([style*=border-top-width]){
+  border-top-style:solid;
+}
+
+html :where([style*=border-right-width]){
+  border-right-style:solid;
+}
+
+html :where([style*=border-bottom-width]){
+  border-bottom-style:solid;
+}
+
+html :where([style*=border-left-width]){
+  border-left-style:solid;
+}
+html :where(img[class*=wp-image-]){
+  height:auto;
+  max-width:100%;
+}
+:where(figure){
+  margin:0 0 1em;
+}
+
+html :where(.is-position-sticky){
+  --wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height, 0px);
+}
+
+@media screen and (max-width:600px){
+  html :where(.is-position-sticky){
+    --wp-admin--admin-bar--position-offset:0px;
+  }
+}
+
+/*# sourceURL=wp-block-library-inline-css */
+</style>
+<style id='classic-theme-styles-inline-css' type='text/css'>
+/**
+ * These rules are needed for backwards compatibility.
+ * They should match the button element rules in the base theme.json file.
+ */
+.wp-block-button__link {
+	color: #ffffff;
+	background-color: #32373c;
+	border-radius: 9999px; /* 100% causes an oval, but any explicit but really high value retains the pill shape. */
+
+	/* This needs a low specificity so it won't override the rules from the button element if defined in theme.json. */
+	box-shadow: none;
+	text-decoration: none;
+
+	/* The extra 2px are added to size solids the same as the outline versions.*/
+	padding: calc(0.667em + 2px) calc(1.333em + 2px);
+
+	font-size: 1.125em;
+}
+
+.wp-block-file__button {
+	background: #32373c;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+/*# sourceURL=/wp-includes/css/classic-themes.css */
+</style>
+<style id='global-styles-inline-css' type='text/css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+
+<link rel='stylesheet' id='escn_style-css' href='https://www.albrightinternational.com/wpcms/wp-content/plugins/es-cookie-notice/css/escn-styles.css?ver=1' type='text/css' media='all' />
+<link rel='stylesheet' id='main-css' href='https://www.albrightinternational.com/wpcms/wp-content/themes/albright-2018/style.css?v=1&#038;ver=6.9.10' type='text/css' media='all' />
+<script type="text/javascript" src="https://www.albrightinternational.com/wpcms/wp-includes/js/jquery/jquery.js?ver=3.7.1" id="jquery-core-js"></script>
+<script type="text/javascript" src="https://www.albrightinternational.com/wpcms/wp-includes/js/jquery/jquery-migrate.js?ver=3.4.1" id="jquery-migrate-js"></script>
+
+		<!-- GA Google Analytics @ https://m0n.co/ga -->
+		<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+			ga('create', 'UA-65328734-1', 'auto');
+			ga('send', 'pageview');
+		</script>
+
+	<link rel="icon" href="https://www.albrightinternational.com/wpcms/wp-content/uploads/2015/07/cropped-albright_logo-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://www.albrightinternational.com/wpcms/wp-content/uploads/2015/07/cropped-albright_logo-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://www.albrightinternational.com/wpcms/wp-content/uploads/2015/07/cropped-albright_logo-180x180.png" />
+<meta name="msapplication-TileImage" content="https://www.albrightinternational.com/wpcms/wp-content/uploads/2015/07/cropped-albright_logo-270x270.png" />
+  <link href="//fonts.googleapis.com/css?family=Hind" rel="stylesheet">
+
+<style id='core-block-supports-inline-css' type='text/css'>
+/**
+ * Core styles: block-supports
+ */
+
+/*# sourceURL=core-block-supports-inline-css */
+</style>
+
+</head>
+
+  <body class="wp-singular alb-products-template-default single single-alb-products postid-30270 wp-theme-albright-2018 ed80-2">
+    <span class="hide"><svg xmlns="http://www.w3.org/2000/svg" style="position:absolute; width: 0; height: 0"><defs><path id="albright-logo-a" d="M0 59.856h191.924V0H0z"> </path></defs><symbol viewBox="0 0 100 32" id="albright-logo-white"><g fill="#FFF" fill-rule="evenodd"><path d="M63.507 5.145c.253.257.397.62.282.996-.203.71-.772 1.476-1.517 1.634-.47.121-.908-.026-1.264-.271-.303-.28-.416-.696-.303-1.117.214-.68.812-1.48 1.567-1.563.461-.105.901.028 1.235.32z"></path><path d="M65.673 19.876c-.768.086-1.601-.03-2.03-.724-.44-1.043.058-2.101.415-3.034 1.114-2.243 2.856-5.761 5.924-5.46.574.22 1.215.348 1.542.99.4.996-.239 1.925-.61 2.781-1 2.157-2.529 5.171-5.241 5.447zm-1.169 7.443c-.76 1.01-1.428 2.377-2.671 2.883-.259.076-.428-.09-.616-.2-.372-.63.044-1.355.3-1.913 1.098-2.152 3.358-3.269 5.113-4.688-.53 1.298-1.368 2.633-2.126 3.918zM18.426 16.918l-.073.075c.117-1.915-.441-3.68-1.497-5.172 3.883-3.71 7.848-7.389 12.36-9.635l-10.79 14.732zm-1.784 2.305c-2.113.03-3.97-.57-5.579-1.78 1.54-1.607 3.224-3.177 4.835-4.754.773.581.987 1.536 1.16 2.435.17 1.31.341 2.985-.416 4.1zm-6.738-2.682c-.7-.882-1.13-2.142-.685-3.3.557-1.363 1.957-2.582 3.453-2.61.93.058 1.73.466 2.4 1.146L9.904 16.54zm86.041 2.43l-.07-.272c-.086-.128-.138-.392-.373-.347-.999.871-2.07 1.568-3.393 1.639-.2-.086-.387-.31-.298-.567.397-1.315 1.153-2.476 1.74-3.722l3.495-6.288 2.324-.07c.204-.536.442-1.087.59-1.594l-2.054-.043c.327-.709.767-1.392 1.097-2.116h-2.567c-.401.724-.728 1.49-1.174 2.159l-2.01.025-.727 1.608 1.81.03c-.699 1.495-1.512 2.944-2.33 4.378-1.295 2.537-3.392 5.78-6.463 6.157-.33.056-.63-.043-.795-.305-.105-.42.04-.824.164-1.187.772-1.644 1.799-3.172 2.543-4.838.386-1.218 1.642-2.96.24-4.061-1.98-.445-3.62.77-5.238 1.623h-.169l3.143-6.733-2.673.03c-1.539 3.11-2.994 6.258-4.722 9.283-1.798 2.84-4.771 4.456-7.395 6.087h-.172l5.1-9.939H73.07l-.591.925c-.754-1.042-1.923-1.262-3.083-1.42-2.639-.098-4.952 1.495-6.261 3.797-1.345 1.914-1.702 4.326-3.703 5.867-.81.566-1.74 1.04-2.782.843-.24-.164-.416-.406-.342-.74l5.21-9.098v-.148H58.95c-1.387 2.279-2.716 4.639-4.143 6.923-1.368 1.714-3.153 3.105-5.31 3.063a.512.512 0 0 1-.342-.527s3.737-7.87 3.842-8.138c.203-.491.025-.869.025-.869-.068-.263-.328-.394-.557-.513-1.286-.286-2.247.416-3.549.816-.544.158-1.041.332-1.23-.204.315-.2.686-.577.814-.967.104-.406 0-.799-.298-1.072-.431-.31-1.084-.363-1.588-.175-.74.32-1.096 1.112-1.096 1.913-.057.724.698 1.23 1.243 1.492-.229.81-.928 1.42-1.545 2.055-.584.564-1.167 1.146-1.881 1.393-.175-.031-.085-.202-.1-.318-.045-.483-.328-.971-.802-1.145-.526-.175-1.1-.043-1.471.417-.524.913.357 1.58.518 2.387.07 1.283-1.013 2.113-1.958 2.758-1.001.518-2.455 1.227-3.525.349-.288-.616.04-1.31.383-1.812l6.57-11.995.657-1.318h-2.769L40.11 5.84l-3.256 6.184c-1.399 2.227-2.425 4.864-4.755 6.461-1.269.696-2.526 1.528-4.081 1.435a.51.51 0 0 1-.271-.452c.554-1.946 1.655-3.632 2.54-5.435l5.467-9.556c-.813-.06-1.681-.015-2.53-.03-2.524 4.098-4.35 9.428-9.218 11.822-.785.332-1.553.867-2.398.996L32.168 0c-1.054.028-2.038.416-2.952.87-4.737 2.475-8.918 6.271-13.118 10.081h-.096c-.916-.753-1.944-1.246-3.13-1.334-1.796-.03-3.34 1.042-4.337 2.552-.97 1.577-.342 3.697.611 5.066-.953.86-2.01 1.495-3.05 2.113-1.203.513-2.915 1.325-4.114.252.343-.176.729-.319.958-.66.169-.287.184-.724.07-1.041-.142-.363-.498-.68-.856-.805-.515-.116-.984.05-1.398.246-.601.378-.844 1.072-.728 1.782.014.812.67 1.494 1.368 1.773 3.37 1.087 6.154-1.11 8.778-2.758 1.658 1.347 3.73 1.68 5.754 2.131l-.142.419h3.838L20.753 19c2.413-1.132 4.882-2.204 6.924-4.124-.43.74-.945 1.436-1.272 2.217-.428 1.057-1.154 2.632-.127 3.643 1.81 1.154 3.912.045 5.506-.79.671-.333 1.3-.87 1.932-1.217.028.422.043.842.223 1.19.417.847 1.274 1.143 2.098 1.285 2.757.235 5.084-1.285 6.64-3.592.287-.393.411-.894.754-1.243 1.744-1.059 3.314-2.842 4.281-4.593.962.128 1.702-.163 2.558-.597.303-.11.327.03.284.177l-2.426 4.866c-.498 1.133-1.142 2.205-1.267 3.472-.014.588.358 1.103.851 1.34 2.416.681 4.57-.48 6.271-2.159-.084.533-.158 1.318.243 1.768.297.347.669.5 1.056.59 2.294.191 4.298-.708 5.767-2.504.183.738.57 1.448 1.223 1.914 1.74.954 4.156.766 5.83-.209l.027.03c-.22.46-.487.917-.814 1.293-2.23 1.28-4.428 2.737-6.24 4.874-.944 1.212-1.838 2.703-1.27 4.31a1.95 1.95 0 0 0 1.203.871c1.55.276 2.925-.464 3.838-1.782 1.994-2.698 3.34-5.686 4.996-8.524 2.157-1.042 4.164-2.416 6.165-3.82-.357.997-.973 1.978-1.4 3l2.744-.043c.836-1.768 1.58-3.564 2.538-5.291.53-.838.842-1.853 1.81-2.46 1.203-.784 2.347-1.725 3.801-1.887.258.046.37.308.316.567-.589 1.796-1.675 3.387-2.498 5.073-.475 1.087-1.233 2.23-.832 3.517.159.408.6.763.998.9 2.332.653 4.473-.477 6.051-2.187.015.458-.028 1.044.178 1.463.18.398.61.652.997.753 2.068.29 3.793-.687 5.235-2.121zM.632 31.817h1.344V25.08H.632zM7.297 27.375a1.194 1.194 0 0 0-.53-.393A1.901 1.901 0 0 0 6 26.828c-.637 0-1.167.275-1.583.823v-.712H3.233v4.879h1.271v-2.209c0-.547.032-.92.099-1.128a.941.941 0 0 1 .36-.484c.175-.12.374-.18.593-.18.17 0 .317.043.442.12.12.091.209.212.262.363.058.16.084.498.084 1.027v2.49h1.27v-3.034c0-.378-.022-.664-.069-.867a1.35 1.35 0 0 0-.248-.541M10.596 30.851l-.216-.06-.112-.167c-.017-.06-.025-.291-.025-.694v-1.962h.868v-1.029h-.868v-1.726l-1.277.754v.972h-.585v1.029h.585v2.128c0 .453.014.755.04.906.034.21.094.378.178.505.086.128.222.22.407.307.182.078.388.109.62.109.376 0 .709-.061 1.003-.187l-.106-1.005c-.223.087-.394.12-.512.12M12.952 28.96c-.005-.359.085-.63.267-.84a.88.88 0 0 1 .686-.303c.26 0 .482.09.66.287.186.195.276.483.29.856h-1.903zm2.572-1.415c-.415-.476-.98-.717-1.694-.717-.64 0-1.165.228-1.581.687-.418.453-.626 1.086-.626 1.902 0 .677.159 1.237.475 1.675.403.559 1.02.83 1.857.83.53 0 .968-.12 1.32-.362.353-.248.608-.606.772-1.079l-1.265-.218c-.073.24-.175.422-.312.527-.135.12-.3.166-.501.166a.962.962 0 0 1-.734-.316c-.194-.211-.298-.513-.307-.89h3.188c.02-.99-.18-1.722-.592-2.205zM18.828 26.985c-.164.105-.344.319-.55.648v-.694h-1.177v4.879h1.269v-1.51c0-.83.036-1.374.107-1.63.07-.263.17-.442.292-.544a.672.672 0 0 1 .453-.15c.185 0 .381.074.6.21l.39-1.124a1.613 1.613 0 0 0-.834-.242c-.207 0-.389.06-.55.157M25.067 27.916a1.393 1.393 0 0 0-.248-.54 1.204 1.204 0 0 0-.532-.393 1.878 1.878 0 0 0-.767-.156c-.637 0-1.168.276-1.584.823v-.71h-1.183v4.877h1.272V29.61c0-.549.03-.92.097-1.129a.937.937 0 0 1 .362-.483 1.02 1.02 0 0 1 .594-.182c.168 0 .316.044.439.122a.74.74 0 0 1 .264.362c.058.16.083.499.083 1.026v2.49h1.27v-3.033c0-.377-.021-.665-.067-.867M29.08 29.476c-.163.047-.421.122-.775.197-.353.077-.584.152-.691.227a.537.537 0 0 0-.25.453c0 .18.066.332.199.468a.686.686 0 0 0 .508.196c.23 0 .45-.075.656-.227a.8.8 0 0 0 .303-.428c.033-.115.05-.326.05-.628v-.258zm-1.7-1.055l-1.16-.212c.134-.468.357-.815.674-1.04.318-.22.785-.341 1.411-.341.569 0 .992.068 1.27.211.275.13.472.302.586.506.112.212.168.603.168 1.163l-.012 1.51c0 .422.02.738.06.946.04.2.118.423.229.653h-1.259a6.158 6.158 0 0 1-.124-.377l-.044-.154a2.272 2.272 0 0 1-.7.483 1.923 1.923 0 0 1-.787.154c-.496 0-.887-.136-1.175-.408a1.373 1.373 0 0 1-.425-1.028c0-.278.066-.526.195-.737.127-.217.312-.383.544-.5.235-.12.572-.212 1.012-.301.594-.112 1.007-.218 1.237-.317v-.126c0-.252-.061-.432-.182-.538-.12-.105-.345-.15-.686-.15-.223 0-.4.045-.527.134-.127.091-.23.242-.305.47z"></path><path d="M33.79 26.94v1.028h-.87v1.962c0 .403.007.634.022.694l.12.166.21.061a1.5 1.5 0 0 0 .515-.12l.108 1.005a2.557 2.557 0 0 1-1.006.187c-.228 0-.436-.031-.619-.11-.187-.087-.323-.178-.407-.305a1.322 1.322 0 0 1-.179-.506c-.026-.151-.04-.453-.04-.906v-2.128h-.584v-1.029h.584v-.972l1.276-.754v1.726h.87zM34.674 31.817h1.273v-4.878h-1.273v4.878zm0-5.533h1.273V25.08h-1.273v1.203zM38.259 29.372c0 .49.113.86.338 1.117.227.256.506.39.842.39.33 0 .611-.134.834-.39.225-.257.336-.634.336-1.118 0-.483-.111-.846-.336-1.104a1.066 1.066 0 0 0-.834-.39c-.336 0-.615.132-.842.39-.225.258-.338.621-.338 1.105m-1.3-.062c0-.436.102-.844.31-1.251.209-.395.503-.71.883-.922.383-.21.81-.31 1.28-.31.725 0 1.324.242 1.79.719.466.482.696 1.086.696 1.817 0 .733-.232 1.352-.706 1.836-.467.482-1.056.724-1.77.724-.444 0-.862-.094-1.263-.302-.4-.197-.701-.499-.91-.891-.208-.386-.31-.86-.31-1.42M47.29 31.817h-1.273v-2.49c0-.53-.03-.867-.082-1.027a.745.745 0 0 0-.262-.363.823.823 0 0 0-.446-.12c-.22 0-.416.06-.593.181a.913.913 0 0 0-.358.483c-.064.208-.1.58-.1 1.128v2.208h-1.269V26.94h1.18v.71c.423-.546.948-.823 1.588-.823.282 0 .535.054.77.156.227.094.405.23.524.392.119.155.207.337.253.542.044.202.068.488.068.866v3.034zM51.236 29.476c-.163.047-.423.122-.773.197-.357.077-.588.152-.699.227a.544.544 0 0 0-.247.453c0 .18.068.332.202.468a.677.677 0 0 0 .506.196c.228 0 .447-.075.655-.227a.827.827 0 0 0 .303-.428c.037-.115.053-.326.053-.628v-.258zm-1.707-1.055l-1.15-.212c.127-.468.35-.815.67-1.04.313-.22.788-.341 1.414-.341.565 0 .985.068 1.265.211.28.13.475.302.586.506.112.212.172.603.172 1.163l-.015 1.51c0 .422.016.738.06.946.045.2.119.423.23.653h-1.258a6.17 6.17 0 0 1-.123-.377l-.047-.154a2.339 2.339 0 0 1-.695.483c-.25.108-.516.154-.796.154-.494 0-.881-.136-1.168-.408a1.359 1.359 0 0 1-.427-1.028c0-.278.06-.526.193-.737.133-.217.313-.383.546-.5.234-.12.57-.212 1.014-.301.594-.112 1.003-.218 1.236-.317v-.126c0-.252-.06-.432-.181-.538-.123-.105-.353-.15-.683-.15-.23 0-.405.045-.534.134-.127.091-.227.242-.309.47zM53.737 31.817h1.277V25.08h-1.277z"></path></g></symbol><symbol viewBox="0 0 192 60" id="albright-logo"><g fill="none" fill-rule="evenodd"><path d="M121.934 9.647c.485.483.762 1.163.542 1.868-.39 1.33-1.484 2.767-2.913 3.063-.902.228-1.745-.049-2.427-.508-.583-.524-.8-1.305-.583-2.095.412-1.273 1.56-2.773 3.01-2.93a2.693 2.693 0 0 1 2.37.602z" fill="#CD071E"></path><path d="M126.092 37.268c-1.474.16-3.074-.056-3.899-1.358-.844-1.955.113-3.94.797-5.688 2.141-4.207 5.484-10.803 11.376-10.237 1.101.411 2.332.651 2.96 1.855.77 1.868-.459 3.61-1.172 5.215-1.92 4.044-4.855 9.696-10.062 10.213zm-2.244 13.955c-1.458 1.895-2.743 4.458-5.129 5.406-.497.141-.82-.17-1.183-.377-.714-1.18.085-2.538.577-3.586 2.107-4.034 6.447-6.128 9.818-8.79-1.018 2.435-2.628 4.937-4.083 7.347zm-88.47-19.502l-.141.141c.226-3.59-.846-6.902-2.874-9.697C39.818 15.208 47.431 8.31 56.095 4.098L35.377 31.721zm-3.426 4.323c-4.057.055-7.62-1.069-10.71-3.34 2.955-3.012 6.189-5.954 9.283-8.913 1.483 1.09 1.895 2.881 2.226 4.566.326 2.458.655 5.598-.8 7.687zm-12.937-5.03c-1.343-1.654-2.168-4.015-1.314-6.187 1.068-2.556 3.757-4.842 6.63-4.892 1.786.106 3.32.871 4.607 2.146l-9.923 8.933zm165.2 4.556l-.136-.51c-.164-.24-.264-.734-.716-.65-1.916 1.634-3.973 2.94-6.513 3.073-.384-.16-.743-.582-.573-1.063.762-2.465 2.214-4.643 3.341-6.979l6.71-11.79 4.463-.132c.392-1.004.848-2.036 1.133-2.989l-3.944-.079c.627-1.33 1.472-2.61 2.105-3.969h-4.928c-.77 1.358-1.398 2.794-2.254 4.048l-3.86.048-1.396 3.015 3.476.058c-1.341 2.802-2.903 5.518-4.472 8.208-2.488 4.755-6.513 10.838-12.41 11.543-.634.106-1.211-.08-1.527-.572-.2-.786.076-1.544.316-2.224 1.481-3.084 3.452-5.95 4.881-9.072.741-2.284 3.153-5.55.462-7.615-3.803-.834-6.952 1.444-10.057 3.044h-.324l6.034-12.626-5.133.057c-2.954 5.83-5.747 11.734-9.065 17.407-3.453 5.325-9.161 8.355-14.199 11.411h-.331l9.792-18.634h-4.796l-1.134 1.733c-1.449-1.953-3.693-2.365-5.919-2.66-5.067-.186-9.508 2.802-12.023 7.118-2.58 3.588-3.267 8.111-7.11 11-1.555 1.06-3.34 1.952-5.34 1.58-.46-.306-.799-.76-.656-1.385l10-17.06v-.277h-4.927c-2.664 4.272-5.216 8.697-7.956 12.98-2.627 3.213-6.054 5.822-10.195 5.743-.401-.138-.71-.545-.657-.988 0 0 7.176-14.756 7.377-15.258.39-.922.05-1.63.05-1.63-.132-.494-.63-.74-1.071-.961-2.47-.538-4.314.778-6.814 1.528-1.045.297-2 .624-2.363-.38.607-.377 1.318-1.083 1.564-1.815.199-.761 0-1.498-.571-2.01-.829-.58-2.082-.68-3.05-.328-1.42.6-2.105 2.085-2.105 3.586-.109 1.359 1.342 2.307 2.386 2.798-.438 1.519-1.781 2.665-2.965 3.853-1.12 1.059-2.242 2.15-3.612 2.612-.335-.058-.164-.379-.193-.595-.086-.906-.628-1.822-1.538-2.148-1.01-.327-2.112-.08-2.825.782-1.006 1.712.686 2.964.994 4.475.136 2.406-1.944 3.963-3.759 5.173-1.922.97-4.714 2.3-6.768.653-.552-1.154.078-2.456.736-3.397l12.616-22.491 1.26-2.472h-5.317L77.01 10.95l-6.252 11.595c-2.685 4.175-4.655 9.12-9.13 12.115-2.435 1.304-4.848 2.864-7.835 2.69a.955.955 0 0 1-.52-.847c1.064-3.65 3.177-6.81 4.877-10.192L68.648 8.394c-1.562-.113-3.229-.027-4.857-.057-4.846 7.685-8.353 17.678-17.7 22.167-1.506.622-2.982 1.627-4.604 1.868L61.764 0c-2.026.052-3.915.78-5.67 1.63C47 6.273 38.973 13.39 30.91 20.535h-.185c-1.759-1.413-3.732-2.337-6.009-2.503-3.449-.056-6.412 1.954-8.328 4.787-1.862 2.956-.657 6.93 1.173 9.498-1.83 1.612-3.858 2.802-5.856 3.961-2.31.963-5.597 2.485-7.9.474.66-.33 1.4-.6 1.841-1.237.324-.539.353-1.358.135-1.953-.273-.68-.958-1.274-1.644-1.51-.988-.218-1.889.095-2.684.462-1.155.708-1.62 2.01-1.398 3.341.027 1.523 1.284 2.802 2.626 3.324 6.47 2.038 11.816-2.08 16.853-5.171 3.184 2.525 7.163 3.15 11.048 3.996l-.273.784h7.37l2.168-3.16c4.634-2.122 9.373-4.132 13.293-7.732-.826 1.386-1.813 2.692-2.44 4.157-.823 1.982-2.217 4.934-.244 6.83 3.476 2.164 7.51.085 10.57-1.48 1.289-.626 2.497-1.633 3.71-2.284.053.792.082 1.579.429 2.232.8 1.588 2.445 2.142 4.028 2.41 5.293.44 9.76-2.41 12.747-6.736.552-.737.79-1.676 1.449-2.33 3.347-1.985 6.363-5.33 8.22-8.613 1.845.24 3.266-.305 4.91-1.118.583-.205.628.056.546.332l-4.658 9.124c-.957 2.123-2.193 4.133-2.433 6.51-.027 1.1.687 2.067 1.634 2.511 4.638 1.278 8.775-.898 12.04-4.048-.162 1-.304 2.472.466 3.316.572.65 1.285.937 2.028 1.107 4.406.358 8.252-1.33 11.073-4.697.351 1.385 1.094 2.717 2.35 3.59 3.34 1.787 7.979 1.436 11.191-.392l.053.056c-.421.863-.936 1.72-1.563 2.425-4.283 2.4-8.502 5.132-11.98 9.137-1.813 2.274-3.53 5.068-2.441 8.08.522.85 1.398 1.417 2.312 1.635 2.977.518 5.615-.869 7.367-3.34 3.83-5.059 6.412-10.662 9.594-15.984 4.14-1.953 7.995-4.529 11.837-7.16-.686 1.868-1.87 3.708-2.69 5.622l5.27-.079c1.606-3.316 3.035-6.684 4.873-9.922 1.016-1.57 1.616-3.474 3.476-4.61 2.309-1.472 4.506-3.237 7.297-3.54.496.087.71.578.607 1.063-1.131 3.368-3.217 6.35-4.796 9.512-.912 2.038-2.369 4.181-1.599 6.595.306.765 1.152 1.43 1.917 1.686 4.478 1.226 8.59-.894 11.619-4.1.027.858-.055 1.958.34 2.744.346.746 1.173 1.221 1.915 1.41 3.971.545 7.284-1.286 10.052-3.976z" fill="#CD071E"></path><mask id="albright-logo-b" fill="#fff"><use xlink:href="#albright-logo-a"></use></mask><path fill="#000" mask="url(#albright-logo-b)" d="M1.214 59.657h2.58v-12.63h-2.58zM14.01 51.328c-.227-.303-.564-.558-1.017-.736a3.726 3.726 0 0 0-1.476-.29c-1.222 0-2.24.516-3.039 1.544V50.51H6.207v9.147h2.44v-4.14c0-1.027.061-1.726.19-2.116.126-.368.355-.679.692-.907a1.997 1.997 0 0 1 1.138-.338c.326 0 .609.081.848.226.232.17.402.396.503.68.113.3.162.933.162 1.925v4.67h2.439v-5.69c0-.708-.043-1.245-.133-1.626a2.506 2.506 0 0 0-.475-1.014M20.344 57.846l-.415-.114-.215-.312c-.033-.111-.047-.546-.047-1.302V52.44h1.665v-1.928h-1.665v-3.236l-2.452 1.414v1.822h-1.123v1.928h1.123v3.99c0 .85.027 1.417.076 1.699.066.396.181.709.343.948.164.24.425.412.78.574.351.147.747.205 1.191.205.721 0 1.36-.114 1.926-.35l-.204-1.885c-.427.164-.757.226-.983.226M24.868 54.3c-.01-.672.162-1.18.513-1.577.343-.376.786-.566 1.316-.566.5 0 .926.168 1.27.537.354.367.528.907.553 1.606h-3.652zm4.939-2.653c-.798-.893-1.884-1.345-3.254-1.345-1.226 0-2.236.427-3.036 1.29-.8.847-1.2 2.036-1.2 3.564 0 1.27.304 2.32.912 3.142.774 1.047 1.957 1.557 3.566 1.557 1.015 0 1.857-.226 2.532-.68.679-.466 1.168-1.136 1.484-2.023l-2.43-.41c-.14.453-.335.793-.598.99-.26.226-.575.31-.963.31a1.869 1.869 0 0 1-1.41-.592c-.372-.396-.57-.963-.588-1.67h6.121c.037-1.855-.347-3.227-1.136-4.133zM36.15 50.598c-.315.195-.66.597-1.056 1.213v-1.3h-2.261v9.147h2.437v-2.83c0-1.558.07-2.576.207-3.057.132-.493.327-.83.56-1.02.239-.198.526-.283.869-.283.356 0 .733.141 1.152.396l.748-2.107c-.516-.3-1.048-.455-1.6-.455a2.04 2.04 0 0 0-1.057.296M48.129 52.343a2.584 2.584 0 0 0-.476-1.014c-.234-.306-.567-.558-1.021-.736a3.68 3.68 0 0 0-1.474-.292c-1.222 0-2.242.518-3.041 1.544v-1.333h-2.272v9.145h2.443v-4.139c0-1.028.057-1.726.185-2.116.13-.369.357-.68.696-.906a1.99 1.99 0 0 1 1.14-.34c.323 0 .607.081.843.228.236.168.406.396.507.678.111.3.16.935.16 1.925v4.67h2.439v-5.689c0-.707-.041-1.246-.129-1.625M55.833 55.268c-.312.087-.809.228-1.487.37s-1.121.283-1.328.425c-.321.224-.48.508-.48.85 0 .338.128.622.383.877.255.249.58.367.975.367.44 0 .863-.14 1.259-.425.298-.226.495-.485.583-.804.062-.214.095-.61.095-1.177v-.483zM52.57 53.29l-2.226-.398c.255-.878.684-1.529 1.292-1.952.61-.411 1.507-.637 2.71-.637 1.092 0 1.905.127 2.437.396.528.241.906.566 1.127.948.214.397.321 1.13.321 2.18l-.023 2.83c0 .793.04 1.386.117 1.776.074.375.226.792.439 1.223h-2.418c-.066-.168-.14-.396-.238-.707l-.083-.288c-.418.402-.86.704-1.344.907a3.769 3.769 0 0 1-1.512.287c-.952 0-1.703-.255-2.256-.765-.542-.508-.817-1.159-.817-1.926 0-.522.127-.988.374-1.384a2.45 2.45 0 0 1 1.045-.935c.453-.226 1.098-.398 1.944-.566 1.14-.209 1.934-.408 2.374-.593v-.238c0-.471-.117-.81-.348-1.009-.233-.197-.663-.281-1.319-.281-.426 0-.768.084-1.011.253-.244.17-.44.454-.585.879zM64.877 50.511v1.928h-1.67v3.68c0 .755.013 1.188.042 1.302l.229.31.405.115c.224 0 .556-.062.988-.226l.207 1.886c-.571.235-1.213.35-1.932.35-.437 0-.836-.059-1.187-.207-.359-.163-.62-.333-.782-.572-.16-.24-.275-.553-.343-.95-.05-.281-.078-.847-.078-1.697v-3.99h-1.121V50.51h1.121V48.69l2.45-1.414v3.236h1.671zM66.574 59.657h2.444V50.51h-2.444v9.146zm0-10.375h2.444v-2.254h-2.444v2.254zM73.457 55.072c0 .92.216 1.613.65 2.094.436.481.97.73 1.615.73.636 0 1.174-.249 1.603-.73.43-.48.645-1.188.645-2.096 0-.904-.214-1.585-.645-2.07-.429-.483-.967-.73-1.603-.73-.645 0-1.18.247-1.616.73-.433.485-.649 1.166-.649 2.072m-2.497-.116c0-.818.197-1.583.596-2.346.402-.74.965-1.331 1.696-1.727.735-.396 1.556-.582 2.457-.582 1.392 0 2.542.454 3.439 1.347.893.904 1.335 2.036 1.335 3.408 0 1.374-.446 2.535-1.357 3.442-.896.904-2.027 1.358-3.398 1.358a5.261 5.261 0 0 1-2.425-.566 3.854 3.854 0 0 1-1.747-1.671c-.4-.723-.596-1.614-.596-2.663M90.796 59.657h-2.443v-4.67c0-.991-.058-1.625-.158-1.925a1.4 1.4 0 0 0-.503-.68 1.61 1.61 0 0 0-.855-.226c-.425 0-.8.114-1.139.34a1.716 1.716 0 0 0-.688.907c-.123.39-.191 1.087-.191 2.113v4.141h-2.437v-9.145h2.263v1.333c.813-1.026 1.821-1.544 3.051-1.544.542 0 1.028.1 1.478.292.437.176.778.43 1.006.734.228.292.398.632.486 1.017.085.378.13.915.13 1.625v5.688zM98.374 55.268c-.314.087-.813.228-1.486.37-.684.142-1.129.283-1.34.425-.315.224-.475.508-.475.85 0 .338.131.622.388.877.254.249.573.367.971.367.437 0 .858-.14 1.258-.425.294-.226.487-.485.58-.804.073-.214.104-.61.104-1.177v-.483zm-3.277-1.978l-2.211-.398c.246-.878.673-1.529 1.289-1.952.6-.411 1.512-.637 2.713-.637 1.086 0 1.891.127 2.43.396.537.241.912.566 1.124.948.217.397.332 1.13.332 2.18l-.03 2.83c0 .793.032 1.386.115 1.776.086.375.228.792.441 1.223h-2.414c-.066-.168-.14-.396-.237-.707l-.09-.288a4.494 4.494 0 0 1-1.333.907c-.48.202-.993.287-1.529.287-.95 0-1.692-.255-2.244-.765-.55-.508-.819-1.159-.819-1.926 0-.522.115-.988.37-1.384.256-.405.601-.716 1.05-.935.448-.226 1.093-.398 1.945-.566 1.14-.209 1.926-.408 2.375-.593v-.238c0-.471-.117-.81-.349-1.009-.236-.197-.677-.281-1.31-.281-.443 0-.778.084-1.026.253-.243.17-.436.454-.592.879zM103.174 59.657h2.453v-12.63h-2.453z"></path></g></symbol><symbol viewBox="0 0 11 11" id="download_button"><path d="M1.99.238L.13 2.098 5.15 7.12l4.974-4.973L8.264.286 5.15 3.399 1.99.239zM.127 10.762h10v-2.44h-10v2.44z" fill="#FFF" fill-rule="evenodd"></path></symbol><symbol viewBox="0 0 11 8" id="dropdown_arrow_inverted"><path d="M8.638 7.5L10.5 5.638 5.476.614.5 5.59l1.862 1.862 3.114-3.114z" fill="#CD071E" fill-rule="nonzero"></path></symbol><symbol viewBox="0 0 11 8" id="dropdown_arrow"><path d="M2.362.5L.5 2.362l5.024 5.024L10.5 2.41 8.638.548 5.524 3.662z" fill="#CD071E" fill-rule="nonzero"></path></symbol><symbol viewBox="0 0 36 30" id="es"><path d="M0 13.607L10.848 6.72v2.594L.774 15.943l1.847-.615 8.227 5.416v2.594L0 16.452v-2.845zm25.152-4.293V6.72L36 13.607v2.845l-10.848 6.886v-2.594l10.074-6.628-1.847.615-8.227-5.417zM12.059 16.79L24.206 0l-5.355 15.14 1.235-1.872h3.85L11.79 30.058l4.484-12.724h2.028l1.825-1.698-1.858 1.155.002-.01-.003.01h-6.208z" fill="#555" fill-rule="evenodd"></path></symbol><symbol viewBox="0 0 7 10" id="icon_arrow_red"><path d="M0 8.138L1.862 10l5.024-5.024L1.91 0 .048 1.862l3.114 3.114z" fill="#CD071E" fill-rule="evenodd"></path></symbol><symbol viewBox="0 0 7 10" id="icon_arrow"><path d="M0 8.138L1.862 10l5.024-5.024L1.91 0 .048 1.862l3.114 3.114z" fill="#FFF" fill-rule="evenodd"></path></symbol><symbol viewBox="0 0 24 24" id="icon_search"><path d="M19.088 14.207a6.53 6.53 0 0 1-4.648 1.925 6.531 6.531 0 0 1-4.647-1.925A6.53 6.53 0 0 1 7.868 9.56a6.53 6.53 0 0 1 1.925-4.648 6.53 6.53 0 0 1 4.647-1.924 6.53 6.53 0 0 1 4.648 1.924 6.531 6.531 0 0 1 1.925 4.648 6.53 6.53 0 0 1-1.925 4.647M14.44 0a9.56 9.56 0 0 0-7.733 15.18L0 21.888 2.113 24l6.707-6.707A9.56 9.56 0 1 0 14.44 0" fill="#000" fill-rule="evenodd"></path></symbol><symbol viewBox="0 0 24 46" id="map-pin-active"><g fill="none" fill-rule="evenodd"><path fill="#CD071E" d="M1.135 17h21.73L12.1 45.902z"></path><circle fill="#CD071E" cx="12" cy="12" r="12"></circle><circle fill="#FFF" cx="12" cy="12" r="3"></circle></g></symbol><symbol viewBox="0 0 24 46" id="map-pin"><g fill="none" fill-rule="evenodd"><path fill="#262626" d="M1.135 17h21.73L12.1 45.902z"></path><circle fill="#262626" cx="12" cy="12" r="12"></circle><circle fill="#FFF" cx="12" cy="12" r="3"></circle></g></symbol><symbol viewBox="0 0 15 15" id="menu_icon"><path d="M0 0h3v3H0V0zm0 6h3v3H0V6zm0 6h3v3H0v-3zM5 0h10v3H5V0zm0 6h10v3H5V6zm0 6h10v3H5v-3z" fill="#FFF" fill-rule="evenodd"></path></symbol><symbol viewBox="0 0 12 12" id="menu-close-button"><path d="M6 4.435L1.565 0 0 1.565 4.435 6 0 10.435 1.565 12 6 7.565 10.435 12 12 10.435 7.565 6 12 1.565 10.435 0 6 4.435z" fill="#FFF" fill-rule="evenodd"></path></symbol><symbol viewBox="0 0 18 25" id="slide_nav"><path d="M17.263 19.795l-4.468 4.468L.737 12.205 12.68.263l4.468 4.468-7.474 7.474z" fill="#FFF" fill-rule="evenodd"></path></symbol><symbol viewBox="0 0 37 30" id="social_email"><path d="M34.973 27.842H2.027V3.628L15.686 17.89c.756.79 1.755 1.225 2.814 1.225 1.059 0 2.058-.435 2.814-1.225L34.973 3.63v24.213zM33.485 2.158l-13.59 14.19c-.77.804-2.02.804-2.79 0L3.515 2.159h29.97zM35.552 0H0v30h37V0h-1.448z" fill="#FFF" fill-rule="evenodd"></path></symbol><symbol viewBox="0 0 16 16" id="social_facebook"><path d="M14.9 0H1.1C.6 0 .3.4.3.9v14.2c0 .5.4.9.9.9h7.4V9.8h-2V7.4h2V5.6c0-2.1 1.2-3.2 3-3.2.9 0 1.6.1 1.8.1v2.2h-1.2c-1 0-1.2.5-1.2 1.2v1.5h2.3L13 9.8h-2V16h3.9c.5 0 .9-.4.9-.9V.9c-.1-.5-.4-.9-.9-.9z"></path></symbol><symbol viewBox="0 0 16 16" id="social_google"><path d="M15.7 8h-2.4v2.5c0 .2-.1.3-.3.3h-.7c-.2 0-.3-.2-.3-.3V8H9.5c-.2 0-.3-.1-.3-.3V7c0-.2.2-.3.3-.3h2.4V4.1c0-.2.2-.3.3-.3h.7c.2 0 .3.2.3.3v2.5h2.4c.3 0 .4.2.4.4v.7c0 .2-.1.3-.3.3zM9.4 1.3l-1 .7h-.5c.4.5.7 1.3.7 2.2 0 .9-.5 1.9-1.3 2.5-.7.5-.7.7-.7 1 0 .2.5.7 1 1.1 1.2.9 1.6 1.7 1.6 3.1 0 1.5-1.1 2.7-2.8 3.2-.5.2-1.1.2-1.7.2-.7 0-1.3-.1-1.9-.2-1.2-.3-2.1-.9-2.5-1.6-.2-.3-.3-.7-.3-1 0-.4.1-.7.3-1.1C.9 9.9 2.6 9 4.5 9h.1c-.2-.3-.3-.6-.3-.9 0-.2 0-.3.1-.5-2 0-3.5-1.5-3.5-3.5C.9 2.7 2 1.4 3.5.8 4 .7 4.5.6 4.9.6h4.2c.1 0 .3.1.3.2.2.2.1.4 0 .5zM2.2 12c0 1.1 1.1 2 2.5 2 1.8 0 2.8-.6 2.8-1.9v-.4c-.1-.5-.6-.8-1.2-1.3-.1-.1-.2-.1-.3-.2-.3-.1-.6-.1-.9-.1-1.6 0-2.9.9-2.9 1.9zm4.2-7.7C6.2 3 5.3 2 4.4 1.9c-.4 0-.7.2-.9.4-.3.5-.5 1.1-.4 1.8.2 1.3 1.1 2.4 2 2.4.3 0 .6-.1.9-.4.3-.4.5-1.1.4-1.8z"></path></symbol><symbol viewBox="0 0 56.693 56.693" id="social_instagram"><path d="M43.414 4.831H13c-5.283 0-9.581 4.297-9.581 9.58v30.415c0 5.283 4.298 9.58 9.581 9.58h30.415c5.283 0 9.58-4.297 9.58-9.58V14.41c-.001-5.283-4.298-9.579-9.581-9.579zm2.748 5.713l1.096-.004v8.403l-8.375.027-.029-8.402 7.308-.024zM21.131 24.53c1.588-2.197 4.164-3.638 7.076-3.638s5.488 1.441 7.074 3.638a8.677 8.677 0 0 1 1.652 5.088c0 4.811-3.918 8.725-8.727 8.725-4.812 0-8.726-3.914-8.726-8.725a8.683 8.683 0 0 1 1.651-5.088zm27.033 20.295a4.754 4.754 0 0 1-4.75 4.75H13a4.755 4.755 0 0 1-4.751-4.75V24.53h7.4a13.483 13.483 0 0 0-.998 5.088c0 7.473 6.08 13.557 13.556 13.557 7.475 0 13.555-6.084 13.555-13.557 0-1.799-.361-3.516-1-5.088h7.402v20.295z"></path></symbol><symbol viewBox="0 0 16 16" id="social_linkedin"><path d="M8.6 7.2zm6 8.8H1.4c-.6 0-1.1-.5-1.1-1.1V1.1C.3.5.8 0 1.4 0h13.2c.6 0 1.1.5 1.1 1.1v13.7c0 .7-.5 1.2-1.1 1.2zm-12-2.6H5V6.2H2.6v7.2zM3.8 2.7c-.8 0-1.3.5-1.3 1.2S3 5.1 3.8 5.1s1.3-.6 1.3-1.2c0-.7-.5-1.2-1.3-1.2zm9.6 6.5C13.4 7 12.2 6 10.7 6c-1.2 0-1.8.7-2.1 1.2v-1H6.2v7.2h2.3v-4c0-.2 0-.4.1-.6.2-.4.6-.9 1.2-.9.8 0 1.2.7 1.2 1.6v3.9h2.3V9.2h.1z" fill="FFFFFF"></path></symbol><symbol viewBox="0 0 37 30" id="social_phone"><g fill="#FFF" fill-rule="evenodd"><path d="M21.078 21.443c-.678.633-1.597.981-2.588.981-.99 0-1.91-.348-2.587-.981-.598-.558-.927-1.275-.927-2.019 0-.743.33-1.46.927-2.018.677-.633 1.596-.981 2.587-.981.991 0 1.91.348 2.588.981.597.558.927 1.275.927 2.018 0 .744-.33 1.46-.927 2.019m-2.588-7.177c-3.05 0-5.522 2.31-5.522 5.158 0 2.85 2.472 5.159 5.522 5.159 3.05 0 5.523-2.31 5.523-5.159 0-2.848-2.473-5.158-5.523-5.158"></path><path d="M34.957 12.086h-5.824V9.181c0-1.197-.902-2.167-2.015-2.167H9.863c-1.113 0-2.016.97-2.016 2.167v2.905H2.008V9.085c0-1.85.67-3.59 1.888-4.898C5.113 2.879 6.73 2.158 8.453 2.158h20.06c1.721 0 3.34.72 4.557 2.029 1.217 1.308 1.887 3.047 1.887 4.898v3.001zM31.414 24.74c.245.718.152 1.49-.256 2.116-.407.627-1.049.987-1.76.987H7.568c-.712 0-1.354-.36-1.761-.987a2.423 2.423 0 0 1-.256-2.116l3.328-9.751.976-2.902s.002-1.714.005-2.513c.001-.221.168-.4.375-.4h16.512c.207 0 .374.18.375.401l.003 2.512.961 2.902 3.328 9.751zm5.551-15.654C36.965 4.067 33.181 0 28.513 0H8.453C3.784 0 0 4.067 0 9.085v5.16h6.994l-3.328 9.751C2.671 26.911 4.68 30 7.567 30h21.83c2.89 0 4.897-3.09 3.902-6.004l-3.327-9.751h6.993v-5.16z"></path></g></symbol><symbol viewBox="0 0 56.693 56.693" id="social_pinterest"><path d="M30.374 4.622c-13.586 0-20.437 9.74-20.437 17.864 0 4.918 1.862 9.293 5.855 10.922.655.27 1.242.01 1.432-.715.132-.5.445-1.766.584-2.295.191-.717.117-.967-.412-1.594-1.151-1.357-1.888-3.115-1.888-5.607 0-7.226 5.407-13.695 14.079-13.695 7.679 0 11.898 4.692 11.898 10.957 0 8.246-3.649 15.205-9.065 15.205-2.992 0-5.23-2.473-4.514-5.508.859-3.623 2.524-7.531 2.524-10.148 0-2.34-1.257-4.292-3.856-4.292-3.058 0-5.515 3.164-5.515 7.401 0 2.699.912 4.525.912 4.525l-3.678 15.582c-1.092 4.625-.164 10.293-.085 10.865.046.34.482.422.68.166.281-.369 3.925-4.865 5.162-9.359.351-1.271 2.011-7.859 2.011-7.859.994 1.896 3.898 3.562 6.986 3.562 9.191 0 15.428-8.379 15.428-19.595.001-8.483-7.183-16.382-18.101-16.382z"></path></symbol><symbol viewBox="0 0 16 16" id="social_twitter"><path d="M16 2.9c-.6.3-1.2.4-1.9.5.7-.4 1.2-1.1 1.4-1.9-.6.4-1.3.7-2.1.8-.6-.7-1.5-1.1-2.4-1.1-1.8 0-3.3 1.5-3.3 3.4 0 .3 0 .5.1.8C5.2 5.3 2.7 4 1.1 2c-.3.5-.4 1-.4 1.6 0 1.2.6 2.2 1.5 2.8-.5 0-1-.2-1.5-.4 0 1.6 1.1 3 2.6 3.3-.3.1-.6.2-.9.2-.2 0-.4 0-.6-.1.4 1.3 1.6 2.3 3.1 2.3-1.1.9-2.5 1.4-4.1 1.4H0c1.5 1 3.2 1.5 5 1.5 6 0 9.3-5.1 9.3-9.6v-.4c.7-.4 1.3-1 1.7-1.7z"></path></symbol><symbol viewBox="0 0 56.693 56.693" id="social_youtube"><path d="M43.911 28.21H12.782c-4.948 0-8.959 4.015-8.959 8.962v7.201c0 4.947 4.011 8.961 8.959 8.961h31.129c4.947 0 8.959-4.014 8.959-8.961v-7.201c0-4.947-4.012-8.962-8.959-8.962zm-24.589 5.606h-2.894v14.38h-2.796v-14.38H10.74V31.37h8.582v2.446zm8.175 14.38h-2.48v-1.36c-.461.503-.936.887-1.432 1.146-.496.27-.975.396-1.441.396-.576 0-1.004-.183-1.297-.555-.288-.371-.435-.921-.435-1.664V35.782h2.48v9.523c0 .294.055.505.154.636.107.135.277.197.51.197.18 0 .412-.086.691-.26a3.35 3.35 0 0 0 .77-.668v-9.429h2.48v12.415zm9.004-2.563c0 .877-.195 1.551-.584 2.021-.387.47-.953.701-1.686.701-.488 0-.922-.088-1.299-.27a3.189 3.189 0 0 1-1.061-.841v.951h-2.51V31.37h2.51v5.419c.336-.375.691-.666 1.062-.861.379-.199.76-.295 1.146-.295.785 0 1.383.262 1.797.791.416.529.623 1.304.623 2.32v6.889zm8.603-3.345h-4.746v2.339c0 .652.08 1.106.242 1.359.166.254.445.378.842.378.412 0 .697-.107.863-.321.16-.216.246-.686.246-1.416v-.565h2.553v.637c0 1.272-.309 2.231-.936 2.878-.617.641-1.547.959-2.783.959-1.113 0-1.99-.339-2.627-1.021-.635-.678-.959-1.619-.959-2.815v-5.576c0-1.073.354-1.956 1.057-2.633.701-.677 1.604-1.015 2.715-1.015 1.137 0 2.01.313 2.619.941.609.629.914 1.529.914 2.706v3.165z"></path><path d="M41.466 37.646c-.396 0-.678.111-.85.343-.176.218-.258.591-.258 1.112v1.255h2.193v-1.255c0-.521-.088-.895-.262-1.112-.167-.231-.446-.343-.823-.343zM32.909 37.604c-.176 0-.354.039-.525.12-.174.079-.344.21-.512.38v7.733c.199.2.396.354.588.442.191.085.389.133.6.133.305 0 .527-.088.67-.266.141-.176.213-.457.213-.854v-6.411c0-.422-.084-.738-.26-.955-.182-.214-.44-.322-.774-.322zM16.858 23.898h3.144v-7.69L23.663 5.36h-3.196l-1.946 7.41h-.198L16.28 5.36h-3.167l3.745 11.194zM27.923 24.243c1.27 0 2.266-.333 2.992-.999.721-.669 1.082-1.582 1.082-2.752v-7.064c0-1.041-.369-1.898-1.104-2.559-.74-.659-1.688-.991-2.844-.991-1.27 0-2.281.314-3.033.941-.75.627-1.127 1.468-1.127 2.531v7.088c0 1.163.367 2.083 1.1 2.773.733.687 1.713 1.032 2.934 1.032zm-1.158-10.997a.93.93 0 0 1 .316-.725c.217-.184.492-.273.834-.273.369 0 .668.089.896.273.227.188.34.428.34.725v7.451c0 .365-.111.655-.336.864-.223.21-.523.313-.9.313-.369 0-.654-.1-.854-.31-.197-.205-.297-.493-.297-.868v-7.45zM36.214 24.098c.525 0 1.064-.15 1.619-.438.561-.292 1.098-.719 1.609-1.276v1.515h2.793V10.224h-2.793v10.38c-.26.297-.549.541-.859.735-.316.192-.576.288-.781.288-.262 0-.455-.072-.568-.221-.115-.143-.18-.377-.18-.698V10.224h-2.789v11.429c0 .815.164 1.424.488 1.828.33.41.812.617 1.461.617z"></path></symbol></svg></span>
+    <div class="off-canvas-wrapper">
+        <div class="off-canvas position-left" id="mobile_menu" data-off-canvas>
+            <a class="button close-menu" data-toggle="mobile_menu">Close</a>
+            <div class="mobile-menu-container">
+
+            </div>
+        </div>
+        <div class="off-canvas-content" data-off-canvas-content>
+            <!--[if IE]>
+              <div class="browser-alert">
+                You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.              </div>
+            <![endif]-->
+            <div class="header-sticky-container" data-sticky-container>
+    <div class="fixed">
+        <header class="sticky" data-sticky data-margin-top="0">
+            <div class="grid-container">
+            	<div class="grid-x grid-padding-x align-justify align-middle">
+            		<div class="small-6 large-2  cell">
+            			<a class="logo" href="https://www.albrightinternational.com/">
+            				<svg><use xlink:href="#albright-logo" /></svg>
+            			</a>
+            		</div>
+
+            		<div class="small-6 large-8 cell">
+                        <a class="button mobile-menu-button" data-open="mobile_menu">Menu</a>
+                        <div class="menu-container text-right">
+                            <div class="button-group">
+                                <!--                                     <p>Change Language:</p>
+                                    <select name="change_country" class="select_country">
+                                        <option selected="selected" class="gb" value="https://www.albrightinternational.com/wpcms">English</option><option  class="fr" value="https://www.albrightinternational.com/fr">French</option><option  class="de" value="https://www.albrightinternational.com/de">German</option><option  class="cn" value="https://www.albrightinternational.com/cn">Chinese</option><option  class="ja" value="https://www.albrightinternational.com/jp">Japanese</option>                                    </select>
+                                 -->
+                            </div>
+                            <div class="header-content">
+                    			<ul id="menu-main-menu" class="main-menu"><li id="menu-item-32083" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-32083"><a href="https://www.albrightinternational.com/">Home</a></li>
+<li id="menu-item-32084" class="menu-item menu-item-type-post_type_archive menu-item-object-alb-products menu-item-has-children menu-item-32084"><a href="https://www.albrightinternational.com/products/">Products</a>
+<ul class="sub-menu">
+	<li id="menu-item-32411" class="menu-item menu-item-type-post_type_archive menu-item-object-alb-products menu-item-32411"><a href="https://www.albrightinternational.com/products/">All Products</a></li>
+	<li id="menu-item-32105" class="menu-item menu-item-type-taxonomy menu-item-object-family menu-item-32105"><a href="https://www.albrightinternational.com/product_family/low-voltage-stud/">Low Voltage Stud</a></li>
+	<li id="menu-item-32104" class="menu-item menu-item-type-taxonomy menu-item-object-family menu-item-32104"><a href="https://www.albrightinternational.com/product_family/low-voltage-busbar/">Low Voltage Busbar</a></li>
+	<li id="menu-item-34337" class="menu-item menu-item-type-taxonomy menu-item-object-family menu-item-34337"><a href="https://www.albrightinternational.com/product_family/high-voltage/">High Voltage Stud</a></li>
+	<li id="menu-item-32244" class="menu-item menu-item-type-taxonomy menu-item-object-family menu-item-32244"><a href="https://www.albrightinternational.com/product_family/p-types/">P Types</a></li>
+	<li id="menu-item-32245" class="menu-item menu-item-type-taxonomy menu-item-object-family menu-item-32245"><a href="https://www.albrightinternational.com/product_family/motor-reversing/">Motor Reversing</a></li>
+	<li id="menu-item-32101" class="menu-item menu-item-type-taxonomy menu-item-object-family current-alb-products-ancestor current-menu-parent current-alb-products-parent menu-item-32101"><a href="https://www.albrightinternational.com/product_family/emergency-disconnect/">Emergency Disconnect</a></li>
+	<li id="menu-item-32103" class="menu-item menu-item-type-taxonomy menu-item-object-family menu-item-32103"><a href="https://www.albrightinternational.com/product_family/combined-disconnect/">Combined Disconnect</a></li>
+	<li id="menu-item-32106" class="menu-item menu-item-type-taxonomy menu-item-object-family menu-item-32106"><a href="https://www.albrightinternational.com/product_family/pc/">PC</a></li>
+	<li id="menu-item-33392" class="menu-item menu-item-type-taxonomy menu-item-object-family menu-item-33392"><a href="https://www.albrightinternational.com/product_family/1u/">1U</a></li>
+</ul>
+</li>
+<li id="menu-item-32146" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-32146"><a href="https://www.albrightinternational.com/services/">Services</a>
+<ul class="sub-menu">
+	<li id="menu-item-32119" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-32119"><a href="https://www.albrightinternational.com/services/design/">Design</a></li>
+	<li id="menu-item-32133" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-32133"><a href="https://www.albrightinternational.com/services/technical-support/">Technical Support</a></li>
+	<li id="menu-item-32153" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-32153"><a href="https://www.albrightinternational.com/services/bars/">BARS</a></li>
+	<li id="menu-item-32152" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-32152"><a href="https://www.albrightinternational.com/services/rma/">RMA</a></li>
+</ul>
+</li>
+<li id="menu-item-32099" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-32099"><a href="https://www.albrightinternational.com/about-albright/">About</a>
+<ul class="sub-menu">
+	<li id="menu-item-32269" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-32269"><a href="https://www.albrightinternational.com/history/">History</a></li>
+	<li id="menu-item-32315" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-32315"><a href="https://www.albrightinternational.com/corporate-responsibility/">Corporate Responsibility</a></li>
+	<li id="menu-item-33416" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-33416"><a href="https://www.albrightinternational.com/manufacture/">Manufacture</a></li>
+	<li id="menu-item-33417" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-33417"><a href="https://www.albrightinternational.com/environment/">Environment</a></li>
+	<li id="menu-item-33418" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-33418"><a href="https://www.albrightinternational.com/quality/">Quality</a></li>
+</ul>
+</li>
+<li id="menu-item-32109" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-has-children menu-item-32109"><a href="https://www.albrightinternational.com/news/">News</a>
+<ul class="sub-menu">
+	<li id="menu-item-32342" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-32342"><a href="https://www.albrightinternational.com/news/">All News</a></li>
+	<li id="menu-item-32341" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-32341"><a href="https://www.albrightinternational.com/exhibitions/">Exhibitions</a></li>
+	<li id="menu-item-32343" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-32343"><a href="https://www.albrightinternational.com/downloads/newsletter/">Newsletter</a></li>
+</ul>
+</li>
+<li id="menu-item-32086" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-32086"><a href="https://www.albrightinternational.com/downloads/">Downloads</a>
+<ul class="sub-menu">
+	<li id="menu-item-32252" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-32252"><a href="https://www.albrightinternational.com/downloads/application-form/">Application Form</a></li>
+	<li id="menu-item-32482" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-32482"><a href="https://www.albrightinternational.com/downloads/data-sheets/">Data Sheets</a></li>
+	<li id="menu-item-32483" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-32483"><a href="https://www.albrightinternational.com/downloads/series-catalogues/">Series Catalogues</a></li>
+	<li id="menu-item-32255" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-32255"><a href="https://www.albrightinternational.com/downloads/company-information/">Company Information</a></li>
+	<li id="menu-item-32256" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-32256"><a href="https://www.albrightinternational.com/downloads/newsletter/">Newsletter</a></li>
+	<li id="menu-item-32348" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-32348"><a href="https://www.albrightinternational.com/downloads/technical-bulletin/">Technical Bulletin</a></li>
+	<li id="menu-item-33203" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-33203"><a href="https://www.albrightinternational.com/downloads/catalogues-spares/">Spares Sheets</a></li>
+</ul>
+</li>
+<li id="menu-item-32088" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-32088"><a href="https://www.albrightinternational.com/glossary/">Glossary</a></li>
+<li id="menu-item-32089" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-32089"><a href="https://www.albrightinternational.com/standards/">Standards</a>
+<ul class="sub-menu">
+	<li id="menu-item-32257" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-32257"><a href="https://www.albrightinternational.com/standards/ccc/">CCC</a></li>
+	<li id="menu-item-32258" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-32258"><a href="https://www.albrightinternational.com/standards/iso14001/">ISO14001</a></li>
+	<li id="menu-item-32259" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-32259"><a href="https://www.albrightinternational.com/standards/iso9001/">ISO9001</a></li>
+	<li id="menu-item-32260" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-32260"><a href="https://www.albrightinternational.com/standards/iter/">ITER</a></li>
+	<li id="menu-item-32261" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-32261"><a href="https://www.albrightinternational.com/standards/materials-compliance/">Materials Compliance</a>
+	<ul class="sub-menu">
+		<li id="menu-item-32442" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-32442"><a href="https://www.albrightinternational.com/standards/materials-compliance/conflict-minerals/">Conflict Minerals</a></li>
+		<li id="menu-item-32443" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-32443"><a href="https://www.albrightinternational.com/standards/materials-compliance/reach/">REACH</a></li>
+		<li id="menu-item-32444" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-32444"><a href="https://www.albrightinternational.com/standards/materials-compliance/rohs/">RoHS</a></li>
+	</ul>
+</li>
+	<li id="menu-item-33327" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-33327"><a href="https://www.albrightinternational.com/standards/sa8000/">SA8000</a></li>
+	<li id="menu-item-32262" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-32262"><a href="https://www.albrightinternational.com/standards/ul/">UL</a></li>
+</ul>
+</li>
+<li id="menu-item-32090" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-32090"><a href="https://www.albrightinternational.com/contact/">Contact</a></li>
+</ul>                        </div>
+            		</div>
+            	</div>
+            </div>
+        </header>
+    </div>
+</div>
+            <div role="document">
+                <section class="product-title-container">
+    <div class="grid-container">
+        <div class="grid-x grid-padding-x">
+            <div class="cell small-12 text-center">
+                <h1>ED80</h1>                <h2>EMERGENCY DISCONNECT</h2>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="product-content-container">
+    <div class="grid-container">
+        <div class="grid-x grid-padding-x align-middle">
+            <div class="cell small-12 medium-4 large-6">
+                                    <ul class="product-gallery es-slick-carousel">
+                                                    <li><img src="https://www.albrightinternational.com/wpcms/wp-content/uploads/2016/07/ED80.jpg" /></li>
+                                            </ul>
+                            </div>
+            <div class="cell small-12 medium-8 large-6">
+                <p>The ED80 is a manually operated device with a simple over-centre spring mechanism which provides a snap action for both opening and closing the main contacts.  As with all our ED Disconnecting switches, the ED80 has been designed to provide rapid means of disconnecting batteries or other power supplies in the event of serious electrical faults.  The ED80 is suited for uninterrupted current loads.</p>
+<p>The ED80 is primarily intended for use with battery powered vehicles but is also suitable for use with static power systems.  It is capable of safely rupturing full load battery currents in the event of an emergency.  The ED80 is easy to install (see drilling details) and is secured with supplied M5 posidrive mounting screws.</p>
+<p><span style="color: #ff0000"><strong>Precautions:</strong></span></p>
+<p>The switch is to be used to rupture current in an emergency or as a no-load isolator.</p>
+<p><strong>Do not use as a regular On-Load Switching Device.</strong></p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="product-technical-information-container">
+    <div class="grid-container">
+        <div class="grid-x grid-padding-x">
+            <div class="cell small-12">
+                <div class="section-title">
+                    <h2>ED80 Technical Information </h2>
+                </div>
+            </div>
+        </div>
+        <div class="grid-x grid-padding-x">
+            <div class="cell small-12">
+                <div class="product-table-container">
+                    <table class="product-table">
+                        <thead class="top-header">
+                            <tr>
+                                <td class="td-title">Application</td>
+                                <td colspan="2"><div class="rating-titles"><span>Interrupted</span><span class="rating-title">Rating ( I<sub>th</sub> )</span><span>Uninterrupted</span></div></td>
+                            </tr>
+                        </thead>
+                        <tbody class="main-table-body">
+                            <tr>
+                                <td class="td-title">Thermal Current Rating</td>
+                                <td>-</td>
+                                <td>80A</td>
+                            </tr>
+                            <tr class="table-subheading">
+                                <td class="td-title" colspan="3">Intermittent Current Rating:  </td>
+                            </tr>
+                            <tr>
+                                <td class="td-title">30% Duty</td>
+                                <td>-</td>
+                                <td>145A</td>
+                            </tr>
+                            <tr>
+                                <td class="td-title">40% Duty</td>
+                                <td>-</td>
+                                <td>125A</td>
+                            </tr>
+                            <tr>
+                                <td class="td-title">50% Duty</td>
+                                <td>-</td>
+                                <td>115A</td>
+                            </tr>
+                            <tr>
+                                <td class="td-title">60% Duty</td>
+                                <td>-</td>
+                                <td>105A</td>
+                            </tr>
+                            <tr>
+                                <td class="td-title">70% Duty</td>
+                                <td>-</td>
+                                <td>95A</td>
+                            </tr>
+                            <tr class="table-subheading">
+                                <td class="td-title" colspan="3">Rated Fault Current Breaking Capacity (Icn) 5ms Time Constant:  <span> (In accordance with UL583*) </span></td>
+                            </tr>
+                            <tr>
+                                <td class="td-title">Blowouts</td>
+                                <td colspan="2">                                        -
+                                                                    </td>
+                            </tr>
+                            <tr>
+                                <td class="td-title">No Blowouts</td>
+                                <td colspan="2">
+                                    500A at 48V D.C.
+                                                                    </td>
+                            </tr>
+                            <tr class="table-subheading">
+                                <td class="td-title" colspan="3">Rated Fault Current Breaking Capacity (Icn) Resistive Load:  <span> (In accordance with UL508*) </span></td>
+                            </tr>
+                            <tr>
+                                <td class="td-title">Blowouts</td>
+                                <td colspan="2">
+                                                                            -
+                                                                </tr>
+                            <tr>
+                                <td class="td-title">No Blowouts</td>
+                                <td colspan="2">
+                                                                            -
+                                                                    </td>
+                            </tr>
+                            <tr class="table-subheading">
+                                <td class="td-title" colspan="3">Maximum Recommended Contact Voltages </td>
+                            </tr>
+                            <tr>
+                                <td class="td-title">Blowouts</td>
+                                <td>-</td>
+                                <td>-</td>
+                            </tr>
+                            <tr>
+                                <td class="td-title">No Blowouts</td>
+                                <td>-</td>
+                                <td>48V</td>
+                            </tr>
+                            <tr>
+                                <td class="td-title">Typical Voltage Drop per pole across New Contacts at 80A</td>
+                                <td colspan="2">40mV</td>
+                            </tr>
+                            <tr class="table-subheading">
+                                <td class="td-title" colspan="3"><p></p></td>
+                            </tr>
+                            <tr>
+                                <td class="td-title">Mechanical Durability</td>
+                                <td colspan="2"> > 10,000 Cycles</td>
+                            </tr>
+                            <tr>
+                                <td class="td-title">Coil Voltage Available (Us) (Rectifier board required for A.C.)</td>
+                                <td colspan="2">0 - 0V</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="product-features-container">
+    <div class="grid-container">
+        <div class="grid-x grid-padding-x">
+            <div class="cell small-12">
+                <div class="section-title">
+                    <h2>ED80 Features</h2>
+                </div>
+            </div>
+        </div>
+        <div class="grid-x grid-padding-x">
+            <div class="cell small-12">
+                <table class="features-table">
+                    <thead class="top-header">
+                        <tr>
+                            <th class="table-heading">
+                                Component                            </th>
+                            <th class="table-content">
+                                Configurations                            </th>
+                        </tr>
+                    </thead>
+                    <tbody class="main-table-body">
+                                            </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</section>
+    <section class="product-resources-container">
+        <div class="grid-container">
+            <div class="grid-x grid-padding-x">
+                <div class="cell small-12">
+                    <div class="section-title">
+                        <h2>%s Resources</h2>
+                    </div>
+                </div>
+                <div class="cell small-12">
+                                            <div class="panel small-padding">
+                            <div class="grid-x grid-padding-x align-middle">
+                                <div class="small-12 medium-4 large-6 cell">
+                                    <p class="download-title">ED80 Data Sheet</p>
+                                </div>
+                                <div class="small-12 medium-4 large-3 cell">
+                                    <ul class="file-details">
+                                        <li>Format: <strong>.pdf</strong></li>
+                                        <li>Size: <strong>764kb</strong></li>
+                                    </ul>
+                                </div>
+                                <div class="small-12 medium-4 large-3 cell">
+                                    <a href="https://www.albrightinternational.com/wpcms/wp-content/uploads/2024/10/ED80-Data-Sheet.pdf" class="button download-button">Download</a>
+                                </div>
+                            </div>
+                        </div>
+                                    </div>
+            </div>
+        </div>
+    </div>
+<section class="product-enquiry-form-container">
+    <div class="grid-container">
+        <div class="grid-x grid-padding-x align-center">
+            <div class="cell small-12 medium-10 large-8">
+                <div class="section-title">
+                    <h2></h2>
+                </div>
+                <div class="section-content"; ?>
+                    
+                <div class='gf_browser_unknown gform_wrapper gform_legacy_markup_wrapper gform-theme--no-framework' data-form-theme='legacy' data-form-index='0' id='gform_wrapper_3' ><div id='gf_3' class='gform_anchor' tabindex='-1'></div><form method='post' enctype='multipart/form-data'  id='gform_3'  action='/products/ed80-2/#gf_3' data-formid='3' novalidate>
+                        <div class='gform-body gform_body'><ul id='gform_fields_3' class='gform_fields top_label form_sublabel_below description_below validation_below'><li id="field_3_12" class="gfield gfield--type-hidden gform_hidden field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"  ><div class='ginput_container ginput_container_text'><input name='input_12' id='input_3_12' type='hidden' class='gform_hidden'  aria-invalid="false" value='ED80' /></div></li><li id="field_3_7" class="gfield gfield--type-text gfield_contains_required field_sublabel_below gfield--has-description field_description_below field_validation_below gfield_visibility_visible"  ><label class='gfield_label gform-field-label' for='input_3_7'><span class='gform-field-label__text'>Name</span><span class="gfield_required"><span class="gfield_required gfield_required_asterisk">*</span></span></label><div class='ginput_container ginput_container_text'><input name='input_7' id='input_3_7' type='text' value='' class='medium'  aria-describedby="gfield_description_3_7"   aria-required="true" aria-invalid="false"   /></div><div class='gfield_description' id='gfield_description_3_7'>Name</div></li><li id="field_3_8" class="gfield gfield--type-text gfield_contains_required field_sublabel_below gfield--has-description field_description_below field_validation_below gfield_visibility_visible"  ><label class='gfield_label gform-field-label' for='input_3_8'><span class='gform-field-label__text'>Company</span><span class="gfield_required"><span class="gfield_required gfield_required_asterisk">*</span></span></label><div class='ginput_container ginput_container_text'><input name='input_8' id='input_3_8' type='text' value='' class='medium'  aria-describedby="gfield_description_3_8"   aria-required="true" aria-invalid="false"   /></div><div class='gfield_description' id='gfield_description_3_8'>Company</div></li><li id="field_3_9" class="gfield gfield--type-text gfield_contains_required field_sublabel_below gfield--has-description field_description_below field_validation_below gfield_visibility_visible"  ><label class='gfield_label gform-field-label' for='input_3_9'><span class='gform-field-label__text'>Contact number</span><span class="gfield_required"><span class="gfield_required gfield_required_asterisk">*</span></span></label><div class='ginput_container ginput_container_text'><input name='input_9' id='input_3_9' type='text' value='' class='medium'  aria-describedby="gfield_description_3_9"   aria-required="true" aria-invalid="false"   /></div><div class='gfield_description' id='gfield_description_3_9'>Contact number</div></li><li id="field_3_10" class="gfield gfield--type-email gfield_contains_required field_sublabel_below gfield--has-description field_description_below field_validation_below gfield_visibility_visible"  ><label class='gfield_label gform-field-label' for='input_3_10'><span class='gform-field-label__text'>Email address</span><span class="gfield_required"><span class="gfield_required gfield_required_asterisk">*</span></span></label><div class='ginput_container ginput_container_email'>
+                            <input name='input_10' id='input_3_10' type='email' value='' class='medium'    aria-required="true" aria-invalid="false" aria-describedby="gfield_description_3_10" />
+                        </div><div class='gfield_description' id='gfield_description_3_10'>Email address</div></li><li id="field_3_14" class="gfield gfield--type-select select-box field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"  ><label class='gfield_label gform-field-label' for='input_3_14'><span class='gform-field-label__text'>Country</span></label><div class='ginput_container ginput_container_select'><select name='input_14' id='input_3_14' class='medium gfield_select'     aria-invalid="false" ><option value='Afghanistan' >Afghanistan</option><option value='Albania' >Albania</option><option value='Algeria' >Algeria</option><option value='American Samoa' >American Samoa</option><option value='Andorra' >Andorra</option><option value='Angola' >Angola</option><option value='Antigua and Barbuda' >Antigua and Barbuda</option><option value='Argentina' >Argentina</option><option value='Armenia' >Armenia</option><option value='Australia' >Australia</option><option value='Austria' >Austria</option><option value='Azerbaijan' >Azerbaijan</option><option value='Bahamas' >Bahamas</option><option value='Bahrain' >Bahrain</option><option value='Bangladesh' >Bangladesh</option><option value='Barbados' >Barbados</option><option value='Belarus' >Belarus</option><option value='Belgium' >Belgium</option><option value='Belize' >Belize</option><option value='Benin' >Benin</option><option value='Bermuda' >Bermuda</option><option value='Bhutan' >Bhutan</option><option value='Bolivia' >Bolivia</option><option value='Bosnia and Herzegovina' >Bosnia and Herzegovina</option><option value='Botswana' >Botswana</option><option value='Brazil' >Brazil</option><option value='Brunei' >Brunei</option><option value='Bulgaria' >Bulgaria</option><option value='Burkina Faso' >Burkina Faso</option><option value='Burundi' >Burundi</option><option value='Cambodia' >Cambodia</option><option value='Cameroon' >Cameroon</option><option value='Canada' >Canada</option><option value='Cape Verde' >Cape Verde</option><option value='Cayman Islands' >Cayman Islands</option><option value='Central African Republic' >Central African Republic</option><option value='Chad' >Chad</option><option value='Chile' >Chile</option><option value='China' >China</option><option value='Colombia' >Colombia</option><option value='Comoros' >Comoros</option><option value='Congo, Democratic Republic of the' >Congo, Democratic Republic of the</option><option value='Congo, Republic of the' >Congo, Republic of the</option><option value='Costa Rica' >Costa Rica</option><option value='Côte d&#039;Ivoire' >Côte d&#039;Ivoire</option><option value='Croatia' >Croatia</option><option value='Cuba' >Cuba</option><option value='Curaçao' >Curaçao</option><option value='Cyprus' >Cyprus</option><option value='Czech Republic' >Czech Republic</option><option value='Denmark' >Denmark</option><option value='Djibouti' >Djibouti</option><option value='Dominica' >Dominica</option><option value='Dominican Republic' >Dominican Republic</option><option value='East Timor' >East Timor</option><option value='Ecuador' >Ecuador</option><option value='Egypt' >Egypt</option><option value='El Salvador' >El Salvador</option><option value='Equatorial Guinea' >Equatorial Guinea</option><option value='Eritrea' >Eritrea</option><option value='Estonia' >Estonia</option><option value='Ethiopia' >Ethiopia</option><option value='Faroe Islands' >Faroe Islands</option><option value='Fiji' >Fiji</option><option value='Finland' >Finland</option><option value='France' >France</option><option value='French Polynesia' >French Polynesia</option><option value='Gabon' >Gabon</option><option value='Gambia' >Gambia</option><option value='Georgia' >Georgia</option><option value='Germany' >Germany</option><option value='Ghana' >Ghana</option><option value='Greece' >Greece</option><option value='Greenland' >Greenland</option><option value='Grenada' >Grenada</option><option value='Guam' >Guam</option><option value='Guatemala' >Guatemala</option><option value='Guinea' >Guinea</option><option value='Guinea-Bissau' >Guinea-Bissau</option><option value='Guyana' >Guyana</option><option value='Haiti' >Haiti</option><option value='Honduras' >Honduras</option><option value='Hong Kong' >Hong Kong</option><option value='Hungary' >Hungary</option><option value='Iceland' >Iceland</option><option value='India' >India</option><option value='Indonesia' >Indonesia</option><option value='Iran' >Iran</option><option value='Iraq' >Iraq</option><option value='Ireland' >Ireland</option><option value='Israel' >Israel</option><option value='Italy' >Italy</option><option value='Jamaica' >Jamaica</option><option value='Japan' >Japan</option><option value='Jordan' >Jordan</option><option value='Kazakhstan' >Kazakhstan</option><option value='Kenya' >Kenya</option><option value='Kiribati' >Kiribati</option><option value='North Korea' >North Korea</option><option value='South Korea' >South Korea</option><option value='Kosovo' >Kosovo</option><option value='Kuwait' >Kuwait</option><option value='Kyrgyzstan' >Kyrgyzstan</option><option value='Laos' >Laos</option><option value='Latvia' >Latvia</option><option value='Lebanon' >Lebanon</option><option value='Lesotho' >Lesotho</option><option value='Liberia' >Liberia</option><option value='Libya' >Libya</option><option value='Liechtenstein' >Liechtenstein</option><option value='Lithuania' >Lithuania</option><option value='Luxembourg' >Luxembourg</option><option value='Macedonia' >Macedonia</option><option value='Madagascar' >Madagascar</option><option value='Malawi' >Malawi</option><option value='Malaysia' >Malaysia</option><option value='Maldives' >Maldives</option><option value='Mali' >Mali</option><option value='Malta' >Malta</option><option value='Marshall Islands' >Marshall Islands</option><option value='Mauritania' >Mauritania</option><option value='Mauritius' >Mauritius</option><option value='Mexico' >Mexico</option><option value='Micronesia' >Micronesia</option><option value='Moldova' >Moldova</option><option value='Monaco' >Monaco</option><option value='Mongolia' >Mongolia</option><option value='Montenegro' >Montenegro</option><option value='Morocco' >Morocco</option><option value='Mozambique' >Mozambique</option><option value='Myanmar' >Myanmar</option><option value='Namibia' >Namibia</option><option value='Nauru' >Nauru</option><option value='Nepal' >Nepal</option><option value='Netherlands' >Netherlands</option><option value='New Zealand' >New Zealand</option><option value='Nicaragua' >Nicaragua</option><option value='Niger' >Niger</option><option value='Nigeria' >Nigeria</option><option value='Northern Mariana Islands' >Northern Mariana Islands</option><option value='Norway' >Norway</option><option value='Oman' >Oman</option><option value='Pakistan' >Pakistan</option><option value='Palau' >Palau</option><option value='Palestine, State of' >Palestine, State of</option><option value='Panama' >Panama</option><option value='Papua New Guinea' >Papua New Guinea</option><option value='Paraguay' >Paraguay</option><option value='Peru' >Peru</option><option value='Philippines' >Philippines</option><option value='Poland' >Poland</option><option value='Portugal' >Portugal</option><option value='Puerto Rico' >Puerto Rico</option><option value='Qatar' >Qatar</option><option value='Romania' >Romania</option><option value='Russia' >Russia</option><option value='Rwanda' >Rwanda</option><option value='Saint Kitts and Nevis' >Saint Kitts and Nevis</option><option value='Saint Lucia' >Saint Lucia</option><option value='Saint Vincent and the Grenadines' >Saint Vincent and the Grenadines</option><option value='Saint Martin' >Saint Martin</option><option value='Samoa' >Samoa</option><option value='San Marino' >San Marino</option><option value='Sao Tome and Principe' >Sao Tome and Principe</option><option value='Saudi Arabia' >Saudi Arabia</option><option value='Senegal' >Senegal</option><option value='Serbia' >Serbia</option><option value='Seychelles' >Seychelles</option><option value='Sierra Leone' >Sierra Leone</option><option value='Singapore' >Singapore</option><option value='Sint Maarten' >Sint Maarten</option><option value='Slovakia' >Slovakia</option><option value='Slovenia' >Slovenia</option><option value='Solomon Islands' >Solomon Islands</option><option value='Somalia' >Somalia</option><option value='South Africa' >South Africa</option><option value='Spain' >Spain</option><option value='Sri Lanka' >Sri Lanka</option><option value='Sudan' >Sudan</option><option value='Sudan, South' >Sudan, South</option><option value='Suriname' >Suriname</option><option value='Swaziland' >Swaziland</option><option value='Sweden' >Sweden</option><option value='Switzerland' >Switzerland</option><option value='Syria' >Syria</option><option value='Taiwan' >Taiwan</option><option value='Tajikistan' >Tajikistan</option><option value='Tanzania' >Tanzania</option><option value='Thailand' >Thailand</option><option value='Togo' >Togo</option><option value='Tonga' >Tonga</option><option value='Trinidad and Tobago' >Trinidad and Tobago</option><option value='Tunisia' >Tunisia</option><option value='Turkey' >Turkey</option><option value='Turkmenistan' >Turkmenistan</option><option value='Tuvalu' >Tuvalu</option><option value='Uganda' >Uganda</option><option value='Ukraine' >Ukraine</option><option value='United Arab Emirates' >United Arab Emirates</option><option value='United Kingdom' selected='selected'>United Kingdom</option><option value='United States' >United States</option><option value='Uruguay' >Uruguay</option><option value='Uzbekistan' >Uzbekistan</option><option value='Vanuatu' >Vanuatu</option><option value='Vatican City' >Vatican City</option><option value='Venezuela' >Venezuela</option><option value='Vietnam' >Vietnam</option><option value='Virgin Islands, British' >Virgin Islands, British</option><option value='Virgin Islands, U.S.' >Virgin Islands, U.S.</option><option value='Yemen' >Yemen</option><option value='Zambia' >Zambia</option><option value='Zimbabwe' >Zimbabwe</option></select></div></li><li id="field_3_11" class="gfield gfield--type-textarea message-box gfield_contains_required field_sublabel_below gfield--has-description field_description_below field_validation_below gfield_visibility_visible"  ><label class='gfield_label gform-field-label' for='input_3_11'><span class='gform-field-label__text'>Your message</span><span class="gfield_required"><span class="gfield_required gfield_required_asterisk">*</span></span></label><div class='ginput_container ginput_container_textarea'><textarea name='input_11' id='input_3_11' class='textarea medium'  aria-describedby="gfield_description_3_11"   aria-required="true" aria-invalid="false"   rows='10' cols='50'></textarea></div><div class='gfield_description' id='gfield_description_3_11'>Your message</div></li><li id="field_3_13" class="gfield gfield--type-html gfield_html gfield_html_formatted field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"  ><h4>The ED80 has the following optional components available:</h4></li><li id="field_3_1" class="gfield gfield--type-select gfield_contains_required field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"  ><label class='gfield_label gform-field-label' for='input_3_1'><span class='gform-field-label__text'>Auxiliary</span><span class="gfield_required"><span class="gfield_required gfield_required_asterisk">*</span></span></label><div class='ginput_container ginput_container_select'><select name='input_1' id='input_3_1' class='medium gfield_select'    aria-required="true" aria-invalid="false" ><option value='None' >None</option></select></div></li><li id="field_3_2" class="gfield gfield--type-select gfield_contains_required field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"  ><label class='gfield_label gform-field-label' for='input_3_2'><span class='gform-field-label__text'>Fixed Contact Terminal</span><span class="gfield_required"><span class="gfield_required gfield_required_asterisk">*</span></span></label><div class='ginput_container ginput_container_select'><select name='input_2' id='input_3_2' class='medium gfield_select'    aria-required="true" aria-invalid="false" ><option value='None' >None</option></select></div></li><li id="field_3_3" class="gfield gfield--type-select gfield_contains_required field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"  ><label class='gfield_label gform-field-label' for='input_3_3'><span class='gform-field-label__text'>Coil Suppression</span><span class="gfield_required"><span class="gfield_required gfield_required_asterisk">*</span></span></label><div class='ginput_container ginput_container_select'><select name='input_3' id='input_3_3' class='medium gfield_select'    aria-required="true" aria-invalid="false" ><option value='None' >None</option></select></div></li><li id="field_3_4" class="gfield gfield--type-select gfield_contains_required field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"  ><label class='gfield_label gform-field-label' for='input_3_4'><span class='gform-field-label__text'>Mounting Options</span><span class="gfield_required"><span class="gfield_required gfield_required_asterisk">*</span></span></label><div class='ginput_container ginput_container_select'><select name='input_4' id='input_3_4' class='medium gfield_select'    aria-required="true" aria-invalid="false" ><option value='None' >None</option></select></div></li><li id="field_3_5" class="gfield gfield--type-select gfield_contains_required field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"  ><label class='gfield_label gform-field-label' for='input_3_5'><span class='gform-field-label__text'>Coil Terminations</span><span class="gfield_required"><span class="gfield_required gfield_required_asterisk">*</span></span></label><div class='ginput_container ginput_container_select'><select name='input_5' id='input_3_5' class='medium gfield_select'    aria-required="true" aria-invalid="false" ><option value='None' >None</option></select></div></li></ul></div>
+        <div class='gform-footer gform_footer top_label'> <button type='submit' id='gform_submit_button_3' class='gform_button button' onclick='gform.submission.handleButtonClick(this);' data-submission-type='submit' >Submit</button> 
+            <input type='hidden' class='gform_hidden' name='gform_submission_method' data-js='gform_submission_method_3' value='postback' />
+            <input type='hidden' class='gform_hidden' name='gform_theme' data-js='gform_theme_3' id='gform_theme_3' value='legacy' />
+            <input type='hidden' class='gform_hidden' name='gform_style_settings' data-js='gform_style_settings_3' id='gform_style_settings_3' value='[]' />
+            <input type='hidden' class='gform_hidden' name='is_submit_3' value='1' />
+            <input type='hidden' class='gform_hidden' name='gform_submit' value='3' />
+            
+            <input type='hidden' class='gform_hidden' name='gform_currency' data-currency='USD' value='5VTnd2zNHeH+TKUTherVegLSy5MVmXuHSUHm934VwkX8xpS9uffz59mgrqZrkVISFn/1+hhGGcKNoJbqLCZS1/BmpxGZxTelmovYmUYHYhIHzZs=' />
+            <input type='hidden' class='gform_hidden' name='gform_unique_id' value='' />
+            <input type='hidden' class='gform_hidden' name='state_3' value='WyJ7XCJnZm9ybV9zdWJtaXNzaW9uX21ldGhvZFwiOltcIjkzODE4NmVjNmY2NzVjNzczYzJmYzA4N2M5YTM1NWZhXCIsXCIwYjJiNjU2M2NmZDEzNDJiNTkwN2QzNTFiZjlkNzlkMVwiXSxcImdmb3JtX3RoZW1lXCI6XCJlOTU2NWNmMWJiNDg1YTMzMDFkZGEzMmQ0ZDMwMjI2YVwiLFwiZ2Zvcm1fc3R5bGVfc2V0dGluZ3NcIjpcIjEwODNjMjhjYzQ2N2FhNDJmNGUwMjZlMTg0NmMwMDEyXCIsXCJmb3JtX2lkXCI6XCIyYmRjMTgzYjk2M2U5ZWIwYzRjNzYzNTI5MmI1MmNiMFwiLFwidXJsXCI6XCJjYjk2ZjRjZDRkNGY5YjJhMzhlOTFlNmRmMjE5MzI0NFwiLFwic3RhdGVfdGltZXN0YW1wXCI6XCJlOGNjYzAwN2E1NzRhNjc1NmE0ZDFlY2NmM2VkMGNjMFwifSIsIjY1ZWZhMDI4NDU4ZTViMmFjODcyMzQzOGNiYjZjYzQ1IiwxNzkxOTk4OTMzXQ==' />
+            <input type='hidden' autocomplete='off' class='gform_hidden' name='gform_target_page_number_3' id='gform_target_page_number_3' value='0' />
+            <input type='hidden' autocomplete='off' class='gform_hidden' name='gform_source_page_number_3' id='gform_source_page_number_3' value='1' />
+            <input type='hidden' name='gform_field_values' value='' />
+            
+        </div>
+                        </form>
+                        </div>                </div>
+            </div>
+        </div>
+    </div>
+</section>
+            </div>
+            
+<footer>
+    <div class="grid-container">
+    	<div class="grid-x grid-padding-x align-justify">
+    		<div class="small-12 medium-8 large-7 cell">
+    			<div class="row social">
+	<div class="cell small-12">
+		<ul class="list--inline">
+                            <li>
+                    <a href="mailto:sales@albrightinternational.com" class="social__icon social__icon--email">
+                        <svg><use xlink:href="#social_email" /></svg>
+                        sales@albrightinternational.com                    </a>
+                </li>
+                            <li>
+                    <a href="tel:+44 (0) 1256 890030" class="social__icon social__icon--phone">
+                        <svg><use xlink:href="#social_phone" /></svg>
+                        +44 (0) 1256 890030                    </a>
+                </li>
+            		</ul>
+        <ul class="list--inline">
+                            <li>
+                    <a href="mailto:technical@albrightinternational.com" class="social__icon social__icon--email">
+                        <svg><use xlink:href="#social_email" /></svg>
+                        technical@albrightinternational.com                    </a>
+                </li>
+                            <li>
+                    <a href="tel:+44 (0) 1256 893060" class="social__icon social__icon--phone">
+                        <svg><use xlink:href="#social_phone" /></svg>
+                        +44 (0) 1256 893060                    </a>
+                </li>
+            		</ul>
+	</div>
+</div>
+                <p>UK Business Hours, Mon - Thu: 8:30 - 16:45 | Fri: 8:30 - 15:30</p>
+    		</div>
+            <div class="small-12 medium-4 large-3 cell text-right">
+                                    <a href="https://www.albrightinternational.com/contact/" class="button button-cta">Contact Us</a>
+                                <a href="https://www.linkedin.com/company/albright-international/" target="_blank"><svg class="linkedin"><use xlink:href="#social_linkedin" /></svg></a>
+            </div>
+    	</div>
+    </div>
+    <div class="sub-footer">
+        <div class="grid-container">
+        	<div class="grid-x grid-padding-x align-justify align-middle">
+        		<div class="large-1 cell">
+        			<svg class="logo"><use xlink:href="#albright-logo-white" /></svg>
+        		</div>
+                <div class="large-7 cell">
+                    <ul id="menu-footer-menu" class="footer-menu"><li id="menu-item-32138" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-32138"><a href="https://www.albrightinternational.com/">Home</a></li>
+<li id="menu-item-32141" class="menu-item menu-item-type-post_type_archive menu-item-object-alb-products menu-item-32141"><a href="https://www.albrightinternational.com/products/">Products</a></li>
+<li id="menu-item-32139" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-32139"><a href="https://www.albrightinternational.com/contact/">Contact</a></li>
+<li id="menu-item-32140" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-32140"><a href="https://www.albrightinternational.com/about-albright/">About</a></li>
+<li id="menu-item-32277" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-32277"><a href="https://www.albrightinternational.com/site-map/">Site Map</a></li>
+</ul>                </div>
+        	</div>
+        </div>
+    </div>
+    <div class="grid-container">
+    	<div class="grid-x grid-padding-x">
+    		<div class="medium-6 cell footer__copy small-text-center medium-text-left">
+    			<p>Albright &copy; 2026 | All rights reserved</p>
+    		</div>
+    		<div class="medium-6 cell footer__site-by small-text-center medium-text-right">
+            <a href="https://hexagonwebworks.com" title="Hexagon Webworks" target="_blank">Website by Hexagon</a>
+            </div>
+    	</div>
+    </div>
+</footer>
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wpcms/wp-*.php","/wpcms/wp-admin/*","/wpcms/wp-content/uploads/*","/wpcms/wp-content/*","/wpcms/wp-content/plugins/*","/wpcms/wp-content/themes/albright-2018/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<script type="text/javascript" id="escn_script-js-extra">
+/* <![CDATA[ */
+var ESCN_CONFIG = {"admin_url":"https://www.albrightinternational.com/wpcms/wp-admin/admin-ajax.php","nonce":"bddc53d412"};
+//# sourceURL=escn_script-js-extra
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.albrightinternational.com/wpcms/wp-content/plugins/es-cookie-notice/js/escn-functions.js?ver=1" id="escn_script-js"></script>
+<script type="text/javascript" id="main-js-extra">
+/* <![CDATA[ */
+var ES = {"ajax_url":"https://www.albrightinternational.com/wpcms/wp-admin/admin-ajax.php","nonce":"9f6b692d85","theme_url":"https://www.albrightinternational.com/wpcms/wp-content/themes/albright-2018/","url":"https://www.albrightinternational.com/"};
+//# sourceURL=main-js-extra
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.albrightinternational.com/wpcms/wp-content/themes/albright-2018/assets/build/js/all.js?ver=1" id="main-js"></script>
+<script type="text/javascript" src="https://www.albrightinternational.com/wpcms/wp-includes/js/dist/dom-ready.js?ver=e8a78afc9e733da0e68c" id="wp-dom-ready-js"></script>
+<script type="text/javascript" src="https://www.albrightinternational.com/wpcms/wp-includes/js/dist/hooks.js?ver=220ff17f5667d013d468" id="wp-hooks-js"></script>
+<script type="text/javascript" src="https://www.albrightinternational.com/wpcms/wp-includes/js/dist/i18n.js?ver=6b3ae5bd3b8d9598492d" id="wp-i18n-js"></script>
+<script type="text/javascript" id="wp-i18n-js-after">
+/* <![CDATA[ */
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+//# sourceURL=wp-i18n-js-after
+/* ]]> */
+</script>
+<script type="text/javascript" id="wp-a11y-js-translations">
+/* <![CDATA[ */
+( function( domain, translations ) {
+	var localeData = translations.locale_data[ domain ] || translations.locale_data.messages;
+	localeData[""].domain = domain;
+	wp.i18n.setLocaleData( localeData, domain );
+} )( "default", {"translation-revision-date":"2026-09-17 20:15:18+0000","generator":"GlotPress\/4.1.0","domain":"messages","locale_data":{"messages":{"":{"domain":"messages","plural-forms":"nplurals=2; plural=n != 1;","lang":"en_GB"},"Notifications":["Notifications"]}},"comment":{"reference":"wp-includes\/js\/dist\/a11y.js"}} );
+//# sourceURL=wp-a11y-js-translations
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.albrightinternational.com/wpcms/wp-includes/js/dist/a11y.js?ver=454e8a3cffdca128c277" id="wp-a11y-js"></script>
+<script type="text/javascript" defer='defer' src="https://www.albrightinternational.com/wpcms/wp-content/plugins/gravityforms/js/jquery.json.js?ver=3.1.3" id="gform_json-js"></script>
+<script type="text/javascript" id="gform_gravityforms-js-extra">
+/* <![CDATA[ */
+var gform_i18n = {"datepicker":{"wdOffset":1,"helpTextShort":"Press F1 for help","helpText":"Press the arrow keys to navigate by day, PageUp and PageDown to navigate by month, Alt+PageUp and Alt+PageDown to navigate by year, or Escape to cancel.","openOnFocusHelpText":"Press Down arrow to browse the calendar, or Escape to close.","tooltipTxt":"Press Escape to cancel","disabledTxt":"Disabled","markedTxt":"Selected","prevTxt":"Previous","nextTxt":"Next","monthTxt":"Month","yearTxt":"Year","months":["January","February","March","April","May","June","July","August","September","October","November","December"],"days":[{"s":"S","l":"Sunday"},{"s":"M","l":"Monday"},{"s":"T","l":"Tuesday"},{"s":"W","l":"Wednesday"},{"s":"T","l":"Thursday"},{"s":"F","l":"Friday"},{"s":"S","l":"Saturday"}]}};
+var gf_legacy_multi = [];
+var gform_gravityforms = {"strings":{"invalid_file_extension":"This type of file is not allowed. Must be one of the following:","file_uploaded":"File uploaded","delete_file":"Delete this file","in_progress":"in progress","file_exceeds_limit":"File exceeds size limit","illegal_extension":"This type of file is not allowed.","max_reached":"Maximum number of files reached","unknown_error":"There was a problem while saving the file on the server","currently_uploading":"Please wait for the uploading to complete","cancel":"Cancel","cancel_upload":"Cancel this upload","cancelled":"Cancelled","error":"Error","message":"Message"},"vars":{"images_url":"https://www.albrightinternational.com/wpcms/wp-content/plugins/gravityforms/images"}};
+var gf_global = {"gf_currency_config":{"name":"U.S. Dollar","symbol_left":"$","symbol_right":"","symbol_padding":"","thousand_separator":",","decimal_separator":".","decimals":2,"code":"USD"},"base_url":"https://www.albrightinternational.com/wpcms/wp-content/plugins/gravityforms","number_formats":[],"version_hash":"e22414c3afe69c58f3cd989bcc54aadf","countries":{"AF":"Afghanistan","AX":"\u00c5land Islands","AL":"Albania","DZ":"Algeria","AS":"American Samoa","AD":"Andorra","AO":"Angola","AI":"Anguilla","AQ":"Antarctica","AG":"Antigua and Barbuda","AR":"Argentina","AM":"Armenia","AW":"Aruba","AU":"Australia","AT":"Austria","AZ":"Azerbaijan","BS":"Bahamas","BH":"Bahrain","BD":"Bangladesh","BB":"Barbados","BY":"Belarus","BE":"Belgium","BZ":"Belize","BJ":"Benin","BM":"Bermuda","BT":"Bhutan","BO":"Bolivia","BQ":"Bonaire, Sint Eustatius and Saba","BA":"Bosnia and Herzegovina","BW":"Botswana","BV":"Bouvet Island","BR":"Brazil","IO":"British Indian Ocean Territory","BN":"Brunei Darussalam","BG":"Bulgaria","BF":"Burkina Faso","BI":"Burundi","CV":"Cape Verde","KH":"Cambodia","CM":"Cameroon","CA":"Canada","KY":"Cayman Islands","CF":"Central African Republic","TD":"Chad","CL":"Chile","CN":"China","CX":"Christmas Island","CC":"Cocos Islands","CO":"Colombia","KM":"Comoros","CD":"Congo, Democratic Republic of the","CG":"Congo","CK":"Cook Islands","CR":"Costa Rica","CI":"C\u00f4te d'Ivoire","HR":"Croatia","CU":"Cuba","CW":"Cura\u00e7ao","CY":"Cyprus","CZ":"Czechia","DK":"Denmark","DJ":"Djibouti","DM":"Dominica","DO":"Dominican Republic","EC":"Ecuador","EG":"Egypt","SV":"El Salvador","GQ":"Equatorial Guinea","ER":"Eritrea","EE":"Estonia","SZ":"Eswatini","ET":"Ethiopia","FK":"Falkland Islands","FO":"Faroe Islands","FJ":"Fiji","FI":"Finland","FR":"France","GF":"French Guiana","PF":"French Polynesia","TF":"French Southern Territories","GA":"Gabon","GM":"Gambia","GE":"Georgia","DE":"Germany","GH":"Ghana","GI":"Gibraltar","GR":"Greece","GL":"Greenland","GD":"Grenada","GP":"Guadeloupe","GU":"Guam","GT":"Guatemala","GG":"Guernsey","GN":"Guinea","GW":"Guinea-Bissau","GY":"Guyana","HT":"Haiti","HM":"Heard Island and McDonald Islands","VA":"Holy See","HN":"Honduras","HK":"Hong Kong","HU":"Hungary","IS":"Iceland","IN":"India","ID":"Indonesia","IR":"Iran","IQ":"Iraq","IE":"Ireland","IM":"Isle of Man","IL":"Israel","IT":"Italy","JM":"Jamaica","JP":"Japan","JE":"Jersey","JO":"Jordan","KZ":"Kazakhstan","KE":"Kenya","KI":"Kiribati","KP":"Korea, Democratic People's Republic of","KR":"Korea, Republic of","KW":"Kuwait","KG":"Kyrgyzstan","LA":"Lao People's Democratic Republic","LV":"Latvia","LB":"Lebanon","LS":"Lesotho","LR":"Liberia","LY":"Libya","LI":"Liechtenstein","LT":"Lithuania","LU":"Luxembourg","MO":"Macao","MG":"Madagascar","MW":"Malawi","MY":"Malaysia","MV":"Maldives","ML":"Mali","MT":"Malta","MH":"Marshall Islands","MQ":"Martinique","MR":"Mauritania","MU":"Mauritius","YT":"Mayotte","MX":"Mexico","FM":"Micronesia","MD":"Moldova","MC":"Monaco","MN":"Mongolia","ME":"Montenegro","MS":"Montserrat","MA":"Morocco","MZ":"Mozambique","MM":"Myanmar","NA":"Namibia","NR":"Nauru","NP":"Nepal","NL":"Netherlands","NC":"New Caledonia","NZ":"New Zealand","NI":"Nicaragua","NE":"Niger","NG":"Nigeria","NU":"Niue","NF":"Norfolk Island","MK":"North Macedonia","MP":"Northern Mariana Islands","NO":"Norway","OM":"Oman","PK":"Pakistan","PW":"Palau","PS":"Palestine, State of","PA":"Panama","PG":"Papua New Guinea","PY":"Paraguay","PE":"Peru","PH":"Philippines","PN":"Pitcairn","PL":"Poland","PT":"Portugal","PR":"Puerto Rico","QA":"Qatar","RE":"R\u00e9union","RO":"Romania","RU":"Russian Federation","RW":"Rwanda","BL":"Saint Barth\u00e9lemy","SH":"Saint Helena, Ascension and Tristan da Cunha","KN":"Saint Kitts and Nevis","LC":"Saint Lucia","MF":"Saint Martin","PM":"Saint Pierre and Miquelon","VC":"Saint Vincent and the Grenadines","WS":"Samoa","SM":"San Marino","ST":"Sao Tome and Principe","SA":"Saudi Arabia","SN":"Senegal","RS":"Serbia","SC":"Seychelles","SL":"Sierra Leone","SG":"Singapore","SX":"Sint Maarten","SK":"Slovakia","SI":"Slovenia","SB":"Solomon Islands","SO":"Somalia","ZA":"South Africa","GS":"South Georgia and the South Sandwich Islands","SS":"South Sudan","ES":"Spain","LK":"Sri Lanka","SD":"Sudan","SR":"Suriname","SJ":"Svalbard and Jan Mayen","SE":"Sweden","CH":"Switzerland","SY":"Syria Arab Republic","TW":"Taiwan","TJ":"Tajikistan","TZ":"Tanzania, the United Republic of","TH":"Thailand","TL":"Timor-Leste","TG":"Togo","TK":"Tokelau","TO":"Tonga","TT":"Trinidad and Tobago","TN":"Tunisia","TR":"T\u00fcrkiye","TM":"Turkmenistan","TC":"Turks and Caicos Islands","TV":"Tuvalu","UG":"Uganda","UA":"Ukraine","AE":"United Arab Emirates","GB":"United Kingdom","US":"United States","UY":"Uruguay","UM":"US Minor Outlying Islands","UZ":"Uzbekistan","VU":"Vanuatu","VE":"Venezuela","VN":"Viet Nam","VG":"Virgin Islands, British","VI":"Virgin Islands, U.S.","WF":"Wallis and Futuna","EH":"Western Sahara","YE":"Yemen","ZM":"Zambia","ZW":"Zimbabwe"},"strings":{"newRowAdded":"New row added.","rowRemoved":"Row removed","formSaved":"The form has been saved.  The content contains the link to return and complete the form."}};
+//# sourceURL=gform_gravityforms-js-extra
+/* ]]> */
+</script>
+<script type="text/javascript" defer='defer' src="https://www.albrightinternational.com/wpcms/wp-content/plugins/gravityforms/js/gravityforms.js?ver=3.1.3" id="gform_gravityforms-js"></script>
+<script type="text/javascript" defer='defer' src="https://www.albrightinternational.com/wpcms/wp-content/plugins/gravityforms/js/chosen.jquery.min.js?ver=3.1.3" id="gform_chosen-js"></script>
+<script type="text/javascript" defer='defer' src="https://www.albrightinternational.com/wpcms/wp-content/plugins/gravityforms/assets/js/dist/utils.min.js?ver=d7e103405223e60d2719f4c330fd11cf" id="gform_gravityforms_utils-js"></script>
+<script type="text/javascript" defer='defer' src="https://www.albrightinternational.com/wpcms/wp-content/plugins/gravityforms/assets/js/dist/vendor-theme.min.js?ver=0c901cb641ce64b99c20ea1a4d208cc9" id="gform_gravityforms_theme_vendors-js"></script>
+<script type="text/javascript" id="gform_gravityforms_theme-js-extra">
+/* <![CDATA[ */
+var gform_theme_config = {"common":{"form":{"honeypot":{"version_hash":"e22414c3afe69c58f3cd989bcc54aadf"},"ajax":{"ajaxurl":"https://www.albrightinternational.com/wpcms/wp-admin/admin-ajax.php","ajax_submission_nonce":"0c1b266333","i18n":{"step_announcement":"Step %1$s of %2$s, %3$s","unknown_error":"There was an unknown error processing your request. Please try again.","error_403":"The request was blocked (403 error) for unknown security reasons. Remove any code-like text (scripts or DB queries) and try again."}}}},"hmr_dev":"","public_path":"https://www.albrightinternational.com/wpcms/wp-content/plugins/gravityforms/assets/js/dist/","config_nonce":"2ffe00bb87"};
+//# sourceURL=gform_gravityforms_theme-js-extra
+/* ]]> */
+</script>
+<script type="text/javascript" defer='defer' src="https://www.albrightinternational.com/wpcms/wp-content/plugins/gravityforms/assets/js/dist/scripts-theme.min.js?ver=373fcf115e257ba62fdd1a205717b981" id="gform_gravityforms_theme-js"></script>
+<script type='text/javascript'>var gfZeroSpamConfig = {"forms":[{"ajaxUrl":"https:\/\/www.albrightinternational.com\/wpcms\/wp-admin\/admin-ajax.php","fallbackToken":"M3wxNzkxOTk4OTMzfDE3OTI2MDM3MzN8YmQwNTVhYTU4OWYwMmRlMzljNmM4YjI3YmU0ODBjZGF8MQ.NjY1MWVmYzZhOWMyM2Y0MmMwN2E4OGJkMzJkYzJiYmE0ZDAwZjI5NWFmN2MyMWY5MTMzM2M0MTgwNzMwMWRmOQ","formId":3,"timeout":3000}],"debug":false};</script>
+<script type="text/javascript" defer='defer' src="https://www.albrightinternational.com/wpcms/wp-content/plugins/gravity-forms-zero-spam/dist/js/gf-zero-spam.js?ver=1790018465" id="gf-zero-spam-js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+ gform.initializeOnLoaded( function() { jQuery(document).on('gform_post_render', function(event, formId, currentPage){if(formId == 3) {gformInitChosenFields('#input_3_1,#input_3_2,#input_3_3,#input_3_4,#input_3_5','No results matched');} } );jQuery(document).on('gform_post_conditional_logic', function(event, formId, fields, isInit){gformInitChosenFields('#input_3_1,#input_3_2,#input_3_3,#input_3_4,#input_3_5','No results matched');} ) } ); 
+/* ]]> */
+</script>
+<script type="text/javascript">
+/* <![CDATA[ */
+ gform.initializeOnLoaded( function() {jQuery(document).trigger("gform_pre_post_render", [{ formId: "3", currentPage: "1", abort: function() { this.preventDefault(); } }]);        if (event && event.defaultPrevented) {                return;        }        const gformWrapperDiv = document.getElementById( "gform_wrapper_3" );        if ( gformWrapperDiv ) {            const visibilitySpan = document.createElement( "span" );            visibilitySpan.id = "gform_visibility_test_3";            gformWrapperDiv.insertAdjacentElement( "afterend", visibilitySpan );        }        const visibilityTestDiv = document.getElementById( "gform_visibility_test_3" );        let postRenderFired = false;        function triggerPostRender() {            if ( postRenderFired ) {                return;            }            postRenderFired = true;            gform.core.triggerPostRenderEvents( 3, 1 );            if ( visibilityTestDiv ) {                visibilityTestDiv.parentNode.removeChild( visibilityTestDiv );            }        }        function debounce( func, wait, immediate ) {            var timeout;            return function() {                var context = this, args = arguments;                var later = function() {                    timeout = null;                    if ( !immediate ) func.apply( context, args );                };                var callNow = immediate && !timeout;                clearTimeout( timeout );                timeout = setTimeout( later, wait );                if ( callNow ) func.apply( context, args );            };        }        const debouncedTriggerPostRender = debounce( function() {            triggerPostRender();        }, 200 );        if ( visibilityTestDiv && visibilityTestDiv.offsetParent === null ) {            const observer = new MutationObserver( ( mutations ) => {                mutations.forEach( ( mutation ) => {                    if ( mutation.type === 'attributes' && visibilityTestDiv.offsetParent !== null ) {                        debouncedTriggerPostRender();                        observer.disconnect();                    }                });            });            observer.observe( document.body, {                attributes: true,                childList: false,                subtree: true,                attributeFilter: [ 'style', 'class' ],            });        } else {            triggerPostRender();        }    } ); 
+/* ]]> */
+</script>
+        </div>
+    </div>
+  </body>
+</html>

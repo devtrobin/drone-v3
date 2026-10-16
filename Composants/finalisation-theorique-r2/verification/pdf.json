@@ -1,0 +1,76 @@
+{
+  "pages": [
+    {
+      "page": 1,
+      "render": "tools\\temp\\finalisation-r2\\pdf\\page-01.png",
+      "text_characters": 1462,
+      "text_within_page": true
+    },
+    {
+      "page": 2,
+      "render": "tools\\temp\\finalisation-r2\\pdf\\page-02.png",
+      "text_characters": 808,
+      "text_within_page": true
+    },
+    {
+      "page": 3,
+      "render": "tools\\temp\\finalisation-r2\\pdf\\page-03.png",
+      "text_characters": 1485,
+      "text_within_page": true
+    },
+    {
+      "page": 4,
+      "render": "tools\\temp\\finalisation-r2\\pdf\\page-04.png",
+      "text_characters": 950,
+      "text_within_page": true
+    },
+    {
+      "page": 5,
+      "render": "tools\\temp\\finalisation-r2\\pdf\\page-05.png",
+      "text_characters": 1516,
+      "text_within_page": true
+    },
+    {
+      "page": 6,
+      "render": "tools\\temp\\finalisation-r2\\pdf\\page-06.png",
+      "text_characters": 1382,
+      "text_within_page": true
+    },
+    {
+      "page": 7,
+      "render": "tools\\temp\\finalisation-r2\\pdf\\page-07.png",
+      "text_characters": 1086,
+      "text_within_page": true
+    },
+    {
+      "page": 8,
+      "render": "tools\\temp\\finalisation-r2\\pdf\\page-08.png",
+      "text_characters": 1887,
+      "text_within_page": true
+    },
+    {
+      "page": 9,
+      "render": "tools\\temp\\finalisation-r2\\pdf\\page-09.png",
+      "text_characters": 1349,
+      "text_within_page": true
+    },
+    {
+      "page": 10,
+      "render": "tools\\temp\\finalisation-r2\\pdf\\page-10.png",
+      "text_characters": 2411,
+      "text_within_page": true
+    },
+    {
+      "page": 11,
+      "render": "tools\\temp\\finalisation-r2\\pdf\\page-11.png",
+      "text_characters": 2179,
+      "text_within_page": true
+    }
+  ],
+  "page_count": 11,
+  "all_pages_rendered": true,
+  "visual_review_pending": false,
+  "visual_review_completed": true,
+  "review_scope": "11 pages rendered and visually reviewed; page 1 corrected to 9 kg and reviewed again",
+  "pdf_sha256": "8428f68acf3b287af5fd0f42793b2f4bb35a3d3c1f10d4979ade0632a8e9361e"
+}

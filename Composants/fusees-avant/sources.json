@@ -1,0 +1,42 @@
+{
+  "selected_on": "2026-10-13",
+  "selected_by": "assistant, authorized by user",
+  "reference": "Tamiya 51002 — TT-01 A Parts",
+  "quantity_design": "Besoin : 2×A7, 4×A6, renvois A1/A8 ; quantité de grappes à confirmer",
+  "purchased": false,
+  "hardware_tested": false,
+  "model_3d_created": true,
+  "purchase_status": "Not an identified or verified Amazon offer; fabrication lines are not purchase-ready",
+  "price_eur": null,
+  "amazon_search_url": "https://www.amazon.fr/s?k=Tamiya+51002",
+  "specifications": {
+    "fonction": "A7 : porte-roue avant orientable ; A6 : pièces de pivot ; A1/A8 : renvois de direction",
+    "roulements": "Deux roulements de type 1150 par roue, avec axes métalliques 50823",
+    "référence de montage": "TT-01R, page PDF 10, étapes 17–19 ; second roulement extérieur à la page 15",
+    "fabrication V3": "Fourches/supports fixés au châssis à fabriquer ; pas de bras ni de châssis RC complet achetés"
+  },
+  "sources": [
+    {
+      "url": "https://www.tamiya.com/english/products/51002/index.html",
+      "type": "primary or explicitly identified supplier reference",
+      "checked_on": "2026-10-13"
+    }
+  ],
+  "documents": [
+    {
+      "file": "Tamiya-TT01R-notice-constructeur.pdf",
+      "url": "https://www.tamiya.com/cms/english/rc/rcmanual/tt01r.pdf",
+      "bytes": 4744628,
+      "sha256": "c8ef6f865c9a81df967932ec86143cf1074ecc2f6d48df566a94c0d2643a9ed1",
+      "modified": false,
+      "local_file": "../direction-et-transmission/notices/Tamiya-TT01R-notice-constructeur.pdf"
+    }
+  ],
+  "unknowns": [
+    "Mesurer les diamètres des pivots, hauteur entre appuis et longueur du bras de direction",
+    "Vérifier le nombre d’A7/A6 dans le sachet ; la page PDF 24 mentionne une grappe et une demi-grappe pour un véhicule complet",
+    "Vérifier dégagement des jantes 47 mm, du moyeu et du bras en braquage",
+    "Adapter chasse, géométrie d’Ackermann et appuis au châssis fabriqué sans figer les dimensions de la photo CAO"
+  ],
+  "model_3d_manifest": "3D/provenance.json"
+}

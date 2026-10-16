@@ -1,0 +1,21 @@
+{
+  "file": "C:\\Users\\thoma\\workspace\\Drone\\drone-v3\\Assemblage\\R3\\drone-v3-r3-faisceau.step",
+  "sha256": "49d43487cffaccd8f997502659f7153b7c6a3cce2ba0db39ea4253c926f7b849",
+  "engine": "CAD Viewer 1.5.7 bundled occt-import-js 0.0.23",
+  "success": true,
+  "keys": [
+    "success",
+    "root",
+    "meshes"
+  ],
+  "meshes": 452,
+  "triangles": 162760,
+  "milliseconds": 21622,
+  "meshExample": [
+    "name",
+    "attributes",
+    "index",
+    "color",
+    "brep_faces"
+  ]
+}

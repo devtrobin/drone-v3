@@ -1,0 +1,21 @@
+{
+  "file": "C:\\Users\\thoma\\workspace\\Drone\\drone-v3\\Assemblage\\R2\\drone-v3-r2-etude.step",
+  "sha256": "73eeda462a399ace5944e6d0def9d6d0e59cf865d48b0b6b81b3e594732edc18",
+  "engine": "CAD Viewer 1.5.7 bundled occt-import-js 0.0.23",
+  "success": true,
+  "keys": [
+    "success",
+    "root",
+    "meshes"
+  ],
+  "meshes": 334,
+  "triangles": 119288,
+  "milliseconds": 19699,
+  "meshExample": [
+    "name",
+    "attributes",
+    "index",
+    "color",
+    "brep_faces"
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "selected_on": "2026-10-13",
+  "reference": "SkyRC S65 — SK-100152, 65 W / 6 A, secteur intégré",
+  "purchased": false,
+  "hardware_measured": false,
+  "hardware_tested": false,
+  "model_3d_created": true,
+  "model_3d_manifest": "3D/provenance.json",
+  "amazon": {
+    "asin": null,
+    "identity_verified_marketplace": null,
+    "reference_url": null,
+    "france_offer_verified": false,
+    "price_eur": null,
+    "shipping_eur": null,
+    "seller": null,
+    "stock": null,
+    "status": "France product pages/search blocked; no validated French purchase basket"
+  },
+  "primary_source": "https://www1.skyrc.com/s65?from=nav",
+  "specifications": {
+    "Alimentation": "100–240 V AC ; chargeur secteur avec cordon, distinct du S65neo et des B6 sans alimentation",
+    "Charge": "0,1–6 A, puissance maximale 65 W ; notre 2S à 5,2 A et 8,4 V demande au plus 43,68 W côté batterie",
+    "Batteries lithium": "LiPo/LiIon/LiFe/LiHV de 2 à4 cellules ; choisir LiPo pour le pack Zeee standard",
+    "Équilibrage": "300 mA/cellule max selon notice originale V2.10 et page fabricant ; ne pas recopier 1 A de fiches tierces",
+    "Décharge": "0,1–2 A, limitée à 10 W ; cela limite fortement une décharge d’un gros pack",
+    "Dimensions retenues": "118 ×115 ×45 mm dans la notice fabricant V2.10, page PDF24, et page fabricant actuelle",
+    "Cote alternative rencontrée": "117 ×105 ×55 mm dans des fiches distributeurs : divergence conservée, aucune mesure physique",
+    "Masse / affichage": "315 g annoncés, LCD 2×16 rétroéclairé bleu, quatre boutons",
+    "Connectique": "XT60 en face avant, port d’équilibrage XH 2–4S et prise de sonde thermique ; genre physique des contacts à vérifier",
+    "Contenu manuel": "Chargeur + cordon secteur, PDF23 ; rallonges de charge/équilibrage non annoncées dans ce contenu"
+  },
+  "assets": "assets.json",
+  "reviews": [
+    {
+      "url": "https://rccrawler-france.com/threads/chargeur-et-accus.36258/",
+      "access": "Fil complet lu, 27 août 2024",
+      "finding": "Un participant utilise un petit SkyRC depuis 2018 et le juge polyvalent et simple ; il renvoie au S65. La référence exacte de son appareil ancien n’est pas prouvée : retour de famille, pas banc d’essai S65."
+    },
+    {
+      "url": "https://www.studiosport.fr/chargeur-skyrc-s65-a18474.html",
+      "access": "Avis utilisateur indexé daté du 30 juillet 2019",
+      "finding": "Un utilisateur du S65 apprécie le mode Balance et souhaiterait un interrupteur marche/arrêt. Témoignage isolé ; ne pas ajouter un interrupteur imaginaire au modèle."
+    },
+    {
+      "url": "https://breizh-modelisme.com/chargeur-lipo-pour-batterie-1s-2s-3s-4s-et-6s/30032581-chargeur-skyrc-s65-pour-lipo-2-4s-65w-100152-xt60.html",
+      "access": "Avis affichés sur la fiche consultée",
+      "finding": "Un acheteur signale que le câble de charge adapté à sa batterie est à prévoir séparément. Confirmer les accessoires de l’offre choisie plutôt que supposer tous les câbles inclus."
+    }
+  ],
+  "unknowns": [
+    "Offre Amazon précise et ASIN du S65 non identifiés : ne pas inventer un lien produit",
+    "Version du boîtier reçue face à la divergence de cotes des distributeurs",
+    "Genre physique des contacts XT60, longueur des fils et nécessité de rallonges/adaptation d’équilibrage",
+    "Temps réel de charge/stockage, exactitude tensions et courant sur l’exemplaire reçu"
+  ]
+}

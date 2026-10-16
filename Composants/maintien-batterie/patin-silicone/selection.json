@@ -1,0 +1,47 @@
+{
+  "checked_on": "2026-10-14",
+  "purchase_made": false,
+  "hardware_tested": false,
+  "id": "patin-silicone",
+  "ref": "BENECREAT B08KFTBDF2 - deux feuilles blanches200 x200 x2",
+  "qty": 1,
+  "unit": "lot2",
+  "price": 11.99,
+  "currency": "EUR",
+  "tax": "TTC Amazon.fr, frais à revalider",
+  "buy": "https://www.amazon.fr/dp/B08KFTBDF2",
+  "maker": "https://www.amazon.fr/dp/B08KFTBDF2",
+  "query": "BENECREAT B08KFTBDF2",
+  "stock": "En stock ; BENECREAT FR BOUTIQUE, expédié Amazon selon page publique HTML directe du14/10.",
+  "scope": "Deux feuilles entières ; un patin d’étude142x51x2 découpé dans une feuille. Seconde feuille en réserve.",
+  "role": "Augmenter l’adhérence sous le pack. Ni résistance au feu LiPo, ni adhésif, ni dissipateur thermique qualifié.",
+  "cotes": [
+    [
+      "Feuille",
+      "200 x200 x2",
+      "Annonce Amazon"
+    ],
+    [
+      "Patin CAO",
+      "142 x51 x2",
+      "Choix provisoire : pack138x47±2, marge2 par côté"
+    ],
+    [
+      "Dureté / densité / coefficient friction",
+      "Non publiés",
+      "Aucun calcul de maintien à partir de valeurs fictives"
+    ],
+    [
+      "Plage thermique annoncée",
+      "-40 à220°C",
+      "Déclaration vendeur, pas qualification du pack"
+    ],
+    [
+      "Châssis / colle / perçages",
+      "Reportés",
+      "Aucun support caméra ajouté"
+    ]
+  ],
+  "amazon_search": "https://www.amazon.fr/s?k=BENECREAT+B08KFTBDF2",
+  "amazon_FR_verified": true
+}

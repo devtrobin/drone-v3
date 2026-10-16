@@ -1,0 +1,62 @@
+{
+  "all_passed": true,
+  "FreeCAD_version": [
+    "1",
+    "1",
+    "4",
+    "20260928 (Git shallow)",
+    "Unknown",
+    "2026/09/28 13:46:34",
+    "(HEAD detached at 4fd3bf320)",
+    "4fd3bf320d9566a27e60069fc8387448aaa3a094"
+  ],
+  "models": [
+    {
+      "file": "station-capteur-vitesse-p1.step",
+      "sha256": "44de2087bd8824bfddb5e713b63c88718e5e3ed5246ecc32d1d3ea71fb6c724e",
+      "passed": true,
+      "solids": 13,
+      "bounds_mm": {
+        "xmin": -45.0,
+        "xmax": 20.0,
+        "ymin": -16.001389825926,
+        "ymax": 16.001615903641998,
+        "zmin": 0.0,
+        "zmax": 52.0
+      },
+      "max_bbox_error_mm": 0.0016158036419966493
+    },
+    {
+      "file": "paire-supports-vitesse-p1.step",
+      "sha256": "f0841f04a46bf75ed1fb1579deaa77cdd33286ce3a7a541fae2ebb15348fa1d5",
+      "passed": true,
+      "solids": 26,
+      "bounds_mm": {
+        "xmin": -70.0,
+        "xmax": 70.0,
+        "ymin": -16.001615903641998,
+        "ymax": 16.001615903641998,
+        "zmin": 0.0,
+        "zmax": 52.0
+      },
+      "max_bbox_error_mm": 0.0016158036419966493
+    },
+    {
+      "file": "pieces-supports-vitesse-p1.step",
+      "sha256": "2ee820a31de1d7c107e40e06a28daa97c7240e00e83d825dad5e3b908f1745c1",
+      "passed": true,
+      "solids": 4,
+      "bounds_mm": {
+        "xmin": -45.0,
+        "xmax": 8.0,
+        "ymin": -16.001389825926,
+        "ymax": 16.001615903641998,
+        "zmin": 0.0,
+        "zmax": 52.0
+      },
+      "max_bbox_error_mm": 0.0016158036419966493
+    }
+  ],
+  "hardware_tested": false,
+  "GUI_test": false
+}

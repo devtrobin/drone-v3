@@ -1,0 +1,42 @@
+{
+  "file": "notice-connecteur-gpio-v3.pdf",
+  "pages": 6,
+  "sha256": "d61b2686d8d800ef700ab2f9745f0be935cf30678b0f406e583dcc711b81c44f",
+  "generator": "tools/build_gpio_pdf.py",
+  "generated_on": "2026-10-14",
+  "renders": [
+    {
+      "page": 1,
+      "render": "tools\\temp\\gpio-review\\pdf\\page-1.png",
+      "chars": 1156
+    },
+    {
+      "page": 2,
+      "render": "tools\\temp\\gpio-review\\pdf\\page-2.png",
+      "chars": 1708
+    },
+    {
+      "page": 3,
+      "render": "tools\\temp\\gpio-review\\pdf\\page-3.png",
+      "chars": 1765
+    },
+    {
+      "page": 4,
+      "render": "tools\\temp\\gpio-review\\pdf\\page-4.png",
+      "chars": 1851
+    },
+    {
+      "page": 5,
+      "render": "tools\\temp\\gpio-review\\pdf\\page-5.png",
+      "chars": 1093
+    },
+    {
+      "page": 6,
+      "render": "tools\\temp\\gpio-review\\pdf\\page-6.png",
+      "chars": 1494
+    }
+  ],
+  "visual_review_complete": true,
+  "visually_reviewed_pages": [1, 2, 3, 4, 5, 6],
+  "visual_review_notes": "Six pages finales inspectées : textes, tableaux, brochage et images lisibles, sans débordement ni collision avec les pieds de page."
+}

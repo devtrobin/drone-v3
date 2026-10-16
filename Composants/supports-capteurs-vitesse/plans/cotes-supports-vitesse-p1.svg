@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="493.228346456693" height="314.6456692913386" preserveAspectRatio="xMinYMin meet" viewBox="0 0 493 314" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="493.228346456693" height="314.6456692913386"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-314)" style="clip-path: url(#clip)">
+		<g transform="">
+			<circle cx="76.53543307086615" cy="209.76377952755908" r="45.35433070866142" style="stroke: rgb(9%,28%,41%); stroke-linecap: butt; stroke-width: 1; fill: rgb(97%,88%,82%); fill-rule: evenodd;"/>
+			<circle cx="76.53543307086615" cy="209.76377952755908" r="7.228346456692914" style="stroke: rgb(9%,28%,41%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<circle cx="76.53543307086615" cy="175.74803149606302" r="4.251968503937008" style="stroke: rgb(9%,28%,41%); stroke-linecap: butt; stroke-width: 1; fill: rgb(72%,77%,80%); fill-rule: evenodd;"/>
+			<circle cx="76.53543307086615" cy="243.77952755905514" r="4.251968503937008" style="stroke: rgb(9%,28%,41%); stroke-linecap: butt; stroke-width: 1; fill: rgb(72%,77%,80%); fill-rule: evenodd;"/>
+			<path d="M 76.535433,209.76378 L 76.535433,243.779528 Z" style="stroke: rgb(9%,28%,41%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<text x="85.03937007874016" y="223.93700787401576" style="font-family: HV3; font-size: 8px;fill: rgb(9%,28%,41%); stroke:none;" transform="translate(0,447) scale(1,-1)">R12</text>
+			<text x="19.84251968503937" y="272.12598425196853" style="font-family: HV3; font-size: 8px;fill: rgb(9%,28%,41%); stroke:none;" transform="translate(0,544) scale(1,-1)">Rotor : diametre32 x8</text>
+			<text x="14.173228346456694" y="144.56692913385828" style="font-family: HV3; font-size: 7.4px;fill: rgb(9%,28%,41%); stroke:none;" transform="translate(0,289) scale(1,-1)">Alesage5,1 ; deux aimants3 x2</text>
+			<rect x="246.6141732283465" y="178.58267716535434" width="170.07874015748035" height="70.86614173228347" style="stroke: rgb(9%,28%,41%); stroke-linecap: butt; stroke-width: 1; fill: rgb(97%,88%,82%); fill-rule: evenodd;"/>
+			<rect x="259.3700787401575" y="198.42519685039372" width="42.519685039370074" height="31.18110236220474" style="stroke: rgb(9%,28%,41%); stroke-linecap: butt; stroke-width: 1; fill: rgb(72%,77%,80%); fill-rule: evenodd;"/>
+			<rect x="192.75590551181105" y="189.9212598425197" width="14.173228346456682" height="39.685039370078755" style="stroke: rgb(9%,28%,41%); stroke-linecap: butt; stroke-width: 1; fill: rgb(14%,20%,23%); fill-rule: evenodd;"/>
+			<path d="M 206.929134,170.07874 L 246.614173,170.07874 Z" style="stroke: rgb(9%,28%,41%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<text x="204.0944881889764" y="155.90551181102364" style="font-family: HV3; font-size: 7px;fill: rgb(9%,28%,41%); stroke:none;" transform="translate(0,311) scale(1,-1)">Face Hall -&gt; rotor :2,5 initial</text>
+			<text x="238.11023622047247" y="263.6220472440945" style="font-family: HV3; font-size: 8px;fill: rgb(9%,28%,41%); stroke:none;" transform="translate(0,527) scale(1,-1)">Coupe axiale de principe (sans echelle)</text>
+			<text x="252.28346456692915" y="121.88976377952757" style="font-family: HV3; font-size: 8px;fill: rgb(9%,28%,41%); stroke:none;" transform="translate(0,243) scale(1,-1)">Paroi avant0,6 ; canal interne2,3</text>
+			<text x="252.28346456692915" y="104.88188976377954" style="font-family: HV3; font-size: 7.5px;fill: rgb(9%,28%,41%); stroke:none;" transform="translate(0,209) scale(1,-1)">Chargement par alesage AVANT axe</text>
+			<rect x="14.173228346456694" y="17.007874015748033" width="113.38582677165356" height="85.03937007874016" style="stroke: rgb(9%,28%,41%); stroke-linecap: butt; stroke-width: 1; fill: rgb(91%,94%,96%); fill-rule: evenodd;"/>
+			<rect x="31.181102362204726" y="26.220472440944885" width="56.69291338582677" height="9.921259842519685" rx="4.960629921259843" ry="4.960629921259843" style="stroke: rgb(9%,28%,41%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="31.181102362204726" y="82.91338582677166" width="56.69291338582677" height="9.921259842519689" rx="4.960629921259843" ry="4.960629921259843" style="stroke: rgb(9%,28%,41%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="141.73228346456693" y="76.53543307086615" style="font-family: HV3; font-size: 8px;fill: rgb(9%,28%,41%); stroke:none;" transform="translate(0,153) scale(1,-1)">Pied40 x30 x3 ; fixation provisoire</text>
+			<text x="141.73228346456693" y="59.52755905511812" style="font-family: HV3; font-size: 8px;fill: rgb(9%,28%,41%); stroke:none;" transform="translate(0,119) scale(1,-1)">2 lumieres20 x3,5, entraxe20</text>
+			<text x="141.73228346456693" y="42.51968503937008" style="font-family: HV3; font-size: 8px;fill: rgb(9%,28%,41%); stroke:none;" transform="translate(0,85) scale(1,-1)">Centres depuis coin : (16;5)/(16;25)</text>
+			<text x="141.73228346456693" y="25.51181102362205" style="font-family: HV3; font-size: 7.5px;fill: rgb(9%,28%,41%); stroke:none;" transform="translate(0,51) scale(1,-1)">Axe reglable18-30 au-dessus du plan de pose</text>
+		</g>
+	</g>
+</svg>

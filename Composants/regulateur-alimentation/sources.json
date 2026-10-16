@@ -1,0 +1,52 @@
+{
+  "selected_on": "2026-10-13",
+  "reference": "Pololu D24V90F5 — article 2866, sortie fixe 5 V",
+  "purchased": false,
+  "hardware_measured": false,
+  "hardware_tested": false,
+  "model_3d_created": true,
+  "model_3d_manifest": "3D/provenance.json",
+  "amazon": {
+    "asin": "B01M9C9Q1E",
+    "identity_verified_marketplace": "amazon.com",
+    "reference_url": "https://www.amazon.com/dp/B01M9C9Q1E",
+    "france_offer_verified": false,
+    "price_eur": null,
+    "shipping_eur": null,
+    "seller": null,
+    "stock": null,
+    "status": "France product pages/search blocked; no validated French purchase basket"
+  },
+  "primary_source": "https://www.pololu.com/product/2866",
+  "specifications": {
+    "Type": "Abaisseur synchrone DC-DC ; sortie nominale fixe 5 V, précision publiée ±4 %",
+    "Entrée": "5–38 V annoncés ; limite basse effective = sortie + dropout dépendant du courant",
+    "Courant": "Nom de produit « 9 A » ; débit continu réel selon tension, température et refroidissement. Pas 9 A garantis partout.",
+    "Lecture des courbes fabricant": "Vers 5 A de sortie, dropout ≈1 V ; courbe continue ≈6,7 A à 6,5 V d’entrée. Lectures approximatives, pas des garanties.",
+    "Cotes": "PCB nominal 40,64 × 20,32 mm ; épaisseur 1,57 mm ; enveloppe CAO officielle relevée dans sa provenance",
+    "Fixation": "Quatre trous Ø2,18, entraxes 35,56 ×15,24 mm ; tolérances fabricant de perçage ±0,1 et bord ±0,3 mm",
+    "Connexions": "VIN, GND, VOUT, EN, PG, FB ; prendre la puissance aux grands pads, pas au petit VOUT près de FB",
+    "Rendement": "80–95 % typiques suivant charge/tension ; utiliser 90 % comme hypothèse de calcul, pas comme valeur mesurée",
+    "USB-C / PD": "Aucun port USB-C ni source USB Power Delivery dans ce régulateur",
+    "Protections intégrées": "Inversion d’entrée, courts-circuits/surintensité, température, démarrage progressif et verrouillage basse tension selon fabricant"
+  },
+  "assets": "assets.json",
+  "reviews": [
+    {
+      "url": "https://forum.pololu.com/t/powering-a-raspberry-pi-5/26012",
+      "access": "Fil complet lu, septembre–octobre 2024",
+      "finding": "Le support Pololu considère les D24V90F5 et D24V50F5 comme des candidats pour une Pi, avec préférence pour une famille plus récente. La discussion souligne l’absence de négociation PD et le réglage de limite USB. Il ne s’agit pas d’un essai Pi 5 + caméra + moteurs."
+    },
+    {
+      "url": "https://forums.raspberrypi.com/viewtopic.php?p=2269299",
+      "access": "Texte public consulté",
+      "finding": "Un utilisateur obtient un démarrage Pi 5 avec un autre convertisseur 5 V/5 A, mais conserve un avertissement d’alimentation. Témoignage utile sur la négociation ; aucune validation de notre Pololu ni de notre 2S."
+    }
+  ],
+  "unknowns": [
+    "Tension du module reçu (plage théorique 4,8–5,2 V) et chute jusqu’à la Pi sous charge",
+    "Pointes, démarrage, ondulation, rendement et température avec Wi-Fi/caméra/moteurs actifs",
+    "Faisceau protégé et raccordement Pi : étude proposée, aucun câblage validé",
+    "Offre Amazon France, vendeur, authenticité et prix livré"
+  ]
+}

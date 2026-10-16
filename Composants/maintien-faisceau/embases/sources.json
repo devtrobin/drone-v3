@@ -1,0 +1,59 @@
+{
+  "checked_on": "2026-10-14",
+  "selection": {
+    "id": "htmb2",
+    "folder": "maintien-faisceau/embases",
+    "reference": "HellermannTyton MB2 151-28210",
+    "role": "Embases noires à une vis M4",
+    "quantity": 8,
+    "mandatory": 0,
+    "conditional": 8,
+    "pack": 100,
+    "maker": "https://www.hellermanntyton.com/au/products/cable-tie-mounts/mb2/151-28210",
+    "amazon_query": "HellermannTyton MB2 151-28210",
+    "spec": "20,5 ×12,5 ×3,3 mm ; trouØ5mm pour fixation M4 ; collier≤5mm ; PA66 noir ; passage deux directions ; pas de semelle adhésive.",
+    "usage": "Quantité d’étude8, à répartir après implantation. Vis M4, rondelle et éventuel écrou séparés ; leur longueur dépend de l’épaisseur du châssis et du dégagement sous celui-ci.",
+    "dimensions": [
+      [
+        "Enveloppe L/W/H",
+        "20,5±0,5 /12,5±0,5 /3,3±0,2mm",
+        "Plan141622 ancien ; nominal actuel concordant"
+      ],
+      [
+        "Trou F",
+        "Ø5,0±0,2mm",
+        "Plan141622"
+      ],
+      [
+        "D / E / G / H",
+        "2,5 /5,0 /10,0 /1,7mm (±0,2)",
+        "Repères du plan, pas tous les noms de champs web"
+      ],
+      [
+        "Collier / vis",
+        "Largeur max5mm / visM4",
+        "Page actuelle"
+      ],
+      [
+        "Trou et rayons CAO",
+        "Position du trou et arrondis reconstitués",
+        "Plan sans toutes les coordonnées"
+      ]
+    ],
+    "source_files": [
+      "notices/HT-MB2-plan-original.pdf"
+    ],
+    "source_pages": "Plan14162215Oct2002 ; page actuelle151-28210",
+    "fit": "Collier T18R2,5mm admis nominalement. Les 5mm du trou sont un jeu pour une visM4 ; ne pas choisir une visM5 par cette seule cote. Vérifier fixation sur le châssis et éviter un chemin de frottement.",
+    "amazon_search": "https://www.amazon.fr/s?k=HellermannTyton+MB2+151-28210",
+    "amazon_FR_verified": false,
+    "price_EUR_TTC": null
+  },
+  "manufacturer_source_verified": true,
+  "hardware_measured": false,
+  "model_3d_created": true,
+  "model_3d_manifest": "3D/provenance.json",
+  "source_archive_manifest": "../../faisceau-puissance/assets.json",
+  "exact_reviews_verified": false,
+  "qualification_complete": false
+}

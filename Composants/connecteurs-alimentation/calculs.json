@@ -1,0 +1,82 @@
+{
+  "checked_on": "2026-10-14",
+  "hardware_tested": false,
+  "limits_enforced": false,
+  "scenario_individual_ESC_A": 20,
+  "scenario_motors_total_A": 40,
+  "working_reference_per_connector_A": 30,
+  "current_catalogue_A": 35,
+  "current_catalogue_conditions": "12AWG / delta<85degC(K on product page), not V3 qualification",
+  "historical_MC_A": 60,
+  "historical_MC_duration_s": null,
+  "example_resistance_scope": "analysis per mated pole only;0.5legacy CR not clarified per assembly;1.2 sensitivity not guaranteed",
+  "contact_loss_examples": [
+    {
+      "current_A": 10,
+      "resistance_per_pole_assumed_ohm": 0.0005,
+      "loop_drop_V": 0.01,
+      "loop_loss_W": 0.1,
+      "two_ESC_branches_total_W": 0.2
+    },
+    {
+      "current_A": 10,
+      "resistance_per_pole_assumed_ohm": 0.0012,
+      "loop_drop_V": 0.023999999999999997,
+      "loop_loss_W": 0.24,
+      "two_ESC_branches_total_W": 0.48
+    },
+    {
+      "current_A": 20,
+      "resistance_per_pole_assumed_ohm": 0.0005,
+      "loop_drop_V": 0.02,
+      "loop_loss_W": 0.4,
+      "two_ESC_branches_total_W": 0.8
+    },
+    {
+      "current_A": 20,
+      "resistance_per_pole_assumed_ohm": 0.0012,
+      "loop_drop_V": 0.047999999999999994,
+      "loop_loss_W": 0.96,
+      "two_ESC_branches_total_W": 1.92
+    },
+    {
+      "current_A": 30,
+      "resistance_per_pole_assumed_ohm": 0.0005,
+      "loop_drop_V": 0.03,
+      "loop_loss_W": 0.9,
+      "two_ESC_branches_total_W": 1.8
+    },
+    {
+      "current_A": 30,
+      "resistance_per_pole_assumed_ohm": 0.0012,
+      "loop_drop_V": 0.072,
+      "loop_loss_W": 2.1599999999999997,
+      "two_ESC_branches_total_W": 4.319999999999999
+    },
+    {
+      "current_A": 40,
+      "resistance_per_pole_assumed_ohm": 0.0005,
+      "loop_drop_V": 0.04,
+      "loop_loss_W": 1.6,
+      "two_ESC_branches_total_W": 3.2
+    },
+    {
+      "current_A": 40,
+      "resistance_per_pole_assumed_ohm": 0.0012,
+      "loop_drop_V": 0.09599999999999999,
+      "loop_loss_W": 3.84,
+      "two_ESC_branches_total_W": 7.68
+    }
+  ],
+  "common_battery_current_scenario_A": 44.390277777777776,
+  "common_battery_XT60_qualified": false,
+  "added_tail_proposal_AWG": 12,
+  "added_tail_nominal_mm2": 3.31,
+  "original_ESC_AWG": 16,
+  "original_ESC_lead_mm": 75,
+  "previous_4mm2_example_is_not_a_terminal_fit": true,
+  "connector_prospective_fault_qualified": false,
+  "fuse30A_is_current_limiter": false,
+  "regeneration_qualified": false,
+  "all_currents_assumed": true
+}

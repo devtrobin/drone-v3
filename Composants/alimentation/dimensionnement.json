@@ -1,0 +1,21 @@
+{
+  "capacity_Ah_advertised": 5.2,
+  "voltage_V_nominal": 7.4,
+  "energy_Wh_nominal": 38.480000000000004,
+  "usable_fraction_assumed": 0.8,
+  "energy_Wh_usable_assumed": 30.784000000000006,
+  "maximum_total_W_45min": 41.04533333333334,
+  "maximum_total_W_20min": 92.35200000000002,
+  "maximum_total_W_10min": 184.70400000000004,
+  "no_autonomy_guarantee": true,
+  "pi_branch_output_W_at_5A": 25,
+  "pi_branch_efficiency_assumed": 0.9,
+  "pi_branch_battery_W_at_5A": 27.77777777777778,
+  "battery_A_at_6_4V_at_5A_pi": 4.340277777777778,
+  "charger_battery_W_at_5_2A_full_charge": 43.68000000000001,
+  "charging_current_A_first_control": 2.6,
+  "charging_current_A_max_proposed_if_pack_manual_allows_1C": 5.2,
+  "supply_revision_scope": "historical_before_alimentation_r2",
+  "current_supply_source": "../verification-alimentation/selection-active.json",
+  "historical_values_preserved": true
+}

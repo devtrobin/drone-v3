@@ -1,0 +1,836 @@
+{
+  "name": "Hobbywing_QuicRun_2435SL_G3_4500KV",
+  "file": "moteur-quicrun-2435-g3-4500kv-detaille.step",
+  "generated_on": "2026-10-12",
+  "unit": "mm",
+  "vendor_native_cad": false,
+  "hardware_measured": false,
+  "parts": 67,
+  "solids": 90,
+  "sha256": "7943b3af6c74a815851ee8ce178cbfdc6624cdfef9ee4103a5a2cf8a25f7267c",
+  "bytes": 6541127,
+  "generator": "../../../tools/build_motor_esc_step.py",
+  "generator_sha256": "3b62145489f2786a200dd01550ff44ac0eab65ebf174a4a1a7b6ef0ea52de99d",
+  "renderer_source": "../../../tools/build_camera_step.py",
+  "renderer_source_sha256": "5321f7c94195e139d6b01b2687edd272cff6cf4b9b0e368a0cff626017be170e",
+  "confirmed_dimensions": {
+    "body_diameter_mm": 24,
+    "body_length_mm": 36,
+    "shaft_diameter_mm": 2,
+    "shaft_projection_mm": 12,
+    "shaft_flat_dimension_mm": 1.7,
+    "shaft_flat_length_mm": 9,
+    "mounting_threads": [
+      "M2.5",
+      "M3"
+    ],
+    "mounting_hole_depth_mm": 4,
+    "pitch_circle_diameters_mm": [
+      14,
+      16,
+      17
+    ],
+    "bullet_diameter_mm": 3.5
+  },
+  "estimates": {
+    "body_wall_mm": 1,
+    "front_cap_thickness_mm": 4.3,
+    "rear_cap_thickness_mm": 2,
+    "cooling_grooves_count": 17,
+    "cooling_groove_radius_mm": 0.32,
+    "motor_wire_insulation_diameter_mm": 3,
+    "motor_wire_pose_and_length": "Illustrative, not published",
+    "mounting_pattern_angles": "Interpreted from manufacturer drawing; check before machining"
+  },
+  "bounds_including_cables_mm": {
+    "xmin": -12.005,
+    "xmax": 12.005,
+    "ymin": -82.4,
+    "ymax": 12.027101651343,
+    "zmin": -12.0,
+    "zmax": 39.2
+  },
+  "validation": {
+    "reimport_valid": true,
+    "solid_count_preserved": true,
+    "volume_relative_error": 7.25593873587947e-13,
+    "bbox_error_mm": 3.801403636316536e-13,
+    "xcaf_colours_reimported": 11
+  },
+  "limitations": [
+    "External appearance only; hidden motor electromagnetic and ESC electronics internals not reconstructed",
+    "No native manufacturer CAD and no physical measurement; unpublished dimensions estimated",
+    "Cable diameter, length where undocumented, pose, connector and switch geometry estimated",
+    "STEP solid colours and shallow geometric print only; approximate fonts and no textures",
+    "Mounting holes nominal cylinders, no hidden screw thread helices"
+  ],
+  "reference_assets": [
+    {
+      "file": "../photos/01-kit-moteur-variateur.jpg",
+      "sha256": "0a5ddd887fb4929669eb8d855072a5e4dc0964e0cc4084326797000f5d02b857"
+    },
+    {
+      "file": "../photos/02-moteur-2435-g3.jpg",
+      "sha256": "d4d2c6e011749447615151e0eea82f4680164bec16f75eeed16fdc6ff5ef0b53"
+    },
+    {
+      "file": "../photos/03-variateur-16bl30-g2.jpg",
+      "sha256": "3f6f8f2f769cec7f11f6049903a82b1d2a7c6693f7ff20264556647ada3a1fd9"
+    },
+    {
+      "file": "../photos/04-variateur-cables.jpg",
+      "sha256": "32d82208e05297d20022f1842f42e218195f672765adccf638a52a55c3c27219"
+    },
+    {
+      "file": "../photos/05-variateur-interrupteur.jpg",
+      "sha256": "175906cd21075176acdd6ca60c31ebf7971059dd697ed8a39cbd8d2fb8baad6c"
+    },
+    {
+      "file": "../notices/QuicRun-2435SL-G3-notice-constructeur.pdf",
+      "sha256": "9b2feb87c3ecf04a09cb1c86b1db07ddd40eb158b1ff21d8b900138a9068ec6c"
+    },
+    {
+      "file": "../notices/QuicRun-WP16BL30-G2-notice-constructeur.pdf",
+      "sha256": "eb8c7800573e6469e8030715b607a856bb7ab7527c0b1032bdf3d88f25367f7a"
+    }
+  ],
+  "part_manifest": [
+    {
+      "name": "Fixation_0_M3_dark_floor",
+      "rgb": [
+        0.035,
+        0.041,
+        0.046
+      ],
+      "basis": "published_hole_depth_interpreted_pattern",
+      "group": "body",
+      "solids": 1
+    },
+    {
+      "name": "Fixation_1_M3_dark_floor",
+      "rgb": [
+        0.035,
+        0.041,
+        0.046
+      ],
+      "basis": "published_hole_depth_interpreted_pattern",
+      "group": "body",
+      "solids": 1
+    },
+    {
+      "name": "Fixation_2_M2_5_dark_floor",
+      "rgb": [
+        0.035,
+        0.041,
+        0.046
+      ],
+      "basis": "published_hole_depth_interpreted_pattern",
+      "group": "body",
+      "solids": 1
+    },
+    {
+      "name": "Fixation_3_M2_5_dark_floor",
+      "rgb": [
+        0.035,
+        0.041,
+        0.046
+      ],
+      "basis": "published_hole_depth_interpreted_pattern",
+      "group": "body",
+      "solids": 1
+    },
+    {
+      "name": "Fixation_4_M2_5_dark_floor",
+      "rgb": [
+        0.035,
+        0.041,
+        0.046
+      ],
+      "basis": "published_hole_depth_interpreted_pattern",
+      "group": "body",
+      "solids": 1
+    },
+    {
+      "name": "Fixation_5_M2_5_dark_floor",
+      "rgb": [
+        0.035,
+        0.041,
+        0.046
+      ],
+      "basis": "published_hole_depth_interpreted_pattern",
+      "group": "body",
+      "solids": 1
+    },
+    {
+      "name": "Front_black_anodised_endbell",
+      "rgb": [
+        0.105,
+        0.115,
+        0.123
+      ],
+      "basis": "published_diameter_estimated_cap_thickness",
+      "group": "body",
+      "solids": 1
+    },
+    {
+      "name": "Ribbed_black_anodised_motor_can",
+      "rgb": [
+        0.105,
+        0.115,
+        0.123
+      ],
+      "basis": "published_outer_envelope_photo_grooves_wall_estimate",
+      "group": "body",
+      "solids": 1
+    },
+    {
+      "name": "Front_endbell_joint_dark_line",
+      "rgb": [
+        0.035,
+        0.041,
+        0.046
+      ],
+      "basis": "photo_estimate",
+      "group": "body",
+      "solids": 1
+    },
+    {
+      "name": "Rear_endbell_joint_dark_line",
+      "rgb": [
+        0.035,
+        0.041,
+        0.046
+      ],
+      "basis": "photo_estimate",
+      "group": "body",
+      "solids": 1
+    },
+    {
+      "name": "Rear_red_anodised_endbell",
+      "rgb": [
+        0.68,
+        0.018,
+        0.065
+      ],
+      "basis": "published_body_length_estimated_cap_thickness",
+      "group": "body",
+      "solids": 1
+    },
+    {
+      "name": "Front_bearing_visible_metal_ring",
+      "rgb": [
+        0.66,
+        0.69,
+        0.71
+      ],
+      "basis": "bearing_bore_visible_estimate",
+      "group": "body",
+      "solids": 1
+    },
+    {
+      "name": "Front_bearing_black_seal",
+      "rgb": [
+        0.035,
+        0.041,
+        0.046
+      ],
+      "basis": "photo_estimate",
+      "group": "body",
+      "solids": 1
+    },
+    {
+      "name": "Steel_D_shaft_2mm_flat_1_7mm_length_9mm",
+      "rgb": [
+        0.66,
+        0.69,
+        0.71
+      ],
+      "basis": "published_diameter_projection_flat_and_flat_length",
+      "group": "body",
+      "solids": 1
+    },
+    {
+      "name": "Shaft_shoulder",
+      "rgb": [
+        0.42,
+        0.46,
+        0.49
+      ],
+      "basis": "photo_estimated_shoulder",
+      "group": "body",
+      "solids": 1
+    },
+    {
+      "name": "Can_QUICRUN_00",
+      "rgb": [
+        0.91,
+        0.92,
+        0.91
+      ],
+      "basis": "visible_marking_wrap_font_approximation",
+      "group": "body",
+      "solids": 1
+    },
+    {
+      "name": "Can_QUICRUN_01",
+      "rgb": [
+        0.91,
+        0.92,
+        0.91
+      ],
+      "basis": "visible_marking_wrap_font_approximation",
+      "group": "body",
+      "solids": 1
+    },
+    {
+      "name": "Can_QUICRUN_02",
+      "rgb": [
+        0.91,
+        0.92,
+        0.91
+      ],
+      "basis": "visible_marking_wrap_font_approximation",
+      "group": "body",
+      "solids": 1
+    },
+    {
+      "name": "Can_QUICRUN_03",
+      "rgb": [
+        0.91,
+        0.92,
+        0.91
+      ],
+      "basis": "visible_marking_wrap_font_approximation",
+      "group": "body",
+      "solids": 1
+    },
+    {
+      "name": "Can_QUICRUN_04",
+      "rgb": [
+        0.91,
+        0.92,
+        0.91
+      ],
+      "basis": "visible_marking_wrap_font_approximation",
+      "group": "body",
+      "solids": 1
+    },
+    {
+      "name": "Can_QUICRUN_05",
+      "rgb": [
+        0.91,
+        0.92,
+        0.91
+      ],
+      "basis": "visible_marking_wrap_font_approximation",
+      "group": "body",
+      "solids": 1
+    },
+    {
+      "name": "Can_QUICRUN_06",
+      "rgb": [
+        0.91,
+        0.92,
+        0.91
+      ],
+      "basis": "visible_marking_wrap_font_approximation",
+      "group": "body",
+      "solids": 1
+    },
+    {
+      "name": "Can_model_00",
+      "rgb": [
+        0.91,
+        0.92,
+        0.91
+      ],
+      "basis": "visible_marking_wrap_font_approximation",
+      "group": "body",
+      "solids": 1
+    },
+    {
+      "name": "Can_model_01",
+      "rgb": [
+        0.91,
+        0.92,
+        0.91
+      ],
+      "basis": "visible_marking_wrap_font_approximation",
+      "group": "body",
+      "solids": 1
+    },
+    {
+      "name": "Can_model_02",
+      "rgb": [
+        0.91,
+        0.92,
+        0.91
+      ],
+      "basis": "visible_marking_wrap_font_approximation",
+      "group": "body",
+      "solids": 1
+    },
+    {
+      "name": "Can_model_03",
+      "rgb": [
+        0.91,
+        0.92,
+        0.91
+      ],
+      "basis": "visible_marking_wrap_font_approximation",
+      "group": "body",
+      "solids": 1
+    },
+    {
+      "name": "Can_model_05",
+      "rgb": [
+        0.91,
+        0.92,
+        0.91
+      ],
+      "basis": "visible_marking_wrap_font_approximation",
+      "group": "body",
+      "solids": 1
+    },
+    {
+      "name": "Can_model_06",
+      "rgb": [
+        0.91,
+        0.92,
+        0.91
+      ],
+      "basis": "visible_marking_wrap_font_approximation",
+      "group": "body",
+      "solids": 1
+    },
+    {
+      "name": "Can_KV_00",
+      "rgb": [
+        0.91,
+        0.92,
+        0.91
+      ],
+      "basis": "visible_marking_wrap_font_approximation",
+      "group": "body",
+      "solids": 1
+    },
+    {
+      "name": "Can_KV_01",
+      "rgb": [
+        0.91,
+        0.92,
+        0.91
+      ],
+      "basis": "visible_marking_wrap_font_approximation",
+      "group": "body",
+      "solids": 1
+    },
+    {
+      "name": "Can_KV_02",
+      "rgb": [
+        0.91,
+        0.92,
+        0.91
+      ],
+      "basis": "visible_marking_wrap_font_approximation",
+      "group": "body",
+      "solids": 1
+    },
+    {
+      "name": "Can_KV_03",
+      "rgb": [
+        0.91,
+        0.92,
+        0.91
+      ],
+      "basis": "visible_marking_wrap_font_approximation",
+      "group": "body",
+      "solids": 1
+    },
+    {
+      "name": "Can_KV_04",
+      "rgb": [
+        0.91,
+        0.92,
+        0.91
+      ],
+      "basis": "visible_marking_wrap_font_approximation",
+      "group": "body",
+      "solids": 1
+    },
+    {
+      "name": "Can_KV_05",
+      "rgb": [
+        0.91,
+        0.92,
+        0.91
+      ],
+      "basis": "visible_marking_wrap_font_approximation",
+      "group": "body",
+      "solids": 1
+    },
+    {
+      "name": "Opposite_brand_00",
+      "rgb": [
+        0.91,
+        0.92,
+        0.91
+      ],
+      "basis": "visible_marking_wrap_font_approximation",
+      "group": "body",
+      "solids": 1
+    },
+    {
+      "name": "Opposite_brand_01",
+      "rgb": [
+        0.91,
+        0.92,
+        0.91
+      ],
+      "basis": "visible_marking_wrap_font_approximation",
+      "group": "body",
+      "solids": 1
+    },
+    {
+      "name": "Opposite_brand_02",
+      "rgb": [
+        0.91,
+        0.92,
+        0.91
+      ],
+      "basis": "visible_marking_wrap_font_approximation",
+      "group": "body",
+      "solids": 1
+    },
+    {
+      "name": "Opposite_brand_03",
+      "rgb": [
+        0.91,
+        0.92,
+        0.91
+      ],
+      "basis": "visible_marking_wrap_font_approximation",
+      "group": "body",
+      "solids": 1
+    },
+    {
+      "name": "Opposite_brand_04",
+      "rgb": [
+        0.91,
+        0.92,
+        0.91
+      ],
+      "basis": "visible_marking_wrap_font_approximation",
+      "group": "body",
+      "solids": 1
+    },
+    {
+      "name": "Opposite_brand_05",
+      "rgb": [
+        0.91,
+        0.92,
+        0.91
+      ],
+      "basis": "visible_marking_wrap_font_approximation",
+      "group": "body",
+      "solids": 1
+    },
+    {
+      "name": "Opposite_brand_06",
+      "rgb": [
+        0.91,
+        0.92,
+        0.91
+      ],
+      "basis": "visible_marking_wrap_font_approximation",
+      "group": "body",
+      "solids": 1
+    },
+    {
+      "name": "Opposite_brand_07",
+      "rgb": [
+        0.91,
+        0.92,
+        0.91
+      ],
+      "basis": "visible_marking_wrap_font_approximation",
+      "group": "body",
+      "solids": 1
+    },
+    {
+      "name": "Opposite_brand_08",
+      "rgb": [
+        0.91,
+        0.92,
+        0.91
+      ],
+      "basis": "visible_marking_wrap_font_approximation",
+      "group": "body",
+      "solids": 1
+    },
+    {
+      "name": "Rear_cap_brand",
+      "rgb": [
+        0.91,
+        0.92,
+        0.91
+      ],
+      "basis": "visible_marking_font_approximation",
+      "group": "body",
+      "solids": 7
+    },
+    {
+      "name": "Rear_cap_model",
+      "rgb": [
+        0.91,
+        0.92,
+        0.91
+      ],
+      "basis": "visible_marking_font_approximation",
+      "group": "body",
+      "solids": 6
+    },
+    {
+      "name": "Rear_phase_C",
+      "rgb": [
+        0.91,
+        0.92,
+        0.91
+      ],
+      "basis": "visible_marking_font_approximation",
+      "group": "body",
+      "solids": 1
+    },
+    {
+      "name": "Rear_phase_B",
+      "rgb": [
+        0.91,
+        0.92,
+        0.91
+      ],
+      "basis": "visible_marking_font_approximation",
+      "group": "body",
+      "solids": 1
+    },
+    {
+      "name": "Rear_phase_A",
+      "rgb": [
+        0.91,
+        0.92,
+        0.91
+      ],
+      "basis": "visible_marking_font_approximation",
+      "group": "body",
+      "solids": 1
+    },
+    {
+      "name": "Rear_cable_exit_seal",
+      "rgb": [
+        0.16,
+        0.17,
+        0.18
+      ],
+      "basis": "photo_estimate",
+      "group": "body",
+      "solids": 1
+    },
+    {
+      "name": "Motor_phase_0_exit_grommet",
+      "rgb": [
+        0.035,
+        0.041,
+        0.046
+      ],
+      "basis": "photo_estimate",
+      "group": "cables",
+      "solids": 1
+    },
+    {
+      "name": "Motor_phase_0_silicone_cable",
+      "rgb": [
+        0.105,
+        0.115,
+        0.123
+      ],
+      "basis": "cable_diameter_and_pose_estimated",
+      "group": "cables",
+      "solids": 1
+    },
+    {
+      "name": "Motor_phase_0_colour_heatshrink",
+      "rgb": [
+        0.9,
+        0.35,
+        0.06
+      ],
+      "basis": "photo_estimate",
+      "group": "cables",
+      "solids": 1
+    },
+    {
+      "name": "Motor_phase_0_3_5mm_gold_split_bullet",
+      "rgb": [
+        0.81,
+        0.62,
+        0.24
+      ],
+      "basis": "published_connector_diameter_estimated_split_detail",
+      "group": "cables",
+      "solids": 1
+    },
+    {
+      "name": "Motor_phase_0_gold_tip",
+      "rgb": [
+        0.81,
+        0.62,
+        0.24
+      ],
+      "basis": "photo_estimate",
+      "group": "cables",
+      "solids": 1
+    },
+    {
+      "name": "Motor_phase_0_cable_print",
+      "rgb": [
+        0.91,
+        0.92,
+        0.91
+      ],
+      "basis": "photographic_cable_marking_estimate",
+      "group": "cables",
+      "solids": 5
+    },
+    {
+      "name": "Motor_phase_1_exit_grommet",
+      "rgb": [
+        0.035,
+        0.041,
+        0.046
+      ],
+      "basis": "photo_estimate",
+      "group": "cables",
+      "solids": 1
+    },
+    {
+      "name": "Motor_phase_1_silicone_cable",
+      "rgb": [
+        0.105,
+        0.115,
+        0.123
+      ],
+      "basis": "cable_diameter_and_pose_estimated",
+      "group": "cables",
+      "solids": 1
+    },
+    {
+      "name": "Motor_phase_1_colour_heatshrink",
+      "rgb": [
+        0.95,
+        0.68,
+        0.08
+      ],
+      "basis": "photo_estimate",
+      "group": "cables",
+      "solids": 1
+    },
+    {
+      "name": "Motor_phase_1_3_5mm_gold_split_bullet",
+      "rgb": [
+        0.81,
+        0.62,
+        0.24
+      ],
+      "basis": "published_connector_diameter_estimated_split_detail",
+      "group": "cables",
+      "solids": 1
+    },
+    {
+      "name": "Motor_phase_1_gold_tip",
+      "rgb": [
+        0.81,
+        0.62,
+        0.24
+      ],
+      "basis": "photo_estimate",
+      "group": "cables",
+      "solids": 1
+    },
+    {
+      "name": "Motor_phase_1_cable_print",
+      "rgb": [
+        0.91,
+        0.92,
+        0.91
+      ],
+      "basis": "photographic_cable_marking_estimate",
+      "group": "cables",
+      "solids": 5
+    },
+    {
+      "name": "Motor_phase_2_exit_grommet",
+      "rgb": [
+        0.035,
+        0.041,
+        0.046
+      ],
+      "basis": "photo_estimate",
+      "group": "cables",
+      "solids": 1
+    },
+    {
+      "name": "Motor_phase_2_silicone_cable",
+      "rgb": [
+        0.105,
+        0.115,
+        0.123
+      ],
+      "basis": "cable_diameter_and_pose_estimated",
+      "group": "cables",
+      "solids": 1
+    },
+    {
+      "name": "Motor_phase_2_colour_heatshrink",
+      "rgb": [
+        0.1,
+        0.3,
+        0.62
+      ],
+      "basis": "photo_estimate",
+      "group": "cables",
+      "solids": 1
+    },
+    {
+      "name": "Motor_phase_2_3_5mm_gold_split_bullet",
+      "rgb": [
+        0.81,
+        0.62,
+        0.24
+      ],
+      "basis": "published_connector_diameter_estimated_split_detail",
+      "group": "cables",
+      "solids": 1
+    },
+    {
+      "name": "Motor_phase_2_gold_tip",
+      "rgb": [
+        0.81,
+        0.62,
+        0.24
+      ],
+      "basis": "photo_estimate",
+      "group": "cables",
+      "solids": 1
+    },
+    {
+      "name": "Motor_phase_2_cable_print",
+      "rgb": [
+        0.91,
+        0.92,
+        0.91
+      ],
+      "basis": "photographic_cable_marking_estimate",
+      "group": "cables",
+      "solids": 5
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "date": "2026-10-14",
+  "parts": [
+    {
+      "id": "albright-ed80",
+      "ref": "Albright ED80-1 - coupure d’urgence unipolaire80 A",
+      "qty": 1,
+      "unit": "dispositif",
+      "price": 83.88,
+      "currency": "EUR",
+      "tax": "TTC affiché Parts&Go, hors port",
+      "buy": "https://www.partsandgo.fr/fr/arrets-d-urgence/52668-arret-d-urgence.html",
+      "maker": "https://www.albrightinternational.com/products/ed80-2/",
+      "query": "Albright ED80-1 coupe batterie",
+      "stock": "Disponible/InStock sur page publique ; réf.vendeur52668, marqueAlbright annoncée. Authenticité du lot à contrôler.",
+      "scope": "Contact mécanique à action brusque,80A thermique ; rupture de défaut500A/48V selon conditionsAlbright, pas capacité de court-circuit du véhicule entier.",
+      "role": "Insérer sur positif commun après MIDI et avant D+ ; ouvre moteurs ET alimentationPi. Usage d’urgence ou isolation hors charge, pas commutation courante en charge.",
+      "cotes": [
+        [
+          "Corps / hauteur",
+          "59 x contourØ58 ;37",
+          "PlanAlbright2024, corps à pans reconstruit"
+        ],
+        [
+          "Bouton",
+          "Ø48, hauteur14",
+          "PlanAlbright"
+        ],
+        [
+          "Au-dessus face de montage",
+          "56 fermé /51 ouvert",
+          "PlanAlbright"
+        ],
+        [
+          "Sous face de montage",
+          "55 avec bornes",
+          "PlanAlbright"
+        ],
+        [
+          "Fixation",
+          "CentreØ25 +2trousØ5,5 entraxe48",
+          "Plan de référence ; perçages châssis reportés"
+        ],
+        [
+          "Bornes",
+          "M6 ; serrage3,6-3,9N·m",
+          "PlanAlbright ; cosses et appui à contrôler"
+        ],
+        [
+          "Masse indicative",
+          "223g",
+          "FicheAlbright, pas820g de l’autre produit52666"
+        ]
+      ],
+      "amazon_search": "https://www.amazon.fr/s?k=Albright+ED80-1+coupe+batterie",
+      "amazon_FR_verified": false
+    },
+    {
+      "id": "cosses-klauke-95r6",
+      "ref": "Klauke95R6 - cosse cuivre étamé6mm², M6",
+      "qty": 2,
+      "unit": "pièce",
+      "price": null,
+      "currency": "EUR",
+      "tax": "Non relevé",
+      "buy": "https://www.buerklin.com/en/p/klauke/cable-lugs/95r6/07F2055/",
+      "maker": "https://www.klauke.com/gb/en/tubular-cable-lugs-cu-standard-type-4959",
+      "query": "Klauke 95R6 6mm2 M6",
+      "stock": "Référence exacte identifiée ; offre française et prix à l’unité non vérifiés, ne pas budgéter un lot100 à prix2pièces.",
+      "scope": "Deux nouvelles cosses pour les bornes ED80 ; ne remplacent pas les95R5 aux extrémitésMIDI et MiniBus.",
+      "role": "Terminer les deux segments6mm² MIDI→ED80 puisED80→D+ ; outil/matrice Klauke compatibles, contrôle du sertissage.",
+      "cotes": [
+        [
+          "d1 / a / b",
+          "4 /9 /10",
+          "CatalogueKlauke p.14PDF /12 imprimée"
+        ],
+        [
+          "d2 / d4",
+          "6,5 /6",
+          "TrouM6 / canon"
+        ],
+        [
+          "c1 / c2 / l",
+          "7 /6,5 /19",
+          "Longueur l depuis centre trou"
+        ],
+        [
+          "Longueur CAO",
+          "26 =7+19",
+          "Déduite du dessin, pas l seule"
+        ],
+        [
+          "Paume / fenêtre inspection",
+          "2 /Ø1,4",
+          "Estimations non cotées"
+        ]
+      ],
+      "amazon_search": "https://www.amazon.fr/s?k=Klauke+95R6+6mm2+M6",
+      "amazon_FR_verified": false
+    }
+  ],
+  "additional_parts": [],
+  "excluded": [
+    "Châssis",
+    "Visserie restante",
+    "Support caméra",
+    "Schéma et routage carte surveillance"
+  ]
+}

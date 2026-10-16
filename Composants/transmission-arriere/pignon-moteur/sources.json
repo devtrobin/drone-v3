@@ -1,0 +1,50 @@
+{
+  "selected_on": "2026-10-13",
+  "selected_by": "assistant, authorized by user",
+  "reference": "Losi LOS212054 — 16T, module 0,5, alésage 2 mm",
+  "quantity_design": "2 pignons, un par moteur",
+  "purchased": false,
+  "hardware_tested": false,
+  "model_3d_created": true,
+  "purchase_status": "Not an identified or verified Amazon offer; fabrication lines are not purchase-ready",
+  "price_eur": null,
+  "amazon_search_url": "https://www.amazon.fr/s?k=Losi+LOS212054",
+  "specifications": {
+    "denture publiée": "16 dents, module 0,5",
+    "alésage publié": "2 mm, correspondant à l’axe moteur sélectionné",
+    "diamètres calculés": "Primitif 8 mm ; extérieur théorique 9 mm pour profil standard",
+    "appairage": "Couronne KHK SS0.5-54A, 54 dents, module 0,5"
+  },
+  "sources": [
+    {
+      "url": "https://www.losi.com/product/pinion-gear-16t-0.5m-2mm-shaft-mini-lmt/LOS212054.html",
+      "type": "primary or explicitly identified supplier reference",
+      "checked_on": "2026-10-13"
+    }
+  ],
+  "documents": [
+    {
+      "file": "KHK-engrenages-acier-SS.pdf",
+      "url": "https://khkgears.net/pdf/ss.pdf",
+      "bytes": 718814,
+      "sha256": "f226fe80d3b8295cc8146be91280061474965f033cf4db471618b6d5f66dda74",
+      "modified": false,
+      "local_file": "../../direction-et-transmission/notices/KHK-engrenages-acier-SS.pdf"
+    },
+    {
+      "file": "KHK-guide-technique-engrenages.pdf",
+      "url": "https://khkgears.net/pdf/spur-tech.pdf",
+      "bytes": 987550,
+      "sha256": "66cd4024617ee553e5e2cd52394552654f1f303d3cadc56ae244110d9c1a0e81",
+      "modified": false,
+      "local_file": "../../direction-et-transmission/notices/KHK-guide-technique-engrenages.pdf"
+    }
+  ],
+  "unknowns": [
+    "Angle de pression Losi non publié dans la fiche consultée : vérifier compatibilité avec les 20° KHK avant validation du couple",
+    "Largeur, moyeu et vis de retenue de la référence livrée",
+    "Charge radiale permise sur l’axe moteur Ø2 mm et endurance au régime élevé",
+    "Aucune notice PDF indépendante propre au pignon trouvée ; fiche constructeur en ligne conservée comme référence"
+  ],
+  "model_3d_manifest": "3D/provenance.json"
+}

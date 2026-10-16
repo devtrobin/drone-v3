@@ -1,0 +1,33 @@
+﻿code;arbre;x_debut;x_fin;longueur;fonction
+R201;arbre intermédiaire;95;99;4;épaulementØ6
+R201;arbre intermédiaire;99;103;4;roulement fixe
+R201;arbre intermédiaire;103;106;3;entretoiseL3
+R201;arbre intermédiaire;106;122;16;pignon24 inversé
+R201;arbre intermédiaire;122;128;6;entretoiseL6
+R201;arbre intermédiaire;128;140;12;couronne54 étage1
+R201;arbre intermédiaire;140;179;39;entretoiseL39
+R201;arbre intermédiaire;179;183;4;roulement flottant
+R201;arbre intermédiaire;183;184.8;1.8000000000000114;entretoiseL1.8
+R201;arbre intermédiaire;184.8;185.5;0.6999999999999886;gorgeDIN471
+R201;arbre intermédiaire;185.5;186.5;1.0;lèvre1mm
+R202;sortie;73;79.3;6.299999999999997;bout libre
+R202;sortie;79.3;80;0.7000000000000028;gorgeDIN471
+R202;sortie;80;88;8;rotor Hall
+R202;sortie;88;91;3;épaulementØ7
+R202;sortie;91;105;14;dégagement
+R202;sortie;105;108;3;épaulementØ7
+R202;sortie;108;112;4;roulement fixe
+R202;sortie;112;117;5;entretoiseL5
+R202;sortie;117;129;12;couronne54 étage2
+R202;sortie;129;191;62;entretoiseL62
+R202;sortie;191;195;4;roulement flottant
+R202;sortie;195;202.5;7.5;entretoiseL7.5
+R202;sortie;202.5;208.5;6.0;moyeu12mm
+R202;sortie;208.5;218.5;10.0;filetage M4 roue
+R210;avant;176;178;2;épaulementØ7
+R210;avant;178;182;4;roulement
+R210;avant;182;190;8;entretoiseL8
+R210;avant;190;194;4;roulement
+R210;avant;194;202.5;8.5;entretoiseL8.5
+R210;avant;202.5;208.5;6.0;moyeu
+R210;avant;208.5;218.5;10.0;M4

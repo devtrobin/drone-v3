@@ -1,0 +1,104 @@
+{
+  "file": "couronne-khk-ss0-5-54a.step",
+  "title": "KHK SS0.5-54A | 54 dents",
+  "generated_on": "2026-10-13",
+  "unit": "mm",
+  "cadquery_version": "2.8.0",
+  "coordinate_system": "Axe principal Z; face de reference z=0; dimensions selon parametres",
+  "bytes": 2225903,
+  "sha256": "b562472645d8f03bc8add1f9b65986995cd6acca15eb35f3677eecad553af0a1",
+  "native_vendor_cad": false,
+  "hardware_measured": false,
+  "is_custom_project_design": false,
+  "published_nominal": [
+    "54 dents, module0.5, angle20 deg, bore5",
+    "Diametre primitif27, exterieur28, moyeu25, denture5, moyeu7, total12",
+    "Vis M4; axe vis J=3.5 mm depuis face du moyeu; acier S45C noirci"
+  ],
+  "estimates_and_limitations": [
+    "Raccord pied de dent, chanfreins et geometrie vis non cotes; pas de tolerance H8 appliquee",
+    "Flancs par splines de developpante (12 points); raccord racine reconstruit non trochoidal",
+    "Pas un fichier natif KHK/Losi ni un profil de fabrication certifie"
+  ],
+  "parameters": {
+    "teeth": 54,
+    "module": 0.5,
+    "pressure_angle": 20,
+    "pressure_angle_verified": true,
+    "bore": 5,
+    "pitch_diameter": 27.0,
+    "tip_diameter": 28.0,
+    "face_width": 5,
+    "hub_diameter": 25,
+    "hub_length": 7,
+    "overall_length": 12,
+    "set_screw_axis_from_hub_end": 3.5
+  },
+  "source_pages": [
+    "KHK-engrenages-acier-SS.pdf p.1"
+  ],
+  "bounds_mm": {
+    "xmin": -14.000000099999898,
+    "xmax": 14.0000000999999,
+    "ymin": -13.986295776702228,
+    "ymax": 13.986295776702327,
+    "zmin": -1e-07,
+    "zmax": 12.0000001
+  },
+  "validation": {
+    "valid_after_reimport": true,
+    "solids": 2,
+    "faces": 340,
+    "colors": 2,
+    "volume_relative_error": 7.892437549901061e-13,
+    "volume_relative_error_limit": 0.0001,
+    "volume_before_mm3": 5947.341523036726,
+    "volume_after_mm3": 5947.34152304142,
+    "adaptive_volume_tolerance": 1e-09,
+    "bbox_error_mm": 4.4231285301066237e-13,
+    "bbox_error_limit_mm": 0.01,
+    "void_and_material_probes": [
+      {
+        "point": [
+          2.49,
+          0,
+          2.5
+        ],
+        "occupied": false
+      },
+      {
+        "point": [
+          2.55,
+          0,
+          2.5
+        ],
+        "occupied": true
+      }
+    ],
+    "elapsed_seconds": 2.795291800000996
+  },
+  "parts": [
+    {
+      "name": "Engrenage_denture_involute",
+      "color_linear_rgb": [
+        0.022,
+        0.026,
+        0.032
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Vis_pression_geometrie_estimee",
+      "color_linear_rgb": [
+        0.38,
+        0.41,
+        0.45
+      ],
+      "solids": 1
+    }
+  ],
+  "preview": {
+    "file": "couronne-khk-ss0-5-54a.png",
+    "sha256": "3fd967a2165b03e00498026e77ff0e0792512a0982fca999683021a7cb5d9dcc"
+  }
+}

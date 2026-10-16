@@ -1,0 +1,352 @@
+{
+  "checked_on": "2026-10-15",
+  "primary_observations": {
+    "JLLN050_DC_V": 160,
+    "JLLN050_AIC_DC_A": 20000,
+    "LFT30060_withstand_DC_A": 20000,
+    "KLKD_AIC_DC_UL248_14_A": 50000,
+    "KLKD_AIC_DC_UL248_19_A": 10000,
+    "KLKD135_percent_open_max_min": 60,
+    "KLKD200_percent_open_max_min": 2,
+    "Pololu5571_accuracy_percent": 3,
+    "Pololu5571_dropout5A_typical_V_approx": 0.25,
+    "BEEC1067_price_EUR_TTC": 6.9
+  },
+  "original_archives": [
+    {
+      "id": "jlln",
+      "url": "https://www.littelfuse.com/assetdocs/jlln-datasheet?assetguid=3a7bc9bf-d932-4401-bdc7-b39f302195cf",
+      "checked_on": "2026-10-15",
+      "status": "not_archived",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "klkd",
+      "url": "https://www.littelfuse.com/assetdocs/klkd-fuse-datasheet?assetguid=7b52eebb-c7cc-43df-a8da-9682a338e0f6",
+      "checked_on": "2026-10-15",
+      "status": "not_archived",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "lf-catalog",
+      "url": "https://www.littelfuse.com/de/assetdocs/powr-gard-catalog?assetguid=85d36235-a32b-4608-bfed-f9878aa43af0",
+      "checked_on": "2026-10-15",
+      "status": "not_archived",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "lf-csa",
+      "url": "https://www.littelfuse.com/assetdocs/csa-6225-01-007316?assetguid=203ad805-7e22-463f-997a-2431bbdfbbd1",
+      "checked_on": "2026-10-15",
+      "status": "not_archived",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "blue-table",
+      "url": "https://catalog2015.bluesea.com/files/common/downloads/page0140.pdf",
+      "checked_on": "2026-10-15",
+      "status": "not_archived",
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "id": "lapp-black",
+      "url": "https://e.lapp.com/jp/p/temperature-resistant-cables/oelflex-heat-180-sif-1x6-bk-0054001",
+      "checked_on": "2026-10-15",
+      "status": "not_archived",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "lapp-red",
+      "url": "https://e.lapp.com/jp/p/temperature-resistant-cables/oelflex-heat-180-sif-1x6-rd-0054104",
+      "checked_on": "2026-10-15",
+      "status": "not_archived",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "pololu-5571",
+      "url": "https://www.pololu.com/product/5571",
+      "checked_on": "2026-10-15",
+      "local": "references/Pololu-5571.html",
+      "status": "archived_original",
+      "bytes": 78338,
+      "sha256": "26c06c2cc55441d7327bf17b6707fd5ca82e03017f67de122a9b91dfcc17c50d",
+      "final_url": "https://www.pololu.com/product/5571",
+      "mime": "text/html; charset=utf-8"
+    },
+    {
+      "id": "charge-cable",
+      "url": "https://www.rcteam.com/products/beez2b-charging-cable-xt60-to-ec5-beec1067",
+      "checked_on": "2026-10-15",
+      "local": "references/Beez2B-BEEC1067.html",
+      "status": "archived_original",
+      "bytes": 974492,
+      "sha256": "cbad6655fc7c0446a787ac44f0146ac0408e0c35f0a65b938493b8d7467f792c",
+      "final_url": "https://www.rcteam.com/products/beez2b-cable-de-charge-xt60-vers-ec5-beec1067/",
+      "mime": "text/html; charset=utf-8"
+    },
+    {
+      "id": "charge-stock",
+      "url": "https://www.rcteam.com/products/beez2b-charging-cable-xt60-to-ec5-beec1067.js",
+      "checked_on": "2026-10-15",
+      "status": "not_archived",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": "ic5-ec5",
+      "url": "https://www.spektrumrc.com/product/connector-ic5-device-w-4-10awg-wires/SPMXCA510.html",
+      "checked_on": "2026-10-15",
+      "local": "references/Spektrum-IC5.html",
+      "status": "archived_original",
+      "bytes": 120070,
+      "sha256": "6852decb8e1cd373752ecfdffb144fc94384ea60ee53fcecdf8ae90f3eaa1e69",
+      "final_url": "https://www.spektrumrc.com/product/spektrum-connector-ic5-device-with-4-wires-10-awg/SPMXCA510.html",
+      "mime": "text/html;charset=UTF-8"
+    },
+    {
+      "id": "klkd-mirror",
+      "url": "https://datasheet.lcsc.com/lcsc/Littelfuse-KLKD006-T_C187690.pdf",
+      "checked_on": "2026-10-15",
+      "status": "not_archived",
+      "error": "Not the expected document"
+    },
+    {
+      "id": "lf-brochure",
+      "url": "https://m.littelfuse.com/~/media/electrical/brochures/littelfuse_lf_series_fuse_block_technical_brochure.pdf",
+      "checked_on": "2026-10-15",
+      "status": "not_archived",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "blue-mirror",
+      "url": "https://theelectricaldepot.com/pdf/Blue%20Sea/appendix_2011%28p114-Back%20Cover%29.pdf",
+      "checked_on": "2026-10-15",
+      "local": "notices/Blue-Sea-table-2011-originale-via-distributeur.pdf",
+      "status": "archived_original",
+      "bytes": 12598060,
+      "sha256": "87dd9bb2daea1ec3d765e6bf9c6580a7a92e29f57456f2fb62b7f87949805e1f",
+      "final_url": "https://theelectricaldepot.com/pdf/Blue%20Sea/appendix_2011%28p114-Back%20Cover%29.pdf",
+      "mime": "application/pdf"
+    },
+    {
+      "id": "charge-stock-canonical",
+      "url": "https://www.rcteam.com/products/beez2b-cable-de-charge-xt60-vers-ec5-beec1067.js",
+      "checked_on": "2026-10-15",
+      "local": "references/Beez2B-BEEC1067-stock.json",
+      "status": "archived_original",
+      "bytes": 3148,
+      "sha256": "baf9c68ef39df27286d5b4eb5e6dca8864edf06c1af0a0a2362b0cbe7db76def",
+      "final_url": "https://www.rcteam.com/products/beez2b-cable-de-charge-xt60-vers-ec5-beec1067.js",
+      "mime": "text/javascript; charset=utf-8"
+    },
+    {
+      "id": "0J13491",
+      "url": "https://a.pololu-files.com/picture/0J13491.1200.jpg?c969ef1c38bd6038b07ab45b9a82c522",
+      "checked_on": "2026-10-15",
+      "local": "references/Pololu-0J13491.jpg",
+      "status": "archived_original",
+      "bytes": 1172096,
+      "sha256": "d6f7d3317d2d4ee5a70d28c0e047b67d1c9a095843d911da7b5333e5df9a0c58",
+      "final_url": "https://a.pololu-files.com/picture/0J13491.1200.jpg?c969ef1c38bd6038b07ab45b9a82c522",
+      "mime": "image/jpeg"
+    },
+    {
+      "id": "0J13492",
+      "url": "https://a.pololu-files.com/picture/0J13492.1200.jpg?70a11e3ab8f73bf3dba1214ade220d75",
+      "checked_on": "2026-10-15",
+      "local": "references/Pololu-0J13492.jpg",
+      "status": "archived_original",
+      "bytes": 1309915,
+      "sha256": "6b8dd3ac7b525aea7d6cf0472306fb093ea86a931afa1733264ca1534a8e5b5e",
+      "final_url": "https://a.pololu-files.com/picture/0J13492.1200.jpg?70a11e3ab8f73bf3dba1214ade220d75",
+      "mime": "image/jpeg"
+    },
+    {
+      "id": "0J13517",
+      "url": "https://a.pololu-files.com/picture/0J13517.1200.jpg?61b1d3321e2fdb37fa786e23555bbcb5",
+      "checked_on": "2026-10-15",
+      "local": "references/Pololu-0J13517.jpg",
+      "status": "archived_original",
+      "bytes": 136829,
+      "sha256": "62c02e13a34cfa10e066be80af1e131eb96738b4f76427a9f21872287b8b8f21",
+      "final_url": "https://a.pololu-files.com/picture/0J13517.1200.jpg?61b1d3321e2fdb37fa786e23555bbcb5",
+      "mime": "image/jpeg"
+    },
+    {
+      "id": "0J13522",
+      "url": "https://a.pololu-files.com/picture/0J13522.1200.png?a7930fc7c1e3f732477f476946daa537",
+      "checked_on": "2026-10-15",
+      "local": "references/Pololu-0J13522.png",
+      "status": "archived_original",
+      "bytes": 113788,
+      "sha256": "f68414ed0ca393f904d47f8cf2310046f5aed1510427171eef6d0d619e8e862a",
+      "final_url": "https://a.pololu-files.com/picture/0J13522.1200.png?a7930fc7c1e3f732477f476946daa537",
+      "mime": "image/png"
+    },
+    {
+      "id": "0J13530",
+      "url": "https://a.pololu-files.com/picture/0J13530.1200.png?f22e710175b5397926cce2ef44570d8a",
+      "checked_on": "2026-10-15",
+      "local": "references/Pololu-0J13530.png",
+      "status": "archived_original",
+      "bytes": 145575,
+      "sha256": "85581d162c109d888483d15e76d1b8ddbfc4a6c65682de33cc13cc5070438bae",
+      "final_url": "https://a.pololu-files.com/picture/0J13530.1200.png?f22e710175b5397926cce2ef44570d8a",
+      "mime": "image/png"
+    },
+    {
+      "id": "0J13533",
+      "url": "https://a.pololu-files.com/picture/0J13533.1200.jpg?46b1cf21872d664d23ddb9f8f30b3dd8",
+      "checked_on": "2026-10-15",
+      "local": "references/Pololu-0J13533.jpg",
+      "status": "archived_original",
+      "bytes": 194857,
+      "sha256": "a1919be13c73928109db217d7d5ca8857394ff3e9a929a08159483ff37ac28aa",
+      "final_url": "https://a.pololu-files.com/picture/0J13533.1200.jpg?46b1cf21872d664d23ddb9f8f30b3dd8",
+      "mime": "image/jpeg"
+    },
+    {
+      "id": "0J13532",
+      "url": "https://a.pololu-files.com/picture/0J13532.1200.png?08d80d15b6f4c6b54088fc35f6919680",
+      "checked_on": "2026-10-15",
+      "local": "references/Pololu-0J13532.png",
+      "status": "archived_original",
+      "bytes": 78845,
+      "sha256": "a05e956c9d954ec15eb1cdd6f311ff2fa85c872dd1b8a462468923fea09b7654",
+      "final_url": "https://a.pololu-files.com/picture/0J13532.1200.png?08d80d15b6f4c6b54088fc35f6919680",
+      "mime": "image/png"
+    },
+    {
+      "id": "charge-photo-0",
+      "url": "https://cdn.shopify.com/s/files/1/0783/2161/5133/files/beez2b-cable-de-charge-xt60-vers-ec5-beec1067.jpg?v=1705725944",
+      "checked_on": "2026-10-15",
+      "local": "references/Beez2B-photo-0.jpg",
+      "status": "archived_original",
+      "bytes": 34137,
+      "sha256": "64c772e92b86765726dda61c2f4105381714b71df2ea6fb94bce38d2ae101be4",
+      "final_url": "https://cdn.shopify.com/s/files/1/0783/2161/5133/files/beez2b-cable-de-charge-xt60-vers-ec5-beec1067.jpg?v=1705725944",
+      "mime": "image/jpeg"
+    },
+    {
+      "id": "charge-photo-1",
+      "url": "https://cdn.shopify.com/s/files/1/0783/2161/5133/files/beez2b-cable-de-charge-xt60-vers-ec5-beec1067_3c64041c-fa29-44e4-88fc-83457bf1e1e3.jpg?v=1705725948",
+      "checked_on": "2026-10-15",
+      "local": "references/Beez2B-photo-1.jpg",
+      "status": "archived_original",
+      "bytes": 95685,
+      "sha256": "1249a8867e95f7f4078b173400f06fd796e40f3c828179c20598adc5bb780ea0",
+      "final_url": "https://cdn.shopify.com/s/files/1/0783/2161/5133/files/beez2b-cable-de-charge-xt60-vers-ec5-beec1067_3c64041c-fa29-44e4-88fc-83457bf1e1e3.jpg?v=1705725948",
+      "mime": "image/jpeg"
+    },
+    {
+      "id": "lft-current",
+      "url": "https://www.littelfuse.com/assetdocs/lft-datasheet?assetguid=56b8955c-9cf7-4814-a923-97a4406bfa77",
+      "checked_on": "2026-10-15",
+      "status": "not_archived",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "lf-brochure-mirror",
+      "url": "https://www.mouser.lt/datasheet/2/240/Littelfuse_LF_Series_Fuse_Block_Technical_Brochure-3310997.pdf",
+      "checked_on": "2026-10-15",
+      "status": "not_archived",
+      "error": "Not the expected document"
+    },
+    {
+      "id": "klkd-mouser",
+      "url": "https://www.mouser.com/datasheet/2/240/Littelfuse_Fuse_KLKD_Datasheet-259104.pdf",
+      "checked_on": "2026-10-15",
+      "status": "not_archived",
+      "error": "Not the expected document"
+    },
+    {
+      "id": "pololu-resources",
+      "url": "https://www.pololu.com/product/5571/resources",
+      "checked_on": "2026-10-15",
+      "local": "references/Pololu-5571-resources.html",
+      "status": "archived_original",
+      "bytes": 56625,
+      "sha256": "1484fe6eb077739ecc2a831e3c850c76ca222168506aa59dc915142db713acd1",
+      "final_url": "https://www.pololu.com/product/5571/resources",
+      "mime": "text/html; charset=utf-8"
+    },
+    {
+      "id": "pololu-plan",
+      "url": "https://www.pololu.com/file/0J2180/d42v55fx-step-down-voltage-regulators-dimensions.pdf",
+      "checked_on": "2026-10-15",
+      "local": "notices/Pololu-D42V55Fx-plan-original.pdf",
+      "status": "archived_original",
+      "bytes": 318841,
+      "sha256": "115ff5f3896b7440a0e7dc3f527f17eebabd29f1e7ebc737c6a60a0c6870cf5b",
+      "final_url": "https://www.pololu.com/file/0J2180/d42v55fx-step-down-voltage-regulators-dimensions.pdf",
+      "mime": "application/pdf"
+    },
+    {
+      "id": "pololu-step",
+      "url": "https://www.pololu.com/file/0J2181/d42v55fx-step-down-voltage-regulator.step",
+      "checked_on": "2026-10-15",
+      "local": "references/Pololu-D42V55Fx-original.step",
+      "status": "archived_original",
+      "bytes": 6071839,
+      "sha256": "849512fa686206951d282a92b8701418b7f5707e91d0abd70312e0af01caae5e",
+      "final_url": "https://www.pololu.com/file/0J2181/d42v55fx-step-down-voltage-regulator.step",
+      "mime": "application/octet-stream"
+    },
+    {
+      "id": "lapp-via-conrad",
+      "url": "https://asset.conrad.com/media10/add/160267/c1/-/en/000600502DS01/datasheet-600502-lapp-54002-1-heat-resistant-cable-oelflex-heat-180-sif-1-x-6-mm-blue-sold-per-metre.pdf",
+      "checked_on": "2026-10-15",
+      "local": "notices/LAPP-SiF-via-Conrad-original.pdf",
+      "status": "archived_original",
+      "bytes": 46523,
+      "sha256": "e6403d255bb16be54a32889e17795fafab5d18458551a88733c73ee552a830f6",
+      "final_url": "https://asset.conrad.com/media10/add/160267/c1/-/en/000600502DS01/datasheet-600502-lapp-54002-1-heat-resistant-cable-oelflex-heat-180-sif-1-x-6-mm-blue-sold-per-metre.pdf",
+      "mime": "application/pdf"
+    },
+    {
+      "id": "midget-source-mirror",
+      "url": "https://littelfusesales.com/assets/content/vendorAssets/docs/POWRGARD-lf-series-class-cc-cd-midget-fuse-blocks.pdf",
+      "checked_on": "2026-10-15",
+      "local": "notices/Littelfuse-Midget-original-via-distributeur.pdf",
+      "status": "archived_original",
+      "bytes": 1838484,
+      "sha256": "0b80f87f5680b0b425128b6a19d8c2b5f29f62d96e8e222f0444188966123a88",
+      "final_url": "https://littelfusesales.com/assets/content/vendorAssets/docs/POWRGARD-lf-series-class-cc-cd-midget-fuse-blocks.pdf",
+      "mime": "application/pdf"
+    },
+    {
+      "id": "klkd-xon",
+      "url": "https://xonstorage.z8.web.core.windows.net/pdf/littelfuse_klkd020h_apr22_xonlink.pdf",
+      "checked_on": "2026-10-15",
+      "local": "notices/Littelfuse-KLKD-2021-original-via-distributeur.pdf",
+      "status": "archived_original",
+      "bytes": 478615,
+      "sha256": "7613219f066c8c38bf0693956de49e817e4dfd06fd142389e5326c010a437ba8",
+      "final_url": "https://xonstorage.z8.web.core.windows.net/pdf/littelfuse_klkd020h_apr22_xonlink.pdf",
+      "mime": "application/pdf"
+    },
+    {
+      "id": "TE-32151",
+      "url": "https://www.te.com/en/product-32151.html",
+      "checked_on": "2026-10-15",
+      "status": "not_archived",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "TE32151-pdf",
+      "url": "https://pf.unikeyic.com/datasheet/8b/3f/fef1/8b3ffef1a9347dd4c37f22bc1bb937d9.pdf",
+      "checked_on": "2026-10-15",
+      "local": "notices/TE-32151-fiche-originale-via-distributeur.pdf",
+      "status": "archived_original",
+      "bytes": 251060,
+      "sha256": "0615eaf674d9c37f25be9d3a6960726d18eefa1553006f8b41555344d4bd3f46",
+      "final_url": "https://www.unikeyic.com/media/datasheet/8b/3f/fef1/8b3ffef1a9347dd4c37f22bc1bb937d9.pdf",
+      "mime": "application/pdf"
+    }
+  ],
+  "source_limits": [
+    "Latest Littelfuse2025 PDFs read online, direct archive403",
+    "Midget local copy2015, KLKD local copy2021 plus distributor appendix",
+    "No claim of maximum clearing energy at8.4 V",
+    "No hardware measurement"
+  ]
+}

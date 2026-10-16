@@ -1,0 +1,99 @@
+{
+  "file": "te-130191-nue-detaillee.step",
+  "title": "TE SOLISTRAND 130191 | cosse nue",
+  "generated_on": "2026-10-15",
+  "unit": "mm",
+  "cadquery_version": "2.8.0",
+  "coordinate_system": "Axe principal Z; face de reference z=0; dimensions selon parametres",
+  "bytes": 366458,
+  "sha256": "5074bbbc42981a326f9dd17c7cb8ac6d230fe94f7069897edcb57bb43b331f37",
+  "native_vendor_cad": false,
+  "hardware_measured": false,
+  "is_custom_project_design": false,
+  "published_nominal": [
+    "TE130191 : L19,3 ; œil5,26 ; paume0,79 ; IDcanon3,28 ; 12-10AWG."
+  ],
+  "estimates_and_limitations": [
+    "Largeur9,53 issue de distributeurs ; extérieurØ4,86, canon7,3, transition et marquage reconstruits sans planA3 récupéré.",
+    "Différences guideTE19,10/9,50/3,30 et distributeurs0,99 d’épaisseur conservées dans cotes.md.",
+    "Couleurs et détails non cotés estimés, aucune pièce mesurée ; aucune qualification à44A."
+  ],
+  "parameters": {
+    "length_mm": 19.3,
+    "hole_diameter_mm": 5.26,
+    "tongue_thickness_mm": 0.79,
+    "barrel_ID_mm": 3.28,
+    "width_estimated_mm": 9.53
+  },
+  "source_pages": [
+    "Voir sources.json et assets.json du cordon"
+  ],
+  "bounds_mm": {
+    "xmin": -4.7650001,
+    "xmax": 4.7650001,
+    "ymin": -2.4300001,
+    "ymax": 2.43,
+    "zmin": 0.0,
+    "zmax": 19.3000001
+  },
+  "validation": {
+    "valid_after_reimport": true,
+    "solids": 1,
+    "faces": 105,
+    "colors": 1,
+    "volume_relative_error": 1.0762956672774243e-13,
+    "volume_relative_error_limit": 0.0001,
+    "volume_before_mm3": 128.6019531010434,
+    "volume_after_mm3": 128.60195310102955,
+    "adaptive_volume_tolerance": 1e-09,
+    "bbox_error_mm": 3.552713678800501e-15,
+    "bbox_error_limit_mm": 0.01,
+    "void_and_material_probes": [
+      {
+        "point": [
+          0,
+          -2.0,
+          14.535
+        ],
+        "occupied": false
+      },
+      {
+        "point": [
+          0,
+          -2.0,
+          12.05
+        ],
+        "occupied": false
+      },
+      {
+        "point": [
+          4.0,
+          -2.0,
+          14.535
+        ],
+        "occupied": true
+      }
+    ],
+    "elapsed_seconds": 0.6189130999991903,
+    "volume_after_default_quadrature_mm3": 128.60195310111817
+  },
+  "parts": [
+    {
+      "name": "Piece_cosse_cuivre_etame",
+      "color_linear_rgb": [
+        0.57,
+        0.62,
+        0.65
+      ],
+      "solids": 1
+    }
+  ],
+  "preview": {
+    "file": "te-130191-nue-detaillee.png",
+    "sha256": "b898ae10d855d8cffb43bba8bfff481c837796f1b5ecdcda214f04a4d6cfb731"
+  },
+  "component_folder": "cordon-principal-batterie/cosses-te-130191",
+  "relative_step_path": "cordon-principal-batterie/cosses-te-130191/3D/te-130191-nue-detaillee.step",
+  "generator": "tools/build_main_cord_step.py",
+  "generator_sha256": "fa32714620f5b29cb53937cc7563fa4b8b90d2d2824c13b66ada142267b73bed"
+}

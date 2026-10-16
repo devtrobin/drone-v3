@@ -1,0 +1,10 @@
+{
+  "seconds": 11.313094854354858,
+  "parts": 120,
+  "assembly_objects": 452,
+  "step": "Assemblage\\R3\\drone-v3-r3-faisceau.step",
+  "sha256": "49d43487cffaccd8f997502659f7153b7c6a3cce2ba0db39ea4253c926f7b849",
+  "R2_source_sha256": "73eeda462a399ace5944e6d0def9d6d0e59cf865d48b0b6b81b3e594732edc18",
+  "terminal_coordinates_measured": false,
+  "hardware_tested": false
+}

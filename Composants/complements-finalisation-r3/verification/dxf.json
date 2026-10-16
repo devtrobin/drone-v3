@@ -1,0 +1,198 @@
+[
+  {
+    "piece": "R303_rail_G",
+    "local_origin_global_mm": [
+      -166.0,
+      50.0,
+      146.0
+    ],
+    "unit": "mm",
+    "top_face_template": true,
+    "profile_round_trip_difference_mm3": 0.0,
+    "STEP_sha256": "432ae5da51ed55981827b190f185ce4048be137a437b49cc35e039800bf33864",
+    "DXF_sha256": "32f445e056d07e961f59054a2c1651cd5dc936e3fbecdfcd214bd410c475c971",
+    "usage": "Perçages sur tube déjà débité; contour de référence uniquement"
+  },
+  {
+    "piece": "R303_rail_D",
+    "local_origin_global_mm": [
+      136.0,
+      50.0,
+      146.0
+    ],
+    "unit": "mm",
+    "top_face_template": true,
+    "profile_round_trip_difference_mm3": 0.0,
+    "STEP_sha256": "c1cd3b6d4b65f9539fc42af90c64643c4f2d6acbac580962a7c2cd8c0e56c485",
+    "DXF_sha256": "9700232da8ca07e859ca363f91f3d9ec211550168e59daaae5b3fb126c86d6c2",
+    "usage": "Perçages sur tube déjà débité; contour de référence uniquement"
+  },
+  {
+    "piece": "R304_traverse_60",
+    "local_origin_global_mm": [
+      -136.0,
+      45.0,
+      146.0
+    ],
+    "unit": "mm",
+    "top_face_template": true,
+    "profile_round_trip_difference_mm3": 0.0,
+    "STEP_sha256": "8b6f9bfc8d305bd3eedab0c08c4986bd5ec5428a588755383de8394920b78191",
+    "DXF_sha256": "ad8ed1c2f066d493db208da694c5200d8f2ddcd1696457c1a2b3878b67d2321f",
+    "usage": "Perçages sur tube déjà débité; contour de référence uniquement"
+  },
+  {
+    "piece": "R305_eclisse_G_60",
+    "local_origin_global_mm": [
+      -161.0,
+      45.0,
+      149.0
+    ],
+    "unit": "mm",
+    "top_face_template": true,
+    "profile_round_trip_difference_mm3": 0.0,
+    "STEP_sha256": "653a791f15dfeaa63fe1aff42d6f3a889c71cd9804cd29f94c678932da9a4c85",
+    "DXF_sha256": "24d39c5c449a22764127a9a000af54dc2648947adfdc658f3393b64f11bfdf05",
+    "usage": "Débit plat3"
+  },
+  {
+    "piece": "R305_eclisse_D_60",
+    "local_origin_global_mm": [
+      121.0,
+      45.0,
+      149.0
+    ],
+    "unit": "mm",
+    "top_face_template": true,
+    "profile_round_trip_difference_mm3": 0.0,
+    "STEP_sha256": "d944d3d0835c2b41ab201bf71fa2d642f3938998da4e9b12482b74ea13f20d7d",
+    "DXF_sha256": "6eb8564479d97834deb0c1710c09b86c88f250793f7cea165f1e1284c8c64e09",
+    "usage": "Débit plat3"
+  },
+  {
+    "piece": "R304_traverse_335",
+    "local_origin_global_mm": [
+      -136.0,
+      320.0,
+      146.0
+    ],
+    "unit": "mm",
+    "top_face_template": true,
+    "profile_round_trip_difference_mm3": 0.0,
+    "STEP_sha256": "9a1ac4cc031d9eb45ba215b4ead2e09ae0c2419be1b3fc7192303d391e0bde8e",
+    "DXF_sha256": "cff979da557b24b37bb71f35758cac552e19a68f7fafd7f691661b4061e61957",
+    "usage": "Perçages sur tube déjà débité; contour de référence uniquement"
+  },
+  {
+    "piece": "R305_eclisse_G_335",
+    "local_origin_global_mm": [
+      -161.0,
+      320.0,
+      149.0
+    ],
+    "unit": "mm",
+    "top_face_template": true,
+    "profile_round_trip_difference_mm3": 0.0,
+    "STEP_sha256": "4beff1795b44fc8ed4ba5002dd077ccad30b5598eb3a468cfaea7a5e0245b2bc",
+    "DXF_sha256": "7f6e1322ccb8571974eda668c413d3306a4a7c77ee238d4b83ce37382cb03656",
+    "usage": "Débit plat3"
+  },
+  {
+    "piece": "R305_eclisse_D_335",
+    "local_origin_global_mm": [
+      121.0,
+      320.0,
+      149.0
+    ],
+    "unit": "mm",
+    "top_face_template": true,
+    "profile_round_trip_difference_mm3": 0.0,
+    "STEP_sha256": "d839c3c7bc11b6f3de7ec07a4bfd777b31761b6508cf1baee39f69dd546e906c",
+    "DXF_sha256": "8c45dba1be3809fdc494ae534f31b3ddb5bc94e03bf8d1af4cee4b62fc3f93de",
+    "usage": "Débit plat3"
+  },
+  {
+    "piece": "R306_console_03",
+    "local_origin_global_mm": [
+      -195.0,
+      210.0,
+      149.0
+    ],
+    "unit": "mm",
+    "top_face_template": true,
+    "profile_round_trip_difference_mm3": 0.0,
+    "STEP_sha256": "6af33a3911d1699a73d403d9adcde98d090479afe03e32fbaf83b848051cfbb4",
+    "DXF_sha256": "3c55b84298f824f47a4b3cb5899fe61b3ea1b1ad106b54855d82ce5b8bac8f0a",
+    "usage": "Débit plat3"
+  },
+  {
+    "piece": "R306_console_04",
+    "local_origin_global_mm": [
+      -195.0,
+      230.0,
+      149.0
+    ],
+    "unit": "mm",
+    "top_face_template": true,
+    "profile_round_trip_difference_mm3": 0.0,
+    "STEP_sha256": "11a5aaf4a7f62b04bc379a50990bdd8f3a5b4d801de335a0d06eb783c85efb01",
+    "DXF_sha256": "d18e06c824041e60610df4bd86b5d035ab85a393894cd06795a0d864bb1c3029",
+    "usage": "Débit plat3"
+  },
+  {
+    "piece": "R306_console_05",
+    "local_origin_global_mm": [
+      -195.0,
+      250.0,
+      149.0
+    ],
+    "unit": "mm",
+    "top_face_template": true,
+    "profile_round_trip_difference_mm3": 0.0,
+    "STEP_sha256": "52bb70492160a20c401d50458d6df28d6502cad2a6e11a39ed594b2b48321285",
+    "DXF_sha256": "a8f5b08cd03c59053bc3714ff3dcf643b1adacc85f8ab5e6b7a138941b49d5e6",
+    "usage": "Débit plat3"
+  },
+  {
+    "piece": "R306_console_06",
+    "local_origin_global_mm": [
+      -10.0,
+      230.0,
+      149.0
+    ],
+    "unit": "mm",
+    "top_face_template": true,
+    "profile_round_trip_difference_mm3": 0.0,
+    "STEP_sha256": "6e8b31e817f82c86471e315168c904195d363dc135ad7f06f9217e8b825f1af5",
+    "DXF_sha256": "848926193909c8d9d512256c38c251fd9208cbc868386663c556fa722114c6fc",
+    "usage": "Débit plat3"
+  },
+  {
+    "piece": "R306_console_07",
+    "local_origin_global_mm": [
+      50.0,
+      230.0,
+      149.0
+    ],
+    "unit": "mm",
+    "top_face_template": true,
+    "profile_round_trip_difference_mm3": 0.0,
+    "STEP_sha256": "68bcb99be324302365f4559cac2539558b6d8ea3898ea787a30424e2e04b9d11",
+    "DXF_sha256": "4eeea06d5c74f9344b82b75e4433187e3832be274f7e60393454e24473f1df3d",
+    "usage": "Débit plat3"
+  },
+  {
+    "piece": "R306_console_08",
+    "local_origin_global_mm": [
+      97.0,
+      290.0,
+      149.0
+    ],
+    "unit": "mm",
+    "top_face_template": true,
+    "profile_round_trip_difference_mm3": 0.0,
+    "STEP_sha256": "16f24eba216903d4fd45c187d94bf67e1414fccad89f5438213230021411a463",
+    "DXF_sha256": "d4c042efe5cec92b4341280845230f487b0c8b84841e6c1b99d681ed2dc34bed",
+    "usage": "Débit plat3"
+  }
+]

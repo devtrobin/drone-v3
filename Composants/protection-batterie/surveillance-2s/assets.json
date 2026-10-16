@@ -1,0 +1,61 @@
+{
+  "checked_on": "2026-10-13",
+  "assets": [
+    {
+      "file": "notices/TI-TLV6700-datasheet.pdf",
+      "url": "https://www.ti.com/lit/ds/symlink/tlv6700.pdf",
+      "final_url": "https://www.ti.com/lit/ds/symlink/tlv6700.pdf",
+      "bytes": 3293048,
+      "sha256": "b97ac5c46caafd69bb762ee3da123e7906fb68394f552455a51b41385890c2fc",
+      "modified": false
+    },
+    {
+      "file": "notices/Vishay-VOS618A-datasheet.pdf",
+      "url": "https://www.vishay.com/docs/83465/vos618a.pdf",
+      "final_url": "https://www.vishay.com/docs/83465/vos618a.pdf",
+      "bytes": 164773,
+      "sha256": "61d948c9edadff66dad1bfc49f8ae17f2258b25ee15af8509d0361e218a9971a",
+      "modified": false
+    },
+    {
+      "file": "notices/Microchip-MCP1703A-datasheet.pdf",
+      "url": "https://ww1.microchip.com/downloads/aemDocuments/documents/APID/ProductDocuments/DataSheets/MCP1703-Data-Sheet-DS20005122.pdf",
+      "final_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/APID/ProductDocuments/DataSheets/MCP1703-Data-Sheet-DS20005122.pdf",
+      "bytes": 2296306,
+      "sha256": "6fdfc2f20167c7292c92c9c4c8003fd4d8615e0f2f90e224e1e10dce6ed65b5f",
+      "modified": false
+    },
+    {
+      "file": "notices/Diodes-BAT54-datasheet.pdf",
+      "url": "https://www.diodes.com/datasheet/download/BAT54.pdf",
+      "final_url": "https://www.diodes.com/datasheet/download/BAT54.pdf",
+      "bytes": 502635,
+      "sha256": "50b04e4e17bcf5db62164f6e5422e91546d0cace0ab2efed61660c3044b4fef0",
+      "modified": false
+    },
+    {
+      "file": "notices/TI-SN74LVC2G17-datasheet.pdf",
+      "url": "https://www.ti.com/lit/ds/symlink/sn74lvc2g17.pdf",
+      "final_url": "https://www.ti.com/lit/ds/symlink/sn74lvc2g17.pdf",
+      "bytes": 1888823,
+      "sha256": "624dbe55679d2fed4123b0d7708cd0d295efcc78de395e71a0caf5cd13cbc216",
+      "modified": false
+    },
+    {
+      "file": "sources-web/TI-TLV6700.html",
+      "url": "https://www.ti.com/product/TLV6700",
+      "final_url": "https://www.ti.com/product/TLV6700",
+      "bytes": 295372,
+      "sha256": "e7e1b14193369a450d94fa33cb1188be4d396f41ece05aaf7256a84596dc1b47",
+      "modified": false
+    },
+    {
+      "file": "sources-web/Pi-overlays-README.txt",
+      "url": "https://raw.githubusercontent.com/raspberrypi/firmware/master/boot/overlays/README",
+      "final_url": "https://raw.githubusercontent.com/raspberrypi/firmware/master/boot/overlays/README",
+      "bytes": 308933,
+      "sha256": "c1cd0eb9ff29595f08f5423056710acd1febf02cabd6f639d17b23fa7cc4e867",
+      "modified": false
+    }
+  ]
+}

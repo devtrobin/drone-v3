@@ -1,0 +1,210 @@
+{
+  "file": "trois-bornes-potentiels-separes-etude.step",
+  "title": "Liaisons |5V,GND,6V distincts",
+  "generated_on": "2026-10-14",
+  "unit": "mm",
+  "cadquery_version": "2.8.0",
+  "coordinate_system": "Axe principal Z; face de reference z=0; dimensions selon parametres",
+  "bytes": 2141598,
+  "sha256": "d1b83ad679b3de12f6d4418368e993f9ab58bca9f343cc757f9f4a4ca7c118ed",
+  "native_vendor_cad": false,
+  "hardware_measured": false,
+  "is_custom_project_design": true,
+  "published_nominal": [
+    "WAGO2025/2024 :18.8ou30 x18.6x8.4,3ou5ports et unpotentiel."
+  ],
+  "estimates_and_limitations": [
+    "Poches, leviers, ressorts etbarreconductrice reconstruits ; transparence réelle représentée pargrisopaque dansSTEP.",
+    "Implantationisolée pourlecture, aucuneconnexionentrelesbarres, longueursfinalesauchâssis. La3e413masseServo estdanslenomenclaturecommande.",
+    "Nuances optiques estimées ; géométrie non mesurée. Pas de plan de fabrication ni de qualification mécanique/électrique."
+  ],
+  "parameters": {},
+  "source_pages": [
+    "Voir sources.json et cotes.md du composant / ensemble"
+  ],
+  "bounds_mm": {
+    "xmin": -15.0,
+    "xmax": 15.0,
+    "ymin": -9.3,
+    "ymax": 61.3,
+    "zmin": 0.0,
+    "zmax": 8.4000001
+  },
+  "validation": {
+    "valid_after_reimport": true,
+    "solids": 17,
+    "faces": 620,
+    "colors": 3,
+    "volume_relative_error": 1.2095672579955716e-14,
+    "volume_relative_error_limit": 0.0001,
+    "volume_before_mm3": 6917.640338724822,
+    "volume_after_mm3": 6917.640338724738,
+    "adaptive_volume_tolerance": 1e-09,
+    "bbox_error_mm": 0.0,
+    "bbox_error_limit_mm": 0.01,
+    "void_and_material_probes": [],
+    "elapsed_seconds": 6.573687600000994,
+    "volume_after_default_quadrature_mm3": 6917.640338724698
+  },
+  "parts": [
+    {
+      "name": "Piece_5V_boitier_PC_transparence_non_encodee",
+      "color_linear_rgb": [
+        0.56,
+        0.65,
+        0.68
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Piece_5V_levier_orange_1",
+      "color_linear_rgb": [
+        0.93,
+        0.22,
+        0.008
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Piece_5V_levier_orange_2",
+      "color_linear_rgb": [
+        0.93,
+        0.22,
+        0.008
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Piece_5V_levier_orange_3",
+      "color_linear_rgb": [
+        0.93,
+        0.22,
+        0.008
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Piece_5V_barre_et_ressorts_estimes_un_potentiel",
+      "color_linear_rgb": [
+        0.54,
+        0.59,
+        0.62
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Piece_GND_boitier_PC_transparence_non_encodee",
+      "color_linear_rgb": [
+        0.56,
+        0.65,
+        0.68
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Piece_GND_levier_orange_1",
+      "color_linear_rgb": [
+        0.93,
+        0.22,
+        0.008
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Piece_GND_levier_orange_2",
+      "color_linear_rgb": [
+        0.93,
+        0.22,
+        0.008
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Piece_GND_levier_orange_3",
+      "color_linear_rgb": [
+        0.93,
+        0.22,
+        0.008
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Piece_GND_levier_orange_4",
+      "color_linear_rgb": [
+        0.93,
+        0.22,
+        0.008
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Piece_GND_levier_orange_5",
+      "color_linear_rgb": [
+        0.93,
+        0.22,
+        0.008
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Piece_GND_barre_et_ressorts_estimes_un_potentiel",
+      "color_linear_rgb": [
+        0.54,
+        0.59,
+        0.62
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Piece_BEC6V_boitier_PC_transparence_non_encodee",
+      "color_linear_rgb": [
+        0.56,
+        0.65,
+        0.68
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Piece_BEC6V_levier_orange_1",
+      "color_linear_rgb": [
+        0.93,
+        0.22,
+        0.008
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Piece_BEC6V_levier_orange_2",
+      "color_linear_rgb": [
+        0.93,
+        0.22,
+        0.008
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Piece_BEC6V_levier_orange_3",
+      "color_linear_rgb": [
+        0.93,
+        0.22,
+        0.008
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Piece_BEC6V_barre_et_ressorts_estimes_un_potentiel",
+      "color_linear_rgb": [
+        0.54,
+        0.59,
+        0.62
+      ],
+      "solids": 1
+    }
+  ],
+  "preview": {
+    "file": "trois-bornes-potentiels-separes-etude.png",
+    "sha256": "d082852d3f3e9d066decadc91c559142411ee95565787470e6d336f8ed25a0cf"
+  },
+  "component_folder": "liaisons-alimentation-surveillance",
+  "relative_step_path": "liaisons-alimentation-surveillance/3D/trois-bornes-potentiels-separes-etude.step"
+}

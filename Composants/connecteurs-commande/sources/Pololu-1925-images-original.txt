@@ -1,0 +1,819 @@
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+  
+  
+ 
+  
+  
+  
+ {
+  "integrity":
+{"https://a.pololu-files.com/assets/application_module-765f0f526c59caa9c9857c01889e68833710c17121ab6f9093f3a0a809af7bd4.js":"sha256-s+WZHcA06TsuXtPz2xeDSGgG6j+QSXvT2ghPYhJLLow=","https://a.pololu-files.com/assets/price_notification-e46ad505e4a01eb1a311cfc2e3e1bcc1fb6b1df47904cd3266d1c604e186aeef.js":"sha256-dMqQKgrJg+aoe44ZPYCTOrmXPQmzk+4dG1qmmdt6iSA=","https://a.pololu-files.com/assets/stock_notification-f27d00b99405c410cf3c23f1f151c5701276c2577449e2123ab34938e82d92d6.js":"sha256-TXG5Dvr05BAeQMNdQcyJS5Z5IQtw4aqM0HM1/m/QxoE=","https://a.pololu-files.com/assets/email_verification_send_handler-c06bf3ee7010809c6f7e62c9ae106d071a9373dce8c9e6c324c07aeacd069db2.js":"sha256-Rjuw+y6QuyfBGxpXeTICO2/PJRg4iMfzzleu7n7XUz8=","https://a.pololu-files.com/assets/payment_handler-49a20512068cb88565bc275464d6002af52baec06430fbdc9480f530a2c5b9a7.js":"sha256-PmVdEt5BorGjsZxOo7BfGw8aes3BCxnDQvw55paraHo="},
+  "imports": {
+    "application": "https://a.pololu-files.com/assets/application_module-765f0f526c59caa9c9857c01889e68833710c17121ab6f9093f3a0a809af7bd4.js",
+    "price_notification": "https://a.pololu-files.com/assets/price_notification-e46ad505e4a01eb1a311cfc2e3e1bcc1fb6b1df47904cd3266d1c604e186aeef.js",
+    "stock_notification": "https://a.pololu-files.com/assets/stock_notification-f27d00b99405c410cf3c23f1f151c5701276c2577449e2123ab34938e82d92d6.js",
+    "email_verification_send_handler": "https://a.pololu-files.com/assets/email_verification_send_handler-c06bf3ee7010809c6f7e62c9ae106d071a9373dce8c9e6c324c07aeacd069db2.js",
+    "payment_handler": "https://a.pololu-files.com/assets/payment_handler-49a20512068cb88565bc275464d6002af52baec06430fbdc9480f530a2c5b9a7.js",
+    "braintree": "https://js.braintreegateway.com/web/dropin/1.46.1/js/dropin.js"
+  }
+} 
+
+ import "application" 
+ 
+  if(document.domain.indexOf("pololu-files.com") == -1) {
+    $.ajax({
+    url: "https://www.googletagmanager.com/gtag/js?id=G-G4ENPJ5RV1",
+    dataType: "script"
+    });
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', "G-G4ENPJ5RV1");
+  }
+ 
+
+ 
+
+ Pololu - JR Connector Pack, Male 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Electronics","item":"https://www.pololu.com/category/6/electronics"},{"@type":"ListItem","position":2,"name":"Connectors","item":"https://www.pololu.com/category/19/connectors"}]}
+ 
+ 
+{"@context":"https://schema.org","@type":"Product","image":"https://a.pololu-files.com/picture/0J3375.600x480.jpg?d0927024f140a0954682b39108af3e31","name":"JR Connector Pack, Male","description":"This pack contains everything you need to add up to three male JR connectors — the connectors that mate with those commonly found on generic RC servos — to custom cables.  You can use a crimping tool to attach the included pins to your own 22–26 AWG wires.  This pack contains enough housings and crimp pins (including 3 spare pins) for 3 male connectors.  The crimp pins have gold-flashed male contacts.","sku":1925,"brand":"Generic","offers":{"@type":"Offer","price":"5.95","priceCurrency":"USD","URL":"https://www.pololu.com/product/1925","availability":"InStock"}}
+ 
+
+  
+ 
+
+ 
+
+ 
+  Electronics  »  Connectors  » 
+ JR Connector Pack, Male 
+ 
+ 
+  
+  
+
+  
+ 
+   
+  
+ 
+
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ New!
+ 
+ 
+ 
+ 
+ 
+ Pololu item #: 
+ 1925 
+ 
+    
+ 
+ 
+ 
+ Brand: 
+  Generic  
+ 
+ 
+ supply outlook 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Get stock notification
+ 
+  
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ Notify me when stock is at least 
+ 
+ 
+ Cancel 
+ 
+ 
+ Optional: desired quantity 
+ 
+ 
+ 
+ 
+ Remove 
+ 
+ Save 
+ 
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+  
+ 
+ 
+
+
+ 
+ 
+ 
+ 
+ 
+Price break
+ 
+ 
+Unit price (US$)
+ 
+ 
+ 
+ 
+1
+ 
+ 
+5.95
+ 
+ 
+ 
+ 
+5
+ 
+ 
+5.47
+ 
+ 
+ 
+ 
+25
+ 
+ 
+5.04
+ 
+ 
+ 
+ 
+100
+ 
+ 
+4.63
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ Quantity: 
+ 
+ 
+   backorders  allowed 
+ 
+ 
+ 
+ Add to cart  
+ Add to list 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Get price notification
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Notify me 
+ Cancel 
+ 
+ 
+ 
+  on any price change 
+ 
+ 
+ 
+  on any price drop 
+ 
+ 
+ 
+  at or below $ 
+ 
+  at qty  
+ 
+ 
+ 
+ 
+ 
+ Save 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+import {PriceNotification} from 'price_notification'
+new PriceNotification();
+import {StockNotification} from 'stock_notification'
+new StockNotification();
+ 
+
+ 
+ 
+ This pack contains everything you need to add up to three male JR connectors — the connectors that mate with those commonly found on generic  RC servos  — to custom cables.  You can use a  crimping tool  to attach the included pins to your own 22–26 AWG wires.  This pack contains enough housings and crimp pins (including 3 spare pins) for  3 male connectors .  The crimp pins have gold-flashed male contacts. 
+
+ 
+ Alternatives available with variations in these parameter(s):
+  connector   gender 
+ Select variant… 
+   
+     Compare all products in Connectors   or      Servo Cables  .
+  
+
+          Description         Specs   (3)        Pictures   (5)       Resources   (0)       FAQs   (0)       On the blog   (0)        Distributors   (5)          
+           JR Connector Pack, male.    
+           RC servo extension cable male JR connector (often referred to as “female” in the RC hobby industry).    
+           Male JR connector (often referred to as “female” in the RC hobby industy).    
+           JR connector female housing dimensions (mm).    
+           JR connector male shroud dimensions (mm).    
+ 
+ 
+ 
+
+
+   Related products 
+ 
+ 
+ 
+ 
+   
+ 
+  Crimping Tool: 0.08-0.5 mm² Capacity, 20-28 AWG  
+ 
+ 
+ 
+   
+ 
+  Crimping Tool: 0.1-1.0 mm² Capacity, 16-28 AWG  
+ 
+ 
+ 
+   
+ 
+  Wire Stripper 20-30 AWG Solid (22-32 AWG Stranded)  
+ 
+ 
+ 
+   
+ 
+  JR Connector Pack, Female  
+ 
+ 
+ 
+   
+ 
+  Futaba J Connector Pack, Male  
+ 
+ 
+ 
+   
+ 
+  Futaba J Connector Pack, Female  
+ 
+ 
+ 
+   
+ 
+  Twisted Servo Extension Cable 12" Male - Female  
+ 
+ 
+ 
+   
+ 
+  Hakko CHP-170 5-1/4 in. Micro Flush Cutter  
+ 
+ 
+ 
+   
+ 
+  Hakko PN-2002 CHP 5-7/8 in. Needle Nose Pliers  
+ 
+ 
+ 
+   Related categories 
+ 
+ 
+ 
+ 
+   
+ 
+  Connectors  
+ 
+ 
+ 
+   
+ 
+  Servo Cables  
+ 
+ 
+ 
+   
+ 
+  Cables and Wire  
+ 
+ 
+ 
+   
+ 
+  RC Interface  
+ 
+ 
+ 
+   
+ 
+  RC Servos  
+ 
+ 
+ 
+   
+ 
+  Stranded Wire  
+ 
+ 
+ 
+  
+ 
+product_ui.update();
+ 
+
+
+ 
+ 
+ 
+     Print  
+     Email a friend  
+     Feeds  
+ 
+ 
+ Home 
+|
+ Forum 
+|
+ Blog 
+|
+ Support 
+|
+ Ordering Information 
+|
+ Lists 
+|
+ Distributors 
+|
+ BIG Order Form 
+|
+ About 
+|
+ Contact 
+ 
+ © 2001 – 2026 Pololu Corporation 
+ 
+ 
+ 
+ 
+  
+ quote.display_list() 
+  
+ cart.display_mini_cart_content() 
+  Related Products 
+ 
+ 
+ 
+ 
+   
+ 
+  Crimping Tool: 0.08-0.5 mm² Capacity, 20-28 AWG  
+ 
+ 
+ 
+   
+ 
+  Crimping Tool: 0.1-1.0 mm² Capacity, 16-28 AWG  
+ 
+ 
+ 
+   
+ 
+  Wire Stripper 20-30 AWG Solid (22-32 AWG Stranded)  
+ 
+ 
+ 
+   
+ 
+  JR Connector Pack, Female  
+ 
+ 
+ 
+   
+ 
+  Futaba J Connector Pack, Male  
+ 
+ 
+ 
+   
+ 
+  Futaba J Connector Pack, Female  
+ 
+ 
+ 
+   
+ 
+  Twisted Servo Extension Cable 12" Male - Female  
+ 
+ 
+ 
+   
+ 
+  Hakko CHP-170 5-1/4 in. Micro Flush Cutter  
+ 
+ 
+ 
+   
+ 
+  Hakko PN-2002 CHP 5-7/8 in. Needle Nose Pliers  
+ 
+ 
+ 
+   Related Categories 
+ 
+ 
+ 
+ 
+   
+ 
+  Connectors  
+ 
+ 
+ 
+   
+ 
+  Servo Cables  
+ 
+ 
+ 
+   
+ 
+  Cables and Wire  
+ 
+ 
+ 
+   
+ 
+  RC Interface  
+ 
+ 
+ 
+   
+ 
+  RC Servos  
+ 
+ 
+ 
+   
+ 
+  Stranded Wire  
+ 
+ 
+ 
+ 
+ 
+
+ 
+  
+ 
+  
+  
+    
+    
+ 
+    
+ 
+ 
+    
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ Log In 
+ 
+ 
+  
+ 
+
+ 
+ 
+   
+ 
+ 
+   
+ 
+ 
+ 
+ 
+(702) 262-6648 
+ Same-day shipping, worldwide 
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ Shop 
+ Blog 
+ Forum 
+ Support 
+ 
+ 
+ 
+   
+ 
+ 
+
+ My account 
+ Comments or questions? 
+ About Pololu 
+ Contact 
+ Ordering information 
+ Distributors 
+ 
+  
+ 
+menuInit();
+ 
+
+ 
+ 
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ Log In 
+ 
+ 
+  
+|
+ My Account 
+|
+ 
+ 
+    Log Out  
+ 
+
+|
+ Shopping Cart   
+ dynamic_user_login.init() 
+ 
+ 
+US toll free: 1-877-7-POLOLU ~
+(702) 262-6648 
+ Same-day shipping, worldwide 
+ 
+ 
+ 
+ 
+ 
+ Catalog 
+ 
+   
+ 
+ Forum 
+ 
+   
+ 
+ Blog 
+ 
+   
+ 
+ Support 
+ 
+   
+ 
+ Ordering 
+ 
+   
+ 
+ Distributors 
+ 
+   
+ 
+ About 
+ 
+   
+ 
+ Contact 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+ 
+
+ 
+ 
+ 
+  Feedback  
+ 
+ Comments or questions? 
+ 
+ 
+ 
+  Services  
+ 
+ 
+ 
+ Custom Laser Cutting 
+ 
+ 
+ SMT Stencils 
+ 
+ 
+ 
+ 
+ 
+  Products  
+ 
+   New Products  
+   Specials!   
+ 
+  Robots  
+ 
+	  3pi  
+	  Balboa  
+	  Cobot  
+	  Romi  
+	  Zumo  
+	  Kits, Soldering  
+	  Kits, No Soldering  
+ 
+  Electronics  
+ 
+	  Arduino  
+	  Cables and Wires  
+	  Computer Interface  
+	  Connectors  
+	  Development Boards  
+	  Isolation  
+	  LEDs  
+	  Motor Control  
+	  Power  
+	  Prototyping  
+	  Raspberry Pi  
+	  Relays  
+	  Sensors  
+	  Servo Control  
+	  Voltage Regulators  
+ 
+  Mechanical  
+ 
+	  Ball Casters  
+	  Brackets  
+	  Chassis  
+	  Hardware  
+	  Linear Actuators  
+	  Motors  
+	  Motor Shaft Adapters  
+	  Servos  
+	  Stepper Motors  
+	  Tamiya Products  
+	  Tools  
+	  Tracks  
+	  Wheels  
+ 
+  Shirts  
+ 
+	  Balboa T-Shirts  
+	  Zumo T-Shirts  
+	  Logo T-Shirts  
+ 
+ 
+ 
+
+ 
+ Community 
+ 
+ 
+ 
+ Mailing list 
+ 
+ 
+ Pololu Blog 
+ 
+ 
+ Engage Your Brain 
+ 
+ 
+ Community Projects 
+ 
+ 
+     Feeds  
+ 
+ 
+     Email a friend  
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 

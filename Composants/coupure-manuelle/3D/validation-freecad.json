@@ -1,0 +1,106 @@
+{
+  "checked_on": "2026-10-14",
+  "all_passed": true,
+  "checks": [
+    {
+      "file": "albright-ed80-ferme-detaille.step",
+      "relative_step_path": "coupure-manuelle/albright-ed80/3D/albright-ed80-ferme-detaille.step",
+      "sha256": "0ae802898dd53eb56ee37b0540ca4e56c985b50c331581d0dbbd8d5801142356",
+      "passed": true,
+      "valid": true,
+      "solids_closed": true,
+      "solids": 12,
+      "faces": 171,
+      "bbox_error_mm": 0.0,
+      "volume_relative_error": 0.0,
+      "volume_mm3": 158337.37467567791,
+      "compared_CadQuery_default_quadrature_mm3": 158337.37467567791,
+      "material_probes": [],
+      "seconds": 1.8946309000020847
+    },
+    {
+      "file": "albright-ed80-ouvert-detaille.step",
+      "relative_step_path": "coupure-manuelle/albright-ed80/3D/albright-ed80-ouvert-detaille.step",
+      "sha256": "a066af53f5adc7796dd1f14942d35630dae3186e60c8df90945b09617d433448",
+      "passed": true,
+      "valid": true,
+      "solids_closed": true,
+      "solids": 12,
+      "faces": 171,
+      "bbox_error_mm": 0.0,
+      "volume_relative_error": 0.0,
+      "volume_mm3": 158337.37473808735,
+      "compared_CadQuery_default_quadrature_mm3": 158337.37473808735,
+      "material_probes": [],
+      "seconds": 2.4951295999999274
+    },
+    {
+      "file": "cosse-klauke-95r6-6mm2.step",
+      "relative_step_path": "coupure-manuelle/cosses-klauke-95r6/3D/cosse-klauke-95r6-6mm2.step",
+      "sha256": "646d7232102f55917a475d2a6bd5d5e940b467fb5316f6b110d37e75ba6a1b99",
+      "passed": true,
+      "valid": true,
+      "solids_closed": true,
+      "solids": 1,
+      "faces": 22,
+      "bbox_error_mm": 0.0,
+      "volume_relative_error": 0.0,
+      "volume_mm3": 415.63092830714777,
+      "compared_CadQuery_default_quadrature_mm3": 415.63092830714777,
+      "material_probes": [
+        {
+          "point": [
+            0,
+            0,
+            1
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        },
+        {
+          "point": [
+            18.5,
+            0,
+            3
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        }
+      ],
+      "seconds": 0.18045339999662247
+    },
+    {
+      "file": "ed80-et-deux-cosses-etude.step",
+      "relative_step_path": "coupure-manuelle/3D/ed80-et-deux-cosses-etude.step",
+      "sha256": "45c6956d12746ed9984b0f5c42faff6127ab056c68f87b4e5389e65c33274aa6",
+      "passed": true,
+      "valid": true,
+      "solids_closed": true,
+      "solids": 14,
+      "faces": 215,
+      "bbox_error_mm": 0.0,
+      "volume_relative_error": 0.0,
+      "volume_mm3": 159168.63656614607,
+      "compared_CadQuery_default_quadrature_mm3": 159168.63656614607,
+      "material_probes": [],
+      "seconds": 2.12530610000249
+    }
+  ],
+  "mode": "headless",
+  "FreeCAD_version": [
+    "1",
+    "1",
+    "4",
+    "20260928 (Git shallow)",
+    "Unknown",
+    "2026/09/28 13:46:34",
+    "(HEAD detached at 4fd3bf320)",
+    "4fd3bf320d9566a27e60069fc8387448aaa3a094"
+  ],
+  "GUI_tested": false,
+  "CADView_tested": false,
+  "hardware_tested": false,
+  "comparison": "FreeCAD default quadrature versus same CadQuery imported STEP default quadrature. Strict adaptive roundtrip independently in catalogue."
+}

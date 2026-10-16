@@ -1,0 +1,74 @@
+{
+  "file": "arbre-a5m4-v3-sortie-etude.step",
+  "title": "A5M4-V3 | sortie de roue, etude 50 mm",
+  "generated_on": "2026-10-13",
+  "unit": "mm",
+  "cadquery_version": "2.8.0",
+  "coordinate_system": "Axe principal Z; face de reference z=0; dimensions selon parametres",
+  "bytes": 609531,
+  "sha256": "f208d62a430f7aa1f086cf209fb68b724e883b8b4e7edba56e4fd80d5a0fad5d",
+  "native_vendor_cad": false,
+  "hardware_measured": false,
+  "is_custom_project_design": true,
+  "published_nominal": [
+    "Ø5 aux roulements; famille roue M4 et goupille2"
+  ],
+  "estimates_and_limitations": [
+    "L50, reduction M4 a z40, filetage10 et goupillez38.5: choix provisoires",
+    "Longueur et position du moyeu dependent du deport reel de la roue; usinage non valide"
+  ],
+  "parameters": {
+    "length_study": 50,
+    "bearing_diameter": 5,
+    "M4_length": 10,
+    "pin_center_z": 38.5
+  },
+  "source_pages": [],
+  "bounds_mm": {
+    "xmin": -2.5000001,
+    "xmax": 2.5000001,
+    "ymin": -2.5000001,
+    "ymax": 2.5000001,
+    "zmin": -1e-07,
+    "zmax": 50.00663604790641
+  },
+  "validation": {
+    "valid_after_reimport": true,
+    "solids": 1,
+    "faces": 28,
+    "colors": 1,
+    "volume_relative_error": 3.05776971944958e-05,
+    "volume_relative_error_limit": 0.0001,
+    "volume_before_mm3": 859.8854471155615,
+    "volume_after_mm3": 859.8591537987377,
+    "adaptive_volume_tolerance": 1e-09,
+    "bbox_error_mm": 7.105427357601002e-15,
+    "bbox_error_limit_mm": 0.01,
+    "void_and_material_probes": [
+      {
+        "point": [
+          0,
+          0,
+          38.5
+        ],
+        "occupied": false
+      }
+    ],
+    "elapsed_seconds": 0.7523129000001063
+  },
+  "parts": [
+    {
+      "name": "Arbre_sortie_acier",
+      "color_linear_rgb": [
+        0.38,
+        0.41,
+        0.45
+      ],
+      "solids": 1
+    }
+  ],
+  "preview": {
+    "file": "arbre-a5m4-v3-sortie-etude.png",
+    "sha256": "29de75eef44edd6f2c473977e80eec9a2f70d7a6a7c74ff7013e49f6a0f0a619"
+  }
+}

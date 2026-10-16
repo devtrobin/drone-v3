@@ -1,0 +1,99 @@
+{
+  "date": "2026-10-15",
+  "hardware_measured": false,
+  "nominal_wheel_diameter_m": 0.063,
+  "pulses_per_revolution": 2,
+  "wheel_rows": [
+    {
+      "speed_kmh": 1,
+      "wheel_rpm": 84.20896459888641,
+      "pulses_per_s": 2.8069654866295473,
+      "period_ms": 356.2566069170826
+    },
+    {
+      "speed_kmh": 5,
+      "wheel_rpm": 421.0448229944321,
+      "pulses_per_s": 14.034827433147736,
+      "period_ms": 71.25132138341651
+    },
+    {
+      "speed_kmh": 20,
+      "wheel_rpm": 1684.1792919777283,
+      "pulses_per_s": 56.139309732590945,
+      "period_ms": 17.812830345854128
+    },
+    {
+      "speed_kmh": 40,
+      "wheel_rpm": 3368.3585839554567,
+      "pulses_per_s": 112.27861946518189,
+      "period_ms": 8.906415172927064
+    }
+  ],
+  "distance_per_pulse_m": 0.09896016858807849,
+  "speed_quantization_1pulse_1s_kmh": 0.35625660691708255,
+  "pullup": {
+    "ohm": 10000,
+    "tolerance": 0.01,
+    "supply_V": 3.3,
+    "current_low_A": 0.00033,
+    "loss_low_W": 0.001089,
+    "assumed_line_capacitance_F": 1e-09,
+    "rise_10_90_s": 2.2000000000000003e-05
+  },
+  "sensor_supply": {
+    "typical_each_A": 0.0027,
+    "maximum_each_at125C_A": 0.0036,
+    "total_with_two_pullups_max_study_A": 0.007866666666666666,
+    "scope": "Published supply current and low-output pullup budget; validate complete Pi 3V3 rail"
+  },
+  "centrifugal": {
+    "assumed_radius_m": 0.012,
+    "mass_conservative_kg": 0.00011,
+    "force_per_magnet_at40_N": 0.1642357903380831,
+    "scope": "Illustrative radius and rounded mass, not retention qualification"
+  },
+  "field_estimate": {
+    "model": "Uniformly axially magnetised cylinder, on axis, free space",
+    "magnet_Br_min_T": 1.37,
+    "radius_mm": 1.5,
+    "height_mm": 2,
+    "rows": [
+      {
+        "exterior_gap_mm": 1,
+        "assumed_active_depth_mm": 0.6,
+        "on_axis_field_mT": 132.5747074717341
+      },
+      {
+        "exterior_gap_mm": 2,
+        "assumed_active_depth_mm": 0.6,
+        "on_axis_field_mT": 57.91281360152164
+      },
+      {
+        "exterior_gap_mm": 3,
+        "assumed_active_depth_mm": 0.6,
+        "on_axis_field_mT": 29.366722972030505
+      },
+      {
+        "exterior_gap_mm": 4,
+        "assumed_active_depth_mm": 0.6,
+        "on_axis_field_mT": 16.71606617233705
+      }
+    ],
+    "guaranteed": false,
+    "scope": "Ignores steel, motor stray field, offset, lot and geometry tolerances; depth 0.6mm assumed"
+  },
+  "mounting": {
+    "magnets_per_wheel": 2,
+    "angular_spacing_deg": 180,
+    "starting_gap_mm": [
+      1,
+      2
+    ],
+    "mount_designed": false
+  },
+  "validation": {
+    "direction_measured": false,
+    "ground_speed_directly_measured": false,
+    "hardware_tested": false
+  }
+}

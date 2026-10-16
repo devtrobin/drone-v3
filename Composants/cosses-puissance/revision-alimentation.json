@@ -1,0 +1,6 @@
+{
+  "date": "2026-10-15",
+  "current_source": "../verification-alimentation/selection-active.json",
+  "note": "Le CP0+ ne reçoit plus de cosse 130191. Une seule TE 130191 reste sur CP0−. La cosse M5 de sortie MIDI disparaît ; les cosses ED80 M6 / D+ / SSR restent utilisées selon les nouvelles bornes.",
+  "old_project_PDFs_and_complete_CAD_historical": true
+}

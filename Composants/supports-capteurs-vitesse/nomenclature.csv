@@ -1,0 +1,12 @@
+﻿Repère;Désignation;Quantité véhicule;Note
+P01;Équerre fourche;2;"Pied40x30x3 ; hauteur52 ; passages axe et réglages M3"
+P02;Porte-capteur coulissant;2;"Cavité4,4x1,9x3,6 ; poche découplage"
+P03;Retenue frontale;2;"Épaisseur1,5 ; fenêtre sensible3x2 ; vis fraisées"
+P04;Rotor porte-aimants;2;"Ø32x8, alésage5,1 ; canaux internes, deux aimants par rotor"
+E01;DRV5033AJQLPG;2;Déjà sélectionné, pas un nouvel achat en double
+E02;S-03-02-N Ø3x2;4;Déjà sélectionné
+F01;M3x8 pour blocage rotor;4;"Deux par rotor ; têtesØ5,5/h3 nominales ; tarauder pilotes2,5"
+F02;M3x8 +rondelles pour tête coulissante;4;"Montage par arrière ; engagement à contrôler, pas de vis traversante face rotor"
+F03;M2x6 tête fraisée;4;"Deux par retenue ; tarauder pilotes1,6 ; têtes affleurantes"
+F04;Fixations pied M3;4;Longueur et écrous après châssis, non modélisés
+C01;Colle compatible +isolants et maintien câble;1;"À définir au montage ; colle ne remplace pas les parois captives"

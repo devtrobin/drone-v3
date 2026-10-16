@@ -1,0 +1,47 @@
+{
+  "checked_on": "2026-10-14",
+  "purchase_made": false,
+  "hardware_tested": false,
+  "id": "jr-pololu-1925",
+  "ref": "Pololu 1925 - JR mâle, lot pour trois connecteurs",
+  "qty": 1,
+  "unit": "lot",
+  "price": 9.75,
+  "currency": "EUR",
+  "tax": "TTC affiché (FR)",
+  "buy": "https://opencircuit.fr/produit/jr-connector-pack-male",
+  "maker": "https://www.pololu.com/product/1925",
+  "query": "connecteur servo JR Pololu 1925",
+  "stock": "274 en entrepôt externe, délai affiché 5 à 7 jours ouvrables (HTML direct du 14/10).",
+  "scope": "3 boîtiers intérieurs + 3 capots + 12 contacts mâles dorés ; 8 contacts utilisés, 4 réservés. Fils 22-26 AWG, pas 2,54 mm.",
+  "role": "Mates des deux prises ESC et de celle du servo. Le connecteur ESC droit n’a aucun contact central BEC.",
+  "cotes": [
+    [
+      "Boîtier intérieur",
+      "7,90 / 7,70 x 2,75 / 2,65 x 14",
+      "Plan Pololu, selon extrémité"
+    ],
+    [
+      "Capot",
+      "10,30 x 4 x 18",
+      "Plan Pololu"
+    ],
+    [
+      "Ouverture capot",
+      "8,05 x 2,80",
+      "Plan Pololu"
+    ],
+    [
+      "Pas / entraxe extrêmes",
+      "2,54 ±0,10 / 5,08 ±0,20",
+      "Plan Pololu"
+    ],
+    [
+      "Contacts, poches et crimp",
+      "Détails visibles reconstruits",
+      "Estimations, aucune tolérance fabricant attribuée"
+    ]
+  ],
+  "amazon_search": "https://www.amazon.fr/s?k=connecteur+servo+JR+Pololu+1925",
+  "amazon_FR_verified": false
+}

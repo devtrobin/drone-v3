@@ -1,0 +1,63 @@
+{
+  "accessed": "2026-10-14",
+  "sources": [
+    {
+      "id": "GEPRC-sangle",
+      "url": "https://geprc.com/product/geprc-new-version-battery-strap5pcs/",
+      "accessed": "2026-10-14",
+      "original_unmodified": true,
+      "file": "sources/GEPRC-sangle-original.html",
+      "sha256": "59706ecc1bb1e2fc109869d59a463d87d32daaf8f66969085c77243d49238761",
+      "bytes": 455775,
+      "status": "archived"
+    },
+    {
+      "id": "BENECREAT-Amazon",
+      "url": "https://www.amazon.fr/dp/B08KFTBDF2",
+      "accessed": "2026-10-14",
+      "original_unmodified": true,
+      "file": "sources/BENECREAT-Amazon-original.html",
+      "sha256": "252bb5dc172f64721394d72af71a5fdf0406b7f8040d02a7e7f768e141e385e0",
+      "bytes": 2045085,
+      "status": "archived"
+    },
+    {
+      "id": "Merefsa-silicone",
+      "url": "https://www.merefsa.com/fr/produits/elastomere-de-silicone_kgr/plaques-et-feuilles-en-silicone-compact_pid18/articles/plaque-silicone-bleu-alimentaire-60-sh-5-400-mm-x-400-mm-x-2mm-0.3-epaisseur_id-PPLSBL60400020.html",
+      "accessed": "2026-10-14",
+      "original_unmodified": true,
+      "file": "sources/Merefsa-silicone-original.html",
+      "sha256": "10620c114e307c84a5fa2d52bd7b6f9f29be01aaf973eb4800284dbdb4a745b5",
+      "bytes": 851799,
+      "status": "archived"
+    },
+    {
+      "url": "https://geprc.com/wp-content/uploads/2022/05/6.jpg",
+      "file": "photos/GEPRC-jaune-bleu.jpg",
+      "sha256": "9b2862a00d6c13c9b7e333c4865eaec4ce0099cf51211d472307c2206de56396",
+      "status": "archived",
+      "original_unmodified": true
+    },
+    {
+      "url": "https://geprc.com/wp-content/uploads/2022/05/5-1.jpg",
+      "file": "photos/GEPRC-detail.jpg",
+      "sha256": "476ef6a738bf325984fa709a8a31809b97f8200bc25a9b9a13bbd830a1971844",
+      "status": "archived",
+      "original_unmodified": true
+    },
+    {
+      "url": "https://m.media-amazon.com/images/I/51Dsi5gU-WL._AC_SL1500_.jpg",
+      "file": "photos/BENECREAT-feuilles.jpg",
+      "status": "archived",
+      "sha256": "d5bbf3ef4150a3de16fe886c553d2d5cb983abb5a0b1ded1ce61793bf842ee02",
+      "original_unmodified": true
+    },
+    {
+      "url": "https://m.media-amazon.com/images/I/51-g3Ym4j+L._AC_SL1500_.jpg",
+      "file": "photos/BENECREAT-cotes.jpg",
+      "status": "archived",
+      "sha256": "9247226aca4af1bb09d777b66ccbbae8e3dc6055db6f487ae54cf797e41942b5",
+      "original_unmodified": true
+    }
+  ]
+}

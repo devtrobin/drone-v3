@@ -1,0 +1,14 @@
+{
+  "file": "notice-protection-batterie-v3.pdf",
+  "sha256": "8b6969835f212c645844f37373cb5fdafc9d8db6ba82977a3f800798f2ad4569",
+  "pages": 7,
+  "created_on": "2026-10-13",
+  "is_project_notice": true,
+  "hardware_tested": false,
+  "rendered_pages": 7,
+  "visual_review_complete": true,
+  "source_index": "../README.md",
+  "generator": "tools/build_battery_protection_pdf.py",
+  "visual_review_pages": 7,
+  "visual_review_notes": "All seven pages inspected; final changes on pages 1 and 5 reinspected, pages 2-4 and 6-7 are pixel-identical to the reviewed renders."
+}

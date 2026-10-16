@@ -1,0 +1,129 @@
+{
+  "file": "littelfuse-0ato030-v-detaille.step",
+  "title": "Littelfuse ATO30 : fusible vert 30 A",
+  "generated_on": "2026-10-14",
+  "unit": "mm",
+  "cadquery_version": "2.8.0",
+  "coordinate_system": "Support:X largeur,Y insertion,Z epaisseur; fils vers-Y. Fusible isole:Z hauteur. Montage rotationX-90,Y+4,Z+7.5.",
+  "bytes": 1052149,
+  "sha256": "fc6a94de9104960901e5a531f35520fce95d67138bb2cc2cab47f9afebf3a856",
+  "native_vendor_cad": false,
+  "hardware_measured": false,
+  "is_custom_project_design": false,
+  "published_nominal": [
+    "5065:ATO/ATC,12AWG,max30A,fusible separe.",
+    "ATO30:19.1x5.1x18.8mm,lames4.1x0.65mm,enveloppe14.5mm; fiche2022."
+  ],
+  "estimates_and_limitations": [
+    "Enveloppe et lames selon ficheATOaftermarket2022, sans tolerances de production.",
+    "Depouilles, rayons, poches, points de test et police du30 estimes; vert translucide rendu opaque.",
+    "Element interne de fusion non represente: pas un modele de fabrication ou de simulation electrique."
+  ],
+  "parameters": {
+    "reference": "0ATO030.V",
+    "nominal_A": 30,
+    "fuse_envelope_mm": [
+      19.1,
+      5.1,
+      18.8
+    ],
+    "blade_width_mm": 4.1,
+    "blade_thickness_mm": 0.65,
+    "blade_exposed_mm": 6.5,
+    "blade_outside_span_mm": 14.5,
+    "blade_pitch_inferred_mm": 10.4
+  },
+  "source_pages": [
+    "Fiche Littelfuse ATOaftermarket2022,p1-3",
+    "BlueSea5065 fabricant et photo AmazonB004ZIUA62",
+    "Provenance support et mesures approximatives: dossier protection-branche-pi/cotes.md"
+  ],
+  "bounds_mm": {
+    "xmin": -9.5500001,
+    "xmax": 9.5500001,
+    "ymin": -2.5500000999999997,
+    "ymax": 2.5500000999999997,
+    "zmin": -1.1102230246251565e-16,
+    "zmax": 18.800000100000002
+  },
+  "validation": {
+    "valid_after_reimport": true,
+    "solids": 7,
+    "faces": 258,
+    "colors": 3,
+    "volume_relative_error": 1.53317290001325e-14,
+    "volume_relative_error_limit": 0.0001,
+    "volume_before_mm3": 897.2313144979705,
+    "volume_after_mm3": 897.2313144979843,
+    "adaptive_volume_tolerance": 1e-09,
+    "bbox_error_mm": 1.1102230246251565e-16,
+    "bbox_error_limit_mm": 0.01,
+    "void_and_material_probes": [],
+    "elapsed_seconds": 1.2552073999977438,
+    "pairwise_material_overlaps": []
+  },
+  "parts": [
+    {
+      "name": "Corps_PA66_vert_moulage_approche",
+      "color_linear_rgb": [
+        0.022,
+        0.26,
+        0.06
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Lame_1_etamee_4_1x0_65",
+      "color_linear_rgb": [
+        0.65,
+        0.67,
+        0.68
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Point_test_1_position_estimee",
+      "color_linear_rgb": [
+        0.65,
+        0.67,
+        0.68
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Lame_2_etamee_4_1x0_65",
+      "color_linear_rgb": [
+        0.65,
+        0.67,
+        0.68
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Point_test_2_position_estimee",
+      "color_linear_rgb": [
+        0.65,
+        0.67,
+        0.68
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Marquage_30_blanc_approche",
+      "color_linear_rgb": [
+        0.89,
+        0.89,
+        0.86
+      ],
+      "solids": 2
+    }
+  ],
+  "preview": {
+    "file": "littelfuse-0ato030-v-detaille.png",
+    "sha256": "5d842ee933e4b3d6cf9fb40a8714e2c75c31b74d252bacbd9cec04bba0615eb4"
+  },
+  "generator": "tools/build_motor_fuse_step.py",
+  "generator_sha256": "cb73872dfcb15a582be2790108bd35257c8e323d6aa98b0b6c7ad9fca915156f",
+  "reused_geometry_generator": "tools/build_pi_fuse_step.py",
+  "reused_geometry_generator_sha256": "7d3ac669195256da8ab3d86dc81e547b787652c79deb87a27ca80193651f7f60"
+}

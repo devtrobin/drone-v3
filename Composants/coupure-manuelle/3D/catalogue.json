@@ -1,0 +1,626 @@
+{
+  "generated_on": "2026-10-14",
+  "models": [
+    {
+      "file": "albright-ed80-ferme-detaille.step",
+      "title": "AlbrightED80 | fermé",
+      "generated_on": "2026-10-14",
+      "unit": "mm",
+      "cadquery_version": "2.8.0",
+      "coordinate_system": "Axe principal Z; face de reference z=0; dimensions selon parametres",
+      "bytes": 1550321,
+      "sha256": "0ae802898dd53eb56ee37b0540ca4e56c985b50c331581d0dbbd8d5801142356",
+      "native_vendor_cad": false,
+      "hardware_measured": false,
+      "is_custom_project_design": false,
+      "published_nominal": [
+        "Albright2024 :59xcontourØ58, corps37 ;bornesM6 ;dessous55 ;hauteurhaut56/51 ;boutonØ48,h14."
+      ],
+      "estimates_and_limitations": [
+        "Corps àpans, axe,collet etformesfinestêtesécrous reconstruits ; bornesM6x1 supposéespasusuel, filetshélicoïdaux ;contactsressortsinternes nonreproduits.",
+        "Nuances optiques estimées ; géométrie non mesurée. Pas de plan de fabrication ni de qualification mécanique/électrique."
+      ],
+      "parameters": {
+        "contact_state": "closed",
+        "stud_size": "M6",
+        "stud_torque_Nm": [
+          3.6,
+          3.9
+        ],
+        "mount_reference_holes_mm": [
+          25,
+          5.5
+        ],
+        "mount_pitch_mm": 48
+      },
+      "source_pages": [
+        "Voir sources.json et cotes.md du composant / ensemble"
+      ],
+      "bounds_mm": {
+        "xmin": -29.5,
+        "xmax": 29.5,
+        "ymin": -29.000000000001965,
+        "ymax": 29.000000000001965,
+        "zmin": -55.000000100000044,
+        "zmax": 56.0
+      },
+      "validation": {
+        "valid_after_reimport": true,
+        "solids": 12,
+        "faces": 171,
+        "colors": 3,
+        "volume_relative_error": 3.8012294991215705e-09,
+        "volume_relative_error_limit": 0.0001,
+        "volume_before_mm3": 158337.42886607698,
+        "volume_after_mm3": 158337.4294679539,
+        "adaptive_volume_tolerance": 1e-09,
+        "bbox_error_mm": 1.964650664376677e-12,
+        "bbox_error_limit_mm": 0.01,
+        "void_and_material_probes": [],
+        "elapsed_seconds": 4.585137499998382,
+        "volume_after_default_quadrature_mm3": 158337.37467567791
+      },
+      "parts": [
+        {
+          "name": "Piece_corps_noir_details_estimes",
+          "color_linear_rgb": [
+            0.018,
+            0.021,
+            0.025
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_capot_superieur",
+          "color_linear_rgb": [
+            0.018,
+            0.021,
+            0.025
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_axe_et_collet_noir_selon_photo",
+          "color_linear_rgb": [
+            0.018,
+            0.021,
+            0.025
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_bouton_rouge",
+          "color_linear_rgb": [
+            0.7,
+            0.008,
+            0.009
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_borne_M6_1",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_ecrou_borne_fourni_1",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_rondelle_borne_fournie_1",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_borne_M6_2",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_ecrou_borne_fourni_2",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_rondelle_borne_fournie_2",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_tete_M5_posidriv_fournie_estimee_1",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_tete_M5_posidriv_fournie_estimee_2",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        }
+      ],
+      "preview": {
+        "file": "albright-ed80-ferme-detaille.png",
+        "sha256": "5923467fb6cefe1f35830081a580f535eeffedfa34b9e96416cbb30e9b3b5d47"
+      },
+      "component_folder": "coupure-manuelle/albright-ed80",
+      "relative_step_path": "coupure-manuelle/albright-ed80/3D/albright-ed80-ferme-detaille.step"
+    },
+    {
+      "file": "albright-ed80-ouvert-detaille.step",
+      "title": "AlbrightED80 | ouvert",
+      "generated_on": "2026-10-14",
+      "unit": "mm",
+      "cadquery_version": "2.8.0",
+      "coordinate_system": "Axe principal Z; face de reference z=0; dimensions selon parametres",
+      "bytes": 1550228,
+      "sha256": "a066af53f5adc7796dd1f14942d35630dae3186e60c8df90945b09617d433448",
+      "native_vendor_cad": false,
+      "hardware_measured": false,
+      "is_custom_project_design": false,
+      "published_nominal": [
+        "Albright2024 :59xcontourØ58, corps37 ;bornesM6 ;dessous55 ;hauteurhaut56/51 ;boutonØ48,h14."
+      ],
+      "estimates_and_limitations": [
+        "Corps àpans, axe,collet etformesfinestêtesécrous reconstruits ; bornesM6x1 supposéespasusuel, filetshélicoïdaux ;contactsressortsinternes nonreproduits.",
+        "Nuances optiques estimées ; géométrie non mesurée. Pas de plan de fabrication ni de qualification mécanique/électrique."
+      ],
+      "parameters": {
+        "contact_state": "open",
+        "stud_size": "M6",
+        "stud_torque_Nm": [
+          3.6,
+          3.9
+        ],
+        "mount_reference_holes_mm": [
+          25,
+          5.5
+        ],
+        "mount_pitch_mm": 48
+      },
+      "source_pages": [
+        "Voir sources.json et cotes.md du composant / ensemble"
+      ],
+      "bounds_mm": {
+        "xmin": -29.5,
+        "xmax": 29.5,
+        "ymin": -29.000000000001965,
+        "ymax": 29.000000000001965,
+        "zmin": -55.000000100000044,
+        "zmax": 51.0
+      },
+      "validation": {
+        "valid_after_reimport": true,
+        "solids": 12,
+        "faces": 171,
+        "colors": 3,
+        "volume_relative_error": 3.779140998425923e-09,
+        "volume_relative_error_limit": 0.0001,
+        "volume_before_mm3": 158337.4288655052,
+        "volume_after_mm3": 158337.42946388468,
+        "adaptive_volume_tolerance": 1e-09,
+        "bbox_error_mm": 1.964650664376677e-12,
+        "bbox_error_limit_mm": 0.01,
+        "void_and_material_probes": [],
+        "elapsed_seconds": 4.174233300000196,
+        "volume_after_default_quadrature_mm3": 158337.37473808735
+      },
+      "parts": [
+        {
+          "name": "Piece_corps_noir_details_estimes",
+          "color_linear_rgb": [
+            0.018,
+            0.021,
+            0.025
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_capot_superieur",
+          "color_linear_rgb": [
+            0.018,
+            0.021,
+            0.025
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_axe_et_collet_noir_selon_photo",
+          "color_linear_rgb": [
+            0.018,
+            0.021,
+            0.025
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_bouton_rouge",
+          "color_linear_rgb": [
+            0.7,
+            0.008,
+            0.009
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_borne_M6_1",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_ecrou_borne_fourni_1",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_rondelle_borne_fournie_1",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_borne_M6_2",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_ecrou_borne_fourni_2",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_rondelle_borne_fournie_2",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_tete_M5_posidriv_fournie_estimee_1",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_tete_M5_posidriv_fournie_estimee_2",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        }
+      ],
+      "preview": {
+        "file": "albright-ed80-ouvert-detaille.png",
+        "sha256": "8feff9044b46f647618a84d6a9f818bf6f0a760adda8abf7d06c29fe534f2464"
+      },
+      "component_folder": "coupure-manuelle/albright-ed80",
+      "relative_step_path": "coupure-manuelle/albright-ed80/3D/albright-ed80-ouvert-detaille.step"
+    },
+    {
+      "file": "cosse-klauke-95r6-6mm2.step",
+      "title": "Klauke95R6 | 6mm2,M6",
+      "generated_on": "2026-10-14",
+      "unit": "mm",
+      "cadquery_version": "2.8.0",
+      "coordinate_system": "Axe principal Z; face de reference z=0; dimensions selon parametres",
+      "bytes": 130882,
+      "sha256": "646d7232102f55917a475d2a6bd5d5e940b467fb5316f6b110d37e75ba6a1b99",
+      "native_vendor_cad": false,
+      "hardware_measured": false,
+      "is_custom_project_design": false,
+      "published_nominal": [
+        "CatalogueKlauke :d1=4,a9,b10,d2=6.5,d4=6,c1=7,c2=6.5,l19."
+      ],
+      "estimates_and_limitations": [
+        "Paume2,rayons,loft etfenêtreØ1.4estimés ;sanssertissage, sansgravureinventée.",
+        "Nuances optiques estimées ; géométrie non mesurée. Pas de plan de fabrication ni de qualification mécanique/électrique."
+      ],
+      "parameters": {
+        "section_mm2": 6,
+        "hole_mm": 6.5,
+        "overall_reconstructed_mm": 26
+      },
+      "source_pages": [
+        "Voir sources.json et cotes.md du composant / ensemble"
+      ],
+      "bounds_mm": {
+        "xmin": -7.0,
+        "xmax": 19.0000001,
+        "ymin": -5.0000001,
+        "ymax": 5.0000001,
+        "zmin": -1e-07,
+        "zmax": 6.0000001
+      },
+      "validation": {
+        "valid_after_reimport": true,
+        "solids": 1,
+        "faces": 22,
+        "colors": 1,
+        "volume_relative_error": 3.0453279494254402e-12,
+        "volume_relative_error_limit": 0.0001,
+        "volume_before_mm3": 415.63090372989774,
+        "volume_after_mm3": 415.63090373116347,
+        "adaptive_volume_tolerance": 1e-09,
+        "bbox_error_mm": 0.0,
+        "bbox_error_limit_mm": 0.01,
+        "void_and_material_probes": [
+          {
+            "point": [
+              0,
+              0,
+              1
+            ],
+            "occupied": false
+          },
+          {
+            "point": [
+              18.5,
+              0,
+              3
+            ],
+            "occupied": false
+          }
+        ],
+        "elapsed_seconds": 0.4312442000009469,
+        "volume_after_default_quadrature_mm3": 415.63092830714777
+      },
+      "parts": [
+        {
+          "name": "Piece_Cuivre_etame",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        }
+      ],
+      "preview": {
+        "file": "cosse-klauke-95r6-6mm2.png",
+        "sha256": "347fd1f5f8921155c92832dc8166a85890c7b957d19a3b876ef8ee34dca55424"
+      },
+      "component_folder": "coupure-manuelle/cosses-klauke-95r6",
+      "relative_step_path": "coupure-manuelle/cosses-klauke-95r6/3D/cosse-klauke-95r6-6mm2.step"
+    },
+    {
+      "file": "ed80-et-deux-cosses-etude.step",
+      "title": "Coupure | ED80 etdeuxcosses",
+      "generated_on": "2026-10-14",
+      "unit": "mm",
+      "cadquery_version": "2.8.0",
+      "coordinate_system": "Axe principal Z; face de reference z=0; dimensions selon parametres",
+      "bytes": 1834579,
+      "sha256": "45c6956d12746ed9984b0f5c42faff6127ab056c68f87b4e5389e65c33274aa6",
+      "native_vendor_cad": false,
+      "hardware_measured": false,
+      "is_custom_project_design": true,
+      "published_nominal": [
+        "Albright2024 :59xcontourØ58, corps37 ;bornesM6 ;dessous55 ;hauteurhaut56/51 ;boutonØ48,h14."
+      ],
+      "estimates_and_limitations": [
+        "Corps àpans, axe,collet etformesfinestêtesécrous reconstruits ; bornesM6x1 supposéespasusuel, filetshélicoïdaux ;contactsressortsinternes nonreproduits.",
+        "Positiondescossesprovisoire,sanscâblesdepuissance ;5mmdeborneetpaume peuventdemander autreempilement,lectureseulement. Visserieauchâssisreportée.",
+        "Nuances optiques estimées ; géométrie non mesurée. Pas de plan de fabrication ni de qualification mécanique/électrique."
+      ],
+      "parameters": {},
+      "source_pages": [
+        "Voir sources.json et cotes.md du composant / ensemble"
+      ],
+      "bounds_mm": {
+        "xmin": -29.5,
+        "xmax": 29.5,
+        "ymin": -29.000000000001965,
+        "ymax": 29.000000000001965,
+        "zmin": -55.000000100000044,
+        "zmax": 56.0
+      },
+      "validation": {
+        "valid_after_reimport": true,
+        "solids": 14,
+        "faces": 215,
+        "colors": 3,
+        "volume_relative_error": 3.3404565999689377e-09,
+        "volume_relative_error_limit": 0.0001,
+        "volume_before_mm3": 159168.69067700335,
+        "volume_after_mm3": 159168.69120869946,
+        "adaptive_volume_tolerance": 1e-09,
+        "bbox_error_mm": 1.964650664376677e-12,
+        "bbox_error_limit_mm": 0.01,
+        "void_and_material_probes": [],
+        "elapsed_seconds": 6.198886599995603,
+        "volume_after_default_quadrature_mm3": 159168.63656614607
+      },
+      "parts": [
+        {
+          "name": "Piece_corps_noir_details_estimes",
+          "color_linear_rgb": [
+            0.018,
+            0.021,
+            0.025
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_capot_superieur",
+          "color_linear_rgb": [
+            0.018,
+            0.021,
+            0.025
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_axe_et_collet_noir_selon_photo",
+          "color_linear_rgb": [
+            0.018,
+            0.021,
+            0.025
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_bouton_rouge",
+          "color_linear_rgb": [
+            0.7,
+            0.008,
+            0.009
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_borne_M6_1",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_ecrou_borne_fourni_1",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_rondelle_borne_fournie_1",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_borne_M6_2",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_ecrou_borne_fourni_2",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_rondelle_borne_fournie_2",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_tete_M5_posidriv_fournie_estimee_1",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_tete_M5_posidriv_fournie_estimee_2",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_cosse95R6_1_pose_nonsertie",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_cosse95R6_2_pose_nonsertie",
+          "color_linear_rgb": [
+            0.54,
+            0.59,
+            0.62
+          ],
+          "solids": 1
+        }
+      ],
+      "preview": {
+        "file": "ed80-et-deux-cosses-etude.png",
+        "sha256": "e930c5cc0092fab95fdce46ba5faf994954e601eac1d1eaeb61fd8dc9f4b9e48"
+      },
+      "component_folder": "coupure-manuelle",
+      "relative_step_path": "coupure-manuelle/3D/ed80-et-deux-cosses-etude.step"
+    }
+  ]
+}

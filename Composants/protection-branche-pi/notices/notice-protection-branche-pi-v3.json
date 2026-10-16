@@ -1,0 +1,35 @@
+{
+    "file":  "notice-protection-branche-pi-v3.pdf",
+    "pages":  5,
+    "sha256":  "c9e13b00d2d9ba10c830cbacc9c99fe9a3cc633f33ad414ac17523a33b6d3b07",
+    "generated_on":  "2026-10-14",
+    "generator":  "tools/build_pi_fuse_pdf.py",
+    "renders":  [
+                    {
+                        "page":  1,
+                        "render":  "tools/temp/pi-fuse-review/pdf/page-1.png",
+                        "chars":  1057
+                    },
+                    {
+                        "page":  2,
+                        "render":  "tools/temp/pi-fuse-review/pdf/page-2.png",
+                        "chars":  1566
+                    },
+                    {
+                        "page":  3,
+                        "render":  "tools/temp/pi-fuse-review/pdf/page-3.png",
+                        "chars":  1542
+                    },
+                    {
+                        "page":  4,
+                        "render":  "tools/temp/pi-fuse-review/pdf/page-4.png",
+                        "chars":  1839
+                    },
+                    {
+                        "page":  5,
+                        "render":  "tools/temp/pi-fuse-review/pdf/page-5.png",
+                        "chars":  2053
+                    }
+                ],
+    "visual_review_complete":  true
+}

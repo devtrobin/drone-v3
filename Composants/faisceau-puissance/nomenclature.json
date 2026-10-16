@@ -1,0 +1,507 @@
+{
+  "checked_on": "2026-10-14",
+  "parts": [
+    {
+      "id": "ancor312303",
+      "folder": "cosses-puissance/ancor-312303",
+      "reference": "Ancor 312303",
+      "role": "Cosses jaunes des fils 12 AWG sur les goujons MiniBus #10",
+      "quantity": 3,
+      "mandatory": 2,
+      "conditional": 1,
+      "pack": 3,
+      "maker": "https://docs.navico.com/view/362211770/24/",
+      "amazon_query": "Ancor 312303",
+      "spec": "12–10 AWG, plage catalogue 3–5 mm² ; œillet #10 ; cuivre étamé, joint brasé, isolation thermorétractable avec adhésif.",
+      "usage": "Deux cosses sur les retours CM1− et CM2− en D− N1/N3. La troisième peut raccorder le fil 12 AWG du 5065 Pi à D+ P4 ; elle ne concerne pas automatiquement le retour électronique N4, dont la section doit être arrêtée.",
+      "dimensions": [
+        [
+          "Section admise",
+          "3–5 mm² / 12–10 AWG",
+          "Catalogue fabricant"
+        ],
+        [
+          "Taille de goujon",
+          "#10, appelée 4,8 mm au catalogue",
+          "Taille nominale de vis, pas diamètre du trou"
+        ],
+        [
+          "Alésage du modèle",
+          "5,2 mm",
+          "Estimation ; passage sur #10 Ø4,826 à vérifier"
+        ],
+        [
+          "Enveloppe CAO",
+          "24 × 9,6 × 5,9 mm",
+          "Estimation complète"
+        ],
+        [
+          "Rétraction annoncée",
+          "135 °C",
+          "Catalogue fabricant ; température de la gaine, pas consigne du pistolet"
+        ]
+      ],
+      "source_files": [
+        "notices/Ancor-catalogue-2020-original.pdf"
+      ],
+      "source_pages": "PDF 2020 p.26 ; catalogue en ligne 2024 p.24",
+      "fit": "Section nominale compatible avec le 12 AWG BNTECHGO ; très fins brins, diamètre de gaine 4,5 ±0,1 mm, outil et sertissage à qualifier. La compatibilité avec du 6 mm² n’est pas annoncée.",
+      "amazon_search": "https://www.amazon.fr/s?k=Ancor+312303",
+      "amazon_FR_verified": false,
+      "price_EUR_TTC": null
+    },
+    {
+      "id": "klauke95r4",
+      "folder": "cosses-puissance/klauke-95r4",
+      "reference": "Klauke 95R4",
+      "role": "Cosses 6 mm² des deux bornes de puissance du relais",
+      "quantity": 2,
+      "mandatory": 2,
+      "conditional": 0,
+      "pack": 100,
+      "maker": "https://www.klauke.com/gb/en/tubular-cable-lugs-cu-standard-type-4959",
+      "amazon_query": "Klauke 95R4",
+      "spec": "Cuivre recuit EN13600 étamé ; section 6 mm² ; trou M4 de 4,3 mm ; trou de contrôle de l’insertion ; gamme pour conducteurs fins classe 5.",
+      "usage": "Une sur l’arrivée en relais +2 ; une sur le départ relais 1 vers l’entrée du UD-80A. Les vis #8-32 UNC du relais sont conservées : œillet M4 désigne le passage, pas un nouveau filetage.",
+      "dimensions": [
+        [
+          "d1 / a / b",
+          "4 / 9 / 9,5 mm",
+          "Tableau Klauke actuel"
+        ],
+        [
+          "d2 / d4",
+          "4,3 / 6 mm",
+          "Alésage de vis / diamètre extérieur canon"
+        ],
+        [
+          "c1 / c2 / l",
+          "5 / 5,5 / 18 mm",
+          "Repères du dessin de famille"
+        ],
+        [
+          "Longueur reconstruite",
+          "23 mm = c1 + l",
+          "l part du centre du trou sur le dessin archivé"
+        ],
+        [
+          "Paume / inspection",
+          "2 mm / Ø1,4 mm",
+          "Estimation ; valeurs non publiées"
+        ]
+      ],
+      "source_files": [
+        "notices/Klauke-catalogue-via-PowerCables.pdf"
+      ],
+      "source_pages": "PDF archivé p.14 / imprimée 12 ; outillage PDF p.40 / imprimée38",
+      "fit": "Ø4,3 > diamètre nominal #8 4,166 mm. Vérifier la largeur 9,5 mm, le dégagement des cloisons, l’appui et la longueur utile de vis du relais. Le fil AUPROTEC doit correspondre à une classe de conducteur acceptée : ce point n’est pas certifié par sa page commerciale.",
+      "amazon_search": "https://www.amazon.fr/s?k=Klauke+95R4",
+      "amazon_FR_verified": false,
+      "price_EUR_TTC": null
+    },
+    {
+      "id": "klauke95r5",
+      "folder": "cosses-puissance/klauke-95r5",
+      "reference": "Klauke 95R5",
+      "role": "Cosses 6 mm² sur MIDI M5 et MiniBus #10",
+      "quantity": 5,
+      "mandatory": 4,
+      "conditional": 1,
+      "pack": 100,
+      "maker": "https://www.klauke.com/gb/en/tubular-cable-lugs-cu-standard-type-4959",
+      "amazon_query": "Klauke 95R5",
+      "spec": "Cuivre recuit EN13600 étamé ; section 6 mm² ; trou M5 de 5,3 mm ; trou de contrôle ; conducteur fin classe 5 dans la gamme.",
+      "usage": "Deux pour MIDI sortie → D+ P2 ; une sur D+ P3 → relais +2 ; une sur D− N2. Une cinquième serait sur l’entrée MIDI si l’interface batterie retenue utilise ce câble 6 mm². Cette interface reste ouverte.",
+      "dimensions": [
+        [
+          "d1 / a / b",
+          "4 / 9 / 9,5 mm",
+          "Tableau fabricant"
+        ],
+        [
+          "d2 / d4",
+          "5,3 / 6 mm",
+          "Trou de vis / diamètre extérieur canon"
+        ],
+        [
+          "c1 / c2 / l",
+          "6 / 6 / 19 mm",
+          "Repères du dessin de famille"
+        ],
+        [
+          "Longueur reconstruite",
+          "25 mm = c1 + l",
+          "À distinguer de l seule"
+        ],
+        [
+          "Paume / inspection",
+          "2 mm / Ø1,4 mm",
+          "Estimation CAO"
+        ]
+      ],
+      "source_files": [
+        "notices/Klauke-catalogue-via-PowerCables.pdf"
+      ],
+      "source_pages": "PDF archivé p.14 / imprimée12 ; tableau fabricant actuel95R5",
+      "fit": "Trou de 5,3 mm proposé pour M5 Ø5 et #10 Ø4,826. Conserver les écrous M5×0,8 MIDI et #10-32 UNF MiniBus respectivement ; ne pas les permuter. Appui de cosse et couple du lot à contrôler.",
+      "amazon_search": "https://www.amazon.fr/s?k=Klauke+95R5",
+      "amazon_FR_verified": false,
+      "price_EUR_TTC": null
+    },
+    {
+      "id": "ancor309203",
+      "folder": "raccords-12awg",
+      "reference": "Ancor 309203",
+      "role": "Manchons sertis pour les deux rallonges positives après ATO30",
+      "quantity": 2,
+      "mandatory": 2,
+      "conditional": 0,
+      "pack": 3,
+      "maker": "https://docs.navico.com/view/362211770/25/",
+      "amazon_query": "Ancor 309203",
+      "spec": "Raccord droit 12–10 AWG / 3–5 mm² ; cuivre étamé, joint brasé, gaine jaune avec adhésif ; pack3.",
+      "usage": "Un raccord par départ entre la sortie 12 AWG du 5065 ATO30 et la queue BNTECHGO positive vers XT60H-F. Les connexions des entrées 16 AWG d’usine des ESC sont conservées.",
+      "dimensions": [
+        [
+          "Section de chaque fil",
+          "12–10 AWG / 3–5 mm²",
+          "Catalogue fabricant"
+        ],
+        [
+          "Diamètre / longueur CAO",
+          "Ø6,1 × 30 mm",
+          "Estimation complète"
+        ],
+        [
+          "Canon dans CAO",
+          "Øint3,3 ; Øext4,8 ; L15 mm",
+          "Estimation complète"
+        ],
+        [
+          "Température de rétraction",
+          "135 °C annoncés",
+          "Catalogue fabricant"
+        ]
+      ],
+      "source_files": [
+        "notices/Ancor-catalogue-2020-original.pdf"
+      ],
+      "source_pages": "PDF2020 p.27 ; catalogue2024 p.25 ; outil PDF2020 p.54",
+      "fit": "Un seul fil par côté ; ne pas mettre deux fils ou du 6 mm² dans un logement annoncé 3–5 mm². Le sertissage du fil silicone à brins de 0,08 mm et la tenue de sa gaine restent à vérifier.",
+      "amazon_search": "https://www.amazon.fr/s?k=Ancor+309203",
+      "amazon_FR_verified": false,
+      "price_EUR_TTC": null
+    },
+    {
+      "id": "teatum8",
+      "folder": "gaine-thermoretractable",
+      "reference": "TE / Raychem ATUM-8/2-0-STK (NB11802001)",
+      "role": "Isolation des canons nus des cosses 6 mm²",
+      "quantity": 1,
+      "mandatory": 1,
+      "conditional": 0,
+      "pack": 1,
+      "maker": "https://www.te.com/en/product-NB11802001.html",
+      "amazon_query": "Raychem ATUM-8/2-0-STK",
+      "spec": "Gaine noire double paroi 4:1 ; Øint fourni ≥8 mm ; libre rétreint ≤2 mm ; paroi totale rétreinte 1,0 ±0,3 mm, adhésif nominal0,5 mm ; STK1,2 m.",
+      "usage": "Passer les morceaux avant le sertissage des sept cosses nues prévues, dont une conditionnelle côté batterie. Huit coupes de 20 mm, réserve comprise, sont une estimation d’approvisionnement ; les longueurs définitives suivent les canons reçus et le recouvrement sur la gaine du fil.",
+      "dimensions": [
+        [
+          "Øint fourni / libre rétreint",
+          "8 mm min / 2 mm max",
+          "Plan TE A2,2023"
+        ],
+        [
+          "Paroi totale / adhésif",
+          "1,0 ±0,3 / 0,5 nominal mm",
+          "Après rétraction libre"
+        ],
+        [
+          "Retrait longitudinal",
+          "0 à −15 %",
+          "Plan TE A2 actuel ; ne pas reprendre −10 % par défaut"
+        ],
+        [
+          "Longueur STK",
+          "1,2 m",
+          "Fiche TE05/24 ; conditionnement distributeur à confirmer"
+        ],
+        [
+          "Températures",
+          "Début80 °C ; pleine rétraction110 °C ; service−55..+110 °C",
+          "Fiche TE05/24"
+        ]
+      ],
+      "source_files": [
+        "notices/TE-ATUM-fiche-via-Raytronics.pdf"
+      ],
+      "source_pages": "Plan TE A2 et fiche05/24 consultés en ligne ; PDF Raytronics secondaire conservé",
+      "fit": "8 mm passe nominalement au-dessus du canon Klauke Ø6 ; 2 mm libre peut se resserrer sur la gaine Ø4,7. L’état final sur ces surfaces n’a ni Ø2 ni la paroi libre de1mm. Vérifier diamètre de la transition, accès, recouvrement, chauffe locale et état du PVC. Ne pas couvrir la paume de contact.",
+      "amazon_search": "https://www.amazon.fr/s?k=Raychem+ATUM-8%2F2-0-STK",
+      "amazon_FR_verified": false,
+      "price_EUR_TTC": null
+    },
+    {
+      "id": "htt18r",
+      "folder": "maintien-faisceau/colliers",
+      "reference": "HellermannTyton T18R 111-01919",
+      "role": "Colliers PA66 naturels pour l’intérieur",
+      "quantity": 12,
+      "mandatory": 0,
+      "conditional": 12,
+      "pack": 100,
+      "maker": "https://www.hellermanntyton.com/products/cable-ties-inside-serrated/t18r/111-01919",
+      "amazon_query": "HellermannTyton 111-01919 T18R",
+      "spec": "100 ×2,5 mm ; épaisseur1mm ; PA66 naturel ; 80N résistance minimale de boucle ; faisceau1,5–22mm ; non réutilisable ; non stabilisé UV.",
+      "usage": "Quantité d’étude12, à arrêter après implantation. Maintien sur embases MB2 sans écraser la gaine ; prévoir une boucle de service et retenir les fils avant les raccords.",
+      "dimensions": [
+        [
+          "Sangle",
+          "100 ×2,5 ×1,0 mm",
+          "Fiche actuelle111-01919"
+        ],
+        [
+          "Tête nominale actuelle",
+          "4,8 ×4,45 ×3,7 mm",
+          "Page fabricant, variante111-01919"
+        ],
+        [
+          "Plan famille2025",
+          "T1,1±0,2 ; tête4,8 ; hauteur3,5±0,2mm",
+          "Document générique différent, pas fusionné aux cotes actuelles"
+        ],
+        [
+          "Plage / tenue",
+          "Øfaisceau1,5–22 mm ; 80N",
+          "80N n’est pas la force de pose"
+        ],
+        [
+          "Couleur / température",
+          "Naturel ; −40..+85 °C",
+          "Ne pas acheter la variante noire en la confondant"
+        ]
+      ],
+      "source_files": [
+        "notices/HT-T18R-11101919-fiche-originale.pdf",
+        "notices/HT-T18R-plan-original.pdf"
+      ],
+      "source_pages": "Fiche créée9Oct2026 ; dessin famille rev10.1 du5Dec2025",
+      "fit": "Compatible avec la plage T18–T50 annoncée du MB2 et sa largeur maximale de collier5mm. Dents, verrou et pose CAO estimés ; aucune force de serrage qualifiée. Réservé à l’usage intérieur retenu.",
+      "amazon_search": "https://www.amazon.fr/s?k=HellermannTyton+111-01919+T18R",
+      "amazon_FR_verified": false,
+      "price_EUR_TTC": null
+    },
+    {
+      "id": "htmb2",
+      "folder": "maintien-faisceau/embases",
+      "reference": "HellermannTyton MB2 151-28210",
+      "role": "Embases noires à une vis M4",
+      "quantity": 8,
+      "mandatory": 0,
+      "conditional": 8,
+      "pack": 100,
+      "maker": "https://www.hellermanntyton.com/au/products/cable-tie-mounts/mb2/151-28210",
+      "amazon_query": "HellermannTyton MB2 151-28210",
+      "spec": "20,5 ×12,5 ×3,3 mm ; trouØ5mm pour fixation M4 ; collier≤5mm ; PA66 noir ; passage deux directions ; pas de semelle adhésive.",
+      "usage": "Quantité d’étude8, à répartir après implantation. Vis M4, rondelle et éventuel écrou séparés ; leur longueur dépend de l’épaisseur du châssis et du dégagement sous celui-ci.",
+      "dimensions": [
+        [
+          "Enveloppe L/W/H",
+          "20,5±0,5 /12,5±0,5 /3,3±0,2mm",
+          "Plan141622 ancien ; nominal actuel concordant"
+        ],
+        [
+          "Trou F",
+          "Ø5,0±0,2mm",
+          "Plan141622"
+        ],
+        [
+          "D / E / G / H",
+          "2,5 /5,0 /10,0 /1,7mm (±0,2)",
+          "Repères du plan, pas tous les noms de champs web"
+        ],
+        [
+          "Collier / vis",
+          "Largeur max5mm / visM4",
+          "Page actuelle"
+        ],
+        [
+          "Trou et rayons CAO",
+          "Position du trou et arrondis reconstitués",
+          "Plan sans toutes les coordonnées"
+        ]
+      ],
+      "source_files": [
+        "notices/HT-MB2-plan-original.pdf"
+      ],
+      "source_pages": "Plan14162215Oct2002 ; page actuelle151-28210",
+      "fit": "Collier T18R2,5mm admis nominalement. Les 5mm du trou sont un jeu pour une visM4 ; ne pas choisir une visM5 par cette seule cote. Vérifier fixation sur le châssis et éviter un chemin de frottement.",
+      "amazon_search": "https://www.amazon.fr/s?k=HellermannTyton+MB2+151-28210",
+      "amazon_FR_verified": false,
+      "price_EUR_TTC": null
+    },
+    {
+      "id": "auprotec6",
+      "folder": "cable-principal-6mm2",
+      "reference": "AUPROTEC FLRY-B 6,00 mm² rouge / noir",
+      "role": "Câble principal et liaison relais → entrée UD-80A",
+      "quantity": 4,
+      "mandatory": 0,
+      "conditional": 4,
+      "pack": null,
+      "maker": "https://auprotec.de/de/elektrik/fahrzeugleitungen-einadrig/flry-b-leitung/6-00-mm2-flry-b-leitung/flry-b-6-0-mm2-batteriekabel-rot-6m-ring/p/044906",
+      "amazon_query": "AUPROTEC FLRY B 6 mm2 rouge noir",
+      "spec": "Cuivre ECu nu recuit99,99 % annoncé ; PVC ShoreA90 ; Øextérieur env4,7mm ; brins maxØ0,300mm, nombre non publié ; −40..+70 °C ; 50VAC/60VDC.",
+      "usage": "Provision d’étude2m rouge et2m noir, pas liste de coupe. Le SKU fabricant réellement consulté044906 est une couronne rouge6m ; SKU du lot2m et variante noire exacte à confirmer. Ne pas déduire un prix au mètre ni une offre rouge/noir du seul SKU6m.",
+      "dimensions": [
+        [
+          "Section / OD",
+          "6,00mm² / envØ4,7mm",
+          "Page fabricantFLRY-B6"
+        ],
+        [
+          "Brins",
+          "Ømax0,300mm ; nombre et toronnage inconnus",
+          "Ne pas inventer un nombre de brins"
+        ],
+        [
+          "Température / tension",
+          "−40..+70 °C ; 50VAC/60VDC",
+          "Page fabricant ; les annonces+85/+105 ne sont pas retenues"
+        ],
+        [
+          "Âme du modèle",
+          "Cylindre d’aire6mm², Øéquivalent2,764mm",
+          "Représentation pédagogique, pas OD cuivre réel"
+        ],
+        [
+          "Longueur / dénudage CAO",
+          "100/10mm ; coupe40mm",
+          "Exemples, pas consignes de montage"
+        ]
+      ],
+      "source_files": [
+        "sources-web/AUPROTEC-FLRYB6.html"
+      ],
+      "source_pages": "Page primaire rouge6m044906 archivée ; famille noir à vérifier dans l’offre achetée",
+      "fit": "6mm² respecte nominalement le minimum6mm² de l’entrée UD-80A. 10AWG≈5,26mm² ne le respecte pas. Classe du cuivre, acceptation fine brins, embout éventuel et longueur de dénudage UD du lot restent à confirmer. Ne pas enfiler ce câble dans un XT60 sans accord de ses cotes et spécifications.",
+      "amazon_search": "https://www.amazon.fr/s?k=AUPROTEC+FLRY+B+6+mm2+rouge+noir",
+      "amazon_FR_verified": false,
+      "price_EUR_TTC": null
+    }
+  ],
+  "connections": [
+    {
+      "wire": "CP1+",
+      "path": "MIDI sortie → D+ P2",
+      "color": "rouge",
+      "section": 6,
+      "ends": [
+        "95R5",
+        "95R5"
+      ],
+      "status": "hors interface batterie"
+    },
+    {
+      "wire": "CP2+",
+      "path": "D+ P3 → relais +2",
+      "color": "rouge",
+      "section": 6,
+      "ends": [
+        "95R5",
+        "95R4"
+      ],
+      "status": "hors interface batterie"
+    },
+    {
+      "wire": "CP3+",
+      "path": "relais1 → UD-80A IN",
+      "color": "rouge",
+      "section": 6,
+      "ends": [
+        "95R4",
+        "borne UD / embout à qualifier"
+      ],
+      "status": "borne lot à qualifier"
+    },
+    {
+      "wire": "CP0+",
+      "path": "interface batterie → MIDI entrée",
+      "color": "rouge",
+      "section": 6,
+      "ends": [
+        "interface ouverte",
+        "95R5 conditionnelle"
+      ],
+      "status": "interface batterie non arrêtée"
+    },
+    {
+      "wire": "CP0-",
+      "path": "interface batterie → D− N2",
+      "color": "noir",
+      "section": 6,
+      "ends": [
+        "interface ouverte",
+        "95R5"
+      ],
+      "status": "interface batterie non arrêtée"
+    },
+    {
+      "wire": "CM1-",
+      "path": "XT60H-F1 → D− N1",
+      "color": "noir",
+      "section": "12AWG",
+      "ends": [
+        "XT60 soudé",
+        "Ancor312303"
+      ],
+      "status": "sertissage à qualifier"
+    },
+    {
+      "wire": "CM2-",
+      "path": "XT60H-F2 → D− N3",
+      "color": "noir",
+      "section": "12AWG",
+      "ends": [
+        "XT60 soudé",
+        "Ancor312303"
+      ],
+      "status": "sertissage à qualifier"
+    },
+    {
+      "wire": "CM1+",
+      "path": "5065 ATO30 ESC1 → XT60H-F1",
+      "color": "rouge",
+      "section": "12AWG",
+      "ends": [
+        "Ancor309203",
+        "XT60 soudé"
+      ],
+      "status": "sertissage à qualifier"
+    },
+    {
+      "wire": "CM2+",
+      "path": "5065 ATO30 ESC2 → XT60H-F2",
+      "color": "rouge",
+      "section": "12AWG",
+      "ends": [
+        "Ancor309203",
+        "XT60 soudé"
+      ],
+      "status": "sertissage à qualifier"
+    }
+  ],
+  "purchase_made": false,
+  "exact_total_EUR": null,
+  "battery_interface_final": false,
+  "hardware_qualified": false,
+  "excluded": [
+    "manchon3-5mm2 sur6mm2",
+    "substitution10AWG pour entree UD minimum6",
+    "ecrou M5 sur#10-32",
+    "classe6 supposée pour câble FLRY-B"
+  ],
+  "supply_revision_scope": "historical_before_alimentation_r2",
+  "current_supply_source": "../verification-alimentation/selection-active.json",
+  "historical_values_preserved": true
+}

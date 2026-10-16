@@ -1,0 +1,35 @@
+{
+    "file":  "notice-protection-branches-moteurs-v3.pdf",
+    "pages":  5,
+    "sha256":  "9653146da6f2e5b194796cfbaaacfa24679f206e755cda7ccb278b80dbbddddd",
+    "generated_on":  "2026-10-14",
+    "generator":  "tools/build_motor_fuse_pdf.py",
+    "renders":  [
+                    {
+                        "page":  1,
+                        "render":  "tools/temp/motor-fuse-review/pdf/page-1.png",
+                        "chars":  968
+                    },
+                    {
+                        "page":  2,
+                        "render":  "tools/temp/motor-fuse-review/pdf/page-2.png",
+                        "chars":  1676
+                    },
+                    {
+                        "page":  3,
+                        "render":  "tools/temp/motor-fuse-review/pdf/page-3.png",
+                        "chars":  1775
+                    },
+                    {
+                        "page":  4,
+                        "render":  "tools/temp/motor-fuse-review/pdf/page-4.png",
+                        "chars":  1921
+                    },
+                    {
+                        "page":  5,
+                        "render":  "tools/temp/motor-fuse-review/pdf/page-5.png",
+                        "chars":  1938
+                    }
+                ],
+    "visual_review_complete":  true
+}

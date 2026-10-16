@@ -1,0 +1,107 @@
+{
+  "checked_on": "2026-10-14",
+  "all_passed": true,
+  "mode": "headless independent import",
+  "FreeCAD_version": [
+    "1",
+    "1",
+    "4",
+    "20260928 (Git shallow)",
+    "Unknown",
+    "2026/09/28 13:46:34",
+    "(HEAD detached at 4fd3bf320)",
+    "4fd3bf320d9566a27e60069fc8387448aaa3a094"
+  ],
+  "hardware_tested": false,
+  "GUI_tested": false,
+  "checks": [
+    {
+      "file": "amass-xt60h-f-detaille.step",
+      "sha256": "d9a24fc243bc31e76932a32dcab1af89dad9213f0e6c8d9946785fb18429cc5c",
+      "passed": true,
+      "valid": true,
+      "solids_closed": true,
+      "solids": 4,
+      "faces": 246,
+      "bbox_error_mm": 0.0,
+      "seconds": 1.400237400000151
+    },
+    {
+      "file": "amass-xt60h-m-detaille.step",
+      "sha256": "05c019d83caf4fd3354815938c7f7399101321618ab3c234b31b56ed65fe0c02",
+      "passed": true,
+      "valid": true,
+      "solids_closed": true,
+      "solids": 4,
+      "faces": 305,
+      "bbox_error_mm": 0.0,
+      "seconds": 1.1930351000000883
+    },
+    {
+      "file": "amass-xt60h-f-sans-capot.step",
+      "sha256": "74731131760a77aea1109dc0d32c16c9e9338113425d4a7a3674c7f1be2d552e",
+      "passed": true,
+      "valid": true,
+      "solids_closed": true,
+      "solids": 3,
+      "faces": 181,
+      "bbox_error_mm": 0.0,
+      "seconds": 0.7613585999997667
+    },
+    {
+      "file": "amass-xt60h-m-sans-capot.step",
+      "sha256": "f7d76a808317c8dcd41abaca0bade870b327d6d11496ed9d798b83f57f81848e",
+      "passed": true,
+      "valid": true,
+      "solids_closed": true,
+      "solids": 3,
+      "faces": 240,
+      "bbox_error_mm": 0.0,
+      "seconds": 1.0609659000001557
+    },
+    {
+      "file": "amass-xt60h-capot-detaille.step",
+      "sha256": "fd74c1de0b77164d4da67959fba78da779213532e5da1a5ab332a80c1a8f7919",
+      "passed": true,
+      "valid": true,
+      "solids_closed": true,
+      "solids": 1,
+      "faces": 65,
+      "bbox_error_mm": 0.0,
+      "seconds": 0.2154645000000528
+    },
+    {
+      "file": "amass-xt60h-paire-accouplee.step",
+      "sha256": "8e5a5f1793af107feeec9b00f8a8a4744be5dcd40b4f68c211b5bb8a1f06be72",
+      "passed": true,
+      "valid": true,
+      "solids_closed": true,
+      "solids": 8,
+      "faces": 551,
+      "bbox_error_mm": 0.0,
+      "seconds": 2.2136043000000427
+    },
+    {
+      "file": "amass-xt60h-paire-eclatee.step",
+      "sha256": "38c715249bbe7d3c4481237accccc98ae356fb64910e0845fc50c4cfc7abcf84",
+      "passed": true,
+      "valid": true,
+      "solids_closed": true,
+      "solids": 8,
+      "faces": 551,
+      "bbox_error_mm": 0.0,
+      "seconds": 2.8133703999997124
+    },
+    {
+      "file": "amass-xt60h-f-cable-12awg-illustration.step",
+      "sha256": "d0ebda808c88047b9f5632620b31ad227333aecf48f67eba74be4d3039f1039f",
+      "passed": true,
+      "valid": true,
+      "solids_closed": true,
+      "solids": 10,
+      "faces": 274,
+      "bbox_error_mm": 0.0,
+      "seconds": 1.3045475999997507
+    }
+  ]
+}

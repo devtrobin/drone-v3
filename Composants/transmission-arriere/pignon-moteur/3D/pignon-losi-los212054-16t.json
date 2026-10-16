@@ -1,0 +1,103 @@
+{
+  "file": "pignon-losi-los212054-16t.step",
+  "title": "Losi LOS212054 | 16 dents",
+  "generated_on": "2026-10-13",
+  "unit": "mm",
+  "cadquery_version": "2.8.0",
+  "coordinate_system": "Axe principal Z; face de reference z=0; dimensions selon parametres",
+  "bytes": 829680,
+  "sha256": "8e7324b680c32c3f13640e026ac9de045d01c6b6065e4f94084d1d0860881dfb",
+  "native_vendor_cad": false,
+  "hardware_measured": false,
+  "is_custom_project_design": false,
+  "published_nominal": [
+    "16 dents, module0.5, alesage2 mm publies par Losi"
+  ],
+  "estimates_and_limitations": [
+    "Angle20 deg, denture5, moyeu OD7/L4 et vis M3 proposes: NON publies",
+    "Compatibilite angle de pression avec KHK pas confirmee",
+    "Flancs par splines de developpante (12 points); raccord racine reconstruit non trochoidal",
+    "Pas un fichier natif KHK/Losi ni un profil de fabrication certifie"
+  ],
+  "parameters": {
+    "teeth": 16,
+    "module": 0.5,
+    "pressure_angle": 20,
+    "pressure_angle_verified": false,
+    "bore": 2,
+    "pitch_diameter": 8.0,
+    "tip_diameter": 9.0,
+    "face_width": 5,
+    "hub_diameter": 7,
+    "hub_length": 4,
+    "overall_length": 9,
+    "set_screw_axis_from_hub_end": 2
+  },
+  "source_pages": [
+    "Losi LOS212054 product page"
+  ],
+  "bounds_mm": {
+    "xmin": -4.500000100000468,
+    "xmax": 4.500000100000468,
+    "ymin": -4.500000100000468,
+    "ymax": 4.500000100000468,
+    "zmin": -1e-07,
+    "zmax": 9.0000001
+  },
+  "validation": {
+    "valid_after_reimport": true,
+    "solids": 2,
+    "faces": 145,
+    "colors": 2,
+    "volume_relative_error": 4.503846892235018e-13,
+    "volume_relative_error_limit": 0.0001,
+    "volume_before_mm3": 359.7008238282031,
+    "volume_after_mm3": 359.7008238280411,
+    "adaptive_volume_tolerance": 1e-09,
+    "bbox_error_mm": 4.662936703425657e-13,
+    "bbox_error_limit_mm": 0.01,
+    "void_and_material_probes": [
+      {
+        "point": [
+          0.99,
+          0,
+          2.5
+        ],
+        "occupied": false
+      },
+      {
+        "point": [
+          1.05,
+          0,
+          2.5
+        ],
+        "occupied": true
+      }
+    ],
+    "elapsed_seconds": 0.9487662999999884
+  },
+  "parts": [
+    {
+      "name": "Engrenage_denture_involute",
+      "color_linear_rgb": [
+        0.62,
+        0.65,
+        0.69
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Vis_pression_geometrie_estimee",
+      "color_linear_rgb": [
+        0.38,
+        0.41,
+        0.45
+      ],
+      "solids": 1
+    }
+  ],
+  "preview": {
+    "file": "pignon-losi-los212054-16t.png",
+    "sha256": "4f039f0911b51f86f7da27f7567d20dbb57a0b0f00a523e6a1f7597e902b2d3e"
+  }
+}

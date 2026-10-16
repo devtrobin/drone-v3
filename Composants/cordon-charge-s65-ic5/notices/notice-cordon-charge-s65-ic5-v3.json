@@ -1,0 +1,32 @@
+{
+  "file": "Composants\\cordon-charge-s65-ic5\\notices\\notice-cordon-charge-s65-ic5-v3.pdf",
+  "pages": 3,
+  "generated_on": "2026-10-15",
+  "sha256": "2bdba7552728e12a200d0411f11d8ab4368cf72b55a287f6952463032af5ccc6",
+  "renders": [
+    {
+      "page": 1,
+      "file": "tools\\temp\\supply-audit\\pdf\\notice-cordon-charge-s65-ic5-v3\\page-1.png",
+      "text_chars": 855
+    },
+    {
+      "page": 2,
+      "file": "tools\\temp\\supply-audit\\pdf\\notice-cordon-charge-s65-ic5-v3\\page-2.png",
+      "text_chars": 1585
+    },
+    {
+      "page": 3,
+      "file": "tools\\temp\\supply-audit\\pdf\\notice-cordon-charge-s65-ic5-v3\\page-3.png",
+      "text_chars": 1156
+    }
+  ],
+  "visual_review_complete": true,
+  "generator": "tools/build_supply_audit_pdf.py",
+  "visual_review_date": "2026-10-15",
+  "reviewed_pages": [
+    1,
+    2,
+    3
+  ],
+  "visual_review_method": "Every final rendered page inspected with view_image; legible text, tables, images and links, no visible clipping or overlap"
+}

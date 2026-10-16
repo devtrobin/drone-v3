@@ -1,0 +1,20 @@
+{
+  "checked_on": "2026-10-14",
+  "all_passed": true,
+  "archives": 22,
+  "native_STEP_matches_original_ZIP": true,
+  "step_models": 5,
+  "freecad_headless_imports_valid": true,
+  "step_not_ignored": true,
+  "provenance_and_links_valid": true,
+  "pdf_pages": 4,
+  "pdf_visual_review_complete": true,
+  "example_calculations_consistent": true,
+  "manufacturer_assembly_overlap_preserved": true,
+  "hardware_tested": false,
+  "wiring_qualified": false,
+  "large_terminal_IEC_UL_difference_resolved_on_received_lot": false,
+  "Amazon_fr_exact_offer_confirmed": false,
+  "RS_France_price_observed_TTC_EUR": 21.13,
+  "shipping_included": false
+}

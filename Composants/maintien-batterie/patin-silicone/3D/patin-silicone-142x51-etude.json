@@ -1,0 +1,69 @@
+{
+  "file": "patin-silicone-142x51-etude.step",
+  "title": "Silicone | patin142x51 provisoire",
+  "generated_on": "2026-10-14",
+  "unit": "mm",
+  "cadquery_version": "2.8.0",
+  "coordinate_system": "Axe principal Z; face de reference z=0; dimensions selon parametres",
+  "bytes": 33829,
+  "sha256": "259ba1da2e5d27e3389454a725370b63f2bbaa149c873243b54df3d4a23d26df",
+  "native_vendor_cad": false,
+  "hardware_measured": false,
+  "is_custom_project_design": true,
+  "published_nominal": [
+    "BENECREAT : deuxfeuilles200x200x2 blanches."
+  ],
+  "estimates_and_limitations": [
+    "Coinsetaspect surfaceestimés ; patin142x51choixprovisoire, duretéetfriction inconnues.",
+    "Nuances optiques estimées ; géométrie non mesurée. Pas de plan de fabrication ni de qualification mécanique/électrique."
+  ],
+  "parameters": {
+    "length_mm": 142,
+    "width_mm": 51,
+    "thickness_mm": 2
+  },
+  "source_pages": [
+    "Voir sources.json et cotes.md du composant / ensemble"
+  ],
+  "bounds_mm": {
+    "xmin": -71.0,
+    "xmax": 71.0,
+    "ymin": -25.5,
+    "ymax": 25.5,
+    "zmin": 0.0,
+    "zmax": 2.0
+  },
+  "validation": {
+    "valid_after_reimport": true,
+    "solids": 1,
+    "faces": 10,
+    "colors": 1,
+    "volume_relative_error": 5.024040423104808e-16,
+    "volume_relative_error_limit": 0.0001,
+    "volume_before_mm3": 14482.283185307166,
+    "volume_after_mm3": 14482.283185307173,
+    "adaptive_volume_tolerance": 1e-09,
+    "bbox_error_mm": 0.0,
+    "bbox_error_limit_mm": 0.01,
+    "void_and_material_probes": [],
+    "elapsed_seconds": 0.205134600000747,
+    "volume_after_default_quadrature_mm3": 14482.283185307188
+  },
+  "parts": [
+    {
+      "name": "Piece_silicone_blanc",
+      "color_linear_rgb": [
+        0.87,
+        0.87,
+        0.83
+      ],
+      "solids": 1
+    }
+  ],
+  "preview": {
+    "file": "patin-silicone-142x51-etude.png",
+    "sha256": "21a92d09ab26f1f09d19623d5ea70a4ce6987c2b3c5d96f9f1c9ebbc55be4f81"
+  },
+  "component_folder": "maintien-batterie/patin-silicone",
+  "relative_step_path": "maintien-batterie/patin-silicone/3D/patin-silicone-142x51-etude.step"
+}

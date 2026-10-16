@@ -1,0 +1,2101 @@
+[
+  {
+    "code": "C01",
+    "label": "Plateau principal",
+    "w": 300,
+    "h": 520,
+    "t": 3,
+    "material": "Al 5754 H22",
+    "qty": 1,
+    "features": [
+      {
+        "type": "hole",
+        "x": 15,
+        "y": 40,
+        "d": 4.5,
+        "role": "C03 traverse avant"
+      },
+      {
+        "type": "hole",
+        "x": 15,
+        "y": 70,
+        "d": 4.5,
+        "role": "C03 traverse avant"
+      },
+      {
+        "type": "hole",
+        "x": 50,
+        "y": 40,
+        "d": 4.5,
+        "role": "C03 traverse avant"
+      },
+      {
+        "type": "hole",
+        "x": 50,
+        "y": 70,
+        "d": 4.5,
+        "role": "C03 traverse avant"
+      },
+      {
+        "type": "hole",
+        "x": 250,
+        "y": 40,
+        "d": 4.5,
+        "role": "C03 traverse avant"
+      },
+      {
+        "type": "hole",
+        "x": 250,
+        "y": 70,
+        "d": 4.5,
+        "role": "C03 traverse avant"
+      },
+      {
+        "type": "hole",
+        "x": 285,
+        "y": 40,
+        "d": 4.5,
+        "role": "C03 traverse avant"
+      },
+      {
+        "type": "hole",
+        "x": 285,
+        "y": 70,
+        "d": 4.5,
+        "role": "C03 traverse avant"
+      },
+      {
+        "type": "hole",
+        "x": 20,
+        "y": 120,
+        "d": 4.5,
+        "role": "L01 longeron"
+      },
+      {
+        "type": "hole",
+        "x": 20,
+        "y": 215,
+        "d": 4.5,
+        "role": "L01 longeron"
+      },
+      {
+        "type": "hole",
+        "x": 20,
+        "y": 355,
+        "d": 4.5,
+        "role": "L01 longeron"
+      },
+      {
+        "type": "hole",
+        "x": 280,
+        "y": 120,
+        "d": 4.5,
+        "role": "L01 longeron"
+      },
+      {
+        "type": "hole",
+        "x": 280,
+        "y": 215,
+        "d": 4.5,
+        "role": "L01 longeron"
+      },
+      {
+        "type": "hole",
+        "x": 280,
+        "y": 355,
+        "d": 4.5,
+        "role": "L01 longeron"
+      },
+      {
+        "type": "hole",
+        "x": 78,
+        "y": 194,
+        "d": 4.5,
+        "role": "Pont C02 / tube L70"
+      },
+      {
+        "type": "hole",
+        "x": 78,
+        "y": 408,
+        "d": 4.5,
+        "role": "Pont C02 / tube L70"
+      },
+      {
+        "type": "hole",
+        "x": 222,
+        "y": 194,
+        "d": 4.5,
+        "role": "Pont C02 / tube L70"
+      },
+      {
+        "type": "hole",
+        "x": 222,
+        "y": 408,
+        "d": 4.5,
+        "role": "Pont C02 / tube L70"
+      },
+      {
+        "type": "hole",
+        "x": 127,
+        "y": 68,
+        "d": 2.7,
+        "role": "C08 servo / entretoise20"
+      },
+      {
+        "type": "hole",
+        "x": 127,
+        "y": 92,
+        "d": 2.7,
+        "role": "C08 servo / entretoise20"
+      },
+      {
+        "type": "hole",
+        "x": 173,
+        "y": 68,
+        "d": 2.7,
+        "role": "C08 servo / entretoise20"
+      },
+      {
+        "type": "hole",
+        "x": 173,
+        "y": 92,
+        "d": 2.7,
+        "role": "C08 servo / entretoise20"
+      },
+      {
+        "type": "hole",
+        "x": 17,
+        "y": 102,
+        "d": 4.5,
+        "role": "C07 pod ED80 / tube L56"
+      },
+      {
+        "type": "hole",
+        "x": 17,
+        "y": 178,
+        "d": 4.5,
+        "role": "C07 pod ED80 / tube L56"
+      },
+      {
+        "type": "hole",
+        "x": 93,
+        "y": 102,
+        "d": 4.5,
+        "role": "C07 pod ED80 / tube L56"
+      },
+      {
+        "type": "hole",
+        "x": 93,
+        "y": 178,
+        "d": 4.5,
+        "role": "C07 pod ED80 / tube L56"
+      },
+      {
+        "type": "hole",
+        "x": 76,
+        "y": 435,
+        "d": 3.5,
+        "role": "P1 capteur vitesse, pied réglable"
+      },
+      {
+        "type": "hole",
+        "x": 76,
+        "y": 455,
+        "d": 3.5,
+        "role": "P1 capteur vitesse, pied réglable"
+      },
+      {
+        "type": "hole",
+        "x": 224,
+        "y": 435,
+        "d": 3.5,
+        "role": "P1 capteur vitesse, pied réglable"
+      },
+      {
+        "type": "hole",
+        "x": 224,
+        "y": 455,
+        "d": 3.5,
+        "role": "P1 capteur vitesse, pied réglable"
+      },
+      {
+        "type": "slot",
+        "x": 116,
+        "y": 230,
+        "length": 23,
+        "width": 3.5,
+        "angle": 90,
+        "role": "Sangle20 batterie"
+      },
+      {
+        "type": "slot",
+        "x": 184,
+        "y": 230,
+        "length": 23,
+        "width": 3.5,
+        "angle": 90,
+        "role": "Sangle20 batterie"
+      },
+      {
+        "type": "slot",
+        "x": 116,
+        "y": 310,
+        "length": 23,
+        "width": 3.5,
+        "angle": 90,
+        "role": "Sangle20 batterie"
+      },
+      {
+        "type": "slot",
+        "x": 184,
+        "y": 310,
+        "length": 23,
+        "width": 3.5,
+        "angle": 90,
+        "role": "Sangle20 batterie"
+      },
+      {
+        "type": "hole",
+        "x": 130,
+        "y": 193,
+        "d": 3.5,
+        "role": "C16 butée batterie"
+      },
+      {
+        "type": "hole",
+        "x": 170,
+        "y": 193,
+        "d": 3.5,
+        "role": "C16 butée batterie"
+      },
+      {
+        "type": "hole",
+        "x": 130,
+        "y": 347,
+        "d": 3.5,
+        "role": "C16 butée batterie"
+      },
+      {
+        "type": "hole",
+        "x": 170,
+        "y": 347,
+        "d": 3.5,
+        "role": "C16 butée batterie"
+      },
+      {
+        "type": "hole",
+        "x": 122,
+        "y": 212,
+        "d": 3.5,
+        "role": "C17 guide latéral batterie"
+      },
+      {
+        "type": "hole",
+        "x": 122,
+        "y": 328,
+        "d": 3.5,
+        "role": "C17 guide latéral batterie"
+      },
+      {
+        "type": "hole",
+        "x": 178,
+        "y": 212,
+        "d": 3.5,
+        "role": "C17 guide latéral batterie"
+      },
+      {
+        "type": "hole",
+        "x": 178,
+        "y": 328,
+        "d": 3.5,
+        "role": "C17 guide latéral batterie"
+      },
+      {
+        "type": "hole",
+        "x": 32,
+        "y": 487,
+        "d": 4.5,
+        "role": "L02 pieds portique caméra"
+      },
+      {
+        "type": "hole",
+        "x": 12,
+        "y": 487,
+        "d": 4.5,
+        "role": "L02 pieds portique caméra"
+      },
+      {
+        "type": "hole",
+        "x": 268,
+        "y": 487,
+        "d": 4.5,
+        "role": "L02 pieds portique caméra"
+      },
+      {
+        "type": "hole",
+        "x": 288,
+        "y": 487,
+        "d": 4.5,
+        "role": "L02 pieds portique caméra"
+      },
+      {
+        "type": "hole",
+        "x": 170.0,
+        "y": 102.0,
+        "d": 3.5,
+        "role": "C05 cassette"
+      },
+      {
+        "type": "hole",
+        "x": 170.0,
+        "y": 178.0,
+        "d": 3.5,
+        "role": "C05 cassette"
+      },
+      {
+        "type": "hole",
+        "x": 280.0,
+        "y": 102.0,
+        "d": 3.5,
+        "role": "C05 cassette"
+      },
+      {
+        "type": "hole",
+        "x": 280.0,
+        "y": 178.0,
+        "d": 3.5,
+        "role": "C05 cassette"
+      },
+      {
+        "type": "hole",
+        "x": 193.0,
+        "y": 210.0,
+        "d": 3.5,
+        "role": "C06 cassette"
+      },
+      {
+        "type": "hole",
+        "x": 193.0,
+        "y": 314.0,
+        "d": 3.5,
+        "role": "C06 cassette"
+      },
+      {
+        "type": "hole",
+        "x": 283.0,
+        "y": 210.0,
+        "d": 3.5,
+        "role": "C06 cassette"
+      },
+      {
+        "type": "hole",
+        "x": 283.0,
+        "y": 314.0,
+        "d": 3.5,
+        "role": "C06 cassette"
+      },
+      {
+        "type": "hole",
+        "x": 247.0,
+        "y": 333.0,
+        "d": 3.5,
+        "role": "C12 cassette"
+      },
+      {
+        "type": "hole",
+        "x": 247.0,
+        "y": 403.0,
+        "d": 3.5,
+        "role": "C12 cassette"
+      },
+      {
+        "type": "hole",
+        "x": 277.0,
+        "y": 333.0,
+        "d": 3.5,
+        "role": "C12 cassette"
+      },
+      {
+        "type": "hole",
+        "x": 277.0,
+        "y": 403.0,
+        "d": 3.5,
+        "role": "C12 cassette"
+      },
+      {
+        "type": "hole",
+        "x": 16.0,
+        "y": 192.0,
+        "d": 3.5,
+        "role": "C13 cassette"
+      },
+      {
+        "type": "hole",
+        "x": 16.0,
+        "y": 258.0,
+        "d": 3.5,
+        "role": "C13 cassette"
+      },
+      {
+        "type": "hole",
+        "x": 64.0,
+        "y": 192.0,
+        "d": 3.5,
+        "role": "C13 cassette"
+      },
+      {
+        "type": "hole",
+        "x": 64.0,
+        "y": 258.0,
+        "d": 3.5,
+        "role": "C13 cassette"
+      },
+      {
+        "type": "hole",
+        "x": 16.0,
+        "y": 278.0,
+        "d": 3.5,
+        "role": "C14 cassette"
+      },
+      {
+        "type": "hole",
+        "x": 16.0,
+        "y": 328.0,
+        "d": 3.5,
+        "role": "C14 cassette"
+      },
+      {
+        "type": "hole",
+        "x": 108.0,
+        "y": 278.0,
+        "d": 3.5,
+        "role": "C14 cassette"
+      },
+      {
+        "type": "hole",
+        "x": 108.0,
+        "y": 328.0,
+        "d": 3.5,
+        "role": "C14 cassette"
+      },
+      {
+        "type": "hole",
+        "x": 127.0,
+        "y": 132.0,
+        "d": 3.5,
+        "role": "C15 cassette"
+      },
+      {
+        "type": "hole",
+        "x": 127.0,
+        "y": 158.0,
+        "d": 3.5,
+        "role": "C15 cassette"
+      },
+      {
+        "type": "hole",
+        "x": 153.0,
+        "y": 132.0,
+        "d": 3.5,
+        "role": "C15 cassette"
+      },
+      {
+        "type": "hole",
+        "x": 153.0,
+        "y": 158.0,
+        "d": 3.5,
+        "role": "C15 cassette"
+      },
+      {
+        "type": "hole",
+        "x": 84.0,
+        "y": 362.0,
+        "d": 3.5,
+        "role": "C11G cassette"
+      },
+      {
+        "type": "hole",
+        "x": 84.0,
+        "y": 390.0,
+        "d": 3.5,
+        "role": "C11G cassette"
+      },
+      {
+        "type": "hole",
+        "x": 122.0,
+        "y": 362.0,
+        "d": 3.5,
+        "role": "C11G cassette"
+      },
+      {
+        "type": "hole",
+        "x": 122.0,
+        "y": 390.0,
+        "d": 3.5,
+        "role": "C11G cassette"
+      },
+      {
+        "type": "hole",
+        "x": 178.0,
+        "y": 362.0,
+        "d": 3.5,
+        "role": "C11D cassette"
+      },
+      {
+        "type": "hole",
+        "x": 178.0,
+        "y": 390.0,
+        "d": 3.5,
+        "role": "C11D cassette"
+      },
+      {
+        "type": "hole",
+        "x": 216.0,
+        "y": 362.0,
+        "d": 3.5,
+        "role": "C11D cassette"
+      },
+      {
+        "type": "hole",
+        "x": 216.0,
+        "y": 390.0,
+        "d": 3.5,
+        "role": "C11D cassette"
+      },
+      {
+        "type": "hole",
+        "x": 270,
+        "y": 392,
+        "d": 4.5,
+        "role": "C04D lumières"
+      },
+      {
+        "type": "hole",
+        "x": 270,
+        "y": 460,
+        "d": 4.5,
+        "role": "C04D lumières"
+      },
+      {
+        "type": "hole",
+        "x": 290,
+        "y": 392,
+        "d": 4.5,
+        "role": "C04D lumières"
+      },
+      {
+        "type": "hole",
+        "x": 290,
+        "y": 460,
+        "d": 4.5,
+        "role": "C04D lumières"
+      },
+      {
+        "type": "hole",
+        "x": 30,
+        "y": 392,
+        "d": 4.5,
+        "role": "C04G lumières"
+      },
+      {
+        "type": "hole",
+        "x": 30,
+        "y": 460,
+        "d": 4.5,
+        "role": "C04G lumières"
+      },
+      {
+        "type": "hole",
+        "x": 10,
+        "y": 392,
+        "d": 4.5,
+        "role": "C04G lumières"
+      },
+      {
+        "type": "hole",
+        "x": 10,
+        "y": 460,
+        "d": 4.5,
+        "role": "C04G lumières"
+      }
+    ],
+    "outline": null,
+    "r": 12,
+    "origin": [
+      -150,
+      0
+    ],
+    "z": 8,
+    "pose": null,
+    "volume_mm3": 463733.7791282859,
+    "mass_kg_estimate": 1.252081203646372
+  },
+  {
+    "code": "C05",
+    "label": "Cassette F0 classe T",
+    "w": 125,
+    "h": 90,
+    "t": 5,
+    "material": "PP compact",
+    "qty": 1,
+    "features": [
+      {
+        "type": "hole",
+        "x": 7.5,
+        "y": 7.0,
+        "d": 3.5,
+        "role": "Fixation cassette M3"
+      },
+      {
+        "type": "hole",
+        "x": 7.5,
+        "y": 83.0,
+        "d": 3.5,
+        "role": "Fixation cassette M3"
+      },
+      {
+        "type": "hole",
+        "x": 117.5,
+        "y": 7.0,
+        "d": 3.5,
+        "role": "Fixation cassette M3"
+      },
+      {
+        "type": "hole",
+        "x": 117.5,
+        "y": 83.0,
+        "d": 3.5,
+        "role": "Fixation cassette M3"
+      }
+    ],
+    "outline": null,
+    "r": 0,
+    "origin": [
+      12.5,
+      95.0
+    ],
+    "z": 14,
+    "pose": null,
+    "volume_mm3": 56057.57744996762,
+    "mass_kg_estimate": 0.051012395479470535
+  },
+  {
+    "code": "C06",
+    "label": "Cassette 4 supports de branches",
+    "w": 104,
+    "h": 120,
+    "t": 5,
+    "material": "PP compact",
+    "qty": 1,
+    "features": [
+      {
+        "type": "hole",
+        "x": 7.0,
+        "y": 8.0,
+        "d": 3.5,
+        "role": "Fixation cassette M3"
+      },
+      {
+        "type": "hole",
+        "x": 7.0,
+        "y": 112.0,
+        "d": 3.5,
+        "role": "Fixation cassette M3"
+      },
+      {
+        "type": "hole",
+        "x": 97.0,
+        "y": 8.0,
+        "d": 3.5,
+        "role": "Fixation cassette M3"
+      },
+      {
+        "type": "hole",
+        "x": 97.0,
+        "y": 112.0,
+        "d": 3.5,
+        "role": "Fixation cassette M3"
+      }
+    ],
+    "outline": null,
+    "r": 0,
+    "origin": [
+      36.0,
+      202.0
+    ],
+    "z": 14,
+    "pose": null,
+    "volume_mm3": 62207.57744996762,
+    "mass_kg_estimate": 0.05660889547947053
+  },
+  {
+    "code": "C12",
+    "label": "Cassette UD80A",
+    "w": 50,
+    "h": 85,
+    "t": 5,
+    "material": "PP compact",
+    "qty": 1,
+    "features": [
+      {
+        "type": "hole",
+        "x": 10.0,
+        "y": 7.5,
+        "d": 3.5,
+        "role": "Fixation cassette M3"
+      },
+      {
+        "type": "hole",
+        "x": 10.0,
+        "y": 77.5,
+        "d": 3.5,
+        "role": "Fixation cassette M3"
+      },
+      {
+        "type": "hole",
+        "x": 40.0,
+        "y": 7.5,
+        "d": 3.5,
+        "role": "Fixation cassette M3"
+      },
+      {
+        "type": "hole",
+        "x": 40.0,
+        "y": 77.5,
+        "d": 3.5,
+        "role": "Fixation cassette M3"
+      }
+    ],
+    "outline": null,
+    "r": 0,
+    "origin": [
+      87.0,
+      325.5
+    ],
+    "z": 14,
+    "pose": null,
+    "volume_mm3": 21057.57744996762,
+    "mass_kg_estimate": 0.01916239547947053
+  },
+  {
+    "code": "C13",
+    "label": "Platine dissipateur HS251",
+    "w": 62,
+    "h": 82,
+    "t": 3,
+    "material": "Al 5754 H22",
+    "qty": 1,
+    "features": [
+      {
+        "type": "hole",
+        "x": 7.0,
+        "y": 8.0,
+        "d": 3.5,
+        "role": "Fixation cassette M3"
+      },
+      {
+        "type": "hole",
+        "x": 7.0,
+        "y": 74.0,
+        "d": 3.5,
+        "role": "Fixation cassette M3"
+      },
+      {
+        "type": "hole",
+        "x": 55.0,
+        "y": 8.0,
+        "d": 3.5,
+        "role": "Fixation cassette M3"
+      },
+      {
+        "type": "hole",
+        "x": 55.0,
+        "y": 74.0,
+        "d": 3.5,
+        "role": "Fixation cassette M3"
+      }
+    ],
+    "outline": null,
+    "r": 0,
+    "origin": [
+      -141.0,
+      184.0
+    ],
+    "z": 14,
+    "pose": null,
+    "volume_mm3": 15136.546469980578,
+    "mass_kg_estimate": 0.04086867546894756
+  },
+  {
+    "code": "C14",
+    "label": "Cassette D+ et D-",
+    "w": 106,
+    "h": 65,
+    "t": 3,
+    "material": "PP compact",
+    "qty": 1,
+    "features": [
+      {
+        "type": "hole",
+        "x": 7.0,
+        "y": 7.5,
+        "d": 3.5,
+        "role": "Fixation cassette M3"
+      },
+      {
+        "type": "hole",
+        "x": 7.0,
+        "y": 57.5,
+        "d": 3.5,
+        "role": "Fixation cassette M3"
+      },
+      {
+        "type": "hole",
+        "x": 99.0,
+        "y": 7.5,
+        "d": 3.5,
+        "role": "Fixation cassette M3"
+      },
+      {
+        "type": "hole",
+        "x": 99.0,
+        "y": 57.5,
+        "d": 3.5,
+        "role": "Fixation cassette M3"
+      }
+    ],
+    "outline": null,
+    "r": 0,
+    "origin": [
+      -141.0,
+      270.5
+    ],
+    "z": 14,
+    "pose": null,
+    "volume_mm3": 20554.54646998057,
+    "mass_kg_estimate": 0.018704637287682322
+  },
+  {
+    "code": "C15",
+    "label": "Maintien raccord IC5 et voies fines",
+    "w": 40,
+    "h": 40,
+    "t": 3,
+    "material": "PP compact",
+    "qty": 1,
+    "features": [
+      {
+        "type": "hole",
+        "x": 7.0,
+        "y": 7.0,
+        "d": 3.5,
+        "role": "Fixation cassette M3"
+      },
+      {
+        "type": "hole",
+        "x": 7.0,
+        "y": 33.0,
+        "d": 3.5,
+        "role": "Fixation cassette M3"
+      },
+      {
+        "type": "hole",
+        "x": 33.0,
+        "y": 7.0,
+        "d": 3.5,
+        "role": "Fixation cassette M3"
+      },
+      {
+        "type": "hole",
+        "x": 33.0,
+        "y": 33.0,
+        "d": 3.5,
+        "role": "Fixation cassette M3"
+      },
+      {
+        "type": "slot",
+        "x": 20,
+        "y": 20,
+        "length": 20,
+        "width": 3.5,
+        "angle": 90,
+        "role": "Collier isolé"
+      }
+    ],
+    "outline": null,
+    "r": 0,
+    "origin": [
+      -30.0,
+      125.0
+    ],
+    "z": 14,
+    "pose": null,
+    "volume_mm3": 4482.433087475717,
+    "mass_kg_estimate": 0.004079014109602903
+  },
+  {
+    "code": "C11G",
+    "label": "Platine ESC G",
+    "w": 50,
+    "h": 40,
+    "t": 3,
+    "material": "PP compact",
+    "qty": 1,
+    "features": [
+      {
+        "type": "hole",
+        "x": 6.0,
+        "y": 6.0,
+        "d": 3.5,
+        "role": "Fixation cassette M3"
+      },
+      {
+        "type": "hole",
+        "x": 6.0,
+        "y": 34.0,
+        "d": 3.5,
+        "role": "Fixation cassette M3"
+      },
+      {
+        "type": "hole",
+        "x": 44.0,
+        "y": 6.0,
+        "d": 3.5,
+        "role": "Fixation cassette M3"
+      },
+      {
+        "type": "hole",
+        "x": 44.0,
+        "y": 34.0,
+        "d": 3.5,
+        "role": "Fixation cassette M3"
+      },
+      {
+        "type": "slot",
+        "x": 14,
+        "y": 20,
+        "length": 25,
+        "width": 3.5,
+        "angle": 90,
+        "role": "Maintien ESC"
+      },
+      {
+        "type": "slot",
+        "x": 36,
+        "y": 20,
+        "length": 25,
+        "width": 3.5,
+        "angle": 90,
+        "role": "Maintien ESC"
+      }
+    ],
+    "outline": null,
+    "r": 0,
+    "origin": [
+      -72.0,
+      356.0
+    ],
+    "z": 14,
+    "pose": null,
+    "volume_mm3": 5375.3197049708615,
+    "mass_kg_estimate": 0.004891540931523484
+  },
+  {
+    "code": "C11D",
+    "label": "Platine ESC D",
+    "w": 50,
+    "h": 40,
+    "t": 3,
+    "material": "PP compact",
+    "qty": 1,
+    "features": [
+      {
+        "type": "hole",
+        "x": 6.0,
+        "y": 6.0,
+        "d": 3.5,
+        "role": "Fixation cassette M3"
+      },
+      {
+        "type": "hole",
+        "x": 6.0,
+        "y": 34.0,
+        "d": 3.5,
+        "role": "Fixation cassette M3"
+      },
+      {
+        "type": "hole",
+        "x": 44.0,
+        "y": 6.0,
+        "d": 3.5,
+        "role": "Fixation cassette M3"
+      },
+      {
+        "type": "hole",
+        "x": 44.0,
+        "y": 34.0,
+        "d": 3.5,
+        "role": "Fixation cassette M3"
+      },
+      {
+        "type": "slot",
+        "x": 14,
+        "y": 20,
+        "length": 25,
+        "width": 3.5,
+        "angle": 90,
+        "role": "Maintien ESC"
+      },
+      {
+        "type": "slot",
+        "x": 36,
+        "y": 20,
+        "length": 25,
+        "width": 3.5,
+        "angle": 90,
+        "role": "Maintien ESC"
+      }
+    ],
+    "outline": null,
+    "r": 0,
+    "origin": [
+      22.0,
+      356.0
+    ],
+    "z": 14,
+    "pose": null,
+    "volume_mm3": 5375.3197049708615,
+    "mass_kg_estimate": 0.004891540931523484
+  },
+  {
+    "code": "C04D",
+    "label": "Platine transmission D",
+    "w": 90,
+    "h": 90,
+    "t": 3,
+    "material": "Al 6061 T6",
+    "qty": 1,
+    "features": [
+      {
+        "type": "slot",
+        "x": 28,
+        "y": 12,
+        "length": 15,
+        "width": 4.5,
+        "angle": 0,
+        "role": "Fixation transmission au plateau"
+      },
+      {
+        "type": "slot",
+        "x": 28,
+        "y": 80,
+        "length": 15,
+        "width": 4.5,
+        "angle": 0,
+        "role": "Fixation transmission au plateau"
+      },
+      {
+        "type": "slot",
+        "x": 48,
+        "y": 12,
+        "length": 15,
+        "width": 4.5,
+        "angle": 0,
+        "role": "Fixation transmission au plateau"
+      },
+      {
+        "type": "slot",
+        "x": 48,
+        "y": 80,
+        "length": 15,
+        "width": 4.5,
+        "angle": 0,
+        "role": "Fixation transmission au plateau"
+      }
+    ],
+    "outline": [
+      [
+        0,
+        0
+      ],
+      [
+        90,
+        0
+      ],
+      [
+        90,
+        90
+      ],
+      [
+        0,
+        90
+      ],
+      [
+        0,
+        82
+      ],
+      [
+        10,
+        82
+      ],
+      [
+        10,
+        48
+      ],
+      [
+        0,
+        48
+      ]
+    ],
+    "r": 0,
+    "origin": [
+      92,
+      380
+    ],
+    "z": 11,
+    "pose": null,
+    "volume_mm3": 22522.148246294426,
+    "mass_kg_estimate": 0.060809800264994954
+  },
+  {
+    "code": "C04G",
+    "label": "Platine transmission G",
+    "w": 90,
+    "h": 90,
+    "t": 3,
+    "material": "Al 6061 T6",
+    "qty": 1,
+    "features": [
+      {
+        "type": "slot",
+        "x": 62,
+        "y": 12,
+        "length": 15,
+        "width": 4.5,
+        "angle": 0,
+        "role": "Fixation transmission au plateau"
+      },
+      {
+        "type": "slot",
+        "x": 62,
+        "y": 80,
+        "length": 15,
+        "width": 4.5,
+        "angle": 0,
+        "role": "Fixation transmission au plateau"
+      },
+      {
+        "type": "slot",
+        "x": 42,
+        "y": 12,
+        "length": 15,
+        "width": 4.5,
+        "angle": 0,
+        "role": "Fixation transmission au plateau"
+      },
+      {
+        "type": "slot",
+        "x": 42,
+        "y": 80,
+        "length": 15,
+        "width": 4.5,
+        "angle": 0,
+        "role": "Fixation transmission au plateau"
+      }
+    ],
+    "outline": [
+      [
+        90,
+        48
+      ],
+      [
+        80,
+        48
+      ],
+      [
+        80,
+        82
+      ],
+      [
+        90,
+        82
+      ],
+      [
+        90,
+        90
+      ],
+      [
+        0,
+        90
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        90,
+        0
+      ]
+    ],
+    "r": 0,
+    "origin": [
+      -182,
+      380
+    ],
+    "z": 11,
+    "pose": null,
+    "volume_mm3": 22522.148246294422,
+    "mass_kg_estimate": 0.06080980026499494
+  },
+  {
+    "code": "C03",
+    "label": "Traverse et oreilles avant",
+    "w": 348,
+    "h": 55,
+    "t": 2.5,
+    "material": "Al 6061 T6",
+    "qty": 1,
+    "features": [
+      {
+        "type": "hole",
+        "x": 39,
+        "y": 10,
+        "d": 4.5,
+        "role": "Fixation au plateau"
+      },
+      {
+        "type": "hole",
+        "x": 39,
+        "y": 40,
+        "d": 4.5,
+        "role": "Fixation au plateau"
+      },
+      {
+        "type": "hole",
+        "x": 74,
+        "y": 10,
+        "d": 4.5,
+        "role": "Fixation au plateau"
+      },
+      {
+        "type": "hole",
+        "x": 74,
+        "y": 40,
+        "d": 4.5,
+        "role": "Fixation au plateau"
+      },
+      {
+        "type": "hole",
+        "x": 274,
+        "y": 10,
+        "d": 4.5,
+        "role": "Fixation au plateau"
+      },
+      {
+        "type": "hole",
+        "x": 274,
+        "y": 40,
+        "d": 4.5,
+        "role": "Fixation au plateau"
+      },
+      {
+        "type": "hole",
+        "x": 309,
+        "y": 10,
+        "d": 4.5,
+        "role": "Fixation au plateau"
+      },
+      {
+        "type": "hole",
+        "x": 309,
+        "y": 40,
+        "d": 4.5,
+        "role": "Fixation au plateau"
+      },
+      {
+        "type": "hole",
+        "x": 4,
+        "y": 26,
+        "d": 3.5,
+        "role": "Fourche F-AV, montage nominal"
+      },
+      {
+        "type": "hole",
+        "x": 4,
+        "y": 40,
+        "d": 3.5,
+        "role": "Fourche F-AV, montage nominal"
+      },
+      {
+        "type": "hole",
+        "x": 344,
+        "y": 26,
+        "d": 3.5,
+        "role": "Fourche F-AV, montage nominal"
+      },
+      {
+        "type": "hole",
+        "x": 344,
+        "y": 40,
+        "d": 3.5,
+        "role": "Fourche F-AV, montage nominal"
+      },
+      {
+        "type": "hole",
+        "x": 151,
+        "y": 38,
+        "d": 2.7,
+        "role": "Entretoise avant servo17.5"
+      },
+      {
+        "type": "hole",
+        "x": 197,
+        "y": 38,
+        "d": 2.7,
+        "role": "Entretoise avant servo17.5"
+      }
+    ],
+    "outline": [
+      [
+        0,
+        18.5
+      ],
+      [
+        30,
+        18.5
+      ],
+      [
+        30,
+        0
+      ],
+      [
+        318,
+        0
+      ],
+      [
+        318,
+        18.5
+      ],
+      [
+        348,
+        18.5
+      ],
+      [
+        348,
+        48.5
+      ],
+      [
+        318,
+        48.5
+      ],
+      [
+        318,
+        55
+      ],
+      [
+        30,
+        55
+      ],
+      [
+        30,
+        48.5
+      ],
+      [
+        0,
+        48.5
+      ]
+    ],
+    "r": 0,
+    "origin": [
+      -174,
+      30
+    ],
+    "z": 11,
+    "pose": null,
+    "volume_mm3": 43657.07470575199,
+    "mass_kg_estimate": 0.11787410170553038
+  },
+  {
+    "code": "C07",
+    "label": "Dessus du pod ED80",
+    "w": 90,
+    "h": 90,
+    "t": 3,
+    "material": "Al 5754 H22",
+    "qty": 1,
+    "features": [
+      {
+        "type": "hole",
+        "x": 45,
+        "y": 45,
+        "d": 25,
+        "role": "ED80 centre"
+      },
+      {
+        "type": "hole",
+        "x": 21,
+        "y": 45,
+        "d": 5.5,
+        "role": "ED80 fixation"
+      },
+      {
+        "type": "hole",
+        "x": 69,
+        "y": 45,
+        "d": 5.5,
+        "role": "ED80 fixation"
+      },
+      {
+        "type": "hole",
+        "x": 7,
+        "y": 7,
+        "d": 4.5,
+        "role": "Tube L56"
+      },
+      {
+        "type": "hole",
+        "x": 7,
+        "y": 83,
+        "d": 4.5,
+        "role": "Tube L56"
+      },
+      {
+        "type": "hole",
+        "x": 83,
+        "y": 7,
+        "d": 4.5,
+        "role": "Tube L56"
+      },
+      {
+        "type": "hole",
+        "x": 83,
+        "y": 83,
+        "d": 4.5,
+        "role": "Tube L56"
+      }
+    ],
+    "outline": null,
+    "r": 0,
+    "origin": [
+      -140,
+      95
+    ],
+    "z": 70,
+    "pose": null,
+    "volume_mm3": 22493.976923267575,
+    "mass_kg_estimate": 0.06073373769282246
+  },
+  {
+    "code": "C08",
+    "label": "Support haut du servo",
+    "w": 55,
+    "h": 35,
+    "t": 3,
+    "material": "Al 5754 H22",
+    "qty": 1,
+    "features": [
+      {
+        "type": "window",
+        "x": 27.5,
+        "y": 17.5,
+        "w": 24,
+        "h": 13,
+        "role": "Passage corps FT90M"
+      },
+      {
+        "type": "hole",
+        "x": 13.25,
+        "y": 17.5,
+        "d": 2.2,
+        "role": "FT90M oreilles à vérifier"
+      },
+      {
+        "type": "hole",
+        "x": 41.75,
+        "y": 17.5,
+        "d": 2.2,
+        "role": "FT90M oreilles à vérifier"
+      },
+      {
+        "type": "hole",
+        "x": 4.5,
+        "y": 5.5,
+        "d": 2.7,
+        "role": "Entretoises20"
+      },
+      {
+        "type": "hole",
+        "x": 4.5,
+        "y": 29.5,
+        "d": 2.7,
+        "role": "Entretoises20"
+      },
+      {
+        "type": "hole",
+        "x": 50.5,
+        "y": 5.5,
+        "d": 2.7,
+        "role": "Entretoises20"
+      },
+      {
+        "type": "hole",
+        "x": 50.5,
+        "y": 29.5,
+        "d": 2.7,
+        "role": "Entretoises20"
+      }
+    ],
+    "outline": null,
+    "r": 0,
+    "origin": [
+      -27.5,
+      62.5
+    ],
+    "z": 31,
+    "pose": null,
+    "volume_mm3": 4750.060628040159,
+    "mass_kg_estimate": 0.012825163695708429
+  },
+  {
+    "code": "C02",
+    "label": "Pont électronique démontable",
+    "w": 160,
+    "h": 250,
+    "t": 2,
+    "material": "Al 5754 H22",
+    "qty": 1,
+    "features": [
+      {
+        "type": "hole",
+        "x": 8,
+        "y": 14,
+        "d": 4.5,
+        "role": "Tube L70"
+      },
+      {
+        "type": "hole",
+        "x": 8,
+        "y": 228,
+        "d": 4.5,
+        "role": "Tube L70"
+      },
+      {
+        "type": "hole",
+        "x": 152,
+        "y": 14,
+        "d": 4.5,
+        "role": "Tube L70"
+      },
+      {
+        "type": "hole",
+        "x": 152,
+        "y": 228,
+        "d": 4.5,
+        "role": "Tube L70"
+      },
+      {
+        "type": "hole",
+        "x": 14,
+        "y": 94,
+        "d": 3.5,
+        "role": "Porteuse M1P"
+      },
+      {
+        "type": "hole",
+        "x": 14,
+        "y": 161,
+        "d": 3.5,
+        "role": "Porteuse M1P"
+      },
+      {
+        "type": "hole",
+        "x": 146,
+        "y": 94,
+        "d": 3.5,
+        "role": "Porteuse M1P"
+      },
+      {
+        "type": "hole",
+        "x": 146,
+        "y": 161,
+        "d": 3.5,
+        "role": "Porteuse M1P"
+      },
+      {
+        "type": "hole",
+        "x": 48.5,
+        "y": 173.5,
+        "d": 2.7,
+        "role": "Pi5 rectangle58 x49"
+      },
+      {
+        "type": "hole",
+        "x": 48.5,
+        "y": 222.5,
+        "d": 2.7,
+        "role": "Pi5 rectangle58 x49"
+      },
+      {
+        "type": "hole",
+        "x": 106.5,
+        "y": 173.5,
+        "d": 2.7,
+        "role": "Pi5 rectangle58 x49"
+      },
+      {
+        "type": "hole",
+        "x": 106.5,
+        "y": 222.5,
+        "d": 2.7,
+        "role": "Pi5 rectangle58 x49"
+      },
+      {
+        "type": "window",
+        "x": 63,
+        "y": 227,
+        "w": 18,
+        "h": 4,
+        "role": "Passage des fils sous GPIO ; souder Pi hors châssis"
+      },
+      {
+        "type": "hole",
+        "x": 11,
+        "y": 19,
+        "d": 3.5,
+        "role": "Cassette EVM"
+      },
+      {
+        "type": "hole",
+        "x": 11,
+        "y": 81,
+        "d": 3.5,
+        "role": "Cassette EVM"
+      },
+      {
+        "type": "hole",
+        "x": 73,
+        "y": 19,
+        "d": 3.5,
+        "role": "Cassette EVM"
+      },
+      {
+        "type": "hole",
+        "x": 73,
+        "y": 81,
+        "d": 3.5,
+        "role": "Cassette EVM"
+      },
+      {
+        "type": "hole",
+        "x": 87,
+        "y": 19,
+        "d": 3.5,
+        "role": "Cassette EVM"
+      },
+      {
+        "type": "hole",
+        "x": 87,
+        "y": 81,
+        "d": 3.5,
+        "role": "Cassette EVM"
+      },
+      {
+        "type": "hole",
+        "x": 149,
+        "y": 19,
+        "d": 3.5,
+        "role": "Cassette EVM"
+      },
+      {
+        "type": "hole",
+        "x": 149,
+        "y": 81,
+        "d": 3.5,
+        "role": "Cassette EVM"
+      },
+      {
+        "type": "hole",
+        "x": 10,
+        "y": 188,
+        "d": 3.5,
+        "role": "Cassette régulateur"
+      },
+      {
+        "type": "hole",
+        "x": 10,
+        "y": 216,
+        "d": 3.5,
+        "role": "Cassette régulateur"
+      },
+      {
+        "type": "hole",
+        "x": 34,
+        "y": 188,
+        "d": 3.5,
+        "role": "Cassette régulateur"
+      },
+      {
+        "type": "hole",
+        "x": 34,
+        "y": 216,
+        "d": 3.5,
+        "role": "Cassette régulateur"
+      },
+      {
+        "type": "slot",
+        "x": 10,
+        "y": 3,
+        "length": 10,
+        "width": 3.5,
+        "angle": 0,
+        "role": "Signal / retenue câble"
+      },
+      {
+        "type": "slot",
+        "x": 150,
+        "y": 3,
+        "length": 10,
+        "width": 3.5,
+        "angle": 0,
+        "role": "Signal / retenue câble"
+      },
+      {
+        "type": "slot",
+        "x": 10,
+        "y": 87,
+        "length": 10,
+        "width": 3.5,
+        "angle": 0,
+        "role": "Signal / retenue câble"
+      },
+      {
+        "type": "slot",
+        "x": 150,
+        "y": 87,
+        "length": 10,
+        "width": 3.5,
+        "angle": 0,
+        "role": "Signal / retenue câble"
+      },
+      {
+        "type": "slot",
+        "x": 10,
+        "y": 166,
+        "length": 10,
+        "width": 3.5,
+        "angle": 0,
+        "role": "Signal / retenue câble"
+      },
+      {
+        "type": "slot",
+        "x": 150,
+        "y": 166,
+        "length": 10,
+        "width": 3.5,
+        "angle": 0,
+        "role": "Signal / retenue câble"
+      }
+    ],
+    "outline": null,
+    "r": 4,
+    "origin": [
+      -80,
+      180
+    ],
+    "z": 81,
+    "pose": null,
+    "volume_mm3": 78960.87924617666,
+    "mass_kg_estimate": 0.213194373964677
+  },
+  {
+    "code": "C09",
+    "label": "Cassette EVM TI sans trous EVM",
+    "w": 72,
+    "h": 72,
+    "t": 3,
+    "material": "PP compact",
+    "qty": 2,
+    "features": [
+      {
+        "type": "hole",
+        "x": 5,
+        "y": 5,
+        "d": 3.5,
+        "role": "Fixation cassette EVM"
+      },
+      {
+        "type": "hole",
+        "x": 5,
+        "y": 67,
+        "d": 3.5,
+        "role": "Fixation cassette EVM"
+      },
+      {
+        "type": "hole",
+        "x": 67,
+        "y": 5,
+        "d": 3.5,
+        "role": "Fixation cassette EVM"
+      },
+      {
+        "type": "hole",
+        "x": 67,
+        "y": 67,
+        "d": 3.5,
+        "role": "Fixation cassette EVM"
+      },
+      {
+        "type": "slot",
+        "x": 3,
+        "y": 36,
+        "length": 20,
+        "width": 3,
+        "angle": 90,
+        "role": "Lien silicone sur isolant"
+      },
+      {
+        "type": "slot",
+        "x": 69,
+        "y": 36,
+        "length": 20,
+        "width": 3,
+        "angle": 90,
+        "role": "Lien silicone sur isolant"
+      }
+    ],
+    "outline": null,
+    "r": 0,
+    "origin": [
+      -74,
+      194
+    ],
+    "z": 93,
+    "pose": null,
+    "volume_mm3": 15088.13496915712,
+    "mass_kg_estimate": 0.027460405643865957
+  },
+  {
+    "code": "C10",
+    "label": "Cassette régulateur",
+    "w": 35,
+    "h": 44,
+    "t": 3,
+    "material": "PP compact",
+    "qty": 1,
+    "features": [
+      {
+        "type": "hole",
+        "x": 5,
+        "y": 10,
+        "d": 3.5,
+        "role": "Fixation au pont, tête affleurante"
+      },
+      {
+        "type": "hole",
+        "x": 5,
+        "y": 38,
+        "d": 3.5,
+        "role": "Fixation au pont, tête affleurante"
+      },
+      {
+        "type": "hole",
+        "x": 29,
+        "y": 10,
+        "d": 3.5,
+        "role": "Fixation au pont, tête affleurante"
+      },
+      {
+        "type": "hole",
+        "x": 29,
+        "y": 38,
+        "d": 3.5,
+        "role": "Fixation au pont, tête affleurante"
+      }
+    ],
+    "outline": null,
+    "r": 0,
+    "origin": [
+      -75,
+      358
+    ],
+    "z": 83,
+    "pose": null,
+    "volume_mm3": 4504.546469980573,
+    "mass_kg_estimate": 0.0040991372876823225
+  },
+  {
+    "code": "C16",
+    "label": "Butée longitudinale batterie",
+    "w": 56,
+    "h": 12,
+    "t": 8,
+    "material": "PP compact",
+    "qty": 2,
+    "features": [
+      {
+        "type": "hole",
+        "x": 8,
+        "y": 6,
+        "d": 3.5,
+        "role": "Butée M3"
+      },
+      {
+        "type": "hole",
+        "x": 48,
+        "y": 6,
+        "d": 3.5,
+        "role": "Butée M3"
+      }
+    ],
+    "outline": null,
+    "r": 0,
+    "origin": [
+      -28,
+      187
+    ],
+    "z": 11,
+    "pose": null,
+    "volume_mm3": 5222.0619599741,
+    "mass_kg_estimate": 0.009504152767152864
+  },
+  {
+    "code": "C17",
+    "label": "Guide latéral batterie",
+    "w": 8,
+    "h": 16,
+    "t": 8,
+    "material": "PP compact",
+    "qty": 4,
+    "features": [
+      {
+        "type": "hole",
+        "x": 4,
+        "y": 8,
+        "d": 3.5,
+        "role": "Guide M3"
+      }
+    ],
+    "outline": null,
+    "r": 0,
+    "origin": [
+      -32,
+      204
+    ],
+    "z": 11,
+    "pose": null,
+    "volume_mm3": 947.0309799870499,
+    "mass_kg_estimate": 0.003447192767152862
+  },
+  {
+    "code": "C18",
+    "label": "Montant portique caméra",
+    "w": 25,
+    "h": 230,
+    "t": 6,
+    "material": "Al 6061 T6",
+    "qty": 2,
+    "features": [
+      {
+        "type": "hole",
+        "x": 12.5,
+        "y": 12,
+        "d": 4.5,
+        "role": "Portique M4"
+      },
+      {
+        "type": "hole",
+        "x": 12.5,
+        "y": 28,
+        "d": 4.5,
+        "role": "Portique M4"
+      },
+      {
+        "type": "hole",
+        "x": 12.5,
+        "y": 212,
+        "d": 4.5,
+        "role": "Portique M4"
+      },
+      {
+        "type": "hole",
+        "x": 12.5,
+        "y": 224,
+        "d": 4.5,
+        "role": "Portique M4"
+      }
+    ],
+    "outline": null,
+    "r": 0,
+    "origin": [
+      -140.5,
+      0
+    ],
+    "z": 11,
+    "pose": "post",
+    "volume_mm3": 34118.296492588845,
+    "mass_kg_estimate": 0.18423880105997978
+  },
+  {
+    "code": "C19",
+    "label": "Traverse haute caméra",
+    "w": 284,
+    "h": 25,
+    "t": 3,
+    "material": "Al 5754 H22",
+    "qty": 1,
+    "features": [
+      {
+        "type": "hole",
+        "x": 14,
+        "y": 7,
+        "d": 4.5,
+        "role": "Montants caméra M4"
+      },
+      {
+        "type": "hole",
+        "x": 14,
+        "y": 19,
+        "d": 4.5,
+        "role": "Montants caméra M4"
+      },
+      {
+        "type": "hole",
+        "x": 270,
+        "y": 7,
+        "d": 4.5,
+        "role": "Montants caméra M4"
+      },
+      {
+        "type": "hole",
+        "x": 270,
+        "y": 19,
+        "d": 4.5,
+        "role": "Montants caméra M4"
+      },
+      {
+        "type": "hole",
+        "x": 122,
+        "y": 12,
+        "d": 4.5,
+        "role": "L03 angle pivot"
+      },
+      {
+        "type": "hole",
+        "x": 142,
+        "y": 12,
+        "d": 4.5,
+        "role": "L03 angle pivot"
+      }
+    ],
+    "outline": null,
+    "r": 0,
+    "origin": [
+      -142,
+      0
+    ],
+    "z": 11,
+    "pose": "crossbar",
+    "volume_mm3": 21013.722369441635,
+    "mass_kg_estimate": 0.05673705039749242
+  }
+]

@@ -1,0 +1,387 @@
+{
+  "revision": "A2-R1",
+  "unit": "mm",
+  "axis": "X transversal;-Y avant;Z haut; origine centre avant du plateau au sol",
+  "placements": [
+    {
+      "name": "B01_G1_IC5_139x46x25",
+      "x": 0,
+      "y": 270,
+      "z_bottom": 13,
+      "envelope_mm": [
+        46,
+        139,
+        25
+      ],
+      "folder": "cordon-principal-batterie",
+      "status": "139 x46 x25 selon archive RCTeam G1, pas ancienne Zeee"
+    },
+    {
+      "name": "ED80",
+      "x": -95,
+      "y": 140,
+      "mounting_plane_underside_z": 70,
+      "panel_top_z": 73,
+      "bottom_z": 15,
+      "folder": "coupure-manuelle",
+      "status": "Plan ED80 : perçages25 et5.5 /48 ; gabarit sous panneau, ancien STEP conservé"
+    },
+    {
+      "name": "F0_LFT_JLLN50_reserve_NON_CAO",
+      "x": 75,
+      "y": 140,
+      "z_bottom": 19,
+      "envelope_mm": [
+        120,
+        60,
+        65
+      ],
+      "folder": "support-fusible-classe-t",
+      "status": "Réservation, fixation composant à relever"
+    },
+    {
+      "name": "F1_KLKD20_reserve_NON_CAO",
+      "x": 50,
+      "y": 262,
+      "z_bottom": 19,
+      "envelope_mm": [
+        22,
+        85,
+        55
+      ],
+      "folder": "supports-branches-rapides",
+      "status": "Réservation, fixation composant à relever"
+    },
+    {
+      "name": "F2_KLKD20_reserve_NON_CAO",
+      "x": 75,
+      "y": 262,
+      "z_bottom": 19,
+      "envelope_mm": [
+        22,
+        85,
+        55
+      ],
+      "folder": "supports-branches-rapides",
+      "status": "Réservation, fixation composant à relever"
+    },
+    {
+      "name": "FP_KLKD10_reserve_NON_CAO",
+      "x": 100,
+      "y": 262,
+      "z_bottom": 19,
+      "envelope_mm": [
+        22,
+        85,
+        55
+      ],
+      "folder": "supports-branches-rapides",
+      "status": "Réservation, fixation composant à relever"
+    },
+    {
+      "name": "FAUX_KLKD1_reserve_NON_CAO",
+      "x": 125,
+      "y": 262,
+      "z_bottom": 19,
+      "envelope_mm": [
+        22,
+        85,
+        55
+      ],
+      "folder": "carte-surveillance-electrique",
+      "status": "Réservation, fixation composant à relever"
+    },
+    {
+      "name": "D_plus",
+      "x": -87,
+      "y": 285,
+      "z_bottom": 17,
+      "envelope_mm": [
+        106.68,
+        22.86,
+        31.75
+      ],
+      "folder": "distribution-alimentation",
+      "status": "Enveloppe modèle existant, trous propres dans cassette après présentation"
+    },
+    {
+      "name": "D_moins",
+      "x": -87,
+      "y": 320,
+      "z_bottom": 17,
+      "envelope_mm": [
+        106.68,
+        22.86,
+        31.75
+      ],
+      "folder": "distribution-alimentation",
+      "status": "Enveloppe modèle existant, trous propres dans cassette après présentation"
+    },
+    {
+      "name": "HS251_D1D100",
+      "x": -112,
+      "y": 227,
+      "z_bottom": 17,
+      "rotation_z_deg": 90,
+      "envelope_mm": [
+        52.324,
+        85.344,
+        63.367
+      ],
+      "folder": "dissipateur-relais",
+      "status": "Gabarit allégé aux cotes extérieures archivées ; convection réelle à tester"
+    },
+    {
+      "name": "UD80A_reserve",
+      "x": 108,
+      "y": 368,
+      "z_bottom": 19,
+      "envelope_mm": [
+        30.1,
+        69.1,
+        46.3
+      ],
+      "folder": "repartition-moteurs",
+      "status": "Réservation, fixation composant à relever"
+    },
+    {
+      "name": "ESC_G",
+      "x": -47,
+      "y": 376,
+      "z_bottom": 17,
+      "envelope_mm": [
+        33.4,
+        26.8,
+        15.1
+      ],
+      "folder": "moteur",
+      "status": "Corps nominal, câbles75mm et connecteurs réservés autour"
+    },
+    {
+      "name": "ESC_D",
+      "x": 47,
+      "y": 376,
+      "z_bottom": 17,
+      "envelope_mm": [
+        33.4,
+        26.8,
+        15.1
+      ],
+      "folder": "moteur",
+      "status": "Corps nominal, câbles75mm et connecteurs réservés autour"
+    },
+    {
+      "name": "Pi5_PCB_gabarit",
+      "x": 7.5,
+      "y": 378,
+      "z_bottom": 98,
+      "envelope_mm": [
+        85,
+        56,
+        1.6
+      ],
+      "folder": "raspberry-pi-5",
+      "status": "Origine PCB(-35,350), fixations58 x49, entretoises15, pièces allégées"
+    },
+    {
+      "name": "M1P_porteuse_et_corps",
+      "x": 0,
+      "y": 307.5,
+      "z_bottom": 98,
+      "envelope_mm": [
+        140,
+        75,
+        15
+      ],
+      "folder": "carte-surveillance-electrique",
+      "status": "PCB140x75 et entraxes132x67 exacts du projet, sous-face libre15"
+    },
+    {
+      "name": "EVM60_reserve_-38",
+      "x": -38,
+      "y": 230,
+      "z_bottom": 96,
+      "envelope_mm": [
+        60,
+        60,
+        12
+      ],
+      "folder": "carte-surveillance-electrique",
+      "status": "TI : réservation60x60x12 ; maintien isolant souple, aucun trou TI inventé"
+    },
+    {
+      "name": "EVM60_reserve_38",
+      "x": 38,
+      "y": 230,
+      "z_bottom": 96,
+      "envelope_mm": [
+        60,
+        60,
+        12
+      ],
+      "folder": "carte-surveillance-electrique",
+      "status": "TI : réservation60x60x12 ; maintien isolant souple, aucun trou TI inventé"
+    },
+    {
+      "name": "Pololu2831_reserve",
+      "x": 0,
+      "y": 187,
+      "z_bottom": 83,
+      "envelope_mm": [
+        18,
+        13,
+        5.5
+      ],
+      "folder": "carte-surveillance-electrique",
+      "status": "Réservation, fixation composant à relever"
+    },
+    {
+      "name": "D42V55F5_reserve",
+      "x": -57.5,
+      "y": 388,
+      "z_bottom": 96,
+      "envelope_mm": [
+        25.4,
+        25.4,
+        10.825
+      ],
+      "folder": "regulateur-alimentation/d42v55f5",
+      "status": "Sous-face96 :10 de dégagement au-dessus C10 ; trous constructeur à reporter"
+    },
+    {
+      "name": "Pololu2813_HP_reserve",
+      "x": 30,
+      "y": 190,
+      "z_bottom": 83,
+      "envelope_mm": [
+        21,
+        18,
+        5
+      ],
+      "folder": "protection-batterie/interrupteur-pi",
+      "status": "Réservation, fixation composant à relever"
+    },
+    {
+      "name": "WAGO413_INplus",
+      "x": -60,
+      "y": 325,
+      "z_bottom": 83,
+      "envelope_mm": [
+        18.8,
+        18.6,
+        8.4
+      ],
+      "folder": "liaisons-alimentation-surveillance/wago-221-413",
+      "status": "Réservation, fixation composant à relever"
+    },
+    {
+      "name": "WAGO413_INmoins",
+      "x": -35,
+      "y": 325,
+      "z_bottom": 83,
+      "envelope_mm": [
+        18.8,
+        18.6,
+        8.4
+      ],
+      "folder": "liaisons-alimentation-surveillance/wago-221-413",
+      "status": "Réservation, fixation composant à relever"
+    },
+    {
+      "name": "WAGO413_5V",
+      "x": -30,
+      "y": 420,
+      "z_bottom": 83,
+      "envelope_mm": [
+        18.8,
+        18.6,
+        8.4
+      ],
+      "folder": "liaisons-alimentation-surveillance/wago-221-413",
+      "status": "Sur pont derrière Pi ; sorties vers pads courts, à mesurer"
+    },
+    {
+      "name": "WAGO415_retours",
+      "x": -24,
+      "y": 388,
+      "z_bottom": 83,
+      "envelope_mm": [
+        30,
+        18.6,
+        8.4
+      ],
+      "folder": "liaisons-alimentation-surveillance/wago-221-415",
+      "status": "Sous Pi sur pont ; accès après dépose Pi, maintien isolant"
+    },
+    {
+      "name": "AC03_XH_zone_locale",
+      "x": -10,
+      "y": 145,
+      "z_bottom": 17,
+      "envelope_mm": [
+        40,
+        30,
+        10
+      ],
+      "folder": "carte-surveillance-electrique",
+      "status": "3 AC03 protégées, prise XH et retenue isolante ; fils vers pack non coupés"
+    },
+    {
+      "name": "IC5_zone_connecteur",
+      "x": 0,
+      "y": 190,
+      "z_bottom": 13,
+      "envelope_mm": [
+        25,
+        20,
+        14
+      ],
+      "folder": "cordon-principal-batterie",
+      "status": "Réservation, fixation composant à relever"
+    },
+    {
+      "name": "Train_arriere_D",
+      "axle_y": 445,
+      "axis_z": 31.5,
+      "base": "C04D",
+      "folder": "transmission-arriere",
+      "status": "2 étages, entraxes17.5/19.5 en Y, empilage axial/paliers/carter non libérés ; contours schématiques"
+    },
+    {
+      "name": "Train_arriere_G",
+      "axle_y": 445,
+      "axis_z": 31.5,
+      "base": "C04G",
+      "folder": "transmission-arriere",
+      "status": "2 étages, entraxes17.5/19.5 en Y, empilage axial/paliers/carter non libérés ; contours schématiques"
+    },
+    {
+      "name": "FT90M_corps",
+      "x": 0,
+      "y": 80,
+      "z_bottom": 14.2,
+      "envelope_mm": [
+        23.3,
+        12.1,
+        21.45
+      ],
+      "folder": "servo-direction",
+      "status": "Oreilles à Z31, supportC08 ; interface reconstruite à contrôler"
+    },
+    {
+      "name": "Camera_USB",
+      "x": 0,
+      "y": 482,
+      "pivot_z": 231,
+      "pitch_down_deg": 20,
+      "adjustment_height_above_deck": [
+        190,
+        230
+      ],
+      "folder": "support-camera",
+      "status": "BerceauP1, portique A2 métal ; USB sur montant, cadrage réel à tester"
+    }
+  ],
+  "non_cut_supplier_holes": "Report sur cassettes après contrôle du lot ; aucune empreinte fournisseur inconnue dans C01",
+  "drive_train_internal_stack": "Réservation châssis. Les arbres50mm et supports historiques restent des études ; ne pas les fabriquer depuis ces anciens STEP."
+}

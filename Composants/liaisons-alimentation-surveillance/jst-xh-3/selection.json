@@ -1,0 +1,52 @@
+{
+  "checked_on": "2026-10-14",
+  "purchase_made": false,
+  "hardware_tested": false,
+  "id": "jst-xh-3",
+  "ref": "JST B3B-XH-A(LF)(SN), XHP-3 et SXH-001T-P0.6",
+  "qty": 1,
+  "unit": "embase à réserver",
+  "price": null,
+  "currency": "EUR",
+  "tax": "Non relevé",
+  "buy": "https://www.jst.fr/fr/produit/xh_224",
+  "maker": "https://www.jst-mfg.com/product/index.php?series=277",
+  "query": "JST B3B-XH-A XHP-3 SXH-001T-P0.6",
+  "stock": "Embase choisie pour l’étude ; prix et conditionnement français non confirmés.",
+  "scope": "1 embase B3B-XH-A pour future surveillance. Le boîtier XHP-3 et ses3contacts sont des références de famille / CAO ; pas d’achat en plus si déjà inclus dans la rallonge.",
+  "role": "Interface mécanique de mesure2S ; attribution B0/B1/B2 et protections de la carte reportées avec schéma/routage.",
+  "cotes": [
+    [
+      "Pas",
+      "2,50",
+      "JST officiel, pas2,54"
+    ],
+    [
+      "XHP-3",
+      "9,8 x5,7 x7,5",
+      "JST p.4 ; lèvre0,25 visible"
+    ],
+    [
+      "B3B-XH-A",
+      "9,9 x5,75 x7 ; queues3,4",
+      "JST p.5, sans bossage"
+    ],
+    [
+      "Pins / portée",
+      "Carré0,64 ; entraxe5,0",
+      "JST p.5"
+    ],
+    [
+      "Contact SXH-001T-P0.6",
+      "6,1 x2,4 x1,95, développé simplifié",
+      "JST p.3 formeB ; détails de ressort estimés"
+    ],
+    [
+      "Courant / fils",
+      "3 A à22AWG ;22-28AWG pour ce contact",
+      "JST, pas applicable à un clone sans preuve"
+    ]
+  ],
+  "amazon_search": "https://www.amazon.fr/s?k=JST+B3B-XH-A+XHP-3+SXH-001T-P0.6",
+  "amazon_FR_verified": false
+}

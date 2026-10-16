@@ -1,0 +1,130 @@
+{
+  "checked_on": "2026-10-15",
+  "mode": "headless",
+  "FreeCAD_version": [
+    "1",
+    "1",
+    "4",
+    "20260928 (Git shallow)",
+    "Unknown",
+    "2026/09/28 13:46:34",
+    "(HEAD detached at 4fd3bf320)",
+    "4fd3bf320d9566a27e60069fc8387448aaa3a094"
+  ],
+  "GUI_tested": false,
+  "CADView_tested": false,
+  "hardware_tested": false,
+  "all_passed": true,
+  "checks": [
+    {
+      "file": "drv5033ajqlpg-detaille.step",
+      "relative_step_path": "Composants/capteurs-vitesse/capteur-hall-drv5033/3D/drv5033ajqlpg-detaille.step",
+      "sha256": "da8c15048c9af09effcaefda6c7e2d642990af2afc2e9ff56633c8c71c47d782",
+      "passed": true,
+      "valid": true,
+      "closed_solids": true,
+      "solids": 9,
+      "faces": 126,
+      "bounds_mm": {
+        "xmin": -2.0,
+        "xmax": 2.0,
+        "ymin": -0.7621001,
+        "ymax": 0.76,
+        "zmin": -15.3000001,
+        "zmax": 3.15
+      },
+      "bbox_error_mm": 0.0,
+      "volume_mm3": 25.73462539533945,
+      "volume_relative_error": 0.0,
+      "seconds": 0.9788880999994944
+    },
+    {
+      "file": "aimant-s-03-02-n-detaille.step",
+      "relative_step_path": "Composants/capteurs-vitesse/aimants-s-03-02-n/3D/aimant-s-03-02-n-detaille.step",
+      "sha256": "3749ca19118087d15c675e030577493be4a2f65076ee02df4522503fe1946ec6",
+      "passed": true,
+      "valid": true,
+      "closed_solids": true,
+      "solids": 1,
+      "faces": 5,
+      "bounds_mm": {
+        "xmin": -1.5000001,
+        "xmax": 1.5000001,
+        "ymin": -1.5,
+        "ymax": 1.5,
+        "zmin": 0.0,
+        "zmax": 2.0
+      },
+      "bbox_error_mm": 0.0,
+      "volume_mm3": 14.134648134877754,
+      "volume_relative_error": 0.0,
+      "seconds": 0.09774110000034852
+    },
+    {
+      "file": "mrs25-10k-pattes-droites.step",
+      "relative_step_path": "Composants/capteurs-vitesse/resistances-rappel-10k/3D/mrs25-10k-pattes-droites.step",
+      "sha256": "5fb9b773a77b21b9b0ccdd159206d7e4a32fbff6e3e119f3dbf56431d7d5df70",
+      "passed": true,
+      "valid": true,
+      "closed_solids": true,
+      "solids": 8,
+      "faces": 51,
+      "bounds_mm": {
+        "xmin": -31.25,
+        "xmax": 31.25,
+        "ymin": -1.25,
+        "ymax": 1.25,
+        "zmin": -1.25,
+        "zmax": 1.25
+      },
+      "bbox_error_mm": 0.0,
+      "volume_mm3": 47.54794407462251,
+      "volume_relative_error": 0.0,
+      "seconds": 0.09788329999992129
+    },
+    {
+      "file": "mrs25-10k-formee-pas10-16.step",
+      "relative_step_path": "Composants/capteurs-vitesse/resistances-rappel-10k/3D/mrs25-10k-formee-pas10-16.step",
+      "sha256": "71c72e9734e0935b5b202349b9316c1537f22c77fa73ffc7865754d7e74d5071",
+      "passed": true,
+      "valid": true,
+      "closed_solids": true,
+      "solids": 8,
+      "faces": 55,
+      "bounds_mm": {
+        "xmin": -5.38,
+        "xmax": 5.38,
+        "ymin": -1.25,
+        "ymax": 1.25,
+        "zmin": -3.0,
+        "zmax": 3.7
+      },
+      "bbox_error_mm": 0.0,
+      "volume_mm3": 35.539809362761396,
+      "volume_relative_error": 0.0,
+      "seconds": 0.21575729999949544
+    },
+    {
+      "file": "kemet-c315c104k5r5ta-officiel.step",
+      "relative_step_path": "Composants/capteurs-vitesse/condensateurs-decouplage-100nf/3D/kemet-c315c104k5r5ta-officiel.step",
+      "sha256": "a04191a57c7125d1f98f6e9bfec61852b51d1cd429f0c37ff5337bdf3e913fa9",
+      "passed": true,
+      "valid": true,
+      "closed_solids": true,
+      "solids": 4,
+      "faces": 83,
+      "bounds_mm": {
+        "xmin": -3.8100001,
+        "xmax": 1.0000000077715611e-07,
+        "ymin": -7.0,
+        "ymax": 4.66,
+        "zmin": -1e-07,
+        "zmax": 2.545
+      },
+      "bbox_error_mm": 0.0,
+      "volume_mm3": 44.93186366597579,
+      "volume_relative_error": 0.0,
+      "seconds": 0.23510200000055193
+    }
+  ]
+}

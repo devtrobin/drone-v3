@@ -1,0 +1,10 @@
+{
+  "alternative_only": true,
+  "selected_for_assembly": false,
+  "manufacturer_CAD_sha256": "22d5ef3bdd4603cf250639ff7e28168f2fd67cf92c045ec4157dbb52eb75756b",
+  "CAD_imported_in_CadQuery": true,
+  "solids": 16,
+  "valid": true,
+  "power_at8_4V_continuously_not_validated": true,
+  "not_interchangeable_with_FT5335M": true
+}

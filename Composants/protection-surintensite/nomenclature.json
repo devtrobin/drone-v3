@@ -1,0 +1,35 @@
+{
+  "checked_on": "2026-10-14",
+  "status": "Choix d'étude non acheté et non qualifié",
+  "items": [
+    {
+      "ref": "FH1",
+      "part": "Littelfuse 04980900ZXT",
+      "quantity": 1,
+      "role": "Support MIDI principal avec capot et visserie électrique annoncée",
+      "price_eur_ttc": null,
+      "documentation": "porte-fusible/README.md"
+    },
+    {
+      "ref": "F1",
+      "part": "Littelfuse 0498060.M",
+      "quantity": 1,
+      "nominal_current_A": 60,
+      "role": "Fusible principal temporisé, calibre d'étude",
+      "price_eur_ttc": null,
+      "documentation": "fusible-60a/README.md"
+    }
+  ],
+  "not_included_yet": [
+    "cosses M5, fils adaptés et visserie de châssis",
+    "fusibles et supports des départs moteurs et Pi",
+    "distribution et faisceau complet",
+    "fusible de rechange à chiffrer",
+    "qualification du courant prospectif, du calibre et de la thermique"
+  ],
+  "total_price_eur": null,
+  "amazon_exact_offers_verified": false,
+  "supply_revision_scope": "historical_before_alimentation_r2",
+  "current_supply_source": "../verification-alimentation/selection-active.json",
+  "historical_values_preserved": true
+}

@@ -1,0 +1,6208 @@
+{
+  "file": "bntechgo-12awg-rouge-680brins-detaille.step",
+  "title": "12 AWG rouge | 680 brins visibles, 25 mm",
+  "generated_on": "2026-10-14",
+  "unit": "mm",
+  "cadquery_version": "2.8.0",
+  "coordinate_system": "Axe Z du fil droit ; face initiale z0 ; fils courbes dans plan XZ ; dimensions en mm",
+  "bytes": 4598348,
+  "sha256": "f0f66e45407a8a0535d8a729274a70f16900475378e2002d1551e9545308b637",
+  "native_vendor_cad": false,
+  "hardware_measured": false,
+  "is_custom_project_design": false,
+  "published_nominal": [
+    "BNTECHGO 680 brins de0.08, conducteur2.41, gaine4.5mm, epaisseur1.05 nominale",
+    "680 et0.08, gaine4.5+/-0.1 : offre exacteB01ABOPMEI ; pas de cote mesuree"
+  ],
+  "estimates_and_limitations": [
+    "Reconstruction, pas CAO fabricant ; aucune piece mesuree",
+    "Longueurs100/25mm, denudages5mm, trace courbe et fenetre de coupe : illustration",
+    "680 brins droits en reseau ideal, torsade et pas reels non publies ; etamage couleur sans epaisseur inventee",
+    "Versions implantation : enveloppe de brins pleineØ2.41 pour implantation ; ne pas en deduire masse/section conductrice",
+    "Les longueurs de modele ne sont pas des longueurs livrees ni une liste de coupe"
+  ],
+  "parameters": {
+    "outer_diameter_mm": 4.5,
+    "conductor_bundle_diameter_mm": 2.41,
+    "strands": 680,
+    "strand_diameter_mm": 0.08,
+    "strip_length_each_end_mm": 5,
+    "wire_length_straight_mm": 25
+  },
+  "source_pages": [
+    "https://bntechgo.com/bntechgo-12-gauge-silicone-wire-kit-ultra-flexible-20-ft-black-and-red-each-color-10-ft-high-temp-200-c-600v-12-awg-silicone-wire-680-strands-of-tinned-copper-wire-stranded-wire-stranded-wire-for-model-battery/",
+    "https://www.amazon.com/dp/B01ABOPMEI"
+  ],
+  "bounds_mm": {
+    "xmin": -2.25,
+    "xmax": 2.25,
+    "ymin": -2.25,
+    "ymax": 2.25,
+    "zmin": 0.0,
+    "zmax": 25.0
+  },
+  "validation": {
+    "valid_after_reimport": true,
+    "solids": 681,
+    "faces": 2044,
+    "colors": 2,
+    "volume_relative_error": 0.0,
+    "volume_relative_error_limit": 0.0001,
+    "volume_before_mm3": 255.59094621717145,
+    "volume_after_mm3": 255.59094621717145,
+    "adaptive_volume_tolerance": 1e-09,
+    "bbox_error_mm": 0.0,
+    "bbox_error_limit_mm": 0.01,
+    "void_and_material_probes": [],
+    "elapsed_seconds": 11.884133099999417
+  },
+  "parts": [
+    {
+      "name": "Gaine_silicone",
+      "color_linear_rgb": [
+        0.64,
+        0.014,
+        0.009
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_001",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_002",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_003",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_004",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_005",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_006",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_007",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_008",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_009",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_010",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_011",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_012",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_013",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_014",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_015",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_016",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_017",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_018",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_019",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_020",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_021",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_022",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_023",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_024",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_025",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_026",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_027",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_028",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_029",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_030",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_031",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_032",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_033",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_034",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_035",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_036",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_037",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_038",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_039",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_040",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_041",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_042",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_043",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_044",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_045",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_046",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_047",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_048",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_049",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_050",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_051",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_052",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_053",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_054",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_055",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_056",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_057",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_058",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_059",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_060",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_061",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_062",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_063",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_064",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_065",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_066",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_067",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_068",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_069",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_070",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_071",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_072",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_073",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_074",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_075",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_076",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_077",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_078",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_079",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_080",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_081",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_082",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_083",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_084",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_085",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_086",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_087",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_088",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_089",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_090",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_091",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_092",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_093",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_094",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_095",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_096",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_097",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_098",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_099",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_100",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_101",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_102",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_103",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_104",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_105",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_106",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_107",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_108",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_109",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_110",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_111",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_112",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_113",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_114",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_115",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_116",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_117",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_118",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_119",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_120",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_121",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_122",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_123",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_124",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_125",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_126",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_127",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_128",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_129",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_130",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_131",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_132",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_133",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_134",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_135",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_136",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_137",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_138",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_139",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_140",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_141",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_142",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_143",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_144",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_145",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_146",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_147",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_148",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_149",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_150",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_151",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_152",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_153",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_154",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_155",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_156",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_157",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_158",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_159",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_160",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_161",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_162",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_163",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_164",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_165",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_166",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_167",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_168",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_169",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_170",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_171",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_172",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_173",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_174",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_175",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_176",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_177",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_178",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_179",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_180",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_181",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_182",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_183",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_184",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_185",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_186",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_187",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_188",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_189",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_190",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_191",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_192",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_193",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_194",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_195",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_196",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_197",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_198",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_199",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_200",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_201",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_202",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_203",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_204",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_205",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_206",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_207",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_208",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_209",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_210",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_211",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_212",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_213",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_214",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_215",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_216",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_217",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_218",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_219",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_220",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_221",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_222",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_223",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_224",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_225",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_226",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_227",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_228",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_229",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_230",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_231",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_232",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_233",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_234",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_235",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_236",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_237",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_238",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_239",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_240",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_241",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_242",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_243",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_244",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_245",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_246",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_247",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_248",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_249",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_250",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_251",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_252",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_253",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_254",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_255",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_256",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_257",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_258",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_259",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_260",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_261",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_262",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_263",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_264",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_265",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_266",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_267",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_268",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_269",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_270",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_271",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_272",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_273",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_274",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_275",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_276",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_277",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_278",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_279",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_280",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_281",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_282",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_283",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_284",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_285",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_286",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_287",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_288",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_289",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_290",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_291",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_292",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_293",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_294",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_295",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_296",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_297",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_298",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_299",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_300",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_301",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_302",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_303",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_304",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_305",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_306",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_307",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_308",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_309",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_310",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_311",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_312",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_313",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_314",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_315",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_316",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_317",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_318",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_319",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_320",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_321",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_322",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_323",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_324",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_325",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_326",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_327",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_328",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_329",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_330",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_331",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_332",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_333",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_334",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_335",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_336",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_337",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_338",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_339",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_340",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_341",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_342",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_343",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_344",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_345",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_346",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_347",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_348",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_349",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_350",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_351",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_352",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_353",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_354",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_355",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_356",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_357",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_358",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_359",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_360",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_361",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_362",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_363",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_364",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_365",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_366",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_367",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_368",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_369",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_370",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_371",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_372",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_373",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_374",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_375",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_376",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_377",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_378",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_379",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_380",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_381",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_382",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_383",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_384",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_385",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_386",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_387",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_388",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_389",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_390",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_391",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_392",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_393",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_394",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_395",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_396",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_397",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_398",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_399",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_400",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_401",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_402",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_403",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_404",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_405",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_406",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_407",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_408",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_409",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_410",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_411",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_412",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_413",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_414",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_415",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_416",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_417",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_418",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_419",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_420",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_421",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_422",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_423",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_424",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_425",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_426",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_427",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_428",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_429",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_430",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_431",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_432",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_433",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_434",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_435",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_436",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_437",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_438",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_439",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_440",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_441",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_442",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_443",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_444",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_445",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_446",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_447",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_448",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_449",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_450",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_451",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_452",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_453",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_454",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_455",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_456",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_457",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_458",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_459",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_460",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_461",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_462",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_463",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_464",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_465",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_466",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_467",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_468",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_469",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_470",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_471",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_472",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_473",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_474",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_475",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_476",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_477",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_478",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_479",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_480",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_481",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_482",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_483",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_484",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_485",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_486",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_487",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_488",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_489",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_490",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_491",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_492",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_493",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_494",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_495",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_496",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_497",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_498",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_499",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_500",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_501",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_502",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_503",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_504",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_505",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_506",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_507",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_508",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_509",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_510",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_511",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_512",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_513",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_514",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_515",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_516",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_517",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_518",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_519",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_520",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_521",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_522",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_523",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_524",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_525",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_526",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_527",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_528",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_529",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_530",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_531",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_532",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_533",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_534",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_535",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_536",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_537",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_538",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_539",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_540",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_541",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_542",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_543",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_544",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_545",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_546",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_547",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_548",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_549",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_550",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_551",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_552",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_553",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_554",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_555",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_556",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_557",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_558",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_559",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_560",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_561",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_562",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_563",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_564",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_565",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_566",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_567",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_568",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_569",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_570",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_571",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_572",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_573",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_574",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_575",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_576",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_577",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_578",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_579",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_580",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_581",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_582",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_583",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_584",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_585",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_586",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_587",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_588",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_589",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_590",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_591",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_592",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_593",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_594",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_595",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_596",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_597",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_598",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_599",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_600",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_601",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_602",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_603",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_604",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_605",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_606",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_607",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_608",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_609",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_610",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_611",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_612",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_613",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_614",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_615",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_616",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_617",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_618",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_619",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_620",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_621",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_622",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_623",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_624",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_625",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_626",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_627",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_628",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_629",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_630",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_631",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_632",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_633",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_634",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_635",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_636",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_637",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_638",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_639",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_640",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_641",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_642",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_643",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_644",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_645",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_646",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_647",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_648",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_649",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_650",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_651",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_652",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_653",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_654",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_655",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_656",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_657",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_658",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_659",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_660",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_661",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_662",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_663",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_664",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_665",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_666",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_667",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_668",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_669",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_670",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_671",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_672",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_673",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_674",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_675",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_676",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_677",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_678",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_679",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Brin_cuivre_etame_680",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    }
+  ],
+  "preview": {
+    "file": "bntechgo-12awg-rouge-680brins-detaille.png",
+    "sha256": "d26ccb531b07743197eabc0ed4317a42321cd6576b333315e4e14bcf18aaa56d"
+  },
+  "generator": "tools/build_power_wire_step.py",
+  "generator_sha256": "dbc231fed6a683477ec12a559f038de38a24d5d963fa25d2cc7f9b138d95408e",
+  "strand_packing": {
+    "strands": 680,
+    "diameter_mm": 0.08,
+    "area_sum_mm2": 3.418052807105695,
+    "lattice_pitch_estimated_mm": 0.082,
+    "bundle_envelope_estimated_mm": 2.3346272419182736,
+    "minimum_surface_gap_mm": 0.001999999999999849,
+    "actual_lay_measured": false,
+    "representation": "straight strands, ideal packing; plating colour only"
+  },
+  "curve_continuity_checks": [],
+  "is_installation_length_illustration": true
+}

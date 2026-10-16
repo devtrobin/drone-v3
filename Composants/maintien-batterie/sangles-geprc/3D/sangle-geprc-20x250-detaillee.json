@@ -1,0 +1,123 @@
+{
+  "file": "sangle-geprc-20x250-detaillee.step",
+  "title": "GEPRC | sangle20x250",
+  "generated_on": "2026-10-14",
+  "unit": "mm",
+  "cadquery_version": "2.8.0",
+  "coordinate_system": "Axe principal Z; face de reference z=0; dimensions selon parametres",
+  "bytes": 1527769,
+  "sha256": "8424aa70032a7e196d3c2e552937333b10130d69e2c1c51c99517e3da5aac8a2",
+  "native_vendor_cad": false,
+  "hardware_measured": false,
+  "is_custom_project_design": false,
+  "published_nominal": [
+    "GEPRC :20x250, jaune/bleu,lot5 ; métalboucleobservé."
+  ],
+  "estimates_and_limitations": [
+    "Épaisseurs, boucle, texture etcoutures reconstruites ; fibres etcrochetsmicroscopiques noninventés. Formesdepose provisoires.",
+    "Nuances optiques estimées ; géométrie non mesurée. Pas de plan de fabrication ni de qualification mécanique/électrique."
+  ],
+  "parameters": {
+    "tape_width_mm": 20,
+    "tape_nominal_length_mm": 250,
+    "study_thickness_mm": 1.2
+  },
+  "source_pages": [
+    "Voir sources.json et cotes.md du composant / ensemble"
+  ],
+  "bounds_mm": {
+    "xmin": -125.0,
+    "xmax": 131.9,
+    "ymin": -12.4,
+    "ymax": 12.4,
+    "zmin": -0.2,
+    "zmax": 1.4
+  },
+  "validation": {
+    "valid_after_reimport": true,
+    "solids": 67,
+    "faces": 508,
+    "colors": 4,
+    "volume_relative_error": 2.091507439101551e-15,
+    "volume_relative_error_limit": 0.0001,
+    "volume_before_mm3": 5218.215444628511,
+    "volume_after_mm3": 5218.2154446285,
+    "adaptive_volume_tolerance": 1e-09,
+    "bbox_error_mm": 4.440892098500626e-16,
+    "bbox_error_limit_mm": 0.01,
+    "void_and_material_probes": [],
+    "elapsed_seconds": 6.112750000000233,
+    "volume_after_default_quadrature_mm3": 5218.215444628524
+  },
+  "parts": [
+    {
+      "name": "Piece_ruban_noir",
+      "color_linear_rgb": [
+        0.018,
+        0.021,
+        0.025
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Piece_renfort_jaune_-91",
+      "color_linear_rgb": [
+        0.66,
+        0.85,
+        0.016
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Piece_coutures_estimees_-91",
+      "color_linear_rgb": [
+        0.54,
+        0.59,
+        0.62
+      ],
+      "solids": 42
+    },
+    {
+      "name": "Piece_renfort_jaune_108",
+      "color_linear_rgb": [
+        0.66,
+        0.85,
+        0.016
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Piece_coutures_estimees_108",
+      "color_linear_rgb": [
+        0.54,
+        0.59,
+        0.62
+      ],
+      "solids": 16
+    },
+    {
+      "name": "Piece_boucle_metal_reconstruite",
+      "color_linear_rgb": [
+        0.54,
+        0.59,
+        0.62
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Piece_marquage_GEPRC_estime",
+      "color_linear_rgb": [
+        0.87,
+        0.87,
+        0.83
+      ],
+      "solids": 5
+    }
+  ],
+  "preview": {
+    "file": "sangle-geprc-20x250-detaillee.png",
+    "sha256": "98ea05e2ce97aacf002ccc2b1964c68338b59b4b4633dafceabc4bd71656e8cd"
+  },
+  "component_folder": "maintien-batterie/sangles-geprc",
+  "relative_step_path": "maintien-batterie/sangles-geprc/3D/sangle-geprc-20x250-detaillee.step"
+}

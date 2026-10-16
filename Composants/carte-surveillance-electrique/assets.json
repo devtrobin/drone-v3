@@ -1,0 +1,40 @@
+[
+  {
+    "id": "guide-ti",
+    "url": "https://www.ti.com/lit/pdf/slvu683",
+    "file": "notices/TI-TPS3700EVM-114-original.pdf",
+    "bytes": 281823,
+    "sha256": "2064524f87e5411fcf60888362b5394b218d1372c57015d9733f7148f2280245"
+  },
+  {
+    "id": "datasheet-ti",
+    "url": "https://www.ti.com/lit/ds/symlink/tps3700.pdf",
+    "file": "notices/TI-TPS3700-original.pdf",
+    "bytes": 682718,
+    "sha256": "3bb7daed20b154bf22ded78e23269c6437eb587400b89bce0f543813df94ebf0"
+  },
+  {
+    "id": "gerbers-ti",
+    "url": "https://www.ti.com/lit/zip/slvc413",
+    "error": "HTTP Error 401: Unauthorized"
+  },
+  {
+    "id": "page-ti",
+    "url": "https://www.ti.com/tool/TPS3700EVM-114",
+    "file": "references/TI-TPS3700EVM-114.html",
+    "bytes": 48681,
+    "sha256": "330057c1f64ce399be2950d61fb630a29164bf957e3bc0989006f5d5155074d2"
+  },
+  {
+    "id": "fuse",
+    "url": "https://www.littelfuse.com/assetdocs/klkd-fuse-datasheet?assetguid=7b52eebb-c7cc-43df-a8da-9682a338e0f6",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "reg",
+    "url": "https://www.pololu.com/product/2830",
+    "file": "references/Pololu-D24V10F3.html",
+    "bytes": 71225,
+    "sha256": "c23559ee7b36308c0667795aeab39fdd00a2fee2f5a53e36d095e226161b6eff"
+  }
+]

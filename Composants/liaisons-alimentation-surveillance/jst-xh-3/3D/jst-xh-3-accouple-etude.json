@@ -1,0 +1,129 @@
+{
+  "file": "jst-xh-3-accouple-etude.step",
+  "title": "JSTXH3 | accouplement de lecture",
+  "generated_on": "2026-10-14",
+  "unit": "mm",
+  "cadquery_version": "2.8.0",
+  "coordinate_system": "Axe principal Z; face de reference z=0; dimensions selon parametres",
+  "bytes": 1070175,
+  "sha256": "6bd3bfdbb89a0996abbd8889c740b6a27cbc5191ba160a4957c60751c2de9de8",
+  "native_vendor_cad": false,
+  "hardware_measured": false,
+  "is_custom_project_design": true,
+  "published_nominal": [
+    "JST2025 : pas2.50,3positions ; embasesansboss9.9x5.75x7 ;XHP3collerette9.8x5.7x7.5 ;pin0.64."
+  ],
+  "estimates_and_limitations": [
+    "Réconstruction des évidements etressorts à partirdu catalogue, ajustement visuel seulement ; aucune donnéeCAO native téléchargée (distributionfabricantparformulaire/email).",
+    "Hauteurmâtée9.8nominale, positiondescontacts reconstruite ; assemblagenon validéen tolérances.",
+    "Nuances optiques estimées ; géométrie non mesurée. Pas de plan de fabrication ni de qualification mécanique/électrique."
+  ],
+  "parameters": {},
+  "source_pages": [
+    "Voir sources.json et cotes.md du composant / ensemble"
+  ],
+  "bounds_mm": {
+    "xmin": -4.95,
+    "xmax": 4.95,
+    "ymin": -2.875,
+    "ymax": 2.875,
+    "zmin": -3.4,
+    "zmax": 9.8
+  },
+  "validation": {
+    "valid_after_reimport": true,
+    "solids": 8,
+    "faces": 306,
+    "colors": 2,
+    "volume_relative_error": 1.34671448317522e-16,
+    "volume_relative_error_limit": 0.0001,
+    "volume_before_mm3": 422.0896082351864,
+    "volume_after_mm3": 422.08960823518635,
+    "adaptive_volume_tolerance": 1e-09,
+    "bbox_error_mm": 0.0,
+    "bbox_error_limit_mm": 0.01,
+    "void_and_material_probes": [],
+    "elapsed_seconds": 6.193089399996097,
+    "volume_after_default_quadrature_mm3": 422.089608235186
+  },
+  "parts": [
+    {
+      "name": "Piece_embase",
+      "color_linear_rgb": [
+        0.87,
+        0.87,
+        0.83
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Piece_pin_1",
+      "color_linear_rgb": [
+        0.54,
+        0.59,
+        0.62
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Piece_pin_2",
+      "color_linear_rgb": [
+        0.54,
+        0.59,
+        0.62
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Piece_pin_3",
+      "color_linear_rgb": [
+        0.54,
+        0.59,
+        0.62
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Piece_boitier_femelle",
+      "color_linear_rgb": [
+        0.87,
+        0.87,
+        0.83
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Piece_contact_femelle1",
+      "color_linear_rgb": [
+        0.54,
+        0.59,
+        0.62
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Piece_contact_femelle2",
+      "color_linear_rgb": [
+        0.54,
+        0.59,
+        0.62
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Piece_contact_femelle3",
+      "color_linear_rgb": [
+        0.54,
+        0.59,
+        0.62
+      ],
+      "solids": 1
+    }
+  ],
+  "preview": {
+    "file": "jst-xh-3-accouple-etude.png",
+    "sha256": "4d730312a91bb61b86d7b0bbfc1a97c1c97edf2033bb6612f3f78a8a15301e98"
+  },
+  "component_folder": "liaisons-alimentation-surveillance/jst-xh-3",
+  "relative_step_path": "liaisons-alimentation-surveillance/jst-xh-3/3D/jst-xh-3-accouple-etude.step"
+}

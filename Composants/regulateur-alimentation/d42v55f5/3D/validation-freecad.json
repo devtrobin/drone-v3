@@ -1,0 +1,15 @@
+{
+  "file": "Composants\\regulateur-alimentation\\d42v55f5\\3D\\pololu-d42v55fx-officiel.step",
+  "importer": "FreeCAD 1.1.4",
+  "solids": 1,
+  "valid": true,
+  "closed_solids": true,
+  "volume_mm3": 2077.1848739911065,
+  "bbox_mm": [
+    25.4000002,
+    25.4000002,
+    10.8248001000001
+  ],
+  "sha256": "849512fa686206951d282a92b8701418b7f5707e91d0abd70312e0af01caae5e",
+  "original_unchanged": true
+}

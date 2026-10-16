@@ -1,0 +1,250 @@
+{
+  "valid_step_files": [
+    {
+      "file": "C01_R2.step",
+      "valid": true,
+      "solids": 1,
+      "bytes": 555918
+    },
+    {
+      "file": "C03_R2.step",
+      "valid": true,
+      "solids": 1,
+      "bytes": 135328
+    },
+    {
+      "file": "C04_R2_droite.step",
+      "valid": true,
+      "solids": 1,
+      "bytes": 138108
+    },
+    {
+      "file": "C04_R2_gauche.step",
+      "valid": true,
+      "solids": 1,
+      "bytes": 143431
+    },
+    {
+      "file": "complement-mecanique-integration-r2.step",
+      "valid": true,
+      "solids": 137,
+      "bytes": 6160469
+    },
+    {
+      "file": "R201_arbre_intermediaire.step",
+      "valid": true,
+      "solids": 1,
+      "bytes": 34039
+    },
+    {
+      "file": "R202_arbre_sortie.step",
+      "valid": true,
+      "solids": 1,
+      "bytes": 76860
+    },
+    {
+      "file": "R203_palier_interieur_intermediaire.step",
+      "valid": true,
+      "solids": 1,
+      "bytes": 70771
+    },
+    {
+      "file": "R203_palier_interieur_intermediaire_capot.step",
+      "valid": true,
+      "solids": 1,
+      "bytes": 41832
+    },
+    {
+      "file": "R204_palier_exterieur_intermediaire.step",
+      "valid": true,
+      "solids": 1,
+      "bytes": 70849
+    },
+    {
+      "file": "R204_palier_exterieur_intermediaire_capot.step",
+      "valid": true,
+      "solids": 1,
+      "bytes": 41776
+    },
+    {
+      "file": "R205_palier_interieur_sortie.step",
+      "valid": true,
+      "solids": 1,
+      "bytes": 70740
+    },
+    {
+      "file": "R205_palier_interieur_sortie_capot.step",
+      "valid": true,
+      "solids": 1,
+      "bytes": 41796
+    },
+    {
+      "file": "R206_capot.step",
+      "valid": true,
+      "solids": 1,
+      "bytes": 41740
+    },
+    {
+      "file": "R206_palier_sortie_porte_a_faux.step",
+      "valid": true,
+      "solids": 1,
+      "bytes": 91091
+    },
+    {
+      "file": "R207_E1.step",
+      "valid": true,
+      "solids": 1,
+      "bytes": 9325
+    },
+    {
+      "file": "R207_E2.step",
+      "valid": true,
+      "solids": 1,
+      "bytes": 9325
+    },
+    {
+      "file": "R207_E3.step",
+      "valid": true,
+      "solids": 1,
+      "bytes": 9327
+    },
+    {
+      "file": "R207_E4.step",
+      "valid": true,
+      "solids": 1,
+      "bytes": 9311
+    },
+    {
+      "file": "R207_E5.step",
+      "valid": true,
+      "solids": 1,
+      "bytes": 9313
+    },
+    {
+      "file": "R207_E6.step",
+      "valid": true,
+      "solids": 1,
+      "bytes": 39104
+    },
+    {
+      "file": "R208_fusee_droite.step",
+      "valid": true,
+      "solids": 1,
+      "bytes": 145008
+    },
+    {
+      "file": "R208_fusee_gauche.step",
+      "valid": true,
+      "solids": 1,
+      "bytes": 158881
+    },
+    {
+      "file": "R209_fourche_droite.step",
+      "valid": true,
+      "solids": 1,
+      "bytes": 182929
+    },
+    {
+      "file": "R209_fourche_gauche.step",
+      "valid": true,
+      "solids": 1,
+      "bytes": 186167
+    },
+    {
+      "file": "R210_axe_roue_avant.step",
+      "valid": true,
+      "solids": 1,
+      "bytes": 58275
+    },
+    {
+      "file": "R211_pivot6.step",
+      "valid": true,
+      "solids": 1,
+      "bytes": 13316
+    },
+    {
+      "file": "R212_support_servo.step",
+      "valid": true,
+      "solids": 1,
+      "bytes": 103374
+    },
+    {
+      "file": "R213_support_UBEC.step",
+      "valid": true,
+      "solids": 1,
+      "bytes": 99668
+    },
+    {
+      "file": "R214_cassette_FS.step",
+      "valid": true,
+      "solids": 1,
+      "bytes": 64510
+    },
+    {
+      "file": "R215_carter_transmission_droit.step",
+      "valid": true,
+      "solids": 1,
+      "bytes": 152018
+    },
+    {
+      "file": "R215_carter_transmission_gauche.step",
+      "valid": true,
+      "solids": 1,
+      "bytes": 198823
+    },
+    {
+      "file": "R216_tube_intermediaire.step",
+      "valid": true,
+      "solids": 1,
+      "bytes": 9326
+    },
+    {
+      "file": "R216_tube_sortie.step",
+      "valid": true,
+      "solids": 1,
+      "bytes": 9312
+    },
+    {
+      "file": "R218_platine_moteur.step",
+      "valid": true,
+      "solids": 1,
+      "bytes": 76054
+    },
+    {
+      "file": "R219_butee_avant.step",
+      "valid": true,
+      "solids": 1,
+      "bytes": 31289
+    },
+    {
+      "file": "R220_capot_roulements_avant.step",
+      "valid": true,
+      "solids": 1,
+      "bytes": 89941
+    },
+    {
+      "file": "R225_circlip_DIN471_5.step",
+      "valid": true,
+      "solids": 1,
+      "bytes": 42791
+    },
+    {
+      "file": "R226_entretoise_clip.step",
+      "valid": true,
+      "solids": 1,
+      "bytes": 9331
+    }
+  ],
+  "all_step_valid": true,
+  "kinematic_poses": 736,
+  "max_linkage_residual_mm": 2.1259438653942198e-11,
+  "static_unexpected": 0,
+  "wheel_interface_unexpected": 0,
+  "sweep_unexpected": 0,
+  "included_cables_clear_of_battery": true,
+  "all_selected_checks_passed": true,
+  "seconds": 19.72472596168518,
+  "hardware_tested": false,
+  "assembly_step_sha256": "73eeda462a399ace5944e6d0def9d6d0e59cf865d48b0b6b81b3e594732edc18",
+  "mass_study_updated_without_geometry_change_kg": 9
+}

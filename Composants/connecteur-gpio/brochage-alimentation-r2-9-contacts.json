@@ -1,0 +1,127 @@
+{
+  "view": "Numéros physiques du Pi, vue de dessus. Vue face d’accouplement du câble : miroir à contrôler.",
+  "pins": [
+    {
+      "physical_pin": 1,
+      "signal": "3V3_MON",
+      "color": "vert",
+      "AWG": 22,
+      "function": "3,3 V Pi",
+      "destination": "Alimentation des remontées WARN du circuit de surveillance"
+    },
+    {
+      "physical_pin": 11,
+      "signal": "WARN1",
+      "color": "blanc, repéré",
+      "AWG": 22,
+      "function": "GPIO17 / WARN1",
+      "destination": "Collecteur optocoupleur cellule 1, remontée 47 kΩ à 3,3 V Pi"
+    },
+    {
+      "physical_pin": 12,
+      "signal": "PWM_SERVO",
+      "color": "jaune, repéré",
+      "AWG": 22,
+      "function": "GPIO18 / PWM servo",
+      "destination": "Signal de position FT90M ; puissance fournie par BEC1 à 6 V"
+    },
+    {
+      "physical_pin": 13,
+      "signal": "WARN2",
+      "color": "blanc, repéré",
+      "AWG": 22,
+      "function": "GPIO27 / WARN2",
+      "destination": "Collecteur optocoupleur cellule 2, remontée 47 kΩ à 3,3 V Pi"
+    },
+    {
+      "physical_pin": 15,
+      "signal": "DONE",
+      "color": "bleu",
+      "AWG": 22,
+      "function": "GPIO22 / DONE",
+      "destination": "Vers la diode de la logique OFF du circuit de surveillance"
+    },
+    {
+      "physical_pin": 32,
+      "signal": "PWM_ESC_G",
+      "color": "jaune, repéré",
+      "AWG": 22,
+      "function": "GPIO12 / PWM ESC gauche",
+      "destination": "Entrée accélérateur du variateur gauche ; seuil 3,3 V à vérifier"
+    },
+    {
+      "physical_pin": 33,
+      "signal": "PWM_ESC_D",
+      "color": "jaune, repéré",
+      "AWG": 22,
+      "function": "GPIO13 / PWM ESC droit",
+      "destination": "Entrée accélérateur du variateur droit ; seuil 3,3 V à vérifier"
+    },
+    {
+      "physical_pin": 34,
+      "signal": "GND_ESC_G",
+      "color": "noir",
+      "AWG": 22,
+      "function": "GND signal ESC gauche",
+      "destination": "Référence de commande ; aucun courant de propulsion prévu"
+    },
+    {
+      "physical_pin": 39,
+      "signal": "GND_ESC_D",
+      "color": "noir",
+      "AWG": 22,
+      "function": "GND signal ESC droit",
+      "destination": "Référence de commande ; aucun courant de propulsion prévu"
+    }
+  ],
+  "unused_pins": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    14,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    35,
+    36,
+    37,
+    38,
+    40
+  ],
+  "hardware_wired": false,
+  "ESC_3V3_input_validated": false,
+  "servo_BEC6V_not_connected_to_GPIO": true,
+  "OFF_raw_not_directly_connected_to_GPIO": true,
+  "revised_on": "2026-10-15",
+  "power_through_Molex": false,
+  "signal_contacts_used": 9,
+  "separate_power_PCB_solder_pads": [
+    2,
+    4,
+    6,
+    9,
+    14,
+    20
+  ],
+  "signal_connector_empty_at_power_pins": true,
+  "supply_revision": "../verification-alimentation/integration.md"
+}

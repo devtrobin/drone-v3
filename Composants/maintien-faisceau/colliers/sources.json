@@ -1,0 +1,60 @@
+{
+  "checked_on": "2026-10-14",
+  "selection": {
+    "id": "htt18r",
+    "folder": "maintien-faisceau/colliers",
+    "reference": "HellermannTyton T18R 111-01919",
+    "role": "Colliers PA66 naturels pour l’intérieur",
+    "quantity": 12,
+    "mandatory": 0,
+    "conditional": 12,
+    "pack": 100,
+    "maker": "https://www.hellermanntyton.com/products/cable-ties-inside-serrated/t18r/111-01919",
+    "amazon_query": "HellermannTyton 111-01919 T18R",
+    "spec": "100 ×2,5 mm ; épaisseur1mm ; PA66 naturel ; 80N résistance minimale de boucle ; faisceau1,5–22mm ; non réutilisable ; non stabilisé UV.",
+    "usage": "Quantité d’étude12, à arrêter après implantation. Maintien sur embases MB2 sans écraser la gaine ; prévoir une boucle de service et retenir les fils avant les raccords.",
+    "dimensions": [
+      [
+        "Sangle",
+        "100 ×2,5 ×1,0 mm",
+        "Fiche actuelle111-01919"
+      ],
+      [
+        "Tête nominale actuelle",
+        "4,8 ×4,45 ×3,7 mm",
+        "Page fabricant, variante111-01919"
+      ],
+      [
+        "Plan famille2025",
+        "T1,1±0,2 ; tête4,8 ; hauteur3,5±0,2mm",
+        "Document générique différent, pas fusionné aux cotes actuelles"
+      ],
+      [
+        "Plage / tenue",
+        "Øfaisceau1,5–22 mm ; 80N",
+        "80N n’est pas la force de pose"
+      ],
+      [
+        "Couleur / température",
+        "Naturel ; −40..+85 °C",
+        "Ne pas acheter la variante noire en la confondant"
+      ]
+    ],
+    "source_files": [
+      "notices/HT-T18R-11101919-fiche-originale.pdf",
+      "notices/HT-T18R-plan-original.pdf"
+    ],
+    "source_pages": "Fiche créée9Oct2026 ; dessin famille rev10.1 du5Dec2025",
+    "fit": "Compatible avec la plage T18–T50 annoncée du MB2 et sa largeur maximale de collier5mm. Dents, verrou et pose CAO estimés ; aucune force de serrage qualifiée. Réservé à l’usage intérieur retenu.",
+    "amazon_search": "https://www.amazon.fr/s?k=HellermannTyton+111-01919+T18R",
+    "amazon_FR_verified": false,
+    "price_EUR_TTC": null
+  },
+  "manufacturer_source_verified": true,
+  "hardware_measured": false,
+  "model_3d_created": true,
+  "model_3d_manifest": "3D/provenance.json",
+  "source_archive_manifest": "../../faisceau-puissance/assets.json",
+  "exact_reviews_verified": false,
+  "qualification_complete": false
+}

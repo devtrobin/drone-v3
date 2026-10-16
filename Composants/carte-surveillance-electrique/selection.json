@@ -1,0 +1,146 @@
+{
+  "revision": "M1P",
+  "selected_on": "2026-10-15",
+  "purchased": false,
+  "hardware_tested": false,
+  "manufacturing_ready": false,
+  "existing_modules_count": 5,
+  "additional_microcontroller": false,
+  "items": [
+    {
+      "ref": "M1,M2",
+      "part": "TPS3700EVM-114",
+      "quantity": 2,
+      "role": "Comparateur de fenêtre, une carte par cellule",
+      "url": "https://www.ti.com/tool/TPS3700EVM-114",
+      "price": null,
+      "currency": null,
+      "availability": "Référence active, état réel du stock TI masqué/ambigu sans connexion ; à confirmer avant commande"
+    },
+    {
+      "ref": "M3,M4",
+      "part": "TMR 1-0511",
+      "quantity": 2,
+      "role": "DC/DC isolé régulé 5 V, 200 mA",
+      "url": "https://fr.rs-online.com/web/p/convertisseurs-dc-dc/7813178",
+      "price": 9.28,
+      "currency": "EUR_HT",
+      "availability": "9,28 EUR HT affichés dans catalogue RS ; page exacte non archivée (403), panier à revalider"
+    },
+    {
+      "ref": "M5",
+      "part": "Pololu D24V10F5 / 2831",
+      "quantity": 1,
+      "role": "5 V auxiliaire avant les deux TMR, sans liaison au 5 V Pi",
+      "url": "https://www.pololu.com/product/2831",
+      "price": 12.95,
+      "currency": "USD",
+      "availability": "Actif, commandes différées possibles ; stock immédiat non garanti"
+    },
+    {
+      "ref": "U1-U4",
+      "part": "VOS618A-8T",
+      "quantity": 4,
+      "role": "Isolation des quatre états de tension",
+      "url": "https://www.vishay.com/docs/83465/vos618a.pdf"
+    },
+    {
+      "ref": "U5",
+      "part": "SN74LVC2G17DCKR",
+      "quantity": 1,
+      "role": "Deux tampons Schmitt non inverseurs vers OFF",
+      "url": "https://www.ti.com/product/SN74LVC2G17"
+    },
+    {
+      "ref": "U6",
+      "part": "MCP1703AT-3302E/MB",
+      "quantity": 1,
+      "role": "3,3 V indépendant, entrée AUX protégée",
+      "url": "https://www.microchip.com/en-us/product/MCP1703A"
+    },
+    {
+      "ref": "D1-D3",
+      "part": "BAT54-7-F",
+      "quantity": 3,
+      "role": "OU des deux défauts matériels et de DONE",
+      "url": "https://www.diodes.com/datasheet/download/BAT54.pdf"
+    },
+    {
+      "ref": "RA0,RA1,RA2",
+      "part": "AC03000001000JAC00",
+      "quantity": 3,
+      "role": "100 ohms / 3 W / 5 %, au départ des trois fils de mesure",
+      "url": "https://www.vishay.com/en/product/28730/"
+    },
+    {
+      "ref": "M1.R1,M2.R1",
+      "part": "TNPW060379K6BEEA",
+      "quantity": 2,
+      "role": "79,6 kohms / 0,1 %, remplacement sur EVM",
+      "url": "https://www.vishay.com/docs/28758/tnpw_e3.pdf"
+    },
+    {
+      "ref": "M1.R2,M2.R2",
+      "part": "TNPW0603634RBEEA",
+      "quantity": 2,
+      "role": "634 ohms / 0,1 %, remplacement sur EVM",
+      "url": "https://www.vishay.com/docs/28758/tnpw_e3.pdf"
+    },
+    {
+      "ref": "M1.R3,M2.R3",
+      "part": "TNPW060310K0BEEA",
+      "quantity": 2,
+      "role": "10 kohms / 0,1 %, remplacement sur EVM",
+      "url": "https://www.vishay.com/docs/28758/tnpw_e3.pdf"
+    },
+    {
+      "ref": "FAUX",
+      "part": "KLKD001.T",
+      "quantity": 1,
+      "role": "Fusible auxiliaire 1 A, à la dérivation après F0 et avant ED80",
+      "url": "https://www.littelfuse.com/assetdocs/klkd-datasheet?assetguid=7b52eebb-c7cc-43df-a8da-9682a338e0f6"
+    },
+    {
+      "ref": "HFAUX",
+      "part": "L60030M1PQ + SPL001",
+      "quantity": 1,
+      "role": "Support et écran auxiliaire ; transition 14/12 AWG vers 22 AWG par WAGO 221-413",
+      "url": "../supports-branches-rapides/README.md"
+    },
+    {
+      "ref": "F1,F2",
+      "part": "0454.500MR",
+      "quantity": 2,
+      "role": "Fusibles lents 500 mA CMS, 125 V DC / 50 A, après M5 sur les entrées TMR ; qualification de coordination restante",
+      "url": "https://www.littelfuse.com/assetdocs/fuse-452-and-454-datasheet?assetguid=8c87aa93-80a7-4ea8-8749-a19ba03901c2"
+    }
+  ],
+  "scope": "Deux seuils par cellule, alertes logiques Pi et demande OFF indépendante. Pas de courant, température ou pourcentage de charge mesurés.",
+  "previous_design": "../protection-batterie/surveillance-2s/README.md",
+  "carrier_mm": [
+    140,
+    75,
+    1.6
+  ],
+  "reserved_assembly_mm": [
+    140,
+    75,
+    30
+  ],
+  "EVM_dimensions_status": "Pitch 2.54 mm exact from TI BOM; board outline about 51.05 x 48.26 mm inferred from vector drawing, NOT exact. Native Gerbers still 401. Carrier has flying interfaces independent of EVM contour.",
+  "amazon": {
+    "exact_fr_offer_verified": false,
+    "asin": null,
+    "price": null
+  },
+  "bounds_exclude": [
+    "External FAUX fuse and holder/cover",
+    "100 ohm resistors at battery end",
+    "Wire harnesses, connector mates and bend radii",
+    "Mechanical attachment/supports not yet defined"
+  ],
+  "prototype_fabrication_ready": true,
+  "bench_procedure_ready": true,
+  "vehicle_battery_release": false,
+  "prototype_scope": "Carrier PCB only, two layer industrial plated-hole fabrication, 70um nominal/55um minimum finished copper; bounded bench protocol mandatory; EVMs on separate insulated supports."
+}

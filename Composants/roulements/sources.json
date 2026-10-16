@@ -1,0 +1,57 @@
+{
+  "selected_on": "2026-10-13",
+  "selected_by": "assistant, authorized by user",
+  "reference": "MR115ZZ — 5×11×4 mm ; référence documentaire SMB Bearings",
+  "quantity_design": "12 : 4 avant, 4 sorties arrière, 4 arbres intermédiaires",
+  "purchased": false,
+  "hardware_tested": false,
+  "model_3d_created": true,
+  "purchase_status": "Not an identified or verified Amazon offer; fabrication lines are not purchase-ready",
+  "price_eur": null,
+  "amazon_search_url": "https://www.amazon.fr/s?k=MR115ZZ+5+11+4",
+  "specifications": {
+    "dimensions": "Alésage 5 mm, diamètre extérieur 11 mm, largeur 4 mm",
+    "fermeture": "Deux flasques métalliques ZZ ; ne pas confondre avec MR105ZZ 5×10×4",
+    "fiche SMB": "Acier SAE52100, cage acier, graisse Multemp SRL",
+    "charges publiées SMB": "28 kgf statique (~275 N), 71 kgf dynamique (~696 N)",
+    "vitesse limite SMB": "45 000 tr/min avec lubrification adéquate ; pas une vitesse garantie de l’ensemble",
+    "équivalent de famille": "Tamiya 53008, roulement 1150, sachets de quatre ; dimensions à vérifier"
+  },
+  "sources": [
+    {
+      "url": "https://www.smbbearings.com/products/miniature-bearings.html",
+      "type": "primary or explicitly identified supplier reference",
+      "checked_on": "2026-10-13"
+    },
+    {
+      "url": "https://www.tamiya.com/english/products/53008/index.html",
+      "type": "primary or explicitly identified supplier reference",
+      "checked_on": "2026-10-13"
+    }
+  ],
+  "documents": [
+    {
+      "file": "SMB-MR115ZZ-fiche-technique.pdf",
+      "url": "https://www.smbbearings.com/firebrick/ckeditor/plugins/upload/Uploads/Documents/bearingpdfs/MR115ZZ-miniature-bearing-5x11x4mm.pdf",
+      "bytes": 110429,
+      "sha256": "47124fe7b5bda8ddf055701f9a28959712bba733bc043704eec517f020169c94",
+      "modified": false,
+      "local_file": "../direction-et-transmission/notices/SMB-MR115ZZ-fiche-technique.pdf"
+    },
+    {
+      "file": "Tamiya-TT01R-notice-constructeur.pdf",
+      "url": "https://www.tamiya.com/cms/english/rc/rcmanual/tt01r.pdf",
+      "bytes": 4744628,
+      "sha256": "c8ef6f865c9a81df967932ec86143cf1074ecc2f6d48df566a94c0d2643a9ed1",
+      "modified": false,
+      "local_file": "../direction-et-transmission/notices/Tamiya-TT01R-notice-constructeur.pdf"
+    }
+  ],
+  "unknowns": [
+    "Choisir la fourniture exacte et le jeu radial ; les caractéristiques SMB ne s’appliquent pas automatiquement à un lot générique Amazon",
+    "Vérifier la profondeur des logements et les tolérances des axes",
+    "Compter les roulements éventuellement inclus dans d’autres sachets avant achat",
+    "Calcul de charge et durée de vie après estimation de masse et efforts de transmission"
+  ],
+  "model_3d_manifest": "3D/provenance.json"
+}

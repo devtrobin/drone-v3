@@ -1,0 +1,59 @@
+{
+  "checked_on": "2026-10-14",
+  "selection": {
+    "id": "auprotec6",
+    "folder": "cable-principal-6mm2",
+    "reference": "AUPROTEC FLRY-B 6,00 mm² rouge / noir",
+    "role": "Câble principal et liaison relais → entrée UD-80A",
+    "quantity": 4,
+    "mandatory": 0,
+    "conditional": 4,
+    "pack": null,
+    "maker": "https://auprotec.de/de/elektrik/fahrzeugleitungen-einadrig/flry-b-leitung/6-00-mm2-flry-b-leitung/flry-b-6-0-mm2-batteriekabel-rot-6m-ring/p/044906",
+    "amazon_query": "AUPROTEC FLRY B 6 mm2 rouge noir",
+    "spec": "Cuivre ECu nu recuit99,99 % annoncé ; PVC ShoreA90 ; Øextérieur env4,7mm ; brins maxØ0,300mm, nombre non publié ; −40..+70 °C ; 50VAC/60VDC.",
+    "usage": "Provision d’étude2m rouge et2m noir, pas liste de coupe. Le SKU fabricant réellement consulté044906 est une couronne rouge6m ; SKU du lot2m et variante noire exacte à confirmer. Ne pas déduire un prix au mètre ni une offre rouge/noir du seul SKU6m.",
+    "dimensions": [
+      [
+        "Section / OD",
+        "6,00mm² / envØ4,7mm",
+        "Page fabricantFLRY-B6"
+      ],
+      [
+        "Brins",
+        "Ømax0,300mm ; nombre et toronnage inconnus",
+        "Ne pas inventer un nombre de brins"
+      ],
+      [
+        "Température / tension",
+        "−40..+70 °C ; 50VAC/60VDC",
+        "Page fabricant ; les annonces+85/+105 ne sont pas retenues"
+      ],
+      [
+        "Âme du modèle",
+        "Cylindre d’aire6mm², Øéquivalent2,764mm",
+        "Représentation pédagogique, pas OD cuivre réel"
+      ],
+      [
+        "Longueur / dénudage CAO",
+        "100/10mm ; coupe40mm",
+        "Exemples, pas consignes de montage"
+      ]
+    ],
+    "source_files": [
+      "sources-web/AUPROTEC-FLRYB6.html"
+    ],
+    "source_pages": "Page primaire rouge6m044906 archivée ; famille noir à vérifier dans l’offre achetée",
+    "fit": "6mm² respecte nominalement le minimum6mm² de l’entrée UD-80A. 10AWG≈5,26mm² ne le respecte pas. Classe du cuivre, acceptation fine brins, embout éventuel et longueur de dénudage UD du lot restent à confirmer. Ne pas enfiler ce câble dans un XT60 sans accord de ses cotes et spécifications.",
+    "amazon_search": "https://www.amazon.fr/s?k=AUPROTEC+FLRY+B+6+mm2+rouge+noir",
+    "amazon_FR_verified": false,
+    "price_EUR_TTC": null
+  },
+  "manufacturer_source_verified": true,
+  "hardware_measured": false,
+  "model_3d_created": true,
+  "model_3d_manifest": "3D/provenance.json",
+  "source_archive_manifest": "../faisceau-puissance/assets.json",
+  "exact_reviews_verified": false,
+  "qualification_complete": false
+}

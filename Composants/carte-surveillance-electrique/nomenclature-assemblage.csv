@@ -1,0 +1,32 @@
+﻿Repères;Référence;Quantité montée/affectée;Fonction/limites;Source/achat;Prix unitaire relevé;Monnaie;Statut
+M1,M2;TPS3700EVM-114;2;Comparateur de fenêtre, une carte par cellule;https://www.ti.com/tool/TPS3700EVM-114;;;Non acheté / prix exact à revalider
+M3,M4;TMR 1-0511;2;DC/DC isolé régulé 5 V, 200 mA;https://fr.rs-online.com/web/p/convertisseurs-dc-dc/7813178;9.28;EUR_HT;Non acheté / prix exact à revalider
+M5;Pololu D24V10F5 / 2831;1;5 V auxiliaire avant les deux TMR, sans liaison au 5 V Pi;https://www.pololu.com/product/2831;12.95;USD;Non acheté / prix exact à revalider
+U1-U4;VOS618A-8T;4;Isolation des quatre états de tension;https://www.vishay.com/docs/83465/vos618a.pdf;;;Non acheté / prix exact à revalider
+U5;SN74LVC2G17DCKR;1;Deux tampons Schmitt non inverseurs vers OFF;https://www.ti.com/product/SN74LVC2G17;;;Non acheté / prix exact à revalider
+U6;MCP1703AT-3302E/MB;1;3,3 V indépendant, entrée AUX protégée;https://www.microchip.com/en-us/product/MCP1703A;;;Non acheté / prix exact à revalider
+D1-D3;BAT54-7-F;3;OU des deux défauts matériels et de DONE;https://www.diodes.com/datasheet/download/BAT54.pdf;;;Non acheté / prix exact à revalider
+RA0,RA1,RA2;AC03000001000JAC00;3;100 ohms / 3 W / 5 %, au départ des trois fils de mesure;https://www.vishay.com/en/product/28730/;;;Non acheté / prix exact à revalider
+M1.R1,M2.R1;TNPW060379K6BEEA;2;79,6 kohms / 0,1 %, remplacement sur EVM;https://www.vishay.com/docs/28758/tnpw_e3.pdf;;;Non acheté / prix exact à revalider
+M1.R2,M2.R2;TNPW0603634RBEEA;2;634 ohms / 0,1 %, remplacement sur EVM;https://www.vishay.com/docs/28758/tnpw_e3.pdf;;;Non acheté / prix exact à revalider
+M1.R3,M2.R3;TNPW060310K0BEEA;2;10 kohms / 0,1 %, remplacement sur EVM;https://www.vishay.com/docs/28758/tnpw_e3.pdf;;;Non acheté / prix exact à revalider
+FAUX;KLKD001.T;1;Fusible auxiliaire 1 A, à la dérivation après F0 et avant ED80;https://www.littelfuse.com/assetdocs/klkd-datasheet?assetguid=7b52eebb-c7cc-43df-a8da-9682a338e0f6;;;Non acheté / prix exact à revalider
+HFAUX;L60030M1PQ + SPL001;1;"Support et écran auxiliaire ; transition 14/12 AWG vers 22 AWG par WAGO 221-413";../supports-branches-rapides/README.md;;;Non acheté / prix exact à revalider
+F1,F2;0454.500MR;2;"Fusibles lents 500 mA CMS, 125 V DC / 50 A, après M5 sur les entrées TMR ; qualification de coordination restante";https://www.littelfuse.com/assetdocs/fuse-452-and-454-datasheet?assetguid=8c87aa93-80a7-4ea8-8749-a19ba03901c2;;;Non acheté / prix exact à revalider
+R1-R4;TNPW08052K20BEEA;4;"2,2 kohms, 0,1 %, LED ; calcul conservateur à 1 %";https://www.vishay.com/docs/28758/tnpw_e3.pdf;;;Référence de conception, panier France non établi
+R5-R8;TNPW080547K0BEEA;4;"47 kohms ; R5/R6 sur porteuse, R7/R8 côté Pi et DNP sur PCB";https://www.vishay.com/docs/28758/tnpw_e3.pdf;;;Référence de conception, panier France non établi
+R9-R10;TNPW0805100KBEEA;2;100 kohms, rappels DONE/OFF;https://www.vishay.com/docs/28758/tnpw_e3.pdf;;;Référence de conception, panier France non établi
+C1,C2,C9;GRM21BR71E104KA01L;3;100 nF, X7R, 25 V, 0805;https://www.murata.com/en-us/products/productdetail?partno=GRM21BR71E104KA01%23;;;Référence de conception, panier France non établi
+C3-C6;GRM21BR71E105KA99L;4;1 microfarad, X7R, 25 V, 0805;https://www.murata.com/en-us/products/productdetail?partno=GRM21BR71E105KA99%23;;;Référence de conception, panier France non établi
+C7-C8;GRM21BR71E225KA73L;2;"2,2 microfarads, X7R, 25 V, 0805 ; conserver au moins 1 microfarad effectif pour le LDO";https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR71E225KA73-01.pdf;;;Référence de conception, panier France non établi
+C10-C11;GRM21BR61E106KA73L;2;"10 microfarads, X5R, 25 V, 0805 ; déclassement DC à vérifier";https://www.murata.com/en-us/products/productdetail?partno=GRM21BR61E106KA73%23;;;Référence de conception, panier France non établi
+J1,J7;B2B-XH-A(LF)(SN);2;Embases 2 positions, 2,50 mm, PCB;https://www.jst-mfg.com/product/pdf/eng/eXH.pdf;;;Référence de conception, panier France non établi
+J2,J5;B3B-XH-A(LF)(SN);2;"Embases 3 positions ; réutiliser l’embase déjà prévue pour mesure si exacte";https://www.jst-mfg.com/product/pdf/eng/eXH.pdf;;;Référence de conception, panier France non établi
+J3,J4,J6;B5B-XH-A(LF)(SN);3;Embases 5 positions, connecteurs de faisceau;https://www.jst-mfg.com/product/pdf/eng/eXH.pdf;;;Référence de conception, panier France non établi
+Fiches J1/J7;XHP-2;2;Fiches 2 positions;https://www.jst-mfg.com/product/pdf/eng/eXH.pdf;;;Référence de conception, panier France non établi
+Fiches J2/J5;XHP-3;2;"Fiches 3 positions ; éviter un achat en double avec la rallonge existante";https://www.jst-mfg.com/product/pdf/eng/eXH.pdf;;;Référence de conception, panier France non établi
+Fiches J3/J4/J6;XHP-5;3;Fiches 5 positions;https://www.jst-mfg.com/product/pdf/eng/eXH.pdf;;;Référence de conception, panier France non établi
+Contacts XH;SXH-001T-P0.6;25;"Un contact par fil, 22 AWG ; quantité hors réserve ; vérifier référence et outillage";https://www.jst-mfg.com/product/pdf/eng/eXH.pdf;;;Référence de conception, panier France non établi
+Transition AUX;WAGO 221-413;2;Une transition positive et une négative, 12/14 vers 22 AWG, hors porteuse;https://www.wago.com/221-413;;;Référence de conception, panier France non établi
+Câbles EVM;Fils 22 AWG, connexion sur connecteurs TI;10;"Cinq fils par EVM, broches doublées du même signal ; terminaisons et longueurs après réception des modules";modules/configuration.md;;;Référence de conception, panier France non établi
+PCB;Porteuse M1P 140 x75 x1,6 mm;1;"Deux couches, à fabriquer après revue ; pas une carte de puissance";KiCad/surveillance-2s-m1.kicad_pcb;;;Référence de conception, panier France non établi

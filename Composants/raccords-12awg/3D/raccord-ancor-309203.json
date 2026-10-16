@@ -1,0 +1,91 @@
+{
+  "file": "raccord-ancor-309203.step",
+  "title": "Ancor 309203 | raccord 12-10 AWG",
+  "generated_on": "2026-10-14",
+  "unit": "mm",
+  "cadquery_version": "2.8.0",
+  "coordinate_system": "Cosses/cables/gaines: axe X, holecentreX0 Klauke; MB2 baseZ0; collier droitX0..100. Voir parametres.",
+  "bytes": 38854,
+  "sha256": "321f53c6eecd060182c9485c41b3125bfaca4a475533efb7c2fe2d9d6cd91ce8",
+  "native_vendor_cad": false,
+  "hardware_measured": false,
+  "is_custom_project_design": false,
+  "published_nominal": [
+    "12-10 AWG / 3-5 mm2; cuivre etame, joint brase, gaine adhesive, lot3"
+  ],
+  "estimates_and_limitations": [
+    "Toutes longueurs, diametres, epaisseurs et butee interne estimes",
+    "Etat non serti; pas de qualification du cuivre silicone tres fin BNTECHGO",
+    "Aucun fil represente: canon libre"
+  ],
+  "parameters": {
+    "metal_length_assumed_mm": 15,
+    "total_length_assumed_mm": 30,
+    "outer_diameter_assumed_mm": 6.1,
+    "wire_AWG": [
+      12,
+      10
+    ]
+  },
+  "source_pages": [
+    "Ancor2020 p.27 /2024 p.25"
+  ],
+  "bounds_mm": {
+    "xmin": -7.5,
+    "xmax": 22.5,
+    "ymin": -3.05,
+    "ymax": 3.05,
+    "zmin": -3.05,
+    "zmax": 3.05
+  },
+  "validation": {
+    "valid_after_reimport": true,
+    "solids": 3,
+    "faces": 16,
+    "colors": 3,
+    "volume_relative_error": 0.0,
+    "volume_relative_error_limit": 0.0001,
+    "volume_before_mm3": 479.4290300863772,
+    "volume_after_mm3": 479.4290300863772,
+    "adaptive_volume_tolerance": 1e-09,
+    "bbox_error_mm": 0.0,
+    "bbox_error_limit_mm": 0.01,
+    "void_and_material_probes": [],
+    "elapsed_seconds": 0.1029541000007157
+  },
+  "parts": [
+    {
+      "name": "Canon_Cu_etame",
+      "color_linear_rgb": [
+        0.62,
+        0.65,
+        0.69
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Adhesif_interieur_estime",
+      "color_linear_rgb": [
+        0.65,
+        0.39,
+        0.13
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Gaine_jaune_estimee",
+      "color_linear_rgb": [
+        0.85,
+        0.59,
+        0.015
+      ],
+      "solids": 1
+    }
+  ],
+  "preview": {
+    "file": "raccord-ancor-309203.png",
+    "sha256": "3bced6be203897ef1d62740ac96e4a4c3880e7fe278174447909e842f8cf47ae"
+  },
+  "generator": "tools/build_harness_step.py",
+  "generator_sha256": "343c45a6f573cd2d4205b4159948bddbdee9c39cf2bcf267fc7d6b8eb9957edc"
+}

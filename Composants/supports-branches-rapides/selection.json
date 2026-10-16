@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-15",
+  "folder": "supports-branches-rapides",
+  "ref": "L60030M1PQ + capot SPL001",
+  "qty": 3,
+  "name": "Supports Littelfuse Midget 10 × 38 mm",
+  "rating": "30 A, 600 V AC/DC ; pression sous vis, 10–14 AWG cuivre multibrin, 2,3 N·m. Utiliser la pression sous vis, pas les languettes rapides limitées à20 A. Bloc recommandé pour KLKD ; association DC à confirmer.",
+  "source": "https://www.littelfuse.com/de/assetdocs/powr-gard-catalog?assetguid=85d36235-a32b-4608-bfed-f9878aa43af0",
+  "buy": "https://www.mouser.fr/c/?q=L60030M1PQ",
+  "status": "Référence précise ; prix France et tenue DC de l’association à confirmer",
+  "hardware_tested": false,
+  "model_created": false
+}

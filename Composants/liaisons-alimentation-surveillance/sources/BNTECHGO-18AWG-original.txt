@@ -1,0 +1,2965 @@
+
+
+ 
+ 
+     
+         18 gauge silicone wire ultra flexible 20 feet high temp 200 deg c 
+           
+                  
+ 
+ 
+ 
+ 
+ 
+        
+         
+
+         
+         
+
+         
+            document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
+         
+
+         
+    function browserSupportsAllFeatures() {
+        return window.Promise
+            && window.fetch
+            && window.URL
+            && window.URLSearchParams
+            && window.WeakMap
+            // object-fit support
+            && ('objectFit' in document.documentElement.style);
+    }
+
+    function loadScript(src) {
+        var js = document.createElement('script');
+        js.src = src;
+        js.onerror = function () {
+            console.error('Failed to load polyfill script ' + src);
+        };
+        document.head.appendChild(js);
+    }
+
+    if (!browserSupportsAllFeatures()) {
+        loadScript('https://cdn11.bigcommerce.com/s-clng77kigt/stencil/fca74150-f0a6-013d-e67b-2e9e31b90141/e/9b373b00-b5ff-0138-99d6-0242ac11000e/dist/theme-bundle.polyfills.js');
+    }
+ 
+         window.consentManagerTranslations = `{"locale":"en","locales":{"consent_manager.data_collection_warning":"en","consent_manager.accept_all_cookies":"en","consent_manager.gdpr_settings":"en","consent_manager.data_collection_preferences":"en","consent_manager.manage_data_collection_preferences":"en","consent_manager.use_data_by_cookies":"en","consent_manager.data_categories_table":"en","consent_manager.allow":"en","consent_manager.accept":"en","consent_manager.deny":"en","consent_manager.dismiss":"en","consent_manager.reject_all":"en","consent_manager.category":"en","consent_manager.purpose":"en","consent_manager.functional_category":"en","consent_manager.functional_purpose":"en","consent_manager.analytics_category":"en","consent_manager.analytics_purpose":"en","consent_manager.targeting_category":"en","consent_manager.advertising_category":"en","consent_manager.advertising_purpose":"en","consent_manager.essential_category":"en","consent_manager.esential_purpose":"en","consent_manager.yes":"en","consent_manager.no":"en","consent_manager.not_available":"en","consent_manager.cancel":"en","consent_manager.save":"en","consent_manager.back_to_preferences":"en","consent_manager.close_without_changes":"en","consent_manager.unsaved_changes":"en","consent_manager.by_using":"en","consent_manager.agree_on_data_collection":"en","consent_manager.change_preferences":"en","consent_manager.cancel_dialog_title":"en","consent_manager.privacy_policy":"en","consent_manager.allow_category_tracking":"en","consent_manager.disallow_category_tracking":"en"},"translations":{"consent_manager.data_collection_warning":"We use cookies (and other similar technologies) to collect data to improve your shopping experience.","consent_manager.accept_all_cookies":"Accept All Cookies","consent_manager.gdpr_settings":"Settings","consent_manager.data_collection_preferences":"Website Data Collection Preferences","consent_manager.manage_data_collection_preferences":"Manage Website Data Collection Preferences","consent_manager.use_data_by_cookies":" uses data collected by cookies and JavaScript libraries to improve your shopping experience.","consent_manager.data_categories_table":"The table below outlines how we use this data by category. To opt out of a category of data collection, select 'No' and save your preferences.","consent_manager.allow":"Allow","consent_manager.accept":"Accept","consent_manager.deny":"Deny","consent_manager.dismiss":"Dismiss","consent_manager.reject_all":"Reject all","consent_manager.category":"Category","consent_manager.purpose":"Purpose","consent_manager.functional_category":"Functional","consent_manager.functional_purpose":"Enables enhanced functionality, such as videos and live chat. If you do not allow these, then some or all of these functions may not work properly.","consent_manager.analytics_category":"Analytics","consent_manager.analytics_purpose":"Provide statistical information on site usage, e.g., web analytics so we can improve this website over time.","consent_manager.targeting_category":"Targeting","consent_manager.advertising_category":"Advertising","consent_manager.advertising_purpose":"Used to create profiles or personalize content to enhance your shopping experience.","consent_manager.essential_category":"Essential","consent_manager.esential_purpose":"Essential for the site and any requested services to work, but do not perform any additional or secondary function.","consent_manager.yes":"Yes","consent_manager.no":"No","consent_manager.not_available":"N/A","consent_manager.cancel":"Cancel","consent_manager.save":"Save","consent_manager.back_to_preferences":"Back to Preferences","consent_manager.close_without_changes":"You have unsaved changes to your data collection preferences. Are you sure you want to close without saving?","consent_manager.unsaved_changes":"You have unsaved changes","consent_manager.by_using":"By using our website, you're agreeing to our","consent_manager.agree_on_data_collection":"By using our website, you're agreeing to the collection of data as described in our ","consent_manager.change_preferences":"You can change your preferences at any time","consent_manager.cancel_dialog_title":"Are you sure you want to cancel?","consent_manager.privacy_policy":"Privacy Policy","consent_manager.allow_category_tracking":"Allow [CATEGORY_NAME] tracking","consent_manager.disallow_category_tracking":"Disallow [CATEGORY_NAME] tracking"}}`; 
+
+         
+            window.lazySizesConfig = window.lazySizesConfig || {};
+            window.lazySizesConfig.loadMode = 1;
+         
+          
+        
+         
+        
+         
+          
+
+         
+
+         
+
+ 
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');
+
+fbq('set', 'autoConfig', 'false', '3278004495746165');
+fbq('dataProcessingOptions', []);
+fbq('init', '3278004495746165', {"external_id":"6d224699-08da-454b-92e6-798650132241"});
+fbq('set', 'agent', 'bigcommerce', '3278004495746165');
+
+function trackEvents() {
+    var pathName = window.location.pathname;
+
+    
+
+    // Search events start -- only fire if the shopper lands on the /search.php page
+    if (pathName.indexOf('/search.php') === 0 && getUrlParameter('search_query')) {
+        fbq('trackSingle', '3278004495746165', 'Search', {
+            content_type: 'product_group',
+            content_ids: [],
+            search_string: getUrlParameter('search_query')
+        });
+    }
+    // Search events end
+
+    // Wishlist events start -- only fire if the shopper attempts to add an item to their wishlist
+    if (pathName.indexOf('/wishlist.php') === 0 && getUrlParameter('added_product_id')) {
+        fbq('trackSingle', '3278004495746165', 'AddToWishlist', {
+            content_type: 'product_group',
+            content_ids: []
+        });
+    }
+    // Wishlist events end
+
+    // Lead events start -- only fire if the shopper subscribes to newsletter
+    if (pathName.indexOf('/subscribe.php') === 0 && getUrlParameter('result') === 'success') {
+        fbq('trackSingle', '3278004495746165', 'Lead', {});
+    }
+    // Lead events end
+
+    // Registration events start -- only fire if the shopper registers an account
+    if (pathName.indexOf('/login.php') === 0 && getUrlParameter('action') === 'account_created') {
+        fbq('trackSingle', '3278004495746165', 'CompleteRegistration', {}, "");
+    }
+    // Registration events end
+
+    
+
+    function getUrlParameter(name) {
+        var cleanName = name.replace(/[\[]/, '\[').replace(/[\]]/, '\]');
+        var regex = new RegExp('[\?&]' + cleanName + '=([^&#]*)');
+        var results = regex.exec(window.location.search);
+        return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
+    }
+}
+
+if (window.addEventListener) {
+    window.addEventListener("load", trackEvents, false)
+}
+ 
+   
+
+ 
+
+ 
+
+  
+ 
+  (function () {
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag(){
+        dataLayer.push(arguments);
+    }
+
+    function initGA4(event) {
+         function setupGtag() {
+            function configureGtag() {
+                gtag('js', new Date());
+                gtag('set', 'developer_id.dMjk3Nj', true);
+                gtag('config', 'G-8KFKX08C8L');
+            }
+
+            var script = document.createElement('script');
+
+            script.src = 'https://www.googletagmanager.com/gtag/js?id=G-8KFKX08C8L';
+            script.async = true;
+            script.onload = configureGtag;
+
+            document.head.appendChild(script);
+        }
+
+        setupGtag();
+
+        if (typeof subscribeOnBodlEvents === 'function') {
+            subscribeOnBodlEvents('G-8KFKX08C8L', true);
+        }
+
+        window.removeEventListener(event.type, initGA4);
+    }
+
+    gtag('consent', 'default', {"ad_storage":"denied","ad_user_data":"denied","ad_personalization":"denied","analytics_storage":"denied","functionality_storage":"denied"})
+            
+
+    var eventName = document.readyState === 'complete' ? 'consentScriptsLoaded' : 'DOMContentLoaded';
+    window.addEventListener(eventName, initGA4, false);
+  })()
+ 
+
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-16485241973');
+ 
+
+ 
+
+
+  
+ window.consentManagerStoreConfig = function () { return {"storeName":"BNTECHGO","privacyPolicyUrl":"","writeKey":null,"improvedConsentManagerEnabled":true,"AlwaysIncludeScriptsWithConsentTag":true}; }; 
+  
+  
+  
+ 
+var BCData = {"product_attributes":{"sku":"big-SW18G15008F10C2","upc":"742271695928","mpn":null,"gtin":null,"weight":null,"base":true,"image":null,"price":{"without_tax":{"formatted":"$9.48","value":9.48,"currency":"USD"},"tax_label":"Handling Fee"},"out_of_stock_behavior":"hide_option","out_of_stock_message":"Out of stock","available_modifier_values":[],"in_stock_attributes":[],"stock":null,"instock":true,"stock_message":null,"purchasable":true,"purchasing_message":null,"call_for_price_message":null,"disabled_option_values":[]}};
+ 
+  
+ 
+ 
+!function (w, d, t) {
+  w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];ttq.methods=["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie"],ttq.setAndDefer=function(t,e){t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}};for(var i=0;i  {
+  switch(item.type) {
+    case 'GiftCertificate':
+      return item.type;
+      break;
+    default:
+      return item.product_id;
+  }
+}
+
+BODL.getQueryParamValue = function (name) {
+  var cleanName = name.replace(/[\[]/, '\[').replace(/[\]]/, '\]');
+  var regex = new RegExp('[\?&]' + cleanName + '=([^&#]*)');
+  var results = regex.exec(window.location.search);
+  return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
+}
+
+// Advanced Matching
+  var phoneNumber = ''
+  var email = ''
+  if (BODL.phone) {
+    var phoneNumber = BODL.phone;
+    if (BODL.phone.indexOf('+') === -1) {
+   // No country code, so default to US code
+        phoneNumber = `+1${phoneNumber}`;  
+    }
+  }
+
+  if (BODL.email) {
+    var email = BODL.email
+  }
+  
+  ttq.instance('CDUAG1JC77UF6OITLRBG').identify({
+    email: email,
+    phone_number: phoneNumber})
+ 
+ 
+
+ 
+ 
+if (BODL.product) {
+  // Advanced Matching
+  var phoneNumber = ''
+  var email = ''
+  if (BODL.phone) {
+    var phoneNumber = BODL.phone;
+    if (BODL.phone.indexOf('+') === -1) {
+   // No country code, so default to US code
+        phoneNumber = `+1${phoneNumber}`;  
+    }
+  }
+
+  if (BODL.email) {
+    var email = BODL.email
+  }
+  
+  ttq.instance('CDUAG1JC77UF6OITLRBG').identify({
+    email: email,
+    phone_number: phoneNumber})
+  var productPrice = 0
+  var productCurrency = ""
+  if (BODL.productCurrencyWithoutTax && BODL.productCurrencyWithoutTax !== "") {
+    productPrice = BODL.productPriceWithoutTax
+    productCurrency = BODL.productCurrencyWithoutTax
+  }
+  if (BODL.productCurrencyWithTax && BODL.productCurrencyWithTax !== "") {
+    productPrice = BODL.productPriceWithTax
+    productCurrency = BODL.productCurrencyWithTax
+  }
+  //default contentId to productId if sku_id is not found on product 
+  var contentID = BODL.productId
+  if (BODL.skuId && BODL.skuId !== "") {
+    contentID = BODL.skuId
+  }
+  ttq.instance('CDUAG1JC77UF6OITLRBG').track('ViewContent', {
+    content_id: contentID,
+    content_category: BODL.breadcrumbs[1] ? BODL.breadcrumbs[1].name : '',
+    content_name: BODL.product.title,
+    content_type: "product_group",
+    currency: productCurrency,
+    price: productPrice,
+    value: productPrice,
+  });
+}
+ 
+ 
+
+ 
+ 
+if (BODL.category) {
+  // Advanced Matching
+  var phoneNumber = ''
+  var email = ''
+  if (BODL.phone) {
+    var phoneNumber = BODL.phone;
+    if (BODL.phone.indexOf('+') === -1) {
+    // No country code, so default to US code
+        phoneNumber = `+1${phoneNumber}`;  
+    }
+  }
+    
+  if (BODL.email) {
+    var email = BODL.email
+  }
+  
+  ttq.instance('CDUAG1JC77UF6OITLRBG').identify({
+    email: email,
+    phone_number: phoneNumber})
+  ttq.instance('CDUAG1JC77UF6OITLRBG').track('ViewContent', {
+    contents: BODL.category.products.map((p) => ({
+      content_id: p.id,
+      content_category: BODL.category.name,
+      content_name: p.name,
+      content_type: "product_group"
+    }))
+  });
+}
+ 
+ 
+
+ 
+ 
+// This only sends one wishlist product: the one that was just added based on the 'added_product_id' param in the url
+if (BODL.wishlist) {
+  var productPrice = 0
+  var productCurrency = ""
+  if (BODL.productCurrencyWithoutTax && BODL.productCurrencyWithoutTax !== "") {
+    productPrice = BODL.productPriceWithoutTax
+    productCurrency = BODL.productCurrencyWithoutTax
+  }
+  if (BODL.productCurrencyWithTax && BODL.productCurrencyWithTax !== "") {
+    productPrice = BODL.productPriceWithTax
+    productCurrency = BODL.productCurrencyWithTax
+  }
+
+  var addedWishlistItem = BODL.wishlist.items.filter((i) => i.product_id === parseInt(BODL.getQueryParamValue('added_product_id'))).map((p) => ({
+    var contentId = p.product_id
+    if (p.sku && p.sku !== "") {
+        contentId = p.sku
+    }
+    content_id: contentId,
+    // Commenting out as category data doesn't exist on wishlist items
+    // content_category: p.does_not_exist, 
+    content_name: p.name,
+    content_type: "product_group",
+    currency: productCurrency,
+    price: productPrice,
+    value: productPrice,
+  }));
+  
+  // Advanced Matching
+  var phoneNumber = ''
+  var email = ''
+  if (BODL.phone) {
+    var phoneNumber = BODL.phone;
+    if (BODL.phone.indexOf('+') === -1) {
+   // No country code, so default to US code
+        phoneNumber = `+1${phoneNumber}`;  
+    }
+  }
+
+  if (BODL.email) {
+    var email = BODL.email
+  }
+  
+  ttq.instance('CDUAG1JC77UF6OITLRBG').identify({
+    email: email,
+    phone_number: phoneNumber})
+  
+  ttq.instance('CDUAG1JC77UF6OITLRBG').track('AddToWishlist', addedWishlistItem[0]);
+}
+ 
+ 
+
+ 
+ 
+if (window.location.pathname.indexOf('/subscribe.php') === 0 && BODL.getQueryParamValue('result') === 'success') {
+  // Advanced Matching
+  var phoneNumber = ''
+  var email = ''
+  if (BODL.phone) {
+    var phoneNumber = BODL.phone;
+    if (BODL.phone.indexOf('+') === -1) {
+   // No country code, so default to US code
+        phoneNumber = `+1${phoneNumber}`;  
+    }
+  }
+
+  if (BODL.email) {
+    var email = BODL.email
+  }
+  
+  ttq.instance('CDUAG1JC77UF6OITLRBG').identify({
+    email: email,
+    phone_number: phoneNumber})
+
+  ttq.instance('CDUAG1JC77UF6OITLRBG').track('Subscribe');
+}
+ 
+ 
+
+ 
+ 
+if (BODL.search) {
+  // Advanced Matching
+  var phoneNumber = ''
+  var email = ''
+  if (BODL.phone) {
+    var phoneNumber = BODL.phone;
+    if (BODL.phone.indexOf('+') === -1) {
+   // No country code, so default to US code
+        phoneNumber = `+1${phoneNumber}`;  
+    }
+  }
+
+  if (BODL.email) {
+    var email = BODL.email
+  }
+  
+  ttq.instance('CDUAG1JC77UF6OITLRBG').identify({
+    email: email,
+    phone_number: phoneNumber})
+  var productPrice = 0
+  var productCurrency = ""
+  if (BODL.productCurrencyWithoutTax && BODL.productCurrencyWithoutTax !== "") {
+    productPrice = BODL.productPriceWithoutTax
+    productCurrency = BODL.productCurrencyWithoutTax
+  }
+  if (BODL.productCurrencyWithTax && BODL.productCurrencyWithTax !== "") {
+    productPrice = BODL.productPriceWithTax
+    productCurrency = BODL.productCurrencyWithTax
+  }
+
+  ttq.instance('CDUAG1JC77UF6OITLRBG').track('Search', {
+    query: BODL.getQueryParamValue('search_query'),
+    contents: BODL.search.products.map((p) => ({
+      var contentId = p.id
+      if (p.sku && p.sku !== "") {
+        contentId = p.sku
+      }
+      content_id: contentId,
+      // Products can be in multiple categories.
+      // Commenting out as this might distort category reports if only the first one is used.
+      // content_category: p.category[0], 
+      content_name: p.name,
+      content_type: "product_group",
+      currency: productCurrency,
+      price: productPrice,
+      value: productPrice,
+    }))
+  });
+}
+ 
+ 
+
+ 
+ 
+if (window.location.pathname.indexOf('/login.php') === 0 && BODL.getQueryParamValue('action') === 'account_created') {
+  // Advanced Matching
+  var phoneNumber = ''
+  var email = ''
+  if (BODL.phone) {
+    var phoneNumber = BODL.phone;
+    if (BODL.phone.indexOf('+') === -1) {
+   // No country code, so default to US code
+        phoneNumber = `+1${phoneNumber}`;  
+    }
+  }
+
+  if (BODL.email) {
+    var email = BODL.email
+  }
+  
+  ttq.instance('CDUAG1JC77UF6OITLRBG').identify({
+    email: email,
+    phone_number: phoneNumber})
+  
+  ttq.instance('CDUAG1JC77UF6OITLRBG').track('Registration');
+}
+ 
+ 
+
+   
+  
+
+ (function() {
+    function decodeBase64(base64) {
+       const text = atob(base64);
+       const length = text.length;
+       const bytes = new Uint8Array(length);
+       for (let i = 0; i  
+
+ 
+(function () {
+    var xmlHttp = new XMLHttpRequest();
+    
+    xmlHttp.open('POST', 'https://bes.gcp.data.bigcommerce.com/nobot');
+    xmlHttp.setRequestHeader('Content-Type', 'application/json');
+    xmlHttp.send('{"store_id":"1000124337","timezone_offset":"-8.0","timestamp":"2026-10-14T17:33:49.67579400Z","visit_id":"a79f3bb1-d773-46b8-9176-16cc7ae10b61","channel_id":1}');
+})();
+ 
+
+        
+             
+
+         
+            var theme_settings = {
+                show_fast_cart: true,
+                linksPerCol: 10,
+            };
+         
+
+         
+     
+     
+          
+
+         
+     
+          
+     
+
+     
+         
+            
+             
+                 
+                     
+                          
+                     
+                 
+                
+                      
+         
+             
+         
+ 
+ 
+             
+            
+             
+                 
+     
+     
+         
+             
+                 Search 
+                 
+                 
+                     
+                           
+                     
+                 
+             
+         
+     
+      
+      
+ 
+             
+             
+                 
+     
+         
+             
+                   
+             
+                 
+                    Sign in
+                 
+                     or   Register 
+         
+             
+         USD       
+         
+             
+                 
+                     USD 
+                 
+             
+             
+                 
+                    GBP
+                 
+             
+             
+                 
+                    Euro
+                 
+             
+             
+                 
+                    Canadian Dollar
+                 
+             
+             
+                 
+                    Australian Dollar
+                 
+             
+         
+     
+         
+             
+                   
+             
+         
+         
+             
+                 
+                       
+                 
+                (  )
+             
+
+              
+         
+     
+ 
+             
+         
+     
+
+     
+         
+     
+           
+     
+    close
+ 
+ 
+     
+             
+                 
+                    USD       
+                 
+                 
+                     
+                         
+                                 
+                             
+                                     USD 
+                             
+                         
+                         
+                                 
+                             
+                                    GBP
+                             
+                         
+                         
+                                 
+                             
+                                    Euro
+                             
+                         
+                         
+                                 
+                             
+                                    Canadian Dollar
+                             
+                         
+                         
+                                 
+                             
+                                    Australian Dollar
+                             
+                         
+                     
+                 
+             
+             
+                 
+                       
+                 
+                 Sign in 
+                    or
+                     
+                        Register
+                     
+             
+     
+     
+             
+                 
+    Customized silicone cable
+ 
+             
+             
+                 
+    Silicone Wire
+     
+           
+     
+ 
+ 
+     
+             
+                     
+                 4 Gauge Silicone Wire 
+                
+             
+             
+                     
+                 5 colors Silicone Wire Kit 
+                
+             
+             
+                     
+                 6 colors Silicone Wire Kit 
+                
+             
+             
+                     
+                 7 colors Silicone Wire Kit 
+                
+             
+             
+                     
+                 10 colors Silicone Wire Kit 
+                
+             
+             
+                     
+                 Red & Black Silicone Wire Kit 
+                
+             
+             
+                     
+                 6 Gauge Silicone Wire 
+                
+             
+             
+                     
+                 8 Gauge Silicone Wire 
+                
+             
+             
+                     
+                 10 Gauge Silicone Wire 
+                
+             
+             
+                     
+                 12 Gauge Silicone Wire 
+                
+             
+             
+                     
+                 14 Gauge Silicone Wire 
+                
+             
+             
+                     
+                 16 Gauge Silicone Wire 
+                
+             
+             
+                     
+                 18 Gauge Silicone Wire 
+                
+             
+             
+                     
+                 20 Gauge Silicone Wire 
+                
+             
+             
+                     
+                 22 Gauge Silicone Wire 
+                
+             
+             
+                     
+                 24 Gauge Silicone Wire 
+                
+             
+             
+                     
+                 26 Gauge Silicone Wire 
+                
+             
+             
+                     
+                 28 Gauge Silicone Wire 
+                
+             
+             
+                     
+                 30 Gauge Silicone Wire 
+                
+             
+             
+                     
+                 32 Gauge Silicone Wire 
+                
+             
+     
+ 
+             
+             
+                 
+    Parallel Silicone Wire
+     
+           
+     
+ 
+ 
+     
+             
+                     
+                 8 Gauge 2 Conductor Parallel Silicone Wire 
+                
+             
+             
+                     
+                 10 Gauge 2 Conductor Parallel Silicone Wire 
+                
+             
+             
+                     
+                 12 Gauge 2 Conductor Parallel Silicone Wire 
+                
+             
+             
+                     
+                 14 Gauge 2 Conductor Parallel Silicone Wire 
+                
+             
+             
+                     
+                 16 Gauge 2 Conductor Parallel Silicone Wire 
+                
+             
+             
+                     
+                 18 Gauge 2 Conductor Parallel Silicone Wire 
+                
+             
+             
+                     
+                 20 Gauge 2 Conductor Parallel Silicone Wire 
+                
+             
+             
+                     
+                 22 Gauge 2 Conductor Parallel Silicone Wire 
+                
+             
+     
+ 
+             
+             
+                 
+    Silicone Ribbon Cable
+     
+           
+     
+ 
+ 
+     
+             
+                     
+                 Silicone Ribbon Cable 2 Pin 
+                
+             
+             
+                     
+                 Silicone Ribbon Cable 3 Pin 
+                
+             
+             
+                     
+                 Silicone Ribbon Cable 5 Pin 
+                
+             
+             
+                     
+                 Silicone Ribbon Cable 4 Pin 
+                
+             
+             
+                     
+                 Silicone Ribbon Cable 6 Pin 
+                
+             
+             
+                     
+                 Silicone Ribbon Cable 8 Pin 
+                
+             
+             
+                     
+                 Silicone Ribbon Cable 9 Pin 
+                
+             
+             
+                     
+                 Silicone Ribbon Cable 10 Pin 
+                
+             
+             
+                     
+                 18 Gauge Silicone Ribbon Cable 
+                
+             
+             
+                     
+                 20 Gauge Silicone Ribbon Cable 
+                
+             
+             
+                     
+                 22 Gauge Silicone Ribbon Cable 
+                
+             
+             
+                     
+                 24 Gauge Silicone Ribbon Cable 
+                
+             
+             
+                     
+                 26 Gauge Silicone Ribbon Cable 
+                
+             
+             
+                     
+                 28 Gauge Silicone Ribbon Cable 
+                
+             
+             
+                     
+                 30 Gauge Silicone Ribbon Cable 
+                
+             
+     
+ 
+             
+             
+                 
+    PVC Wire
+     
+           
+     
+ 
+ 
+     
+             
+                     
+                 PVC  Wire kit 
+                
+             
+             
+                     
+                 18 Gauge Solid Wire 
+                
+             
+             
+                     
+                 20 Gauge Solid Wire 
+                
+             
+             
+                     
+                 22 Gauge PVC Stranded Wire 
+                
+             
+             
+                     
+                 22 Gauge Solid Wire 
+                
+             
+             
+                     
+                 24 Gauge Solid Wire 
+                
+             
+             
+                     
+                 26 Gauge PVC Stranded Wire 
+                
+             
+     
+ 
+             
+             
+                 
+    Magnet Wire
+     
+           
+     
+ 
+ 
+     
+             
+                     
+                 Magnet Wire 3 lb 
+                
+             
+             
+                     
+                 Magnet Wire 4 oz 
+                
+             
+             
+                     
+                 Magnet Wire 1 lb 
+                
+             
+             
+                     
+                 Magnet Wire 5 lb 
+                
+             
+             
+                     
+                 Magnet Wire Red 
+                
+             
+             
+                     
+                 Magnet Wire Natural 
+                
+             
+             
+                     
+                 16 Gauge Magnet Wire 
+                
+             
+             
+                     
+                 18 Gauge Magnet Wire 
+                
+             
+             
+                     
+                 20 Gauge Magnet Wire 
+                
+             
+             
+                     
+                 22 Gauge Magnet Wire 
+                
+             
+             
+                     
+                 24 Gauge Magnet Wire 
+                
+             
+             
+                     
+                 26 Gauge Magnet Wire 
+                
+             
+             
+                     
+                 28 Gauge Magnet Wire 
+                
+             
+             
+                     
+                 30 Gauge Magnet Wire 
+                
+             
+             
+                     
+                 32 Gauge Magnet Wire 
+                
+             
+             
+                     
+                 34 Gauge Magnet Wire 
+                
+             
+             
+                     
+                 36 Gauge Magnet Wire 
+                
+             
+             
+                     
+                 38 Gauge Magnet Wire 
+                
+             
+     
+ 
+             
+             
+                 
+    FEP Teflon Wire
+     
+           
+     
+ 
+ 
+     
+             
+                     
+                 12 AWG FEP Teflon Wire 
+                
+             
+             
+                     
+                 22 AWG FEP Teflon Wire 
+                
+             
+             
+                     
+                 28 AWG FEP Teflon Wire 
+                
+             
+     
+ 
+             
+             
+                 
+    Multicore Silicone Wire
+ 
+             
+             
+                 
+    Wholesale
+     
+           
+     
+ 
+ 
+     
+             
+                     
+                 Silicone Wire 
+                
+             
+             
+                     
+                 Parallel Silicone Wire 
+                
+             
+             
+                     
+                 PVC Solid Wire 
+                
+             
+             
+                     
+                 PVC Stranded Wire 
+                
+             
+     
+ 
+             
+                 
+                         
+    Contact Us & Returns
+ 
+                 
+                 
+                         
+    Blog
+ 
+                 
+                 
+                         
+    Our Amazon Store: BNTECHGO
+ 
+                 
+     
+     
+     
+ 
+     
+ 
+
+
+
+          
+     
+        [data-sub-layout-container="7af44a3f-e5e6-4e6d-9a86-beb2dac5b4f0"] {
+            box-sizing: border-box;
+            display: flex;
+            flex-wrap: wrap;
+            z-index: 0;
+            position: relative;
+            height: ;
+            padding-top: 0px;
+            padding-right: 0px;
+            padding-bottom: 0px;
+            padding-left: 0px;
+            margin-top: 0px;
+            margin-right: 0px;
+            margin-bottom: 0px;
+            margin-left: 0px;
+            border-width: 0px;
+            border-style: solid;
+            border-color: #333333;
+        }
+
+        [data-sub-layout-container="7af44a3f-e5e6-4e6d-9a86-beb2dac5b4f0"]:after {
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            background-size: cover;
+            z-index: auto;
+        }
+     
+
+     
+         
+            [data-sub-layout="5e0475a6-544e-4177-97d5-570d2b8d611b"] {
+                display: flex;
+                flex-direction: column;
+                box-sizing: border-box;
+                flex-basis: 100%;
+                max-width: 100%;
+                z-index: 0;
+                position: relative;
+                height: ;
+                padding-top: 0px;
+                padding-right: 1px;
+                padding-bottom: 0px;
+                padding-left: 1px;
+                margin-top: 0px;
+                margin-right: 0px;
+                margin-bottom: 0px;
+                margin-left: 0px;
+                border-width: 0px;
+                border-style: solid;
+                border-color: #333333;
+                justify-content: center;
+            }
+            [data-sub-layout="5e0475a6-544e-4177-97d5-570d2b8d611b"]:after {
+                display: block;
+                position: absolute;
+                top: 0;
+                left: 0;
+                bottom: 0;
+                right: 0;
+                background-size: cover;
+                z-index: auto;
+            }
+            @media only screen and (max-width: 700px) {
+                [data-sub-layout="5e0475a6-544e-4177-97d5-570d2b8d611b"] {
+                    flex-basis: 100%;
+                    max-width: 100%;
+                }
+            }
+         
+     
+ 
+
+  
+  
+
+         
+     
+         
+         
+     
+                 
+                     
+                         Home 
+                     
+                 
+                 
+                     
+                         Silicone Wire 
+                     
+                 
+                 
+                     
+                         18 Gauge Silicone Wire 
+                     
+                 
+                 
+                     
+                         BNTECHGO 18 Gauge Silicone Wire Kit: Ultra Flexible, 20 ft (Black and Red, Each Color 10 ft), High Temp 200°C, 600V, 18 AWG Silicone Wire, 150 Strands of Tinned Copper Wire, Stranded Wire, Stranded Wire for Model Battery 
+                     
+                 
+     
+ 
+
+ 
+{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement":
+    [
+        {
+            "@type": "ListItem",
+            "position": 1,
+            "item": {
+                "@id": "https:\u002f\u002fbntechgo.com\u002f",
+                "name": "Home"
+            }
+        },
+        {
+            "@type": "ListItem",
+            "position": 2,
+            "item": {
+                "@id": "https:\u002f\u002fbntechgo.com\u002fsilicone-wire\u002f",
+                "name": "Silicone Wire"
+            }
+        },
+        {
+            "@type": "ListItem",
+            "position": 3,
+            "item": {
+                "@id": "https:\u002f\u002fbntechgo.com\u002fsilicone-wire\u002f18-gauge-silicone-wire\u002f",
+                "name": "18 Gauge Silicone Wire"
+            }
+        },
+        {
+            "@type": "ListItem",
+            "position": 4,
+            "item": {
+                "@id": "https:\u002f\u002fbntechgo.com\u002fbntechgo-18-gauge-silicone-wire-kit-ultra-flexible-20-ft-black-and-red-each-color-10-ft-high-temp-200-c-600v-18-awg-silicone-wire-150-strands-of-tinned-copper-wire-stranded-wire-stranded-wire-for-model-battery\u002f",
+                "name": "BNTECHGO 18 Gauge Silicone Wire Kit: Ultra Flexible, 20 ft (Black and Red, Each Color 10 ft), High Temp 200°C, 600V, 18 AWG Silicone Wire, 150 Strands of Tinned Copper Wire, Stranded Wire, Stranded Wire for Model Battery"
+            }
+        }
+    ]
+}
+ 
+
+     
+
+     
+         
+            
+ 
+     
+          
+         
+             
+                     
+                 
+                     
+             
+         
+         
+                 
+                     
+                         
+                     
+                 
+                 
+                     
+                         
+                     
+                 
+                 
+                     
+                         
+                     
+                 
+                 
+                     
+                         
+                     
+                 
+                 
+                     
+                         
+                     
+                 
+                 
+                     
+                         
+                     
+                 
+         
+     
+     
+         
+
+             BNTECHGO 18 Gauge Silicone Wire Kit: Ultra Flexible, 20 ft (Black and Red, Each Color 10 ft), High Temp 200°C, 600V, 18 AWG Silicone Wire, 150 Strands of Tinned Copper Wire, Stranded Wire, Stranded Wire for Model Battery 
+                 
+                       BNTECHGO   
+                 
+             
+                 SKU: 
+                 big-SW18G15008F10C2 
+             
+             | 
+                 
+                     UPC: 
+                     742271695928 
+                 
+             
+                    
+         
+             
+                 
+                    
+                 
+             
+             $9.48 
+             
+                  
+             
+         
+          
+                 (You save 
+                 
+                    
+                 
+                 ) 
+          
+             
+
+
+              
+             
+                     
+             
+                 
+                     
+                 
+             
+             
+                 
+                     
+                 
+             
+             
+                 
+                     
+                 
+             
+             
+                 
+                     
+                 
+             
+             
+                 
+                     
+                 
+             
+ 
+                         
+                            (9 reviews)
+                         
+                     
+                         
+                            
+                                   
+                             
+                            Write a Review 
+                         
+                     
+                     
+    
+    
+    
+    
+     
+         Write a Review 
+         
+     Close 
+     × 
+ 
+     
+     
+         
+             
+                 
+             
+             BNTECHGO 
+             BNTECHGO 18 Gauge Silicone Wire Kit: Ultra Flexible, 20 ft (Black and Red, Each Color 10 ft), High Temp 200°C, 600V, 18 AWG Silicone Wire, 150 Strands of Tinned Copper Wire, Stranded Wire, Stranded Wire for Model Battery 
+         
+         
+             
+                 
+                     Rating
+                         Required 
+                     
+                     
+                     
+                     
+                         Select Rating 
+                                 1 star (worst) 
+                                 2 stars 
+                                 3 stars (average) 
+                                 4 stars 
+                                 5 stars (best) 
+                     
+                 
+
+                 
+                     
+     Name
+         Required 
+     
+     
+ 
+
+                     
+                         
+     Email
+         Required 
+     
+     
+ 
+
+                 
+                 
+     Review Subject
+         Required 
+     
+     
+ 
+
+                 
+                 
+     Comments
+             Required 
+     
+     
+        
+     
+ 
+
+                
+
+                 
+                     
+                 
+                 
+                 
+                
+             
+         
+     
+ 
+             
+             
+             
+            
+         
+         
+             
+                 
+                 
+                
+                 
+                    
+                 
+                
+                 
+                     
+                         Current Stock: 
+                            
+                     
+                 
+                
+                
+ 
+        
+         
+             Quantity: 
+
+             
+                 
+                     Decrease Quantity of undefined 
+                     
+                         
+                             
+                         
+                     
+                 
+                 
+                 
+                     Increase Quantity of undefined 
+                     
+                         
+                             
+                         
+                     
+                 
+             
+         
+    
+     
+         
+                  
+         
+          
+     
+     
+         
+             
+             Adding to cart… The item has been added 
+         
+                     
+         
+ 
+    (function() {
+        let productData = null;
+
+        init();
+
+        function init() {
+            const buttonsContainerId = 'bc-smart-payment-buttons_6acfbcfe30ce5';
+            const smartButtonsContainer = document.getElementById(buttonsContainerId);
+
+            if (!smartButtonsContainer) {
+                return;
+            }
+
+            const appLoadingProps = {
+                checkoutKitLoaderScriptPath: 'https://checkout-sdk.bigcommerce.com/v1/loader.js',
+                microAppJsFilesPaths: JSON.parse('["https:\/\/microapps.bigcommerce.com\/smart-payment-buttons\/js\/runtime-ead45ca4.js","https:\/\/microapps.bigcommerce.com\/smart-payment-buttons\/js\/vendors-13b050f2.js","https:\/\/microapps.bigcommerce.com\/smart-payment-buttons\/js\/smart-payment-buttons-ee781486.js"]'),
+            }
+
+            const smartPaymentButtonsProps = {
+                buyNowInitializeOptions: {
+                    getBuyNowCartRequestBody: getBuyNowCartRequestBody,
+                    storefrontApiToken: 'eyJ0eXAiOiJKV1QiLCJhbGciOiJFUzI1NiJ9.eyJjaWQiOlsxXSwiY29ycyI6WyJodHRwczovL2JudGVjaGdvLmNvbSJdLCJlYXQiOjE3OTIxNTY3NDcsImlhdCI6MTc5MTk4Mzk0NywiaXNzIjoiQkMiLCJzaWQiOjEwMDAxMjQzMzcsInN1YiI6IkJDIiwic3ViX3R5cGUiOjAsInRva2VuX3R5cGUiOjF9.YaaJCvFvpPFjJaaI65Zo8UGEldjz02l0nEz1oe7B1WMIgtPyofJLzVAiJ9NVbGICedWAfvXGduGKT1EU4sTlXQ',
+                },
+                containerId: buttonsContainerId,
+                currencyCode: 'USD',
+                showMoreButtonLabel: 'More payment options',
+                smartPaymentButtons: JSON.parse('[{"gatewayId":"paypalcommerce","methodId":"paypal","initializationOptions":{"style":{"size":"medium","color":"gold","shape":"pill","label":"checkout","height":40}},"sortOrder":0},{"gatewayId":"googlepay","methodId":"googlepay","initializationOptions":{"style":{"size":"medium","color":"black","shape":null,"label":null,"height":null}},"sortOrder":1}]'),
+                storeSettings: {
+                    host: 'https://bntechgo.com',
+                    locale: '',
+                },
+                visibleBaseButtonsCount: Number('1'),
+                confirmationPageRedirectUrl: '/checkout/order-confirmation',
+                requiresShipping: Boolean('1'),
+            };
+
+            document.addEventListener('onProductUpdate', (e) => {
+                productData = e.detail.productDetails;
+                productData.quantity = productData.quantity || 1;
+            }, false);
+
+            appInit(appLoadingProps, smartPaymentButtonsProps);
+        }
+
+        /**
+         *
+         * Get 'buy now' cart data functions
+         *
+         * */
+        function getBuyNowCartRequestBody() {
+            return {
+                lineItems: [productData],
+                source: 'BUY_NOW',
+            };
+        }
+
+        /**
+         *
+         * App initialization
+         *
+         * */
+        function appInit(appLoadingProps, smartPaymentButtonsProps) {
+            const { checkoutKitLoaderScriptPath, microAppJsFilesPaths } = appLoadingProps;
+
+            if (window.checkoutKitLoader) {
+                initializeSmartPaymentButtonsApp(microAppJsFilesPaths, smartPaymentButtonsProps);
+            } else {
+                createScriptTag(
+                    checkoutKitLoaderScriptPath,
+                    () => initializeSmartPaymentButtonsApp(microAppJsFilesPaths, smartPaymentButtonsProps)
+                );
+            }
+        }
+
+        function initializeSmartPaymentButtonsApp(microAppJsFilesPaths, smartPaymentButtonsProps) {
+            if (
+                window.BigCommerce
+                && window.BigCommerce.initializeSmartPaymentButtons
+                && typeof window.BigCommerce.initializeSmartPaymentButtons === 'function'
+            ) {
+                window.BigCommerce.initializeSmartPaymentButtons(smartPaymentButtonsProps);
+            } else {
+                loadScripts(
+                    microAppJsFilesPaths,
+                    () => window.BigCommerce.initializeSmartPaymentButtons(smartPaymentButtonsProps)
+                );
+            }
+        }
+
+        function createScriptTag(src, onLoad) {
+            const scriptTag = document.createElement('script');
+            scriptTag.type = 'text/javascript';
+            scriptTag.defer = true;
+            scriptTag.async = false;
+            scriptTag.crossorigin = true;
+            scriptTag.src = src;
+            if (onLoad) {
+                scriptTag.onload = onLoad;
+            }
+            document.head.appendChild(scriptTag);
+        }
+
+        function loadScripts(scripts, onLoadEnd) {
+            const script = scripts[0];
+            const scriptsToLoad = scripts.slice(1);
+
+            createScriptTag(script, () => {
+                if (scriptsToLoad.length > 0) {
+                    loadScripts(scriptsToLoad, onLoadEnd);
+                } else {
+                    onLoadEnd();
+                }
+            });
+        }
+    })();
+ 
+ 
+
+     
+     
+    
+ 
+
+             
+                 
+     
+         Add to Wish List 
+         
+             
+                 
+             
+         
+     
+     
+         
+             
+         
+         
+             Create Wish List 
+         
+     
+ 
+            
+                    
+    
+     
+         
+                 
+                     
+                         Facebook 
+                         
+                             
+                         
+                     
+                 
+                 
+                     
+                         Email 
+                         
+                             
+                         
+                     
+                 
+                 
+                     
+                         Twitter 
+                         
+                             
+                         
+                     
+                 
+                 
+                     
+                         Linkedin 
+                         
+                             
+                         
+                     
+                 
+                 
+                     
+                         Pinterest 
+                         
+                             
+                         
+                     
+                                     
+         
+     
+         
+     
+ 
+
+ 
+     
+     Close 
+     × 
+ 
+      
+      
+ 
+              
+         
+
+         
+         
+             
+                 
+                    Description
+                 
+        
+                 
+                     
+                         
+                     
+                     
+                         
+                     
+                 
+             
+             
+                 
+                         
+   ● 18 Gauge silicone wire kit: 2 colors, red and black, each color 10 ft, total 20 feet .   ● They are constructed with premium silicone rubber insulation.   ● Tinned copper wire, protecting it from corrosion and making it easier to solder.   ● Two-color jacket for easy polarity identification.  
+     
+   Long Life of Tinned Copper     ● High strand count copper core; 18 AWG silicone stranded wire has 150 strands of 0.08 mm tinned copper wire. The copper strands are tinned, protecting them from corrosion and making soldering easier.    ● It adopts intertwist winding technology. The wires are tightly twisted together to reduce signal interference and improve conductivity.    ● High-Quality Ultra Flexible Soft Silicone Rubber Copper Wire! Super Low Impedance, Highly Efficient!  
+        
+   Ultra Flexible    They are constructed with premium silicone rubber insulation, strong toughness, and can be curled arbitrarily without easily breaking, suitable for various tasks.    Security and Reliability    With uniform thickness and low eccentricity, they can effectively prevent current breakdown and ensure the safety of electricity use.    Low Temperature Resistance    Even in winter, these wires remain soft. They can work normally even in extremely cold temperatures of -60 degrees Celsius without affecting conductivity.    High Temperature Resistance    Constructed with premium silicone rubber insulation, these wires possess flame retardant and insulating properties, with high temperature resistance up to 200 degrees Celsius.  
+     
+   Application Scenarios    ● BNTECHGO silicone wire is widely used for model planes, model cars, model ships, batteries, lamps, household appliances, electric heating appliances, meters, instruments, motor lead wire, and digital fields.  
+     
+   Available in the right gauge wire from thin 30 AWG to heavy-duty 4 AWG silicone wire.    ● 4 AWG and 6 AWG available in 2 colors (Red, Black);   ● 8 AWG and 10 AWG available in 7 colors (Red, Black, Blue, Yellow, Green, White, and Orange);   ● 12 AWG and 14 AWG available in 10 colors (Red, Black, Blue, Yellow, Green, White, Brown, Purple, Orange, and Gray);   ● 16 AWG to 30 AWG available in 11 colors (Red, Black, Blue, Yellow, Green, White, Brown, Purple, Orange, Pink, and Gray).   Our products have been highly praised by customers since they entered the market. With many specifications available, there will always be one that meets your needs.    Shipping    ● Please allow 2-7 business days for the item to arrive (depending on the parcel's destination).  
+ 
+ 
+ 
+   
+   
+   
+   
+   
+   
+   
+ 
+ 
+   
+    6 Gauge Silicone Wire    
+    8 Gauge Silicone Wire    
+    10 Gauge Silicone Wire    
+    12 Gauge Silicone Wire    
+    14 Gauge Silicone Wire    
+    16 Gauge Silicone Wire    
+ 
+ 
+ Colour 
+ Red And Black 
+ Red And Black 
+ Red And Black 
+ Red And Black 
+ Red And Black 
+ Red And Black 
+ 
+ 
+ Size 
+ Each Color 10ft 
+ Each Color 10ft 
+ Each Color 10ft 
+ Each Color 10ft 
+ Each Color 10ft 
+ Each Color 10ft 
+ 
+ 
+   
+   
+   
+   
+   
+   
+   
+ 
+ 
+   
+    20 Gauge Silicone Wire    
+    22 Gauge Silicone Wire    
+    24 Gauge Silicone Wire    
+    26 Gauge Silicone Wire    
+    28 Gauge Silicone Wire    
+    30 Gauge Silicone Wire    
+ 
+ 
+ Colour 
+ Red And Black 
+ Red And Black 
+ Red And Black 
+ Red And Black 
+ Red And Black 
+ Red And Black 
+ 
+ 
+ Size 
+ Each Color 50ft 
+ Each Color 50ft 
+ Each Color 50ft 
+ Each Color 25ft 
+ Each Color 25ft 
+ Each Color 25ft 
+ 
+ 
+ 
+                     
+                 
+                
+             
+         
+    
+    
+ 
+
+
+
+                 
+                     
+                         
+                              Related Products  
+                                 
+     
+         
+     
+
+
+         
+             
+                 
+             
+         
+             
+                 
+                     
+                                 Quick view 
+                                 Add to Cart 
+                     
+                 
+             
+     
+     
+         
+             
+                 
+                    BNTECHGO 18 Gauge Silicone Wire Kit: Ultra Flexible, 10 ft (Black and Red, Each Color 5 ft), High Temp 200°C, 600V, 18 AWG Silicone Wire, 150 Strands of Tinned Copper Wire, Stranded Wire, Stranded Wire for Model Battery
+                 
+             
+             
+                    
+         
+             
+                 
+                    
+                 
+             
+             $7.98 
+             
+                  
+             
+         
+             
+                     BNTECHGO 
+         
+
+         
+            
+                     
+     
+ 
+     
+     
+         
+     
+
+
+         
+             
+                 
+             
+         
+             
+                 
+                     
+                                 Quick view 
+                                 Add to Cart 
+                     
+                 
+             
+     
+     
+         
+             
+                 
+                    BNTECHGO 18 Gauge Silicone Wire Kit: Ultra Flexible, 200 ft (Black and Red, Each Color 100 ft), High Temp 200°C, 600V, 18 AWG Silicone Wire, 150 Strands of Tinned Copper Wire, Stranded Wire, Stranded Wire for Model Battery
+                 
+             
+             
+                    
+         
+             
+                 
+                    
+                 
+             
+             $34.98 
+             
+                  
+             
+         
+             
+                     BNTECHGO 
+         
+
+         
+            
+                     
+     
+ 
+     
+     
+         
+     
+
+
+         
+             
+                 
+             
+         
+             
+                 
+                     
+                                 Quick view 
+                                 Add to Cart 
+                     
+                 
+             
+     
+     
+         
+             
+                 
+                    BNTECHGO 18 Gauge Silicone Wire Kit: Ultra Flexible, 500 ft (Black and Red, Each Color 250 ft), High Temp 200°C, 600V, 18 AWG Silicone Wire, 150 Strands of Tinned Copper Wire, Stranded Wire, Stranded Wire for Model Battery
+                 
+             
+             
+                    
+         
+             
+                 
+                    
+                 
+             
+             $84.98 
+             
+                  
+             
+         
+             
+                     BNTECHGO 
+         
+
+         
+            
+                     
+     
+ 
+     
+     
+         
+     
+
+
+         
+             
+                 
+             
+         
+             
+                 
+                     
+                                 Quick view 
+                                 Add to Cart 
+                     
+                 
+             
+     
+     
+         
+             
+                 
+                    BNTECHGO 18 Gauge Silicone Wire Kit: Ultra Flexible, 1000 ft (Black and Red, Each Color 500 ft), High Temp 200°C, 600V, 18 AWG Silicone Wire, 150 Strands of Tinned Copper Wire, Stranded Wire, Stranded Wire for Model Battery
+                 
+             
+             
+                    
+         
+             
+                 
+                    
+                 
+             
+             $164.98 
+             
+                  
+             
+         
+             
+                     BNTECHGO 
+         
+
+         
+            
+                     
+     
+ 
+     
+ 
+                         
+                     
+                 
+        
+        
+                 
+                     Reviews 
+                     
+     
+         
+             
+                 
+                     
+                         
+                             
+             
+                 
+                     
+                 
+             
+             
+                 
+                     
+                 
+             
+             
+                 
+                     
+                 
+             
+             
+                 
+                     
+                 
+             
+             
+                 
+                     
+                 
+             
+ 
+                             5 
+                         
+                         Good product as described. Fast delivery. 
+                             
+                                Posted by Elizabeth on 30th Dec 2020
+                             
+                     
+                     Good product as described. Fast delivery. 
+                 
+             
+             
+                 
+                     
+                         
+                             
+             
+                 
+                     
+                 
+             
+             
+                 
+                     
+                 
+             
+             
+                 
+                     
+                 
+             
+             
+                 
+                     
+                 
+             
+             
+                 
+                     
+                 
+             
+ 
+                             5 
+                         
+                         very flexible, good wire 
+                             
+                                Posted by mr engineer on 4th Jun 2019
+                             
+                     
+                     works well in speaker enclosures, no rattle 
+                 
+             
+             
+                 
+                     
+                         
+                             
+             
+                 
+                     
+                 
+             
+             
+                 
+                     
+                 
+             
+             
+                 
+                     
+                 
+             
+             
+                 
+                     
+                 
+             
+             
+                 
+                     
+                 
+             
+ 
+                             5 
+                         
+                         Great for making a wiring harness 
+                             
+                                Posted by S. Martin on 17th May 2019
+                             
+                     
+                     This is great wire. I used it to make a wiring harness to distribute power to a string of LED light fixtures. The silicone insulation survives the high temperatures of soldering and heat-shrinking very nicely. It's also easy to cut and peel off for making tap-off connections. 
+                 
+             
+             
+                 
+                     
+                         
+                             
+             
+                 
+                     
+                 
+             
+             
+                 
+                     
+                 
+             
+             
+                 
+                     
+                 
+             
+             
+                 
+                     
+                 
+             
+             
+                 
+                     
+                 
+             
+ 
+                             5 
+                         
+                         Great product. I used it to repair my lulzbot ... 
+                             
+                                Posted by colcec on 11th Apr 2019
+                             
+                     
+                     Great product. I used it to repair my lulzbot mini 3d printer, the wires going to the heated bed broke so I ran this flex wire and don't expect to see this problem again. 
+                 
+             
+             
+                 
+                     
+                         
+                             
+             
+                 
+                     
+                 
+             
+             
+                 
+                     
+                 
+             
+             
+                 
+                     
+                 
+             
+             
+                 
+                     
+                 
+             
+             
+                 
+                     
+                 
+             
+ 
+                             3 
+                         
+                         Three Stars 
+                             
+                                Posted by Rory McCormick on 2nd Jul 2018
+                             
+                     
+                     Good value 
+                 
+             
+             
+                 
+                     
+                         
+                             
+             
+                 
+                     
+                 
+             
+             
+                 
+                     
+                 
+             
+             
+                 
+                     
+                 
+             
+             
+                 
+                     
+                 
+             
+             
+                 
+                     
+                 
+             
+ 
+                             5 
+                         
+                         Awesome wire to use 
+                             
+                                Posted by MunchFPV on 25th May 2018
+                             
+                     
+                     Some of the best wire you can get and you can get it in a ton of different gauges and sizes. LOVE this wire, i use it on all my quadcopters battery leads and motor / esc connections. Cant beat the price for this kind of quality wire that can truly hold its current/amps, I will keep buying as usual. 
+                 
+             
+             
+                 
+                     
+                         
+                             
+             
+                 
+                     
+                 
+             
+             
+                 
+                     
+                 
+             
+             
+                 
+                     
+                 
+             
+             
+                 
+                     
+                 
+             
+             
+                 
+                     
+                 
+             
+ 
+                             5 
+                         
+                         Good wire all round 
+                             
+                                Posted by Randall E. Black on 18th Apr 2018
+                             
+                     
+                     Really good quality, reasonable price and quick shipping. 
+                 
+             
+             
+                 
+                     
+                         
+                             
+             
+                 
+                     
+                 
+             
+             
+                 
+                     
+                 
+             
+             
+                 
+                     
+                 
+             
+             
+                 
+                     
+                 
+             
+             
+                 
+                     
+                 
+             
+ 
+                             5 
+                         
+                         Very good silicone insulated wire 
+                             
+                                Posted by James A. on 23rd Feb 2018
+                             
+                     
+                     This is very good silicone insulated wire; resistance measurement confirms it is 18 AWG. The wire is marked "18 AWG" and "200 C" 
+                 
+             
+             
+                 
+                     
+                         
+                             
+             
+                 
+                     
+                 
+             
+             
+                 
+                     
+                 
+             
+             
+                 
+                     
+                 
+             
+             
+                 
+                     
+                 
+             
+             
+                 
+                     
+                 
+             
+ 
+                             5 
+                         
+                         Flexible wire 
+                             
+                                Posted by dnhoshor on 24th Jan 2018
+                             
+                     
+                     Really flexible wire. I used it to replace some stiff wire that couldn't hold up to the flexing. This wire fixed it. 
+                 
+             
+         
+         
+     
+
+     
+ 
+     
+ 
+                 
+     
+
+     
+    {
+        "@context": "https://schema.org/",
+        "@type": "Product",
+        "name": "BNTECHGO 18 Gauge Silicone Wire Kit: Ultra Flexible, 20 ft (Black and Red, Each Color 10 ft), High Temp 200°C, 600V, 18 AWG Silicone Wire, 150 Strands of Tinned Copper Wire, Stranded Wire, Stranded Wire for Model Battery",
+        "sku": "big-SW18G15008F10C2",
+        
+        
+        "url" : "https://bntechgo.com/bntechgo-18-gauge-silicone-wire-kit-ultra-flexible-20-ft-black-and-red-each-color-10-ft-high-temp-200-c-600v-18-awg-silicone-wire-150-strands-of-tinned-copper-wire-stranded-wire-stranded-wire-for-model-battery/",
+        "brand": {
+            "@type": "Brand",
+            "url": "https://bntechgo.com/bntechgo/",
+            "name": "BNTECHGO"
+        },
+        "description": "%E2%97%8F%2018%20Gauge%20silicone%20wire%20kit%3A%202%20colors%2C%20red%20and%20black%2C%20each%20color%2010%20ft%2C%20total%2020%20feet.%E2%97%8F%20They%20are%20constructed%20with%20premium%20silicone%20rubber%20insulation.%E2%97%8F%20Tinned%20copper%20wire%2C%20protecting%20it%20from%20corrosion%20and%20making%20it%20easier%20to%20solder.%E2%97%8F%20Two-color%20jacket%20for%20easy%20polarity%20identification.%0D%0A%0D%0ALong%20Life%20of%20Tinned%20Copper%20%E2%97%8F%20High%20strand%20count%20copper%20core%3B%2018%20AWG%20silicone%20stranded%20wire%20has%20150%20strands%20of%200.08%20mm%20tinned%20copper%20wire.%20The%20copper%20strands%20are%20tinned%2C%20protecting%20them%20from%20corrosion%20and%20making%20soldering%20easier.%20%E2%97%8F%20It%20adopts%20intertwist%20winding%20technology.%20The%20wires%20are%20tightly%20twisted%20together%20to%20reduce%20signal%20interference%20and%20improve%20conductivity.%20%E2%97%8F%20High-Quality%20Ultra%20Flexible%20Soft%20Silicone%20Rubber%20Copper%20Wire!%20Super%20Low%20Impedance%2C%20Highly%20Efficient!%0D%0A%0D%0AUltra%20FlexibleThey%20are%20constructed%20with%20premium%20silicone%20rubber%20insulation%2C%20strong%20toughness%2C%20and%20can%20be%20curled%20arbitrarily%20without%20easily%20breaking%2C%20suitable%20for%20various%20tasks.Security%20and%20ReliabilityWith%20uniform%20thickness%20and%20low%20eccentricity%2C%20they%20can%20effectively%20prevent%20current%20breakdown%20and%20ensure%20the%20safety%20of%20electricity%20use.Low%20Temperature%20ResistanceEven%20in%20winter%2C%20these%20wires%20remain%20soft.%20They%20can%20work%20normally%20even%20in%20extremely%20cold%20temperatures%20of%20-60%20degrees%20Celsius%20without%20affecting%20conductivity.High%20Temperature%20ResistanceConstructed%20with%20premium%20silicone%20rubber%20insulation%2C%20these%20wires%20possess%20flame%20retardant%20and%20insulating%20properties%2C%20with%20high%20temperature%20resistance%20up%20to%20200%20degrees%20Celsius.%0D%0A%0D%0AApplication%20Scenarios%E2%97%8F%20BNTECHGO%20silicone%20wire%20is%20widely%20used%20for%20model%20planes%2C%20model%20cars%2C%20model%20ships%2C%20batteries%2C%20lamps%2C%20household%20appliances%2C%20electric%20heating%20appliances%2C%20meters%2C%20instruments%2C%20motor%20lead%20wire%2C%20and%20digital%20fields.%0D%0A%0D%0AAvailable%20in%20the%20right%20gauge%20wire%20from%20thin%2030%20AWG%20to%20heavy-duty%204%20AWG%20silicone%20wire.%E2%97%8F%204%20AWG%20and%206%20AWG%20available%20in%202%20colors%20(Red%2C%20Black)%3B%E2%97%8F%208%20AWG%20and%2010%20AWG%20available%20in%207%20colors%20(Red%2C%20Black%2C%20Blue%2C%20Yellow%2C%20Green%2C%20White%2C%20and%20Orange)%3B%E2%97%8F%2012%20AWG%20and%2014%20AWG%20available%20in%2010%20colors%20(Red%2C%20Black%2C%20Blue%2C%20Yellow%2C%20Green%2C%20White%2C%20Brown%2C%20Purple%2C%20Orange%2C%20and%20Gray)%3B%E2%97%8F%2016%20AWG%20to%2030%20AWG%20available%20in%2011%20colors%20(Red%2C%20Black%2C%20Blue%2C%20Yellow%2C%20Green%2C%20White%2C%20Brown%2C%20Purple%2C%20Orange%2C%20Pink%2C%20and%20Gray).Our%20products%20have%20been%20highly%20praised%20by%20customers%20since%20they%20entered%20the%20market.%20With%20many%20specifications%20available%2C%20there%20will%20always%20be%20one%20that%20meets%20your%20needs.Shipping%E2%97%8F%20Please%20allow%202-7%20business%20days%20for%20the%20item%20to%20arrive%20(depending%20on%20the%20parcel's%20destination).%0D%0A%0D%0A%0D%0A%0D%0A%26nbsp%3B%0D%0A%0D%0A%0D%0A%0D%0A%0D%0A%0D%0A%0D%0A%0D%0A%0D%0A%26nbsp%3B%0D%0A6%20Gauge%20Silicone%20Wire%0D%0A8%20Gauge%20Silicone%20Wire%0D%0A10%20Gauge%20Silicone%20Wire%0D%0A12%20Gauge%20Silicone%20Wire%0D%0A14%20Gauge%20Silicone%20Wire%0D%0A16%20Gauge%20Silicone%20Wire%0D%0A%0D%0A%0D%0AColour%0D%0ARed%20And%20Black%0D%0ARed%20And%20Black%0D%0ARed%20And%20Black%0D%0ARed%20And%20Black%0D%0ARed%20And%20Black%0D%0ARed%20And%20Black%0D%0A%0D%0A%0D%0ASize%0D%0AEach%20Color%2010ft%0D%0AEach%20Color%2010ft%0D%0AEach%20Color%2010ft%0D%0AEach%20Color%2010ft%0D%0AEach%20Color%2010ft%0D%0AEach%20Color%2010ft%0D%0A%0D%0A%0D%0A%26nbsp%3B%0D%0A%0D%0A%0D%0A%0D%0A%0D%0A%0D%0A%0D%0A%0D%0A%0D%0A%26nbsp%3B%0D%0A20%20Gauge%20Silicone%20Wire%0D%0A22%20Gauge%20Silicone%20Wire%0D%0A24%20Gauge%20Silicone%20Wire%0D%0A26%20Gauge%20Silicone%20Wire%0D%0A28%20Gauge%20Silicone%20Wire%0D%0A30%20Gauge%20Silicone%20Wire%0D%0A%0D%0A%0D%0AColour%0D%0ARed%20And%20Black%0D%0ARed%20And%20Black%0D%0ARed%20And%20Black%0D%0ARed%20And%20Black%0D%0ARed%20And%20Black%0D%0ARed%20And%20Black%0D%0A%0D%0A%0D%0ASize%0D%0AEach%20Color%2050ft%0D%0AEach%20Color%2050ft%0D%0AEach%20Color%2050ft%0D%0AEach%20Color%2025ft%0D%0AEach%20Color%2025ft%0D%0AEach%20Color%2025ft",
+        "image": "https://cdn11.bigcommerce.com/s-clng77kigt/images/stencil/1280x1280/products/846/16394/18_gauge_silicone_wire_F5C2_1__13051.1560917364.jpg?c=2",
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "5",
+            "reviewCount": "9"
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "author": {
+                    "@type": "Person",
+                    "name": "Elizabeth"
+                },
+                "datePublished": "30th Dec 2020",
+                "reviewBody": "Good product as described. Fast delivery.",
+                "name": "Good product as described. Fast delivery.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "bestRating": "5",
+                    "ratingValue": "5",
+                    "worstRating": "1"
+                }
+            },
+            {
+                "@type": "Review",
+                "author": {
+                    "@type": "Person",
+                    "name": "mr engineer"
+                },
+                "datePublished": "4th Jun 2019",
+                "reviewBody": "works well in speaker enclosures, no rattle",
+                "name": "very flexible, good wire",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "bestRating": "5",
+                    "ratingValue": "5",
+                    "worstRating": "1"
+                }
+            },
+            {
+                "@type": "Review",
+                "author": {
+                    "@type": "Person",
+                    "name": "S. Martin"
+                },
+                "datePublished": "17th May 2019",
+                "reviewBody": "This is great wire. I used it to make a wiring harness to distribute power to a string of LED light fixtures. The silicone insulation survives the high temperatures of soldering and heat-shrinking very nicely. It's also easy to cut and peel off for making tap-off connections.",
+                "name": "Great for making a wiring harness",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "bestRating": "5",
+                    "ratingValue": "5",
+                    "worstRating": "1"
+                }
+            },
+            {
+                "@type": "Review",
+                "author": {
+                    "@type": "Person",
+                    "name": "colcec"
+                },
+                "datePublished": "11th Apr 2019",
+                "reviewBody": "Great product. I used it to repair my lulzbot mini 3d printer, the wires going to the heated bed broke so I ran this flex wire and don't expect to see this problem again.",
+                "name": "Great product. I used it to repair my lulzbot ...",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "bestRating": "5",
+                    "ratingValue": "5",
+                    "worstRating": "1"
+                }
+            },
+            {
+                "@type": "Review",
+                "author": {
+                    "@type": "Person",
+                    "name": "Rory McCormick"
+                },
+                "datePublished": "2nd Jul 2018",
+                "reviewBody": "Good value",
+                "name": "Three Stars",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "bestRating": "5",
+                    "ratingValue": "3",
+                    "worstRating": "1"
+                }
+            },
+            {
+                "@type": "Review",
+                "author": {
+                    "@type": "Person",
+                    "name": "MunchFPV"
+                },
+                "datePublished": "25th May 2018",
+                "reviewBody": "Some of the best wire you can get and you can get it in a ton of different gauges and sizes. LOVE this wire, i use it on all my quadcopters battery leads and motor \u002f esc connections. Cant beat the price for this kind of quality wire that can truly hold its current\u002famps, I will keep buying as usual.",
+                "name": "Awesome wire to use",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "bestRating": "5",
+                    "ratingValue": "5",
+                    "worstRating": "1"
+                }
+            },
+            {
+                "@type": "Review",
+                "author": {
+                    "@type": "Person",
+                    "name": "Randall E. Black"
+                },
+                "datePublished": "18th Apr 2018",
+                "reviewBody": "Really good quality, reasonable price and quick shipping.",
+                "name": "Good wire all round",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "bestRating": "5",
+                    "ratingValue": "5",
+                    "worstRating": "1"
+                }
+            },
+            {
+                "@type": "Review",
+                "author": {
+                    "@type": "Person",
+                    "name": "James A."
+                },
+                "datePublished": "23rd Feb 2018",
+                "reviewBody": "This is very good silicone insulated wire; resistance measurement confirms it is 18 AWG. The wire is marked "18 AWG" and "200 C"",
+                "name": "Very good silicone insulated wire",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "bestRating": "5",
+                    "ratingValue": "5",
+                    "worstRating": "1"
+                }
+            },
+            {
+                "@type": "Review",
+                "author": {
+                    "@type": "Person",
+                    "name": "dnhoshor"
+                },
+                "datePublished": "24th Jan 2018",
+                "reviewBody": "Really flexible wire. I used it to replace some stiff wire that couldn't hold up to the flexing. This wire fixed it.",
+                "name": "Flexible wire",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "bestRating": "5",
+                    "ratingValue": "5",
+                    "worstRating": "1"
+                }
+            }
+        ],
+        "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "9.48",
+            "itemCondition" : "https://schema.org/NewCondition",
+            "availability" : "https://schema.org/InStock",
+            "url" : "https://bntechgo.com/bntechgo-18-gauge-silicone-wire-kit-ultra-flexible-20-ft-black-and-red-each-color-10-ft-high-temp-200-c-600v-18-awg-silicone-wire-150-strands-of-tinned-copper-wire-stranded-wire-stranded-wire-for-model-battery/",
+            "priceValidUntil": "2027-10-14"
+        }
+    }
+ 
+
+     
+     
+     
+     Close 
+     × 
+ 
+      
+      
+ 
+     
+            
+
+      
+
+      OK  
+ 
+ 
+        
+     
+         
+             Newsletter Signup 
+
+ 
+     
+         
+         
+         
+         
+             Email Address 
+             
+                 
+                       
+                 
+                 
+                 
+             
+         
+     
+ 
+         
+     
+                    
+ 
+     Footer Start 
+     
+         
+             
+                 
+                    Categories
+                     
+                           
+                     
+                 
+                 
+                         
+                             Customized silicone cable 
+                         
+                         
+                             Silicone Wire 
+                         
+                         
+                             Parallel Silicone Wire 
+                         
+                         
+                             Silicone Ribbon Cable 
+                         
+                         
+                             PVC Wire 
+                         
+                         
+                             Magnet Wire 
+                         
+                         
+                             FEP Teflon Wire 
+                         
+                         
+                             Multicore Silicone Wire 
+                         
+                         
+                             Wholesale 
+                         
+                 
+             
+
+             
+                 
+                    Information
+                     
+                           
+                     
+                 
+                 
+                         
+                             Contact Us & Returns 
+                         
+                         
+                             Blog 
+                         
+                         
+                             Our Amazon Store: BNTECHGO 
+                         
+                     
+                         Sitemap 
+                     
+                 
+             
+        
+                 
+                     
+                        Brands
+                         
+                               
+                         
+                     
+                     
+                             
+                                 BNTECHGO 
+                             
+                          View All  
+                     
+                 
+            
+                 
+                     Follow Us 
+                         
+             
+                 
+                       
+                 
+             
+             
+                 
+                       
+                 
+             
+             
+                 
+                       
+                 
+             
+             
+                 
+                       
+                 
+             
+     
+                 
+            
+                 
+                     BNTECHGO 
+                     235 East Broadway, Suite 414, 
+Long Beach, CA, 90802 
+                         
+                             
+                                   
+                             
+                             562 620 5156 
+                         
+                 
+         
+         
+                 
+            
+            
+            
+            
+            
+            
+            
+            
+            
+     
+                 © 2026 BNTECHGO  
+         
+        
+     
+      
+ 
+
+         window.__webpack_public_path__ = "https://cdn11.bigcommerce.com/s-clng77kigt/stencil/fca74150-f0a6-013d-e67b-2e9e31b90141/e/9b373b00-b5ff-0138-99d6-0242ac11000e/dist/"; 
+         
+            function onThemeBundleMain() {
+                window.stencilBootstrap("product", "{\"breadcrumbs\":[{\"url\":\"https://bntechgo.com/\",\"name\":\"Home\"},{\"url\":\"https://bntechgo.com/silicone-wire/\",\"name\":\"Silicone Wire\"},{\"url\":\"https://bntechgo.com/silicone-wire/18-gauge-silicone-wire/\",\"name\":\"18 Gauge Silicone Wire\"},{\"url\":\"https://bntechgo.com/bntechgo-18-gauge-silicone-wire-kit-ultra-flexible-20-ft-black-and-red-each-color-10-ft-high-temp-200-c-600v-18-awg-silicone-wire-150-strands-of-tinned-copper-wire-stranded-wire-stranded-wire-for-model-battery/\",\"name\":\"BNTECHGO 18 Gauge Silicone Wire Kit: Ultra Flexible, 20 ft (Black and Red, Each Color 10 ft), High Temp 200°C, 600V, 18 AWG Silicone Wire, 150 Strands of Tinned Copper Wire, Stranded Wire, Stranded Wire for Model Battery\"}],\"productId\":846,\"skuId\":\"big-SW18G15008F10C2\",\"productTitle\":\"BNTECHGO 18 Gauge Silicone Wire Kit: Ultra Flexible, 20 ft (Black and Red, Each Color 10 ft), High Temp 200°C, 600V, 18 AWG Silicone Wire, 150 Strands of Tinned Copper Wire, Stranded Wire, Stranded Wire for Model Battery\",\"productCurrencyWithoutTax\":\"USD\",\"productPriceWithoutTax\":9.48,\"products\":[],\"phone\":null,\"email\":null,\"zoomSize\":\"1280x1280\",\"productSize\":\"760x760\",\"genericError\":\"Oops! Something went wrong.\",\"maintenanceModeSettings\":[],\"adminBarLanguage\":\"{\\\"locale\\\":\\\"en\\\",\\\"locales\\\":{\\\"admin.maintenance_header\\\":\\\"en\\\",\\\"admin.maintenance_tooltip\\\":\\\"en\\\",\\\"admin.maintenance_showstore_link\\\":\\\"en\\\",\\\"admin.prelaunch_header\\\":\\\"en\\\",\\\"admin.page_builder_link\\\":\\\"en\\\"},\\\"translations\\\":{\\\"admin.maintenance_header\\\":\\\"Your store is down for maintenance.\\\",\\\"admin.maintenance_tooltip\\\":\\\"Only administrators can view the store at the moment. Visit your control panel settings page to disable maintenance mode.\\\",\\\"admin.maintenance_showstore_link\\\":\\\"Click here to see what your visitors will see.\\\",\\\"admin.prelaunch_header\\\":\\\"Your storefront is private. Share your site with preview code:\\\",\\\"admin.page_builder_link\\\":\\\"Design this page in Page Builder\\\"}}\",\"urls\":{\"home\":\"https://bntechgo.com/\",\"brands\":\"https://bntechgo.com/brands/\",\"search\":\"https://bntechgo.com/search.php\",\"compare\":\"https://bntechgo.com/compare\",\"sitemap\":\"https://bntechgo.com/sitemap.php\",\"contact_us_submit\":\"https://bntechgo.com/pages.php?action=sendContactForm\",\"subscribe\":{\"action\":\"https://bntechgo.com/subscribe.php\"},\"checkout\":{\"single_address\":\"https://bntechgo.com/checkout\",\"multiple_address\":\"https://bntechgo.com/checkout.php?action=multiple\"},\"account\":{\"orders\":{\"all\":\"https://bntechgo.com/account.php?action=order_status\",\"completed\":\"https://bntechgo.com/account.php?action=view_orders\",\"save_new_return\":\"https://bntechgo.com/account.php?action=save_new_return\"},\"returns\":\"https://bntechgo.com/account.php?action=view_returns\",\"addresses\":\"https://bntechgo.com/account.php?action=address_book\",\"inbox\":\"https://bntechgo.com/account.php?action=inbox\",\"send_message\":\"https://bntechgo.com/account.php?action=send_message\",\"add_address\":\"https://bntechgo.com/account.php?action=add_shipping_address\",\"update_action\":\"https://bntechgo.com/account.php?action=update_account\",\"details\":\"https://bntechgo.com/account.php?action=account_details\",\"recent_items\":\"https://bntechgo.com/account.php?action=recent_items\",\"index\":\"https://bntechgo.com/account.php\",\"wishlists\":{\"all\":\"https://bntechgo.com/wishlist.php\",\"add\":\"https://bntechgo.com/wishlist.php?action=addwishlist\",\"edit\":\"https://bntechgo.com/wishlist.php?action=editwishlist\",\"delete\":\"https://bntechgo.com/wishlist.php?action=deletewishlist\"},\"payment_methods\":{\"all\":\"https://bntechgo.com/account.php?action=payment_methods\"}},\"auth\":{\"login\":\"https://bntechgo.com/login.php\",\"check_login\":\"https://bntechgo.com/login.php?action=check_login\",\"create_account\":\"https://bntechgo.com/login.php?action=create_account\",\"save_new_account\":\"https://bntechgo.com/login.php?action=save_new_account\",\"forgot_password\":\"https://bntechgo.com/login.php?action=reset_password\",\"send_password_email\":\"https://bntechgo.com/login.php?action=send_password_email\",\"save_new_password\":\"https://bntechgo.com/login.php?action=save_new_password\",\"logout\":\"https://bntechgo.com/login.php?action=logout\"},\"cart\":\"https://bntechgo.com/cart.php\",\"product\":{\"post_review\":\"https://bntechgo.com/postreview.php\"},\"gift_certificate\":{\"purchase\":\"https://bntechgo.com/giftcertificates.php\",\"redeem\":\"https://bntechgo.com/giftcertificates.php?action=redeem\",\"balance\":\"https://bntechgo.com/giftcertificates.php?action=balance\"},\"rss\":{\"products\":[]}},\"secureBaseUrl\":\"https://bntechgo.com\",\"cartId\":null,\"channelId\":1,\"template\":\"pages/product\",\"validationDictionaryJSON\":\"{\\\"locale\\\":\\\"en\\\",\\\"locales\\\":{\\\"validation_messages.valid_email\\\":\\\"en\\\",\\\"validation_messages.password\\\":\\\"en\\\",\\\"validation_messages.password_match\\\":\\\"en\\\",\\\"validation_messages.invalid_password\\\":\\\"en\\\",\\\"validation_messages.field_not_blank\\\":\\\"en\\\",\\\"validation_messages.certificate_amount\\\":\\\"en\\\",\\\"validation_messages.certificate_amount_range\\\":\\\"en\\\",\\\"validation_messages.price_min_evaluation\\\":\\\"en\\\",\\\"validation_messages.price_max_evaluation\\\":\\\"en\\\",\\\"validation_messages.price_min_not_entered\\\":\\\"en\\\",\\\"validation_messages.price_max_not_entered\\\":\\\"en\\\",\\\"validation_messages.price_invalid_value\\\":\\\"en\\\",\\\"validation_messages.invalid_gift_certificate\\\":\\\"en\\\"},\\\"translations\\\":{\\\"validation_messages.valid_email\\\":\\\"You must enter a valid email.\\\",\\\"validation_messages.password\\\":\\\"You must enter a password.\\\",\\\"validation_messages.password_match\\\":\\\"Your passwords do not match.\\\",\\\"validation_messages.invalid_password\\\":\\\"Passwords must be at least 7 characters and contain both alphabetic and numeric characters.\\\",\\\"validation_messages.field_not_blank\\\":\\\" field cannot be blank.\\\",\\\"validation_messages.certificate_amount\\\":\\\"You must enter a gift certificate amount.\\\",\\\"validation_messages.certificate_amount_range\\\":\\\"You must enter a certificate amount between [MIN] and [MAX]\\\",\\\"validation_messages.price_min_evaluation\\\":\\\"Min. price must be less than max. price.\\\",\\\"validation_messages.price_max_evaluation\\\":\\\"Min. price must be less than max. price.\\\",\\\"validation_messages.price_min_not_entered\\\":\\\"Min. price is required.\\\",\\\"validation_messages.price_max_not_entered\\\":\\\"Max. price is required.\\\",\\\"validation_messages.price_invalid_value\\\":\\\"Input must be greater than 0.\\\",\\\"validation_messages.invalid_gift_certificate\\\":\\\"Please enter your valid certificate code.\\\"}}\",\"validationFallbackDictionaryJSON\":\"{\\\"locale\\\":\\\"en\\\",\\\"locales\\\":{\\\"validation_fallback_messages.valid_email\\\":\\\"en\\\",\\\"validation_fallback_messages.password\\\":\\\"en\\\",\\\"validation_fallback_messages.password_match\\\":\\\"en\\\",\\\"validation_fallback_messages.invalid_password\\\":\\\"en\\\",\\\"validation_fallback_messages.field_not_blank\\\":\\\"en\\\",\\\"validation_fallback_messages.certificate_amount\\\":\\\"en\\\",\\\"validation_fallback_messages.certificate_amount_range\\\":\\\"en\\\",\\\"validation_fallback_messages.price_min_evaluation\\\":\\\"en\\\",\\\"validation_fallback_messages.price_max_evaluation\\\":\\\"en\\\",\\\"validation_fallback_messages.price_min_not_entered\\\":\\\"en\\\",\\\"validation_fallback_messages.price_max_not_entered\\\":\\\"en\\\",\\\"validation_fallback_messages.price_invalid_value\\\":\\\"en\\\",\\\"validation_fallback_messages.invalid_gift_certificate\\\":\\\"en\\\"},\\\"translations\\\":{\\\"validation_fallback_messages.valid_email\\\":\\\"You must enter a valid email.\\\",\\\"validation_fallback_messages.password\\\":\\\"You must enter a password.\\\",\\\"validation_fallback_messages.password_match\\\":\\\"Your passwords do not match.\\\",\\\"validation_fallback_messages.invalid_password\\\":\\\"Passwords must be at least 7 characters and contain both alphabetic and numeric characters.\\\",\\\"validation_fallback_messages.field_not_blank\\\":\\\" field cannot be blank.\\\",\\\"validation_fallback_messages.certificate_amount\\\":\\\"You must enter a gift certificate amount.\\\",\\\"validation_fallback_messages.certificate_amount_range\\\":\\\"You must enter a certificate amount between [MIN] and [MAX]\\\",\\\"validation_fallback_messages.price_min_evaluation\\\":\\\"Min. price must be less than max. price.\\\",\\\"validation_fallback_messages.price_max_evaluation\\\":\\\"Min. price must be less than max. price.\\\",\\\"validation_fallback_messages.price_min_not_entered\\\":\\\"Min. price is required.\\\",\\\"validation_fallback_messages.price_max_not_entered\\\":\\\"Max. price is required.\\\",\\\"validation_fallback_messages.price_invalid_value\\\":\\\"Input must be greater than 0.\\\",\\\"validation_fallback_messages.invalid_gift_certificate\\\":\\\"Please enter your valid certificate code.\\\"}}\",\"validationDefaultDictionaryJSON\":\"{\\\"locale\\\":\\\"en\\\",\\\"locales\\\":{\\\"validation_default_messages.valid_email\\\":\\\"en\\\",\\\"validation_default_messages.password\\\":\\\"en\\\",\\\"validation_default_messages.password_match\\\":\\\"en\\\",\\\"validation_default_messages.invalid_password\\\":\\\"en\\\",\\\"validation_default_messages.field_not_blank\\\":\\\"en\\\",\\\"validation_default_messages.certificate_amount\\\":\\\"en\\\",\\\"validation_default_messages.certificate_amount_range\\\":\\\"en\\\",\\\"validation_default_messages.price_min_evaluation\\\":\\\"en\\\",\\\"validation_default_messages.price_max_evaluation\\\":\\\"en\\\",\\\"validation_default_messages.price_min_not_entered\\\":\\\"en\\\",\\\"validation_default_messages.price_max_not_entered\\\":\\\"en\\\",\\\"validation_default_messages.price_invalid_value\\\":\\\"en\\\",\\\"validation_default_messages.invalid_gift_certificate\\\":\\\"en\\\"},\\\"translations\\\":{\\\"validation_default_messages.valid_email\\\":\\\"You must enter a valid email.\\\",\\\"validation_default_messages.password\\\":\\\"You must enter a password.\\\",\\\"validation_default_messages.password_match\\\":\\\"Your passwords do not match.\\\",\\\"validation_default_messages.invalid_password\\\":\\\"Passwords must be at least 7 characters and contain both alphabetic and numeric characters.\\\",\\\"validation_default_messages.field_not_blank\\\":\\\"The field cannot be blank.\\\",\\\"validation_default_messages.certificate_amount\\\":\\\"You must enter a gift certificate amount.\\\",\\\"validation_default_messages.certificate_amount_range\\\":\\\"You must enter a certificate amount between [MIN] and [MAX]\\\",\\\"validation_default_messages.price_min_evaluation\\\":\\\"Min. price must be less than max. price.\\\",\\\"validation_default_messages.price_max_evaluation\\\":\\\"Min. price must be less than max. price.\\\",\\\"validation_default_messages.price_min_not_entered\\\":\\\"Min. price is required.\\\",\\\"validation_default_messages.price_max_not_entered\\\":\\\"Max. price is required.\\\",\\\"validation_default_messages.price_invalid_value\\\":\\\"Input must be greater than 0.\\\",\\\"validation_default_messages.invalid_gift_certificate\\\":\\\"Please enter your valid certificate code.\\\"}}\",\"carouselArrowAndDotAriaLabel\":\"Go to slide [SLIDE_NUMBER] of [SLIDES_QUANTITY]\",\"carouselActiveDotAriaLabel\":\"active\",\"carouselContentAnnounceMessage\":\"You are currently on slide [SLIDE_NUMBER] of [SLIDES_QUANTITY]\",\"reviewRating\":\"The 'Rating' field cannot be blank.\",\"reviewSubject\":\"The 'Review Subject' field cannot be blank.\",\"reviewComment\":\"The 'Comments' field cannot be blank.\",\"reviewEmail\":\"Please use a valid email address, such as user@example.com.\",\"showSwatchNames\":true,\"productQuantityErrorMessage\":\"The quantity should contain only numbers\"}").load();
+            }
+         
+          
+
+          
+       
+   
+ 
+ 
+ 
+document.querySelectorAll('[data-cart-item-add]').forEach(form => form.addEventListener('submit', (event) => {
+  event.preventDefault();
+  const formData = new FormData(event.target);
+  let productId, productQty;
+  for (const pair of formData.entries()) {
+    if (pair[0] === 'product_id') {
+      productId = pair[1];
+    } else if (pair[0] === 'qty[]') {
+      productQty = pair[1];
+    }
+  }
+  var phoneNumber = ''
+  var email = ''
+  if (BODL.phone) {
+    var phoneNumber = BODL.phone;
+    if (BODL.phone.indexOf('+') === -1) {
+   // No country code, so default to US code
+        phoneNumber = `+1${phoneNumber}`;  
+    }
+  }
+
+  if (BODL.email) {
+    var email = BODL.email
+  }
+  
+  ttq.instance('CDUAG1JC77UF6OITLRBG').identify({
+    email: email,
+    phone_number: phoneNumber})
+
+  // References:
+  // https://developer.bigcommerce.com/theme-objects/product
+  // https://developer.bigcommerce.com/stencil-docs/developing-further/catalog-price-object
+  var productPrice = 0
+  var productCurrency = ""
+  if (BODL.productCurrencyWithoutTax && BODL.productCurrencyWithoutTax !== "") {
+    productPrice = BODL.productPriceWithoutTax
+    productCurrency = BODL.productCurrencyWithoutTax
+  }
+  if (BODL.productCurrencyWithTax && BODL.productCurrencyWithTax !== "") {
+    productPrice = BODL.productPriceWithTax
+    productCurrency = BODL.productCurrencyWithTax
+  }
+  
+  //default contentId to productId if sku_id is not found on product 
+  var contentID = BODL.productId
+  if (BODL.skuId && BODL.skuId !== "") {
+    contentID = BODL.skuId
+  }
+  
+  ttq.instance('CDUAG1JC77UF6OITLRBG').track('AddToCart', {
+    content_id: contentID,
+    content_category: BODL.breadcrumbs[1] ? BODL.breadcrumbs[1].name : '',
+    content_type: 'product_group',
+    content_name: BODL.product.title,
+    quantity: productQty,
+    price: productPrice,
+    value: (productPrice * productQty),
+    currency: productCurrency,
+  });
+}));
+
+if (BODL.cartItemAdded) {
+  var cartItemContentId = BODL.cartItemAdded.product_id
+  if (BODL.cartItemAdded.sku && BODL.cartItemAdded.sku !== "") {
+    cartItemContentId = BODL.cartItemAdded.sku
+  }
+  ttq.instance('CDUAG1JC77UF6OITLRBG').track('AddToCart', {
+    content_id: cartItemContentId,
+    content_type: 'product_group',
+    content_name: BODL.cartItemAdded.name,
+    quantity: BODL.cartItemAdded.quantity,
+    price: BODL.cartItemAdded.price.value,
+    value: BODL.cartItemAdded.total.value,
+    currency: BODL.cartItemAdded.price.currency,
+  });
+}
+ 
+ 
+
+     window.__CF$cv$params={r:'a4a854d0ad8c9ef0',t:'MTc5MTk5OTIyOQ==',u:'01a13b7a4191748fb22ff6aa169c7c1f',ut:'J3AvJNvd77iC6CDIbHjsC45Eidnr2ZU3c.hMFF31c1E-1791999230-1.2.1.1-HGLI9s03Lau84MQ_BaN_2ZbeT4aPO3oGpXBvxulmhqQeyE7USEi02lipDs3Lwo1VTYgsh8lV5qCKocW0mJ9X6ADJSgsThO2qmk_DYvdtx2c',i:60};(function(){if(!document.body)return;var s=document.createElement('script');s.src='/cdn-cgi/challenge-platform/scripts/precursor/main.js';document.head.appendChild(s);})();  
+ 

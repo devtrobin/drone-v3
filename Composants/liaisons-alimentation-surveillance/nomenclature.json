@@ -1,0 +1,237 @@
+{
+  "date": "2026-10-14",
+  "parts": [
+    {
+      "id": "wago-221-413",
+      "ref": "WAGO 221-413 - trois entrées, un potentiel",
+      "qty": 2,
+      "unit": "pièce",
+      "price": 0.75,
+      "currency": "EUR",
+      "tax": "TTC affiché GoTronic, hors livraison",
+      "buy": "https://www.gotronic.fr/cat-bornes-de-connexion-wago-0-5-a-2-5-mm2.htm",
+      "maker": "https://www.wago.com/221-413",
+      "query": "WAGO 221-413",
+      "stock": "En stock affiché sur catalogue GoTronic du14/10 ; offre Amazon exacte non confirmée.",
+      "scope": "Deux bornes : une pour 5 V (1 entrée 18 AWG + 2 sorties GPIO 22 AWG) ; une pour 6 V BEC (2 fils, une place libre).",
+      "role": "Répartir 5 V et connecter le BEC unique au servo. Aucune connexion entre ces deux potentiels.",
+      "cotes": [
+        [
+          "Enveloppe retenue",
+          "18,8 x 18,6 x 8,4",
+          "Plan WAGO FR version24.07.2025"
+        ],
+        [
+          "Dénudage",
+          "11",
+          "Notice WAGO"
+        ],
+        [
+          "Cuivre fin",
+          "0,14-4 mm² / AWG24-12",
+          "Fiche WAGO"
+        ],
+        [
+          "Courant de référence",
+          "32 A IEC ; 20 A UL groupe C",
+          "Conditions différentes, non interchangeables"
+        ],
+        [
+          "Ancienne fiche Inde2021",
+          "18,8 x18,8 x8,6",
+          "Discordance conservée, pas mélangée à la CAO"
+        ]
+      ],
+      "amazon_search": "https://www.amazon.fr/s?k=WAGO+221-413",
+      "amazon_FR_verified": false
+    },
+    {
+      "id": "wago-221-415",
+      "ref": "WAGO 221-415 - cinq entrées, un potentiel",
+      "qty": 1,
+      "unit": "pièce",
+      "price": 1.2,
+      "currency": "EUR",
+      "tax": "TTC affiché GoTronic, hors livraison",
+      "buy": "https://www.gotronic.fr/cat-bornes-de-connexion-wago-0-5-a-2-5-mm2.htm",
+      "maker": "https://www.wago.com/221-415",
+      "query": "WAGO 221-415",
+      "stock": "En stock affiché sur catalogue GoTronic du14/10 ; offre Amazon exacte non confirmée.",
+      "scope": "1 entrée GND 18 AWG du régulateur + 4 sorties GND 22 AWG vers les broches physiques6,9,14,20.",
+      "role": "Retour d’alimentation Pi uniquement ; masses ESC signal et servo documentées séparément.",
+      "cotes": [
+        [
+          "Enveloppe",
+          "30 x 18,6 x 8,4",
+          "Plan WAGO29.09.2024"
+        ],
+        [
+          "Dénudage",
+          "11",
+          "Notice WAGO"
+        ],
+        [
+          "Nombre de potentiels",
+          "1",
+          "Les cinq ports sont reliés entre eux"
+        ],
+        [
+          "Masse",
+          "4 g",
+          "Fiche WAGO ; lot à mesurer"
+        ]
+      ],
+      "amazon_search": "https://www.amazon.fr/s?k=WAGO+221-415",
+      "amazon_FR_verified": false
+    },
+    {
+      "id": "jst-xh-3",
+      "ref": "JST B3B-XH-A(LF)(SN), XHP-3 et SXH-001T-P0.6",
+      "qty": 1,
+      "unit": "embase à réserver",
+      "price": null,
+      "currency": "EUR",
+      "tax": "Non relevé",
+      "buy": "https://www.jst.fr/fr/produit/xh_224",
+      "maker": "https://www.jst-mfg.com/product/index.php?series=277",
+      "query": "JST B3B-XH-A XHP-3 SXH-001T-P0.6",
+      "stock": "Embase choisie pour l’étude ; prix et conditionnement français non confirmés.",
+      "scope": "1 embase B3B-XH-A pour future surveillance. Le boîtier XHP-3 et ses3contacts sont des références de famille / CAO ; pas d’achat en plus si déjà inclus dans la rallonge.",
+      "role": "Interface mécanique de mesure2S ; attribution B0/B1/B2 et protections de la carte reportées avec schéma/routage.",
+      "cotes": [
+        [
+          "Pas",
+          "2,50",
+          "JST officiel, pas2,54"
+        ],
+        [
+          "XHP-3",
+          "9,8 x5,7 x7,5",
+          "JST p.4 ; lèvre0,25 visible"
+        ],
+        [
+          "B3B-XH-A",
+          "9,9 x5,75 x7 ; queues3,4",
+          "JST p.5, sans bossage"
+        ],
+        [
+          "Pins / portée",
+          "Carré0,64 ; entraxe5,0",
+          "JST p.5"
+        ],
+        [
+          "Contact SXH-001T-P0.6",
+          "6,1 x2,4 x1,95, développé simplifié",
+          "JST p.3 formeB ; détails de ressort estimés"
+        ],
+        [
+          "Courant / fils",
+          "3 A à22AWG ;22-28AWG pour ce contact",
+          "JST, pas applicable à un clone sans preuve"
+        ]
+      ],
+      "amazon_search": "https://www.amazon.fr/s?k=JST+B3B-XH-A+XHP-3+SXH-001T-P0.6",
+      "amazon_FR_verified": false
+    },
+    {
+      "id": "rallonge-equilibrage-2s",
+      "ref": "INTERMODEL 3-RAL2S - rallonge JST-XH 2S",
+      "qty": 1,
+      "unit": "cordon",
+      "price": 1.4,
+      "currency": "EUR",
+      "tax": "TTC affiché, hors port",
+      "buy": "https://www.intermodel.fr/cordons-et-prises-de-charge/548-rallonge-pour-prise-equilibrage-2s-intermodel-rallonge-2s-rallonge-prise-equilibrage-2s.html",
+      "maker": "https://www.intermodel.fr/cordons-et-prises-de-charge/548-rallonge-pour-prise-equilibrage-2s-intermodel-rallonge-2s-rallonge-prise-equilibrage-2s.html",
+      "query": "rallonge equilibrage JST XH 2S 3 broches 20cm",
+      "stock": "Disponible, dernières pièces affichées. Amazon exact non confirmé.",
+      "scope": "1 cordon de20cm,3positions, typeXH annoncé. Calibre, diamètre gaine et origine JST des contacts non publiés.",
+      "role": "Relier la prise batterie à l’embase de mesure, après contrôle du type et de l’ordre des cellules. Prise mâle en bout de cordon reconstruite, ce n’est pas une référence JST mâle à sertir.",
+      "cotes": [
+        [
+          "Longueur",
+          "200",
+          "Annonce INTERMODEL ; convention de mesure non précisée"
+        ],
+        [
+          "Positions",
+          "3",
+          "Annonce pour2S"
+        ],
+        [
+          "Gaine / âme CAO",
+          "Ø1,5 / section0,326 mm²",
+          "Hypothèse visuelle22AWG, non donnée fabricant du cordon"
+        ],
+        [
+          "Connecteurs CAO",
+          "FamilleXH + protection arrière estimée",
+          "Pas de CAO native propre au cordon disponible"
+        ]
+      ],
+      "amazon_search": "https://www.amazon.fr/s?k=rallonge+equilibrage+JST+XH+2S+3+broches+20cm",
+      "amazon_FR_verified": false
+    },
+    {
+      "id": "fil-18awg",
+      "ref": "BNTECHGO big-SW18G15008F10C2 - 18 AWG rouge/noir",
+      "qty": 1,
+      "unit": "lot 3,048m par couleur",
+      "price": 9.48,
+      "currency": "USD",
+      "tax": "Prix fabricant sans taxes/import/port France confirmés",
+      "buy": "https://bntechgo.com/bntechgo-18-gauge-silicone-wire-kit-ultra-flexible-20-ft-black-and-red-each-color-10-ft-high-temp-200-c-600v-18-awg-silicone-wire-150-strands-of-tinned-copper-wire-stranded-wire-stranded-wire-for-model-battery/",
+      "maker": "https://bntechgo.com/bntechgo-18-gauge-silicone-wire-kit-ultra-flexible-20-ft-black-and-red-each-color-10-ft-high-temp-200-c-600v-18-awg-silicone-wire-150-strands-of-tinned-copper-wire-stranded-wire-stranded-wire-for-model-battery/",
+      "query": "BNTECHGO 18 AWG rouge noir 10ft 150 brins",
+      "stock": "Achat proposé sur site fabricant ; offre Amazon.fr exacte non confirmée.",
+      "scope": "Deux fils séparés18AWG ;150brins Ø0,08 ; cuivre étamé, silicone. Représentation courte pour lecture, pas une bobine vendue de30mm.",
+      "role": "VOUT et GND régulateur vers bornes5V/GND ; provision0,20m par couleur avant implantation. Connexion grands pads à qualifier.",
+      "cotes": [
+        [
+          "Brins",
+          "150 x Ø0,08",
+          "Fabricant"
+        ],
+        [
+          "Section de brins calculée",
+          "0,754 mm²",
+          "150π0,08²/4 ; inférieur au nominalAWG18≈0,823"
+        ],
+        [
+          "Diamètre isolant",
+          "2,3",
+          "Image technique fabricant ; à confirmer à réception"
+        ],
+        [
+          "Longueur livrée",
+          "3 048 par couleur",
+          "10ft chacune"
+        ],
+        [
+          "Courant",
+          "5 A étudePi",
+          "Aucune capacité continue de ce lot validée dans le robot"
+        ],
+        [
+          "Faisceau / résistance",
+          "Ø1,13 /22,98 Ω/km",
+          "Image technique BNTECHGO, conditions de résistance non publiées"
+        ],
+        [
+          "Section / isolation annoncées",
+          "0,75 mm² /0,58 mm",
+          "Image technique BNTECHGO ; pas une mesure du lot"
+        ]
+      ],
+      "amazon_search": "https://www.amazon.fr/s?k=BNTECHGO+18+AWG+rouge+noir+10ft+150+brins",
+      "amazon_FR_verified": false
+    }
+  ],
+  "additional_parts": [],
+  "excluded": [
+    "Châssis",
+    "Visserie restante",
+    "Support caméra",
+    "Schéma et routage carte surveillance"
+  ]
+}

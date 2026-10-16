@@ -1,0 +1,6 @@
+{
+  "date": "2026-10-15",
+  "current_source": "../verification-alimentation/selection-active.json",
+  "note": "AUPROTEC FLRY-B 70 °C retiré des liaisons de puissance actives. LAPP SiF 6 mm² sélectionné pour mieux documenter classe, résistance et température. Le dossier et ses STEP restent historiques.",
+  "old_project_PDFs_and_complete_CAD_historical": true
+}

@@ -1,0 +1,176 @@
+{
+  "file": "albright-ed80-ferme-detaille.step",
+  "title": "AlbrightED80 | fermé",
+  "generated_on": "2026-10-14",
+  "unit": "mm",
+  "cadquery_version": "2.8.0",
+  "coordinate_system": "Axe principal Z; face de reference z=0; dimensions selon parametres",
+  "bytes": 1550321,
+  "sha256": "0ae802898dd53eb56ee37b0540ca4e56c985b50c331581d0dbbd8d5801142356",
+  "native_vendor_cad": false,
+  "hardware_measured": false,
+  "is_custom_project_design": false,
+  "published_nominal": [
+    "Albright2024 :59xcontourØ58, corps37 ;bornesM6 ;dessous55 ;hauteurhaut56/51 ;boutonØ48,h14."
+  ],
+  "estimates_and_limitations": [
+    "Corps àpans, axe,collet etformesfinestêtesécrous reconstruits ; bornesM6x1 supposéespasusuel, filetshélicoïdaux ;contactsressortsinternes nonreproduits.",
+    "Nuances optiques estimées ; géométrie non mesurée. Pas de plan de fabrication ni de qualification mécanique/électrique."
+  ],
+  "parameters": {
+    "contact_state": "closed",
+    "stud_size": "M6",
+    "stud_torque_Nm": [
+      3.6,
+      3.9
+    ],
+    "mount_reference_holes_mm": [
+      25,
+      5.5
+    ],
+    "mount_pitch_mm": 48
+  },
+  "source_pages": [
+    "Voir sources.json et cotes.md du composant / ensemble"
+  ],
+  "bounds_mm": {
+    "xmin": -29.5,
+    "xmax": 29.5,
+    "ymin": -29.000000000001965,
+    "ymax": 29.000000000001965,
+    "zmin": -55.000000100000044,
+    "zmax": 56.0
+  },
+  "validation": {
+    "valid_after_reimport": true,
+    "solids": 12,
+    "faces": 171,
+    "colors": 3,
+    "volume_relative_error": 3.8012294991215705e-09,
+    "volume_relative_error_limit": 0.0001,
+    "volume_before_mm3": 158337.42886607698,
+    "volume_after_mm3": 158337.4294679539,
+    "adaptive_volume_tolerance": 1e-09,
+    "bbox_error_mm": 1.964650664376677e-12,
+    "bbox_error_limit_mm": 0.01,
+    "void_and_material_probes": [],
+    "elapsed_seconds": 4.585137499998382,
+    "volume_after_default_quadrature_mm3": 158337.37467567791
+  },
+  "parts": [
+    {
+      "name": "Piece_corps_noir_details_estimes",
+      "color_linear_rgb": [
+        0.018,
+        0.021,
+        0.025
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Piece_capot_superieur",
+      "color_linear_rgb": [
+        0.018,
+        0.021,
+        0.025
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Piece_axe_et_collet_noir_selon_photo",
+      "color_linear_rgb": [
+        0.018,
+        0.021,
+        0.025
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Piece_bouton_rouge",
+      "color_linear_rgb": [
+        0.7,
+        0.008,
+        0.009
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Piece_borne_M6_1",
+      "color_linear_rgb": [
+        0.54,
+        0.59,
+        0.62
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Piece_ecrou_borne_fourni_1",
+      "color_linear_rgb": [
+        0.54,
+        0.59,
+        0.62
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Piece_rondelle_borne_fournie_1",
+      "color_linear_rgb": [
+        0.54,
+        0.59,
+        0.62
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Piece_borne_M6_2",
+      "color_linear_rgb": [
+        0.54,
+        0.59,
+        0.62
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Piece_ecrou_borne_fourni_2",
+      "color_linear_rgb": [
+        0.54,
+        0.59,
+        0.62
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Piece_rondelle_borne_fournie_2",
+      "color_linear_rgb": [
+        0.54,
+        0.59,
+        0.62
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Piece_tete_M5_posidriv_fournie_estimee_1",
+      "color_linear_rgb": [
+        0.54,
+        0.59,
+        0.62
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Piece_tete_M5_posidriv_fournie_estimee_2",
+      "color_linear_rgb": [
+        0.54,
+        0.59,
+        0.62
+      ],
+      "solids": 1
+    }
+  ],
+  "preview": {
+    "file": "albright-ed80-ferme-detaille.png",
+    "sha256": "5923467fb6cefe1f35830081a580f535eeffedfa34b9e96416cbb30e9b3b5d47"
+  },
+  "component_folder": "coupure-manuelle/albright-ed80",
+  "relative_step_path": "coupure-manuelle/albright-ed80/3D/albright-ed80-ferme-detaille.step"
+}

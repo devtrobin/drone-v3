@@ -1,0 +1,530 @@
+{
+  "machining_feature_checks": [
+    {
+      "piece": "C01",
+      "features": 86,
+      "edge_web_sample_margin_mm": 0.6,
+      "minimum_checked_nearby_feature_web_mm": 1.8309518948452965
+    },
+    {
+      "piece": "C05",
+      "features": 4,
+      "edge_web_sample_margin_mm": 0.6,
+      "minimum_checked_nearby_feature_web_mm": null
+    },
+    {
+      "piece": "C06",
+      "features": 4,
+      "edge_web_sample_margin_mm": 0.6,
+      "minimum_checked_nearby_feature_web_mm": null
+    },
+    {
+      "piece": "C12",
+      "features": 4,
+      "edge_web_sample_margin_mm": 0.6,
+      "minimum_checked_nearby_feature_web_mm": null
+    },
+    {
+      "piece": "C13",
+      "features": 4,
+      "edge_web_sample_margin_mm": 0.6,
+      "minimum_checked_nearby_feature_web_mm": null
+    },
+    {
+      "piece": "C14",
+      "features": 4,
+      "edge_web_sample_margin_mm": 0.6,
+      "minimum_checked_nearby_feature_web_mm": null
+    },
+    {
+      "piece": "C15",
+      "features": 5,
+      "edge_web_sample_margin_mm": 0.6,
+      "minimum_checked_nearby_feature_web_mm": null
+    },
+    {
+      "piece": "C11G",
+      "features": 6,
+      "edge_web_sample_margin_mm": 0.6,
+      "minimum_checked_nearby_feature_web_mm": 5.134958019585267
+    },
+    {
+      "piece": "C11D",
+      "features": 6,
+      "edge_web_sample_margin_mm": 0.6,
+      "minimum_checked_nearby_feature_web_mm": 5.134958019585267
+    },
+    {
+      "piece": "C04D",
+      "features": 4,
+      "edge_web_sample_margin_mm": 0.6,
+      "minimum_checked_nearby_feature_web_mm": 5.0
+    },
+    {
+      "piece": "C04G",
+      "features": 4,
+      "edge_web_sample_margin_mm": 0.6,
+      "minimum_checked_nearby_feature_web_mm": 5.0
+    },
+    {
+      "piece": "C03",
+      "features": 14,
+      "edge_web_sample_margin_mm": 0.6,
+      "minimum_checked_nearby_feature_web_mm": null
+    },
+    {
+      "piece": "C07",
+      "features": 7,
+      "edge_web_sample_margin_mm": 0.6,
+      "minimum_checked_nearby_feature_web_mm": null
+    },
+    {
+      "piece": "C08",
+      "features": 7,
+      "edge_web_sample_margin_mm": 0.6,
+      "minimum_checked_nearby_feature_web_mm": 1.1499999999999986
+    },
+    {
+      "piece": "C02",
+      "features": 31,
+      "edge_web_sample_margin_mm": 0.6,
+      "minimum_checked_nearby_feature_web_mm": 1.5559371040391496
+    },
+    {
+      "piece": "C09",
+      "features": 6,
+      "edge_web_sample_margin_mm": 0.6,
+      "minimum_checked_nearby_feature_web_mm": null
+    },
+    {
+      "piece": "C10",
+      "features": 4,
+      "edge_web_sample_margin_mm": 0.6,
+      "minimum_checked_nearby_feature_web_mm": null
+    },
+    {
+      "piece": "C16",
+      "features": 2,
+      "edge_web_sample_margin_mm": 0.6,
+      "minimum_checked_nearby_feature_web_mm": null
+    },
+    {
+      "piece": "C17",
+      "features": 1,
+      "edge_web_sample_margin_mm": 0.6,
+      "minimum_checked_nearby_feature_web_mm": null
+    },
+    {
+      "piece": "C18",
+      "features": 4,
+      "edge_web_sample_margin_mm": 0.6,
+      "minimum_checked_nearby_feature_web_mm": null
+    },
+    {
+      "piece": "C19",
+      "features": 6,
+      "edge_web_sample_margin_mm": 0.6,
+      "minimum_checked_nearby_feature_web_mm": null
+    }
+  ],
+  "custom_part_overlaps": [],
+  "selected_equipment_to_chassis": {
+    "checked": [
+      "B01_G1_IC5_139x46x25",
+      "ED80_corps_sous_panneau_gabarit",
+      "ED80_collet_gabarit",
+      "ED80_tige_gabarit",
+      "ED80_col_bouton_gabarit",
+      "ED80_bouton_gabarit",
+      "ED80_borne_gabarit_129.5",
+      "ED80_borne_gabarit_150.5",
+      "F0_LFT_JLLN50_reserve_NON_CAO",
+      "F1_KLKD20_reserve_NON_CAO",
+      "F2_KLKD20_reserve_NON_CAO",
+      "FP_KLKD10_reserve_NON_CAO",
+      "FAUX_KLKD1_reserve_NON_CAO",
+      "D_plus_2315_base_gabarit",
+      "D_plus_2315_barre_gabarit",
+      "D_plus_goujon_sans_filetage_0",
+      "D_plus_goujon_sans_filetage_1",
+      "D_plus_goujon_sans_filetage_2",
+      "D_plus_goujon_sans_filetage_3",
+      "D_plus_capot_gabarit",
+      "D_moins_2315_base_gabarit",
+      "D_moins_2315_barre_gabarit",
+      "D_moins_goujon_sans_filetage_0",
+      "D_moins_goujon_sans_filetage_1",
+      "D_moins_goujon_sans_filetage_2",
+      "D_moins_goujon_sans_filetage_3",
+      "D_moins_capot_gabarit",
+      "HS251_semelle_gabarit",
+      "HS251_ailette_estimee_0",
+      "HS251_ailette_estimee_1",
+      "HS251_ailette_estimee_2",
+      "HS251_ailette_estimee_3",
+      "HS251_ailette_estimee_4",
+      "HS251_ailette_estimee_5",
+      "HS251_ailette_estimee_6",
+      "HS251_ailette_estimee_7",
+      "HS251_ailette_estimee_8",
+      "HS251_face_contact_gabarit",
+      "D1D100_gabarit",
+      "UD80A_reserve",
+      "ESC_G",
+      "ESC_D",
+      "Pi5_PCB_gabarit",
+      "M1P_porteuse_et_corps",
+      "EVM60_reserve_-38",
+      "EVM60_reserve_38",
+      "Pololu2831_reserve",
+      "D42V55F5_reserve",
+      "Pololu2813_HP_reserve",
+      "WAGO413_INplus",
+      "WAGO413_INmoins",
+      "WAGO413_5V",
+      "WAGO415_retours"
+    ],
+    "overlaps": [],
+    "does_not_validate_supplier_dimensions_or_cables": true
+  },
+  "front_tire_clearance": [
+    {
+      "side": -1,
+      "angle_deg": -30,
+      "overlap_mm3": 0.0
+    },
+    {
+      "side": -1,
+      "angle_deg": -28,
+      "overlap_mm3": 0.0
+    },
+    {
+      "side": -1,
+      "angle_deg": -26,
+      "overlap_mm3": 0.0
+    },
+    {
+      "side": -1,
+      "angle_deg": -24,
+      "overlap_mm3": 0.0
+    },
+    {
+      "side": -1,
+      "angle_deg": -22,
+      "overlap_mm3": 0.0
+    },
+    {
+      "side": -1,
+      "angle_deg": -20,
+      "overlap_mm3": 0
+    },
+    {
+      "side": -1,
+      "angle_deg": -18,
+      "overlap_mm3": 0
+    },
+    {
+      "side": -1,
+      "angle_deg": -16,
+      "overlap_mm3": 0
+    },
+    {
+      "side": -1,
+      "angle_deg": -14,
+      "overlap_mm3": 0
+    },
+    {
+      "side": -1,
+      "angle_deg": -12,
+      "overlap_mm3": 0
+    },
+    {
+      "side": -1,
+      "angle_deg": -10,
+      "overlap_mm3": 0
+    },
+    {
+      "side": -1,
+      "angle_deg": -8,
+      "overlap_mm3": 0
+    },
+    {
+      "side": -1,
+      "angle_deg": -6,
+      "overlap_mm3": 0
+    },
+    {
+      "side": -1,
+      "angle_deg": -4,
+      "overlap_mm3": 0
+    },
+    {
+      "side": -1,
+      "angle_deg": -2,
+      "overlap_mm3": 0
+    },
+    {
+      "side": -1,
+      "angle_deg": 0,
+      "overlap_mm3": 0
+    },
+    {
+      "side": -1,
+      "angle_deg": 2,
+      "overlap_mm3": 0
+    },
+    {
+      "side": -1,
+      "angle_deg": 4,
+      "overlap_mm3": 0
+    },
+    {
+      "side": -1,
+      "angle_deg": 6,
+      "overlap_mm3": 0
+    },
+    {
+      "side": -1,
+      "angle_deg": 8,
+      "overlap_mm3": 0
+    },
+    {
+      "side": -1,
+      "angle_deg": 10,
+      "overlap_mm3": 0
+    },
+    {
+      "side": -1,
+      "angle_deg": 12,
+      "overlap_mm3": 0
+    },
+    {
+      "side": -1,
+      "angle_deg": 14,
+      "overlap_mm3": 0
+    },
+    {
+      "side": -1,
+      "angle_deg": 16,
+      "overlap_mm3": 0
+    },
+    {
+      "side": -1,
+      "angle_deg": 18,
+      "overlap_mm3": 0
+    },
+    {
+      "side": -1,
+      "angle_deg": 20,
+      "overlap_mm3": 0
+    },
+    {
+      "side": -1,
+      "angle_deg": 22,
+      "overlap_mm3": 0.0
+    },
+    {
+      "side": -1,
+      "angle_deg": 24,
+      "overlap_mm3": 0.0
+    },
+    {
+      "side": -1,
+      "angle_deg": 26,
+      "overlap_mm3": 0.0
+    },
+    {
+      "side": -1,
+      "angle_deg": 28,
+      "overlap_mm3": 0.0
+    },
+    {
+      "side": -1,
+      "angle_deg": 30,
+      "overlap_mm3": 0.0
+    },
+    {
+      "side": 1,
+      "angle_deg": -30,
+      "overlap_mm3": 0.0
+    },
+    {
+      "side": 1,
+      "angle_deg": -28,
+      "overlap_mm3": 0.0
+    },
+    {
+      "side": 1,
+      "angle_deg": -26,
+      "overlap_mm3": 0.0
+    },
+    {
+      "side": 1,
+      "angle_deg": -24,
+      "overlap_mm3": 0.0
+    },
+    {
+      "side": 1,
+      "angle_deg": -22,
+      "overlap_mm3": 0.0
+    },
+    {
+      "side": 1,
+      "angle_deg": -20,
+      "overlap_mm3": 0
+    },
+    {
+      "side": 1,
+      "angle_deg": -18,
+      "overlap_mm3": 0
+    },
+    {
+      "side": 1,
+      "angle_deg": -16,
+      "overlap_mm3": 0
+    },
+    {
+      "side": 1,
+      "angle_deg": -14,
+      "overlap_mm3": 0
+    },
+    {
+      "side": 1,
+      "angle_deg": -12,
+      "overlap_mm3": 0
+    },
+    {
+      "side": 1,
+      "angle_deg": -10,
+      "overlap_mm3": 0
+    },
+    {
+      "side": 1,
+      "angle_deg": -8,
+      "overlap_mm3": 0
+    },
+    {
+      "side": 1,
+      "angle_deg": -6,
+      "overlap_mm3": 0
+    },
+    {
+      "side": 1,
+      "angle_deg": -4,
+      "overlap_mm3": 0
+    },
+    {
+      "side": 1,
+      "angle_deg": -2,
+      "overlap_mm3": 0
+    },
+    {
+      "side": 1,
+      "angle_deg": 0,
+      "overlap_mm3": 0
+    },
+    {
+      "side": 1,
+      "angle_deg": 2,
+      "overlap_mm3": 0
+    },
+    {
+      "side": 1,
+      "angle_deg": 4,
+      "overlap_mm3": 0
+    },
+    {
+      "side": 1,
+      "angle_deg": 6,
+      "overlap_mm3": 0
+    },
+    {
+      "side": 1,
+      "angle_deg": 8,
+      "overlap_mm3": 0
+    },
+    {
+      "side": 1,
+      "angle_deg": 10,
+      "overlap_mm3": 0
+    },
+    {
+      "side": 1,
+      "angle_deg": 12,
+      "overlap_mm3": 0
+    },
+    {
+      "side": 1,
+      "angle_deg": 14,
+      "overlap_mm3": 0
+    },
+    {
+      "side": 1,
+      "angle_deg": 16,
+      "overlap_mm3": 0
+    },
+    {
+      "side": 1,
+      "angle_deg": 18,
+      "overlap_mm3": 0
+    },
+    {
+      "side": 1,
+      "angle_deg": 20,
+      "overlap_mm3": 0
+    },
+    {
+      "side": 1,
+      "angle_deg": 22,
+      "overlap_mm3": 0.0
+    },
+    {
+      "side": 1,
+      "angle_deg": 24,
+      "overlap_mm3": 0.0
+    },
+    {
+      "side": 1,
+      "angle_deg": 26,
+      "overlap_mm3": 0.0
+    },
+    {
+      "side": 1,
+      "angle_deg": 28,
+      "overlap_mm3": 0.0
+    },
+    {
+      "side": 1,
+      "angle_deg": 30,
+      "overlap_mm3": 0.0
+    }
+  ],
+  "steering_limit_deg": 30,
+  "steering_offset_provisional_mm": 30,
+  "rear_tire_to_base_axial_gap_mm": 5,
+  "rotor_to_deck_gap_mm": 4.5,
+  "main_ground_clearance_mm": 8,
+  "screw_head_ground_clearance_design_mm": 4,
+  "ED80_bottom_to_deck_clearance_mm": 4,
+  "support_Hall_relative_axle_height_mm": 20.5,
+  "tray_under_clearance_over_battery_mm": 43,
+  "carrier_and_EVM_separate": true,
+  "magnetic_or_structural_or_thermal_qualification": false,
+  "component_to_component_complete_fit_validated": false,
+  "transmission_and_front_hardware_are_unmeasured": true,
+  "section_comparison_only": {
+    "payload_assumption_kg": 4,
+    "dynamic_factor": 2,
+    "span_assumed_mm": 390,
+    "L25_I_mm4": 8203.622340425532,
+    "stress_MPa": 8.230884125525762,
+    "deflection_mm": 0.08566961843049917,
+    "not_actual_boundary_conditions": true
+  },
+  "strap_square_envelope": {
+    "length": 250,
+    "loop_mm": 196,
+    "remaining_before_buckle_and_overlap_mm": 54
+  },
+  "hardware_tested": false
+}

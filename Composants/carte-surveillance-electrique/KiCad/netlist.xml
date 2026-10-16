@@ -1,0 +1,1389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\thoma\workspace\Drone\drone-v3\Composants\carte-surveillance-electrique\KiCad\surveillance-2s-m1.kicad_sch</source>
+    <date>2026-10-15T14:31:44</date>
+    <tool>Eeschema 10.0.7</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Surveillance 2S M1 - modules existants et porteuse</title>
+        <company/>
+        <rev>M1</rev>
+        <date>2026-10-15</date>
+        <source>surveillance-2s-m1.kicad_sch</source>
+        <comment number="1" value="Prototype non teste - FAUX et resistances au pack obligatoires"/>
+        <comment number="2" value="WARN actif HAUT - 5V_MON distinct du 5V Pi"/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>100nF X7R 25V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Monitor" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="surveillance-2s-m1"/>
+      <property name="Sheetfile" value="surveillance-2s-m1.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9e961815-7e80-5c22-a8ab-a8a46b645e67</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C2">
+      <value>100nF X7R 25V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Monitor" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="surveillance-2s-m1"/>
+      <property name="Sheetfile" value="surveillance-2s-m1.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>04d671c8-66c0-59ec-8ff6-4e2fc35e3a86</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C3">
+      <value>1uF X7R 25V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Monitor" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="surveillance-2s-m1"/>
+      <property name="Sheetfile" value="surveillance-2s-m1.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>417bdf50-6124-530e-b3c0-cb016e2b3684</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C4">
+      <value>1uF X7R 25V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Monitor" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="surveillance-2s-m1"/>
+      <property name="Sheetfile" value="surveillance-2s-m1.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>abf58b6e-b6aa-5a35-a165-597d85d2eae0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C5">
+      <value>1uF X7R 25V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Monitor" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="surveillance-2s-m1"/>
+      <property name="Sheetfile" value="surveillance-2s-m1.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f7213608-54f3-52ae-865c-e6975603c4a3</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C6">
+      <value>1uF X7R 25V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Monitor" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="surveillance-2s-m1"/>
+      <property name="Sheetfile" value="surveillance-2s-m1.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e4f020ba-6c73-5963-a086-261609688583</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C7">
+      <value>2u2 X7R 25V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Monitor" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="surveillance-2s-m1"/>
+      <property name="Sheetfile" value="surveillance-2s-m1.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>62fcc9b1-5f62-55d9-8b7d-dc28dfeeb72c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C8">
+      <value>2u2 X7R 25V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Monitor" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="surveillance-2s-m1"/>
+      <property name="Sheetfile" value="surveillance-2s-m1.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4f433d33-0dd8-5642-adf2-a24e90b557ec</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C9">
+      <value>100nF X7R 25V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Monitor" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="surveillance-2s-m1"/>
+      <property name="Sheetfile" value="surveillance-2s-m1.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7bb2cc80-67ef-5ace-b4dd-795e3e61f55d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C10">
+      <value>10uF X5R 25V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Monitor" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="surveillance-2s-m1"/>
+      <property name="Sheetfile" value="surveillance-2s-m1.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a15dad85-10f1-55a9-8ae5-9f39699e3305</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C11">
+      <value>10uF X5R 25V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Monitor" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="surveillance-2s-m1"/>
+      <property name="Sheetfile" value="surveillance-2s-m1.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>19b79b34-4595-58e0-8e0d-a84d2157d336</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D1">
+      <value>BAT54-7-F</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <fields>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Monitor" part="Diode" description=""/>
+      <property name="Sheetname" value="surveillance-2s-m1"/>
+      <property name="Sheetfile" value="surveillance-2s-m1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bf19525a-d5ae-554a-b713-66625d458633</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D2">
+      <value>BAT54-7-F</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <fields>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Monitor" part="Diode" description=""/>
+      <property name="Sheetname" value="surveillance-2s-m1"/>
+      <property name="Sheetfile" value="surveillance-2s-m1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b7ddab0b-6bec-5f99-a74c-12297876c16d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D3">
+      <value>BAT54-7-F</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <fields>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Monitor" part="Diode" description=""/>
+      <property name="Sheetname" value="surveillance-2s-m1"/>
+      <property name="Sheetfile" value="surveillance-2s-m1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>df25a984-a1a6-5a13-a983-9575d0acd7b1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="F1">
+      <value>0454.500MR 500mA T</value>
+      <footprint>Monitor:Nano454</footprint>
+      <fields>
+        <field name="Footprint">Monitor:Nano454</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Monitor" part="Fuse" description="Fuse"/>
+      <property name="Sheetname" value="surveillance-2s-m1"/>
+      <property name="Sheetfile" value="surveillance-2s-m1.kicad_sch"/>
+      <property name="ki_keywords" value="fuse"/>
+      <property name="ki_fp_filters" value="*Fuse*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>60a26266-c501-58da-982c-e7fc921ecb3c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="F2">
+      <value>0454.500MR 500mA T</value>
+      <footprint>Monitor:Nano454</footprint>
+      <fields>
+        <field name="Footprint">Monitor:Nano454</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Monitor" part="Fuse" description="Fuse"/>
+      <property name="Sheetname" value="surveillance-2s-m1"/>
+      <property name="Sheetfile" value="surveillance-2s-m1.kicad_sch"/>
+      <property name="ki_keywords" value="fuse"/>
+      <property name="ki_fp_filters" value="*Fuse*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a2e8f167-c663-5bbc-9998-473d80ecf3f3</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J1">
+      <value>AUX apres FAUX 1A</value>
+      <footprint>Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Monitor" part="Conn2" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="surveillance-2s-m1"/>
+      <property name="Sheetfile" value="surveillance-2s-m1.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c57f3d6a-3b18-5b42-a84d-589fb295469e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J2">
+      <value>Equilibrage PROTEGE</value>
+      <footprint>Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Monitor" part="Conn3" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="surveillance-2s-m1"/>
+      <property name="Sheetfile" value="surveillance-2s-m1.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1ce5e7c2-ef2b-57cb-9440-566e21962214</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J3">
+      <value>EVM114 C1</value>
+      <footprint>Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Monitor" part="EVM" description=""/>
+      <property name="Sheetname" value="surveillance-2s-m1"/>
+      <property name="Sheetfile" value="surveillance-2s-m1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f6b5f90a-d936-5bc5-b816-0b458503703f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J4">
+      <value>EVM114 C2</value>
+      <footprint>Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Monitor" part="EVM" description=""/>
+      <property name="Sheetname" value="surveillance-2s-m1"/>
+      <property name="Sheetfile" value="surveillance-2s-m1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e1a822b2-2350-5687-80c8-b959c4aa7f93</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J5">
+      <value>FAISCEAU Pololu2831</value>
+      <footprint>Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Monitor" part="Buck" description=""/>
+      <property name="Sheetname" value="surveillance-2s-m1"/>
+      <property name="Sheetfile" value="surveillance-2s-m1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d1073df4-3db6-5933-b403-e4cfabf88479</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J6">
+      <value>Signaux Raspberry Pi</value>
+      <footprint>Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Monitor" part="Pi" description=""/>
+      <property name="Sheetname" value="surveillance-2s-m1"/>
+      <property name="Sheetfile" value="surveillance-2s-m1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ff386e52-79d1-544a-a53a-27e91c628daf</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J7">
+      <value>Vers OFF2813</value>
+      <footprint>Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Monitor" part="Conn2" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="surveillance-2s-m1"/>
+      <property name="Sheetfile" value="surveillance-2s-m1.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>531ab175-ace2-5347-b111-eb7fa5324bad</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="M3">
+      <value>TMR 1-0511</value>
+      <footprint>Monitor:TMR1</footprint>
+      <fields>
+        <field name="Footprint">Monitor:TMR1</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Monitor" part="TMR" description=""/>
+      <property name="Sheetname" value="surveillance-2s-m1"/>
+      <property name="Sheetfile" value="surveillance-2s-m1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0cfc48a4-65b6-5ec1-bc80-66c120ef96e2</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="4"/>
+            <pin num="6"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="M4">
+      <value>TMR 1-0511</value>
+      <footprint>Monitor:TMR1</footprint>
+      <fields>
+        <field name="Footprint">Monitor:TMR1</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Monitor" part="TMR" description=""/>
+      <property name="Sheetname" value="surveillance-2s-m1"/>
+      <property name="Sheetfile" value="surveillance-2s-m1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3cb32066-7e4a-54b8-8f18-bc8037e83efc</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="4"/>
+            <pin num="6"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R1">
+      <value>2k2 1%</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Monitor" part="R" description="Resistor"/>
+      <property name="Sheetname" value="surveillance-2s-m1"/>
+      <property name="Sheetfile" value="surveillance-2s-m1.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>38c2d6fc-13b3-56e3-a2f8-32f97c9861e0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R2">
+      <value>2k2 1%</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Monitor" part="R" description="Resistor"/>
+      <property name="Sheetname" value="surveillance-2s-m1"/>
+      <property name="Sheetfile" value="surveillance-2s-m1.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>766b2723-1de3-52ba-944c-506c902a1ec2</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R3">
+      <value>2k2 1%</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Monitor" part="R" description="Resistor"/>
+      <property name="Sheetname" value="surveillance-2s-m1"/>
+      <property name="Sheetfile" value="surveillance-2s-m1.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7c88a87d-c9b8-55f5-8c68-3406dc0d947a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R4">
+      <value>2k2 1%</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Monitor" part="R" description="Resistor"/>
+      <property name="Sheetname" value="surveillance-2s-m1"/>
+      <property name="Sheetfile" value="surveillance-2s-m1.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2e1580c6-415d-5653-99f6-1f3d5f854d9e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R5">
+      <value>47k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Monitor" part="R" description="Resistor"/>
+      <property name="Sheetname" value="surveillance-2s-m1"/>
+      <property name="Sheetfile" value="surveillance-2s-m1.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>939341cb-baed-5953-a3a6-5ae1b59befbd</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R6">
+      <value>47k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Monitor" part="R" description="Resistor"/>
+      <property name="Sheetname" value="surveillance-2s-m1"/>
+      <property name="Sheetfile" value="surveillance-2s-m1.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2d39145e-9137-57ef-bd3d-ee558914de45</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R7">
+      <value>47k DNP - cote Pi</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Monitor" part="R" description="Resistor"/>
+      <property name="Sheetname" value="surveillance-2s-m1"/>
+      <property name="Sheetfile" value="surveillance-2s-m1.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>045ddbd3-4691-5a57-b070-8c2e7f7908ee</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R8">
+      <value>47k DNP - cote Pi</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Monitor" part="R" description="Resistor"/>
+      <property name="Sheetname" value="surveillance-2s-m1"/>
+      <property name="Sheetfile" value="surveillance-2s-m1.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0580852f-cb08-52dd-a98f-6ffde6a57eec</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R9">
+      <value>100k DONE</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Monitor" part="R" description="Resistor"/>
+      <property name="Sheetname" value="surveillance-2s-m1"/>
+      <property name="Sheetfile" value="surveillance-2s-m1.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d76397ad-26d8-5d99-80c8-7331a32df551</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R10">
+      <value>100k OFF</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Monitor" part="R" description="Resistor"/>
+      <property name="Sheetname" value="surveillance-2s-m1"/>
+      <property name="Sheetfile" value="surveillance-2s-m1.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fc935f4a-8573-5f2e-94be-62feca54da84</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U1">
+      <value>VOS618A-8T HEALTHY</value>
+      <footprint>Package_SO:SSOP-4_4.4x2.6mm_P1.27mm</footprint>
+      <fields>
+        <field name="Footprint">Package_SO:SSOP-4_4.4x2.6mm_P1.27mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Monitor" part="Opto" description=""/>
+      <property name="Sheetname" value="surveillance-2s-m1"/>
+      <property name="Sheetfile" value="surveillance-2s-m1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>de4794ad-a0fd-58df-a669-3fa4e16cc317</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U2">
+      <value>VOS618A-8T WARN_OK</value>
+      <footprint>Package_SO:SSOP-4_4.4x2.6mm_P1.27mm</footprint>
+      <fields>
+        <field name="Footprint">Package_SO:SSOP-4_4.4x2.6mm_P1.27mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Monitor" part="Opto" description=""/>
+      <property name="Sheetname" value="surveillance-2s-m1"/>
+      <property name="Sheetfile" value="surveillance-2s-m1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>284390b2-7d3a-54ef-a0aa-98785ecf16e5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U3">
+      <value>VOS618A-8T HEALTHY</value>
+      <footprint>Package_SO:SSOP-4_4.4x2.6mm_P1.27mm</footprint>
+      <fields>
+        <field name="Footprint">Package_SO:SSOP-4_4.4x2.6mm_P1.27mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Monitor" part="Opto" description=""/>
+      <property name="Sheetname" value="surveillance-2s-m1"/>
+      <property name="Sheetfile" value="surveillance-2s-m1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>69a16f06-0b65-5a84-9676-96075094bcf5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U4">
+      <value>VOS618A-8T WARN_OK</value>
+      <footprint>Package_SO:SSOP-4_4.4x2.6mm_P1.27mm</footprint>
+      <fields>
+        <field name="Footprint">Package_SO:SSOP-4_4.4x2.6mm_P1.27mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Monitor" part="Opto" description=""/>
+      <property name="Sheetname" value="surveillance-2s-m1"/>
+      <property name="Sheetfile" value="surveillance-2s-m1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c2cff984-40ec-5551-9fd8-fca8a6e9aefb</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U5">
+      <value>SN74LVC2G17DCKR</value>
+      <footprint>Package_TO_SOT_SMD:SOT-363_SC-70-6</footprint>
+      <fields>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-363_SC-70-6</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Monitor" part="Buf" description=""/>
+      <property name="Sheetname" value="surveillance-2s-m1"/>
+      <property name="Sheetfile" value="surveillance-2s-m1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fd4276b8-464d-5d3d-8f5d-32453b02596b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="3"/>
+            <pin num="5"/>
+            <pin num="2"/>
+            <pin num="6"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U6">
+      <value>MCP1703AT-3302E/MB</value>
+      <footprint>Package_TO_SOT_SMD:SOT-89-3</footprint>
+      <fields>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-89-3</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Monitor" part="LDO" description=""/>
+      <property name="Sheetname" value="surveillance-2s-m1"/>
+      <property name="Sheetfile" value="surveillance-2s-m1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>54b0add6-f56f-53a9-bcb8-3171e00c7ffa</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Monitor" part="Buck">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Buck</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN" type="power_in"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="5V_MON" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Monitor" part="Buf">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Buf</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1A" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="2A" type="input"/>
+        <pin num="4" name="2Y" type="output"/>
+        <pin num="5" name="VCC" type="power_in"/>
+        <pin num="6" name="1Y" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="Monitor" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Monitor" part="Conn2">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Monitor" part="Conn3">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Monitor" part="Diode">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Diode</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="3" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Monitor" part="EVM">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">EVM</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD_ISO5" type="power_in"/>
+        <pin num="2" name="GND_local" type="passive"/>
+        <pin num="3" name="SENSE" type="input"/>
+        <pin num="4" name="OUTA_HARD" type="open_collector"/>
+        <pin num="5" name="OUTB_WARN_OK" type="open_collector"/>
+      </pins>
+    </libpart>
+    <libpart lib="Monitor" part="Fuse">
+      <description>Fuse</description>
+      <footprints>
+        <fp>*Fuse*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Fuse</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Fuse</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Monitor" part="LDO">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LDO</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VIN" type="power_in"/>
+        <pin num="3" name="VOUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Monitor" part="Opto">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Opto</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+        <pin num="3" name="E" type="passive"/>
+        <pin num="4" name="C" type="open_collector"/>
+      </pins>
+    </libpart>
+    <libpart lib="Monitor" part="Pi">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Pi</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="3V3_PI" type="power_out"/>
+        <pin num="2" name="WARN1_HI" type="input"/>
+        <pin num="3" name="WARN2_HI" type="input"/>
+        <pin num="4" name="DONE" type="output"/>
+        <pin num="5" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Monitor" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Monitor" part="TMR">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TMR</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="-VIN" type="power_in"/>
+        <pin num="2" name="+VIN" type="power_in"/>
+        <pin num="4" name="+VOUT_ISO" type="power_out"/>
+        <pin num="6" name="-VOUT_ISO" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Monitor">
+      <uri>${KIPRJMOD}/Monitor.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/3V3_AUX" class="Default">
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U5" pin="5" pinfunction="VCC_5" pintype="power_in"/>
+      <node ref="U6" pin="3" pinfunction="VOUT_3" pintype="power_out"/>
+    </net>
+    <net code="2" name="/3V3_PI" class="Default">
+      <node ref="J6" pin="1" pinfunction="3V3_PI_1" pintype="power_out"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+    </net>
+    <net code="3" name="/5V_MON" class="Default">
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="F1" pin="1" pintype="passive"/>
+      <node ref="F2" pin="1" pintype="passive"/>
+      <node ref="J5" pin="3" pinfunction="5V_MON_3" pintype="power_out"/>
+    </net>
+    <net code="4" name="/AUX" class="Default">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="VIN_1" pintype="power_in"/>
+      <node ref="U6" pin="2" pinfunction="VIN_2" pintype="power_in"/>
+    </net>
+    <net code="5" name="/B0_R" class="Default">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="GND_local_2" pintype="passive"/>
+      <node ref="M3" pin="6" pinfunction="-VOUT_ISO_6" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="K_2" pintype="passive"/>
+    </net>
+    <net code="6" name="/B1_R" class="Default">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="J3" pin="3" pinfunction="SENSE_3" pintype="input"/>
+      <node ref="J4" pin="2" pinfunction="GND_local_2" pintype="passive"/>
+      <node ref="M4" pin="6" pinfunction="-VOUT_ISO_6" pintype="passive"/>
+      <node ref="U3" pin="2" pinfunction="K_2" pintype="passive"/>
+    </net>
+    <net code="7" name="/B2_R" class="Default">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+      <node ref="J4" pin="3" pinfunction="SENSE_3" pintype="input"/>
+    </net>
+    <net code="8" name="/BUF1" class="Default">
+      <node ref="D1" pin="1" pinfunction="A_1" pintype="passive"/>
+      <node ref="U5" pin="6" pinfunction="1Y_6" pintype="output"/>
+    </net>
+    <net code="9" name="/BUF2" class="Default">
+      <node ref="D2" pin="1" pinfunction="A_1" pintype="passive"/>
+      <node ref="U5" pin="4" pinfunction="2Y_4" pintype="output"/>
+    </net>
+    <net code="10" name="/DONE" class="Default">
+      <node ref="D3" pin="1" pinfunction="A_1" pintype="passive"/>
+      <node ref="J6" pin="4" pinfunction="DONE_4" pintype="output"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+    </net>
+    <net code="11" name="/FAULT1" class="Default">
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="C_4" pintype="open_collector"/>
+      <node ref="U5" pin="1" pinfunction="1A_1" pintype="input"/>
+    </net>
+    <net code="12" name="/FAULT2" class="Default">
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="U3" pin="4" pinfunction="C_4" pintype="open_collector"/>
+      <node ref="U5" pin="3" pinfunction="2A_3" pintype="input"/>
+    </net>
+    <net code="13" name="/GND" class="Default">
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="J6" pin="5" pinfunction="GND_5" pintype="passive"/>
+      <node ref="J7" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="M3" pin="1" pinfunction="-VIN_1" pintype="power_in"/>
+      <node ref="M4" pin="1" pinfunction="-VIN_1" pintype="power_in"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="E_3" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="E_3" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="E_3" pintype="passive"/>
+      <node ref="U4" pin="3" pinfunction="E_3" pintype="passive"/>
+      <node ref="U5" pin="2" pinfunction="GND_2" pintype="power_in"/>
+      <node ref="U6" pin="1" pinfunction="GND_1" pintype="power_in"/>
+    </net>
+    <net code="14" name="/HARD_A1" class="Default">
+      <node ref="J3" pin="4" pinfunction="OUTA_HARD_4" pintype="open_collector"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="A_1" pintype="passive"/>
+    </net>
+    <net code="15" name="/HARD_A2" class="Default">
+      <node ref="J4" pin="4" pinfunction="OUTA_HARD_4" pintype="open_collector"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U3" pin="1" pinfunction="A_1" pintype="passive"/>
+    </net>
+    <net code="16" name="/ISO5_1" class="Default">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="VDD_ISO5_1" pintype="power_in"/>
+      <node ref="M3" pin="4" pinfunction="+VOUT_ISO_4" pintype="power_out"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="17" name="/ISO5_2" class="Default">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="VDD_ISO5_1" pintype="power_in"/>
+      <node ref="M4" pin="4" pinfunction="+VOUT_ISO_4" pintype="power_out"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+    </net>
+    <net code="18" name="/OFF" class="Default">
+      <node ref="D1" pin="3" pinfunction="K_3" pintype="passive"/>
+      <node ref="D2" pin="3" pinfunction="K_3" pintype="passive"/>
+      <node ref="D3" pin="3" pinfunction="K_3" pintype="passive"/>
+      <node ref="J7" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+    </net>
+    <net code="19" name="/TMR_IN1" class="Default">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="F1" pin="2" pintype="passive"/>
+      <node ref="M3" pin="2" pinfunction="+VIN_2" pintype="power_in"/>
+    </net>
+    <net code="20" name="/TMR_IN2" class="Default">
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="F2" pin="2" pintype="passive"/>
+      <node ref="M4" pin="2" pinfunction="+VIN_2" pintype="power_in"/>
+    </net>
+    <net code="21" name="/WARN1" class="Default">
+      <node ref="J6" pin="2" pinfunction="WARN1_HI_2" pintype="input"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="C_4" pintype="open_collector"/>
+    </net>
+    <net code="22" name="/WARN2" class="Default">
+      <node ref="J6" pin="3" pinfunction="WARN2_HI_3" pintype="input"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="U4" pin="4" pinfunction="C_4" pintype="open_collector"/>
+    </net>
+    <net code="23" name="/WARN_B1" class="Default">
+      <node ref="J3" pin="5" pinfunction="OUTB_WARN_OK_5" pintype="open_collector"/>
+      <node ref="U2" pin="2" pinfunction="K_2" pintype="passive"/>
+    </net>
+    <net code="24" name="/WARN_B2" class="Default">
+      <node ref="J4" pin="5" pinfunction="OUTB_WARN_OK_5" pintype="open_collector"/>
+      <node ref="U4" pin="2" pinfunction="K_2" pintype="passive"/>
+    </net>
+    <net code="25" name="/WARN_LED1" class="Default">
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="A_1" pintype="passive"/>
+    </net>
+    <net code="26" name="/WARN_LED2" class="Default">
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="U4" pin="1" pinfunction="A_1" pintype="passive"/>
+    </net>
+  </nets>
+</export>

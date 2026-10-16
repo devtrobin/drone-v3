@@ -1,0 +1,54 @@
+{
+  "file": "notice-fixations-pi-5-v3.pdf",
+  "pages": 6,
+  "sha256": "87e6170e8a92c8e383d4085f10c00db4e3b48423b0b9a936c16a3b0216243db9",
+  "bytes": 358349,
+  "generated_on": "2026-10-14",
+  "generator": "tools/build_pi_mount_pdf.py",
+  "renders": [
+    {
+      "page": 1,
+      "render": "tools\\temp\\pi-mount-review\\pdf\\page-1.png",
+      "chars": 833,
+      "body_bottom_pt": 585.6010131835938,
+      "links": 1
+    },
+    {
+      "page": 2,
+      "render": "tools\\temp\\pi-mount-review\\pdf\\page-2.png",
+      "chars": 1402,
+      "body_bottom_pt": 569.1561279296875,
+      "links": 0
+    },
+    {
+      "page": 3,
+      "render": "tools\\temp\\pi-mount-review\\pdf\\page-3.png",
+      "chars": 1267,
+      "body_bottom_pt": 533.22314453125,
+      "links": 1
+    },
+    {
+      "page": 4,
+      "render": "tools\\temp\\pi-mount-review\\pdf\\page-4.png",
+      "chars": 962,
+      "body_bottom_pt": 636.7781982421875,
+      "links": 0
+    },
+    {
+      "page": 5,
+      "render": "tools\\temp\\pi-mount-review\\pdf\\page-5.png",
+      "chars": 1572,
+      "body_bottom_pt": 615.1561279296875,
+      "links": 0
+    },
+    {
+      "page": 6,
+      "render": "tools\\temp\\pi-mount-review\\pdf\\page-6.png",
+      "chars": 1879,
+      "body_bottom_pt": 491.8176574707031,
+      "links": 5
+    }
+  ],
+  "visual_review_complete": true,
+  "visual_review_method": "All 6 page PNGs inspected with image viewing tool; CAD contact sheet inspected; no overlaps/cropped text identified."
+}

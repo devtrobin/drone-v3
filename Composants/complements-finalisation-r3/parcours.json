@@ -1,0 +1,173 @@
+[
+  {
+    "code": "P03",
+    "net": "F0 sortie → ED80 entrée",
+    "section_mm2": 6,
+    "diametre_etude_mm": 6.5,
+    "rayon_axe_mm": 30,
+    "longueur_axe_mm": 413.5,
+    "reserve_raccordement_mm": 300,
+    "brut_approvisionnement_mm": 720,
+    "points_mm": [
+      [
+        120,
+        140,
+        95
+      ],
+      [
+        120,
+        140,
+        160
+      ],
+      [
+        120,
+        60,
+        160
+      ],
+      [
+        -55,
+        60,
+        160
+      ],
+      [
+        -55,
+        140,
+        160
+      ],
+      [
+        -55,
+        140,
+        95
+      ]
+    ],
+    "extremites_sont_bornes_exactes": false,
+    "pret_a_couper_definitivement": false
+  },
+  {
+    "code": "P04",
+    "net": "ED80 sortie → D+",
+    "section_mm2": 6,
+    "diametre_etude_mm": 6.5,
+    "rayon_axe_mm": 30,
+    "longueur_axe_mm": 386.5,
+    "reserve_raccordement_mm": 300,
+    "brut_approvisionnement_mm": 690,
+    "points_mm": [
+      [
+        -100,
+        185,
+        95
+      ],
+      [
+        -100,
+        185,
+        160
+      ],
+      [
+        -180,
+        185,
+        160
+      ],
+      [
+        -180,
+        285,
+        160
+      ],
+      [
+        -87,
+        285,
+        160
+      ],
+      [
+        -87,
+        285,
+        60
+      ]
+    ],
+    "extremites_sont_bornes_exactes": false,
+    "pret_a_couper_definitivement": false
+  },
+  {
+    "code": "P05",
+    "net": "D+ → SSR+2",
+    "section_mm2": 6,
+    "diametre_etude_mm": 6.5,
+    "rayon_axe_mm": 30,
+    "longueur_axe_mm": 386.5,
+    "reserve_raccordement_mm": 300,
+    "brut_approvisionnement_mm": 690,
+    "points_mm": [
+      [
+        -87,
+        300,
+        60
+      ],
+      [
+        -87,
+        300,
+        175
+      ],
+      [
+        -180,
+        300,
+        175
+      ],
+      [
+        -180,
+        220,
+        175
+      ],
+      [
+        -110,
+        220,
+        175
+      ],
+      [
+        -110,
+        220,
+        95
+      ]
+    ],
+    "extremites_sont_bornes_exactes": false,
+    "pret_a_couper_definitivement": false
+  },
+  {
+    "code": "P06",
+    "net": "SSR1 → UD80",
+    "section_mm2": 6,
+    "diametre_etude_mm": 6.5,
+    "rayon_axe_mm": 30,
+    "longueur_axe_mm": 424.37,
+    "reserve_raccordement_mm": 300,
+    "brut_approvisionnement_mm": 730,
+    "points_mm": [
+      [
+        -80,
+        240,
+        95
+      ],
+      [
+        -80,
+        240,
+        160
+      ],
+      [
+        108,
+        240,
+        160
+      ],
+      [
+        108,
+        368,
+        160
+      ],
+      [
+        108,
+        368,
+        78
+      ]
+    ],
+    "extremites_sont_bornes_exactes": false,
+    "pret_a_couper_definitivement": false
+  }
+]

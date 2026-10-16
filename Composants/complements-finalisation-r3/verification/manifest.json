@@ -1,0 +1,945 @@
+{
+  "files": [
+    {
+      "path": "Composants/complements-finalisation-r3/3D/complement-r3.step",
+      "bytes": 2793507,
+      "sha256": "7b89b6f96f08acf34ddc5aa5565017198a11392c4ef67579fd08c69fb16785a0"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/L01_R3_D.step",
+      "bytes": 47925,
+      "sha256": "b6161f0fcafb299f44c48a7dc6003ceb2f05102480ddac01f5ae4261ae6401e7"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/L01_R3_G.step",
+      "bytes": 51619,
+      "sha256": "1911805a90edf21e832891fa7afb977fb831fb292f6733637d51368e9c395198"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/P03_R3.step",
+      "bytes": 26772,
+      "sha256": "2e9e5ab3a9726039a6742b9a3d37e8fdb2d076ce68cc35306f7f057c1170d933"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/P04_R3.step",
+      "bytes": 26857,
+      "sha256": "0f5aa6d6cfe3651c0f2c0f5635ac6253e9f597dd12deab3e026d196cddc57e93"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/P05_R3.step",
+      "bytes": 26892,
+      "sha256": "be39e6b4857d8548c6e66df33549953334d65f61e7e2a861926570d26da955a7"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/P06_R3.step",
+      "bytes": 21646,
+      "sha256": "96b95b4d7514dced18a936b994295baadfe28615d5b2a34e651ebc3ee011418d"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/R301_montant_D_150.step",
+      "bytes": 52601,
+      "sha256": "28d00ab10bef946b404b6ddad5af81c1aee9580f064aa36a55e090abf793029b"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/R301_montant_D_355.step",
+      "bytes": 52601,
+      "sha256": "70c7ca338fb43c3d82ab258ff72a01c591f917db54c1beeb2438b1c40b034c66"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/R301_montant_G_150.step",
+      "bytes": 58651,
+      "sha256": "e89cec0da11d08a17d6254734081eb6778dc22cfb639e037611b49e78ac84aac"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/R301_montant_G_355.step",
+      "bytes": 58651,
+      "sha256": "f90755f8d3c6ea00c04f93e07e0b7baeaaf522373c190fc0c22d714ba66d62f7"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/R302_cale1_D_142.step",
+      "bytes": 19159,
+      "sha256": "50241d96e945d4d48fe93bba4339e6c289b5986399973519c0f2cbd302fc9e8e"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/R302_cale1_D_158.step",
+      "bytes": 19159,
+      "sha256": "f060f61f4e5008a6810c659ddb3b9bafbe46ec9bbbf1b3457197e2a4bc84b5a8"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/R302_cale1_D_347.step",
+      "bytes": 19159,
+      "sha256": "d38ca997139c280180d120f3a846de3dfe0796ed0ef09642037f1bee7694f551"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/R302_cale1_D_363.step",
+      "bytes": 19159,
+      "sha256": "ee4a55b57cf0136dd8aa11a3713cb96ec3683c0be77c486f8267ed7f2255f180"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/R302_cale1_G_142.step",
+      "bytes": 20404,
+      "sha256": "e9d334a22a81dd0f8ff02e680c72d2602be858a3836037d2e01183ad84bd28f7"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/R302_cale1_G_158.step",
+      "bytes": 20404,
+      "sha256": "6a105a7e556f228983f1b24828988bd78a7ee2beccf06f44609bfcf380776e5d"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/R302_cale1_G_347.step",
+      "bytes": 20406,
+      "sha256": "74ee9cd86e2dba380ef7ba89e448c046bcb5169a98cf15c31e160dbd90338144"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/R302_cale1_G_363.step",
+      "bytes": 20406,
+      "sha256": "e4b8da81385c70888d7636089c62205172827234cf24d8e0c6fecc7ed147a28d"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/R303_rail_D.step",
+      "bytes": 90934,
+      "sha256": "c1cd3b6d4b65f9539fc42af90c64643c4f2d6acbac580962a7c2cd8c0e56c485"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/R303_rail_G.step",
+      "bytes": 121821,
+      "sha256": "432ae5da51ed55981827b190f185ce4048be137a437b49cc35e039800bf33864"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/R304_traverse_335.step",
+      "bytes": 90949,
+      "sha256": "9a1ac4cc031d9eb45ba215b4ead2e09ae0c2419be1b3fc7192303d391e0bde8e"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/R304_traverse_60.step",
+      "bytes": 90783,
+      "sha256": "8b6f9bfc8d305bd3eedab0c08c4986bd5ec5428a588755383de8394920b78191"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/R305_eclisse_D_335.step",
+      "bytes": 30168,
+      "sha256": "d839c3c7bc11b6f3de7ec07a4bfd777b31761b6508cf1baee39f69dd546e906c"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/R305_eclisse_D_60.step",
+      "bytes": 30118,
+      "sha256": "d944d3d0835c2b41ab201bf71fa2d642f3938998da4e9b12482b74ea13f20d7d"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/R305_eclisse_G_335.step",
+      "bytes": 30218,
+      "sha256": "4beff1795b44fc8ed4ba5002dd077ccad30b5598eb3a468cfaea7a5e0245b2bc"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/R305_eclisse_G_60.step",
+      "bytes": 30168,
+      "sha256": "653a791f15dfeaa63fe1aff42d6f3a889c71cd9804cd29f94c678932da9a4c85"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/R306_console_03.step",
+      "bytes": 30218,
+      "sha256": "6af33a3911d1699a73d403d9adcde98d090479afe03e32fbaf83b848051cfbb4"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/R306_console_04.step",
+      "bytes": 30218,
+      "sha256": "11a5aaf4a7f62b04bc379a50990bdd8f3a5b4d801de335a0d06eb783c85efb01"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/R306_console_05.step",
+      "bytes": 30218,
+      "sha256": "52bb70492160a20c401d50458d6df28d6502cad2a6e11a39ed594b2b48321285"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/R306_console_06.step",
+      "bytes": 30125,
+      "sha256": "6e8b31e817f82c86471e315168c904195d363dc135ad7f06f9217e8b825f1af5"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/R306_console_07.step",
+      "bytes": 30126,
+      "sha256": "68bcb99be324302365f4559cac2539558b6d8ea3898ea787a30424e2e04b9d11"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/R306_console_08.step",
+      "bytes": 30151,
+      "sha256": "16f24eba216903d4fd45c187d94bf67e1414fccad89f5438213230021411a463"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/R307_base_01_P03.step",
+      "bytes": 29623,
+      "sha256": "6caf974e60074b5bfaf81c20e0a46f3990cbc6a504ddb691fe289aaf8231452a"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/R307_base_02_P03.step",
+      "bytes": 29604,
+      "sha256": "0d5c5b989d14a9e017dda19fa3f2b082869467dcab049dec8d2da42150b4736d"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/R307_base_03_P04.step",
+      "bytes": 30307,
+      "sha256": "0359407da679198e436adc1c1b297ffc7d2ffd1c0b4fb0cdd18fe1527604af32"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/R307_base_04_P04.step",
+      "bytes": 30307,
+      "sha256": "ded828bd5a86015c3eee520ab2f3de599659318f2315d0f6e910a3a8d1bdde13"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/R307_base_05_P05.step",
+      "bytes": 30307,
+      "sha256": "01cc028184877abc82cb21db5520e6217123db6b20af7879894b5cee0f22b702"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/R307_base_06_P06.step",
+      "bytes": 29654,
+      "sha256": "9f6400a620eefdd0a4f7941c24191bb57acd8ed541f1c2a9f1f6412849e00693"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/R307_base_07_P06.step",
+      "bytes": 29673,
+      "sha256": "eae29c7723a365c84546e5b4a7c16d419c336a51b6617fea26614e2b1ccfbfbf"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/R307_base_08_P06.step",
+      "bytes": 30242,
+      "sha256": "4b9fe8c9c5680c16dfedd552dfa3e621ed2fb2452ab34d969dd0ac98d4a97d44"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/R308_capot_01_P03.step",
+      "bytes": 33136,
+      "sha256": "e2519b4b6a1f8a97f0d20610b5b696f4b7f6d7ed96db637cba084b32462b55d1"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/R308_capot_02_P03.step",
+      "bytes": 33115,
+      "sha256": "0bca5f325f4dac9e1ad975c083e0f490fe4b7aca2f1a1e9bf8a8525bff2f9fc1"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/R308_capot_03_P04.step",
+      "bytes": 33901,
+      "sha256": "4843183692cc4894521f5f1bda21ca8add8bfd1d4626e76c33ddfc39498044f8"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/R308_capot_04_P04.step",
+      "bytes": 33901,
+      "sha256": "2e30b9fa5c2108bceb2acab9dff5da191598e9a4868bf30ce3619a5f96bb2bda"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/R308_capot_05_P05.step",
+      "bytes": 33901,
+      "sha256": "5175620ece0bbcfd33b37ead2d58510bc6f922fc5c3ae0a6b8ba4d3eb7254a06"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/R308_capot_06_P06.step",
+      "bytes": 33171,
+      "sha256": "af8b5e5cdc178464cc2ce4e73d35a4b4bb205db6313f0eff7e9af01b8ac840b5"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/R308_capot_07_P06.step",
+      "bytes": 33192,
+      "sha256": "203118accf49f31f16ff32adcc97883e5bfe81b50960b3f168158e2d0240bec1"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/R308_capot_08_P06.step",
+      "bytes": 33830,
+      "sha256": "699965e5625f4ed328d08f9fa4a609bc8a5811791e8ac354eff7a58326d0c38b"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/R309_entretoise_01_-1.step",
+      "bytes": 9278,
+      "sha256": "00bed31922f3e5ac0958d5299c6fa145a36281d7c34b22c8aeb5ab21452c586c"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/R309_entretoise_01_1.step",
+      "bytes": 9278,
+      "sha256": "ac506b2d2862e061b44f88af7e774b2f41601ac75553315f3a2336a4e819b427"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/R309_entretoise_02_-1.step",
+      "bytes": 9264,
+      "sha256": "34b50f031538a1e2abbd3a85b06c305e129e69ec23b11f767b83749d6646929a"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/R309_entretoise_02_1.step",
+      "bytes": 9264,
+      "sha256": "1f3b8da4c742be332938b0901041b9ba6e5d3b790d5ed7ee921453ff046adca7"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/R309_entretoise_03_-1.step",
+      "bytes": 9320,
+      "sha256": "202b8429c00ed6ff21940fbb076f8fbeb4eb1cef10e0f6075e65bc8e82d4a027"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/R309_entretoise_03_1.step",
+      "bytes": 9320,
+      "sha256": "91c8c4cc69a5a73401d492ad8ab180aec0a71a86b534500e99b927bf20e07e39"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/R309_entretoise_04_-1.step",
+      "bytes": 9320,
+      "sha256": "f2d46411084db0ed2c1f13f5a7c896662962e8a9ee34b5ce1c9b291e66a97c92"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/R309_entretoise_04_1.step",
+      "bytes": 9320,
+      "sha256": "b4b9cb4963cca4456c61d22838fefc6063dd58b577762c8203c963df75b48a75"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/R309_entretoise_05_-1.step",
+      "bytes": 9322,
+      "sha256": "55fed073c924dffdd493d4c806f96c1ccc8067804b65fa74125fb938d61365dc"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/R309_entretoise_05_1.step",
+      "bytes": 9322,
+      "sha256": "9c49c44fd1461eea1c83a4c8b846190cd4ea3cee59b5922093821ccd3d5092b6"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/R309_entretoise_06_-1.step",
+      "bytes": 9278,
+      "sha256": "72f3693d5ae57260f792e8f69d46cd0c46714232da651bf2a0c219066d2a33e3"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/R309_entretoise_06_1.step",
+      "bytes": 9278,
+      "sha256": "ad4043d5352e27ca6c1a7011e6c437093418a05a020c347408ace1c06b47ad3c"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/R309_entretoise_07_-1.step",
+      "bytes": 9292,
+      "sha256": "fa718153ea091115c23912652c289bb1c3d2a5805118da286ea456bb5a38ddf2"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/R309_entretoise_07_1.step",
+      "bytes": 9292,
+      "sha256": "4fc9c3d32a5b62e33343c2263d84dddd8c4ca0d8374407a5ca05c3da84bcb09e"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/R309_entretoise_08_-1.step",
+      "bytes": 9306,
+      "sha256": "d44d8f68f326b36bf58d40ef1b427af9539c6e9499294487479539592204ffd4"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/R309_entretoise_08_1.step",
+      "bytes": 9306,
+      "sha256": "baf3472205114d62e569990467e8c10e10e0eabba30eb4ecf49d3101b864edf8"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/R310_anti_ecrasement_01.step",
+      "bytes": 9336,
+      "sha256": "f96e4e8301537fc3066a67cf0f09db8c0b22292d654d2dc253622c77b724b209"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/R310_anti_ecrasement_02.step",
+      "bytes": 9336,
+      "sha256": "06e890b7510f0e89bbdfab2eb2aa6825651c2d673ac2dbbbb7de1d79663e8262"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/R310_anti_ecrasement_03.step",
+      "bytes": 9322,
+      "sha256": "31e48e717499c7d13f80f62c0e1a47d80d1dd6b7fb3c5fa5502165f237e3d95d"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/R310_anti_ecrasement_04.step",
+      "bytes": 9322,
+      "sha256": "cf1ea178f939559b56b7491e767bf82d72808784676a02c430666b75f1fa1806"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/R310_anti_ecrasement_05.step",
+      "bytes": 9322,
+      "sha256": "3099aa30347d7950f8801e92429b8495f016bdcd94ae33f6bcd868536b6621c5"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/R310_anti_ecrasement_06.step",
+      "bytes": 9322,
+      "sha256": "af6c8508f1eba52090b02b0da56c93548c5c0f79026f59f2d16c70823e8c3ff1"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/R310_anti_ecrasement_07.step",
+      "bytes": 9336,
+      "sha256": "5dd622281dc3438926368cb708c94b3726bfe2eaf32b0fadd29b173475bcc028"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/R310_anti_ecrasement_08.step",
+      "bytes": 9336,
+      "sha256": "6dd898e4131ffb93abbb7b09ade7cfc29ada36641887b31937900820717cb6ce"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/R310_anti_ecrasement_09.step",
+      "bytes": 9336,
+      "sha256": "79b5a9084720a5790e8c12fdcfafa53272cb507adcb302bbb088dfe57d1e993c"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/R310_anti_ecrasement_10.step",
+      "bytes": 9336,
+      "sha256": "3bff2e428dce9bb925107cd5637c7f778f21eeb0f6fe7e6496ed1e41a14e0a1e"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/R310_anti_ecrasement_11.step",
+      "bytes": 9322,
+      "sha256": "694519957f95db6e57ee725b8ba361ecdbddf5e495fe8d3a96c2548032b219da"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/R310_anti_ecrasement_12.step",
+      "bytes": 9322,
+      "sha256": "df11b253825954f15564ef5e3ce1864c80dde69fc4fa31b94730657eaea12657"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/R310_anti_ecrasement_13.step",
+      "bytes": 9308,
+      "sha256": "9a7fb62e3625443d6f4d78aff640c73abec3e2cc48881d9f2affbf3434dd886f"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/R310_anti_ecrasement_14.step",
+      "bytes": 9310,
+      "sha256": "f466b4e8ed6c943d2187aeea9923eeb010bf00e6ed91e44196c7dc242534690e"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/R310_anti_ecrasement_15.step",
+      "bytes": 9310,
+      "sha256": "fd4f352442db50e0c3a123e345ab7abca3060e81b14bb5568bff060c0a194ab1"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/R310_anti_ecrasement_16.step",
+      "bytes": 9310,
+      "sha256": "8064f59da92d1dc5dc6084da1ba741f93a3aaf5c13944dbed79ce4419b971818"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/R310_anti_ecrasement_17.step",
+      "bytes": 9324,
+      "sha256": "b02c2628b41510f14ebd1aaa52bdb6e6373e62318b2ae9c29d7e81df3e177c30"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/R310_anti_ecrasement_18.step",
+      "bytes": 9324,
+      "sha256": "da75b7206e3111e123f12096e38ba05a0500a5c0a6ca07f84626ac4437e1c62a"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/R310_anti_ecrasement_19.step",
+      "bytes": 9324,
+      "sha256": "994d0db08d14310760cdb00835fa9b08a3ec0166ea039cf757c01af895d703f2"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/R310_anti_ecrasement_20.step",
+      "bytes": 9324,
+      "sha256": "af62ee3d6b08947315a46939a9caacd8030b84a4148254b7714f47830c80013b"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/R310_anti_ecrasement_21.step",
+      "bytes": 9296,
+      "sha256": "87b88505e10c0a3b804f87eb52ac6ec6a8d8246da66a8419a1ca425abc98b751"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/R310_anti_ecrasement_22.step",
+      "bytes": 9296,
+      "sha256": "a4390c85421b77db6f4712c60d0d3c11f8905f7741fef8cd182c7ff81e2c7cf0"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/R310_anti_ecrasement_23.step",
+      "bytes": 9282,
+      "sha256": "dd3e2edde5a4a71eeaa5b27e7387e55fd8b981a605cc03dab86de66cd72a3a3e"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/R310_anti_ecrasement_24.step",
+      "bytes": 9282,
+      "sha256": "8d6f26384f5108d55febb1ee2670fee40b5fc76bd1be80a534fe8c501c79291c"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/R310_anti_ecrasement_25.step",
+      "bytes": 9338,
+      "sha256": "31f5b435bef597ea810be12ab13d7ef6fe1feb7e6fd2178b4bf99dfb0cc9dc11"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/R310_anti_ecrasement_26.step",
+      "bytes": 9338,
+      "sha256": "06484437c446c794a99186991623c5c22e209aaf4f95a66c8a4069ac64395cfe"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/R310_anti_ecrasement_27.step",
+      "bytes": 9338,
+      "sha256": "397b26b0f9cae3158ffd0aa555cb018023ef2166c4e78cca45a56cc7f6f99ba0"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/R310_anti_ecrasement_28.step",
+      "bytes": 9338,
+      "sha256": "121ddd99d7813402b2625c8a5c3f1233322c8786e67ac11a260527401310dfce"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/R310_anti_ecrasement_29.step",
+      "bytes": 9338,
+      "sha256": "0a3171fa9408b26f970a2c163d5b133d4f4c42f0a084394aa1cad0bf1dcd8aff"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/R310_anti_ecrasement_30.step",
+      "bytes": 9338,
+      "sha256": "481ab21edeab9405a23c9b868fe5a2909106ab6ae7cd10c577277fc16f7cc25e"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/R310_anti_ecrasement_31.step",
+      "bytes": 9310,
+      "sha256": "d6f4d920cdd6eab52e3298eedad70766449ed8b0984c2ec983f8690bff1568d4"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/R310_anti_ecrasement_32.step",
+      "bytes": 9296,
+      "sha256": "e9be729615a267f35239bf1845ea4a6fc3b5befb3016e2fa8fe5e7f12d78359d"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/R310_anti_ecrasement_33.step",
+      "bytes": 9310,
+      "sha256": "4c30f03797ddeaa81cd8ee49ef8a12d1c431b1af32d46d76004790805a824a65"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/R310_anti_ecrasement_34.step",
+      "bytes": 9310,
+      "sha256": "5e2efc00f8a57890d9a3524ed601018c5122beaed92d8e1e2c4c358a7a30fb0e"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/R310_anti_ecrasement_35.step",
+      "bytes": 9324,
+      "sha256": "43419b7227d311d43532a228492a61afc6909e3bbd6e53d35203b95f5a734e4c"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/R310_anti_ecrasement_36.step",
+      "bytes": 9324,
+      "sha256": "d466e72748b084b996277ef15a51f99e74bad334b8666fb1ff9a4021a71fa059"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/R311_garniture_01.step",
+      "bytes": 9284,
+      "sha256": "832c495b6c679ed15efcdabb74b229e0301515147135955f54e613889c92cbe8"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/R311_garniture_02.step",
+      "bytes": 9279,
+      "sha256": "da9181e2f101644cce77660ce0f2ce806605e1985a4e066ef7ec88f437e5c715"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/R311_garniture_03.step",
+      "bytes": 9482,
+      "sha256": "2301d6dade875fafc2b43677dec8e7e5170b651e252cc8c69a6b621982423a56"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/R311_garniture_04.step",
+      "bytes": 9482,
+      "sha256": "9b4a0a0ab09c46cfd7c6e4642a6f3597d80f29551bc7b28cc0d84e61a81af3b6"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/R311_garniture_05.step",
+      "bytes": 9482,
+      "sha256": "133d85d77204347cab89bca9cb8c83a2ea67135eb2109cdb32bc19fbe413e051"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/R311_garniture_06.step",
+      "bytes": 9293,
+      "sha256": "de8d8ded67dc6bc0fd17f7aec51ecab87f4f8220bdf376b9f49d8b3858dca3e7"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/R311_garniture_07.step",
+      "bytes": 9298,
+      "sha256": "9c7db77b767ea1a4f9425a0d833be11154afc47194e8997246010e33e2d00fd3"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/R311_garniture_08.step",
+      "bytes": 9468,
+      "sha256": "5ad232a479862b165702714349bd676f700dd246d5d8a066c7f1e833fa2c1687"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/R312_bouchon_D_150.step",
+      "bytes": 22974,
+      "sha256": "7a15d2868c7409306060ef17caf80cb20e27930a01e7df33a761c077f12776b0"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/R312_bouchon_D_355.step",
+      "bytes": 22974,
+      "sha256": "4b14c28e05310fc6fee24f10f45c908d75efe2fdce303c9371739cf53b2e5b25"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/R312_bouchon_G_150.step",
+      "bytes": 25365,
+      "sha256": "c0f1e7ec994eb9f533ff1d544b01a1f3139a84522848c8102e9249732280b13b"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/R312_bouchon_G_355.step",
+      "bytes": 25365,
+      "sha256": "ea037c43bbde3180f1175ff8eec8ccc7fb2a1bd427337aab976564d8c3710421"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/R313_anti_ecrasement_montant_D_142.step",
+      "bytes": 9312,
+      "sha256": "491a2fe6e3dabda8c7425c4774cba3bf6fad94f41e8fc7a57308c22dc6d878da"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/R313_anti_ecrasement_montant_D_158.step",
+      "bytes": 9312,
+      "sha256": "e6339718b0b6b677f336e3eca572ac570fef0c197295e9772415827a8dfb79f7"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/R313_anti_ecrasement_montant_D_347.step",
+      "bytes": 9312,
+      "sha256": "55a5b8bee3a71e64cb20bb685530d1d82a36df04eeb79878f9a87222d5f67b0d"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/R313_anti_ecrasement_montant_D_363.step",
+      "bytes": 9312,
+      "sha256": "5b0ef6d9a861e814e985f3a4ee77b2cd368f00400f6cc8845266b2587bbab9f0"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/R313_anti_ecrasement_montant_G_142.step",
+      "bytes": 11606,
+      "sha256": "55eb6b28b4547ec0537a6401d4eb0f8db9eea46b0305e880bb66149366e3c6b5"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/R313_anti_ecrasement_montant_G_158.step",
+      "bytes": 11606,
+      "sha256": "c8677f7fe9897a7d2994c31b78bd46275ce34467ef5128a5e0ed520c8e591b54"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/R313_anti_ecrasement_montant_G_347.step",
+      "bytes": 11606,
+      "sha256": "41a26ccaed2ce6c904de7409ab2977d2200adeb2d3aa23cd30b27d5016f2147b"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/R313_anti_ecrasement_montant_G_363.step",
+      "bytes": 11608,
+      "sha256": "6135ae9e272dc21170e8f544ba3a6a76a72f333e78debfdc735786a025e3e04b"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/3D/README.md",
+      "bytes": 811,
+      "sha256": "5e249b5dd4668ca7ec0dace751146162a0849d94dda56fae845dd1efd4a8be45"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/alimentation-direction-a-revoir.md",
+      "bytes": 2398,
+      "sha256": "988fcaf7f49f19d7d036a2141d141e74b303a987ddf60ab45bc47d0317c4087f"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/approvisionnement-visserie-r3.csv",
+      "bytes": 435,
+      "sha256": "ac0e29dfcdf48803308a5c0411027ae7ab42aa63704d9710afa8b7d0f861e768"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/calculs-electriques-r3.json",
+      "bytes": 3051,
+      "sha256": "3e7eb024449d397b78370fd89156165242491bd3cb9e9d50f79e0600ad61318c"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/conditions-restantes.json",
+      "bytes": 2589,
+      "sha256": "c7a43c9508e2533a45ed81bb1174100ec2762108b0787c677bdf175b9590f0c7"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/conditions-restantes.md",
+      "bytes": 2166,
+      "sha256": "e49d6c0aa9c8c0484b1efa99467ac35df08e22fe630423cd9e22ccc0217d98bf"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/electricite.md",
+      "bytes": 5277,
+      "sha256": "8521605d0c64c52af322a0b5548c43047f6fa1b76fdc5b7803388f7700d72945"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/exigences-branche-direction.json",
+      "bytes": 732,
+      "sha256": "573dea8ee0b2c107be3578114f2a34119924409497d1f6e867c3d178ba445d3c"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/interface-pwm-bom-r3.json",
+      "bytes": 306,
+      "sha256": "5cad0728ec8a08cf1579d9c7f687e117e24c0b4cf9658484b2647f62e9ddc5c1"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/interface-pwm-netlist-r3.csv",
+      "bytes": 3642,
+      "sha256": "d95259c334449aeb018011c1e8dff9b19c307e4fdb97d183b5fd19163e893002"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/longueurs-cables.csv",
+      "bytes": 416,
+      "sha256": "445ea3f8dee4539269094dcb3754dce2c57b31933d3cf58f5915156b88287fe7"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/notice-mecanique.md",
+      "bytes": 3559,
+      "sha256": "bec6a6edbce91f9f7733ab02236fc23165305e8273dc84cc865a842cb8b6760c"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/parcours.json",
+      "bytes": 2849,
+      "sha256": "2763dde4608d724d1c345b7bb8d505ea4ac7d0871bc9d76f3a0161893cd88041"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/pieces.json",
+      "bytes": 38981,
+      "sha256": "1eeb77cf7df25b029e9989259552c59743c6ed3a8f9b07485ea86949650deac3"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/plans/dossier-complements-r3.pdf",
+      "bytes": 200636,
+      "sha256": "b643f77ec6f026f58add764abe02ac6625a42a4f5d2bf487920b3977829901b1"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/plans/percages-globaux-r3.csv",
+      "bytes": 3650,
+      "sha256": "d5759a108c50a92cf3a452eb6547b04172a20df86e01d1fb2fb80794eca73380"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/plans/R303_rail_D.dxf",
+      "bytes": 19900,
+      "sha256": "9700232da8ca07e859ca363f91f3d9ec211550168e59daaae5b3fb126c86d6c2"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/plans/R303_rail_G.dxf",
+      "bytes": 20364,
+      "sha256": "32f445e056d07e961f59054a2c1651cd5dc936e3fbecdfcd214bd410c475c971"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/plans/R304_traverse_335.dxf",
+      "bytes": 19895,
+      "sha256": "cff979da557b24b37bb71f35758cac552e19a68f7fafd7f691661b4061e61957"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/plans/R304_traverse_60.dxf",
+      "bytes": 19893,
+      "sha256": "ad8ed1c2f066d493db208da694c5200d8f2ddcd1696457c1a2b3878b67d2321f"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/plans/R305_eclisse_D_335.dxf",
+      "bytes": 19423,
+      "sha256": "8c45dba1be3809fdc494ae534f31b3ddb5bc94e03bf8d1af4cee4b62fc3f93de"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/plans/R305_eclisse_D_60.dxf",
+      "bytes": 19425,
+      "sha256": "6eb8564479d97834deb0c1710c09b86c88f250793f7cea165f1e1284c8c64e09"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/plans/R305_eclisse_G_335.dxf",
+      "bytes": 19425,
+      "sha256": "7f6e1322ccb8571974eda668c413d3306a4a7c77ee238d4b83ce37382cb03656"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/plans/R305_eclisse_G_60.dxf",
+      "bytes": 19425,
+      "sha256": "24d39c5c449a22764127a9a000af54dc2648947adfdc658f3393b64f11bfdf05"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/plans/R306_console_03.dxf",
+      "bytes": 19423,
+      "sha256": "3c55b84298f824f47a4b3cb5899fe61b3ea1b1ad106b54855d82ce5b8bac8f0a"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/plans/R306_console_04.dxf",
+      "bytes": 19423,
+      "sha256": "d18e06c824041e60610df4bd86b5d035ab85a393894cd06795a0d864bb1c3029"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/plans/R306_console_05.dxf",
+      "bytes": 19423,
+      "sha256": "a8f5b08cd03c59053bc3714ff3dcf643b1adacc85f8ab5e6b7a138941b49d5e6"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/plans/R306_console_06.dxf",
+      "bytes": 19430,
+      "sha256": "848926193909c8d9d512256c38c251fd9208cbc868386663c556fa722114c6fc"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/plans/R306_console_07.dxf",
+      "bytes": 19430,
+      "sha256": "4eeea06d5c74f9344b82b75e4433187e3832be274f7e60393454e24473f1df3d"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/plans/R306_console_08.dxf",
+      "bytes": 19423,
+      "sha256": "d4c042efe5cec92b4341280845230f487b0c8b84841e6c1b99d681ed2dc34bed"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/plans/README.md",
+      "bytes": 718,
+      "sha256": "a86356ebfbe1b1d13d0a057f92a0834d88af875fb5e00820dceae35902bd793c"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/protocole-banc.md",
+      "bytes": 2004,
+      "sha256": "ca5895c4ac1f4cddea3c6fe76e4ae172741fc75bf2c778a282de18ced864313c"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/questions-fabricants-non-envoyees.md",
+      "bytes": 1892,
+      "sha256": "5b118a514b55d299c827a388db296dff5959cb265377b836899cf7caf8c42061"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/README.md",
+      "bytes": 2475,
+      "sha256": "b81897b6432787b5de0dc6b59dd45adba431b58bb231672072ad1ccc78acb4e2"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/references/FEETECH-horn3431-drawing.pdf",
+      "bytes": 75204,
+      "sha256": "69cc9e5d66d21c84ff70c6e50a332cc11a38c41e2cc5c3d6d954a607f4a30fb6"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/references/FEETECH-horn3431.html",
+      "bytes": 41227,
+      "sha256": "5b76a9c5d849b6952670241d81d7bd18aebeb0b7c250598b5e68a465d259e949"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/references/FEETECH-Pololu3429.html",
+      "bytes": 58054,
+      "sha256": "3aded3435cf8258b7699be67dd78c53238c103da76b979a6255210ed688ebfe1"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/references/Hitec-D950TW-datasheet.pdf",
+      "bytes": 355628,
+      "sha256": "17c71233bd9d90f70f22811f40a1d94fb6bf4c1e08dd971235a6073dad46b208"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/references/Hitec-D950TW-EU.html",
+      "bytes": 782470,
+      "sha256": "f30d5b1f87edad7c2396326fe26783efb311ed12f8328145570a1ec29c5c3bc4"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/references/Hitec-D950TW-original.stp",
+      "bytes": 5233087,
+      "sha256": "22d5ef3bdd4603cf250639ff7e28168f2fd67cf92c045ec4157dbb52eb75756b"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/references/Hitec-D950TW-US.html",
+      "bytes": 250910,
+      "sha256": "4488ccb6d013776f027b372b50bba4708eba0c8edeb1334dc3b395a428e535a5"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/references/Hobbywing-UBEC-original.pdf",
+      "bytes": 1802176,
+      "sha256": "0d74492495504a52aa387897d1d0ae1c1ba5c0f43cbe9d8f0a666651e90b0595"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/references/KHK-spur-2025.pdf",
+      "bytes": 6474683,
+      "sha256": "8353df7a62f5a3adf6f8f6e2dae70d07dc341994416779092b96012703df721f"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/references/KHK-SS.pdf",
+      "bytes": 718814,
+      "sha256": "f226fe80d3b8295cc8146be91280061474965f033cf4db471618b6d5f66dda74"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/references/Losi-LOS212054.html",
+      "bytes": 2045363,
+      "sha256": "21bb9e9a0e12eba6ff4d681861c2f320e6806845b0149f2e2ebf90bd285116e5"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/references/Microchip-MCP1703A-original.pdf",
+      "bytes": 2296306,
+      "sha256": "6fdfc2f20167c7292c92c9c4c8003fd4d8615e0f2f90e224e1e10dce6ed65b5f"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/references/TI-ISO7710-original.pdf",
+      "bytes": 1457891,
+      "sha256": "42fc3c704c9ca0c451282373b4a7ffb22d4691d56029b2b485ab111f3cc431c5"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/releve-reception.csv",
+      "bytes": 435,
+      "sha256": "3dbf1d2bc2ab093a497d6d289e7e972645723264c56a82dac7bbbc103ab09812"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/scenarios-tension.csv",
+      "bytes": 522,
+      "sha256": "b49eb33b59303d459b9f1fd367ff9b3da7c18974c92efbf7559e9c5c0dac7fce"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/sources.json",
+      "bytes": 8082,
+      "sha256": "e8a189afa2ab1a993bbba85dc1b9812ea4115fe5bba04433cb0d0e6d08b41985"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/verification/alternative-hitec.json",
+      "bytes": 336,
+      "sha256": "cc7140d981971ba0cf15827b241925777de620831d2c0e11d5215307706216d1"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/verification/brochage.json",
+      "bytes": 275,
+      "sha256": "702b516551f7c1331376682233ddb79c2b2d7ef2f5a44c50f46be28c24d07c5f"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/verification/cad-viewer.json",
+      "bytes": 483,
+      "sha256": "5073364c80e06b567f1e54648321b1d8b87ba234357c92e68bff9820f7301b89"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/verification/dimensionnement-supports.json",
+      "bytes": 673,
+      "sha256": "cb15f5a11c71fa52dacddef06077b6e1767133d5262a67791e6a69d218dc371c"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/verification/dxf.json",
+      "bytes": 6231,
+      "sha256": "8d3427292d412ae25aa3d18b84a8678ae1de55c0c869b9c41bcef44784829881"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/verification/etat-liberation.json",
+      "bytes": 504,
+      "sha256": "6493fa859024ff530a2ef8fd0bfe69861c4a704eb7029e2074fd803095f47b63"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/verification/freecad.json",
+      "bytes": 275,
+      "sha256": "cfbcdba3f7c508b572e7e9a75c65981fb23b027b0d563d4a1e560edbfc8cdaba"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/verification/generation.json",
+      "bytes": 384,
+      "sha256": "0ee81d253a34b5e10f391ed6b93ceb2341f4ba3890cf3a14d5a905930936cda4"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/verification/geometrie.json",
+      "bytes": 12584,
+      "sha256": "cf89a0b874fd08b07198564c50b546e43df522d7141295fc4d3eacce86435c4e"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/verification/livraison.json",
+      "bytes": 545,
+      "sha256": "d05103be057ef37552d821d3ffb411977710972b6010916eef91f45f925cb9eb"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/verification/pdf.json",
+      "bytes": 955,
+      "sha256": "63a5e2d0b1adb0d96bcc51c6b60be53208702abfef200031a89b5b25e2243db7"
+    },
+    {
+      "path": "Composants/complements-finalisation-r3/visserie-r3.csv",
+      "bytes": 1580,
+      "sha256": "dadd4e595f2351e0688c12e225ee1f52548fb4e5c82a99edda69e02dba77f5f2"
+    },
+    {
+      "path": "Assemblage/R3/apercu-r3-dessus.png",
+      "bytes": 84129,
+      "sha256": "331a2ddd8efd00538732cea507143307e7975d4e2a9977c02367a2825c150f37"
+    },
+    {
+      "path": "Assemblage/R3/apercu-r3-isometrique.png",
+      "bytes": 102949,
+      "sha256": "eeaa5dd84ba21412a2b1aa723afce6f8894896c8f0db90a8c9ca700f639fc5b8"
+    },
+    {
+      "path": "Assemblage/R3/drone-v3-r3-faisceau.FCStd",
+      "bytes": 893765,
+      "sha256": "fac582ab26b601e4e1e47c3511ea39f536b26bfd559e2cd86b700a936a24fb6a"
+    },
+    {
+      "path": "Assemblage/R3/drone-v3-r3-faisceau.step",
+      "bytes": 14403647,
+      "sha256": "49d43487cffaccd8f997502659f7153b7c6a3cce2ba0db39ea4253c926f7b849"
+    },
+    {
+      "path": "Assemblage/R3/README.md",
+      "bytes": 832,
+      "sha256": "01dbb325ff78e1d30c832674711552328e43c0fb8fe830cfb741a8319fb35082"
+    }
+  ],
+  "excludes_self_zip_and_archive_record": true
+}

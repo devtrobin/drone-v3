@@ -1,0 +1,55 @@
+{
+  "full_circlip_envelope_diameter_mm": 10.3,
+  "rotation360_checked_geometrically": true,
+  "rows": [
+    {
+      "part": "P01_Equerre_fourche",
+      "clip_full_revolution_overlap_mm3": 0.0
+    },
+    {
+      "part": "P02_Porte_capteur",
+      "clip_full_revolution_overlap_mm3": 0.0
+    },
+    {
+      "part": "P03_Retenue_capteur",
+      "clip_full_revolution_overlap_mm3": 0.0
+    },
+    {
+      "part": "DRV5033_corps_nominal_face_plusX",
+      "clip_full_revolution_overlap_mm3": 0.0
+    },
+    {
+      "part": "DRV5033_VCC_patte_raccourcie6",
+      "clip_full_revolution_overlap_mm3": 0.0
+    },
+    {
+      "part": "DRV5033_GND_patte_raccourcie6",
+      "clip_full_revolution_overlap_mm3": 0.0
+    },
+    {
+      "part": "DRV5033_OUT_patte_raccourcie6",
+      "clip_full_revolution_overlap_mm3": 0.0
+    },
+    {
+      "part": "P04_Rotor_capteur_faceX0",
+      "clip_full_revolution_overlap_mm3": 0.0
+    },
+    {
+      "part": "Aimant_3x2_-1",
+      "clip_full_revolution_overlap_mm3": 0.0
+    },
+    {
+      "part": "Vis_blocage_M3x8_nominale_-1",
+      "clip_full_revolution_overlap_mm3": 0.0
+    },
+    {
+      "part": "Aimant_3x2_1",
+      "clip_full_revolution_overlap_mm3": 0.0
+    },
+    {
+      "part": "Vis_blocage_M3x8_nominale_1",
+      "clip_full_revolution_overlap_mm3": 0.0
+    }
+  ],
+  "magnetic_detection_not_validated": true
+}

@@ -1,0 +1,1056 @@
+{
+  "file": "deux-protections-moteurs-ato30-etude.step",
+  "title": "Deux departs ESC independants : pose etude",
+  "generated_on": "2026-10-14",
+  "unit": "mm",
+  "cadquery_version": "2.8.0",
+  "coordinate_system": "Support:X largeur,Y insertion,Z epaisseur; fils vers-Y. Fusible isole:Z hauteur. Montage rotationX-90,Y+4,Z+7.5.",
+  "bytes": 4134800,
+  "sha256": "a819eefa517d96ff63d1d996104aac7a2459845cedc7caa21c8bfb7c587a759e",
+  "native_vendor_cad": false,
+  "hardware_measured": false,
+  "is_custom_project_design": false,
+  "published_nominal": [
+    "5065:ATO/ATC,12AWG,max30A,fusible separe.",
+    "ATO30:19.1x5.1x18.8mm,lames4.1x0.65mm,enveloppe14.5mm; fiche2022."
+  ],
+  "estimates_and_limitations": [
+    "Support 5065 reconstruit: aucun plan ni STEP natif fabricant obtenu; non mesure.",
+    "Corps et oreille37.5x38x15mm estimes; trou5.0mm est une estimation, pas un plan de percage.",
+    "Contacts femelles, joint orange et languettes estimes; compression illustree, aucune qualification IP.",
+    "Deux fils rouges12AWG sortent du meme cote; 100mm exterieurs et denudage8mm illustratifs.",
+    "19brins de rayon0.235mm par fil: representation de3.30mm2; nombre de brins reel inconnu.",
+    "Sans cosses, XT60, vis de chassis, jonction commune ou faisceau final.",
+    "Enveloppe et lames selon ficheATOaftermarket2022, sans tolerances de production.",
+    "Depouilles, rayons, poches, points de test et police du30 estimes; vert translucide rendu opaque.",
+    "Element interne de fusion non represente: pas un modele de fabrication ou de simulation electrique.",
+    "Pose deux supports sans jonction commune; les4fils rouges ne sont pas connectes dans ce modele."
+  ],
+  "parameters": {
+    "reference": "BlueSea5065",
+    "manufacturer_max_fuse_A": 30,
+    "wire_gauge": "12AWG",
+    "holder_body_and_tab_estimated_mm": [
+      37.5,
+      38,
+      15
+    ],
+    "wire_outer_diameter_estimated_mm": 4.3,
+    "wire_external_length_illustrative_mm": 100,
+    "stripped_end_illustrative_mm": 8,
+    "strands_illustrative_count": 19,
+    "mount_hole_estimated_mm": 5.0,
+    "native_vendor_dimensions_obtained": false,
+    "fuse": {
+      "reference": "0ATO030.V",
+      "nominal_A": 30,
+      "fuse_envelope_mm": [
+        19.1,
+        5.1,
+        18.8
+      ],
+      "blade_width_mm": 4.1,
+      "blade_thickness_mm": 0.65,
+      "blade_exposed_mm": 6.5,
+      "blade_outside_span_mm": 14.5,
+      "blade_pitch_inferred_mm": 10.4
+    },
+    "holder_centres_x_mm": [
+      -26,
+      26
+    ]
+  },
+  "source_pages": [
+    "Fiche Littelfuse ATOaftermarket2022,p1-3",
+    "BlueSea5065 fabricant et photo AmazonB004ZIUA62",
+    "Provenance support et mesures approximatives: dossier protection-branche-pi/cotes.md"
+  ],
+  "bounds_mm": {
+    "xmin": -51.0,
+    "xmax": 38.5000001,
+    "ymin": -120.5,
+    "ymax": 26.5000001,
+    "zmin": -1e-07,
+    "zmax": 15.0000001
+  },
+  "validation": {
+    "valid_after_reimport": true,
+    "solids": 112,
+    "faces": 1158,
+    "colors": 7,
+    "volume_relative_error": 2.5971785007093904e-14,
+    "volume_relative_error_limit": 0.0001,
+    "volume_before_mm3": 22131.73454822186,
+    "volume_after_mm3": 22131.734548222434,
+    "adaptive_volume_tolerance": 1e-09,
+    "bbox_error_mm": 3.552713678800501e-15,
+    "bbox_error_limit_mm": 0.01,
+    "void_and_material_probes": [],
+    "elapsed_seconds": 4.930706699997245,
+    "pairwise_material_overlaps": []
+  },
+  "parts": [
+    {
+      "name": "Branche_ESC1_Socle_noir_et_guides_reconstruits",
+      "color_linear_rgb": [
+        0.015,
+        0.017,
+        0.02
+      ],
+      "solids": 3
+    },
+    {
+      "name": "Branche_ESC1_Contact_femelle_1_forme_et_matiere_estimees",
+      "color_linear_rgb": [
+        0.5,
+        0.34,
+        0.12
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Branche_ESC1_Contact_femelle_2_forme_et_matiere_estimees",
+      "color_linear_rgb": [
+        0.5,
+        0.34,
+        0.12
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Branche_ESC1_Joint_orange_nervure_1_compression_estimee",
+      "color_linear_rgb": [
+        0.87,
+        0.28,
+        0.025
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Branche_ESC1_Joint_orange_nervure_2_compression_estimee",
+      "color_linear_rgb": [
+        0.87,
+        0.28,
+        0.025
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Branche_ESC1_Joint_orange_nervure_3_compression_estimee",
+      "color_linear_rgb": [
+        0.87,
+        0.28,
+        0.025
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Branche_ESC1_Gaine_rouge_1_pose100mm_hors_corps_estimee",
+      "color_linear_rgb": [
+        0.64,
+        0.035,
+        0.025
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Branche_ESC1_Fil_1_brin_etame_01_nombre_brins_estime",
+      "color_linear_rgb": [
+        0.65,
+        0.67,
+        0.68
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Branche_ESC1_Fil_1_brin_etame_02_nombre_brins_estime",
+      "color_linear_rgb": [
+        0.65,
+        0.67,
+        0.68
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Branche_ESC1_Fil_1_brin_etame_03_nombre_brins_estime",
+      "color_linear_rgb": [
+        0.65,
+        0.67,
+        0.68
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Branche_ESC1_Fil_1_brin_etame_04_nombre_brins_estime",
+      "color_linear_rgb": [
+        0.65,
+        0.67,
+        0.68
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Branche_ESC1_Fil_1_brin_etame_05_nombre_brins_estime",
+      "color_linear_rgb": [
+        0.65,
+        0.67,
+        0.68
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Branche_ESC1_Fil_1_brin_etame_06_nombre_brins_estime",
+      "color_linear_rgb": [
+        0.65,
+        0.67,
+        0.68
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Branche_ESC1_Fil_1_brin_etame_07_nombre_brins_estime",
+      "color_linear_rgb": [
+        0.65,
+        0.67,
+        0.68
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Branche_ESC1_Fil_1_brin_etame_08_nombre_brins_estime",
+      "color_linear_rgb": [
+        0.65,
+        0.67,
+        0.68
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Branche_ESC1_Fil_1_brin_etame_09_nombre_brins_estime",
+      "color_linear_rgb": [
+        0.65,
+        0.67,
+        0.68
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Branche_ESC1_Fil_1_brin_etame_10_nombre_brins_estime",
+      "color_linear_rgb": [
+        0.65,
+        0.67,
+        0.68
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Branche_ESC1_Fil_1_brin_etame_11_nombre_brins_estime",
+      "color_linear_rgb": [
+        0.65,
+        0.67,
+        0.68
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Branche_ESC1_Fil_1_brin_etame_12_nombre_brins_estime",
+      "color_linear_rgb": [
+        0.65,
+        0.67,
+        0.68
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Branche_ESC1_Fil_1_brin_etame_13_nombre_brins_estime",
+      "color_linear_rgb": [
+        0.65,
+        0.67,
+        0.68
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Branche_ESC1_Fil_1_brin_etame_14_nombre_brins_estime",
+      "color_linear_rgb": [
+        0.65,
+        0.67,
+        0.68
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Branche_ESC1_Fil_1_brin_etame_15_nombre_brins_estime",
+      "color_linear_rgb": [
+        0.65,
+        0.67,
+        0.68
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Branche_ESC1_Fil_1_brin_etame_16_nombre_brins_estime",
+      "color_linear_rgb": [
+        0.65,
+        0.67,
+        0.68
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Branche_ESC1_Fil_1_brin_etame_17_nombre_brins_estime",
+      "color_linear_rgb": [
+        0.65,
+        0.67,
+        0.68
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Branche_ESC1_Fil_1_brin_etame_18_nombre_brins_estime",
+      "color_linear_rgb": [
+        0.65,
+        0.67,
+        0.68
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Branche_ESC1_Fil_1_brin_etame_19_nombre_brins_estime",
+      "color_linear_rgb": [
+        0.65,
+        0.67,
+        0.68
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Branche_ESC1_Gaine_rouge_2_pose100mm_hors_corps_estimee",
+      "color_linear_rgb": [
+        0.64,
+        0.035,
+        0.025
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Branche_ESC1_Fil_2_brin_etame_01_nombre_brins_estime",
+      "color_linear_rgb": [
+        0.65,
+        0.67,
+        0.68
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Branche_ESC1_Fil_2_brin_etame_02_nombre_brins_estime",
+      "color_linear_rgb": [
+        0.65,
+        0.67,
+        0.68
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Branche_ESC1_Fil_2_brin_etame_03_nombre_brins_estime",
+      "color_linear_rgb": [
+        0.65,
+        0.67,
+        0.68
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Branche_ESC1_Fil_2_brin_etame_04_nombre_brins_estime",
+      "color_linear_rgb": [
+        0.65,
+        0.67,
+        0.68
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Branche_ESC1_Fil_2_brin_etame_05_nombre_brins_estime",
+      "color_linear_rgb": [
+        0.65,
+        0.67,
+        0.68
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Branche_ESC1_Fil_2_brin_etame_06_nombre_brins_estime",
+      "color_linear_rgb": [
+        0.65,
+        0.67,
+        0.68
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Branche_ESC1_Fil_2_brin_etame_07_nombre_brins_estime",
+      "color_linear_rgb": [
+        0.65,
+        0.67,
+        0.68
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Branche_ESC1_Fil_2_brin_etame_08_nombre_brins_estime",
+      "color_linear_rgb": [
+        0.65,
+        0.67,
+        0.68
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Branche_ESC1_Fil_2_brin_etame_09_nombre_brins_estime",
+      "color_linear_rgb": [
+        0.65,
+        0.67,
+        0.68
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Branche_ESC1_Fil_2_brin_etame_10_nombre_brins_estime",
+      "color_linear_rgb": [
+        0.65,
+        0.67,
+        0.68
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Branche_ESC1_Fil_2_brin_etame_11_nombre_brins_estime",
+      "color_linear_rgb": [
+        0.65,
+        0.67,
+        0.68
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Branche_ESC1_Fil_2_brin_etame_12_nombre_brins_estime",
+      "color_linear_rgb": [
+        0.65,
+        0.67,
+        0.68
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Branche_ESC1_Fil_2_brin_etame_13_nombre_brins_estime",
+      "color_linear_rgb": [
+        0.65,
+        0.67,
+        0.68
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Branche_ESC1_Fil_2_brin_etame_14_nombre_brins_estime",
+      "color_linear_rgb": [
+        0.65,
+        0.67,
+        0.68
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Branche_ESC1_Fil_2_brin_etame_15_nombre_brins_estime",
+      "color_linear_rgb": [
+        0.65,
+        0.67,
+        0.68
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Branche_ESC1_Fil_2_brin_etame_16_nombre_brins_estime",
+      "color_linear_rgb": [
+        0.65,
+        0.67,
+        0.68
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Branche_ESC1_Fil_2_brin_etame_17_nombre_brins_estime",
+      "color_linear_rgb": [
+        0.65,
+        0.67,
+        0.68
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Branche_ESC1_Fil_2_brin_etame_18_nombre_brins_estime",
+      "color_linear_rgb": [
+        0.65,
+        0.67,
+        0.68
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Branche_ESC1_Fil_2_brin_etame_19_nombre_brins_estime",
+      "color_linear_rgb": [
+        0.65,
+        0.67,
+        0.68
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Branche_ESC1_Capot_5065_estime",
+      "color_linear_rgb": [
+        0.015,
+        0.017,
+        0.02
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Branche_ESC1_Fusible_Corps_PA66_vert_moulage_approche",
+      "color_linear_rgb": [
+        0.022,
+        0.26,
+        0.06
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Branche_ESC1_Fusible_Lame_1_etamee_4_1x0_65",
+      "color_linear_rgb": [
+        0.65,
+        0.67,
+        0.68
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Branche_ESC1_Fusible_Point_test_1_position_estimee",
+      "color_linear_rgb": [
+        0.65,
+        0.67,
+        0.68
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Branche_ESC1_Fusible_Lame_2_etamee_4_1x0_65",
+      "color_linear_rgb": [
+        0.65,
+        0.67,
+        0.68
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Branche_ESC1_Fusible_Point_test_2_position_estimee",
+      "color_linear_rgb": [
+        0.65,
+        0.67,
+        0.68
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Branche_ESC1_Fusible_Marquage_30_blanc_approche",
+      "color_linear_rgb": [
+        0.89,
+        0.89,
+        0.86
+      ],
+      "solids": 2
+    },
+    {
+      "name": "Branche_ESC2_Socle_noir_et_guides_reconstruits",
+      "color_linear_rgb": [
+        0.015,
+        0.017,
+        0.02
+      ],
+      "solids": 3
+    },
+    {
+      "name": "Branche_ESC2_Contact_femelle_1_forme_et_matiere_estimees",
+      "color_linear_rgb": [
+        0.5,
+        0.34,
+        0.12
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Branche_ESC2_Contact_femelle_2_forme_et_matiere_estimees",
+      "color_linear_rgb": [
+        0.5,
+        0.34,
+        0.12
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Branche_ESC2_Joint_orange_nervure_1_compression_estimee",
+      "color_linear_rgb": [
+        0.87,
+        0.28,
+        0.025
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Branche_ESC2_Joint_orange_nervure_2_compression_estimee",
+      "color_linear_rgb": [
+        0.87,
+        0.28,
+        0.025
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Branche_ESC2_Joint_orange_nervure_3_compression_estimee",
+      "color_linear_rgb": [
+        0.87,
+        0.28,
+        0.025
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Branche_ESC2_Gaine_rouge_1_pose100mm_hors_corps_estimee",
+      "color_linear_rgb": [
+        0.64,
+        0.035,
+        0.025
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Branche_ESC2_Fil_1_brin_etame_01_nombre_brins_estime",
+      "color_linear_rgb": [
+        0.65,
+        0.67,
+        0.68
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Branche_ESC2_Fil_1_brin_etame_02_nombre_brins_estime",
+      "color_linear_rgb": [
+        0.65,
+        0.67,
+        0.68
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Branche_ESC2_Fil_1_brin_etame_03_nombre_brins_estime",
+      "color_linear_rgb": [
+        0.65,
+        0.67,
+        0.68
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Branche_ESC2_Fil_1_brin_etame_04_nombre_brins_estime",
+      "color_linear_rgb": [
+        0.65,
+        0.67,
+        0.68
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Branche_ESC2_Fil_1_brin_etame_05_nombre_brins_estime",
+      "color_linear_rgb": [
+        0.65,
+        0.67,
+        0.68
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Branche_ESC2_Fil_1_brin_etame_06_nombre_brins_estime",
+      "color_linear_rgb": [
+        0.65,
+        0.67,
+        0.68
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Branche_ESC2_Fil_1_brin_etame_07_nombre_brins_estime",
+      "color_linear_rgb": [
+        0.65,
+        0.67,
+        0.68
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Branche_ESC2_Fil_1_brin_etame_08_nombre_brins_estime",
+      "color_linear_rgb": [
+        0.65,
+        0.67,
+        0.68
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Branche_ESC2_Fil_1_brin_etame_09_nombre_brins_estime",
+      "color_linear_rgb": [
+        0.65,
+        0.67,
+        0.68
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Branche_ESC2_Fil_1_brin_etame_10_nombre_brins_estime",
+      "color_linear_rgb": [
+        0.65,
+        0.67,
+        0.68
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Branche_ESC2_Fil_1_brin_etame_11_nombre_brins_estime",
+      "color_linear_rgb": [
+        0.65,
+        0.67,
+        0.68
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Branche_ESC2_Fil_1_brin_etame_12_nombre_brins_estime",
+      "color_linear_rgb": [
+        0.65,
+        0.67,
+        0.68
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Branche_ESC2_Fil_1_brin_etame_13_nombre_brins_estime",
+      "color_linear_rgb": [
+        0.65,
+        0.67,
+        0.68
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Branche_ESC2_Fil_1_brin_etame_14_nombre_brins_estime",
+      "color_linear_rgb": [
+        0.65,
+        0.67,
+        0.68
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Branche_ESC2_Fil_1_brin_etame_15_nombre_brins_estime",
+      "color_linear_rgb": [
+        0.65,
+        0.67,
+        0.68
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Branche_ESC2_Fil_1_brin_etame_16_nombre_brins_estime",
+      "color_linear_rgb": [
+        0.65,
+        0.67,
+        0.68
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Branche_ESC2_Fil_1_brin_etame_17_nombre_brins_estime",
+      "color_linear_rgb": [
+        0.65,
+        0.67,
+        0.68
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Branche_ESC2_Fil_1_brin_etame_18_nombre_brins_estime",
+      "color_linear_rgb": [
+        0.65,
+        0.67,
+        0.68
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Branche_ESC2_Fil_1_brin_etame_19_nombre_brins_estime",
+      "color_linear_rgb": [
+        0.65,
+        0.67,
+        0.68
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Branche_ESC2_Gaine_rouge_2_pose100mm_hors_corps_estimee",
+      "color_linear_rgb": [
+        0.64,
+        0.035,
+        0.025
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Branche_ESC2_Fil_2_brin_etame_01_nombre_brins_estime",
+      "color_linear_rgb": [
+        0.65,
+        0.67,
+        0.68
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Branche_ESC2_Fil_2_brin_etame_02_nombre_brins_estime",
+      "color_linear_rgb": [
+        0.65,
+        0.67,
+        0.68
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Branche_ESC2_Fil_2_brin_etame_03_nombre_brins_estime",
+      "color_linear_rgb": [
+        0.65,
+        0.67,
+        0.68
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Branche_ESC2_Fil_2_brin_etame_04_nombre_brins_estime",
+      "color_linear_rgb": [
+        0.65,
+        0.67,
+        0.68
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Branche_ESC2_Fil_2_brin_etame_05_nombre_brins_estime",
+      "color_linear_rgb": [
+        0.65,
+        0.67,
+        0.68
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Branche_ESC2_Fil_2_brin_etame_06_nombre_brins_estime",
+      "color_linear_rgb": [
+        0.65,
+        0.67,
+        0.68
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Branche_ESC2_Fil_2_brin_etame_07_nombre_brins_estime",
+      "color_linear_rgb": [
+        0.65,
+        0.67,
+        0.68
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Branche_ESC2_Fil_2_brin_etame_08_nombre_brins_estime",
+      "color_linear_rgb": [
+        0.65,
+        0.67,
+        0.68
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Branche_ESC2_Fil_2_brin_etame_09_nombre_brins_estime",
+      "color_linear_rgb": [
+        0.65,
+        0.67,
+        0.68
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Branche_ESC2_Fil_2_brin_etame_10_nombre_brins_estime",
+      "color_linear_rgb": [
+        0.65,
+        0.67,
+        0.68
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Branche_ESC2_Fil_2_brin_etame_11_nombre_brins_estime",
+      "color_linear_rgb": [
+        0.65,
+        0.67,
+        0.68
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Branche_ESC2_Fil_2_brin_etame_12_nombre_brins_estime",
+      "color_linear_rgb": [
+        0.65,
+        0.67,
+        0.68
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Branche_ESC2_Fil_2_brin_etame_13_nombre_brins_estime",
+      "color_linear_rgb": [
+        0.65,
+        0.67,
+        0.68
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Branche_ESC2_Fil_2_brin_etame_14_nombre_brins_estime",
+      "color_linear_rgb": [
+        0.65,
+        0.67,
+        0.68
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Branche_ESC2_Fil_2_brin_etame_15_nombre_brins_estime",
+      "color_linear_rgb": [
+        0.65,
+        0.67,
+        0.68
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Branche_ESC2_Fil_2_brin_etame_16_nombre_brins_estime",
+      "color_linear_rgb": [
+        0.65,
+        0.67,
+        0.68
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Branche_ESC2_Fil_2_brin_etame_17_nombre_brins_estime",
+      "color_linear_rgb": [
+        0.65,
+        0.67,
+        0.68
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Branche_ESC2_Fil_2_brin_etame_18_nombre_brins_estime",
+      "color_linear_rgb": [
+        0.65,
+        0.67,
+        0.68
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Branche_ESC2_Fil_2_brin_etame_19_nombre_brins_estime",
+      "color_linear_rgb": [
+        0.65,
+        0.67,
+        0.68
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Branche_ESC2_Capot_5065_estime",
+      "color_linear_rgb": [
+        0.015,
+        0.017,
+        0.02
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Branche_ESC2_Fusible_Corps_PA66_vert_moulage_approche",
+      "color_linear_rgb": [
+        0.022,
+        0.26,
+        0.06
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Branche_ESC2_Fusible_Lame_1_etamee_4_1x0_65",
+      "color_linear_rgb": [
+        0.65,
+        0.67,
+        0.68
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Branche_ESC2_Fusible_Point_test_1_position_estimee",
+      "color_linear_rgb": [
+        0.65,
+        0.67,
+        0.68
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Branche_ESC2_Fusible_Lame_2_etamee_4_1x0_65",
+      "color_linear_rgb": [
+        0.65,
+        0.67,
+        0.68
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Branche_ESC2_Fusible_Point_test_2_position_estimee",
+      "color_linear_rgb": [
+        0.65,
+        0.67,
+        0.68
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Branche_ESC2_Fusible_Marquage_30_blanc_approche",
+      "color_linear_rgb": [
+        0.89,
+        0.89,
+        0.86
+      ],
+      "solids": 2
+    }
+  ],
+  "preview": {
+    "file": "deux-protections-moteurs-ato30-etude.png",
+    "sha256": "c82ebb7d29913e764c61f7a9deaec3fd49db1146168e420830efde14a5a9f17a"
+  },
+  "generator": "tools/build_motor_fuse_step.py",
+  "generator_sha256": "cb73872dfcb15a582be2790108bd35257c8e323d6aa98b0b6c7ad9fca915156f",
+  "reused_geometry_generator": "tools/build_pi_fuse_step.py",
+  "reused_geometry_generator_sha256": "7d3ac669195256da8ab3d86dc81e547b787652c79deb87a27ca80193651f7f60"
+}

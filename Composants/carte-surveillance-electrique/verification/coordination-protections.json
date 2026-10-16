@@ -1,0 +1,96 @@
+{
+  "revision": "M1P",
+  "hardware_tested": false,
+  "vehicle_battery_release": false,
+  "copper": {
+    "nominal_um": 70,
+    "minimum_finished_um": 55,
+    "power_nominal_width_mm": 0.4,
+    "power_minimum_etched_width_mm": 0.35,
+    "signal_nominal_width_mm": 0.2,
+    "signal_minimum_etched_width_mm": 0.175,
+    "minimum_hole_wall_um": 20,
+    "via_diameter_mm": 0.8,
+    "via_finished_drill_mm": 0.4,
+    "via_minimum_finished_drill_mm": 0.35
+  },
+  "adiabatic_screen": {
+    "method": "Integral of mass_density*cp*dT / rho_e(T), constant cp; section squared; no heat loss, no certified laminate/component model.",
+    "initial_C": 40,
+    "limit_C": 105,
+    "constants": {
+      "density_kg_m3": 8960,
+      "cp_J_kgK": 385,
+      "rho20_ohm_m": 1.724e-08,
+      "alpha_K_1": 0.00393
+    },
+    "previous_trace_I2t_A2s": 0.27055236359198,
+    "new_power_trace_I2t_A2s": 4.010262409342121,
+    "new_signal_trace_I2t_A2s": 1.0025656023355303,
+    "via_wall_I2t_A2s": 5.848904206486608,
+    "improvement_factor_power": 14.822499999999993,
+    "not_guaranteed": [
+      "Manufacturing section and copper properties",
+      "Pin necks, pads, module traces and connector contacts",
+      "Steady state, solder, laminate and hot spots",
+      "Not a certified fuse let-through withstand rating"
+    ]
+  },
+  "fuses": {
+    "part": "0454.500MR",
+    "nominal_A": 0.5,
+    "nominal_melting_I2t_A2s": 0.24,
+    "melting_is_not_max_total_clearing": true,
+    "interrupt_A_at125VDC": 50,
+    "interrupt_A_at32VDC": 300,
+    "specified_time_points": [
+      {
+        "current_A": 1,
+        "minimum_s": 1,
+        "maximum_s": 60,
+        "I2t_upper_at_constant_current_A2s": 60
+      },
+      {
+        "current_A": 1.5,
+        "minimum_s": 0.2,
+        "maximum_s": 3,
+        "I2t_upper_at_constant_current_A2s": 6.75
+      },
+      {
+        "current_A": 4,
+        "minimum_s": 0.002,
+        "maximum_s": 0.1,
+        "I2t_upper_at_constant_current_A2s": 1.6
+      }
+    ],
+    "source": "https://www.littelfuse.com/assetdocs/littelfuse-fuse-452-454-datasheet?assetguid=8c87aa93-80a7-4ea8-8749-a19ba03901c2",
+    "coordination_proven_for_LiPo": false,
+    "reason": "No maximum total clearing envelope at actual 2S fault conditions, no guaranteed M5 fault output bound; no selectivity proof. Continuous thermal evidence absent."
+  },
+  "bench": {
+    "AUX_source_max_V": 8.4,
+    "AUX_CC_setting_A": 0.25,
+    "AUX_CC_accepted_max_A": 0.3,
+    "CC_settle_max_s": 0.01,
+    "series_resistor_ohm": 4.7,
+    "series_resistor_min_ohm": 4.4,
+    "resistor_min_rating_W": 25,
+    "source_output_capacitance_before_resistor_max_F": 0.00047,
+    "maximum_initial_limited_current_A": 1.909090909090909,
+    "screening_I2t_before_CC_settles_A2s": 0.040214826446280987,
+    "screening_margin_to_power_trace": 99.72099257220553,
+    "screening_margin_to_signal_trace": 24.930248143051383,
+    "steady_resistor_power_W": 0.44415,
+    "cell_simulator_limit_A": 0.02,
+    "cell_max_V": 4.2,
+    "Pi_dummy_3V3_source_limit_A": 0.005,
+    "scope": "Functional bench only, no destructive fault on powered module; no motor, Pi power load, charger or LiPo. Every source current limited. Short-circuit screening applies to AUX input path only, not magically through a switching converter.",
+    "source_characteristics_must_be_verified": true,
+    "hardware_results_exist": false
+  },
+  "classifications": {
+    "FAUX": "Vehicle branch backup, not a current limiter; still R2 conditions.",
+    "F1_F2": "TRACO recommended 500mA slow, independent branches; no guaranteed operation on current-limited bench.",
+    "RA0_RA1_RA2": "Passive current limitation only, not interruption or universal isolation-fault protection."
+  }
+}

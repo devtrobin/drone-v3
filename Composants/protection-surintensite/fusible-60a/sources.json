@@ -1,0 +1,11 @@
+{
+  "checked_on": "2026-10-14",
+  "part": "0498060.M",
+  "purchased": false,
+  "tested": false,
+  "source_manifest": "../assets.json",
+  "notes": "../recherche-technique.md",
+  "CAD": "3D/provenance.json",
+  "native_vendor_cad": false,
+  "model_3d_created": true
+}

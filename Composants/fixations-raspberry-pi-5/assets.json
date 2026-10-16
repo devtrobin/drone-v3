@@ -1,0 +1,71 @@
+{
+  "checked_on": "2026-10-14",
+  "assets": [
+    {
+      "file": "photos/Ewwtrey-kit-original.jpg",
+      "url": "https://m.media-amazon.com/images/I/813e8a4aQJL._SL1500_.jpg",
+      "final_url": "https://m.media-amazon.com/images/I/813e8a4aQJL._SL1500_.jpg",
+      "description": "Amazon : photo du kit et étiquette",
+      "status": "downloaded",
+      "bytes": 190860,
+      "sha256": "18b08e439a87a4fe41bf1d9dbc578a9ba589d2a4eb90eef8553dcf6d22380d7c",
+      "mime": "image/jpeg",
+      "original_unchanged": true
+    },
+    {
+      "file": "photos/Ewwtrey-longueurs-original.jpg",
+      "url": "https://m.media-amazon.com/images/I/61+JroRRcWL._SL1500_.jpg",
+      "final_url": "https://m.media-amazon.com/images/I/61+JroRRcWL._SL1500_.jpg",
+      "description": "Amazon : illustration des longueurs et quantités",
+      "status": "downloaded",
+      "bytes": 98950,
+      "sha256": "3cd830ff51092e91043b48b99e74e73beb094eb3b22d6f202faacf00522e8396",
+      "mime": "image/jpeg",
+      "original_unchanged": true
+    },
+    {
+      "file": "photos/Ewwtrey-pieces-original.jpg",
+      "url": "https://m.media-amazon.com/images/I/81rvYkQkITL._SL1500_.jpg",
+      "final_url": "https://m.media-amazon.com/images/I/81rvYkQkITL._SL1500_.jpg",
+      "description": "Amazon : pièces et publicité matière",
+      "status": "downloaded",
+      "bytes": 331806,
+      "sha256": "0fd0584e4f4bd2fc82d5fc759c5f4524dd5654031629267a88cb42874e6e8c1b",
+      "mime": "image/jpeg",
+      "original_unchanged": true
+    },
+    {
+      "file": "photos/Ewwtrey-details-original.jpg",
+      "url": "https://m.media-amazon.com/images/I/71f-laBg2eL._SL1500_.jpg",
+      "final_url": "https://m.media-amazon.com/images/I/71f-laBg2eL._SL1500_.jpg",
+      "description": "Amazon : détails des formes, photo commerciale",
+      "status": "downloaded",
+      "bytes": 149146,
+      "sha256": "88336be68f7aab627f62b7c7e50e478d0f183b83be52b2a141b57a11564ade22",
+      "mime": "image/jpeg",
+      "original_unchanged": true
+    },
+    {
+      "file": "notices/RaspberryPi-5-plan-mecanique-original.pdf",
+      "url": "https://datasheets.raspberrypi.com/rpi5/raspberry-pi-5-mechanical-drawing.pdf",
+      "final_url": "https://pip-assets.raspberrypi.com/categories/892-raspberry-pi-5/documents/RP-008347-DS-1-raspberry-pi-5-mechanical-drawing.pdf",
+      "description": "Raspberry Pi Ltd : plan mécanique de référence, non destiné à la production",
+      "status": "downloaded",
+      "bytes": 174949,
+      "sha256": "5dd680d6c1f5e7aa9c7b020695e315d04aac862df82ff01d4e9041cd0668d7f2",
+      "mime": "application/pdf",
+      "original_unchanged": true
+    },
+    {
+      "file": "notices/Essentra-filetages-plastiques-reference-original.pdf",
+      "url": "https://essentracomponents.bynder.com/m/6e2e9b888468b393/original/2685970-pdf.pdf",
+      "final_url": "https://essentracomponents.bynder.com/m/6e2e9b888468b393/original/2685970-pdf.pdf",
+      "description": "Essentra : autre fabricant, exemple de filetages métriques ; ne cote pas le kit Ewwtrey",
+      "status": "downloaded",
+      "bytes": 12508651,
+      "sha256": "fdec1efd9c58c486eaf05b63f6dbc56806e59bdff6da63c9678eb510f91c8493",
+      "mime": "application/pdf",
+      "original_unchanged": true
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "checked_on": "2026-10-14",
+  "status": "etude non qualifiee, aucune mesure",
+  "output_power_assumption_W": 25,
+  "pack_calculation_V": 6.4,
+  "efficiency_assumption": 0.9,
+  "SSR_control_current_assumption_A": 0.015,
+  "branch_current_first_approximation_A": 4.355277777777777,
+  "voltage_loss_not_in_first_sum": true,
+  "cases": [
+    {
+      "input_voltage_V": 8.4,
+      "efficiency_assumption": 0.9,
+      "branch_current_A": 3.3218783068783067
+    },
+    {
+      "input_voltage_V": 8.4,
+      "efficiency_assumption": 0.8,
+      "branch_current_A": 3.735238095238095
+    },
+    {
+      "input_voltage_V": 7.4,
+      "efficiency_assumption": 0.9,
+      "branch_current_A": 3.768753753753754
+    },
+    {
+      "input_voltage_V": 7.4,
+      "efficiency_assumption": 0.8,
+      "branch_current_A": 4.2379729729729725
+    },
+    {
+      "input_voltage_V": 6.4,
+      "efficiency_assumption": 0.9,
+      "branch_current_A": 4.355277777777777
+    },
+    {
+      "input_voltage_V": 6.4,
+      "efficiency_assumption": 0.8,
+      "branch_current_A": 4.897812499999999
+    },
+    {
+      "input_voltage_V": 6.2,
+      "efficiency_assumption": 0.9,
+      "branch_current_A": 4.495286738351254
+    },
+    {
+      "input_voltage_V": 6.2,
+      "efficiency_assumption": 0.8,
+      "branch_current_A": 5.05532258064516
+    }
+  ],
+  "fuse_selected_study_A": 7.5,
+  "cold_resistance_typical_ohm": 0.01091,
+  "fuse_drop_cold_first_approximation_V": 0.04751608055555555,
+  "fuse_loss_cold_first_approximation_W": 0.20694572973070982,
+  "melting_I2t_typical_A2s": 60,
+  "interrupt_rating_A": 1000,
+  "interrupt_rating_voltage_V": 32,
+  "prospective_fault_current_validated": false,
+  "simplified_loop_resistance_reference_ohm": 0.008400000000000001,
+  "loop_reference_excludes_branch_fuse_resistance": true,
+  "time_current": [
+    {
+      "percent": 110,
+      "current_A": 8.25,
+      "min_s": 360000,
+      "max_s": null
+    },
+    {
+      "percent": 135,
+      "current_A": 10.125,
+      "min_s": 0.75,
+      "max_s": 600
+    },
+    {
+      "percent": 160,
+      "current_A": 12.0,
+      "min_s": 0.25,
+      "max_s": 50
+    },
+    {
+      "percent": 200,
+      "current_A": 15.0,
+      "min_s": 0.15,
+      "max_s": 5
+    },
+    {
+      "percent": 350,
+      "current_A": 26.25,
+      "min_s": 0.08,
+      "max_s": 0.5
+    },
+    {
+      "percent": 600,
+      "current_A": 45.0,
+      "min_s": null,
+      "max_s": 0.1
+    }
+  ],
+  "derating_source": "Littelfuse ATO aftermarket 11/15/2022 p3",
+  "typical_current_recommendation": [
+    {
+      "nominal_A": 5,
+      "at_20_C": 5,
+      "at_65_C": 4,
+      "at_85_C": 4
+    },
+    {
+      "nominal_A": 7.5,
+      "at_20_C": 7,
+      "at_65_C": 6,
+      "at_85_C": 5
+    },
+    {
+      "nominal_A": 10,
+      "at_20_C": 10,
+      "at_65_C": 8,
+      "at_85_C": 7
+    }
+  ],
+  "downstream_wire_proposed_mm2": 1.5,
+  "wire_ampacity_validated": false,
+  "holder_wire_gauge_published": "12AWG",
+  "holder_nominal_wire_area_conversion_mm2": 3.31,
+  "series_combination_with_main_fuse_qualified": false,
+  "fast_semiconductor_protection_guaranteed": false,
+  "startup_measured": false,
+  "thermal_tested": false,
+  "supply_revision_scope": "historical_before_alimentation_r2",
+  "current_supply_source": "../verification-alimentation/selection-active.json",
+  "historical_values_preserved": true
+}

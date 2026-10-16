@@ -1,0 +1,76 @@
+{
+  "file": "sensata-hsp1-gris-2018.step",
+  "title": "HSP-1 | gris-2018",
+  "generated_on": "2026-10-13",
+  "unit": "mm",
+  "cadquery_version": "2.8.0",
+  "coordinate_system": "Centre X/Y; bas du pad Z=0; encoche selon X.",
+  "bytes": 47709,
+  "sha256": "0f514b9d739b70242aebe352732ce5b891a7fce5ea7c941b3811260fe3a53ef7",
+  "native_vendor_cad": false,
+  "hardware_measured": false,
+  "is_custom_project_design": false,
+  "published_nominal": [
+    "Contour et epaisseur gris selon fiche 2018; rose 0.127 mm selon annexe preliminaire du PCN 2023."
+  ],
+  "estimates_and_limitations": [
+    "Reconstruction du contour 2018: dimensions arrondies, rayons de coins non cotes non ajoutes.",
+    "Le contour de la version rose est suppose identique au plan 2018; lot reel a verifier.",
+    "Aucun film protecteur, compression ni texture microscopique represente.",
+    "Le plan 2011 donne 57.2x44.5 et 47.8; revisions conservees dans notices, pas melangees."
+  ],
+  "parameters": {
+    "outline_mm": [
+      57.1,
+      44.2
+    ],
+    "thickness_mm": 0.076,
+    "notches_centre_mm": 47.5,
+    "notch_width_mm": 4.83
+  },
+  "source_pages": [
+    "Sensata HS251 STEP et fiche PDF 2024 p.2",
+    "Sensata HSP fiche 2018 p.1 / PCN-SSR-231214 / annexe TTI",
+    "D1D100 modele exterieur existant et fiche PDF p.3"
+  ],
+  "bounds_mm": {
+    "xmin": -28.55,
+    "xmax": 28.55,
+    "ymin": -22.1,
+    "ymax": 22.1,
+    "zmin": 0.0,
+    "zmax": 0.076
+  },
+  "validation": {
+    "valid_after_reimport": true,
+    "solids": 1,
+    "faces": 14,
+    "colors": 1,
+    "volume_relative_error": 1.5207408034309753e-16,
+    "volume_relative_error_limit": 0.0001,
+    "volume_before_mm3": 186.89384388372557,
+    "volume_after_mm3": 186.89384388372554,
+    "adaptive_volume_tolerance": 1e-09,
+    "bbox_error_mm": 3.552713678800501e-15,
+    "bbox_error_limit_mm": 0.01,
+    "void_and_material_probes": [],
+    "elapsed_seconds": 0.14589219999470515
+  },
+  "parts": [
+    {
+      "name": "gris-2018",
+      "color_linear_rgb": [
+        0.40644830114675407,
+        0.43387952044860834,
+        0.44798841244188325
+      ],
+      "solids": 1
+    }
+  ],
+  "preview": {
+    "file": "sensata-hsp1-gris-2018.png",
+    "sha256": "2456e71a5249ffd1c97ae908080ece5af618914142ef1ebdcf766745fa85794a"
+  },
+  "generator": "tools/build_heatsink_step.py",
+  "generator_sha256": "cde4c4056d7169272a6db14e8742c87de8155f9fa1c55a0637d2c227259de3a9"
+}

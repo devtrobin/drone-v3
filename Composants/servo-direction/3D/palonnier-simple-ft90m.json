@@ -1,0 +1,79 @@
+{
+  "file": "palonnier-simple-ft90m.step",
+  "title": "FT90M | palonnier-simple",
+  "generated_on": "2026-10-13",
+  "unit": "mm",
+  "cadquery_version": "2.8.0",
+  "coordinate_system": "Z vertical; corps centre X/Y, fond z=0; sortie x=-5.7; etiquette vers -Y",
+  "bytes": 367540,
+  "sha256": "96411e2cc8d8a268d35e314a856ab6697f468aa82d1a832fe98d40510db77c3c",
+  "native_vendor_cad": false,
+  "hardware_measured": false,
+  "is_custom_project_design": false,
+  "published_nominal": [
+    "Accessoires blancs observes PDF p.7; famille de sortie 20T OD3.95"
+  ],
+  "estimates_and_limitations": [
+    "Toutes cotes de palonnier, trous et profil estimees; spline interne 20T reconstruite NON certifiee",
+    "Trou central Ø2.2, roof1.3 et socket1.9: choix geometriques non cotes",
+    "Table PDF p.6: No Accessories, malgre photo p.7; contenu du sachet non garanti",
+    "Dessins de pose uniquement: verifier accessoires du servo recu"
+  ],
+  "parameters": {},
+  "source_pages": [],
+  "bounds_mm": {
+    "xmin": -3.2,
+    "xmax": 11.0,
+    "ymin": -3.2,
+    "ymax": 3.2,
+    "zmin": 0.0,
+    "zmax": 3.2
+  },
+  "validation": {
+    "valid_after_reimport": true,
+    "solids": 1,
+    "faces": 94,
+    "colors": 1,
+    "volume_relative_error": 2.87189596183055e-14,
+    "volume_relative_error_limit": 0.0001,
+    "volume_before_mm3": 119.74761226680528,
+    "volume_after_mm3": 119.74761226680184,
+    "adaptive_volume_tolerance": 1e-09,
+    "bbox_error_mm": 1.7763568394002505e-15,
+    "bbox_error_limit_mm": 0.01,
+    "void_and_material_probes": [
+      {
+        "point": [
+          0,
+          0,
+          2.5
+        ],
+        "occupied": false
+      },
+      {
+        "point": [
+          1.2,
+          0,
+          2.5
+        ],
+        "occupied": true
+      }
+    ],
+    "elapsed_seconds": 0.4740498999999545
+  },
+  "parts": [
+    {
+      "name": "POM_blanc",
+      "color_linear_rgb": [
+        0.88,
+        0.87,
+        0.8
+      ],
+      "solids": 1
+    }
+  ],
+  "preview": {
+    "file": "palonnier-simple-ft90m.png",
+    "sha256": "52f8204bcf5c7ba5aa4d4e00b41899a508bcad9eb23f8d01ba78bdb4aaf4e324"
+  }
+}

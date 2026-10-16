@@ -1,0 +1,45 @@
+{
+  "file": "notice-liaisons-alimentation-surveillance-v3.pdf",
+  "pages": 7,
+  "sha256": "34d17049a95f84ecc00936019d71a5bbb4269b41eb6bce22791d7005b47e0d2a",
+  "rendered_pages": [
+    {
+      "page": 1,
+      "png": "tools\\temp\\final-components\\pdf\\liaisons-alimentation-surveillance\\page-01.png",
+      "characters": 1430
+    },
+    {
+      "page": 2,
+      "png": "tools\\temp\\final-components\\pdf\\liaisons-alimentation-surveillance\\page-02.png",
+      "characters": 1550
+    },
+    {
+      "page": 3,
+      "png": "tools\\temp\\final-components\\pdf\\liaisons-alimentation-surveillance\\page-03.png",
+      "characters": 1508
+    },
+    {
+      "page": 4,
+      "png": "tools\\temp\\final-components\\pdf\\liaisons-alimentation-surveillance\\page-04.png",
+      "characters": 2960
+    },
+    {
+      "page": 5,
+      "png": "tools\\temp\\final-components\\pdf\\liaisons-alimentation-surveillance\\page-05.png",
+      "characters": 357
+    },
+    {
+      "page": 6,
+      "png": "tools\\temp\\final-components\\pdf\\liaisons-alimentation-surveillance\\page-06.png",
+      "characters": 1165
+    },
+    {
+      "page": 7,
+      "png": "tools\\temp\\final-components\\pdf\\liaisons-alimentation-surveillance\\page-07.png",
+      "characters": 2336
+    }
+  ],
+  "visual_review_complete": true,
+  "visual_review_date": "2026-10-14",
+  "visual_review_method": "Rendered every final page and viewed all contact sheets, with full page checks for layout issues."
+}

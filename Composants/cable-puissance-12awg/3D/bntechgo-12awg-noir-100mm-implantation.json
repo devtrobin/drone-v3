@@ -1,0 +1,88 @@
+{
+  "file": "bntechgo-12awg-noir-100mm-implantation.step",
+  "title": "12 AWG noir | exemple droit 100 mm",
+  "generated_on": "2026-10-14",
+  "unit": "mm",
+  "cadquery_version": "2.8.0",
+  "coordinate_system": "Axe Z du fil droit ; face initiale z0 ; fils courbes dans plan XZ ; dimensions en mm",
+  "bytes": 17614,
+  "sha256": "4e7f0388d7de22513694d145311988c02ce1ffcb2223f5331eb3fdb54f343169",
+  "native_vendor_cad": false,
+  "hardware_measured": false,
+  "is_custom_project_design": false,
+  "published_nominal": [
+    "BNTECHGO 680 brins de0.08, conducteur2.41, gaine4.5mm, epaisseur1.05 nominale",
+    "680 et0.08, gaine4.5+/-0.1 : offre exacteB01ABOPMEI ; pas de cote mesuree"
+  ],
+  "estimates_and_limitations": [
+    "Reconstruction, pas CAO fabricant ; aucune piece mesuree",
+    "Longueurs100/25mm, denudages5mm, trace courbe et fenetre de coupe : illustration",
+    "680 brins droits en reseau ideal, torsade et pas reels non publies ; etamage couleur sans epaisseur inventee",
+    "Versions implantation : enveloppe de brins pleineØ2.41 pour implantation ; ne pas en deduire masse/section conductrice",
+    "Les longueurs de modele ne sont pas des longueurs livrees ni une liste de coupe"
+  ],
+  "parameters": {
+    "outer_diameter_mm": 4.5,
+    "conductor_bundle_diameter_mm": 2.41,
+    "strands": "bulk envelope",
+    "strand_diameter_mm": 0.08,
+    "strip_length_each_end_mm": 5,
+    "wire_length_straight_mm": 100
+  },
+  "source_pages": [
+    "https://bntechgo.com/bntechgo-12-gauge-silicone-wire-kit-ultra-flexible-20-ft-black-and-red-each-color-10-ft-high-temp-200-c-600v-12-awg-silicone-wire-680-strands-of-tinned-copper-wire-stranded-wire-stranded-wire-for-model-battery/",
+    "https://www.amazon.com/dp/B01ABOPMEI"
+  ],
+  "bounds_mm": {
+    "xmin": -2.25,
+    "xmax": 2.25,
+    "ymin": -2.25,
+    "ymax": 2.25,
+    "zmin": 0.0,
+    "zmax": 100.0
+  },
+  "validation": {
+    "valid_after_reimport": true,
+    "solids": 2,
+    "faces": 7,
+    "colors": 2,
+    "volume_relative_error": 0.0,
+    "volume_relative_error_limit": 0.0001,
+    "volume_before_mm3": 1477.004863520137,
+    "volume_after_mm3": 1477.004863520137,
+    "adaptive_volume_tolerance": 1e-09,
+    "bbox_error_mm": 0.0,
+    "bbox_error_limit_mm": 0.01,
+    "void_and_material_probes": [],
+    "elapsed_seconds": 0.08727259999977832
+  },
+  "parts": [
+    {
+      "name": "Gaine_silicone",
+      "color_linear_rgb": [
+        0.015,
+        0.02,
+        0.026
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Enveloppe_des_brins_simplifiee",
+      "color_linear_rgb": [
+        0.51,
+        0.54,
+        0.58
+      ],
+      "solids": 1
+    }
+  ],
+  "preview": {
+    "file": "bntechgo-12awg-noir-100mm-implantation.png",
+    "sha256": "c969d7c4d7557063432257ce52941370f938ea0b5a25341185728407eaf11b46"
+  },
+  "generator": "tools/build_power_wire_step.py",
+  "generator_sha256": "dbc231fed6a683477ec12a559f038de38a24d5d963fa25d2cc7f9b138d95408e",
+  "strand_packing": null,
+  "curve_continuity_checks": [],
+  "is_installation_length_illustration": true
+}

@@ -1,0 +1,32 @@
+{
+  "pages": 11,
+  "sha256": "ceca83ca9318b94b5299d67a231256782c7baaf09086fab9da5dffaabeac1b36",
+  "visual_review_completed": true,
+  "renders": [
+    "tools/temp/chassis-r1/pdf/page-1.png",
+    "tools/temp/chassis-r1/pdf/page-2.png",
+    "tools/temp/chassis-r1/pdf/page-3.png",
+    "tools/temp/chassis-r1/pdf/page-4.png",
+    "tools/temp/chassis-r1/pdf/page-5.png",
+    "tools/temp/chassis-r1/pdf/page-6.png",
+    "tools/temp/chassis-r1/pdf/page-7.png",
+    "tools/temp/chassis-r1/pdf/page-8.png",
+    "tools/temp/chassis-r1/pdf/page-9.png",
+    "tools/temp/chassis-r1/pdf/page-10.png",
+    "tools/temp/chassis-r1/pdf/page-11.png"
+  ],
+  "visually_reviewed_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "renders_identical_to_visually_reviewed_version": true
+}

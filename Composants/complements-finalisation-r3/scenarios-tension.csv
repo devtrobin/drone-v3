@@ -1,0 +1,9 @@
+﻿pack_V;scenario;moteurs_A;servo_sortie_A;Pi_entree_V;UBEC_entree_V;commun_A;Pi_seuil_5_8V_respecte;servo_6V_regule_non_prouve
+6.4;travail;30;1;5.869;5.975;36.74;True;True
+6.4;pointe_etude;40;12;5.687;5.669;61.54;False;True
+6.6;travail;30;1;6.08;6.177;36.51;True;True
+6.6;pointe_etude;40;12;5.903;5.878;60.77;True;True
+7.4;travail;30;1;6.918;6.983;35.73;True;True
+7.4;pointe_etude;40;12;6.755;6.706;58.19;True;True
+8.4;travail;30;1;7.953;7.989;34.99;True;True
+8.4;pointe_etude;40;12;7.804;7.732;55.76;True;True

@@ -1,0 +1,94 @@
+{
+  "accessed": "2026-10-14",
+  "sources": [
+    {
+      "id": "Albright-ED80",
+      "url": "https://www.albrightinternational.com/products/ed80-2/",
+      "accessed": "2026-10-14",
+      "original_unmodified": true,
+      "file": "sources/Albright-ED80-original.html",
+      "sha256": "5354509c28d1ff16d9d603371b9ed2d9eafe15e634c6f1a83c75c9a41c0bda79",
+      "bytes": 118328,
+      "status": "archived"
+    },
+    {
+      "id": "Albright-ED80-fiche",
+      "url": "https://www.albrightinternational.com/wpcms/wp-content/uploads/2024/10/ED80-Data-Sheet.pdf",
+      "accessed": "2026-10-14",
+      "original_unmodified": true,
+      "file": "notices/Albright-ED80-fiche-original.pdf",
+      "sha256": "c8a7b555df7b8b2b51c0ab3672a83ecb6b622a5fc3a1b0b7f3a525f441cec1b5",
+      "bytes": 781873,
+      "status": "archived"
+    },
+    {
+      "id": "PartsGo-ED80-recherche",
+      "url": "https://www.partsandgo.fr/fr/arrets-d-urgence/52666-arret-d-urgence.html",
+      "accessed": "2026-10-14",
+      "original_unmodified": true,
+      "file": "sources/PartsGo-ED80-recherche-original.html",
+      "sha256": "bf3b44d796902443a8b4ba881b0d3f668fa62c48d80c91e792def2ffae15d6d7",
+      "bytes": 186200,
+      "status": "archived"
+    },
+    {
+      "id": "BlueSea-6006-ecarte",
+      "url": "https://www.bluesea.com/products/6006",
+      "accessed": "2026-10-14",
+      "original_unmodified": true,
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.albrightinternational.com/wpcms/wp-content/uploads/2016/07/ED80.jpg",
+      "file": "photos/Albright-ED80.jpg",
+      "sha256": "8dd2801f497533eb90f985443c3a614ea009c706d37814a785c85cbf37ec88b7",
+      "status": "archived",
+      "original_unmodified": true
+    },
+    {
+      "id": "PartsGo-ED80-liste",
+      "url": "https://www.partsandgo.fr/fr/s/4/pieces-detachees-nacelles?order=product.price.asc&page=3",
+      "accessed": "2026-10-14",
+      "original_unmodified": true,
+      "file": "sources/PartsGo-ED80-liste-original.html",
+      "sha256": "f2430b1a1abf97694592a61533fb914a4141856e204acb00002ed133eb69766a",
+      "bytes": 556306,
+      "status": "archived"
+    },
+    {
+      "id": "PartsGo-ED80-1",
+      "url": "https://www.partsandgo.fr/fr/arrets-d-urgence/52668-arret-d-urgence.html",
+      "accessed": "2026-10-14",
+      "original_unmodified": true,
+      "file": "sources/PartsGo-ED80-1-original.html",
+      "sha256": "0f285baeaa8c16ee99349d0283602fa9b319d783f6a2dbf94cfe6b6f24e2bf45",
+      "bytes": 191893,
+      "status": "archived"
+    },
+    {
+      "id": "Klauke-95R6",
+      "url": "https://www.buerklin.com/en/p/klauke/cable-lugs/95r6/07F2055/",
+      "accessed": "2026-10-14",
+      "original_unmodified": true,
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.partsandgo.fr/84161-large_default/arret-d-urgence.jpg",
+      "file": "photos/ED80-1-achat.jpg",
+      "status": "archived",
+      "sha256": "2b58cade663abbb39c4a5c6871fa905d41595b5b3d7d1948febd46866c5f5144",
+      "original_unmodified": true
+    },
+    {
+      "id": "Klauke-catalogue-reutilise",
+      "file": "../faisceau-puissance/notices/Klauke-catalogue-via-PowerCables.pdf",
+      "url": "https://www.klauke.com/gb/en/tubular-cable-lugs-cu-standard-type-4959",
+      "status": "archived",
+      "sha256": "d4bc27d62aadb34dd0c93b875a21283e5f4aacf1c1b23001b8236dc514ed6d72",
+      "original_unmodified": true,
+      "note": "Original déjà archivé, catalogue viaPowerCables ; tableau95R6 page14PDF /12imprimée. URL ici : pagefabricant actuelle de la famille. Voir assets du faisceau pour URL de téléchargement originale."
+    }
+  ]
+}

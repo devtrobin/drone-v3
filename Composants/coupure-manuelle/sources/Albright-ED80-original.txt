@@ -1,0 +1,870 @@
+ 
+ 
+   
+   
+ 
+/*   typeof InitializeEditor === 'function',
+
+		/**
+		 * @deprecated 2.9 the use of initializeOnLoaded in the form editor context is deprecated.
+		 * @remove-in 4.0 this function will not check for gform.isFormEditor().
+		 */
+		callIfLoaded: function ( fn ) {
+			if ( gform.domLoaded && gform.scriptsLoaded && ( gform.themeScriptsLoaded || gform.isFormEditor() ) ) {
+				if ( gform.isFormEditor() ) {
+					console.warn( 'The use of gform.initializeOnLoaded() is deprecated in the form editor context and will be removed in Gravity Forms 3.1.' );
+				}
+				fn();
+				return true;
+			}
+			return false;
+		},
+
+		/**
+		 * Call a function when all scripts are loaded
+		 *
+		 * @param function fn the callback function to call when all scripts are loaded
+		 *
+		 * @returns void
+		 */
+		initializeOnLoaded: function( fn ) {
+			if ( ! gform.callIfLoaded( fn ) ) {
+				document.addEventListener( 'gform_main_scripts_loaded', () => { gform.scriptsLoaded = true; gform.callIfLoaded( fn ); } );
+				document.addEventListener( 'gform/theme/scripts_loaded', () => { gform.themeScriptsLoaded = true; gform.callIfLoaded( fn ); } );
+				window.addEventListener( 'DOMContentLoaded', () => { gform.domLoaded = true; gform.callIfLoaded( fn ); } );
+			}
+		},
+
+		hooks: { action: {}, filter: {} },
+		addAction: function( action, callable, priority, tag ) {
+			gform.addHook( 'action', action, callable, priority, tag );
+		},
+		addFilter: function( action, callable, priority, tag ) {
+			gform.addHook( 'filter', action, callable, priority, tag );
+		},
+		doAction: function( action ) {
+			gform.doHook( 'action', action, arguments );
+		},
+		applyFilters: function( action ) {
+			return gform.doHook( 'filter', action, arguments );
+		},
+		removeAction: function( action, tag ) {
+			gform.removeHook( 'action', action, tag );
+		},
+		removeFilter: function( action, priority, tag ) {
+			gform.removeHook( 'filter', action, priority, tag );
+		},
+		addHook: function( hookType, action, callable, priority, tag ) {
+			if ( undefined == gform.hooks[hookType][action] ) {
+				gform.hooks[hookType][action] = [];
+			}
+			var hooks = gform.hooks[hookType][action];
+			if ( undefined == tag ) {
+				tag = action + '_' + hooks.length;
+			}
+			if( priority == undefined ){
+				priority = 10;
+			}
+
+			gform.hooks[hookType][action].push( { tag:tag, callable:callable, priority:priority } );
+		},
+		doHook: function( hookType, action, args ) {
+
+			// splice args from object into array and remove first index which is the hook name
+			args = Array.prototype.slice.call(args, 1);
+
+			if ( undefined != gform.hooks[hookType][action] ) {
+				var hooks = gform.hooks[hookType][action], hook;
+				//sort by priority
+				hooks.sort(function(a,b){return a["priority"]-b["priority"]});
+
+				hooks.forEach( function( hookItem ) {
+					hook = hookItem.callable;
+
+					if(typeof hook != 'function')
+						hook = window[hook];
+					if ( 'action' == hookType ) {
+						hook.apply(null, args);
+					} else {
+						args[0] = hook.apply(null, args);
+					}
+				} );
+			}
+			if ( 'filter'==hookType ) {
+				return args[0];
+			}
+		},
+		removeHook: function( hookType, action, priority, tag ) {
+			if ( undefined != gform.hooks[hookType][action] ) {
+				var hooks = gform.hooks[hookType][action];
+				hooks = hooks.filter( function(hook, index, arr) {
+					var removeHook = (undefined==tag||tag==hook.tag) && (undefined==priority||priority==hook.priority);
+					return !removeHook;
+				} );
+				gform.hooks[hookType][action] = hooks;
+			}
+		}
+	};
+}
+
+/* ]]> */
+ 
+
+   
+   
+   
+
+	 
+	 ED80 Emergency Disconnect Switch - Albright 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 {"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/www.albrightinternational.com\/products\/ed80-2\/","url":"https:\/\/www.albrightinternational.com\/products\/ed80-2\/","name":"ED80 Emergency Disconnect Switch - Albright","isPartOf":{"@id":"https:\/\/www.albrightinternational.com\/#website"},"primaryImageOfPage":{"@id":"https:\/\/www.albrightinternational.com\/products\/ed80-2\/#primaryimage"},"image":{"@id":"https:\/\/www.albrightinternational.com\/products\/ed80-2\/#primaryimage"},"thumbnailUrl":"https:\/\/www.albrightinternational.com\/wpcms\/wp-content\/uploads\/2016\/07\/ED80.jpg","datePublished":"2015-07-22T15:13:12+00:00","dateModified":"2025-04-10T08:06:14+00:00","description":"The ED80 Emergency Disconnect Switch is rated at 80 amperes. Primarily intended for use with battery powered vehicles it is also suitable for use with static power systems.","breadcrumb":{"@id":"https:\/\/www.albrightinternational.com\/products\/ed80-2\/#breadcrumb"},"inLanguage":"en-GB","potentialAction":[{"@type":"ReadAction","target":["https:\/\/www.albrightinternational.com\/products\/ed80-2\/"]}]},{"@type":"ImageObject","inLanguage":"en-GB","@id":"https:\/\/www.albrightinternational.com\/products\/ed80-2\/#primaryimage","url":"https:\/\/www.albrightinternational.com\/wpcms\/wp-content\/uploads\/2016\/07\/ED80.jpg","contentUrl":"https:\/\/www.albrightinternational.com\/wpcms\/wp-content\/uploads\/2016\/07\/ED80.jpg","width":600,"height":450,"caption":"Albright ED80 Emergency Disconnect Switch"},{"@type":"BreadcrumbList","@id":"https:\/\/www.albrightinternational.com\/products\/ed80-2\/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https:\/\/www.albrightinternational.com\/"},{"@type":"ListItem","position":2,"name":"Products","item":"https:\/\/www.albrightinternational.com\/products\/"},{"@type":"ListItem","position":3,"name":"ED80"}]},{"@type":"WebSite","@id":"https:\/\/www.albrightinternational.com\/#website","url":"https:\/\/www.albrightinternational.com\/","name":"Albright","description":"Albright Website","publisher":{"@id":"https:\/\/www.albrightinternational.com\/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https:\/\/www.albrightinternational.com\/search\/{search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-GB"},{"@type":"Organization","@id":"https:\/\/www.albrightinternational.com\/#organization","name":"Albright International","url":"https:\/\/www.albrightinternational.com\/","logo":{"@type":"ImageObject","inLanguage":"en-GB","@id":"https:\/\/www.albrightinternational.com\/#\/schema\/logo\/image\/","url":"https:\/\/www.albrightinternational.com\/wpcms\/wp-content\/uploads\/2015\/07\/albright_logo.png","contentUrl":"https:\/\/www.albrightinternational.com\/wpcms\/wp-content\/uploads\/2015\/07\/albright_logo.png","width":238,"height":146,"caption":"Albright International"},"image":{"@id":"https:\/\/www.albrightinternational.com\/#\/schema\/logo\/image\/"}}]} 
+	 
+
+
+ 
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+ 
+ 
+:root{
+  --wp-block-synced-color:#7a00df;
+  --wp-block-synced-color--rgb:122, 0, 223;
+  --wp-bound-block-color:var(--wp-block-synced-color);
+  --wp-editor-canvas-background:#ddd;
+  --wp-admin-theme-color:#007cba;
+  --wp-admin-theme-color--rgb:0, 124, 186;
+  --wp-admin-theme-color-darker-10:#006ba1;
+  --wp-admin-theme-color-darker-10--rgb:0, 107, 160.5;
+  --wp-admin-theme-color-darker-20:#005a87;
+  --wp-admin-theme-color-darker-20--rgb:0, 90, 135;
+  --wp-admin-border-width-focus:2px;
+}
+@media (min-resolution:192dpi){
+  :root{
+    --wp-admin-border-width-focus:1.5px;
+  }
+}
+.wp-element-button{
+  cursor:pointer;
+}
+
+:root .has-very-light-gray-background-color{
+  background-color:#eee;
+}
+:root .has-very-dark-gray-background-color{
+  background-color:#313131;
+}
+:root .has-very-light-gray-color{
+  color:#eee;
+}
+:root .has-very-dark-gray-color{
+  color:#313131;
+}
+:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{
+  background:linear-gradient(135deg, #00d084, #0693e3);
+}
+:root .has-purple-crush-gradient-background{
+  background:linear-gradient(135deg, #34e2e4, #4721fb 50%, #ab1dfe);
+}
+:root .has-hazy-dawn-gradient-background{
+  background:linear-gradient(135deg, #faaca8, #dad0ec);
+}
+:root .has-subdued-olive-gradient-background{
+  background:linear-gradient(135deg, #fafae1, #67a671);
+}
+:root .has-atomic-cream-gradient-background{
+  background:linear-gradient(135deg, #fdd79a, #004a59);
+}
+:root .has-nightshade-gradient-background{
+  background:linear-gradient(135deg, #330968, #31cdcf);
+}
+:root .has-midnight-gradient-background{
+  background:linear-gradient(135deg, #020381, #2874fc);
+}
+:root{
+  --wp--preset--font-size--normal:16px;
+  --wp--preset--font-size--huge:42px;
+}
+
+.has-regular-font-size{
+  font-size:1em;
+}
+
+.has-larger-font-size{
+  font-size:2.625em;
+}
+
+.has-normal-font-size{
+  font-size:var(--wp--preset--font-size--normal);
+}
+
+.has-huge-font-size{
+  font-size:var(--wp--preset--font-size--huge);
+}
+
+.has-text-align-center{
+  text-align:center;
+}
+
+.has-text-align-left{
+  text-align:left;
+}
+
+.has-text-align-right{
+  text-align:right;
+}
+
+.has-fit-text{
+  white-space:nowrap !important;
+}
+
+#end-resizable-editor-section{
+  display:none;
+}
+
+.aligncenter{
+  clear:both;
+}
+
+.items-justified-left{
+  justify-content:flex-start;
+}
+
+.items-justified-center{
+  justify-content:center;
+}
+
+.items-justified-right{
+  justify-content:flex-end;
+}
+
+.items-justified-space-between{
+  justify-content:space-between;
+}
+
+.screen-reader-text{
+  border:0;
+  clip-path:inset(50%);
+  height:1px;
+  margin:-1px;
+  overflow:hidden;
+  padding:0;
+  position:absolute;
+  width:1px;
+  word-wrap:normal !important;
+}
+
+.screen-reader-text:focus{
+  background-color:#ddd;
+  clip-path:none;
+  color:#444;
+  display:block;
+  font-size:1em;
+  height:auto;
+  left:5px;
+  line-height:normal;
+  padding:15px 23px 14px;
+  text-decoration:none;
+  top:5px;
+  width:auto;
+  z-index:100000;
+}
+html :where(.has-border-color){
+  border-style:solid;
+}
+
+html :where([style*=border-top-color]){
+  border-top-style:solid;
+}
+
+html :where([style*=border-right-color]){
+  border-right-style:solid;
+}
+
+html :where([style*=border-bottom-color]){
+  border-bottom-style:solid;
+}
+
+html :where([style*=border-left-color]){
+  border-left-style:solid;
+}
+
+html :where([style*=border-width]){
+  border-style:solid;
+}
+
+html :where([style*=border-top-width]){
+  border-top-style:solid;
+}
+
+html :where([style*=border-right-width]){
+  border-right-style:solid;
+}
+
+html :where([style*=border-bottom-width]){
+  border-bottom-style:solid;
+}
+
+html :where([style*=border-left-width]){
+  border-left-style:solid;
+}
+html :where(img[class*=wp-image-]){
+  height:auto;
+  max-width:100%;
+}
+:where(figure){
+  margin:0 0 1em;
+}
+
+html :where(.is-position-sticky){
+  --wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height, 0px);
+}
+
+@media screen and (max-width:600px){
+  html :where(.is-position-sticky){
+    --wp-admin--admin-bar--position-offset:0px;
+  }
+}
+
+/*# sourceURL=wp-block-library-inline-css */
+ 
+ 
+/**
+ * These rules are needed for backwards compatibility.
+ * They should match the button element rules in the base theme.json file.
+ */
+.wp-block-button__link {
+	color: #ffffff;
+	background-color: #32373c;
+	border-radius: 9999px; /* 100% causes an oval, but any explicit but really high value retains the pill shape. */
+
+	/* This needs a low specificity so it won't override the rules from the button element if defined in theme.json. */
+	box-shadow: none;
+	text-decoration: none;
+
+	/* The extra 2px are added to size solids the same as the outline versions.*/
+	padding: calc(0.667em + 2px) calc(1.333em + 2px);
+
+	font-size: 1.125em;
+}
+
+.wp-block-file__button {
+	background: #32373c;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+/*# sourceURL=/wp-includes/css/classic-themes.css */
+ 
+ 
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+/*# sourceURL=global-styles-inline-css */
+ 
+
+ 
+ 
+  
+  
+
+		 
+		 
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+			ga('create', 'UA-65328734-1', 'auto');
+			ga('send', 'pageview');
+		 
+
+	 
+ 
+ 
+ 
+   
+
+ 
+/**
+ * Core styles: block-supports
+ */
+
+/*# sourceURL=core-block-supports-inline-css */
+ 
+
+ 
+
+   
+                                                                                                                                           
+     
+         
+             Close 
+             
+
+             
+         
+         
+             
+               
+                You are using an  outdated  browser. Please  upgrade your browser  to improve your experience.               
+             
+             
+     
+         
+             
+            	 
+            		 
+            			 
+            				   
+            			 
+            		 
+
+            		 
+                         Menu 
+                         
+                             
+                                 Change Language: 
+                                     
+                                         English  French  German  Chinese  Japanese                                      
+                                 -->
+                             
+                             
+                    			   Home  
+  Products 
+ 
+	  All Products  
+	  Low Voltage Stud  
+	  Low Voltage Busbar  
+	  High Voltage Stud  
+	  P Types  
+	  Motor Reversing  
+	  Emergency Disconnect  
+	  Combined Disconnect  
+	  PC  
+	  1U  
+ 
+ 
+  Services 
+ 
+	  Design  
+	  Technical Support  
+	  BARS  
+	  RMA  
+ 
+ 
+  About 
+ 
+	  History  
+	  Corporate Responsibility  
+	  Manufacture  
+	  Environment  
+	  Quality  
+ 
+ 
+  News 
+ 
+	  All News  
+	  Exhibitions  
+	  Newsletter  
+ 
+ 
+  Downloads 
+ 
+	  Application Form  
+	  Data Sheets  
+	  Series Catalogues  
+	  Company Information  
+	  Newsletter  
+	  Technical Bulletin  
+	  Spares Sheets  
+ 
+ 
+  Glossary  
+  Standards 
+ 
+	  CCC  
+	  ISO14001  
+	  ISO9001  
+	  ITER  
+	  Materials Compliance 
+	 
+		  Conflict Minerals  
+		  REACH  
+		  RoHS  
+	 
+ 
+	  SA8000  
+	  UL  
+ 
+ 
+  Contact  
+                          
+            		 
+            	 
+             
+         
+     
+ 
+             
+                 
+     
+         
+             
+                 ED80                  EMERGENCY DISCONNECT 
+             
+         
+     
+ 
+ 
+     
+         
+             
+                                     
+                                                       
+                                             
+                             
+             
+                 The ED80 is a manually operated device with a simple over-centre spring mechanism which provides a snap action for both opening and closing the main contacts.  As with all our ED Disconnecting switches, the ED80 has been designed to provide rapid means of disconnecting batteries or other power supplies in the event of serious electrical faults.  The ED80 is suited for uninterrupted current loads. 
+ The ED80 is primarily intended for use with battery powered vehicles but is also suitable for use with static power systems.  It is capable of safely rupturing full load battery currents in the event of an emergency.  The ED80 is easy to install (see drilling details) and is secured with supplied M5 posidrive mounting screws. 
+   Precautions:   
+ The switch is to be used to rupture current in an emergency or as a no-load isolator. 
+  Do not use as a regular On-Load Switching Device.  
+             
+         
+     
+ 
+
+ 
+     
+         
+             
+                 
+                     ED80 Technical Information  
+                 
+             
+         
+         
+             
+                 
+                     
+                         
+                             
+                                 Application 
+                                   Interrupted  Rating ( I th  )  Uninterrupted   
+                             
+                         
+                         
+                             
+                                 Thermal Current Rating 
+                                 - 
+                                 80A 
+                             
+                             
+                                 Intermittent Current Rating:   
+                             
+                             
+                                 30% Duty 
+                                 - 
+                                 145A 
+                             
+                             
+                                 40% Duty 
+                                 - 
+                                 125A 
+                             
+                             
+                                 50% Duty 
+                                 - 
+                                 115A 
+                             
+                             
+                                 60% Duty 
+                                 - 
+                                 105A 
+                             
+                             
+                                 70% Duty 
+                                 - 
+                                 95A 
+                             
+                             
+                                 Rated Fault Current Breaking Capacity (Icn) 5ms Time Constant:    (In accordance with UL583*)   
+                             
+                             
+                                 Blowouts 
+                                                                         -
+                                                                     
+                             
+                             
+                                 No Blowouts 
+                                 
+                                    500A at 48V D.C.
+                                                                     
+                             
+                             
+                                 Rated Fault Current Breaking Capacity (Icn) Resistive Load:    (In accordance with UL508*)   
+                             
+                             
+                                 Blowouts 
+                                 
+                                                                            -
+                                                                 
+                             
+                                 No Blowouts 
+                                 
+                                                                            -
+                                                                     
+                             
+                             
+                                 Maximum Recommended Contact Voltages  
+                             
+                             
+                                 Blowouts 
+                                 - 
+                                 - 
+                             
+                             
+                                 No Blowouts 
+                                 - 
+                                 48V 
+                             
+                             
+                                 Typical Voltage Drop per pole across New Contacts at 80A 
+                                 40mV 
+                             
+                             
+                                    
+                             
+                             
+                                 Mechanical Durability 
+                                  > 10,000 Cycles 
+                             
+                             
+                                 Coil Voltage Available (Us) (Rectifier board required for A.C.) 
+                                 0 - 0V 
+                             
+                         
+                     
+                 
+             
+         
+     
+ 
+ 
+     
+         
+             
+                 
+                     ED80 Features 
+                 
+             
+         
+         
+             
+                 
+                     
+                         
+                             
+                                Component                             
+                             
+                                Configurations                             
+                         
+                     
+                     
+                                             
+                 
+             
+         
+     
+ 
+     
+         
+             
+                 
+                     
+                         %s Resources 
+                     
+                 
+                 
+                                             
+                             
+                                 
+                                     ED80 Data Sheet 
+                                 
+                                 
+                                     
+                                         Format:  .pdf  
+                                         Size:  764kb  
+                                     
+                                 
+                                 
+                                     Download 
+                                 
+                             
+                         
+                                     
+             
+         
+     
+ 
+     
+         
+             
+                 
+                      
+                 
+                 
+                    
+                    
+                                  Name   *       Name     Company   *       Company     Contact number   *       Contact number     Email address   *    
+                             
+                          Email address     Country     Afghanistan  Albania  Algeria  American Samoa  Andorra  Angola  Antigua and Barbuda  Argentina  Armenia  Australia  Austria  Azerbaijan  Bahamas  Bahrain  Bangladesh  Barbados  Belarus  Belgium  Belize  Benin  Bermuda  Bhutan  Bolivia  Bosnia and Herzegovina  Botswana  Brazil  Brunei  Bulgaria  Burkina Faso  Burundi  Cambodia  Cameroon  Canada  Cape Verde  Cayman Islands  Central African Republic  Chad  Chile  China  Colombia  Comoros  Congo, Democratic Republic of the  Congo, Republic of the  Costa Rica  Côte d'Ivoire  Croatia  Cuba  Curaçao  Cyprus  Czech Republic  Denmark  Djibouti  Dominica  Dominican Republic  East Timor  Ecuador  Egypt  El Salvador  Equatorial Guinea  Eritrea  Estonia  Ethiopia  Faroe Islands  Fiji  Finland  France  French Polynesia  Gabon  Gambia  Georgia  Germany  Ghana  Greece  Greenland  Grenada  Guam  Guatemala  Guinea  Guinea-Bissau  Guyana  Haiti  Honduras  Hong Kong  Hungary  Iceland  India  Indonesia  Iran  Iraq  Ireland  Israel  Italy  Jamaica  Japan  Jordan  Kazakhstan  Kenya  Kiribati  North Korea  South Korea  Kosovo  Kuwait  Kyrgyzstan  Laos  Latvia  Lebanon  Lesotho  Liberia  Libya  Liechtenstein  Lithuania  Luxembourg  Macedonia  Madagascar  Malawi  Malaysia  Maldives  Mali  Malta  Marshall Islands  Mauritania  Mauritius  Mexico  Micronesia  Moldova  Monaco  Mongolia  Montenegro  Morocco  Mozambique  Myanmar  Namibia  Nauru  Nepal  Netherlands  New Zealand  Nicaragua  Niger  Nigeria  Northern Mariana Islands  Norway  Oman  Pakistan  Palau  Palestine, State of  Panama  Papua New Guinea  Paraguay  Peru  Philippines  Poland  Portugal  Puerto Rico  Qatar  Romania  Russia  Rwanda  Saint Kitts and Nevis  Saint Lucia  Saint Vincent and the Grenadines  Saint Martin  Samoa  San Marino  Sao Tome and Principe  Saudi Arabia  Senegal  Serbia  Seychelles  Sierra Leone  Singapore  Sint Maarten  Slovakia  Slovenia  Solomon Islands  Somalia  South Africa  Spain  Sri Lanka  Sudan  Sudan, South  Suriname  Swaziland  Sweden  Switzerland  Syria  Taiwan  Tajikistan  Tanzania  Thailand  Togo  Tonga  Trinidad and Tobago  Tunisia  Turkey  Turkmenistan  Tuvalu  Uganda  Ukraine  United Arab Emirates  United Kingdom  United States  Uruguay  Uzbekistan  Vanuatu  Vatican City  Venezuela  Vietnam  Virgin Islands, British  Virgin Islands, U.S.  Yemen  Zambia  Zimbabwe       Your message   *        Your message    The ED80 has the following optional components available:     Auxiliary   *      None       Fixed Contact Terminal   *      None       Coil Suppression   *      None       Mounting Options   *      None       Coil Terminations   *      None      
+           Submit  
+             
+             
+             
+             
+             
+            
+             
+             
+             
+             
+             
+             
+            
+         
+                         
+                                          
+             
+         
+     
+ 
+             
+            
+ 
+     
+    	 
+    		 
+    			 
+	 
+		 
+                             
+                     
+                           
+                        sales@albrightinternational.com                     
+                 
+                             
+                     
+                           
+                        +44 (0) 1256 890030                     
+                 
+            		 
+         
+                             
+                     
+                           
+                        technical@albrightinternational.com                     
+                 
+                             
+                     
+                           
+                        +44 (0) 1256 893060                     
+                 
+            		 
+	 
+ 
+                 UK Business Hours, Mon - Thu: 8:30 - 16:45 | Fri: 8:30 - 15:30 
+    		 
+             
+                                     Contact Us 
+                                     
+             
+    	 
+     
+     
+         
+        	 
+        		 
+        			   
+        		 
+                 
+                       Home  
+  Products  
+  Contact  
+  About  
+  Site Map  
+                  
+        	 
+         
+     
+     
+    	 
+    		 
+    			 Albright © 2026 | All rights reserved 
+    		 
+    		 
+             Website by Hexagon 
+             
+    	 
+     
+ 
+ 
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wpcms/wp-*.php","/wpcms/wp-admin/*","/wpcms/wp-content/uploads/*","/wpcms/wp-content/*","/wpcms/wp-content/plugins/*","/wpcms/wp-content/themes/albright-2018/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+ 
+ 
+/*   */
+ 
+  
+ 
+/*   */
+ 
+  
+  
+  
+  
+ 
+/*   */
+ 
+ 
+/*   */
+ 
+  
+  
+ 
+/*   */
+ 
+  
+  
+  
+  
+ 
+/*   */
+ 
+  
+ var gfZeroSpamConfig = {"forms":[{"ajaxUrl":"https:\/\/www.albrightinternational.com\/wpcms\/wp-admin\/admin-ajax.php","fallbackToken":"M3wxNzkxOTk4OTMzfDE3OTI2MDM3MzN8YmQwNTVhYTU4OWYwMmRlMzljNmM4YjI3YmU0ODBjZGF8MQ.NjY1MWVmYzZhOWMyM2Y0MmMwN2E4OGJkMzJkYzJiYmE0ZDAwZjI5NWFmN2MyMWY5MTMzM2M0MTgwNzMwMWRmOQ","formId":3,"timeout":3000}],"debug":false}; 
+  
+ 
+/*   */
+ 
+ 
+/*   {                mutations.forEach( ( mutation ) => {                    if ( mutation.type === 'attributes' && visibilityTestDiv.offsetParent !== null ) {                        debouncedTriggerPostRender();                        observer.disconnect();                    }                });            });            observer.observe( document.body, {                attributes: true,                childList: false,                subtree: true,                attributeFilter: [ 'style', 'class' ],            });        } else {            triggerPostRender();        }    } ); 
+/* ]]> */
+ 
+         
+     
+   
+ 

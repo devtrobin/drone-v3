@@ -1,0 +1,17 @@
+{
+  "checked_on": "2026-10-14",
+  "all_passed": true,
+  "archives": 8,
+  "step_models": 5,
+  "pdf_pages": 5,
+  "pdf_visual_review_complete": true,
+  "links_and_hashes_valid": true,
+  "step_not_ignored": true,
+  "freecad_headless_valid": true,
+  "calculation_examples_consistent": true,
+  "hardware_tested": false,
+  "original_ESC16AWG_protection_validated": false,
+  "prospective_fault_current_validated": false,
+  "selectivity_validated": false,
+  "amazon_fr_offers_confirmed": false
+}

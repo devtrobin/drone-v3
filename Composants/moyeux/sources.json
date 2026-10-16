@@ -1,0 +1,48 @@
+{
+  "selected_on": "2026-10-13",
+  "selected_by": "assistant, authorized by user",
+  "reference": "Tamiya 53569 — Clamp Type Aluminum Wheel Hub, 6 mm",
+  "quantity_design": "4 moyeux ; jeu commercial annoncé de 4, contenu des accessoires à contrôler",
+  "purchased": false,
+  "hardware_tested": false,
+  "model_3d_created": true,
+  "purchase_status": "Not an identified or verified Amazon offer; fabrication lines are not purchase-ready",
+  "price_eur": null,
+  "amazon_search_url": "https://www.amazon.fr/s?k=Tamiya+53569",
+  "specifications": {
+    "type": "Moyeu aluminium serré sur l’axe par vis",
+    "épaisseur": "6 mm publiée",
+    "interface retenue": "Famille hexagone 12 mm pour axe de roue Ø5 mm ; à contrôler avec la roue HobbyPark",
+    "roue associée": "Empreinte 12 mm, passage d’axe 4 mm ; une partie filetée M4 traverse la roue",
+    "goupille": "Principe de montage sur goupille transversale 2×10 mm"
+  },
+  "sources": [
+    {
+      "url": "https://www.tamiya.com/english/products/53569/index.html",
+      "type": "primary or explicitly identified supplier reference",
+      "checked_on": "2026-10-13"
+    },
+    {
+      "url": "https://www.tamiya.de/tamiya_en/spare-parts-accessories/rc-tuning-parts/wheel-hub-clamp-type-6mm-4-300053569-en.html",
+      "type": "primary or explicitly identified supplier reference",
+      "checked_on": "2026-10-13"
+    }
+  ],
+  "documents": [
+    {
+      "file": "Tamiya-TT01R-notice-constructeur.pdf",
+      "url": "https://www.tamiya.com/cms/english/rc/rcmanual/tt01r.pdf",
+      "bytes": 4744628,
+      "sha256": "c8ef6f865c9a81df967932ec86143cf1074ecc2f6d48df566a94c0d2643a9ed1",
+      "modified": false,
+      "local_file": "../direction-et-transmission/notices/Tamiya-TT01R-notice-constructeur.pdf"
+    }
+  ],
+  "unknowns": [
+    "Contrôler 12 mm entre plats, alésage, gorge et profondeur d’appui sur la roue réelle",
+    "Confirmer la fourniture des goupilles et vis pour éviter leur double achat",
+    "Vérifier dégagement de la vis de clamp et accès à l’écrou",
+    "Pas de couple de serrage inventé : prendre la notice du sachet et vérifier la rotation"
+  ],
+  "model_3d_manifest": "3D/provenance.json"
+}

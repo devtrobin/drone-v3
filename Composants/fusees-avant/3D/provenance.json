@@ -1,0 +1,357 @@
+{
+  "generated_on": "2026-10-13",
+  "generator": "tools/build_running_gear_step.py",
+  "generator_sha256": "3cc48dca6f563d7222132a9fb3986d9d3a72dfa92d4309f8bec62fd5da2b6ec8",
+  "source_manifest_sha256": "39f448ceb321d4ac6979a72053b436e6d68592100ffde328eac1119eca2f2739",
+  "models": [
+    {
+      "file": "fusee-a7-droite-tamiya-51002.step",
+      "title": "Tamiya A7 | fusee droite",
+      "generated_on": "2026-10-13",
+      "unit": "mm",
+      "cadquery_version": "2.8.0",
+      "coordinate_system": "A7: axe roue X, pivot Z, centre de roulements (0,0,0); A6/renvois: pivot Z",
+      "bytes": 566588,
+      "sha256": "3c52b305c85484a914d5a3abadaf53e8177d9568b6a554e378cd7b2b4ea40b83",
+      "native_vendor_cad": false,
+      "hardware_measured": false,
+      "is_custom_project_design": false,
+      "published_nominal": [
+        "A7, deux roulements 1150 et vis pivots 3x10 identifies TT01R p.10"
+      ],
+      "estimates_and_limitations": [
+        "Enveloppe, separation des roulements, bras et nervures reconstruits depuis notice",
+        "Logements nominaux Ø11 x4 sans ajustement; centre pivot et bras a relever sur A7 reel",
+        "Ne pas usiner les fourches a partir de ces estimations sans controle des pieces"
+      ],
+      "parameters": {
+        "bearing_seats_nominal": 11,
+        "bearing_width": 4,
+        "seat_start_x": [
+          -7,
+          2.9
+        ],
+        "pivot_extent_z_study": [
+          -11,
+          11
+        ]
+      },
+      "source_pages": [
+        "Tamiya-TT01R-notice-constructeur.pdf p.10"
+      ],
+      "bounds_mm": {
+        "xmin": -7.000000100000001,
+        "xmax": 7.000000100000001,
+        "ymin": -16.0,
+        "ymax": 7.9500001000000005,
+        "zmin": -11.0000001,
+        "zmax": 11.0000001
+      },
+      "validation": {
+        "valid_after_reimport": true,
+        "solids": 1,
+        "faces": 118,
+        "colors": 1,
+        "volume_relative_error": 4.110342806912879e-11,
+        "volume_relative_error_limit": 0.0001,
+        "volume_before_mm3": 1769.6992086508042,
+        "volume_after_mm3": 1769.6992085780635,
+        "adaptive_volume_tolerance": 1e-09,
+        "bbox_error_mm": 0.0,
+        "bbox_error_limit_mm": 0.01,
+        "void_and_material_probes": [
+          {
+            "point": [
+              0,
+              0,
+              0
+            ],
+            "occupied": false
+          }
+        ],
+        "elapsed_seconds": 0.6944777999997314
+      },
+      "parts": [
+        {
+          "name": "Fusee_A7_plastique_reconstruction",
+          "color_linear_rgb": [
+            0.022,
+            0.026,
+            0.032
+          ],
+          "solids": 1
+        }
+      ],
+      "preview": {
+        "file": "fusee-a7-droite-tamiya-51002.png",
+        "sha256": "2418421b5fc6bbc9a987b35d807dffdd0856a9fc490bcfa93899b72e2db73be9"
+      }
+    },
+    {
+      "file": "fusee-a7-gauche-tamiya-51002.step",
+      "title": "Tamiya A7 | fusee gauche",
+      "generated_on": "2026-10-13",
+      "unit": "mm",
+      "cadquery_version": "2.8.0",
+      "coordinate_system": "A7: axe roue X, pivot Z, centre de roulements (0,0,0); A6/renvois: pivot Z",
+      "bytes": 577502,
+      "sha256": "8aea4fa43b5a3b8fd2592bf6439a2511546dbe9c7056b4a01a0552a483465218",
+      "native_vendor_cad": false,
+      "hardware_measured": false,
+      "is_custom_project_design": false,
+      "published_nominal": [
+        "A7, deux roulements 1150 et vis pivots 3x10 identifies TT01R p.10"
+      ],
+      "estimates_and_limitations": [
+        "Enveloppe, separation des roulements, bras et nervures reconstruits depuis notice",
+        "Logements nominaux Ø11 x4 sans ajustement; centre pivot et bras a relever sur A7 reel",
+        "Ne pas usiner les fourches a partir de ces estimations sans controle des pieces"
+      ],
+      "parameters": {
+        "bearing_seats_nominal": 11,
+        "bearing_width": 4,
+        "seat_start_x": [
+          -7,
+          2.9
+        ],
+        "pivot_extent_z_study": [
+          -11,
+          11
+        ]
+      },
+      "source_pages": [
+        "Tamiya-TT01R-notice-constructeur.pdf p.10"
+      ],
+      "bounds_mm": {
+        "xmin": -7.000000100000001,
+        "xmax": 7.000000100000001,
+        "ymin": -7.9500001000000005,
+        "ymax": 16.0,
+        "zmin": -11.0000001,
+        "zmax": 11.0000001
+      },
+      "validation": {
+        "valid_after_reimport": true,
+        "solids": 1,
+        "faces": 118,
+        "colors": 1,
+        "volume_relative_error": 2.23862633657055e-10,
+        "volume_relative_error_limit": 0.0001,
+        "volume_before_mm3": 1769.6992086508042,
+        "volume_after_mm3": 1769.6992090469737,
+        "adaptive_volume_tolerance": 1e-09,
+        "bbox_error_mm": 0.0,
+        "bbox_error_limit_mm": 0.01,
+        "void_and_material_probes": [
+          {
+            "point": [
+              0,
+              0,
+              0
+            ],
+            "occupied": false
+          }
+        ],
+        "elapsed_seconds": 0.726063800000702
+      },
+      "parts": [
+        {
+          "name": "Fusee_A7_plastique_reconstruction",
+          "color_linear_rgb": [
+            0.022,
+            0.026,
+            0.032
+          ],
+          "solids": 1
+        }
+      ],
+      "preview": {
+        "file": "fusee-a7-gauche-tamiya-51002.png",
+        "sha256": "68f6d06267f66f2fa3609028ddc20b365ce7eae9d64e9536fe2e57fb88a2d1b4"
+      }
+    },
+    {
+      "file": "bague-pivot-a6-tamiya-51002.step",
+      "title": "Tamiya A6 | bague pivot",
+      "generated_on": "2026-10-13",
+      "unit": "mm",
+      "cadquery_version": "2.8.0",
+      "coordinate_system": "A7: axe roue X, pivot Z, centre de roulements (0,0,0); A6/renvois: pivot Z",
+      "bytes": 15210,
+      "sha256": "01ff4aea61bf7f9ac56aba32945eada9d77daf61f7218644562fc3106c1d16c3",
+      "native_vendor_cad": false,
+      "hardware_measured": false,
+      "is_custom_project_design": false,
+      "published_nominal": [
+        "Bague A6 identifiee dans la notice p.10"
+      ],
+      "estimates_and_limitations": [
+        "Tous diametres et hauteurs reconstruits; Ø3.1 trou de vis et forme a confirmer"
+      ],
+      "parameters": {},
+      "source_pages": [],
+      "bounds_mm": {
+        "xmin": -2.8,
+        "xmax": 2.8,
+        "ymin": -2.8,
+        "ymax": 2.8,
+        "zmin": 0.0,
+        "zmax": 2.8
+      },
+      "validation": {
+        "valid_after_reimport": true,
+        "solids": 1,
+        "faces": 6,
+        "colors": 1,
+        "volume_relative_error": 0.0,
+        "volume_relative_error_limit": 0.0001,
+        "volume_before_mm3": 21.8183609791811,
+        "volume_after_mm3": 21.8183609791811,
+        "adaptive_volume_tolerance": 1e-09,
+        "bbox_error_mm": 0.0,
+        "bbox_error_limit_mm": 0.01,
+        "void_and_material_probes": [],
+        "elapsed_seconds": 0.044374400000378955
+      },
+      "parts": [
+        {
+          "name": "Bague_pivot_A6",
+          "color_linear_rgb": [
+            0.022,
+            0.026,
+            0.032
+          ],
+          "solids": 1
+        }
+      ],
+      "preview": {
+        "file": "bague-pivot-a6-tamiya-51002.png",
+        "sha256": "b6d0257fe73de6ceddee3895addfe7eb435a48d80882e1715db207ca831c26ec"
+      }
+    },
+    {
+      "file": "renvoi-a1-tamiya-51002.step",
+      "title": "Tamiya A1 | renvoi de direction",
+      "generated_on": "2026-10-13",
+      "unit": "mm",
+      "cadquery_version": "2.8.0",
+      "coordinate_system": "A7: axe roue X, pivot Z, centre de roulements (0,0,0); A6/renvois: pivot Z",
+      "bytes": 56093,
+      "sha256": "5ec8741fb8b635c152d29b7fcd1b41caa3761489a38714900f5e8da0e1339d07",
+      "native_vendor_cad": false,
+      "hardware_measured": false,
+      "is_custom_project_design": false,
+      "published_nominal": [
+        "Renvoi A1 et vis decollétees identifies TT01R p.10"
+      ],
+      "estimates_and_limitations": [
+        "Contours, epaisseurs, entraxes et alesages entierement reconstruits non mesures",
+        "Etude d implantation, pas une copie garantie du moulage Tamiya"
+      ],
+      "parameters": {},
+      "source_pages": [
+        "Tamiya-TT01R-notice-constructeur.pdf p.10"
+      ],
+      "bounds_mm": {
+        "xmin": -4.0,
+        "xmax": 19.5,
+        "ymin": -7.5,
+        "ymax": 4.0,
+        "zmin": 0.0,
+        "zmax": 7.0
+      },
+      "validation": {
+        "valid_after_reimport": true,
+        "solids": 1,
+        "faces": 16,
+        "colors": 1,
+        "volume_relative_error": 1.2399858657380145e-14,
+        "volume_relative_error_limit": 0.0001,
+        "volume_before_mm3": 678.4614424933337,
+        "volume_after_mm3": 678.4614424933253,
+        "adaptive_volume_tolerance": 1e-09,
+        "bbox_error_mm": 0.0,
+        "bbox_error_limit_mm": 0.01,
+        "void_and_material_probes": [],
+        "elapsed_seconds": 0.102480800000194
+      },
+      "parts": [
+        {
+          "name": "Renvoi_A1",
+          "color_linear_rgb": [
+            0.022,
+            0.026,
+            0.032
+          ],
+          "solids": 1
+        }
+      ],
+      "preview": {
+        "file": "renvoi-a1-tamiya-51002.png",
+        "sha256": "16052afcc7a0df105306b14aa1ebc6cd7d7f85e8952adb49096731d2ebd44371"
+      }
+    },
+    {
+      "file": "renvoi-a8-tamiya-51002.step",
+      "title": "Tamiya A8 | renvoi de direction",
+      "generated_on": "2026-10-13",
+      "unit": "mm",
+      "cadquery_version": "2.8.0",
+      "coordinate_system": "A7: axe roue X, pivot Z, centre de roulements (0,0,0); A6/renvois: pivot Z",
+      "bytes": 92834,
+      "sha256": "9ef9d4cbebd24d2c67d00bf231baed19baf3d9f6135738c554afa5982c56506b",
+      "native_vendor_cad": false,
+      "hardware_measured": false,
+      "is_custom_project_design": false,
+      "published_nominal": [
+        "Renvoi A8 et vis decollétees identifies TT01R p.10"
+      ],
+      "estimates_and_limitations": [
+        "Contours, epaisseurs, entraxes et alesages entierement reconstruits non mesures",
+        "Etude d implantation, pas une copie garantie du moulage Tamiya"
+      ],
+      "parameters": {},
+      "source_pages": [
+        "Tamiya-TT01R-notice-constructeur.pdf p.10"
+      ],
+      "bounds_mm": {
+        "xmin": -4.0,
+        "xmax": 19.5,
+        "ymin": -4.0,
+        "ymax": 14.5,
+        "zmin": 0.0,
+        "zmax": 7.0
+      },
+      "validation": {
+        "valid_after_reimport": true,
+        "solids": 1,
+        "faces": 25,
+        "colors": 1,
+        "volume_relative_error": 2.97481803834681e-14,
+        "volume_relative_error_limit": 0.0001,
+        "volume_before_mm3": 890.44213285251,
+        "volume_after_mm3": 890.4421328525365,
+        "adaptive_volume_tolerance": 1e-09,
+        "bbox_error_mm": 0.0,
+        "bbox_error_limit_mm": 0.01,
+        "void_and_material_probes": [],
+        "elapsed_seconds": 0.1482782999992196
+      },
+      "parts": [
+        {
+          "name": "Renvoi_A8",
+          "color_linear_rgb": [
+            0.022,
+            0.026,
+            0.032
+          ],
+          "solids": 1
+        }
+      ],
+      "preview": {
+        "file": "renvoi-a8-tamiya-51002.png",
+        "sha256": "980fafedcd60fed22a0914c9506f7490a1546158f61062a8c3322531745e1e4b"
+      }
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "file": "moyeu-tamiya-53569-hex12-6mm.step",
+  "title": "Tamiya 53569 | moyeu aluminium 6 mm",
+  "generated_on": "2026-10-13",
+  "unit": "mm",
+  "cadquery_version": "2.8.0",
+  "coordinate_system": "Axe principal Z; face de reference z=0; dimensions selon parametres",
+  "bytes": 618714,
+  "sha256": "bde297c434df5a3080df56944553a0714450cbc41590ecc88b44b3e0c663ecbc",
+  "native_vendor_cad": false,
+  "hardware_measured": false,
+  "is_custom_project_design": false,
+  "published_nominal": [
+    "Epaisseur constructeur 6 mm; famille hexagone AF12 et arbre Ø5"
+  ],
+  "estimates_and_limitations": [
+    "Rainure de goupille, position fente, vis M1.6 et chanfreins estimes",
+    "Verifier le diametre et le passage reels de la vis de pince"
+  ],
+  "parameters": {
+    "across_flats": 12,
+    "thickness": 6,
+    "bore": 5
+  },
+  "source_pages": [],
+  "bounds_mm": {
+    "xmin": -6.838203230277184,
+    "xmax": 6.827166933168705,
+    "ymin": -6.000000000000004,
+    "ymax": 6.000000000000001,
+    "zmin": -1.501113831974e-35,
+    "zmax": 6.0
+  },
+  "validation": {
+    "valid_after_reimport": true,
+    "solids": 2,
+    "faces": 59,
+    "colors": 2,
+    "volume_relative_error": 2.603849618417884e-07,
+    "volume_relative_error_limit": 0.0001,
+    "volume_before_mm3": 608.9619966786922,
+    "volume_after_mm3": 608.9621552432385,
+    "adaptive_volume_tolerance": 1e-09,
+    "bbox_error_mm": 1.674216321134736e-12,
+    "bbox_error_limit_mm": 0.01,
+    "void_and_material_probes": [
+      {
+        "point": [
+          2.49,
+          0,
+          3
+        ],
+        "occupied": false
+      },
+      {
+        "point": [
+          0,
+          5.9,
+          3
+        ],
+        "occupied": true
+      }
+    ],
+    "elapsed_seconds": 0.8124186999993981
+  },
+  "parts": [
+    {
+      "name": "Moyeu_hexagonal_fendu",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.65
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Vis_pince_estimee",
+      "color_linear_rgb": [
+        0.38,
+        0.41,
+        0.45
+      ],
+      "solids": 1
+    }
+  ],
+  "preview": {
+    "file": "moyeu-tamiya-53569-hex12-6mm.png",
+    "sha256": "77aa7ed1f624c047bc177396f9bb4984c1883d7bd11c879240ba5860b6bb7f50"
+  }
+}

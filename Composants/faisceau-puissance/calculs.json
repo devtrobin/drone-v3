@@ -1,0 +1,58 @@
+{
+  "section_main_mm2": 6,
+  "main_current_study_A": 44.390277777777776,
+  "main_current_formula": "40+25/(6.4*0.9)+0.05",
+  "copper_rho_assumed_ohm_mm2_per_m_at_20C": 0.01724,
+  "resistance_measured": false,
+  "cable_ampacity_verified": false,
+  "loops": [
+    {
+      "one_way_length_m": 0.2,
+      "current_A": 44.390277777777776,
+      "loop_resistance_ohm": 0.0011493333333333332,
+      "drop_V": 0.051019225925925914,
+      "loss_W": 2.264757610859053
+    },
+    {
+      "one_way_length_m": 0.25,
+      "current_A": 44.390277777777776,
+      "loop_resistance_ohm": 0.0014366666666666666,
+      "drop_V": 0.06377403240740741,
+      "loss_W": 2.8309470135738164
+    },
+    {
+      "one_way_length_m": 0.5,
+      "current_A": 44.390277777777776,
+      "loop_resistance_ohm": 0.002873333333333333,
+      "drop_V": 0.12754806481481482,
+      "loss_W": 5.661894027147633
+    }
+  ],
+  "stud_passages": [
+    {
+      "part": "95R4",
+      "hole_mm": 4.3,
+      "stud_major_nominal_mm": 4.1656
+    },
+    {
+      "part": "95R5 M5",
+      "hole_mm": 5.3,
+      "stud_major_nominal_mm": 5
+    },
+    {
+      "part": "95R5 #10",
+      "hole_mm": 5.3,
+      "stud_major_nominal_mm": 4.826
+    }
+  ],
+  "shrink": {
+    "expanded_inside_min_mm": 8,
+    "free_recovered_max_mm": 2,
+    "lug_barrel_OD_mm": 6,
+    "wire_OD_approx_mm": 4.7,
+    "installed_fit_verified": false
+  },
+  "supply_revision_scope": "historical_before_alimentation_r2",
+  "current_supply_source": "../verification-alimentation/selection-active.json",
+  "historical_values_preserved": true
+}

@@ -1,0 +1,30 @@
+{
+    "file":  "notice-repartition-moteurs-v3.pdf",
+    "pages":  4,
+    "sha256":  "a7a00db1cee3b1f581069e13e158f10938d4b7e4950c9096ca9e0d7e83193519",
+    "generated_on":  "2026-10-14",
+    "generator":  "tools/build_motor_splitter_pdf.py",
+    "renders":  [
+                    {
+                        "page":  1,
+                        "render":  "tools/temp/motor-splitter-review/pdf/page-1.png",
+                        "chars":  955
+                    },
+                    {
+                        "page":  2,
+                        "render":  "tools/temp/motor-splitter-review/pdf/page-2.png",
+                        "chars":  1932
+                    },
+                    {
+                        "page":  3,
+                        "render":  "tools/temp/motor-splitter-review/pdf/page-3.png",
+                        "chars":  1879
+                    },
+                    {
+                        "page":  4,
+                        "render":  "tools/temp/motor-splitter-review/pdf/page-4.png",
+                        "chars":  1950
+                    }
+                ],
+    "visual_review_complete":  true
+}

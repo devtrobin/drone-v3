@@ -1,0 +1,52 @@
+{
+  "checked_on": "2026-10-14",
+  "purchased": false,
+  "reference": "BNTECHGO SW12G68008F10C2",
+  "amazon_ASIN": "B01ABOPMEI",
+  "kit_quantity_proposed": 1,
+  "red_m": 3.048,
+  "black_m": 3.048,
+  "total_m": 6.096,
+  "provisional_cuts": [
+    {
+      "name": "CM1+",
+      "color": "red",
+      "length_example_m": 0.2
+    },
+    {
+      "name": "CM2+",
+      "color": "red",
+      "length_example_m": 0.2
+    },
+    {
+      "name": "CM1-",
+      "color": "black",
+      "length_example_m": 0.2
+    },
+    {
+      "name": "CM2-",
+      "color": "black",
+      "length_example_m": 0.2
+    }
+  ],
+  "actual_cut_list_validated": false,
+  "example_installed_red_m": 0.4,
+  "example_installed_black_m": 0.4,
+  "example_red_spare_m": 2.648,
+  "example_black_spare_m": 2.648,
+  "model_strip_mm_is_instruction": false,
+  "price_FR_TTC_EUR": null,
+  "manufacturer_reference_USD": 14.98,
+  "shipping_FR_verified": false,
+  "Amazon_FR_stock_verified": false,
+  "includes_connectors": false,
+  "includes_lugs": false,
+  "main_6mm2_wire_included": false,
+  "missing": [
+    "cut list after layout",
+    "12AWG splices and lug references",
+    "crimp tools",
+    "caps fit",
+    "current and thermal/fault qualification"
+  ]
+}

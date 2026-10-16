@@ -1,0 +1,16 @@
+{
+  "pivot_track_mm": 340.0,
+  "wheel_track_mm": 400,
+  "wheelbase_mm": 390.0,
+  "arm_inward_mm": 23.83,
+  "arm_rear_mm": 40.0,
+  "horn_mm": 20.0,
+  "tierod_ball_centers_mm": 292.34000000000003,
+  "draglink_ball_centers_mm": 142.20164872461925,
+  "max_ackermann_error_deg": 0.6716687887817164,
+  "servo_deg_range": [
+    -59.81583925792777,
+    59.81648797288763
+  ],
+  "max_jacobian_sum": 0.8233088195879349
+}

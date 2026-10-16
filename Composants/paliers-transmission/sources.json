@@ -1,0 +1,54 @@
+{
+  "selected_on": "2026-10-13",
+  "selected_by": "assistant, authorized by user",
+  "reference": "P115-V3 / F-AV-V3 — supports à fabriquer",
+  "quantity_design": "4 ensembles à deux roulements arrière/intermédiaires + 2 fourches avant",
+  "purchased": false,
+  "hardware_tested": false,
+  "model_3d_created": true,
+  "purchase_status": "Not an identified or verified Amazon offer; fabrication lines are not purchase-ready",
+  "price_eur": null,
+  "amazon_search_url": "https://www.amazon.fr/s?k=plaque+aluminium+usinage",
+  "specifications": {
+    "logements de roulement": "Format 11 mm extérieur ×4 mm large ; ajustements à définir",
+    "architecture arrière": "Deux appuis par arbre ; couronne et pignon dans les plans de denture retenus",
+    "architecture avant": "Fourche à deux appuis autour de chaque fusée A7, avec ses pièces de pivot A6",
+    "matière candidate": "Aluminium pour platines, avec paliers séparés ; capacité d’usinage à confirmer"
+  },
+  "sources": [
+    {
+      "url": "https://www.smbbearings.com/products/miniature-bearings.html",
+      "type": "primary or explicitly identified supplier reference",
+      "checked_on": "2026-10-13"
+    },
+    {
+      "url": "https://www.tamiya.com/english/products/51002/index.html",
+      "type": "primary or explicitly identified supplier reference",
+      "checked_on": "2026-10-13"
+    }
+  ],
+  "documents": [
+    {
+      "file": "SMB-MR115ZZ-fiche-technique.pdf",
+      "url": "https://www.smbbearings.com/firebrick/ckeditor/plugins/upload/Uploads/Documents/bearingpdfs/MR115ZZ-miniature-bearing-5x11x4mm.pdf",
+      "bytes": 110429,
+      "sha256": "47124fe7b5bda8ddf055701f9a28959712bba733bc043704eec517f020169c94",
+      "modified": false,
+      "local_file": "../direction-et-transmission/notices/SMB-MR115ZZ-fiche-technique.pdf"
+    },
+    {
+      "file": "Tamiya-TT01R-notice-constructeur.pdf",
+      "url": "https://www.tamiya.com/cms/english/rc/rcmanual/tt01r.pdf",
+      "bytes": 4744628,
+      "sha256": "c8ef6f865c9a81df967932ec86143cf1074ecc2f6d48df566a94c0d2643a9ed1",
+      "modified": false,
+      "local_file": "../direction-et-transmission/notices/Tamiya-TT01R-notice-constructeur.pdf"
+    }
+  ],
+  "unknowns": [
+    "Épaisseurs, ajustements, rigidité et fixation au châssis",
+    "Matière disponible et faisabilité sur l’outillage réel",
+    "Carters, accès maintenance et dégagement au sol"
+  ],
+  "model_3d_manifest": "3D/provenance.json"
+}

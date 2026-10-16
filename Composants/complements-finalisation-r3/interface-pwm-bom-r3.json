@@ -1,0 +1,13 @@
+{
+  "ISO7710FDR": 3,
+  "MCP1703A_3302E_DB": 3,
+  "R220ohm": 6,
+  "R10kohm": 6,
+  "C100nF": 6,
+  "C10uF25V": 6,
+  "SOIC8_adapters_independent_pads": 3,
+  "SOT223_adapters_independent_pads": 3,
+  "prototype_only": true,
+  "no_new_Gerbers": true,
+  "actuator_power_must_bypass_interface": true
+}

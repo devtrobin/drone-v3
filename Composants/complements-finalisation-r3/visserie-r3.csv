@@ -1,0 +1,14 @@
+﻿code;reference;quantite;empilage_mm;rondelles_mm;ecrou_mm;engagement_mm;longueur_min_mm;longueur_retenue_mm;note
+R3V01;M4 tête basse classe8.8;8;14;1.6;5;0;21.6;25;"L01:3 + cale1 + montant10; deux rondelles0.8; écrouM4"
+R3V02;M4 tête cylindrique classe8.8;4;10;0.8;0;8;18.8;20;Rail10, entretoise anti-écrasement8, engagement9.2 dans bouchon
+R3V03;M3 tête cylindrique classe8.8;16;13;1;4;0;19.0;20;"Éclisse3 + tube10; deux rondelles0.5; écrouM3"
+R3V05;M3 tête cylindrique classe8.8;4;10;1;4;0;16.0;16;"Retenue des quatre bouchons; décalée du taraudageM4"
+R3V-C01;M3 tête cylindrique classe8.8;2;29;1;4;0;35.0;35;"BrideP03 n°1; entretoisesL7; écrouM3 sous support"
+R3V-C02;M3 tête cylindrique classe8.8;2;29;1;4;0;35.0;35;"BrideP03 n°2; entretoisesL7; écrouM3 sous support"
+R3V-C03;M3 tête cylindrique classe8.8;2;19;1;4;0;25.0;25;"BrideP04 n°3; entretoisesL4; écrouM3 sous support"
+R3V-C04;M3 tête cylindrique classe8.8;2;19;1;4;0;25.0;25;"BrideP04 n°4; entretoisesL4; écrouM3 sous support"
+R3V-C05;M3 tête cylindrique classe8.8;2;34;1;4;0;40.0;40;"BrideP05 n°5; entretoisesL19; écrouM3 sous support"
+R3V-C06;M3 tête cylindrique classe8.8;2;19;1;4;0;25.0;25;"BrideP06 n°6; entretoisesL4; écrouM3 sous support"
+R3V-C07;M3 tête cylindrique classe8.8;2;19;1;4;0;25.0;25;"BrideP06 n°7; entretoisesL4; écrouM3 sous support"
+R3V-C08;M3 tête cylindrique classe8.8;2;19;1;4;0;25.0;25;"BrideP06 n°8; entretoisesL4; écrouM3 sous support"
+R3V04;M3 tête cylindrique classe8.8;12;13;1;4;0;19.0;20;Six consoles3 sur tubes10, 2 vis par console

@@ -1,0 +1,1937 @@
+{
+  "checked_on": "2026-10-14",
+  "all_passed": true,
+  "checks": [
+    {
+      "check": "connecteurs-commande FreeCAD",
+      "passed": true
+    },
+    {
+      "check": "jr-boitier.step hash",
+      "passed": true
+    },
+    {
+      "check": "jr-boitier.step.json",
+      "passed": true
+    },
+    {
+      "check": "jr-boitier.step.png",
+      "passed": true
+    },
+    {
+      "check": "jr-boitier.step quadrature",
+      "passed": true
+    },
+    {
+      "check": "jr-capot.step hash",
+      "passed": true
+    },
+    {
+      "check": "jr-capot.step.json",
+      "passed": true
+    },
+    {
+      "check": "jr-capot.step.png",
+      "passed": true
+    },
+    {
+      "check": "jr-capot.step quadrature",
+      "passed": true
+    },
+    {
+      "check": "jr-complet-3contacts.step hash",
+      "passed": true
+    },
+    {
+      "check": "jr-complet-3contacts.step.json",
+      "passed": true
+    },
+    {
+      "check": "jr-complet-3contacts.step.png",
+      "passed": true
+    },
+    {
+      "check": "jr-complet-3contacts.step quadrature",
+      "passed": true
+    },
+    {
+      "check": "jr-contact-male.step hash",
+      "passed": true
+    },
+    {
+      "check": "jr-contact-male.step.json",
+      "passed": true
+    },
+    {
+      "check": "jr-contact-male.step.png",
+      "passed": true
+    },
+    {
+      "check": "jr-contact-male.step quadrature",
+      "passed": true
+    },
+    {
+      "check": "jr-esc-droit-2contacts.step hash",
+      "passed": true
+    },
+    {
+      "check": "jr-esc-droit-2contacts.step.json",
+      "passed": true
+    },
+    {
+      "check": "jr-esc-droit-2contacts.step.png",
+      "passed": true
+    },
+    {
+      "check": "jr-esc-droit-2contacts.step quadrature",
+      "passed": true
+    },
+    {
+      "check": "trois-commandes-terminaisons-etude.step hash",
+      "passed": true
+    },
+    {
+      "check": "trois-commandes-terminaisons-etude.step.json",
+      "passed": true
+    },
+    {
+      "check": "trois-commandes-terminaisons-etude.step.png",
+      "passed": true
+    },
+    {
+      "check": "trois-commandes-terminaisons-etude.step quadrature",
+      "passed": true
+    },
+    {
+      "check": "connecteurs-commande source Pololu-1925",
+      "passed": true
+    },
+    {
+      "check": "connecteurs-commande source Pololu-1925-images",
+      "passed": true
+    },
+    {
+      "check": "connecteurs-commande source photos/JR-boitier-cotes.jpg",
+      "passed": true
+    },
+    {
+      "check": "connecteurs-commande source photos/JR-capot-cotes.jpg",
+      "passed": true
+    },
+    {
+      "check": "connecteurs-commande source photos/JR-assemble.jpg",
+      "passed": true
+    },
+    {
+      "check": "connecteurs-commande source Opencircuit-1925",
+      "passed": true
+    },
+    {
+      "check": "jr-pololu-1925 component docs",
+      "passed": true
+    },
+    {
+      "check": "connecteurs-commande PDFhash",
+      "passed": true
+    },
+    {
+      "check": "connecteurs-commande visualreview",
+      "passed": true
+    },
+    {
+      "check": "connecteurs-commande PDFpages",
+      "passed": true
+    },
+    {
+      "check": "connecteurs-commande\\devis.md link jr-pololu-1925/README.md",
+      "passed": true
+    },
+    {
+      "check": "connecteurs-commande\\integration.md link README.md",
+      "passed": true
+    },
+    {
+      "check": "connecteurs-commande\\integration.md link 3D/README.md",
+      "passed": true
+    },
+    {
+      "check": "connecteurs-commande\\integration.md link notices/notice-connecteurs-commande-v3.pdf",
+      "passed": true
+    },
+    {
+      "check": "connecteurs-commande\\README.md link jr-pololu-1925/README.md",
+      "passed": true
+    },
+    {
+      "check": "connecteurs-commande\\README.md link notices/notice-connecteurs-commande-v3.pdf",
+      "passed": true
+    },
+    {
+      "check": "connecteurs-commande\\README.md link integration.md",
+      "passed": true
+    },
+    {
+      "check": "connecteurs-commande\\README.md link nomenclature.json",
+      "passed": true
+    },
+    {
+      "check": "connecteurs-commande\\README.md link devis.md",
+      "passed": true
+    },
+    {
+      "check": "connecteurs-commande\\README.md link sources.json",
+      "passed": true
+    },
+    {
+      "check": "connecteurs-commande\\README.md link 3D/README.md",
+      "passed": true
+    },
+    {
+      "check": "connecteurs-commande\\3D\\README.md link ../jr-pololu-1925/3D/jr-boitier.step",
+      "passed": true
+    },
+    {
+      "check": "connecteurs-commande\\3D\\README.md link ../jr-pololu-1925/3D/jr-boitier.png",
+      "passed": true
+    },
+    {
+      "check": "connecteurs-commande\\3D\\README.md link ../jr-pololu-1925/3D/jr-capot.step",
+      "passed": true
+    },
+    {
+      "check": "connecteurs-commande\\3D\\README.md link ../jr-pololu-1925/3D/jr-capot.png",
+      "passed": true
+    },
+    {
+      "check": "connecteurs-commande\\3D\\README.md link ../jr-pololu-1925/3D/jr-complet-3contacts.step",
+      "passed": true
+    },
+    {
+      "check": "connecteurs-commande\\3D\\README.md link ../jr-pololu-1925/3D/jr-complet-3contacts.png",
+      "passed": true
+    },
+    {
+      "check": "connecteurs-commande\\3D\\README.md link ../jr-pololu-1925/3D/jr-contact-male.step",
+      "passed": true
+    },
+    {
+      "check": "connecteurs-commande\\3D\\README.md link ../jr-pololu-1925/3D/jr-contact-male.png",
+      "passed": true
+    },
+    {
+      "check": "connecteurs-commande\\3D\\README.md link ../jr-pololu-1925/3D/jr-esc-droit-2contacts.step",
+      "passed": true
+    },
+    {
+      "check": "connecteurs-commande\\3D\\README.md link ../jr-pololu-1925/3D/jr-esc-droit-2contacts.png",
+      "passed": true
+    },
+    {
+      "check": "connecteurs-commande\\3D\\README.md link ../jr-pololu-1925/3D/trois-commandes-terminaisons-etude.step",
+      "passed": true
+    },
+    {
+      "check": "connecteurs-commande\\3D\\README.md link ../jr-pololu-1925/3D/trois-commandes-terminaisons-etude.png",
+      "passed": true
+    },
+    {
+      "check": "connecteurs-commande\\3D\\README.md link validation-freecad.json",
+      "passed": true
+    },
+    {
+      "check": "connecteurs-commande\\3D\\README.md link catalogue.json",
+      "passed": true
+    },
+    {
+      "check": "connecteurs-commande\\3D\\README.md link ../README.md",
+      "passed": true
+    },
+    {
+      "check": "connecteurs-commande\\jr-pololu-1925\\notice.md link ../integration.md",
+      "passed": true
+    },
+    {
+      "check": "connecteurs-commande\\jr-pololu-1925\\notice.md link ../notices/notice-connecteurs-commande-v3.pdf",
+      "passed": true
+    },
+    {
+      "check": "connecteurs-commande\\jr-pololu-1925\\notice.md link ../sources.json",
+      "passed": true
+    },
+    {
+      "check": "connecteurs-commande\\jr-pololu-1925\\README.md link cotes.md",
+      "passed": true
+    },
+    {
+      "check": "connecteurs-commande\\jr-pololu-1925\\README.md link notice.md",
+      "passed": true
+    },
+    {
+      "check": "connecteurs-commande\\jr-pololu-1925\\README.md link avis-utilisateurs.md",
+      "passed": true
+    },
+    {
+      "check": "connecteurs-commande\\jr-pololu-1925\\README.md link ../sources.json",
+      "passed": true
+    },
+    {
+      "check": "connecteurs-commande\\jr-pololu-1925\\README.md link ../notices/notice-connecteurs-commande-v3.pdf",
+      "passed": true
+    },
+    {
+      "check": "connecteurs-commande\\jr-pololu-1925\\README.md link 3D/README.md",
+      "passed": true
+    },
+    {
+      "check": "connecteurs-commande\\jr-pololu-1925\\README.md link ../integration.md",
+      "passed": true
+    },
+    {
+      "check": "connecteurs-commande\\jr-pololu-1925\\3D\\README.md link jr-boitier.step",
+      "passed": true
+    },
+    {
+      "check": "connecteurs-commande\\jr-pololu-1925\\3D\\README.md link jr-boitier.png",
+      "passed": true
+    },
+    {
+      "check": "connecteurs-commande\\jr-pololu-1925\\3D\\README.md link jr-boitier.json",
+      "passed": true
+    },
+    {
+      "check": "connecteurs-commande\\jr-pololu-1925\\3D\\README.md link jr-capot.step",
+      "passed": true
+    },
+    {
+      "check": "connecteurs-commande\\jr-pololu-1925\\3D\\README.md link jr-capot.png",
+      "passed": true
+    },
+    {
+      "check": "connecteurs-commande\\jr-pololu-1925\\3D\\README.md link jr-capot.json",
+      "passed": true
+    },
+    {
+      "check": "connecteurs-commande\\jr-pololu-1925\\3D\\README.md link jr-complet-3contacts.step",
+      "passed": true
+    },
+    {
+      "check": "connecteurs-commande\\jr-pololu-1925\\3D\\README.md link jr-complet-3contacts.png",
+      "passed": true
+    },
+    {
+      "check": "connecteurs-commande\\jr-pololu-1925\\3D\\README.md link jr-complet-3contacts.json",
+      "passed": true
+    },
+    {
+      "check": "connecteurs-commande\\jr-pololu-1925\\3D\\README.md link jr-contact-male.step",
+      "passed": true
+    },
+    {
+      "check": "connecteurs-commande\\jr-pololu-1925\\3D\\README.md link jr-contact-male.png",
+      "passed": true
+    },
+    {
+      "check": "connecteurs-commande\\jr-pololu-1925\\3D\\README.md link jr-contact-male.json",
+      "passed": true
+    },
+    {
+      "check": "connecteurs-commande\\jr-pololu-1925\\3D\\README.md link jr-esc-droit-2contacts.step",
+      "passed": true
+    },
+    {
+      "check": "connecteurs-commande\\jr-pololu-1925\\3D\\README.md link jr-esc-droit-2contacts.png",
+      "passed": true
+    },
+    {
+      "check": "connecteurs-commande\\jr-pololu-1925\\3D\\README.md link jr-esc-droit-2contacts.json",
+      "passed": true
+    },
+    {
+      "check": "connecteurs-commande\\jr-pololu-1925\\3D\\README.md link trois-commandes-terminaisons-etude.step",
+      "passed": true
+    },
+    {
+      "check": "connecteurs-commande\\jr-pololu-1925\\3D\\README.md link trois-commandes-terminaisons-etude.png",
+      "passed": true
+    },
+    {
+      "check": "connecteurs-commande\\jr-pololu-1925\\3D\\README.md link trois-commandes-terminaisons-etude.json",
+      "passed": true
+    },
+    {
+      "check": "connecteurs-commande\\jr-pololu-1925\\3D\\README.md link ../../3D/README.md",
+      "passed": true
+    },
+    {
+      "check": "connecteurs-commande\\notices\\README.md link notice-connecteurs-commande-v3.pdf",
+      "passed": true
+    },
+    {
+      "check": "connecteurs-commande\\notices\\README.md link ../sources.json",
+      "passed": true
+    },
+    {
+      "check": "connecteurs-commande\\photos\\README.md link JR-boitier-cotes.jpg",
+      "passed": true
+    },
+    {
+      "check": "connecteurs-commande\\photos\\README.md link JR-capot-cotes.jpg",
+      "passed": true
+    },
+    {
+      "check": "connecteurs-commande\\photos\\README.md link JR-assemble.jpg",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance FreeCAD",
+      "passed": true
+    },
+    {
+      "check": "trois-bornes-potentiels-separes-etude.step hash",
+      "passed": true
+    },
+    {
+      "check": "trois-bornes-potentiels-separes-etude.step.json",
+      "passed": true
+    },
+    {
+      "check": "trois-bornes-potentiels-separes-etude.step.png",
+      "passed": true
+    },
+    {
+      "check": "trois-bornes-potentiels-separes-etude.step quadrature",
+      "passed": true
+    },
+    {
+      "check": "bntechgo-18awg-150brins.step hash",
+      "passed": true
+    },
+    {
+      "check": "bntechgo-18awg-150brins.step.json",
+      "passed": true
+    },
+    {
+      "check": "bntechgo-18awg-150brins.step.png",
+      "passed": true
+    },
+    {
+      "check": "bntechgo-18awg-150brins.step quadrature",
+      "passed": true
+    },
+    {
+      "check": "paire-18awg-courbe-etude.step hash",
+      "passed": true
+    },
+    {
+      "check": "paire-18awg-courbe-etude.step.json",
+      "passed": true
+    },
+    {
+      "check": "paire-18awg-courbe-etude.step.png",
+      "passed": true
+    },
+    {
+      "check": "paire-18awg-courbe-etude.step quadrature",
+      "passed": true
+    },
+    {
+      "check": "jst-b3b-xh-a.step hash",
+      "passed": true
+    },
+    {
+      "check": "jst-b3b-xh-a.step.json",
+      "passed": true
+    },
+    {
+      "check": "jst-b3b-xh-a.step.png",
+      "passed": true
+    },
+    {
+      "check": "jst-b3b-xh-a.step quadrature",
+      "passed": true
+    },
+    {
+      "check": "jst-sxh-001t-p06.step hash",
+      "passed": true
+    },
+    {
+      "check": "jst-sxh-001t-p06.step.json",
+      "passed": true
+    },
+    {
+      "check": "jst-sxh-001t-p06.step.png",
+      "passed": true
+    },
+    {
+      "check": "jst-sxh-001t-p06.step quadrature",
+      "passed": true
+    },
+    {
+      "check": "jst-xh-3-accouple-etude.step hash",
+      "passed": true
+    },
+    {
+      "check": "jst-xh-3-accouple-etude.step.json",
+      "passed": true
+    },
+    {
+      "check": "jst-xh-3-accouple-etude.step.png",
+      "passed": true
+    },
+    {
+      "check": "jst-xh-3-accouple-etude.step quadrature",
+      "passed": true
+    },
+    {
+      "check": "jst-xhp-3.step hash",
+      "passed": true
+    },
+    {
+      "check": "jst-xhp-3.step.json",
+      "passed": true
+    },
+    {
+      "check": "jst-xhp-3.step.png",
+      "passed": true
+    },
+    {
+      "check": "jst-xhp-3.step quadrature",
+      "passed": true
+    },
+    {
+      "check": "rallonge-equilibrage-2s-20cm.step hash",
+      "passed": true
+    },
+    {
+      "check": "rallonge-equilibrage-2s-20cm.step.json",
+      "passed": true
+    },
+    {
+      "check": "rallonge-equilibrage-2s-20cm.step.png",
+      "passed": true
+    },
+    {
+      "check": "rallonge-equilibrage-2s-20cm.step quadrature",
+      "passed": true
+    },
+    {
+      "check": "wago-221-413-detaille.step hash",
+      "passed": true
+    },
+    {
+      "check": "wago-221-413-detaille.step.json",
+      "passed": true
+    },
+    {
+      "check": "wago-221-413-detaille.step.png",
+      "passed": true
+    },
+    {
+      "check": "wago-221-413-detaille.step quadrature",
+      "passed": true
+    },
+    {
+      "check": "wago-221-415-detaille.step hash",
+      "passed": true
+    },
+    {
+      "check": "wago-221-415-detaille.step.json",
+      "passed": true
+    },
+    {
+      "check": "wago-221-415-detaille.step.png",
+      "passed": true
+    },
+    {
+      "check": "wago-221-415-detaille.step quadrature",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance source JST-XH-famille",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance source JST-XH-catalogue-public",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance source WAGO-221-notice",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance source WAGO-221-415-public",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance source WAGO-221-413-public",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance source BNTECHGO-18AWG",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance source WAGO-413-FR",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance source JST-rallonge-Intermodel",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance source GoTronic-WAGO-achat",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance source photos/BNTECHGO-18AWG-construction.jpg",
+      "passed": true
+    },
+    {
+      "check": "wago-221-413 component docs",
+      "passed": true
+    },
+    {
+      "check": "wago-221-415 component docs",
+      "passed": true
+    },
+    {
+      "check": "jst-xh-3 component docs",
+      "passed": true
+    },
+    {
+      "check": "rallonge-equilibrage-2s component docs",
+      "passed": true
+    },
+    {
+      "check": "fil-18awg component docs",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance PDFhash",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance visualreview",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance PDFpages",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\devis.md link wago-221-413/README.md",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\devis.md link wago-221-415/README.md",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\devis.md link jst-xh-3/README.md",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\devis.md link rallonge-equilibrage-2s/README.md",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\devis.md link fil-18awg/README.md",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\integration.md link README.md",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\integration.md link 3D/README.md",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\integration.md link notices/notice-liaisons-alimentation-surveillance-v3.pdf",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\README.md link wago-221-413/README.md",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\README.md link wago-221-415/README.md",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\README.md link jst-xh-3/README.md",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\README.md link rallonge-equilibrage-2s/README.md",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\README.md link fil-18awg/README.md",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\README.md link notices/notice-liaisons-alimentation-surveillance-v3.pdf",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\README.md link integration.md",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\README.md link nomenclature.json",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\README.md link devis.md",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\README.md link sources.json",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\README.md link 3D/README.md",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\3D\\README.md link ../3D/trois-bornes-potentiels-separes-etude.step",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\3D\\README.md link ../3D/trois-bornes-potentiels-separes-etude.png",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\3D\\README.md link ../fil-18awg/3D/bntechgo-18awg-150brins.step",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\3D\\README.md link ../fil-18awg/3D/bntechgo-18awg-150brins.png",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\3D\\README.md link ../fil-18awg/3D/paire-18awg-courbe-etude.step",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\3D\\README.md link ../fil-18awg/3D/paire-18awg-courbe-etude.png",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\3D\\README.md link ../jst-xh-3/3D/jst-b3b-xh-a.step",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\3D\\README.md link ../jst-xh-3/3D/jst-b3b-xh-a.png",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\3D\\README.md link ../jst-xh-3/3D/jst-sxh-001t-p06.step",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\3D\\README.md link ../jst-xh-3/3D/jst-sxh-001t-p06.png",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\3D\\README.md link ../jst-xh-3/3D/jst-xh-3-accouple-etude.step",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\3D\\README.md link ../jst-xh-3/3D/jst-xh-3-accouple-etude.png",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\3D\\README.md link ../jst-xh-3/3D/jst-xhp-3.step",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\3D\\README.md link ../jst-xh-3/3D/jst-xhp-3.png",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\3D\\README.md link ../rallonge-equilibrage-2s/3D/rallonge-equilibrage-2s-20cm.step",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\3D\\README.md link ../rallonge-equilibrage-2s/3D/rallonge-equilibrage-2s-20cm.png",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\3D\\README.md link ../wago-221-413/3D/wago-221-413-detaille.step",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\3D\\README.md link ../wago-221-413/3D/wago-221-413-detaille.png",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\3D\\README.md link ../wago-221-415/3D/wago-221-415-detaille.step",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\3D\\README.md link ../wago-221-415/3D/wago-221-415-detaille.png",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\3D\\README.md link validation-freecad.json",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\3D\\README.md link catalogue.json",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\3D\\README.md link ../README.md",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\fil-18awg\\notice.md link ../integration.md",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\fil-18awg\\notice.md link ../notices/notice-liaisons-alimentation-surveillance-v3.pdf",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\fil-18awg\\notice.md link ../sources.json",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\fil-18awg\\README.md link cotes.md",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\fil-18awg\\README.md link notice.md",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\fil-18awg\\README.md link avis-utilisateurs.md",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\fil-18awg\\README.md link ../sources.json",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\fil-18awg\\README.md link ../notices/notice-liaisons-alimentation-surveillance-v3.pdf",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\fil-18awg\\README.md link 3D/README.md",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\fil-18awg\\README.md link ../integration.md",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\fil-18awg\\3D\\README.md link bntechgo-18awg-150brins.step",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\fil-18awg\\3D\\README.md link bntechgo-18awg-150brins.png",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\fil-18awg\\3D\\README.md link bntechgo-18awg-150brins.json",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\fil-18awg\\3D\\README.md link paire-18awg-courbe-etude.step",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\fil-18awg\\3D\\README.md link paire-18awg-courbe-etude.png",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\fil-18awg\\3D\\README.md link paire-18awg-courbe-etude.json",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\fil-18awg\\3D\\README.md link ../../3D/README.md",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\jst-xh-3\\notice.md link ../integration.md",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\jst-xh-3\\notice.md link ../notices/notice-liaisons-alimentation-surveillance-v3.pdf",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\jst-xh-3\\notice.md link ../sources.json",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\jst-xh-3\\README.md link cotes.md",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\jst-xh-3\\README.md link notice.md",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\jst-xh-3\\README.md link avis-utilisateurs.md",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\jst-xh-3\\README.md link ../sources.json",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\jst-xh-3\\README.md link ../notices/notice-liaisons-alimentation-surveillance-v3.pdf",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\jst-xh-3\\README.md link 3D/README.md",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\jst-xh-3\\README.md link ../integration.md",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\jst-xh-3\\3D\\README.md link jst-b3b-xh-a.step",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\jst-xh-3\\3D\\README.md link jst-b3b-xh-a.png",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\jst-xh-3\\3D\\README.md link jst-b3b-xh-a.json",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\jst-xh-3\\3D\\README.md link jst-sxh-001t-p06.step",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\jst-xh-3\\3D\\README.md link jst-sxh-001t-p06.png",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\jst-xh-3\\3D\\README.md link jst-sxh-001t-p06.json",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\jst-xh-3\\3D\\README.md link jst-xh-3-accouple-etude.step",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\jst-xh-3\\3D\\README.md link jst-xh-3-accouple-etude.png",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\jst-xh-3\\3D\\README.md link jst-xh-3-accouple-etude.json",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\jst-xh-3\\3D\\README.md link jst-xhp-3.step",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\jst-xh-3\\3D\\README.md link jst-xhp-3.png",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\jst-xh-3\\3D\\README.md link jst-xhp-3.json",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\jst-xh-3\\3D\\README.md link ../../3D/README.md",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\notices\\README.md link notice-liaisons-alimentation-surveillance-v3.pdf",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\notices\\README.md link ../notices/JST-XH-catalogue-public-original.pdf",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\notices\\README.md link ../notices/WAGO-221-notice-original.pdf",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\notices\\README.md link ../notices/WAGO-221-415-public-original.pdf",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\notices\\README.md link ../notices/WAGO-221-413-public-original.pdf",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\notices\\README.md link ../notices/WAGO-413-FR-original.pdf",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\notices\\README.md link ../sources.json",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\photos\\README.md link BNTECHGO-18AWG-construction.jpg",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\rallonge-equilibrage-2s\\notice.md link ../integration.md",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\rallonge-equilibrage-2s\\notice.md link ../notices/notice-liaisons-alimentation-surveillance-v3.pdf",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\rallonge-equilibrage-2s\\notice.md link ../sources.json",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\rallonge-equilibrage-2s\\README.md link cotes.md",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\rallonge-equilibrage-2s\\README.md link notice.md",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\rallonge-equilibrage-2s\\README.md link avis-utilisateurs.md",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\rallonge-equilibrage-2s\\README.md link ../sources.json",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\rallonge-equilibrage-2s\\README.md link ../notices/notice-liaisons-alimentation-surveillance-v3.pdf",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\rallonge-equilibrage-2s\\README.md link 3D/README.md",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\rallonge-equilibrage-2s\\README.md link ../integration.md",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\rallonge-equilibrage-2s\\3D\\README.md link rallonge-equilibrage-2s-20cm.step",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\rallonge-equilibrage-2s\\3D\\README.md link rallonge-equilibrage-2s-20cm.png",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\rallonge-equilibrage-2s\\3D\\README.md link rallonge-equilibrage-2s-20cm.json",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\rallonge-equilibrage-2s\\3D\\README.md link ../../3D/README.md",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\wago-221-413\\notice.md link ../integration.md",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\wago-221-413\\notice.md link ../notices/notice-liaisons-alimentation-surveillance-v3.pdf",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\wago-221-413\\notice.md link ../sources.json",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\wago-221-413\\README.md link cotes.md",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\wago-221-413\\README.md link notice.md",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\wago-221-413\\README.md link avis-utilisateurs.md",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\wago-221-413\\README.md link ../sources.json",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\wago-221-413\\README.md link ../notices/notice-liaisons-alimentation-surveillance-v3.pdf",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\wago-221-413\\README.md link 3D/README.md",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\wago-221-413\\README.md link ../integration.md",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\wago-221-413\\3D\\README.md link wago-221-413-detaille.step",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\wago-221-413\\3D\\README.md link wago-221-413-detaille.png",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\wago-221-413\\3D\\README.md link wago-221-413-detaille.json",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\wago-221-413\\3D\\README.md link ../../3D/README.md",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\wago-221-415\\notice.md link ../integration.md",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\wago-221-415\\notice.md link ../notices/notice-liaisons-alimentation-surveillance-v3.pdf",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\wago-221-415\\notice.md link ../sources.json",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\wago-221-415\\README.md link cotes.md",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\wago-221-415\\README.md link notice.md",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\wago-221-415\\README.md link avis-utilisateurs.md",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\wago-221-415\\README.md link ../sources.json",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\wago-221-415\\README.md link ../notices/notice-liaisons-alimentation-surveillance-v3.pdf",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\wago-221-415\\README.md link 3D/README.md",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\wago-221-415\\README.md link ../integration.md",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\wago-221-415\\3D\\README.md link wago-221-415-detaille.step",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\wago-221-415\\3D\\README.md link wago-221-415-detaille.png",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\wago-221-415\\3D\\README.md link wago-221-415-detaille.json",
+      "passed": true
+    },
+    {
+      "check": "liaisons-alimentation-surveillance\\wago-221-415\\3D\\README.md link ../../3D/README.md",
+      "passed": true
+    },
+    {
+      "check": "maintien-batterie FreeCAD",
+      "passed": true
+    },
+    {
+      "check": "deux-sangles-et-patin-etude.step hash",
+      "passed": true
+    },
+    {
+      "check": "deux-sangles-et-patin-etude.step.json",
+      "passed": true
+    },
+    {
+      "check": "deux-sangles-et-patin-etude.step.png",
+      "passed": true
+    },
+    {
+      "check": "deux-sangles-et-patin-etude.step quadrature",
+      "passed": true
+    },
+    {
+      "check": "feuille-silicone-200x200x2.step hash",
+      "passed": true
+    },
+    {
+      "check": "feuille-silicone-200x200x2.step.json",
+      "passed": true
+    },
+    {
+      "check": "feuille-silicone-200x200x2.step.png",
+      "passed": true
+    },
+    {
+      "check": "feuille-silicone-200x200x2.step quadrature",
+      "passed": true
+    },
+    {
+      "check": "patin-silicone-142x51-etude.step hash",
+      "passed": true
+    },
+    {
+      "check": "patin-silicone-142x51-etude.step.json",
+      "passed": true
+    },
+    {
+      "check": "patin-silicone-142x51-etude.step.png",
+      "passed": true
+    },
+    {
+      "check": "patin-silicone-142x51-etude.step quadrature",
+      "passed": true
+    },
+    {
+      "check": "sangle-geprc-20x250-detaillee.step hash",
+      "passed": true
+    },
+    {
+      "check": "sangle-geprc-20x250-detaillee.step.json",
+      "passed": true
+    },
+    {
+      "check": "sangle-geprc-20x250-detaillee.step.png",
+      "passed": true
+    },
+    {
+      "check": "sangle-geprc-20x250-detaillee.step quadrature",
+      "passed": true
+    },
+    {
+      "check": "sangle-geprc-fermee-etude.step hash",
+      "passed": true
+    },
+    {
+      "check": "sangle-geprc-fermee-etude.step.json",
+      "passed": true
+    },
+    {
+      "check": "sangle-geprc-fermee-etude.step.png",
+      "passed": true
+    },
+    {
+      "check": "sangle-geprc-fermee-etude.step quadrature",
+      "passed": true
+    },
+    {
+      "check": "maintien-batterie source GEPRC-sangle",
+      "passed": true
+    },
+    {
+      "check": "maintien-batterie source BENECREAT-Amazon",
+      "passed": true
+    },
+    {
+      "check": "maintien-batterie source Merefsa-silicone",
+      "passed": true
+    },
+    {
+      "check": "maintien-batterie source photos/GEPRC-jaune-bleu.jpg",
+      "passed": true
+    },
+    {
+      "check": "maintien-batterie source photos/GEPRC-detail.jpg",
+      "passed": true
+    },
+    {
+      "check": "maintien-batterie source photos/BENECREAT-feuilles.jpg",
+      "passed": true
+    },
+    {
+      "check": "maintien-batterie source photos/BENECREAT-cotes.jpg",
+      "passed": true
+    },
+    {
+      "check": "sangles-geprc component docs",
+      "passed": true
+    },
+    {
+      "check": "patin-silicone component docs",
+      "passed": true
+    },
+    {
+      "check": "maintien-batterie PDFhash",
+      "passed": true
+    },
+    {
+      "check": "maintien-batterie visualreview",
+      "passed": true
+    },
+    {
+      "check": "maintien-batterie PDFpages",
+      "passed": true
+    },
+    {
+      "check": "maintien-batterie\\devis.md link sangles-geprc/README.md",
+      "passed": true
+    },
+    {
+      "check": "maintien-batterie\\devis.md link patin-silicone/README.md",
+      "passed": true
+    },
+    {
+      "check": "maintien-batterie\\integration.md link README.md",
+      "passed": true
+    },
+    {
+      "check": "maintien-batterie\\integration.md link 3D/README.md",
+      "passed": true
+    },
+    {
+      "check": "maintien-batterie\\integration.md link notices/notice-maintien-batterie-v3.pdf",
+      "passed": true
+    },
+    {
+      "check": "maintien-batterie\\README.md link sangles-geprc/README.md",
+      "passed": true
+    },
+    {
+      "check": "maintien-batterie\\README.md link patin-silicone/README.md",
+      "passed": true
+    },
+    {
+      "check": "maintien-batterie\\README.md link notices/notice-maintien-batterie-v3.pdf",
+      "passed": true
+    },
+    {
+      "check": "maintien-batterie\\README.md link integration.md",
+      "passed": true
+    },
+    {
+      "check": "maintien-batterie\\README.md link nomenclature.json",
+      "passed": true
+    },
+    {
+      "check": "maintien-batterie\\README.md link devis.md",
+      "passed": true
+    },
+    {
+      "check": "maintien-batterie\\README.md link sources.json",
+      "passed": true
+    },
+    {
+      "check": "maintien-batterie\\README.md link 3D/README.md",
+      "passed": true
+    },
+    {
+      "check": "maintien-batterie\\3D\\README.md link ../3D/deux-sangles-et-patin-etude.step",
+      "passed": true
+    },
+    {
+      "check": "maintien-batterie\\3D\\README.md link ../3D/deux-sangles-et-patin-etude.png",
+      "passed": true
+    },
+    {
+      "check": "maintien-batterie\\3D\\README.md link ../patin-silicone/3D/feuille-silicone-200x200x2.step",
+      "passed": true
+    },
+    {
+      "check": "maintien-batterie\\3D\\README.md link ../patin-silicone/3D/feuille-silicone-200x200x2.png",
+      "passed": true
+    },
+    {
+      "check": "maintien-batterie\\3D\\README.md link ../patin-silicone/3D/patin-silicone-142x51-etude.step",
+      "passed": true
+    },
+    {
+      "check": "maintien-batterie\\3D\\README.md link ../patin-silicone/3D/patin-silicone-142x51-etude.png",
+      "passed": true
+    },
+    {
+      "check": "maintien-batterie\\3D\\README.md link ../sangles-geprc/3D/sangle-geprc-20x250-detaillee.step",
+      "passed": true
+    },
+    {
+      "check": "maintien-batterie\\3D\\README.md link ../sangles-geprc/3D/sangle-geprc-20x250-detaillee.png",
+      "passed": true
+    },
+    {
+      "check": "maintien-batterie\\3D\\README.md link ../sangles-geprc/3D/sangle-geprc-fermee-etude.step",
+      "passed": true
+    },
+    {
+      "check": "maintien-batterie\\3D\\README.md link ../sangles-geprc/3D/sangle-geprc-fermee-etude.png",
+      "passed": true
+    },
+    {
+      "check": "maintien-batterie\\3D\\README.md link validation-freecad.json",
+      "passed": true
+    },
+    {
+      "check": "maintien-batterie\\3D\\README.md link catalogue.json",
+      "passed": true
+    },
+    {
+      "check": "maintien-batterie\\3D\\README.md link ../README.md",
+      "passed": true
+    },
+    {
+      "check": "maintien-batterie\\notices\\README.md link notice-maintien-batterie-v3.pdf",
+      "passed": true
+    },
+    {
+      "check": "maintien-batterie\\notices\\README.md link ../sources.json",
+      "passed": true
+    },
+    {
+      "check": "maintien-batterie\\patin-silicone\\notice.md link ../integration.md",
+      "passed": true
+    },
+    {
+      "check": "maintien-batterie\\patin-silicone\\notice.md link ../notices/notice-maintien-batterie-v3.pdf",
+      "passed": true
+    },
+    {
+      "check": "maintien-batterie\\patin-silicone\\notice.md link ../sources.json",
+      "passed": true
+    },
+    {
+      "check": "maintien-batterie\\patin-silicone\\README.md link cotes.md",
+      "passed": true
+    },
+    {
+      "check": "maintien-batterie\\patin-silicone\\README.md link notice.md",
+      "passed": true
+    },
+    {
+      "check": "maintien-batterie\\patin-silicone\\README.md link avis-utilisateurs.md",
+      "passed": true
+    },
+    {
+      "check": "maintien-batterie\\patin-silicone\\README.md link ../sources.json",
+      "passed": true
+    },
+    {
+      "check": "maintien-batterie\\patin-silicone\\README.md link ../notices/notice-maintien-batterie-v3.pdf",
+      "passed": true
+    },
+    {
+      "check": "maintien-batterie\\patin-silicone\\README.md link 3D/README.md",
+      "passed": true
+    },
+    {
+      "check": "maintien-batterie\\patin-silicone\\README.md link ../integration.md",
+      "passed": true
+    },
+    {
+      "check": "maintien-batterie\\patin-silicone\\3D\\README.md link feuille-silicone-200x200x2.step",
+      "passed": true
+    },
+    {
+      "check": "maintien-batterie\\patin-silicone\\3D\\README.md link feuille-silicone-200x200x2.png",
+      "passed": true
+    },
+    {
+      "check": "maintien-batterie\\patin-silicone\\3D\\README.md link feuille-silicone-200x200x2.json",
+      "passed": true
+    },
+    {
+      "check": "maintien-batterie\\patin-silicone\\3D\\README.md link patin-silicone-142x51-etude.step",
+      "passed": true
+    },
+    {
+      "check": "maintien-batterie\\patin-silicone\\3D\\README.md link patin-silicone-142x51-etude.png",
+      "passed": true
+    },
+    {
+      "check": "maintien-batterie\\patin-silicone\\3D\\README.md link patin-silicone-142x51-etude.json",
+      "passed": true
+    },
+    {
+      "check": "maintien-batterie\\patin-silicone\\3D\\README.md link ../../3D/README.md",
+      "passed": true
+    },
+    {
+      "check": "maintien-batterie\\photos\\README.md link GEPRC-jaune-bleu.jpg",
+      "passed": true
+    },
+    {
+      "check": "maintien-batterie\\photos\\README.md link GEPRC-detail.jpg",
+      "passed": true
+    },
+    {
+      "check": "maintien-batterie\\photos\\README.md link BENECREAT-feuilles.jpg",
+      "passed": true
+    },
+    {
+      "check": "maintien-batterie\\photos\\README.md link BENECREAT-cotes.jpg",
+      "passed": true
+    },
+    {
+      "check": "maintien-batterie\\sangles-geprc\\notice.md link ../integration.md",
+      "passed": true
+    },
+    {
+      "check": "maintien-batterie\\sangles-geprc\\notice.md link ../notices/notice-maintien-batterie-v3.pdf",
+      "passed": true
+    },
+    {
+      "check": "maintien-batterie\\sangles-geprc\\notice.md link ../sources.json",
+      "passed": true
+    },
+    {
+      "check": "maintien-batterie\\sangles-geprc\\README.md link cotes.md",
+      "passed": true
+    },
+    {
+      "check": "maintien-batterie\\sangles-geprc\\README.md link notice.md",
+      "passed": true
+    },
+    {
+      "check": "maintien-batterie\\sangles-geprc\\README.md link avis-utilisateurs.md",
+      "passed": true
+    },
+    {
+      "check": "maintien-batterie\\sangles-geprc\\README.md link ../sources.json",
+      "passed": true
+    },
+    {
+      "check": "maintien-batterie\\sangles-geprc\\README.md link ../notices/notice-maintien-batterie-v3.pdf",
+      "passed": true
+    },
+    {
+      "check": "maintien-batterie\\sangles-geprc\\README.md link 3D/README.md",
+      "passed": true
+    },
+    {
+      "check": "maintien-batterie\\sangles-geprc\\README.md link ../integration.md",
+      "passed": true
+    },
+    {
+      "check": "maintien-batterie\\sangles-geprc\\3D\\README.md link sangle-geprc-20x250-detaillee.step",
+      "passed": true
+    },
+    {
+      "check": "maintien-batterie\\sangles-geprc\\3D\\README.md link sangle-geprc-20x250-detaillee.png",
+      "passed": true
+    },
+    {
+      "check": "maintien-batterie\\sangles-geprc\\3D\\README.md link sangle-geprc-20x250-detaillee.json",
+      "passed": true
+    },
+    {
+      "check": "maintien-batterie\\sangles-geprc\\3D\\README.md link sangle-geprc-fermee-etude.step",
+      "passed": true
+    },
+    {
+      "check": "maintien-batterie\\sangles-geprc\\3D\\README.md link sangle-geprc-fermee-etude.png",
+      "passed": true
+    },
+    {
+      "check": "maintien-batterie\\sangles-geprc\\3D\\README.md link sangle-geprc-fermee-etude.json",
+      "passed": true
+    },
+    {
+      "check": "maintien-batterie\\sangles-geprc\\3D\\README.md link ../../3D/README.md",
+      "passed": true
+    },
+    {
+      "check": "coupure-manuelle FreeCAD",
+      "passed": true
+    },
+    {
+      "check": "albright-ed80-ferme-detaille.step hash",
+      "passed": true
+    },
+    {
+      "check": "albright-ed80-ferme-detaille.step.json",
+      "passed": true
+    },
+    {
+      "check": "albright-ed80-ferme-detaille.step.png",
+      "passed": true
+    },
+    {
+      "check": "albright-ed80-ferme-detaille.step quadrature",
+      "passed": true
+    },
+    {
+      "check": "albright-ed80-ouvert-detaille.step hash",
+      "passed": true
+    },
+    {
+      "check": "albright-ed80-ouvert-detaille.step.json",
+      "passed": true
+    },
+    {
+      "check": "albright-ed80-ouvert-detaille.step.png",
+      "passed": true
+    },
+    {
+      "check": "albright-ed80-ouvert-detaille.step quadrature",
+      "passed": true
+    },
+    {
+      "check": "cosse-klauke-95r6-6mm2.step hash",
+      "passed": true
+    },
+    {
+      "check": "cosse-klauke-95r6-6mm2.step.json",
+      "passed": true
+    },
+    {
+      "check": "cosse-klauke-95r6-6mm2.step.png",
+      "passed": true
+    },
+    {
+      "check": "cosse-klauke-95r6-6mm2.step quadrature",
+      "passed": true
+    },
+    {
+      "check": "ed80-et-deux-cosses-etude.step hash",
+      "passed": true
+    },
+    {
+      "check": "ed80-et-deux-cosses-etude.step.json",
+      "passed": true
+    },
+    {
+      "check": "ed80-et-deux-cosses-etude.step.png",
+      "passed": true
+    },
+    {
+      "check": "ed80-et-deux-cosses-etude.step quadrature",
+      "passed": true
+    },
+    {
+      "check": "coupure-manuelle source Albright-ED80",
+      "passed": true
+    },
+    {
+      "check": "coupure-manuelle source Albright-ED80-fiche",
+      "passed": true
+    },
+    {
+      "check": "coupure-manuelle source PartsGo-ED80-recherche",
+      "passed": true
+    },
+    {
+      "check": "coupure-manuelle source photos/Albright-ED80.jpg",
+      "passed": true
+    },
+    {
+      "check": "coupure-manuelle source PartsGo-ED80-liste",
+      "passed": true
+    },
+    {
+      "check": "coupure-manuelle source PartsGo-ED80-1",
+      "passed": true
+    },
+    {
+      "check": "coupure-manuelle source photos/ED80-1-achat.jpg",
+      "passed": true
+    },
+    {
+      "check": "coupure-manuelle source Klauke-catalogue-reutilise",
+      "passed": true
+    },
+    {
+      "check": "albright-ed80 component docs",
+      "passed": true
+    },
+    {
+      "check": "cosses-klauke-95r6 component docs",
+      "passed": true
+    },
+    {
+      "check": "coupure-manuelle PDFhash",
+      "passed": true
+    },
+    {
+      "check": "coupure-manuelle visualreview",
+      "passed": true
+    },
+    {
+      "check": "coupure-manuelle PDFpages",
+      "passed": true
+    },
+    {
+      "check": "coupure-manuelle\\devis.md link albright-ed80/README.md",
+      "passed": true
+    },
+    {
+      "check": "coupure-manuelle\\devis.md link cosses-klauke-95r6/README.md",
+      "passed": true
+    },
+    {
+      "check": "coupure-manuelle\\integration.md link README.md",
+      "passed": true
+    },
+    {
+      "check": "coupure-manuelle\\integration.md link 3D/README.md",
+      "passed": true
+    },
+    {
+      "check": "coupure-manuelle\\integration.md link notices/notice-coupure-manuelle-v3.pdf",
+      "passed": true
+    },
+    {
+      "check": "coupure-manuelle\\README.md link albright-ed80/README.md",
+      "passed": true
+    },
+    {
+      "check": "coupure-manuelle\\README.md link cosses-klauke-95r6/README.md",
+      "passed": true
+    },
+    {
+      "check": "coupure-manuelle\\README.md link notices/notice-coupure-manuelle-v3.pdf",
+      "passed": true
+    },
+    {
+      "check": "coupure-manuelle\\README.md link integration.md",
+      "passed": true
+    },
+    {
+      "check": "coupure-manuelle\\README.md link nomenclature.json",
+      "passed": true
+    },
+    {
+      "check": "coupure-manuelle\\README.md link devis.md",
+      "passed": true
+    },
+    {
+      "check": "coupure-manuelle\\README.md link sources.json",
+      "passed": true
+    },
+    {
+      "check": "coupure-manuelle\\README.md link 3D/README.md",
+      "passed": true
+    },
+    {
+      "check": "coupure-manuelle\\3D\\README.md link ../albright-ed80/3D/albright-ed80-ferme-detaille.step",
+      "passed": true
+    },
+    {
+      "check": "coupure-manuelle\\3D\\README.md link ../albright-ed80/3D/albright-ed80-ferme-detaille.png",
+      "passed": true
+    },
+    {
+      "check": "coupure-manuelle\\3D\\README.md link ../albright-ed80/3D/albright-ed80-ouvert-detaille.step",
+      "passed": true
+    },
+    {
+      "check": "coupure-manuelle\\3D\\README.md link ../albright-ed80/3D/albright-ed80-ouvert-detaille.png",
+      "passed": true
+    },
+    {
+      "check": "coupure-manuelle\\3D\\README.md link ../cosses-klauke-95r6/3D/cosse-klauke-95r6-6mm2.step",
+      "passed": true
+    },
+    {
+      "check": "coupure-manuelle\\3D\\README.md link ../cosses-klauke-95r6/3D/cosse-klauke-95r6-6mm2.png",
+      "passed": true
+    },
+    {
+      "check": "coupure-manuelle\\3D\\README.md link ../3D/ed80-et-deux-cosses-etude.step",
+      "passed": true
+    },
+    {
+      "check": "coupure-manuelle\\3D\\README.md link ../3D/ed80-et-deux-cosses-etude.png",
+      "passed": true
+    },
+    {
+      "check": "coupure-manuelle\\3D\\README.md link validation-freecad.json",
+      "passed": true
+    },
+    {
+      "check": "coupure-manuelle\\3D\\README.md link catalogue.json",
+      "passed": true
+    },
+    {
+      "check": "coupure-manuelle\\3D\\README.md link ../README.md",
+      "passed": true
+    },
+    {
+      "check": "coupure-manuelle\\albright-ed80\\notice.md link ../integration.md",
+      "passed": true
+    },
+    {
+      "check": "coupure-manuelle\\albright-ed80\\notice.md link ../notices/notice-coupure-manuelle-v3.pdf",
+      "passed": true
+    },
+    {
+      "check": "coupure-manuelle\\albright-ed80\\notice.md link ../sources.json",
+      "passed": true
+    },
+    {
+      "check": "coupure-manuelle\\albright-ed80\\README.md link cotes.md",
+      "passed": true
+    },
+    {
+      "check": "coupure-manuelle\\albright-ed80\\README.md link notice.md",
+      "passed": true
+    },
+    {
+      "check": "coupure-manuelle\\albright-ed80\\README.md link avis-utilisateurs.md",
+      "passed": true
+    },
+    {
+      "check": "coupure-manuelle\\albright-ed80\\README.md link ../sources.json",
+      "passed": true
+    },
+    {
+      "check": "coupure-manuelle\\albright-ed80\\README.md link ../notices/notice-coupure-manuelle-v3.pdf",
+      "passed": true
+    },
+    {
+      "check": "coupure-manuelle\\albright-ed80\\README.md link 3D/README.md",
+      "passed": true
+    },
+    {
+      "check": "coupure-manuelle\\albright-ed80\\README.md link ../integration.md",
+      "passed": true
+    },
+    {
+      "check": "coupure-manuelle\\albright-ed80\\3D\\README.md link albright-ed80-ferme-detaille.step",
+      "passed": true
+    },
+    {
+      "check": "coupure-manuelle\\albright-ed80\\3D\\README.md link albright-ed80-ferme-detaille.png",
+      "passed": true
+    },
+    {
+      "check": "coupure-manuelle\\albright-ed80\\3D\\README.md link albright-ed80-ferme-detaille.json",
+      "passed": true
+    },
+    {
+      "check": "coupure-manuelle\\albright-ed80\\3D\\README.md link albright-ed80-ouvert-detaille.step",
+      "passed": true
+    },
+    {
+      "check": "coupure-manuelle\\albright-ed80\\3D\\README.md link albright-ed80-ouvert-detaille.png",
+      "passed": true
+    },
+    {
+      "check": "coupure-manuelle\\albright-ed80\\3D\\README.md link albright-ed80-ouvert-detaille.json",
+      "passed": true
+    },
+    {
+      "check": "coupure-manuelle\\albright-ed80\\3D\\README.md link ../../3D/README.md",
+      "passed": true
+    },
+    {
+      "check": "coupure-manuelle\\cosses-klauke-95r6\\notice.md link ../integration.md",
+      "passed": true
+    },
+    {
+      "check": "coupure-manuelle\\cosses-klauke-95r6\\notice.md link ../notices/notice-coupure-manuelle-v3.pdf",
+      "passed": true
+    },
+    {
+      "check": "coupure-manuelle\\cosses-klauke-95r6\\notice.md link ../sources.json",
+      "passed": true
+    },
+    {
+      "check": "coupure-manuelle\\cosses-klauke-95r6\\README.md link cotes.md",
+      "passed": true
+    },
+    {
+      "check": "coupure-manuelle\\cosses-klauke-95r6\\README.md link notice.md",
+      "passed": true
+    },
+    {
+      "check": "coupure-manuelle\\cosses-klauke-95r6\\README.md link avis-utilisateurs.md",
+      "passed": true
+    },
+    {
+      "check": "coupure-manuelle\\cosses-klauke-95r6\\README.md link ../sources.json",
+      "passed": true
+    },
+    {
+      "check": "coupure-manuelle\\cosses-klauke-95r6\\README.md link ../notices/notice-coupure-manuelle-v3.pdf",
+      "passed": true
+    },
+    {
+      "check": "coupure-manuelle\\cosses-klauke-95r6\\README.md link 3D/README.md",
+      "passed": true
+    },
+    {
+      "check": "coupure-manuelle\\cosses-klauke-95r6\\README.md link ../integration.md",
+      "passed": true
+    },
+    {
+      "check": "coupure-manuelle\\cosses-klauke-95r6\\3D\\README.md link cosse-klauke-95r6-6mm2.step",
+      "passed": true
+    },
+    {
+      "check": "coupure-manuelle\\cosses-klauke-95r6\\3D\\README.md link cosse-klauke-95r6-6mm2.png",
+      "passed": true
+    },
+    {
+      "check": "coupure-manuelle\\cosses-klauke-95r6\\3D\\README.md link cosse-klauke-95r6-6mm2.json",
+      "passed": true
+    },
+    {
+      "check": "coupure-manuelle\\cosses-klauke-95r6\\3D\\README.md link ../../3D/README.md",
+      "passed": true
+    },
+    {
+      "check": "coupure-manuelle\\notices\\README.md link notice-coupure-manuelle-v3.pdf",
+      "passed": true
+    },
+    {
+      "check": "coupure-manuelle\\notices\\README.md link ../notices/Albright-ED80-fiche-original.pdf",
+      "passed": true
+    },
+    {
+      "check": "coupure-manuelle\\notices\\README.md link ../../faisceau-puissance/notices/Klauke-catalogue-via-PowerCables.pdf",
+      "passed": true
+    },
+    {
+      "check": "coupure-manuelle\\notices\\README.md link ../sources.json",
+      "passed": true
+    },
+    {
+      "check": "coupure-manuelle\\photos\\README.md link Albright-ED80.jpg",
+      "passed": true
+    },
+    {
+      "check": "coupure-manuelle\\photos\\README.md link ED80-1-achat.jpg",
+      "passed": true
+    },
+    {
+      "check": "STEP not gitignored",
+      "passed": true,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "check": "25 STEP",
+      "passed": true
+    },
+    {
+      "check": "10 component folders",
+      "passed": true
+    },
+    {
+      "check": "three WAGO413 counted exactly once",
+      "passed": true
+    },
+    {
+      "check": "deferredscope",
+      "passed": true
+    }
+  ],
+  "step_count": 25,
+  "component_count": 10,
+  "total_STEP_bytes": 19938055,
+  "purchase_made": false,
+  "hardware_tested": false
+}

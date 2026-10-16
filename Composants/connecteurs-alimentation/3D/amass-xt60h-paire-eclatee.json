@@ -1,0 +1,146 @@
+{
+  "file": "amass-xt60h-paire-eclatee.step",
+  "title": "XT60H F et M | vue eclatee",
+  "generated_on": "2026-10-14",
+  "unit": "mm",
+  "cadquery_version": "2.8.0",
+  "coordinate_system": "X entraxe contacts, Y epaisseur, Z axe de connexion ; face avant z0 ; fils vers +Z",
+  "bytes": 2085833,
+  "sha256": "38c715249bbe7d3c4481237accccc98ae356fb64910e0845fc50c4cfc7abcf84",
+  "native_vendor_cad": false,
+  "hardware_measured": false,
+  "is_custom_project_design": false,
+  "published_nominal": [
+    "F24.95 ou M23.85 mm ; largeur16.4, hauteur9.2 : catalogue AMASS2026 p15",
+    "Deux contacts : femelle F cote source, male M cote ESC ; PA, laiton dore",
+    "Entraxe7.20 : fiche historique V1.2, conserve comme hypothese de compatibilite courante"
+  ],
+  "estimates_and_limitations": [
+    "Reconstruction parametrique, pas CAO native fabricant ni piece mesuree",
+    "Profils, profondeurs, epaisseurs, rainures, clips, contacts3.5, godets3.3 et rayons estimes",
+    "Front F9.1, M8.0 et capot11.8 : repartition estimee des longueurs officielles",
+    "Marquages simplifiés graves et teintes visuelles ; pas de microtexture ni placage physique",
+    "Accouplement7.5 et jeux non qualifies ; plan fabricant en ligne arronditF25/M23.9",
+    "Catalogue2026 differe deV1.2 F23.5/M23.8 ; lot Amazon a mesurer avant usinage"
+  ],
+  "parameters": {
+    "F_length_mm": 24.95,
+    "M_length_mm": 23.85,
+    "width_mm": 16.4,
+    "height_mm": 9.2,
+    "historical_pitch_mm": 7.2,
+    "cap_length_estimated_mm": 11.8,
+    "mating_depth_estimated_mm": 7.5
+  },
+  "source_pages": [
+    "https://www.china-amass.com/public/upload/20260207/7fa24f5a6f35ec66c7a115c07a34ab06.pdf",
+    "https://www.shoptronica.com/ficheros/XT60H.pdf"
+  ],
+  "bounds_mm": {
+    "xmin": -21.2,
+    "xmax": 21.2,
+    "ymin": -4.6000001,
+    "ymax": 4.600000000000007,
+    "zmin": 0.0,
+    "zmax": 40.95
+  },
+  "validation": {
+    "valid_after_reimport": true,
+    "solids": 8,
+    "faces": 551,
+    "colors": 3,
+    "volume_relative_error": 1.1518443945946831e-14,
+    "volume_relative_error_limit": 0.0001,
+    "volume_before_mm3": 4066.432702291158,
+    "volume_after_mm3": 4066.432702291205,
+    "adaptive_volume_tolerance": 1e-09,
+    "bbox_error_mm": 7.105427357601002e-15,
+    "bbox_error_limit_mm": 0.01,
+    "void_and_material_probes": [],
+    "elapsed_seconds": 4.716643899999781
+  },
+  "parts": [
+    {
+      "name": "F_Boitier_PA_XT60H_F",
+      "color_linear_rgb": [
+        0.95,
+        0.54,
+        0.008
+      ],
+      "solids": 1
+    },
+    {
+      "name": "F_Contact_F_1_laiton_dore",
+      "color_linear_rgb": [
+        0.72,
+        0.46,
+        0.1
+      ],
+      "solids": 1
+    },
+    {
+      "name": "F_Contact_F_2_laiton_dore",
+      "color_linear_rgb": [
+        0.72,
+        0.46,
+        0.1
+      ],
+      "solids": 1
+    },
+    {
+      "name": "F_Capot_PA_gris_sombre",
+      "color_linear_rgb": [
+        0.055,
+        0.065,
+        0.08
+      ],
+      "solids": 1
+    },
+    {
+      "name": "M_Boitier_PA_XT60H_M",
+      "color_linear_rgb": [
+        0.95,
+        0.54,
+        0.008
+      ],
+      "solids": 1
+    },
+    {
+      "name": "M_Contact_M_1_laiton_dore",
+      "color_linear_rgb": [
+        0.72,
+        0.46,
+        0.1
+      ],
+      "solids": 1
+    },
+    {
+      "name": "M_Contact_M_2_laiton_dore",
+      "color_linear_rgb": [
+        0.72,
+        0.46,
+        0.1
+      ],
+      "solids": 1
+    },
+    {
+      "name": "M_Capot_PA_gris_sombre",
+      "color_linear_rgb": [
+        0.055,
+        0.065,
+        0.08
+      ],
+      "solids": 1
+    }
+  ],
+  "preview": {
+    "file": "amass-xt60h-paire-eclatee.png",
+    "sha256": "2ae1ffca8d2521f2c92f9975afb1b4ea3beb01dd33d9b57474df2eec22d75ec3"
+  },
+  "generator": "tools/build_connector_step.py",
+  "generator_sha256": "22262e56c40363c44766c843b2a77ff0dfeadf8a9b55eca731c10f0177a68d1d",
+  "mating_overlap_check": null,
+  "wires_hardware_specified": false,
+  "polarity_orientation_illustrative": true,
+  "wire_continuity_checks": []
+}

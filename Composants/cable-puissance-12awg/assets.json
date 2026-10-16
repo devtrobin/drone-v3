@@ -1,0 +1,141 @@
+{
+  "checked_on": "2026-10-14",
+  "assets": [
+    {
+      "file": "sources-web/BNTECHGO-SW12G68008F10C2.html",
+      "url": "https://bntechgo.com/bntechgo-12-gauge-silicone-wire-kit-ultra-flexible-20-ft-black-and-red-each-color-10-ft-high-temp-200-c-600v-12-awg-silicone-wire-680-strands-of-tinned-copper-wire-stranded-wire-stranded-wire-for-model-battery/",
+      "modified": false,
+      "checked_on": "2026-10-14",
+      "status": "challenge_html",
+      "bytes": 205569,
+      "sha256": "c1f1d67bc2da0b537693ff770f6e15372e8540fdfdce32e62d963ce54bb8d84c",
+      "final_url": "https://bntechgo.com/bntechgo-12-gauge-silicone-wire-kit-ultra-flexible-20-ft-black-and-red-each-color-10-ft-high-temp-200-c-600v-12-awg-silicone-wire-680-strands-of-tinned-copper-wire-stranded-wire-stranded-wire-for-model-battery/"
+    },
+    {
+      "file": "sources-web/Amazon-FR-B01AO7586O.html",
+      "url": "https://www.amazon.fr/dp/B01AO7586O",
+      "modified": false,
+      "checked_on": "2026-10-14",
+      "status": "challenge_html",
+      "bytes": 3815,
+      "sha256": "db3a318b06fd5ce2e2abd881b0036c5cef16126c24a995857b2e35c8c6ec7c1a",
+      "final_url": "https://www.amazon.fr/dp/B01AO7586O"
+    },
+    {
+      "file": "sources-web/Amazon-COM-B01AO7586O.html",
+      "url": "https://www.amazon.com/dp/B01AO7586O",
+      "modified": false,
+      "checked_on": "2026-10-14",
+      "status": "downloaded",
+      "bytes": 971707,
+      "sha256": "02ed929a9bf621a634a2c9967c90449ab7c1ba33986e3d8a7ed8b69852ec9c45",
+      "final_url": "https://www.amazon.com/dp/B01AO7586O"
+    },
+    {
+      "file": "sources-web/Amazon-FR-B01ABOPMEI.html",
+      "url": "https://www.amazon.fr/dp/B01ABOPMEI",
+      "modified": false,
+      "checked_on": "2026-10-14",
+      "status": "challenge_html",
+      "bytes": 3815,
+      "sha256": "f7ca470494075a5cafeb3a856a070af95ca257a379150c7ab9e68b99c3eb4b57",
+      "final_url": "https://www.amazon.fr/dp/B01ABOPMEI"
+    },
+    {
+      "file": "sources-web/Amazon-COM-B01ABOPMEI.html",
+      "url": "https://www.amazon.com/dp/B01ABOPMEI",
+      "modified": false,
+      "checked_on": "2026-10-14",
+      "status": "challenge_html",
+      "bytes": 3781,
+      "sha256": "b1c3de1366bc8de33fa04f6f68816ce397b6783047e956cfc643aac8ce6acfbc",
+      "final_url": "https://www.amazon.com/dp/B01ABOPMEI"
+    },
+    {
+      "file": "sources-web/RCTech-utilisateurs.html",
+      "url": "https://www.rctech.net/forum/radio-electronics/1131751-where-buy-silicone-copper-wire.html",
+      "modified": false,
+      "checked_on": "2026-10-14",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "file": "sources-web/Newegg-dimensions.html",
+      "url": "https://www.newegg.com/p/0PY-012A-00082",
+      "modified": false,
+      "checked_on": "2026-10-14",
+      "status": "challenge_html",
+      "bytes": 206527,
+      "sha256": "843ae4d81bb3fc8b6b9fb3a6ad01ab1d6138f501e596da946f403e85f1c28786",
+      "final_url": "https://www.newegg.com/p/0PY-012A-00082"
+    },
+    {
+      "file": "notices/HingTak-catalogue-silicone-comparaison.pdf",
+      "url": "https://www.hingtak.com/assets/catalogs/catalog-flexible-silicone-008.pdf",
+      "modified": false,
+      "checked_on": "2026-10-14",
+      "status": "unavailable",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.hingtak.com'. (_ssl.c:1016)>"
+    },
+    {
+      "file": "notices/Junhao-catalogue-comparaison.pdf",
+      "url": "https://en.junhaodx.com/Catalogue.pdf",
+      "modified": false,
+      "checked_on": "2026-10-14",
+      "status": "downloaded",
+      "bytes": 5141413,
+      "sha256": "b0cc9e2efde7c4fa1e3cbe1b5fab63281b60bf5971029402fc51ed7dfcfdfd4e",
+      "final_url": "https://en.junhaodx.com/Catalogue.pdf"
+    },
+    {
+      "file": "notices/ModalAI-MCBL00110-v4-cable-BNTECHGO-XT60.pdf",
+      "url": "https://storage.googleapis.com/modalai_public/modal_drawings/MCBL-00110%20Drawing%20v4.pdf",
+      "modified": false,
+      "checked_on": "2026-10-14",
+      "status": "downloaded",
+      "bytes": 213283,
+      "sha256": "baeb875dd9a9304f94c1a9b896cdec8669b6ed3e51d81c25d3682ab5fc85f77c",
+      "final_url": "https://storage.googleapis.com/modalai_public/modal_drawings/MCBL-00110%20Drawing%20v4.pdf"
+    },
+    {
+      "file": "photos/BNTECHGO-original-1.jpg",
+      "url": "https://cdn11.bigcommerce.com/s-clng77kigt/product_images/uploaded_images/sw-12-1-1.jpg",
+      "modified": false,
+      "checked_on": "2026-10-14",
+      "status": "downloaded",
+      "bytes": 350558,
+      "sha256": "7ac2455d1e6bf71fab90ffa84ee3ec388b3cf44becefef8a355309ad70cce0a9",
+      "final_url": "https://cdn11.bigcommerce.com/s-clng77kigt/product_images/uploaded_images/sw-12-1-1.jpg"
+    },
+    {
+      "file": "photos/BNTECHGO-original-2.jpg",
+      "url": "https://cdn11.bigcommerce.com/s-clng77kigt/product_images/uploaded_images/sw-12-3.jpg",
+      "modified": false,
+      "checked_on": "2026-10-14",
+      "status": "downloaded",
+      "bytes": 219143,
+      "sha256": "01d5dc37cb1fd7ecc1d638638e45da773e703411b23e21c78f51e798296fabef",
+      "final_url": "https://cdn11.bigcommerce.com/s-clng77kigt/product_images/uploaded_images/sw-12-3.jpg"
+    },
+    {
+      "file": "photos/BNTECHGO-original-3.jpg",
+      "url": "https://cdn11.bigcommerce.com/s-clng77kigt/product_images/uploaded_images/sw-12-4.jpg",
+      "modified": false,
+      "checked_on": "2026-10-14",
+      "status": "downloaded",
+      "bytes": 21346,
+      "sha256": "915a6e04c80c1c9df363bb4be142016a585552fef70cf4700f1a55862535860c",
+      "final_url": "https://cdn11.bigcommerce.com/s-clng77kigt/product_images/uploaded_images/sw-12-4.jpg"
+    },
+    {
+      "file": "photos/BNTECHGO-original-4.jpg",
+      "url": "https://cdn11.bigcommerce.com/s-clng77kigt/product_images/uploaded_images/sw-12-2-1.jpg",
+      "modified": false,
+      "checked_on": "2026-10-14",
+      "status": "downloaded",
+      "bytes": 432255,
+      "sha256": "b9f4b4b37bf0b48a1f26e7bef88c41818cb9d8f69980bffb2656e4e21c63b89e",
+      "final_url": "https://cdn11.bigcommerce.com/s-clng77kigt/product_images/uploaded_images/sw-12-2-1.jpg"
+    }
+  ]
+}

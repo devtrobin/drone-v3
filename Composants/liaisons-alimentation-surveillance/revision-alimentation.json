@@ -1,0 +1,6 @@
+{
+  "date": "2026-10-15",
+  "current_source": "../verification-alimentation/selection-active.json",
+  "note": "Ajouter une rallonge 3-RAL2S réservée au chargeur, distincte de celle de surveillance. Les fils 18 AWG sont réutilisés pour la puissance Pi. Déplacer la masse de logique vers D− ; les fils d’équilibrage ne deviennent pas un retour de puissance.",
+  "old_project_PDFs_and_complete_CAD_historical": true
+}

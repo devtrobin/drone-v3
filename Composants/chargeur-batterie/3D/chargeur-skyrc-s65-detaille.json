@@ -1,0 +1,602 @@
+{
+  "file": "chargeur-skyrc-s65-detaille.step",
+  "title": "SkyRC S65 | boitier, ecran, ports et ventilation",
+  "generated_on": "2026-10-13",
+  "unit": "mm",
+  "cadquery_version": "2.8.0",
+  "coordinate_system": "Boitier centre en X/Y; largeur X, profondeur Y; bas des pieds z=0",
+  "bytes": 13254570,
+  "sha256": "27b270e2414394e7aaf815778f790b5c238ac6beb41dd3bdb336cb1ee3edb0ee",
+  "native_vendor_cad": false,
+  "hardware_measured": false,
+  "is_custom_project_design": false,
+  "published_nominal": [
+    "118 x115 x45 mm, PDF constructeur V2.10 p24; quatre boutons LCD2x16 bleu",
+    "Ports, embase secteur, ventilation et renfort visibles dans photos constructeur",
+    "Masse annoncée315g; modèle hors véhicule"
+  ],
+  "estimates_and_limitations": [
+    "Contours et pente4 deg reconstruits; positions et dimensions locales estimées",
+    "Chapes/grilles/rotor, parois et cavité ne résultent pas d un démontage",
+    "LCD représente un exemple LiPo2S, non un écran allumé réel ou une programmation du chargeur",
+    "Prise XT60 dite femelle dans notice; genre contacts à vérifier avant adapter la batterie",
+    "Aucune électronique secteur interne inventée; aucun modèle destiné à fabriquer ou modifier le chargeur",
+    "117 x105 x55 relevé chez des distributeurs: variante/erreur inconnue, ne pas en déduire une mesure"
+  ],
+  "parameters": {
+    "case_nominal_mm": [
+      118,
+      115,
+      45
+    ],
+    "roof_slope_deg_estimated": 4,
+    "fan_diameter_mm_estimated": 34,
+    "rotor_blades_estimated": 5,
+    "internal_walls_estimated": true
+  },
+  "source_pages": [
+    "SkyRC S65 manual V2.10, PDF pages 4, 23 and 24; manufacturer photographs: ../assets.json"
+  ],
+  "bounds_mm": {
+    "xmin": -59.0000001,
+    "xmax": 59.00000010000001,
+    "ymin": -59.5,
+    "ymax": 59.5,
+    "zmin": 0.0,
+    "zmax": 45.0000001
+  },
+  "validation": {
+    "valid_after_reimport": true,
+    "solids": 157,
+    "faces": 3125,
+    "colors": 7,
+    "volume_relative_error": 3.775674456138637e-14,
+    "volume_relative_error_limit": 0.0001,
+    "volume_before_mm3": 141831.74069291027,
+    "volume_after_mm3": 141831.74069290492,
+    "adaptive_volume_tolerance": 1e-09,
+    "bbox_error_mm": 7.105427357601002e-15,
+    "bbox_error_limit_mm": 0.01,
+    "void_and_material_probes": [],
+    "elapsed_seconds": 15.33577779999905
+  },
+  "parts": [
+    {
+      "name": "Pied_antiderapant_1_estime",
+      "color_linear_rgb": [
+        0.03,
+        0.032,
+        0.037
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Pied_antiderapant_2_estime",
+      "color_linear_rgb": [
+        0.03,
+        0.032,
+        0.037
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Pied_antiderapant_3_estime",
+      "color_linear_rgb": [
+        0.03,
+        0.032,
+        0.037
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Pied_antiderapant_4_estime",
+      "color_linear_rgb": [
+        0.03,
+        0.032,
+        0.037
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Fond_coque_noire",
+      "color_linear_rgb": [
+        0.016,
+        0.02,
+        0.024
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Coque_principale_profilee_cavite_estimee",
+      "color_linear_rgb": [
+        0.016,
+        0.02,
+        0.024
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Joint_coque",
+      "color_linear_rgb": [
+        0.03,
+        0.032,
+        0.037
+      ],
+      "solids": 4
+    },
+    {
+      "name": "Facade_imprimee_noire",
+      "color_linear_rgb": [
+        0.03,
+        0.032,
+        0.037
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Contour_afficheur_clair",
+      "color_linear_rgb": [
+        0.9,
+        0.92,
+        0.94
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Fenetre_LCD_bleu",
+      "color_linear_rgb": [
+        0.01,
+        0.18,
+        0.31
+      ],
+      "solids": 1
+    },
+    {
+      "name": "LCD_exemple_LiPo_BALANCE",
+      "color_linear_rgb": [
+        0.01,
+        0.45,
+        0.7
+      ],
+      "solids": 12
+    },
+    {
+      "name": "LCD_exemple_2.6A_7.4V(2S)",
+      "color_linear_rgb": [
+        0.01,
+        0.45,
+        0.7
+      ],
+      "solids": 12
+    },
+    {
+      "name": "Bord_bouton_BATT_PROG",
+      "color_linear_rgb": [
+        0.9,
+        0.92,
+        0.94
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Bouton_BATT_PROG",
+      "color_linear_rgb": [
+        0.016,
+        0.02,
+        0.024
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Symbole_BATT_PROG",
+      "color_linear_rgb": [
+        0.03,
+        0.032,
+        0.037
+      ],
+      "solids": 2
+    },
+    {
+      "name": "Texte_BATT_PROG",
+      "color_linear_rgb": [
+        0.9,
+        0.92,
+        0.94
+      ],
+      "solids": 9
+    },
+    {
+      "name": "Texte_bas_BATT_PROG",
+      "color_linear_rgb": [
+        0.9,
+        0.92,
+        0.94
+      ],
+      "solids": 4
+    },
+    {
+      "name": "Bord_bouton_DEC",
+      "color_linear_rgb": [
+        0.9,
+        0.92,
+        0.94
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Bouton_DEC",
+      "color_linear_rgb": [
+        0.016,
+        0.02,
+        0.024
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Symbole_DEC",
+      "color_linear_rgb": [
+        0.03,
+        0.032,
+        0.037
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Texte_DEC",
+      "color_linear_rgb": [
+        0.9,
+        0.92,
+        0.94
+      ],
+      "solids": 3
+    },
+    {
+      "name": "Texte_bas_DEC",
+      "color_linear_rgb": [
+        0.9,
+        0.92,
+        0.94
+      ],
+      "solids": 7
+    },
+    {
+      "name": "Bord_bouton_INC",
+      "color_linear_rgb": [
+        0.9,
+        0.92,
+        0.94
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Bouton_INC",
+      "color_linear_rgb": [
+        0.016,
+        0.02,
+        0.024
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Symbole_INC",
+      "color_linear_rgb": [
+        0.03,
+        0.032,
+        0.037
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Texte_INC",
+      "color_linear_rgb": [
+        0.9,
+        0.92,
+        0.94
+      ],
+      "solids": 3
+    },
+    {
+      "name": "Texte_bas_INC",
+      "color_linear_rgb": [
+        0.9,
+        0.92,
+        0.94
+      ],
+      "solids": 7
+    },
+    {
+      "name": "Bord_bouton_ENTER",
+      "color_linear_rgb": [
+        0.9,
+        0.92,
+        0.94
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Bouton_ENTER",
+      "color_linear_rgb": [
+        0.016,
+        0.02,
+        0.024
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Symbole_ENTER",
+      "color_linear_rgb": [
+        0.03,
+        0.032,
+        0.037
+      ],
+      "solids": 2
+    },
+    {
+      "name": "Texte_ENTER",
+      "color_linear_rgb": [
+        0.9,
+        0.92,
+        0.94
+      ],
+      "solids": 5
+    },
+    {
+      "name": "Texte_bas_ENTER",
+      "color_linear_rgb": [
+        0.9,
+        0.92,
+        0.94
+      ],
+      "solids": 5
+    },
+    {
+      "name": "Impression_S65",
+      "color_linear_rgb": [
+        0.9,
+        0.92,
+        0.94
+      ],
+      "solids": 3
+    },
+    {
+      "name": "Impression_AC_Balance",
+      "color_linear_rgb": [
+        0.9,
+        0.92,
+        0.94
+      ],
+      "solids": 9
+    },
+    {
+      "name": "Impression_Charger_Discharger",
+      "color_linear_rgb": [
+        0.9,
+        0.92,
+        0.94
+      ],
+      "solids": 19
+    },
+    {
+      "name": "Impression_SKYRC",
+      "color_linear_rgb": [
+        0.9,
+        0.92,
+        0.94
+      ],
+      "solids": 5
+    },
+    {
+      "name": "Renfort_avant_superieur_estime",
+      "color_linear_rgb": [
+        0.016,
+        0.02,
+        0.024
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Port_equilibrage_XH_5voies_estime",
+      "color_linear_rgb": [
+        0.9,
+        0.92,
+        0.94
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Contact_XH_1",
+      "color_linear_rgb": [
+        0.63,
+        0.4,
+        0.07
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Contact_XH_2",
+      "color_linear_rgb": [
+        0.63,
+        0.4,
+        0.07
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Contact_XH_3",
+      "color_linear_rgb": [
+        0.63,
+        0.4,
+        0.07
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Contact_XH_4",
+      "color_linear_rgb": [
+        0.63,
+        0.4,
+        0.07
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Contact_XH_5",
+      "color_linear_rgb": [
+        0.63,
+        0.4,
+        0.07
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Port_XT60_noir_geometrie_estimee",
+      "color_linear_rgb": [
+        0.016,
+        0.02,
+        0.024
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Contact_XT60_1_genre_a_verifier",
+      "color_linear_rgb": [
+        0.63,
+        0.4,
+        0.07
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Contact_XT60_2_genre_a_verifier",
+      "color_linear_rgb": [
+        0.63,
+        0.4,
+        0.07
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Prise_sonde_temperature",
+      "color_linear_rgb": [
+        0.016,
+        0.02,
+        0.024
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Contact_sonde_1",
+      "color_linear_rgb": [
+        0.63,
+        0.4,
+        0.07
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Contact_sonde_2",
+      "color_linear_rgb": [
+        0.63,
+        0.4,
+        0.07
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Marquage_frontal_4321",
+      "color_linear_rgb": [
+        0.03,
+        0.032,
+        0.037
+      ],
+      "solids": 4
+    },
+    {
+      "name": "Marquage_frontal_+___-",
+      "color_linear_rgb": [
+        0.03,
+        0.032,
+        0.037
+      ],
+      "solids": 2
+    },
+    {
+      "name": "Marquage_frontal_T",
+      "color_linear_rgb": [
+        0.03,
+        0.032,
+        0.037
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Embase_secteur_C8_estimee",
+      "color_linear_rgb": [
+        0.03,
+        0.032,
+        0.037
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Contact_secteur_C8_1",
+      "color_linear_rgb": [
+        0.48,
+        0.5,
+        0.53
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Contact_secteur_C8_2",
+      "color_linear_rgb": [
+        0.48,
+        0.5,
+        0.53
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Grille_ventilateur_anneaux_et_rayons_estimes",
+      "color_linear_rgb": [
+        0.03,
+        0.032,
+        0.037
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Rotor_ventilateur_visible_pales_estimees",
+      "color_linear_rgb": [
+        0.016,
+        0.02,
+        0.024
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Tete_vis_grille_1",
+      "color_linear_rgb": [
+        0.48,
+        0.5,
+        0.53
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Tete_vis_grille_2",
+      "color_linear_rgb": [
+        0.48,
+        0.5,
+        0.53
+      ],
+      "solids": 1
+    }
+  ],
+  "preview": {
+    "file": "chargeur-skyrc-s65-detaille.png",
+    "sha256": "fb9374ccc3e6d1f59c1fdb373fa871bde2bc23ac7e816eb9988d4580f31acac7"
+  },
+  "generator": "tools/build_power_step.py",
+  "generator_sha256": "912334fa5130770c24bad6a77caf81239a6a43f5b98254ba40f70f95a2735563"
+}

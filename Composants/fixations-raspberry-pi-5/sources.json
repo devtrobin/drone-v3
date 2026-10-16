@@ -1,0 +1,87 @@
+{
+  "date": "2026-10-14",
+  "sources": [
+    {
+      "id": "amazon",
+      "kind": "Fiche commerciale de la variante exacte, source primaire du vendeur",
+      "url": "https://www.amazon.fr/dp/B0DCS5C7SN",
+      "observed_on": "2026-10-14",
+      "supports": [
+        "Identité Ewwtrey/DJJRX/260018, ASIN et variante noire M2.5",
+        "335 pièces, longueurs, matière annoncée, prix/stock/session",
+        "Photos commerciales et avis multivariantes"
+      ],
+      "archive": "observation-amazon.json",
+      "limitations": "Pas de fiche de fabrication, cotes fines, tolérances, couple ou certification thermique."
+    },
+    {
+      "id": "pi-plan",
+      "kind": "Fabricant de la carte",
+      "url": "https://datasheets.raspberrypi.com/rpi5/raspberry-pi-5-mechanical-drawing.pdf",
+      "observed_on": "2026-10-14",
+      "archive": "notices/RaspberryPi-5-plan-mecanique-original.pdf",
+      "supports": [
+        "Quatre fixations Ø2.7, rectangle 58 x 49 mm, repères de 3.5 mm, zones dessinées Ø6"
+      ],
+      "limitations": "Le fabricant déclare les dimensions approximatives, de référence et non utilisables comme données de production."
+    },
+    {
+      "id": "essentra",
+      "kind": "Fabricant différent, documentation générique",
+      "url": "https://essentracomponents.bynder.com/m/6e2e9b888468b393/original/2685970-pdf.pdf",
+      "observed_on": "2026-10-14",
+      "archive": "notices/Essentra-filetages-plastiques-reference-original.pdf",
+      "supports": [
+        "Exemples de filetages M2.5 x 0.45 dans les tableaux de fixations plastiques"
+      ],
+      "limitations": "Ne définit ni matière, ni dimensions de tête, ni couple, ni tolérances du kit Ewwtrey. Aucune interchangeabilité certifiée."
+    },
+    {
+      "id": "pihut",
+      "kind": "Fournisseur de cartes, alternative non retenue",
+      "url": "https://thepihut.com/products/m2-5-nylon-standoff-packs",
+      "observed_on": "2026-10-14",
+      "supports": [
+        "Usage de M2.5 pour fixer un Raspberry Pi ; variantes MF/FF disponibles"
+      ],
+      "limitations": "Autre produit, ne cote pas Ewwtrey ; pas de chiffrage du panier britannique retenu."
+    },
+    {
+      "id": "adafruit",
+      "kind": "Fabricant différent, alternative non retenue",
+      "url": "https://www.adafruit.com/product/3299",
+      "observed_on": "2026-10-14",
+      "supports": [
+        "Assortiment de fixations en nylon M2.5 pour cartes"
+      ],
+      "limitations": "Autre kit, aucune dimension ou certification transférée."
+    }
+  ],
+  "research_log": [
+    {
+      "query": "Ewwtrey B0DCS5C7SN notice",
+      "engine": "Recherche web",
+      "result": "Reprise de fiche commerciale trouvée, aucune notice originale propre au kit identifiée"
+    },
+    {
+      "query": "B0DCS5C7SN youtube",
+      "engine": "Recherche web",
+      "result": "Aucun essai vidéo spécifique exploitable trouvé"
+    },
+    {
+      "query": "B0DCS5C7SN Raspberry Pi forum dimensions standoff",
+      "engine": "Recherche web",
+      "result": "Aucun relevé dimensionnel sur forum du kit exact trouvé"
+    },
+    {
+      "query": "Raspberry Pi 5 mécanique M2.5",
+      "engine": "Documentation fabricant",
+      "result": "Plan officiel téléchargé, p.1 inspectée"
+    },
+    {
+      "query": "entretoise nylon M2.5",
+      "engine": "Amazon.fr dans Chrome",
+      "result": "Kit noir exact accessible, en stock, 9.98 EUR ; pas de commande"
+    }
+  ]
+}

@@ -1,0 +1,433 @@
+{
+  "file": "molex-16-02-0103-contact-detaille.step",
+  "title": "Molex 16-02-0103 : contact reconstruit",
+  "generated_on": "2026-10-14",
+  "unit": "mm",
+  "cadquery_version": "2.8.0",
+  "coordinate_system": "X:20 colonnes, Y:2 rangées; face accouplement Z0, sortie fils +Z; pin1=(-24.13,-1.27). Vue conforme au plan de raccordement.",
+  "bytes": 347423,
+  "sha256": "4c683d033d03d1988a502b9bdf53bfc1866475ebb00416ae4c0a97524db2b135",
+  "native_vendor_cad": false,
+  "hardware_measured": false,
+  "is_custom_project_design": false,
+  "published_nominal": [
+    "Molex22-55-2401 : 40 positions, pas2,54mm et géométrie du STEP natif.",
+    "Contact16-02-0103 : 22/24AWG, diamètre isolant max1,63mm, bronze phosphoreux, contact or et terminaison étain."
+  ],
+  "estimates_and_limitations": [
+    "Boîtier : géométrie CAO Molex conservée, seulement rotation et translation.",
+    "Contacts : reconstruction de lecture à partir de la photo ; longueur, tôlerie, ressorts et forme du sertissage estimés.",
+    "Couleurs : noir de résine publié, or/étain publiés ; nuances optiques reconstruites.",
+    "Fil : diamètre gaine 1,5 mm annoncé pour Adafruit3175 ; âme équivalente AWG22, nombre de brins non publié non inventé.",
+    "Fils courbes courts pour implantation : ni longueurs de coupe ni terminaisons aval à fabriquer selon ce STEP.",
+    "Modèle d’étude : aucun essai sur GPIO Pi ni tenue thermique, vibration ou sertissage qualifié."
+  ],
+  "parameters": {
+    "pitch_mm": 2.54,
+    "positions": 40,
+    "populated_pins": [
+      1,
+      2,
+      4,
+      6,
+      9,
+      11,
+      12,
+      13,
+      14,
+      15,
+      20,
+      32,
+      33,
+      34,
+      39
+    ],
+    "body_mm": [
+      50.7746,
+      5.0546000000000015,
+      15.239999999999998
+    ],
+    "native_source_sha256": "e2def6c43d3bcc0547e2d2d6032592167214fb5b29fae1bf8e20a15bb0f3be05",
+    "contact_dimensions_estimated": true,
+    "contact_fit_relief_estimated_mm3": 0.014043599999998378,
+    "contact_housing_reconstruction_overlap": [
+      {
+        "pin": 1,
+        "contact_housing_overlap_mm3": 0.0
+      },
+      {
+        "pin": 2,
+        "contact_housing_overlap_mm3": 0.0
+      },
+      {
+        "pin": 4,
+        "contact_housing_overlap_mm3": 0.0
+      },
+      {
+        "pin": 6,
+        "contact_housing_overlap_mm3": 0.0
+      },
+      {
+        "pin": 9,
+        "contact_housing_overlap_mm3": 0.0
+      },
+      {
+        "pin": 11,
+        "contact_housing_overlap_mm3": 0.0
+      },
+      {
+        "pin": 12,
+        "contact_housing_overlap_mm3": 0.0
+      },
+      {
+        "pin": 13,
+        "contact_housing_overlap_mm3": 0.0
+      },
+      {
+        "pin": 14,
+        "contact_housing_overlap_mm3": 0.0
+      },
+      {
+        "pin": 15,
+        "contact_housing_overlap_mm3": 0.0
+      },
+      {
+        "pin": 20,
+        "contact_housing_overlap_mm3": 0.0
+      },
+      {
+        "pin": 32,
+        "contact_housing_overlap_mm3": 0.0
+      },
+      {
+        "pin": 33,
+        "contact_housing_overlap_mm3": 0.0
+      },
+      {
+        "pin": 34,
+        "contact_housing_overlap_mm3": 0.0
+      },
+      {
+        "pin": 39,
+        "contact_housing_overlap_mm3": 0.0
+      }
+    ],
+    "wire_continuity": [
+      {
+        "pin": 1,
+        "core_solids": 1,
+        "sheath_solids": 1,
+        "centreline_probes": 65,
+        "sheath_probes": 61,
+        "endpoint": [
+          -24.13,
+          19.73,
+          35.1
+        ],
+        "length_axis_mm": 38.35799806704668,
+        "stripped_length_study_mm": 2.6,
+        "pose_illustrative": true
+      },
+      {
+        "pin": 2,
+        "core_solids": 1,
+        "sheath_solids": 1,
+        "centreline_probes": 65,
+        "sheath_probes": 61,
+        "endpoint": [
+          -24.13,
+          22.27,
+          32.1
+        ],
+        "length_axis_mm": 36.5,
+        "stripped_length_study_mm": 2.6,
+        "pose_illustrative": true
+      },
+      {
+        "pin": 4,
+        "core_solids": 1,
+        "sheath_solids": 1,
+        "centreline_probes": 65,
+        "sheath_probes": 61,
+        "endpoint": [
+          -21.59,
+          22.27,
+          32.1
+        ],
+        "length_axis_mm": 36.5,
+        "stripped_length_study_mm": 2.6,
+        "pose_illustrative": true
+      },
+      {
+        "pin": 6,
+        "core_solids": 1,
+        "sheath_solids": 1,
+        "centreline_probes": 65,
+        "sheath_probes": 61,
+        "endpoint": [
+          -19.05,
+          22.27,
+          32.1
+        ],
+        "length_axis_mm": 36.5,
+        "stripped_length_study_mm": 2.6,
+        "pose_illustrative": true
+      },
+      {
+        "pin": 9,
+        "core_solids": 1,
+        "sheath_solids": 1,
+        "centreline_probes": 65,
+        "sheath_probes": 61,
+        "endpoint": [
+          -13.97,
+          19.73,
+          35.1
+        ],
+        "length_axis_mm": 38.35799806704668,
+        "stripped_length_study_mm": 2.6,
+        "pose_illustrative": true
+      },
+      {
+        "pin": 11,
+        "core_solids": 1,
+        "sheath_solids": 1,
+        "centreline_probes": 65,
+        "sheath_probes": 61,
+        "endpoint": [
+          -11.43,
+          19.73,
+          35.1
+        ],
+        "length_axis_mm": 38.35799806704668,
+        "stripped_length_study_mm": 2.6,
+        "pose_illustrative": true
+      },
+      {
+        "pin": 12,
+        "core_solids": 1,
+        "sheath_solids": 1,
+        "centreline_probes": 65,
+        "sheath_probes": 61,
+        "endpoint": [
+          -11.43,
+          22.27,
+          32.1
+        ],
+        "length_axis_mm": 36.5,
+        "stripped_length_study_mm": 2.6,
+        "pose_illustrative": true
+      },
+      {
+        "pin": 13,
+        "core_solids": 1,
+        "sheath_solids": 1,
+        "centreline_probes": 65,
+        "sheath_probes": 61,
+        "endpoint": [
+          -8.89,
+          19.73,
+          35.1
+        ],
+        "length_axis_mm": 38.35799806704668,
+        "stripped_length_study_mm": 2.6,
+        "pose_illustrative": true
+      },
+      {
+        "pin": 14,
+        "core_solids": 1,
+        "sheath_solids": 1,
+        "centreline_probes": 65,
+        "sheath_probes": 61,
+        "endpoint": [
+          -8.89,
+          22.27,
+          32.1
+        ],
+        "length_axis_mm": 36.5,
+        "stripped_length_study_mm": 2.6,
+        "pose_illustrative": true
+      },
+      {
+        "pin": 15,
+        "core_solids": 1,
+        "sheath_solids": 1,
+        "centreline_probes": 65,
+        "sheath_probes": 61,
+        "endpoint": [
+          -6.35,
+          19.73,
+          35.1
+        ],
+        "length_axis_mm": 38.35799806704668,
+        "stripped_length_study_mm": 2.6,
+        "pose_illustrative": true
+      },
+      {
+        "pin": 20,
+        "core_solids": 1,
+        "sheath_solids": 1,
+        "centreline_probes": 65,
+        "sheath_probes": 61,
+        "endpoint": [
+          -1.27,
+          22.27,
+          32.1
+        ],
+        "length_axis_mm": 36.5,
+        "stripped_length_study_mm": 2.6,
+        "pose_illustrative": true
+      },
+      {
+        "pin": 32,
+        "core_solids": 1,
+        "sheath_solids": 1,
+        "centreline_probes": 65,
+        "sheath_probes": 61,
+        "endpoint": [
+          13.97,
+          22.27,
+          32.1
+        ],
+        "length_axis_mm": 36.5,
+        "stripped_length_study_mm": 2.6,
+        "pose_illustrative": true
+      },
+      {
+        "pin": 33,
+        "core_solids": 1,
+        "sheath_solids": 1,
+        "centreline_probes": 65,
+        "sheath_probes": 61,
+        "endpoint": [
+          16.51,
+          19.73,
+          35.1
+        ],
+        "length_axis_mm": 38.35799806704668,
+        "stripped_length_study_mm": 2.6,
+        "pose_illustrative": true
+      },
+      {
+        "pin": 34,
+        "core_solids": 1,
+        "sheath_solids": 1,
+        "centreline_probes": 65,
+        "sheath_probes": 61,
+        "endpoint": [
+          16.51,
+          22.27,
+          32.1
+        ],
+        "length_axis_mm": 36.5,
+        "stripped_length_study_mm": 2.6,
+        "pose_illustrative": true
+      },
+      {
+        "pin": 39,
+        "core_solids": 1,
+        "sheath_solids": 1,
+        "centreline_probes": 65,
+        "sheath_probes": 61,
+        "endpoint": [
+          24.13,
+          19.73,
+          35.1
+        ],
+        "length_axis_mm": 38.35799806704668,
+        "stripped_length_study_mm": 2.6,
+        "pose_illustrative": true
+      }
+    ],
+    "wire_close_pair_checks": [
+      {
+        "pins": [
+          1,
+          2
+        ],
+        "overlap_mm3": 0.0
+      },
+      {
+        "pins": [
+          11,
+          12
+        ],
+        "overlap_mm3": 0.0
+      },
+      {
+        "pins": [
+          13,
+          14
+        ],
+        "overlap_mm3": 0.0
+      },
+      {
+        "pins": [
+          33,
+          34
+        ],
+        "overlap_mm3": 0.0
+      }
+    ],
+    "wire_OD_announced_mm": 1.5,
+    "wire_core_equivalent_area_mm2": 0.326
+  },
+  "source_pages": [
+    "Molex CAO native via Farnell1991069.zip",
+    "Plan SD-70450-0001-0026 via IHS",
+    "Fiche contact2013 via Farnell1711811.pdf",
+    "Adafruit3175 produit"
+  ],
+  "bounds_mm": {
+    "xmin": -0.88,
+    "xmax": 0.8800000000000002,
+    "ymin": -0.9017000000000004,
+    "ymax": 0.8710769196805256,
+    "zmin": 1.45,
+    "zmax": 13.8
+  },
+  "validation": {
+    "valid_after_reimport": true,
+    "solids": 2,
+    "faces": 87,
+    "colors": 2,
+    "volume_relative_error": 5.3794234303009026e-14,
+    "volume_relative_error_limit": 0.0001,
+    "volume_before_mm3": 5.795242359222612,
+    "volume_after_mm3": 5.795242359222923,
+    "adaptive_volume_tolerance": 1e-09,
+    "bbox_error_mm": 6.472600233564663e-14,
+    "bbox_error_limit_mm": 0.01,
+    "void_and_material_probes": [],
+    "elapsed_seconds": 0.7003922999974748
+  },
+  "parts": [
+    {
+      "name": "Zone_contact_or",
+      "color_linear_rgb": [
+        0.7,
+        0.43,
+        0.1
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Zone_sertissage_etain",
+      "color_linear_rgb": [
+        0.56,
+        0.59,
+        0.62
+      ],
+      "solids": 1
+    }
+  ],
+  "preview": {
+    "file": "molex-16-02-0103-contact-detaille.png",
+    "sha256": "4652766a01ab5858c4c9e3e6cc9b13405f6ca48ba1b46ac35a3696ab20f66015"
+  },
+  "generator": "tools/build_gpio_step.py",
+  "generator_sha256": "af19da107222cd5730ac00152a3f6e5530c468b40cf012be7d701a89839ce4ce",
+  "source_manifest_sha256": "ba426d5026f263846dd286ee10267b7468a2362769a600f04f3a6b987708b6ba",
+  "body_geometry_native": false,
+  "native_non_solid_annotations_omitted": true
+}

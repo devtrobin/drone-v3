@@ -1,0 +1,59 @@
+{
+  "checked_on": "2026-10-14",
+  "selection": {
+    "id": "klauke95r4",
+    "folder": "cosses-puissance/klauke-95r4",
+    "reference": "Klauke 95R4",
+    "role": "Cosses 6 mm² des deux bornes de puissance du relais",
+    "quantity": 2,
+    "mandatory": 2,
+    "conditional": 0,
+    "pack": 100,
+    "maker": "https://www.klauke.com/gb/en/tubular-cable-lugs-cu-standard-type-4959",
+    "amazon_query": "Klauke 95R4",
+    "spec": "Cuivre recuit EN13600 étamé ; section 6 mm² ; trou M4 de 4,3 mm ; trou de contrôle de l’insertion ; gamme pour conducteurs fins classe 5.",
+    "usage": "Une sur l’arrivée en relais +2 ; une sur le départ relais 1 vers l’entrée du UD-80A. Les vis #8-32 UNC du relais sont conservées : œillet M4 désigne le passage, pas un nouveau filetage.",
+    "dimensions": [
+      [
+        "d1 / a / b",
+        "4 / 9 / 9,5 mm",
+        "Tableau Klauke actuel"
+      ],
+      [
+        "d2 / d4",
+        "4,3 / 6 mm",
+        "Alésage de vis / diamètre extérieur canon"
+      ],
+      [
+        "c1 / c2 / l",
+        "5 / 5,5 / 18 mm",
+        "Repères du dessin de famille"
+      ],
+      [
+        "Longueur reconstruite",
+        "23 mm = c1 + l",
+        "l part du centre du trou sur le dessin archivé"
+      ],
+      [
+        "Paume / inspection",
+        "2 mm / Ø1,4 mm",
+        "Estimation ; valeurs non publiées"
+      ]
+    ],
+    "source_files": [
+      "notices/Klauke-catalogue-via-PowerCables.pdf"
+    ],
+    "source_pages": "PDF archivé p.14 / imprimée 12 ; outillage PDF p.40 / imprimée38",
+    "fit": "Ø4,3 > diamètre nominal #8 4,166 mm. Vérifier la largeur 9,5 mm, le dégagement des cloisons, l’appui et la longueur utile de vis du relais. Le fil AUPROTEC doit correspondre à une classe de conducteur acceptée : ce point n’est pas certifié par sa page commerciale.",
+    "amazon_search": "https://www.amazon.fr/s?k=Klauke+95R4",
+    "amazon_FR_verified": false,
+    "price_EUR_TTC": null
+  },
+  "manufacturer_source_verified": true,
+  "hardware_measured": false,
+  "model_3d_created": true,
+  "model_3d_manifest": "3D/provenance.json",
+  "source_archive_manifest": "../../faisceau-puissance/assets.json",
+  "exact_reviews_verified": false,
+  "qualification_complete": false
+}

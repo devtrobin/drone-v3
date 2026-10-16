@@ -1,0 +1,122 @@
+{
+  "checked_on": "2026-10-14",
+  "status": "etude non qualifiee",
+  "motor_total_continuous_assumption_A": 40,
+  "pi_camera_power_assumption_W": 25,
+  "battery_min_calculation_V": 6.4,
+  "regulator_efficiency_assumption": 0.9,
+  "auxiliary_current_assumption_A": 0.05,
+  "principal_current_A": 44.390277777777776,
+  "selected_fuse_A": 60,
+  "cold_resistance_typical_ohm": 0.00087,
+  "prospective_fault_current_established": false,
+  "interrupt_rating_recent_A": 2000,
+  "interrupt_rating_voltage_V": 32,
+  "interrupt_rating_old_A": 1000,
+  "loop_resistance_reference_ohm": 0.004200000000000001,
+  "loop_model_is_simplified": true,
+  "copper_trunk_section_proposal_mm2": 6,
+  "wire_ampacity_validated": false,
+  "relay_thermal_current_is_not_limited_by_fuse": true,
+  "time_current": [
+    {
+      "percent": 100,
+      "current_A": 60,
+      "min_s": 360000,
+      "max_s": null
+    },
+    {
+      "percent": 110,
+      "current_A": 66,
+      "min_s": 14400,
+      "max_s": null
+    },
+    {
+      "percent": 150,
+      "current_A": 90,
+      "min_s": 90,
+      "max_s": 3600
+    },
+    {
+      "percent": 200,
+      "current_A": 120,
+      "min_s": 3,
+      "max_s": 100
+    },
+    {
+      "percent": 300,
+      "current_A": 180,
+      "min_s": 0.3,
+      "max_s": 3
+    },
+    {
+      "percent": 500,
+      "current_A": 300,
+      "min_s": 0.1,
+      "max_s": 1
+    }
+  ],
+  "typical_derating_60A": [
+    {
+      "ambient_C": 20,
+      "recommended_current_A": 58
+    },
+    {
+      "ambient_C": 65,
+      "recommended_current_A": 48
+    },
+    {
+      "ambient_C": 85,
+      "recommended_current_A": 43
+    },
+    {
+      "ambient_C": 110,
+      "recommended_current_A": 36
+    },
+    {
+      "ambient_C": 125,
+      "recommended_current_A": 31
+    }
+  ],
+  "losses": [
+    {
+      "current_A": 10,
+      "cold_loss_W": 0.087,
+      "cold_drop_V": 0.0087
+    },
+    {
+      "current_A": 20,
+      "cold_loss_W": 0.348,
+      "cold_drop_V": 0.0174
+    },
+    {
+      "current_A": 30,
+      "cold_loss_W": 0.783,
+      "cold_drop_V": 0.0261
+    },
+    {
+      "current_A": 40,
+      "cold_loss_W": 1.392,
+      "cold_drop_V": 0.0348
+    },
+    {
+      "current_A": 44.390277777777776,
+      "cold_loss_W": 1.7143321822337962,
+      "cold_drop_V": 0.03861954166666667
+    },
+    {
+      "current_A": 60,
+      "cold_loss_W": 3.132,
+      "cold_drop_V": 0.0522
+    }
+  ],
+  "source_revision": "Littelfuse REV07272021, p1-2; actual lot applicability to verify",
+  "limitations": [
+    "Contacts, terminals, wiring and hot resistance excluded from loss calculation",
+    "Interrupting capacity and wire protection must be coordinated; typical melting I2t is not total clearing guarantee",
+    "Branch fuses, cable lugs and complete harness not yet selected"
+  ],
+  "supply_revision_scope": "historical_before_alimentation_r2",
+  "current_supply_source": "../verification-alimentation/selection-active.json",
+  "historical_values_preserved": true
+}

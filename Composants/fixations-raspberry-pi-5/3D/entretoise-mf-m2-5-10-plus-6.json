@@ -1,0 +1,260 @@
+{
+  "file": "entretoise-mf-m2-5-10-plus-6.step",
+  "title": "Entretoise MF M2.5 | 10+6 mm",
+  "generated_on": "2026-10-14",
+  "unit": "mm",
+  "cadquery_version": "2.8.0",
+  "coordinate_system": "Axe Z. Pièce seule : base du corps z=0 ; vis : pointe z=0, dessous tête z=L. Pose : assise z=0, PCB étudié à z=10, châssis absent.",
+  "bytes": 1073802,
+  "sha256": "8c07e9fbca1ac141f45edadea18926778642ba88a0be508fd93b9f437a13651f",
+  "native_vendor_cad": false,
+  "hardware_measured": false,
+  "is_custom_project_design": false,
+  "published_nominal": [
+    "Nylon noir, filetage commercial M2.5, longueur nominale selon variante Amazon.",
+    "Raspberry Pi 5 : quatre trous Ø2.7 mm, rectangle de référence 58 x 49 mm."
+  ],
+  "estimates_and_limitations": [
+    "Longueurs et quantités : fiche et illustration Amazon de la variante noire M2.5.",
+    "Surplats 5 mm, tête 4.7 x 2 mm, écrou 2 mm, rondelle 5 x 2.7 x 0.5 mm : estimations, à mesurer.",
+    "Filetage M2.5 x 0.45 : pas métrique usuel d’étude ; pas et classe du lot non mesurés.",
+    "Profils hélicoïdaux proches de 60 degrés, fonds et crêtes simplifiés ; jeu radial CAO 0.03 mm estimé.",
+    "MF et FF hexagonales confirmées par les images haute définition ; surplats exact non publié.",
+    "Taraudage MF borgne, profondeur min(6.5, L-2) mm ; FF traversant : hypothèses non publiées.",
+    "Pas de matière interne, marquage ni tolérance inventés ; aucune CAO fabricant propre au kit trouvée.",
+    "Châssis conçu en dernier selon décision utilisateur du 14 octobre 2026 ; hauteurs définitives ouvertes."
+  ],
+  "parameters": {
+    "body_length_mm": 10,
+    "male_length_mm": 6,
+    "surplats_estimated_mm": 5.0,
+    "female_depth_estimated_mm": 6.5,
+    "female_through_assumed": false,
+    "thread_nominal_mm": 2.5,
+    "pitch_assumed_mm": 0.45,
+    "spline_preparation": null
+  },
+  "source_pages": [
+    "photos/Ewwtrey-longueurs-original.jpg",
+    "photos/Ewwtrey-details-original.jpg",
+    "notices/RaspberryPi-5-plan-mecanique-original.pdf p.1",
+    "Essentra-filetages-plastiques-reference-original.pdf : autre fabricant, pas usuel seulement"
+  ],
+  "bounds_mm": {
+    "xmin": -2.8867513459482743,
+    "xmax": 2.8867513459482743,
+    "ymin": -2.500000100000001,
+    "ymax": 2.5000001000000003,
+    "zmin": -1e-07,
+    "zmax": 16.00000010000031
+  },
+  "validation": {
+    "valid_after_reimport": true,
+    "solids": 1,
+    "faces": 60,
+    "colors": 1,
+    "volume_relative_error": 1.6999141240796185e-08,
+    "volume_relative_error_limit": 0.0001,
+    "volume_before_mm3": 212.94590145984483,
+    "volume_after_mm3": 212.94589783994738,
+    "adaptive_volume_tolerance": 1e-09,
+    "bbox_error_mm": 3.019806626980426e-13,
+    "bbox_error_limit_mm": 0.01,
+    "void_and_material_probes": [
+      {
+        "point": [
+          0,
+          0,
+          0.5
+        ],
+        "occupied": false
+      },
+      {
+        "point": [
+          2.2,
+          0,
+          2
+        ],
+        "occupied": true
+      },
+      {
+        "point": [
+          1.18,
+          0,
+          0.9
+        ],
+        "occupied": false,
+        "kind": "helical_crest"
+      },
+      {
+        "point": [
+          1.18,
+          0,
+          1.125
+        ],
+        "occupied": true,
+        "kind": "helical_valley"
+      },
+      {
+        "point": [
+          1.18,
+          0,
+          2.25
+        ],
+        "occupied": false,
+        "kind": "helical_crest"
+      },
+      {
+        "point": [
+          1.18,
+          0,
+          2.475
+        ],
+        "occupied": true,
+        "kind": "helical_valley"
+      },
+      {
+        "point": [
+          1.18,
+          0,
+          3.6
+        ],
+        "occupied": false,
+        "kind": "helical_crest"
+      },
+      {
+        "point": [
+          1.18,
+          0,
+          3.825
+        ],
+        "occupied": true,
+        "kind": "helical_valley"
+      },
+      {
+        "point": [
+          1.18,
+          0,
+          4.95
+        ],
+        "occupied": false,
+        "kind": "helical_crest"
+      },
+      {
+        "point": [
+          1.18,
+          0,
+          5.175
+        ],
+        "occupied": true,
+        "kind": "helical_valley"
+      },
+      {
+        "point": [
+          0,
+          0,
+          9.5
+        ],
+        "occupied": true
+      },
+      {
+        "point": [
+          0,
+          0,
+          13
+        ],
+        "occupied": true
+      },
+      {
+        "point": [
+          1.15,
+          0,
+          10.9
+        ],
+        "occupied": true,
+        "kind": "helical_crest"
+      },
+      {
+        "point": [
+          1.15,
+          0,
+          11.125
+        ],
+        "occupied": false,
+        "kind": "helical_valley"
+      },
+      {
+        "point": [
+          1.15,
+          0,
+          12.25
+        ],
+        "occupied": true,
+        "kind": "helical_crest"
+      },
+      {
+        "point": [
+          1.15,
+          0,
+          12.475
+        ],
+        "occupied": false,
+        "kind": "helical_valley"
+      },
+      {
+        "point": [
+          1.15,
+          0,
+          13.6
+        ],
+        "occupied": true,
+        "kind": "helical_crest"
+      },
+      {
+        "point": [
+          1.15,
+          0,
+          13.825
+        ],
+        "occupied": false,
+        "kind": "helical_valley"
+      },
+      {
+        "point": [
+          1.15,
+          0,
+          14.95
+        ],
+        "occupied": true,
+        "kind": "helical_crest"
+      },
+      {
+        "point": [
+          1.15,
+          0,
+          15.175
+        ],
+        "occupied": false,
+        "kind": "helical_valley"
+      }
+    ],
+    "elapsed_seconds": 2.3553038999998535,
+    "volume_after_default_quadrature_mm3": 212.94661785791243,
+    "default_volume_purpose": "Compare with FreeCAD default Volume; adaptive values remain the strict STEP round-trip reference."
+  },
+  "parts": [
+    {
+      "name": "Piece_entretoise-mf-m2-5-10-plus-6",
+      "color_linear_rgb": [
+        0.018,
+        0.02,
+        0.023
+      ],
+      "solids": 1
+    }
+  ],
+  "preview": {
+    "file": "entretoise-mf-m2-5-10-plus-6.png",
+    "sha256": "891ea19a3aa9b4172fdbf6415c9655a82e58eecfe8af6684db24a9aa7ef814d9"
+  }
+}

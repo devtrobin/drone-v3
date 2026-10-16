@@ -1,0 +1,6 @@
+{
+  "date": "2026-10-15",
+  "current_source": "../verification-alimentation/selection-active.json",
+  "note": "ATO 7,5 A / Blue Sea 5065 retirés de la sélection active. Nouveau départ : KLKD010.T 10 A et support Midget. Ce calibre d’entrée ne donne pas 10 A à la Pi.",
+  "old_project_PDFs_and_complete_CAD_historical": true
+}

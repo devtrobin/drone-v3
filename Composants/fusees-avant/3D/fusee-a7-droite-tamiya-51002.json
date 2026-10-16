@@ -1,0 +1,83 @@
+{
+  "file": "fusee-a7-droite-tamiya-51002.step",
+  "title": "Tamiya A7 | fusee droite",
+  "generated_on": "2026-10-13",
+  "unit": "mm",
+  "cadquery_version": "2.8.0",
+  "coordinate_system": "A7: axe roue X, pivot Z, centre de roulements (0,0,0); A6/renvois: pivot Z",
+  "bytes": 566588,
+  "sha256": "3c52b305c85484a914d5a3abadaf53e8177d9568b6a554e378cd7b2b4ea40b83",
+  "native_vendor_cad": false,
+  "hardware_measured": false,
+  "is_custom_project_design": false,
+  "published_nominal": [
+    "A7, deux roulements 1150 et vis pivots 3x10 identifies TT01R p.10"
+  ],
+  "estimates_and_limitations": [
+    "Enveloppe, separation des roulements, bras et nervures reconstruits depuis notice",
+    "Logements nominaux Ø11 x4 sans ajustement; centre pivot et bras a relever sur A7 reel",
+    "Ne pas usiner les fourches a partir de ces estimations sans controle des pieces"
+  ],
+  "parameters": {
+    "bearing_seats_nominal": 11,
+    "bearing_width": 4,
+    "seat_start_x": [
+      -7,
+      2.9
+    ],
+    "pivot_extent_z_study": [
+      -11,
+      11
+    ]
+  },
+  "source_pages": [
+    "Tamiya-TT01R-notice-constructeur.pdf p.10"
+  ],
+  "bounds_mm": {
+    "xmin": -7.000000100000001,
+    "xmax": 7.000000100000001,
+    "ymin": -16.0,
+    "ymax": 7.9500001000000005,
+    "zmin": -11.0000001,
+    "zmax": 11.0000001
+  },
+  "validation": {
+    "valid_after_reimport": true,
+    "solids": 1,
+    "faces": 118,
+    "colors": 1,
+    "volume_relative_error": 4.110342806912879e-11,
+    "volume_relative_error_limit": 0.0001,
+    "volume_before_mm3": 1769.6992086508042,
+    "volume_after_mm3": 1769.6992085780635,
+    "adaptive_volume_tolerance": 1e-09,
+    "bbox_error_mm": 0.0,
+    "bbox_error_limit_mm": 0.01,
+    "void_and_material_probes": [
+      {
+        "point": [
+          0,
+          0,
+          0
+        ],
+        "occupied": false
+      }
+    ],
+    "elapsed_seconds": 0.6944777999997314
+  },
+  "parts": [
+    {
+      "name": "Fusee_A7_plastique_reconstruction",
+      "color_linear_rgb": [
+        0.022,
+        0.026,
+        0.032
+      ],
+      "solids": 1
+    }
+  ],
+  "preview": {
+    "file": "fusee-a7-droite-tamiya-51002.png",
+    "sha256": "2418421b5fc6bbc9a987b35d807dffdd0856a9fc490bcfa93899b72e2db73be9"
+  }
+}

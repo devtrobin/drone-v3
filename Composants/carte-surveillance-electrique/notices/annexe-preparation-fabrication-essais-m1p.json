@@ -1,0 +1,23 @@
+{
+  "pages": 6,
+  "renders": [
+    "tools\\temp\\surveillance-review\\qualification-pdf\\page-1.png",
+    "tools\\temp\\surveillance-review\\qualification-pdf\\page-2.png",
+    "tools\\temp\\surveillance-review\\qualification-pdf\\page-3.png",
+    "tools\\temp\\surveillance-review\\qualification-pdf\\page-4.png",
+    "tools\\temp\\surveillance-review\\qualification-pdf\\page-5.png",
+    "tools\\temp\\surveillance-review\\qualification-pdf\\page-6.png"
+  ],
+  "visual_review_completed": true,
+  "hardware_tested": false,
+  "sha256": "e744d8d37c2be4f30521088b3e831699d0e968ce702dc5a8509b1caf1e57eec9",
+  "visual_review_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "review_notes": "Latest rendered pages inspected, including final TI crop and page spacing; no clipping or overlap observed."
+}

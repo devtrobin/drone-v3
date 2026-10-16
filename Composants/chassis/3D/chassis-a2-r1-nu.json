@@ -1,0 +1,684 @@
+{
+  "file": "chassis-a2-r1-nu.step",
+  "title": "A2-R1 | chassis nu et portique",
+  "generated_on": "2026-10-15",
+  "unit": "mm",
+  "cadquery_version": "2.8.0",
+  "coordinate_system": "X transversal, -Y marche avant, Z haut ; solZ0, plateauY0..520, rouesAV55/AR445. mm.",
+  "bytes": 2510976,
+  "sha256": "6bd6d772299c6eb8137525dc151c7c58a80bb462e23eeaeca8b43a2180bc58c3",
+  "native_vendor_cad": false,
+  "hardware_measured": false,
+  "is_custom_project_design": true,
+  "published_nominal": [],
+  "estimates_and_limitations": [
+    "Custom chassis prototype; no machining, measurement or structural/thermal qualification.",
+    "Equipment named reserve/gabarit is only an allocation envelope; not production CAD or a certified complete fit.",
+    "Final purchased part holes, transmission internal mounting and actual front wheel offset remain to check on removable adapters."
+  ],
+  "parameters": {
+    "plate": [
+      300,
+      520,
+      3
+    ],
+    "wheelbase": 390,
+    "wheel_center_track": 400,
+    "ground_clearance": 8,
+    "steering_limit_deg": 30
+  },
+  "source_pages": [
+    "../SPECIFICATIONS.md; ../PLAN-CONCEPTION.md; implantation.json; ../../image.png"
+  ],
+  "bounds_mm": {
+    "xmin": -182.0,
+    "xmax": 182.0,
+    "ymin": -6.0,
+    "ymax": 520.0,
+    "zmin": 8.0,
+    "zmax": 246.0
+  },
+  "validation": {
+    "valid_after_reimport": true,
+    "solids": 69,
+    "faces": 721,
+    "colors": 3,
+    "volume_relative_error": 8.005041155418395e-16,
+    "volume_relative_error_limit": 0.0001,
+    "volume_before_mm3": 1163420.0955795106,
+    "volume_after_mm3": 1163420.0955795115,
+    "adaptive_volume_tolerance": 1e-09,
+    "bbox_error_mm": 0.0,
+    "bbox_error_limit_mm": 0.01,
+    "void_and_material_probes": [],
+    "elapsed_seconds": 4.120049900000595
+  },
+  "parts": [
+    {
+      "name": "C01_1",
+      "color_linear_rgb": [
+        0.56,
+        0.59,
+        0.63
+      ],
+      "solids": 1
+    },
+    {
+      "name": "C05_1",
+      "color_linear_rgb": [
+        0.075,
+        0.09,
+        0.11
+      ],
+      "solids": 1
+    },
+    {
+      "name": "C06_1",
+      "color_linear_rgb": [
+        0.075,
+        0.09,
+        0.11
+      ],
+      "solids": 1
+    },
+    {
+      "name": "C12_1",
+      "color_linear_rgb": [
+        0.075,
+        0.09,
+        0.11
+      ],
+      "solids": 1
+    },
+    {
+      "name": "C13_1",
+      "color_linear_rgb": [
+        0.56,
+        0.59,
+        0.63
+      ],
+      "solids": 1
+    },
+    {
+      "name": "C14_1",
+      "color_linear_rgb": [
+        0.075,
+        0.09,
+        0.11
+      ],
+      "solids": 1
+    },
+    {
+      "name": "C15_1",
+      "color_linear_rgb": [
+        0.075,
+        0.09,
+        0.11
+      ],
+      "solids": 1
+    },
+    {
+      "name": "C11G_1",
+      "color_linear_rgb": [
+        0.075,
+        0.09,
+        0.11
+      ],
+      "solids": 1
+    },
+    {
+      "name": "C11D_1",
+      "color_linear_rgb": [
+        0.075,
+        0.09,
+        0.11
+      ],
+      "solids": 1
+    },
+    {
+      "name": "C04D_1",
+      "color_linear_rgb": [
+        0.56,
+        0.59,
+        0.63
+      ],
+      "solids": 1
+    },
+    {
+      "name": "C04G_1",
+      "color_linear_rgb": [
+        0.56,
+        0.59,
+        0.63
+      ],
+      "solids": 1
+    },
+    {
+      "name": "C03_1",
+      "color_linear_rgb": [
+        0.56,
+        0.59,
+        0.63
+      ],
+      "solids": 1
+    },
+    {
+      "name": "C07_1",
+      "color_linear_rgb": [
+        0.56,
+        0.59,
+        0.63
+      ],
+      "solids": 1
+    },
+    {
+      "name": "C08_1",
+      "color_linear_rgb": [
+        0.56,
+        0.59,
+        0.63
+      ],
+      "solids": 1
+    },
+    {
+      "name": "C02_1",
+      "color_linear_rgb": [
+        0.56,
+        0.59,
+        0.63
+      ],
+      "solids": 1
+    },
+    {
+      "name": "C09_1",
+      "color_linear_rgb": [
+        0.075,
+        0.09,
+        0.11
+      ],
+      "solids": 1
+    },
+    {
+      "name": "C09_2",
+      "color_linear_rgb": [
+        0.075,
+        0.09,
+        0.11
+      ],
+      "solids": 1
+    },
+    {
+      "name": "C10_1",
+      "color_linear_rgb": [
+        0.075,
+        0.09,
+        0.11
+      ],
+      "solids": 1
+    },
+    {
+      "name": "C16_1",
+      "color_linear_rgb": [
+        0.075,
+        0.09,
+        0.11
+      ],
+      "solids": 1
+    },
+    {
+      "name": "C16_2",
+      "color_linear_rgb": [
+        0.075,
+        0.09,
+        0.11
+      ],
+      "solids": 1
+    },
+    {
+      "name": "C17_1",
+      "color_linear_rgb": [
+        0.075,
+        0.09,
+        0.11
+      ],
+      "solids": 1
+    },
+    {
+      "name": "C17_2",
+      "color_linear_rgb": [
+        0.075,
+        0.09,
+        0.11
+      ],
+      "solids": 1
+    },
+    {
+      "name": "C17_3",
+      "color_linear_rgb": [
+        0.075,
+        0.09,
+        0.11
+      ],
+      "solids": 1
+    },
+    {
+      "name": "C17_4",
+      "color_linear_rgb": [
+        0.075,
+        0.09,
+        0.11
+      ],
+      "solids": 1
+    },
+    {
+      "name": "C18_1",
+      "color_linear_rgb": [
+        0.56,
+        0.59,
+        0.63
+      ],
+      "solids": 1
+    },
+    {
+      "name": "C18_2",
+      "color_linear_rgb": [
+        0.56,
+        0.59,
+        0.63
+      ],
+      "solids": 1
+    },
+    {
+      "name": "C19_1",
+      "color_linear_rgb": [
+        0.56,
+        0.59,
+        0.63
+      ],
+      "solids": 1
+    },
+    {
+      "name": "L01_longeron_-1",
+      "color_linear_rgb": [
+        0.56,
+        0.59,
+        0.63
+      ],
+      "solids": 1
+    },
+    {
+      "name": "L01_longeron_1",
+      "color_linear_rgb": [
+        0.56,
+        0.59,
+        0.63
+      ],
+      "solids": 1
+    },
+    {
+      "name": "L02_pied_camera_-128",
+      "color_linear_rgb": [
+        0.56,
+        0.59,
+        0.63
+      ],
+      "solids": 1
+    },
+    {
+      "name": "L02_pied_camera_128",
+      "color_linear_rgb": [
+        0.56,
+        0.59,
+        0.63
+      ],
+      "solids": 1
+    },
+    {
+      "name": "L03_angle_pivot_camera",
+      "color_linear_rgb": [
+        0.56,
+        0.59,
+        0.63
+      ],
+      "solids": 1
+    },
+    {
+      "name": "T01_L70_-72_194",
+      "color_linear_rgb": [
+        0.56,
+        0.59,
+        0.63
+      ],
+      "solids": 1
+    },
+    {
+      "name": "T01_L70_-72_408",
+      "color_linear_rgb": [
+        0.56,
+        0.59,
+        0.63
+      ],
+      "solids": 1
+    },
+    {
+      "name": "T01_L70_72_194",
+      "color_linear_rgb": [
+        0.56,
+        0.59,
+        0.63
+      ],
+      "solids": 1
+    },
+    {
+      "name": "T01_L70_72_408",
+      "color_linear_rgb": [
+        0.56,
+        0.59,
+        0.63
+      ],
+      "solids": 1
+    },
+    {
+      "name": "T02_L56_-133_102",
+      "color_linear_rgb": [
+        0.56,
+        0.59,
+        0.63
+      ],
+      "solids": 1
+    },
+    {
+      "name": "T02_L56_-133_178",
+      "color_linear_rgb": [
+        0.56,
+        0.59,
+        0.63
+      ],
+      "solids": 1
+    },
+    {
+      "name": "T02_L56_-57_102",
+      "color_linear_rgb": [
+        0.56,
+        0.59,
+        0.63
+      ],
+      "solids": 1
+    },
+    {
+      "name": "T02_L56_-57_178",
+      "color_linear_rgb": [
+        0.56,
+        0.59,
+        0.63
+      ],
+      "solids": 1
+    },
+    {
+      "name": "N01_entretoise_servo_-23_68",
+      "color_linear_rgb": [
+        0.018,
+        0.022,
+        0.027
+      ],
+      "solids": 1
+    },
+    {
+      "name": "N01_entretoise_servo_-23_92",
+      "color_linear_rgb": [
+        0.018,
+        0.022,
+        0.027
+      ],
+      "solids": 1
+    },
+    {
+      "name": "N01_entretoise_servo_23_68",
+      "color_linear_rgb": [
+        0.018,
+        0.022,
+        0.027
+      ],
+      "solids": 1
+    },
+    {
+      "name": "N01_entretoise_servo_23_92",
+      "color_linear_rgb": [
+        0.018,
+        0.022,
+        0.027
+      ],
+      "solids": 1
+    },
+    {
+      "name": "N02_cale3_44",
+      "color_linear_rgb": [
+        0.018,
+        0.022,
+        0.027
+      ],
+      "solids": 1
+    },
+    {
+      "name": "N02_cale3_45",
+      "color_linear_rgb": [
+        0.018,
+        0.022,
+        0.027
+      ],
+      "solids": 1
+    },
+    {
+      "name": "N02_cale3_46",
+      "color_linear_rgb": [
+        0.018,
+        0.022,
+        0.027
+      ],
+      "solids": 1
+    },
+    {
+      "name": "N02_cale3_47",
+      "color_linear_rgb": [
+        0.018,
+        0.022,
+        0.027
+      ],
+      "solids": 1
+    },
+    {
+      "name": "N02_cale3_48",
+      "color_linear_rgb": [
+        0.018,
+        0.022,
+        0.027
+      ],
+      "solids": 1
+    },
+    {
+      "name": "N02_cale3_49",
+      "color_linear_rgb": [
+        0.018,
+        0.022,
+        0.027
+      ],
+      "solids": 1
+    },
+    {
+      "name": "N02_cale3_50",
+      "color_linear_rgb": [
+        0.018,
+        0.022,
+        0.027
+      ],
+      "solids": 1
+    },
+    {
+      "name": "N02_cale3_51",
+      "color_linear_rgb": [
+        0.018,
+        0.022,
+        0.027
+      ],
+      "solids": 1
+    },
+    {
+      "name": "N02_cale3_52",
+      "color_linear_rgb": [
+        0.018,
+        0.022,
+        0.027
+      ],
+      "solids": 1
+    },
+    {
+      "name": "N02_cale3_53",
+      "color_linear_rgb": [
+        0.018,
+        0.022,
+        0.027
+      ],
+      "solids": 1
+    },
+    {
+      "name": "N02_cale3_54",
+      "color_linear_rgb": [
+        0.018,
+        0.022,
+        0.027
+      ],
+      "solids": 1
+    },
+    {
+      "name": "N02_cale3_55",
+      "color_linear_rgb": [
+        0.018,
+        0.022,
+        0.027
+      ],
+      "solids": 1
+    },
+    {
+      "name": "N02_cale3_56",
+      "color_linear_rgb": [
+        0.018,
+        0.022,
+        0.027
+      ],
+      "solids": 1
+    },
+    {
+      "name": "N02_cale3_57",
+      "color_linear_rgb": [
+        0.018,
+        0.022,
+        0.027
+      ],
+      "solids": 1
+    },
+    {
+      "name": "N02_cale3_58",
+      "color_linear_rgb": [
+        0.018,
+        0.022,
+        0.027
+      ],
+      "solids": 1
+    },
+    {
+      "name": "N02_cale3_59",
+      "color_linear_rgb": [
+        0.018,
+        0.022,
+        0.027
+      ],
+      "solids": 1
+    },
+    {
+      "name": "N02_cale3_60",
+      "color_linear_rgb": [
+        0.018,
+        0.022,
+        0.027
+      ],
+      "solids": 1
+    },
+    {
+      "name": "N02_cale3_61",
+      "color_linear_rgb": [
+        0.018,
+        0.022,
+        0.027
+      ],
+      "solids": 1
+    },
+    {
+      "name": "N02_cale3_62",
+      "color_linear_rgb": [
+        0.018,
+        0.022,
+        0.027
+      ],
+      "solids": 1
+    },
+    {
+      "name": "N02_cale3_63",
+      "color_linear_rgb": [
+        0.018,
+        0.022,
+        0.027
+      ],
+      "solids": 1
+    },
+    {
+      "name": "N02_cale3_64",
+      "color_linear_rgb": [
+        0.018,
+        0.022,
+        0.027
+      ],
+      "solids": 1
+    },
+    {
+      "name": "N02_cale3_65",
+      "color_linear_rgb": [
+        0.018,
+        0.022,
+        0.027
+      ],
+      "solids": 1
+    },
+    {
+      "name": "N02_cale3_66",
+      "color_linear_rgb": [
+        0.018,
+        0.022,
+        0.027
+      ],
+      "solids": 1
+    },
+    {
+      "name": "S01_patin_silicone140x46x2",
+      "color_linear_rgb": [
+        0.018,
+        0.022,
+        0.027
+      ],
+      "solids": 1
+    },
+    {
+      "name": "S02_bumper_EVA260x15x6",
+      "color_linear_rgb": [
+        0.018,
+        0.022,
+        0.027
+      ],
+      "solids": 1
+    }
+  ],
+  "preview": {
+    "file": "chassis-a2-r1-nu.png",
+    "sha256": "bf517ccb763ed417855e9f8440ae8c417148aa06261ce0d4534b7b51589d8ee4"
+  },
+  "hardware_tested": false
+}

@@ -1,0 +1,56 @@
+{
+  "revision": "P1",
+  "units": "mm",
+  "custom_parts": 4,
+  "hardware_tested": false,
+  "base": [
+    80,
+    70,
+    6
+  ],
+  "mast": [
+    40,
+    240,
+    6
+  ],
+  "brace_triangle_legs": [
+    40,
+    40
+  ],
+  "cradle_face": [
+    48,
+    48,
+    3
+  ],
+  "window": [
+    20,
+    20
+  ],
+  "pivot_diameter": 4.3,
+  "mast_slot": [
+    44.5,
+    4.5
+  ],
+  "camera_slot": [
+    7,
+    2.5
+  ],
+  "camera_spacing_nominal_estimated": 28,
+  "camera_square_spacing_covered_approx": [
+    25,
+    31
+  ],
+  "camera_spacer_length": 12,
+  "height_nominal": 220,
+  "height_range": [
+    190,
+    230
+  ],
+  "down_pitch_nominal_deg": 20,
+  "down_pitch_study_range_deg": [
+    10,
+    35
+  ],
+  "chassis_mounting_final": false,
+  "estimated_wood_thickness": true
+}

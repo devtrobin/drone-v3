@@ -1,0 +1,39 @@
+{
+  "selected_on": "2026-10-13",
+  "selected_by": "assistant, authorized by user",
+  "reference": "Tamiya 50592 — 5 mm Ball Connector",
+  "quantity_design": "6 rotules utilisées ; un sachet annoncé de 10",
+  "purchased": false,
+  "hardware_tested": false,
+  "model_3d_created": true,
+  "purchase_status": "Not an identified or verified Amazon offer; fabrication lines are not purchase-ready",
+  "price_eur": null,
+  "amazon_search_url": "https://www.amazon.fr/s?k=Tamiya+50592",
+  "specifications": {
+    "diamètre de boule": "5 mm",
+    "interface": "Chapes Tamiya 50596 ; vissage et longueur de pied à vérifier",
+    "emploi": "Fusées, renvois et liaison servo"
+  },
+  "sources": [
+    {
+      "url": "https://www.tamiya.com/english/products/50592/index.html",
+      "type": "primary or explicitly identified supplier reference",
+      "checked_on": "2026-10-13"
+    }
+  ],
+  "documents": [
+    {
+      "file": "Tamiya-TT01R-notice-constructeur.pdf",
+      "url": "https://www.tamiya.com/cms/english/rc/rcmanual/tt01r.pdf",
+      "bytes": 4744628,
+      "sha256": "c8ef6f865c9a81df967932ec86143cf1074ecc2f6d48df566a94c0d2643a9ed1",
+      "modified": false,
+      "local_file": "../../direction-et-transmission/notices/Tamiya-TT01R-notice-constructeur.pdf"
+    }
+  ],
+  "unknowns": [
+    "Longueur filetée et appui sur chaque pièce",
+    "Fourniture des fixations de la platine du palonnier 20T"
+  ],
+  "model_3d_manifest": "3D/provenance.json"
+}

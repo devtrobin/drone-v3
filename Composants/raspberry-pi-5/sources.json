@@ -1,0 +1,301 @@
+{
+  "slug": "raspberry-pi-5",
+  "name": "Raspberry Pi 5 - 4 Go",
+  "manufacturer": "Raspberry Pi Ltd",
+  "model": "Raspberry Pi 5",
+  "ram_gb": 4,
+  "asin": "B0CK3L9WD3",
+  "purchase_url": "https://www.amazon.fr/dp/B0CK3L9WD3",
+  "purchase_channel": "Amazon.fr",
+  "variant": "Pi 5 4GB, carte seule recherchee",
+  "order_lots": 1,
+  "lot_price_eur": null,
+  "price_includes_vat": null,
+  "total_eur": null,
+  "seller": null,
+  "fulfilled_by": null,
+  "availability_observed": null,
+  "delivery_observed": null,
+  "checked_on": "2026-10-13",
+  "procurement_state": "non achetÃ©",
+  "purchase_decision": "modÃ¨le retenu par utilisateur ; offre achetable non vÃ©rifiÃ©e",
+  "verification_method": "documentation officielle web et PDF originaux tÃ©lÃ©chargÃ©s ; pages pertinentes rendues et contrÃ´lÃ©es ; titre Amazon correspondant, sans offre et prix validÃ©s",
+  "lot_contents_announced": null,
+  "roles": [
+    "liaison Wi-Fi Mac",
+    "capture et transmission camÃ©ra USB",
+    "commande sÃ©parÃ©e des deux variateurs moteurs"
+  ],
+  "separate_motor_microcontroller_selected": false,
+  "architecture_decision_date": "2026-10-13",
+  "manufacturer_specs": {
+    "cpu": "BCM2712, quad-core Arm Cortex-A76",
+    "cpu_clock_ghz": 2.4,
+    "wifi": "dual-band 802.11ac",
+    "bluetooth": "5.0/BLE",
+    "ethernet": "Gigabit",
+    "usb_host_ports": {
+      "usb3": 2,
+      "usb2": 2
+    },
+    "storage": "microSD",
+    "gpio_header_pins": 40,
+    "gpio_logic_v": 3.3,
+    "psu_voltage_v": 5,
+    "psu_capacity_a": 5,
+    "psu_capacity_is_measured_consumption": false,
+    "h264_hardware_encoder": false,
+    "h264_software_encoder": "libx264",
+    "board_outline_reference_mm": [
+      85,
+      56
+    ],
+    "mounting_hole_diameter_reference_mm": 2.7,
+    "mounting_hole_spacing_reference_mm": [
+      58,
+      49
+    ],
+    "mechanical_dimensions_approximate": true,
+    "hardware_measured": false,
+    "usb_peripheral_current_limit_standard_a": 0.6,
+    "usb_peripheral_current_limit_5a_recognized_supply_a": 1.6,
+    "usb_power_budget_shared_with_fan": true
+  },
+  "proposed_motor_signals": [
+    {
+      "role": "left_ESC",
+      "gpio_bcm": 12,
+      "physical_header_pin": 32,
+      "rp1_function": "PWM0[0]",
+      "wired": false,
+      "tested": false
+    },
+    {
+      "role": "right_ESC",
+      "gpio_bcm": 13,
+      "physical_header_pin": 33,
+      "rp1_function": "PWM0[1]",
+      "wired": false,
+      "tested": false
+    }
+  ],
+  "video_status": {
+    "camera": "InnoMaker U20CAM-4M",
+    "camera_interface": "USB 2.0 UVC",
+    "input_target": "1920x1080 MJPEG 60 fps",
+    "pi5_whitepaper_1080p60_claim": "extrapolation, not full-system USB-to-Mac test",
+    "end_to_end_measured": false
+  },
+  "accessories_to_select": [
+    "microSD",
+    "convertisseur batterie vers alimentation Pi",
+    "cÃ¢bles et connecteurs",
+    "supports et visserie",
+    "adaptation de niveau ESC si nÃ©cessaire",
+    "protections et coupure"
+  ],
+  "uncertainties": [
+    "offre Amazon, prix, vendeur, livraison et contenu du colis",
+    "niveau logique acceptÃ©, frÃ©quence et impulsions des ESC",
+    "pilote et configuration PWM sur le systÃ¨me choisi",
+    "arrÃªt sur gel logiciel et perte Wi-Fi",
+    "courant USB disponible avec convertisseur embarquÃ©",
+    "consommation et autonomie de la chaÃ®ne complÃ¨te",
+    "1080p60 rÃ©el, images uniques, dÃ©bit et latence",
+    "refroidissement et gÃ©omÃ©trie installÃ©e"
+  ],
+  "validation": {
+    "hardware_tests_performed": false,
+    "video_1080p60_validated": false,
+    "motor_control_validated": false,
+    "fault_stop_validated": false
+  },
+  "sources": [
+    {
+      "id": "product-brief",
+      "url": "https://pip-assets.raspberrypi.com/categories/892-raspberry-pi-5/documents/RP-008348-DS-8-raspberry-pi-5-product-brief.pdf",
+      "resolved_url": "https://pip-assets.raspberrypi.com/categories/892-raspberry-pi-5/documents/RP-008348-DS-8-raspberry-pi-5-product-brief.pdf",
+      "local_file": "notices/Raspberry-Pi-5-fiche-constructeur.pdf",
+      "checked_on": "2026-10-13",
+      "pages": 7,
+      "bytes": 52948347,
+      "sha256": "944fc1d70da50f0b8d5947dd4263078f698c79586f29c07f35fcd4b87077dd3f",
+      "original_unmodified": true,
+      "type": "manufacturer_pdf",
+      "edition": "October 2026",
+      "relevant_pdf_pages": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": "mechanical-drawing",
+      "url": "https://pip-assets.raspberrypi.com/categories/892-raspberry-pi-5/documents/RP-008347-DS-1-raspberry-pi-5-mechanical-drawing.pdf",
+      "resolved_url": "https://pip-assets.raspberrypi.com/categories/892-raspberry-pi-5/documents/RP-008347-DS-1-raspberry-pi-5-mechanical-drawing.pdf",
+      "local_file": "notices/Raspberry-Pi-5-plan-mecanique.pdf",
+      "checked_on": "2026-10-13",
+      "pages": 1,
+      "bytes": 174949,
+      "sha256": "5dd680d6c1f5e7aa9c7b020695e315d04aac862df82ff01d4e9041cd0668d7f2",
+      "original_unmodified": true,
+      "type": "manufacturer_pdf",
+      "edition": "Undated reference drawing",
+      "relevant_pdf_pages": [
+        1
+      ],
+      "production_dimensions": false
+    },
+    {
+      "id": "rp1-peripherals",
+      "url": "https://pip-assets.raspberrypi.com/categories/892-raspberry-pi-5/documents/RP-008370-DS-1-rp1-peripherals.pdf",
+      "resolved_url": "https://pip-assets.raspberrypi.com/categories/892-raspberry-pi-5/documents/RP-008370-DS-1-rp1-peripherals.pdf",
+      "local_file": "notices/RP1-peripheriques-GPIO-PWM.pdf",
+      "checked_on": "2026-10-13",
+      "pages": 93,
+      "bytes": 3513008,
+      "sha256": "87fb7b24e8d9add075b849d095a107827610c0409ea194785af624c1ea986c3d",
+      "original_unmodified": true,
+      "type": "manufacturer_pdf",
+      "document_build_date": "2023-11-07",
+      "document_build_version": "b9b6f74-clean",
+      "draft_watermark": true,
+      "license": "CC BY-ND 4.0",
+      "relevant_pdf_pages": [
+        16,
+        17,
+        36,
+        37,
+        38
+      ]
+    },
+    {
+      "id": "h264-encoding",
+      "url": "https://pip-assets.raspberrypi.com/categories/685-app-notes-guides-whitepapers/documents/RP-010033-WP-1-H.264%20encoding%20performance%20on%20Raspberry%20Pi%205_series%20computers.pdf",
+      "resolved_url": "https://pip-assets.raspberrypi.com/categories/685-app-notes-guides-whitepapers/documents/RP-010033-WP-1-H.264%20encoding%20performance%20on%20Raspberry%20Pi%205_series%20computers.pdf",
+      "local_file": "notices/Raspberry-Pi-5-etude-encodage-H264.pdf",
+      "checked_on": "2026-10-13",
+      "pages": 25,
+      "bytes": 11167182,
+      "sha256": "26cb22bee79ad1696076d98eab8295c24fd8398cebb427458a22fbdafac2adee",
+      "original_unmodified": true,
+      "type": "manufacturer_pdf",
+      "release": "1",
+      "document_date": "2026-04-28",
+      "document_build_date": "2026-05-05",
+      "document_build_version": "25aadcd28dac",
+      "license": "CC BY-ND 4.0",
+      "relevant_pdf_pages": [
+        5,
+        18,
+        19
+      ]
+    },
+    {
+      "id": "board-photo",
+      "local_file": "photos/01-carte-vue-dessus.png",
+      "source_document": "notices/Raspberry-Pi-5-fiche-constructeur.pdf",
+      "source_page_pdf": 2,
+      "source_xref": 205,
+      "extraction": "embedded image bytes, no rescaling or retouching",
+      "bytes": 32946424,
+      "sha256": "5fdc718dcff2b8fa3a5dc34618ec9146cdeb27090df7d7c32d6153a9a31563d3",
+      "type": "manufacturer_product_photo",
+      "credit": "Raspberry Pi Ltd",
+      "checked_on": "2026-10-13",
+      "variant_ram_confirmed_from_photo": false
+    },
+    {
+      "id": "manufacturer-product",
+      "type": "manufacturer_documentation",
+      "url": "https://www.raspberrypi.com/products/raspberry-pi-5/",
+      "checked_on": "2026-10-13"
+    },
+    {
+      "id": "manufacturer-portal",
+      "type": "manufacturer_documentation",
+      "url": "https://pip.raspberrypi.com/categories/892-raspberry-pi-5",
+      "checked_on": "2026-10-13"
+    },
+    {
+      "id": "hardware-documentation",
+      "type": "manufacturer_documentation",
+      "url": "https://www.raspberrypi.com/documentation/computers/raspberry-pi.html",
+      "checked_on": "2026-10-13"
+    },
+    {
+      "id": "io-controllers",
+      "type": "manufacturer_documentation",
+      "url": "https://www.raspberrypi.com/documentation/computers/io-controllers.html",
+      "checked_on": "2026-10-13"
+    },
+    {
+      "id": "getting-started",
+      "type": "manufacturer_documentation",
+      "url": "https://www.raspberrypi.com/documentation/computers/getting-started.html",
+      "checked_on": "2026-10-13"
+    },
+    {
+      "id": "configuration",
+      "type": "manufacturer_documentation",
+      "url": "https://www.raspberrypi.com/documentation/computers/configuration.html",
+      "checked_on": "2026-10-13"
+    },
+    {
+      "id": "camera-software",
+      "type": "manufacturer_documentation",
+      "url": "https://www.raspberrypi.com/documentation/computers/camera_software.html",
+      "checked_on": "2026-10-13"
+    },
+    {
+      "id": "purchase",
+      "type": "purchase",
+      "url": "https://www.amazon.fr/Raspberry-Pi-Quad-Core-ARMA76-Bits/dp/B0CK3L9WD3",
+      "checked_on": "2026-10-13"
+    }
+  ],
+  "research_file": "recherche-technique.md",
+  "integration_file": "integration.md",
+  "model_3d_created": true,
+  "model_3d": {
+    "file": "3D/raspberry-pi-5-officiel-avec-graphismes.step",
+    "source_archive": "3D/raspberry-pi-5-officiel-avec-graphismes.zip",
+    "source_member": "rpi-5b_with_graphics.step",
+    "documentation": "3D/README.md",
+    "provenance": "3D/provenance.json",
+    "license_file": "3D/LICENSE-constructeur.txt",
+    "source_url": "https://pip-assets.raspberrypi.com/categories/892-raspberry-pi-5/documents/RP-010082-CA-1-rpi-5%203D%20STEP%20-%20With%20Graphics%20large%20file.zip",
+    "source_archive_sha256": "1b38b554a317411bc60604f066ae004273e6c857778ecf997925ea0b56b44e0b",
+    "step_sha256": "625683b44669593fbeba2fecb9b3555b7e5a16c846c7fde0eab505c66478b3e0",
+    "source_license": "MIT, Raspberry Pi Ltd 2026",
+    "vendor_distributed_cad": true,
+    "geometry_modified": false,
+    "hardware_measured": false,
+    "ram_variant_identified_in_cad": false,
+    "prepared_on": "2026-10-13",
+    "native_step_timestamp": "2026-05-27T13:28:21",
+    "portal_cad_updated_on": "2026-06-11",
+    "representation": "Original manufacturer-distributed STEP with graphics; target V3 board is 4GB, exact memory and board revision in CAD not certified",
+    "git_storage": "Full with-graphics STEP remains in exact official ZIP; no-graphics STEP and simplified layout STEP directly versionable",
+    "working_versions": {
+      "official_no_graphics_file": "3D/raspberry-pi-5-4go-ultra-detaille.step",
+      "official_no_graphics_archive": "3D/raspberry-pi-5-officiel-sans-graphismes.zip",
+      "source_url": "https://pip-assets.raspberrypi.com/categories/892-raspberry-pi-5/documents/RP-010083-CA-1-rpi-5%203D%20STEP%20-%20No%20Graphics%20small%20file.zip",
+      "step_sha256": "78164070c1cc7ab854382950d2e85926c6e35432f1e5a146b733397a7c6afb44",
+      "archive_sha256": "6841637b4cfa97637bf34b529bfe896f24d9634b2c40b57a156781f55d88f06f",
+      "simplified_layout_file": "3D/raspberry-pi-5-implantation-legere.step",
+      "validation": "3D/validation-versions-travail.json",
+      "freecad_gui_tested": false,
+      "vscode_cad_view_tested": false,
+      "envelope_file": "3D/raspberry-pi-5-encombrement-simplifie.step",
+      "user_reported_issue": "FreeCAD blocks during loading of original 142 MB model"
+    }
+  },
+  "selected_cooling": {
+    "reference": "SC1148",
+    "documentation": "../refroidissement-raspberry-pi-5/README.md",
+    "selected_on": "2026-10-14",
+    "mounted": false
+  }
+}

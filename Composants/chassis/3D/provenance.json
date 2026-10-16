@@ -1,0 +1,2793 @@
+{
+  "revision": "A2-R1",
+  "models": [
+    {
+      "file": "chassis-a2-r1-nu.step",
+      "title": "A2-R1 | chassis nu et portique",
+      "generated_on": "2026-10-15",
+      "unit": "mm",
+      "cadquery_version": "2.8.0",
+      "coordinate_system": "X transversal, -Y marche avant, Z haut ; solZ0, plateauY0..520, rouesAV55/AR445. mm.",
+      "bytes": 2510976,
+      "sha256": "6bd6d772299c6eb8137525dc151c7c58a80bb462e23eeaeca8b43a2180bc58c3",
+      "native_vendor_cad": false,
+      "hardware_measured": false,
+      "is_custom_project_design": true,
+      "published_nominal": [],
+      "estimates_and_limitations": [
+        "Custom chassis prototype; no machining, measurement or structural/thermal qualification.",
+        "Equipment named reserve/gabarit is only an allocation envelope; not production CAD or a certified complete fit.",
+        "Final purchased part holes, transmission internal mounting and actual front wheel offset remain to check on removable adapters."
+      ],
+      "parameters": {
+        "plate": [
+          300,
+          520,
+          3
+        ],
+        "wheelbase": 390,
+        "wheel_center_track": 400,
+        "ground_clearance": 8,
+        "steering_limit_deg": 30
+      },
+      "source_pages": [
+        "../SPECIFICATIONS.md; ../PLAN-CONCEPTION.md; implantation.json; ../../image.png"
+      ],
+      "bounds_mm": {
+        "xmin": -182.0,
+        "xmax": 182.0,
+        "ymin": -6.0,
+        "ymax": 520.0,
+        "zmin": 8.0,
+        "zmax": 246.0
+      },
+      "validation": {
+        "valid_after_reimport": true,
+        "solids": 69,
+        "faces": 721,
+        "colors": 3,
+        "volume_relative_error": 8.005041155418395e-16,
+        "volume_relative_error_limit": 0.0001,
+        "volume_before_mm3": 1163420.0955795106,
+        "volume_after_mm3": 1163420.0955795115,
+        "adaptive_volume_tolerance": 1e-09,
+        "bbox_error_mm": 0.0,
+        "bbox_error_limit_mm": 0.01,
+        "void_and_material_probes": [],
+        "elapsed_seconds": 4.120049900000595
+      },
+      "parts": [
+        {
+          "name": "C01_1",
+          "color_linear_rgb": [
+            0.56,
+            0.59,
+            0.63
+          ],
+          "solids": 1
+        },
+        {
+          "name": "C05_1",
+          "color_linear_rgb": [
+            0.075,
+            0.09,
+            0.11
+          ],
+          "solids": 1
+        },
+        {
+          "name": "C06_1",
+          "color_linear_rgb": [
+            0.075,
+            0.09,
+            0.11
+          ],
+          "solids": 1
+        },
+        {
+          "name": "C12_1",
+          "color_linear_rgb": [
+            0.075,
+            0.09,
+            0.11
+          ],
+          "solids": 1
+        },
+        {
+          "name": "C13_1",
+          "color_linear_rgb": [
+            0.56,
+            0.59,
+            0.63
+          ],
+          "solids": 1
+        },
+        {
+          "name": "C14_1",
+          "color_linear_rgb": [
+            0.075,
+            0.09,
+            0.11
+          ],
+          "solids": 1
+        },
+        {
+          "name": "C15_1",
+          "color_linear_rgb": [
+            0.075,
+            0.09,
+            0.11
+          ],
+          "solids": 1
+        },
+        {
+          "name": "C11G_1",
+          "color_linear_rgb": [
+            0.075,
+            0.09,
+            0.11
+          ],
+          "solids": 1
+        },
+        {
+          "name": "C11D_1",
+          "color_linear_rgb": [
+            0.075,
+            0.09,
+            0.11
+          ],
+          "solids": 1
+        },
+        {
+          "name": "C04D_1",
+          "color_linear_rgb": [
+            0.56,
+            0.59,
+            0.63
+          ],
+          "solids": 1
+        },
+        {
+          "name": "C04G_1",
+          "color_linear_rgb": [
+            0.56,
+            0.59,
+            0.63
+          ],
+          "solids": 1
+        },
+        {
+          "name": "C03_1",
+          "color_linear_rgb": [
+            0.56,
+            0.59,
+            0.63
+          ],
+          "solids": 1
+        },
+        {
+          "name": "C07_1",
+          "color_linear_rgb": [
+            0.56,
+            0.59,
+            0.63
+          ],
+          "solids": 1
+        },
+        {
+          "name": "C08_1",
+          "color_linear_rgb": [
+            0.56,
+            0.59,
+            0.63
+          ],
+          "solids": 1
+        },
+        {
+          "name": "C02_1",
+          "color_linear_rgb": [
+            0.56,
+            0.59,
+            0.63
+          ],
+          "solids": 1
+        },
+        {
+          "name": "C09_1",
+          "color_linear_rgb": [
+            0.075,
+            0.09,
+            0.11
+          ],
+          "solids": 1
+        },
+        {
+          "name": "C09_2",
+          "color_linear_rgb": [
+            0.075,
+            0.09,
+            0.11
+          ],
+          "solids": 1
+        },
+        {
+          "name": "C10_1",
+          "color_linear_rgb": [
+            0.075,
+            0.09,
+            0.11
+          ],
+          "solids": 1
+        },
+        {
+          "name": "C16_1",
+          "color_linear_rgb": [
+            0.075,
+            0.09,
+            0.11
+          ],
+          "solids": 1
+        },
+        {
+          "name": "C16_2",
+          "color_linear_rgb": [
+            0.075,
+            0.09,
+            0.11
+          ],
+          "solids": 1
+        },
+        {
+          "name": "C17_1",
+          "color_linear_rgb": [
+            0.075,
+            0.09,
+            0.11
+          ],
+          "solids": 1
+        },
+        {
+          "name": "C17_2",
+          "color_linear_rgb": [
+            0.075,
+            0.09,
+            0.11
+          ],
+          "solids": 1
+        },
+        {
+          "name": "C17_3",
+          "color_linear_rgb": [
+            0.075,
+            0.09,
+            0.11
+          ],
+          "solids": 1
+        },
+        {
+          "name": "C17_4",
+          "color_linear_rgb": [
+            0.075,
+            0.09,
+            0.11
+          ],
+          "solids": 1
+        },
+        {
+          "name": "C18_1",
+          "color_linear_rgb": [
+            0.56,
+            0.59,
+            0.63
+          ],
+          "solids": 1
+        },
+        {
+          "name": "C18_2",
+          "color_linear_rgb": [
+            0.56,
+            0.59,
+            0.63
+          ],
+          "solids": 1
+        },
+        {
+          "name": "C19_1",
+          "color_linear_rgb": [
+            0.56,
+            0.59,
+            0.63
+          ],
+          "solids": 1
+        },
+        {
+          "name": "L01_longeron_-1",
+          "color_linear_rgb": [
+            0.56,
+            0.59,
+            0.63
+          ],
+          "solids": 1
+        },
+        {
+          "name": "L01_longeron_1",
+          "color_linear_rgb": [
+            0.56,
+            0.59,
+            0.63
+          ],
+          "solids": 1
+        },
+        {
+          "name": "L02_pied_camera_-128",
+          "color_linear_rgb": [
+            0.56,
+            0.59,
+            0.63
+          ],
+          "solids": 1
+        },
+        {
+          "name": "L02_pied_camera_128",
+          "color_linear_rgb": [
+            0.56,
+            0.59,
+            0.63
+          ],
+          "solids": 1
+        },
+        {
+          "name": "L03_angle_pivot_camera",
+          "color_linear_rgb": [
+            0.56,
+            0.59,
+            0.63
+          ],
+          "solids": 1
+        },
+        {
+          "name": "T01_L70_-72_194",
+          "color_linear_rgb": [
+            0.56,
+            0.59,
+            0.63
+          ],
+          "solids": 1
+        },
+        {
+          "name": "T01_L70_-72_408",
+          "color_linear_rgb": [
+            0.56,
+            0.59,
+            0.63
+          ],
+          "solids": 1
+        },
+        {
+          "name": "T01_L70_72_194",
+          "color_linear_rgb": [
+            0.56,
+            0.59,
+            0.63
+          ],
+          "solids": 1
+        },
+        {
+          "name": "T01_L70_72_408",
+          "color_linear_rgb": [
+            0.56,
+            0.59,
+            0.63
+          ],
+          "solids": 1
+        },
+        {
+          "name": "T02_L56_-133_102",
+          "color_linear_rgb": [
+            0.56,
+            0.59,
+            0.63
+          ],
+          "solids": 1
+        },
+        {
+          "name": "T02_L56_-133_178",
+          "color_linear_rgb": [
+            0.56,
+            0.59,
+            0.63
+          ],
+          "solids": 1
+        },
+        {
+          "name": "T02_L56_-57_102",
+          "color_linear_rgb": [
+            0.56,
+            0.59,
+            0.63
+          ],
+          "solids": 1
+        },
+        {
+          "name": "T02_L56_-57_178",
+          "color_linear_rgb": [
+            0.56,
+            0.59,
+            0.63
+          ],
+          "solids": 1
+        },
+        {
+          "name": "N01_entretoise_servo_-23_68",
+          "color_linear_rgb": [
+            0.018,
+            0.022,
+            0.027
+          ],
+          "solids": 1
+        },
+        {
+          "name": "N01_entretoise_servo_-23_92",
+          "color_linear_rgb": [
+            0.018,
+            0.022,
+            0.027
+          ],
+          "solids": 1
+        },
+        {
+          "name": "N01_entretoise_servo_23_68",
+          "color_linear_rgb": [
+            0.018,
+            0.022,
+            0.027
+          ],
+          "solids": 1
+        },
+        {
+          "name": "N01_entretoise_servo_23_92",
+          "color_linear_rgb": [
+            0.018,
+            0.022,
+            0.027
+          ],
+          "solids": 1
+        },
+        {
+          "name": "N02_cale3_44",
+          "color_linear_rgb": [
+            0.018,
+            0.022,
+            0.027
+          ],
+          "solids": 1
+        },
+        {
+          "name": "N02_cale3_45",
+          "color_linear_rgb": [
+            0.018,
+            0.022,
+            0.027
+          ],
+          "solids": 1
+        },
+        {
+          "name": "N02_cale3_46",
+          "color_linear_rgb": [
+            0.018,
+            0.022,
+            0.027
+          ],
+          "solids": 1
+        },
+        {
+          "name": "N02_cale3_47",
+          "color_linear_rgb": [
+            0.018,
+            0.022,
+            0.027
+          ],
+          "solids": 1
+        },
+        {
+          "name": "N02_cale3_48",
+          "color_linear_rgb": [
+            0.018,
+            0.022,
+            0.027
+          ],
+          "solids": 1
+        },
+        {
+          "name": "N02_cale3_49",
+          "color_linear_rgb": [
+            0.018,
+            0.022,
+            0.027
+          ],
+          "solids": 1
+        },
+        {
+          "name": "N02_cale3_50",
+          "color_linear_rgb": [
+            0.018,
+            0.022,
+            0.027
+          ],
+          "solids": 1
+        },
+        {
+          "name": "N02_cale3_51",
+          "color_linear_rgb": [
+            0.018,
+            0.022,
+            0.027
+          ],
+          "solids": 1
+        },
+        {
+          "name": "N02_cale3_52",
+          "color_linear_rgb": [
+            0.018,
+            0.022,
+            0.027
+          ],
+          "solids": 1
+        },
+        {
+          "name": "N02_cale3_53",
+          "color_linear_rgb": [
+            0.018,
+            0.022,
+            0.027
+          ],
+          "solids": 1
+        },
+        {
+          "name": "N02_cale3_54",
+          "color_linear_rgb": [
+            0.018,
+            0.022,
+            0.027
+          ],
+          "solids": 1
+        },
+        {
+          "name": "N02_cale3_55",
+          "color_linear_rgb": [
+            0.018,
+            0.022,
+            0.027
+          ],
+          "solids": 1
+        },
+        {
+          "name": "N02_cale3_56",
+          "color_linear_rgb": [
+            0.018,
+            0.022,
+            0.027
+          ],
+          "solids": 1
+        },
+        {
+          "name": "N02_cale3_57",
+          "color_linear_rgb": [
+            0.018,
+            0.022,
+            0.027
+          ],
+          "solids": 1
+        },
+        {
+          "name": "N02_cale3_58",
+          "color_linear_rgb": [
+            0.018,
+            0.022,
+            0.027
+          ],
+          "solids": 1
+        },
+        {
+          "name": "N02_cale3_59",
+          "color_linear_rgb": [
+            0.018,
+            0.022,
+            0.027
+          ],
+          "solids": 1
+        },
+        {
+          "name": "N02_cale3_60",
+          "color_linear_rgb": [
+            0.018,
+            0.022,
+            0.027
+          ],
+          "solids": 1
+        },
+        {
+          "name": "N02_cale3_61",
+          "color_linear_rgb": [
+            0.018,
+            0.022,
+            0.027
+          ],
+          "solids": 1
+        },
+        {
+          "name": "N02_cale3_62",
+          "color_linear_rgb": [
+            0.018,
+            0.022,
+            0.027
+          ],
+          "solids": 1
+        },
+        {
+          "name": "N02_cale3_63",
+          "color_linear_rgb": [
+            0.018,
+            0.022,
+            0.027
+          ],
+          "solids": 1
+        },
+        {
+          "name": "N02_cale3_64",
+          "color_linear_rgb": [
+            0.018,
+            0.022,
+            0.027
+          ],
+          "solids": 1
+        },
+        {
+          "name": "N02_cale3_65",
+          "color_linear_rgb": [
+            0.018,
+            0.022,
+            0.027
+          ],
+          "solids": 1
+        },
+        {
+          "name": "N02_cale3_66",
+          "color_linear_rgb": [
+            0.018,
+            0.022,
+            0.027
+          ],
+          "solids": 1
+        },
+        {
+          "name": "S01_patin_silicone140x46x2",
+          "color_linear_rgb": [
+            0.018,
+            0.022,
+            0.027
+          ],
+          "solids": 1
+        },
+        {
+          "name": "S02_bumper_EVA260x15x6",
+          "color_linear_rgb": [
+            0.018,
+            0.022,
+            0.027
+          ],
+          "solids": 1
+        }
+      ],
+      "preview": {
+        "file": "chassis-a2-r1-nu.png",
+        "sha256": "bf517ccb763ed417855e9f8440ae8c417148aa06261ce0d4534b7b51589d8ee4"
+      },
+      "hardware_tested": false
+    },
+    {
+      "file": "chassis-a2-r1-implante.step",
+      "title": "A2-R1 | implantation, gabarits identifies",
+      "generated_on": "2026-10-15",
+      "unit": "mm",
+      "cadquery_version": "2.8.0",
+      "coordinate_system": "X transversal, -Y marche avant, Z haut ; solZ0, plateauY0..520, rouesAV55/AR445. mm.",
+      "bytes": 6642932,
+      "sha256": "5b015bf59800b186dc31814df4c4378941578aacca3340b4b615a4e91fa311f5",
+      "native_vendor_cad": false,
+      "hardware_measured": false,
+      "is_custom_project_design": true,
+      "published_nominal": [],
+      "estimates_and_limitations": [
+        "Custom chassis prototype; no machining, measurement or structural/thermal qualification.",
+        "Equipment named reserve/gabarit is only an allocation envelope; not production CAD or a certified complete fit.",
+        "Final purchased part holes, transmission internal mounting and actual front wheel offset remain to check on removable adapters."
+      ],
+      "parameters": {
+        "plate": [
+          300,
+          520,
+          3
+        ],
+        "wheelbase": 390,
+        "wheel_center_track": 400,
+        "ground_clearance": 8,
+        "steering_limit_deg": 30
+      },
+      "source_pages": [
+        "../SPECIFICATIONS.md; ../PLAN-CONCEPTION.md; implantation.json; ../../image.png"
+      ],
+      "bounds_mm": {
+        "xmin": -213.0,
+        "xmax": 213.0,
+        "ymin": -6.0,
+        "ymax": 520.0,
+        "zmin": 0.0,
+        "zmax": 258.68292504874
+      },
+      "validation": {
+        "valid_after_reimport": true,
+        "solids": 225,
+        "faces": 1950,
+        "colors": 17,
+        "volume_relative_error": 8.05706889865549e-15,
+        "volume_relative_error_limit": 0.0001,
+        "volume_before_mm3": 3467722.2684699567,
+        "volume_after_mm3": 3467722.2684699288,
+        "adaptive_volume_tolerance": 1e-09,
+        "bbox_error_mm": 6.821210263296962e-12,
+        "bbox_error_limit_mm": 0.01,
+        "void_and_material_probes": [],
+        "elapsed_seconds": 9.614976699998806
+      },
+      "parts": [
+        {
+          "name": "C01_1",
+          "color_linear_rgb": [
+            0.56,
+            0.59,
+            0.63
+          ],
+          "solids": 1
+        },
+        {
+          "name": "C05_1",
+          "color_linear_rgb": [
+            0.075,
+            0.09,
+            0.11
+          ],
+          "solids": 1
+        },
+        {
+          "name": "C06_1",
+          "color_linear_rgb": [
+            0.075,
+            0.09,
+            0.11
+          ],
+          "solids": 1
+        },
+        {
+          "name": "C12_1",
+          "color_linear_rgb": [
+            0.075,
+            0.09,
+            0.11
+          ],
+          "solids": 1
+        },
+        {
+          "name": "C13_1",
+          "color_linear_rgb": [
+            0.56,
+            0.59,
+            0.63
+          ],
+          "solids": 1
+        },
+        {
+          "name": "C14_1",
+          "color_linear_rgb": [
+            0.075,
+            0.09,
+            0.11
+          ],
+          "solids": 1
+        },
+        {
+          "name": "C15_1",
+          "color_linear_rgb": [
+            0.075,
+            0.09,
+            0.11
+          ],
+          "solids": 1
+        },
+        {
+          "name": "C11G_1",
+          "color_linear_rgb": [
+            0.075,
+            0.09,
+            0.11
+          ],
+          "solids": 1
+        },
+        {
+          "name": "C11D_1",
+          "color_linear_rgb": [
+            0.075,
+            0.09,
+            0.11
+          ],
+          "solids": 1
+        },
+        {
+          "name": "C04D_1",
+          "color_linear_rgb": [
+            0.56,
+            0.59,
+            0.63
+          ],
+          "solids": 1
+        },
+        {
+          "name": "C04G_1",
+          "color_linear_rgb": [
+            0.56,
+            0.59,
+            0.63
+          ],
+          "solids": 1
+        },
+        {
+          "name": "C03_1",
+          "color_linear_rgb": [
+            0.56,
+            0.59,
+            0.63
+          ],
+          "solids": 1
+        },
+        {
+          "name": "C07_1",
+          "color_linear_rgb": [
+            0.56,
+            0.59,
+            0.63
+          ],
+          "solids": 1
+        },
+        {
+          "name": "C08_1",
+          "color_linear_rgb": [
+            0.56,
+            0.59,
+            0.63
+          ],
+          "solids": 1
+        },
+        {
+          "name": "C02_1",
+          "color_linear_rgb": [
+            0.56,
+            0.59,
+            0.63
+          ],
+          "solids": 1
+        },
+        {
+          "name": "C09_1",
+          "color_linear_rgb": [
+            0.075,
+            0.09,
+            0.11
+          ],
+          "solids": 1
+        },
+        {
+          "name": "C09_2",
+          "color_linear_rgb": [
+            0.075,
+            0.09,
+            0.11
+          ],
+          "solids": 1
+        },
+        {
+          "name": "C10_1",
+          "color_linear_rgb": [
+            0.075,
+            0.09,
+            0.11
+          ],
+          "solids": 1
+        },
+        {
+          "name": "C16_1",
+          "color_linear_rgb": [
+            0.075,
+            0.09,
+            0.11
+          ],
+          "solids": 1
+        },
+        {
+          "name": "C16_2",
+          "color_linear_rgb": [
+            0.075,
+            0.09,
+            0.11
+          ],
+          "solids": 1
+        },
+        {
+          "name": "C17_1",
+          "color_linear_rgb": [
+            0.075,
+            0.09,
+            0.11
+          ],
+          "solids": 1
+        },
+        {
+          "name": "C17_2",
+          "color_linear_rgb": [
+            0.075,
+            0.09,
+            0.11
+          ],
+          "solids": 1
+        },
+        {
+          "name": "C17_3",
+          "color_linear_rgb": [
+            0.075,
+            0.09,
+            0.11
+          ],
+          "solids": 1
+        },
+        {
+          "name": "C17_4",
+          "color_linear_rgb": [
+            0.075,
+            0.09,
+            0.11
+          ],
+          "solids": 1
+        },
+        {
+          "name": "C18_1",
+          "color_linear_rgb": [
+            0.56,
+            0.59,
+            0.63
+          ],
+          "solids": 1
+        },
+        {
+          "name": "C18_2",
+          "color_linear_rgb": [
+            0.56,
+            0.59,
+            0.63
+          ],
+          "solids": 1
+        },
+        {
+          "name": "C19_1",
+          "color_linear_rgb": [
+            0.56,
+            0.59,
+            0.63
+          ],
+          "solids": 1
+        },
+        {
+          "name": "L01_longeron_-1",
+          "color_linear_rgb": [
+            0.56,
+            0.59,
+            0.63
+          ],
+          "solids": 1
+        },
+        {
+          "name": "L01_longeron_1",
+          "color_linear_rgb": [
+            0.56,
+            0.59,
+            0.63
+          ],
+          "solids": 1
+        },
+        {
+          "name": "L02_pied_camera_-128",
+          "color_linear_rgb": [
+            0.56,
+            0.59,
+            0.63
+          ],
+          "solids": 1
+        },
+        {
+          "name": "L02_pied_camera_128",
+          "color_linear_rgb": [
+            0.56,
+            0.59,
+            0.63
+          ],
+          "solids": 1
+        },
+        {
+          "name": "L03_angle_pivot_camera",
+          "color_linear_rgb": [
+            0.56,
+            0.59,
+            0.63
+          ],
+          "solids": 1
+        },
+        {
+          "name": "T01_L70_-72_194",
+          "color_linear_rgb": [
+            0.56,
+            0.59,
+            0.63
+          ],
+          "solids": 1
+        },
+        {
+          "name": "T01_L70_-72_408",
+          "color_linear_rgb": [
+            0.56,
+            0.59,
+            0.63
+          ],
+          "solids": 1
+        },
+        {
+          "name": "T01_L70_72_194",
+          "color_linear_rgb": [
+            0.56,
+            0.59,
+            0.63
+          ],
+          "solids": 1
+        },
+        {
+          "name": "T01_L70_72_408",
+          "color_linear_rgb": [
+            0.56,
+            0.59,
+            0.63
+          ],
+          "solids": 1
+        },
+        {
+          "name": "T02_L56_-133_102",
+          "color_linear_rgb": [
+            0.56,
+            0.59,
+            0.63
+          ],
+          "solids": 1
+        },
+        {
+          "name": "T02_L56_-133_178",
+          "color_linear_rgb": [
+            0.56,
+            0.59,
+            0.63
+          ],
+          "solids": 1
+        },
+        {
+          "name": "T02_L56_-57_102",
+          "color_linear_rgb": [
+            0.56,
+            0.59,
+            0.63
+          ],
+          "solids": 1
+        },
+        {
+          "name": "T02_L56_-57_178",
+          "color_linear_rgb": [
+            0.56,
+            0.59,
+            0.63
+          ],
+          "solids": 1
+        },
+        {
+          "name": "N01_entretoise_servo_-23_68",
+          "color_linear_rgb": [
+            0.018,
+            0.022,
+            0.027
+          ],
+          "solids": 1
+        },
+        {
+          "name": "N01_entretoise_servo_-23_92",
+          "color_linear_rgb": [
+            0.018,
+            0.022,
+            0.027
+          ],
+          "solids": 1
+        },
+        {
+          "name": "N01_entretoise_servo_23_68",
+          "color_linear_rgb": [
+            0.018,
+            0.022,
+            0.027
+          ],
+          "solids": 1
+        },
+        {
+          "name": "N01_entretoise_servo_23_92",
+          "color_linear_rgb": [
+            0.018,
+            0.022,
+            0.027
+          ],
+          "solids": 1
+        },
+        {
+          "name": "N02_cale3_44",
+          "color_linear_rgb": [
+            0.018,
+            0.022,
+            0.027
+          ],
+          "solids": 1
+        },
+        {
+          "name": "N02_cale3_45",
+          "color_linear_rgb": [
+            0.018,
+            0.022,
+            0.027
+          ],
+          "solids": 1
+        },
+        {
+          "name": "N02_cale3_46",
+          "color_linear_rgb": [
+            0.018,
+            0.022,
+            0.027
+          ],
+          "solids": 1
+        },
+        {
+          "name": "N02_cale3_47",
+          "color_linear_rgb": [
+            0.018,
+            0.022,
+            0.027
+          ],
+          "solids": 1
+        },
+        {
+          "name": "N02_cale3_48",
+          "color_linear_rgb": [
+            0.018,
+            0.022,
+            0.027
+          ],
+          "solids": 1
+        },
+        {
+          "name": "N02_cale3_49",
+          "color_linear_rgb": [
+            0.018,
+            0.022,
+            0.027
+          ],
+          "solids": 1
+        },
+        {
+          "name": "N02_cale3_50",
+          "color_linear_rgb": [
+            0.018,
+            0.022,
+            0.027
+          ],
+          "solids": 1
+        },
+        {
+          "name": "N02_cale3_51",
+          "color_linear_rgb": [
+            0.018,
+            0.022,
+            0.027
+          ],
+          "solids": 1
+        },
+        {
+          "name": "N02_cale3_52",
+          "color_linear_rgb": [
+            0.018,
+            0.022,
+            0.027
+          ],
+          "solids": 1
+        },
+        {
+          "name": "N02_cale3_53",
+          "color_linear_rgb": [
+            0.018,
+            0.022,
+            0.027
+          ],
+          "solids": 1
+        },
+        {
+          "name": "N02_cale3_54",
+          "color_linear_rgb": [
+            0.018,
+            0.022,
+            0.027
+          ],
+          "solids": 1
+        },
+        {
+          "name": "N02_cale3_55",
+          "color_linear_rgb": [
+            0.018,
+            0.022,
+            0.027
+          ],
+          "solids": 1
+        },
+        {
+          "name": "N02_cale3_56",
+          "color_linear_rgb": [
+            0.018,
+            0.022,
+            0.027
+          ],
+          "solids": 1
+        },
+        {
+          "name": "N02_cale3_57",
+          "color_linear_rgb": [
+            0.018,
+            0.022,
+            0.027
+          ],
+          "solids": 1
+        },
+        {
+          "name": "N02_cale3_58",
+          "color_linear_rgb": [
+            0.018,
+            0.022,
+            0.027
+          ],
+          "solids": 1
+        },
+        {
+          "name": "N02_cale3_59",
+          "color_linear_rgb": [
+            0.018,
+            0.022,
+            0.027
+          ],
+          "solids": 1
+        },
+        {
+          "name": "N02_cale3_60",
+          "color_linear_rgb": [
+            0.018,
+            0.022,
+            0.027
+          ],
+          "solids": 1
+        },
+        {
+          "name": "N02_cale3_61",
+          "color_linear_rgb": [
+            0.018,
+            0.022,
+            0.027
+          ],
+          "solids": 1
+        },
+        {
+          "name": "N02_cale3_62",
+          "color_linear_rgb": [
+            0.018,
+            0.022,
+            0.027
+          ],
+          "solids": 1
+        },
+        {
+          "name": "N02_cale3_63",
+          "color_linear_rgb": [
+            0.018,
+            0.022,
+            0.027
+          ],
+          "solids": 1
+        },
+        {
+          "name": "N02_cale3_64",
+          "color_linear_rgb": [
+            0.018,
+            0.022,
+            0.027
+          ],
+          "solids": 1
+        },
+        {
+          "name": "N02_cale3_65",
+          "color_linear_rgb": [
+            0.018,
+            0.022,
+            0.027
+          ],
+          "solids": 1
+        },
+        {
+          "name": "N02_cale3_66",
+          "color_linear_rgb": [
+            0.018,
+            0.022,
+            0.027
+          ],
+          "solids": 1
+        },
+        {
+          "name": "S01_patin_silicone140x46x2",
+          "color_linear_rgb": [
+            0.018,
+            0.022,
+            0.027
+          ],
+          "solids": 1
+        },
+        {
+          "name": "S02_bumper_EVA260x15x6",
+          "color_linear_rgb": [
+            0.018,
+            0.022,
+            0.027
+          ],
+          "solids": 1
+        },
+        {
+          "name": "B01_G1_IC5_139x46x25",
+          "color_linear_rgb": [
+            0.018,
+            0.022,
+            0.027
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Sangle20_gabarit_230",
+          "color_linear_rgb": [
+            0.018,
+            0.022,
+            0.027
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Sangle20_gabarit_310",
+          "color_linear_rgb": [
+            0.018,
+            0.022,
+            0.027
+          ],
+          "solids": 1
+        },
+        {
+          "name": "ED80_corps_sous_panneau_gabarit",
+          "color_linear_rgb": [
+            0.018,
+            0.022,
+            0.027
+          ],
+          "solids": 1
+        },
+        {
+          "name": "ED80_collet_gabarit",
+          "color_linear_rgb": [
+            0.018,
+            0.022,
+            0.027
+          ],
+          "solids": 1
+        },
+        {
+          "name": "ED80_tige_gabarit",
+          "color_linear_rgb": [
+            0.018,
+            0.022,
+            0.027
+          ],
+          "solids": 1
+        },
+        {
+          "name": "ED80_col_bouton_gabarit",
+          "color_linear_rgb": [
+            0.65,
+            0.018,
+            0.01
+          ],
+          "solids": 1
+        },
+        {
+          "name": "ED80_bouton_gabarit",
+          "color_linear_rgb": [
+            0.65,
+            0.018,
+            0.01
+          ],
+          "solids": 1
+        },
+        {
+          "name": "ED80_borne_gabarit_129.5",
+          "color_linear_rgb": [
+            0.42,
+            0.45,
+            0.49
+          ],
+          "solids": 1
+        },
+        {
+          "name": "ED80_borne_gabarit_150.5",
+          "color_linear_rgb": [
+            0.42,
+            0.45,
+            0.49
+          ],
+          "solids": 1
+        },
+        {
+          "name": "F0_LFT_JLLN50_reserve_NON_CAO",
+          "color_linear_rgb": [
+            0.025,
+            0.19,
+            0.31
+          ],
+          "solids": 1
+        },
+        {
+          "name": "F1_KLKD20_reserve_NON_CAO",
+          "color_linear_rgb": [
+            0.025,
+            0.19,
+            0.31
+          ],
+          "solids": 1
+        },
+        {
+          "name": "F2_KLKD20_reserve_NON_CAO",
+          "color_linear_rgb": [
+            0.025,
+            0.19,
+            0.31
+          ],
+          "solids": 1
+        },
+        {
+          "name": "FP_KLKD10_reserve_NON_CAO",
+          "color_linear_rgb": [
+            0.025,
+            0.19,
+            0.31
+          ],
+          "solids": 1
+        },
+        {
+          "name": "FAUX_KLKD1_reserve_NON_CAO",
+          "color_linear_rgb": [
+            0.025,
+            0.19,
+            0.31
+          ],
+          "solids": 1
+        },
+        {
+          "name": "D_plus_2315_base_gabarit",
+          "color_linear_rgb": [
+            0.018,
+            0.022,
+            0.027
+          ],
+          "solids": 1
+        },
+        {
+          "name": "D_plus_2315_barre_gabarit",
+          "color_linear_rgb": [
+            0.42,
+            0.45,
+            0.49
+          ],
+          "solids": 1
+        },
+        {
+          "name": "D_plus_goujon_sans_filetage_0",
+          "color_linear_rgb": [
+            0.42,
+            0.45,
+            0.49
+          ],
+          "solids": 1
+        },
+        {
+          "name": "D_plus_goujon_sans_filetage_1",
+          "color_linear_rgb": [
+            0.42,
+            0.45,
+            0.49
+          ],
+          "solids": 1
+        },
+        {
+          "name": "D_plus_goujon_sans_filetage_2",
+          "color_linear_rgb": [
+            0.42,
+            0.45,
+            0.49
+          ],
+          "solids": 1
+        },
+        {
+          "name": "D_plus_goujon_sans_filetage_3",
+          "color_linear_rgb": [
+            0.42,
+            0.45,
+            0.49
+          ],
+          "solids": 1
+        },
+        {
+          "name": "D_plus_capot_gabarit",
+          "color_linear_rgb": [
+            0.025,
+            0.19,
+            0.31
+          ],
+          "solids": 1
+        },
+        {
+          "name": "D_moins_2315_base_gabarit",
+          "color_linear_rgb": [
+            0.018,
+            0.022,
+            0.027
+          ],
+          "solids": 1
+        },
+        {
+          "name": "D_moins_2315_barre_gabarit",
+          "color_linear_rgb": [
+            0.42,
+            0.45,
+            0.49
+          ],
+          "solids": 1
+        },
+        {
+          "name": "D_moins_goujon_sans_filetage_0",
+          "color_linear_rgb": [
+            0.42,
+            0.45,
+            0.49
+          ],
+          "solids": 1
+        },
+        {
+          "name": "D_moins_goujon_sans_filetage_1",
+          "color_linear_rgb": [
+            0.42,
+            0.45,
+            0.49
+          ],
+          "solids": 1
+        },
+        {
+          "name": "D_moins_goujon_sans_filetage_2",
+          "color_linear_rgb": [
+            0.42,
+            0.45,
+            0.49
+          ],
+          "solids": 1
+        },
+        {
+          "name": "D_moins_goujon_sans_filetage_3",
+          "color_linear_rgb": [
+            0.42,
+            0.45,
+            0.49
+          ],
+          "solids": 1
+        },
+        {
+          "name": "D_moins_capot_gabarit",
+          "color_linear_rgb": [
+            0.025,
+            0.19,
+            0.31
+          ],
+          "solids": 1
+        },
+        {
+          "name": "HS251_semelle_gabarit",
+          "color_linear_rgb": [
+            0.56,
+            0.59,
+            0.63
+          ],
+          "solids": 1
+        },
+        {
+          "name": "HS251_ailette_estimee_0",
+          "color_linear_rgb": [
+            0.56,
+            0.59,
+            0.63
+          ],
+          "solids": 1
+        },
+        {
+          "name": "HS251_ailette_estimee_1",
+          "color_linear_rgb": [
+            0.56,
+            0.59,
+            0.63
+          ],
+          "solids": 1
+        },
+        {
+          "name": "HS251_ailette_estimee_2",
+          "color_linear_rgb": [
+            0.56,
+            0.59,
+            0.63
+          ],
+          "solids": 1
+        },
+        {
+          "name": "HS251_ailette_estimee_3",
+          "color_linear_rgb": [
+            0.56,
+            0.59,
+            0.63
+          ],
+          "solids": 1
+        },
+        {
+          "name": "HS251_ailette_estimee_4",
+          "color_linear_rgb": [
+            0.56,
+            0.59,
+            0.63
+          ],
+          "solids": 1
+        },
+        {
+          "name": "HS251_ailette_estimee_5",
+          "color_linear_rgb": [
+            0.56,
+            0.59,
+            0.63
+          ],
+          "solids": 1
+        },
+        {
+          "name": "HS251_ailette_estimee_6",
+          "color_linear_rgb": [
+            0.56,
+            0.59,
+            0.63
+          ],
+          "solids": 1
+        },
+        {
+          "name": "HS251_ailette_estimee_7",
+          "color_linear_rgb": [
+            0.56,
+            0.59,
+            0.63
+          ],
+          "solids": 1
+        },
+        {
+          "name": "HS251_ailette_estimee_8",
+          "color_linear_rgb": [
+            0.56,
+            0.59,
+            0.63
+          ],
+          "solids": 1
+        },
+        {
+          "name": "HS251_face_contact_gabarit",
+          "color_linear_rgb": [
+            0.56,
+            0.59,
+            0.63
+          ],
+          "solids": 1
+        },
+        {
+          "name": "D1D100_gabarit",
+          "color_linear_rgb": [
+            0.018,
+            0.022,
+            0.027
+          ],
+          "solids": 1
+        },
+        {
+          "name": "UD80A_reserve",
+          "color_linear_rgb": [
+            0.025,
+            0.19,
+            0.31
+          ],
+          "solids": 1
+        },
+        {
+          "name": "ESC_G",
+          "color_linear_rgb": [
+            0.018,
+            0.022,
+            0.027
+          ],
+          "solids": 1
+        },
+        {
+          "name": "ESC_D",
+          "color_linear_rgb": [
+            0.018,
+            0.022,
+            0.027
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Pi5_PCB_gabarit",
+          "color_linear_rgb": [
+            0.018,
+            0.18,
+            0.065
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Pi_ports_USB_Ethernet_gabarit",
+          "color_linear_rgb": [
+            0.42,
+            0.45,
+            0.49
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Pi_GPIO_signal9contacts_gabarit",
+          "color_linear_rgb": [
+            0.018,
+            0.022,
+            0.027
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Pi_ActiveCooler_gabarit",
+          "color_linear_rgb": [
+            0.56,
+            0.59,
+            0.63
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Pi_ventilateur_gabarit",
+          "color_linear_rgb": [
+            0.018,
+            0.022,
+            0.027
+          ],
+          "solids": 1
+        },
+        {
+          "name": "M1P_porteuse_et_corps",
+          "color_linear_rgb": [
+            0.018,
+            0.18,
+            0.065
+          ],
+          "solids": 1
+        },
+        {
+          "name": "EVM60_reserve_-38",
+          "color_linear_rgb": [
+            0.025,
+            0.19,
+            0.31
+          ],
+          "solids": 1
+        },
+        {
+          "name": "EVM60_reserve_38",
+          "color_linear_rgb": [
+            0.025,
+            0.19,
+            0.31
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Pololu2831_reserve",
+          "color_linear_rgb": [
+            0.025,
+            0.19,
+            0.31
+          ],
+          "solids": 1
+        },
+        {
+          "name": "D42V55F5_reserve",
+          "color_linear_rgb": [
+            0.018,
+            0.18,
+            0.065
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Pololu2813_HP_reserve",
+          "color_linear_rgb": [
+            0.018,
+            0.18,
+            0.065
+          ],
+          "solids": 1
+        },
+        {
+          "name": "WAGO413_INplus",
+          "color_linear_rgb": [
+            0.85,
+            0.23,
+            0.005
+          ],
+          "solids": 1
+        },
+        {
+          "name": "WAGO413_INmoins",
+          "color_linear_rgb": [
+            0.85,
+            0.23,
+            0.005
+          ],
+          "solids": 1
+        },
+        {
+          "name": "WAGO413_5V",
+          "color_linear_rgb": [
+            0.85,
+            0.23,
+            0.005
+          ],
+          "solids": 1
+        },
+        {
+          "name": "WAGO415_retours",
+          "color_linear_rgb": [
+            0.85,
+            0.23,
+            0.005
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Entretoise_Pi15_-31.5_353.5",
+          "color_linear_rgb": [
+            0.018,
+            0.022,
+            0.027
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Entretoise_Pi15_-31.5_402.5",
+          "color_linear_rgb": [
+            0.018,
+            0.022,
+            0.027
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Entretoise_Pi15_26.5_353.5",
+          "color_linear_rgb": [
+            0.018,
+            0.022,
+            0.027
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Entretoise_Pi15_26.5_402.5",
+          "color_linear_rgb": [
+            0.018,
+            0.022,
+            0.027
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Entretoise_M1_15_-66_274",
+          "color_linear_rgb": [
+            0.018,
+            0.022,
+            0.027
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Entretoise_M1_15_-66_341",
+          "color_linear_rgb": [
+            0.018,
+            0.022,
+            0.027
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Entretoise_M1_15_66_274",
+          "color_linear_rgb": [
+            0.018,
+            0.022,
+            0.027
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Entretoise_M1_15_66_341",
+          "color_linear_rgb": [
+            0.018,
+            0.022,
+            0.027
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Entretoise_EVM_10_-69_199",
+          "color_linear_rgb": [
+            0.018,
+            0.022,
+            0.027
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Entretoise_EVM_10_-69_261",
+          "color_linear_rgb": [
+            0.018,
+            0.022,
+            0.027
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Entretoise_EVM_10_-7_199",
+          "color_linear_rgb": [
+            0.018,
+            0.022,
+            0.027
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Entretoise_EVM_10_-7_261",
+          "color_linear_rgb": [
+            0.018,
+            0.022,
+            0.027
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Entretoise_EVM_10_7_199",
+          "color_linear_rgb": [
+            0.018,
+            0.022,
+            0.027
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Entretoise_EVM_10_7_261",
+          "color_linear_rgb": [
+            0.018,
+            0.022,
+            0.027
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Entretoise_EVM_10_69_199",
+          "color_linear_rgb": [
+            0.018,
+            0.022,
+            0.027
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Entretoise_EVM_10_69_261",
+          "color_linear_rgb": [
+            0.018,
+            0.022,
+            0.027
+          ],
+          "solids": 1
+        },
+        {
+          "name": "AC03_XH_zone_locale",
+          "color_linear_rgb": [
+            0.075,
+            0.09,
+            0.11
+          ],
+          "solids": 1
+        },
+        {
+          "name": "IC5_zone_connecteur",
+          "color_linear_rgb": [
+            0.85,
+            0.23,
+            0.005
+          ],
+          "solids": 1
+        },
+        {
+          "name": "HALL_D_P01_Equerre_fourche",
+          "color_linear_rgb": [
+            0.035,
+            0.15,
+            0.23
+          ],
+          "solids": 1
+        },
+        {
+          "name": "HALL_D_P02_Porte_capteur",
+          "color_linear_rgb": [
+            0.035,
+            0.15,
+            0.23
+          ],
+          "solids": 1
+        },
+        {
+          "name": "HALL_D_P03_Retenue_capteur",
+          "color_linear_rgb": [
+            0.035,
+            0.15,
+            0.23
+          ],
+          "solids": 1
+        },
+        {
+          "name": "HALL_D_DRV5033_corps_nominal_face_plusX",
+          "color_linear_rgb": [
+            0.015,
+            0.018,
+            0.022
+          ],
+          "solids": 1
+        },
+        {
+          "name": "HALL_D_DRV5033_VCC_patte_raccourcie6",
+          "color_linear_rgb": [
+            0.48,
+            0.51,
+            0.54
+          ],
+          "solids": 1
+        },
+        {
+          "name": "HALL_D_DRV5033_GND_patte_raccourcie6",
+          "color_linear_rgb": [
+            0.48,
+            0.51,
+            0.54
+          ],
+          "solids": 1
+        },
+        {
+          "name": "HALL_D_DRV5033_OUT_patte_raccourcie6",
+          "color_linear_rgb": [
+            0.48,
+            0.51,
+            0.54
+          ],
+          "solids": 1
+        },
+        {
+          "name": "HALL_D_P04_Rotor_capteur_faceX0",
+          "color_linear_rgb": [
+            0.75,
+            0.19,
+            0.025
+          ],
+          "solids": 1
+        },
+        {
+          "name": "HALL_D_Aimant_3x2_-1",
+          "color_linear_rgb": [
+            0.48,
+            0.51,
+            0.54
+          ],
+          "solids": 1
+        },
+        {
+          "name": "HALL_D_Vis_blocage_M3x8_nominale_-1",
+          "color_linear_rgb": [
+            0.48,
+            0.51,
+            0.54
+          ],
+          "solids": 1
+        },
+        {
+          "name": "HALL_D_Aimant_3x2_1",
+          "color_linear_rgb": [
+            0.48,
+            0.51,
+            0.54
+          ],
+          "solids": 1
+        },
+        {
+          "name": "HALL_D_Vis_blocage_M3x8_nominale_1",
+          "color_linear_rgb": [
+            0.48,
+            0.51,
+            0.54
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Transmission_D_limite_118",
+          "color_linear_rgb": [
+            0.025,
+            0.19,
+            0.31
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Transmission_D_limite_176",
+          "color_linear_rgb": [
+            0.025,
+            0.19,
+            0.31
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Transmission_D_limite_388",
+          "color_linear_rgb": [
+            0.025,
+            0.19,
+            0.31
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Transmission_D_limite_459",
+          "color_linear_rgb": [
+            0.025,
+            0.19,
+            0.31
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Moteur2435_D_corps_nominal",
+          "color_linear_rgb": [
+            0.65,
+            0.018,
+            0.01
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Moteur_D_axe2",
+          "color_linear_rgb": [
+            0.42,
+            0.45,
+            0.49
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Engrenage_D_130.5_425.5_enveloppe_sans_denture",
+          "color_linear_rgb": [
+            0.42,
+            0.45,
+            0.49
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Engrenage_D_119.5_445_enveloppe_sans_denture",
+          "color_linear_rgb": [
+            0.42,
+            0.45,
+            0.49
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Engrenage_D_119.5_425.5_enveloppe_sans_denture",
+          "color_linear_rgb": [
+            0.42,
+            0.45,
+            0.49
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Arbre_sortie_D_enveloppe_a_definir",
+          "color_linear_rgb": [
+            0.42,
+            0.45,
+            0.49
+          ],
+          "solids": 1
+        },
+        {
+          "name": "HALL_G_P01_Equerre_fourche",
+          "color_linear_rgb": [
+            0.035,
+            0.15,
+            0.23
+          ],
+          "solids": 1
+        },
+        {
+          "name": "HALL_G_P02_Porte_capteur",
+          "color_linear_rgb": [
+            0.035,
+            0.15,
+            0.23
+          ],
+          "solids": 1
+        },
+        {
+          "name": "HALL_G_P03_Retenue_capteur",
+          "color_linear_rgb": [
+            0.035,
+            0.15,
+            0.23
+          ],
+          "solids": 1
+        },
+        {
+          "name": "HALL_G_DRV5033_corps_nominal_face_plusX",
+          "color_linear_rgb": [
+            0.015,
+            0.018,
+            0.022
+          ],
+          "solids": 1
+        },
+        {
+          "name": "HALL_G_DRV5033_VCC_patte_raccourcie6",
+          "color_linear_rgb": [
+            0.48,
+            0.51,
+            0.54
+          ],
+          "solids": 1
+        },
+        {
+          "name": "HALL_G_DRV5033_GND_patte_raccourcie6",
+          "color_linear_rgb": [
+            0.48,
+            0.51,
+            0.54
+          ],
+          "solids": 1
+        },
+        {
+          "name": "HALL_G_DRV5033_OUT_patte_raccourcie6",
+          "color_linear_rgb": [
+            0.48,
+            0.51,
+            0.54
+          ],
+          "solids": 1
+        },
+        {
+          "name": "HALL_G_P04_Rotor_capteur_faceX0",
+          "color_linear_rgb": [
+            0.75,
+            0.19,
+            0.025
+          ],
+          "solids": 1
+        },
+        {
+          "name": "HALL_G_Aimant_3x2_-1",
+          "color_linear_rgb": [
+            0.48,
+            0.51,
+            0.54
+          ],
+          "solids": 1
+        },
+        {
+          "name": "HALL_G_Vis_blocage_M3x8_nominale_-1",
+          "color_linear_rgb": [
+            0.48,
+            0.51,
+            0.54
+          ],
+          "solids": 1
+        },
+        {
+          "name": "HALL_G_Aimant_3x2_1",
+          "color_linear_rgb": [
+            0.48,
+            0.51,
+            0.54
+          ],
+          "solids": 1
+        },
+        {
+          "name": "HALL_G_Vis_blocage_M3x8_nominale_1",
+          "color_linear_rgb": [
+            0.48,
+            0.51,
+            0.54
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Transmission_G_limite_118",
+          "color_linear_rgb": [
+            0.025,
+            0.19,
+            0.31
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Transmission_G_limite_176",
+          "color_linear_rgb": [
+            0.025,
+            0.19,
+            0.31
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Transmission_G_limite_388",
+          "color_linear_rgb": [
+            0.025,
+            0.19,
+            0.31
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Transmission_G_limite_459",
+          "color_linear_rgb": [
+            0.025,
+            0.19,
+            0.31
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Moteur2435_G_corps_nominal",
+          "color_linear_rgb": [
+            0.65,
+            0.018,
+            0.01
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Moteur_G_axe2",
+          "color_linear_rgb": [
+            0.42,
+            0.45,
+            0.49
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Engrenage_G_130.5_425.5_enveloppe_sans_denture",
+          "color_linear_rgb": [
+            0.42,
+            0.45,
+            0.49
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Engrenage_G_119.5_445_enveloppe_sans_denture",
+          "color_linear_rgb": [
+            0.42,
+            0.45,
+            0.49
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Engrenage_G_119.5_425.5_enveloppe_sans_denture",
+          "color_linear_rgb": [
+            0.42,
+            0.45,
+            0.49
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Arbre_sortie_G_enveloppe_a_definir",
+          "color_linear_rgb": [
+            0.42,
+            0.45,
+            0.49
+          ],
+          "solids": 1
+        },
+        {
+          "name": "F_AV_G_etude_existante",
+          "color_linear_rgb": [
+            0.56,
+            0.59,
+            0.63
+          ],
+          "solids": 1
+        },
+        {
+          "name": "A7_G_gabarit",
+          "color_linear_rgb": [
+            0.018,
+            0.022,
+            0.027
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Axe_avant_G_gabarit",
+          "color_linear_rgb": [
+            0.42,
+            0.45,
+            0.49
+          ],
+          "solids": 1
+        },
+        {
+          "name": "F_AV_D_etude_existante",
+          "color_linear_rgb": [
+            0.56,
+            0.59,
+            0.63
+          ],
+          "solids": 1
+        },
+        {
+          "name": "A7_D_gabarit",
+          "color_linear_rgb": [
+            0.018,
+            0.022,
+            0.027
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Axe_avant_D_gabarit",
+          "color_linear_rgb": [
+            0.42,
+            0.45,
+            0.49
+          ],
+          "solids": 1
+        },
+        {
+          "name": "FT90M_corps",
+          "color_linear_rgb": [
+            0.018,
+            0.022,
+            0.027
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Servo_palonnier_gabarit",
+          "color_linear_rgb": [
+            0.018,
+            0.022,
+            0.027
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Direction_biellette_gabarit",
+          "color_linear_rgb": [
+            0.42,
+            0.45,
+            0.49
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Pneu63x26_-200_55",
+          "color_linear_rgb": [
+            0.018,
+            0.022,
+            0.027
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Jante_gabarit_-200_55",
+          "color_linear_rgb": [
+            0.42,
+            0.45,
+            0.49
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Pneu63x26_-200_445",
+          "color_linear_rgb": [
+            0.018,
+            0.022,
+            0.027
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Jante_gabarit_-200_445",
+          "color_linear_rgb": [
+            0.42,
+            0.45,
+            0.49
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Pneu63x26_200_55",
+          "color_linear_rgb": [
+            0.018,
+            0.022,
+            0.027
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Jante_gabarit_200_55",
+          "color_linear_rgb": [
+            0.42,
+            0.45,
+            0.49
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Pneu63x26_200_445",
+          "color_linear_rgb": [
+            0.018,
+            0.022,
+            0.027
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Jante_gabarit_200_445",
+          "color_linear_rgb": [
+            0.42,
+            0.45,
+            0.49
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Camera_Berceau_P1_reutilise",
+          "color_linear_rgb": [
+            0.025,
+            0.19,
+            0.31
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Camera_CAM_Gabarit_PCB_32x32_estime",
+          "color_linear_rgb": [
+            0.035,
+            0.04,
+            0.045
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Camera_CAM_Objectif_gabarit_estime",
+          "color_linear_rgb": [
+            0.015,
+            0.015,
+            0.018
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Camera_CAM_Verre_gabarit_estime",
+          "color_linear_rgb": [
+            0.035,
+            0.12,
+            0.19
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Camera_CAM_USB_gabarit_estime",
+          "color_linear_rgb": [
+            0.45,
+            0.48,
+            0.5
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Camera_Entretoise_M2_12_-14_-14",
+          "color_linear_rgb": [
+            0.8,
+            0.79,
+            0.68
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Camera_Vis_M2x20_nominale_-14_-14",
+          "color_linear_rgb": [
+            0.8,
+            0.79,
+            0.68
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Camera_Ecrou_M2_nominal_-14_-14",
+          "color_linear_rgb": [
+            0.8,
+            0.79,
+            0.68
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Camera_Entretoise_M2_12_-14_14",
+          "color_linear_rgb": [
+            0.8,
+            0.79,
+            0.68
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Camera_Vis_M2x20_nominale_-14_14",
+          "color_linear_rgb": [
+            0.8,
+            0.79,
+            0.68
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Camera_Ecrou_M2_nominal_-14_14",
+          "color_linear_rgb": [
+            0.8,
+            0.79,
+            0.68
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Camera_Entretoise_M2_12_14_-14",
+          "color_linear_rgb": [
+            0.8,
+            0.79,
+            0.68
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Camera_Vis_M2x20_nominale_14_-14",
+          "color_linear_rgb": [
+            0.8,
+            0.79,
+            0.68
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Camera_Ecrou_M2_nominal_14_-14",
+          "color_linear_rgb": [
+            0.8,
+            0.79,
+            0.68
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Camera_Entretoise_M2_12_14_14",
+          "color_linear_rgb": [
+            0.8,
+            0.79,
+            0.68
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Camera_Vis_M2x20_nominale_14_14",
+          "color_linear_rgb": [
+            0.8,
+            0.79,
+            0.68
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Camera_Ecrou_M2_nominal_14_14",
+          "color_linear_rgb": [
+            0.8,
+            0.79,
+            0.68
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Pivot_camera_M4_nominal",
+          "color_linear_rgb": [
+            0.42,
+            0.45,
+            0.49
+          ],
+          "solids": 1
+        }
+      ],
+      "preview": {
+        "file": "chassis-a2-r1-implante.png",
+        "sha256": "6854c3eebf5138d508fcdc5b37fe3eaf1a870f76fbfd683d827290715424649a"
+      },
+      "hardware_tested": false
+    }
+  ],
+  "sources_sha256": {
+    "SPECIFICATIONS.md": "610d8f0ed306ab4bbc600ddc3a4bb0904bc596c3267f6e894ab2f8d9efe14a4d",
+    "PLAN-CONCEPTION.md": "687431037063f19cc87a1544da00d9954dcb0f821f42e71f580986a8fd4ffb7d",
+    "Composants/verification-alimentation/selection-active.json": "edee0ad57b9dadceab0b4e8e4c9c1c5550100ef96df6409874c2a1b5c93848ef",
+    "Composants/carte-surveillance-electrique/cotes.md": "e337d429f513db28dcbc712571cd1d2bc9dfab8cd67bae3209d0a1a4d0e22a4a",
+    "Composants/cordon-principal-batterie/references/SPMX50002S30H5-rcteam.json": "37dc5a385400d4d772b6550348efc785ee3dbec434b29a2a6ba53539e65993c1",
+    "Composants/coupure-manuelle/albright-ed80/3D/albright-ed80-ferme-detaille.step": "0ae802898dd53eb56ee37b0540ca4e56c985b50c331581d0dbbd8d5801142356",
+    "Composants/distribution-alimentation/bornier-2315/3D/bluesea-2315-complet-detaille.step": "7d06cb397015a81eee7815601b76c3cf250e16ec4d51ac3010454fc6e9a364b7",
+    "Composants/dissipateur-relais/3D/assemblage-d1d100-hs251-hsp1-etude.step": "1059165fdd23b291443b0dd108065bef0f9625fbd98b04b56878be7b2544fc66",
+    "Composants/supports-capteurs-vitesse/3D/station-capteur-vitesse-p1.step": "44de2087bd8824bfddb5e713b63c88718e5e3ed5246ecc32d1d3ea71fb6c724e",
+    "Composants/paliers-transmission/3D/fourche-f-av-v3-etude.step": "8c01847d6a7f40d0289a4c6f67f787b9cbcd9ece7a4b80f7f0807a8dd152d69e",
+    "Composants/support-camera/3D/berceau-camera-provisoire-p1.step": "636fb0ae57eec109a9b27a5304fe5fba94e1cd6d8247f51870bb3c60b62c2bb3"
+  },
+  "generator": "tools/build_chassis_r1.py",
+  "generator_sha256": "7087f974d777b0f3d85df65158828b964bc475262f5d70cfe1e2fdec614f66f7",
+  "hardware_tested": false
+}

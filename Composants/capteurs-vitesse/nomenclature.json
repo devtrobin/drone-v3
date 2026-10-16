@@ -1,0 +1,194 @@
+{
+  "date": "2026-10-15",
+  "items": [
+    {
+      "folder": "capteur-hall-drv5033",
+      "ref": "Texas Instruments DRV5033AJQLPG",
+      "qty": 2,
+      "name": "Capteur Hall numérique omnipolaire",
+      "buy": "https://fr.rs-online.com/web/p/capteurs-a-effet-hall/9009807",
+      "source": "https://www.ti.com/product/DRV5033/part-details/DRV5033AJQLPG",
+      "pdf": "TI-DRV5033-original.pdf",
+      "step": "drv5033ajqlpg-detaille.step",
+      "price": "RS France, catégorie semi-conducteurs : 4,16 EUR HT le lot de 10. TTC indicatif calculé à 20 % : 4,99 EUR. Stock affiché ; commande et livraison non vérifiées.",
+      "facts": [
+        [
+          "Alimentation",
+          "2,5 à 38 V ; alimentation V3 à 3,3 V du Pi"
+        ],
+        [
+          "Sortie",
+          "Drain ouvert actif bas, rappel externe nécessaire ; pas une sortie analogique"
+        ],
+        [
+          "Broches LPG",
+          "1 = VCC ; 2 = GND ; 3 = OUT. Suivre la vue TI, pas le brochage DBZ"
+        ],
+        [
+          "Seuil AJ, module du champ",
+          "BOP : 3 / 6,9 / 12 mT min / typ / max ; BRP : 1 / 3,5 / 5 mT"
+        ],
+        [
+          "Fréquence et délai",
+          "Bande passante 20 kHz min / 30 kHz typ ; délai de sortie 25 µs max sous conditions TI"
+        ],
+        [
+          "Courant",
+          "2,7 mA typ à 25 °C ; 3,6 mA max à 125 °C selon table TI"
+        ],
+        [
+          "Boîtier",
+          "LPG0003A : largeur 3,9-4,1 ; corps haut 3,05-3,25 ; épaisseur 1,42-1,62 mm"
+        ],
+        [
+          "Pattes",
+          "Pas 1,27 ±0,05 mm ; longueur sous corps 15,1-15,5 mm ; métal étamé"
+        ],
+        [
+          "Compléments",
+          "Un rappel 10 kΩ et un 100 nF par capteur ; aucun module adaptateur acheté"
+        ]
+      ],
+      "limits": "Le capteur est nu, sans PCB, câble ni aimant. Le TO-92 LPG est une forme plate chanfreinée, pas le demi-cylindre TO-92 générique. Les rayons, l’épaisseur du marquage +QLAJ et les nuances sont estimés ; la puce et ses connexions internes ne sont pas documentées."
+    },
+    {
+      "folder": "aimants-s-03-02-n",
+      "ref": "supermagnete S-03-02-N",
+      "qty": 4,
+      "name": "Aimant néodyme axial Ø3 × 2 mm",
+      "buy": "https://www.supermagnete.fr/aimants-disques-neodyme/disque-magnetique-3mm-2mm_S-03-02-N",
+      "source": "https://www.supermagnete.fr/data_sheet_S-03-02-N.pdf",
+      "pdf": "supermagnete-S-03-02-N-original.pdf",
+      "step": "aimant-s-03-02-n-detaille.step",
+      "price": "0,24 EUR TTC par pièce, lot minimum de 20 : 4,80 EUR TTC. Attention : panier minimum du site de 20 EUR, hors port ; cet achat seul ne coûte donc pas seulement 4,80 EUR.",
+      "facts": [
+        [
+          "Quantité montée",
+          "4 : deux aimants identiques à 180° par roue arrière"
+        ],
+        [
+          "Dimensions",
+          "Ø3 mm × hauteur 2 mm ; tolérance ±0,1 mm"
+        ],
+        [
+          "Matière et magnétisation",
+          "NdFeB fritté, grade N48, magnétisation axiale"
+        ],
+        [
+          "Surface",
+          "Ni-Cu-Ni, coloris argent ; épaisseurs de couches non publiées"
+        ],
+        [
+          "Masse",
+          "Page produit : 0,11 g arrondi ; fiche PDF : 0,1074 g"
+        ],
+        [
+          "Rémanence",
+          "1,37-1,42 T selon fiche de cet article"
+        ],
+        [
+          "Température",
+          "80 °C maximum d’utilisation ; intérieur sec"
+        ],
+        [
+          "Adhérence annoncée",
+          "2,94 N sur contre-pièce selon conditions fournisseur ; ne dimensionne pas notre fixation tournante"
+        ]
+      ],
+      "limits": "Modèle nominal Ø3 × 2 mm. Petit arrondi d’arête de 0,025 mm estimé pour l’aspect. Aucun repère N/S coloré permanent sur le STEP : le produit réel est argenté. La fixation sera captive dans un support à concevoir avec le châssis ; ne pas compter sur l’attraction magnétique seule."
+    },
+    {
+      "folder": "resistances-rappel-10k",
+      "ref": "Vishay MRS25000C1002FCT00",
+      "qty": 2,
+      "name": "Résistance de rappel 10 kΩ",
+      "buy": "https://fr.rs-online.com/web/p/resistances-traversantes/6832939",
+      "source": "https://www.vishay.com/docs/28724/mrs16m25.pdf",
+      "pdf": "Vishay-MRS16-MRS25-original.pdf",
+      "step": "mrs25-10k-formee-pas10-16.step",
+      "price": "RS 683-2939 : lot de 25 à 2,75 EUR HT. TTC calculé à 20 % : 3,30 EUR. Le TTC affiché de 3,25 EUR est incohérent avec ce HT ; à vérifier au panier.",
+      "facts": [
+        [
+          "Valeur",
+          "10 kΩ ±1 %, film métallique ; 0,6 W nominal à 70 °C sous conditions constructeur"
+        ],
+        [
+          "Rôle",
+          "Une résistance par OUT vers 3,3 V, placée côté Pi"
+        ],
+        [
+          "Courant / pertes",
+          "Environ 0,33 mA et 1,09 mW quand OUT est bas"
+        ],
+        [
+          "Dimensions",
+          "Corps Ø2,5 max × longueur 6,5 mm max ; fils Ø0,6 mm nominal"
+        ],
+        [
+          "Pattes droites",
+          "Au moins 28 mm par côté dans le plan de la série"
+        ],
+        [
+          "Formage",
+          "Pas minimum M = 10 mm ; variante V3 à 10,16 mm, géométrie de pliage d’étude"
+        ],
+        [
+          "Anneaux",
+          "10 kΩ à cinq bandes : brun, noir, noir, rouge, brun ; disposition et bleu du corps estimés"
+        ]
+      ],
+      "limits": "Les deux modèles représentent une résistance droite non recoupée et une variante formée. Les anneaux sont des volumes colorés sans chevauchement ; leur position n’est pas une cote fabricant. Les couches résistives internes restent absentes."
+    },
+    {
+      "folder": "condensateurs-decouplage-100nf",
+      "ref": "KEMET C315C104K5R5TA",
+      "qty": 2,
+      "name": "Condensateur de découplage 100 nF",
+      "buy": "https://fr.rs-online.com/web/p/condensateurs-ceramique-multicouches/1463570",
+      "source": "https://search.kemet.com/component-documentation/download/specsheet/C315C104K5R5TA",
+      "pdf": "KEMET-C315C104K5R5TA-original.pdf",
+      "step": "kemet-c315c104k5r5ta-officiel.step",
+      "price": "RS 146-3570 : lot de 20 à 4,68 EUR HT / 5,62 EUR TTC affichés. Ne pas prendre la boîte industrielle de 500 du code 146-3482.",
+      "facts": [
+        [
+          "Valeur",
+          "100 nF ±10 %, 50 V DC, diélectrique X7R, non polarisé"
+        ],
+        [
+          "Rôle",
+          "Un par capteur entre VCC et GND, au plus près des broches"
+        ],
+        [
+          "Exigence TI",
+          "10 nF minimum ; 100 nF nominal retenu, capacité utile à vérifier si référence remplacée"
+        ],
+        [
+          "Enveloppe corps",
+          "L 3,81 max ; H 3,14 max ; T 2,54 mm max selon fiche spécifique"
+        ],
+        [
+          "Pattes",
+          "Pas 2,54 ±0,78 mm ; Ø0,51 +0,1/-0,025 mm ; longueur LL ≥7 mm"
+        ],
+        [
+          "CAO",
+          "STEP officiel obtenu par le lien de la fiche KEMET, conservé à l’identique"
+        ]
+      ],
+      "limits": "La CAO constructeur est conservée avec sa géométrie et ses couleurs. Ses arrondis et longueurs ne remplacent pas les tolérances du lot. La prose générique C0G de RS ne concerne pas cette référence X7R : la fiche spécifique KEMET prime."
+    }
+  ],
+  "additional_GPIO_contacts": 4,
+  "installed_GPIO_contacts_total": 13,
+  "GPIO_contacts_to_provision_total": 18,
+  "reused_stock_planned_not_owned": [
+    "Fil 22 AWG Adafruit 3175",
+    "Gaine et consommables selon lots prévus"
+  ],
+  "soldered_Y_branches": [
+    "3V3 speed sensors",
+    "GND speed sensors"
+  ],
+  "chassis_mount_deferred": true,
+  "purchased": false
+}

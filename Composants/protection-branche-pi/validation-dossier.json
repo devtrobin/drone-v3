@@ -1,0 +1,15 @@
+{
+  "checked_on": "2026-10-14",
+  "all_passed": true,
+  "archives_and_local_references": 12,
+  "step_models": 6,
+  "pdf_pages": 5,
+  "pdf_visual_review_complete": true,
+  "local_links_valid": true,
+  "source_and_cad_hashes_valid": true,
+  "step_not_ignored": true,
+  "freecad_headless_imports_valid": true,
+  "hardware_tested": false,
+  "prospective_fault_current_validated": false,
+  "amazon_fr_offers_confirmed": false
+}

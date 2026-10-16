@@ -1,0 +1,47 @@
+{
+  "checked_on": "2026-10-15",
+  "R_per_m_ohm": 0.00506,
+  "provisional_length_per_pole_m": 0.2,
+  "loop_length_m": 0.4,
+  "R_loop_ohm": 0.002024,
+  "source": "BNTECHGO image; temperature unspecified",
+  "excludes": [
+    "plug",
+    "solder",
+    "lugs",
+    "pack leads",
+    "fuse",
+    "ED80",
+    "bus"
+  ],
+  "rows": [
+    {
+      "current_A": 10,
+      "drop_V": 0.02024,
+      "loss_W": 0.20240000000000002
+    },
+    {
+      "current_A": 20,
+      "drop_V": 0.04048,
+      "loss_W": 0.8096000000000001
+    },
+    {
+      "current_A": 30,
+      "drop_V": 0.06072,
+      "loss_W": 1.8216
+    },
+    {
+      "current_A": 35,
+      "drop_V": 0.07084,
+      "loss_W": 2.4794
+    },
+    {
+      "current_A": 44.39,
+      "drop_V": 0.08984536000000001,
+      "loss_W": 3.9882355304000003
+    }
+  ],
+  "does_not_establish_ampacity": true,
+  "does_not_establish_autonomy": true,
+  "not_an_active_current_limit": true
+}

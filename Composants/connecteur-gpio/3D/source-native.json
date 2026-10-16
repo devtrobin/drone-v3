@@ -1,0 +1,21 @@
+{
+  "file": "sources/022552401.stp",
+  "archive": "sources/Molex-22-55-2401-CAO-originale.zip",
+  "source_zip_member": "022552401.stp",
+  "sha256": "e2def6c43d3bcc0547e2d2d6032592167214fb5b29fae1bf8e20a15bb0f3be05",
+  "archive_sha256": "d657b000a23ee54a20058865ece388885227bcb7a76d2a19078bb31537083135",
+  "native_vendor_cad": true,
+  "geometry_modified": false,
+  "unit": "mm",
+  "solids": 1,
+  "faces": 626,
+  "valid": true,
+  "bounds_mm": {
+    "xmin": -25.3873,
+    "xmax": 25.3873,
+    "ymin": -7.619999999999999,
+    "ymax": 7.620000000000653,
+    "zmin": -2.5273,
+    "zmax": 2.5273
+  }
+}

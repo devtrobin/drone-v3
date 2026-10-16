@@ -1,0 +1,61 @@
+{
+  "revision": "M1",
+  "date": "2026-10-15",
+  "hardware_tested": false,
+  "divider": {
+    "R1_ohm": 79600,
+    "R2_ohm": 634,
+    "R3_ohm": 10000,
+    "tolerance": 0.001,
+    "input_bias_A_nA": 25,
+    "input_bias_B_nA": 15,
+    "equation": "Va=(R2+R3)/Rtotal*Vcell; Vb=R3/Rtotal*Vcell; corners solve both input bias currents",
+    "note": "Use VIT- 387..400 mV from TPS3700 Rev G, not only 1% positive threshold accuracy."
+  },
+  "thresholds": [
+    {
+      "function": "hard",
+      "falling_nominal_V": 3.3474998119240174,
+      "rising_nominal_V": 3.3941696445363925,
+      "falling_corner_min_V": 3.2749614999540304,
+      "falling_corner_max_V": 3.403279904589412,
+      "with_sense_network_conservative_min_V": 3.2579614999540305,
+      "with_sense_network_conservative_max_V": 3.420279904589412
+    },
+    {
+      "function": "warning",
+      "falling_nominal_V": 3.5597313,
+      "rising_nominal_V": 3.6093599999999997,
+      "falling_corner_min_V": 3.4826615758176915,
+      "falling_corner_max_V": 3.6189818486551464,
+      "with_sense_network_conservative_min_V": 3.4656615758176916,
+      "with_sense_network_conservative_max_V": 3.6359818486551463
+    }
+  ],
+  "sense_protection": {
+    "ohm_per_wire": 100,
+    "count": 3,
+    "part": "AC03000001000JAC00",
+    "rated_W": 3,
+    "current_at8_4V_with90ohm_mA": 93.33333333333334,
+    "power_at8_4V_with90ohm_W": 0.784,
+    "normal_divider_current_max_uA": 46.59224022213583,
+    "conservative_measurement_error_V": 0.017,
+    "assumptions": "One resistor at pack end in EACH B0/B1/B2 conductor; no other circuit on protected balance connector; 90..110 ohm thermal allowance, 120 ohm effective measurement path bound including leads; unprotected stubs mechanically enclosed; resistor not fuse."
+  },
+  "power": {
+    "traco_no_load_typical_mA_at5V_each": 40,
+    "independent_5V_typical_no_load_W": 0.4,
+    "study_allowance_battery_W": 0.7,
+    "energy_for45min_Wh": 0.525,
+    "fraction_of37Wh_percent": 1.418918918918919,
+    "warning": "Allowance is not measured power or runtime guarantee. Disconnect pack AND balance for storage."
+  },
+  "OFF": {
+    "input_network_ohm": 10000,
+    "high_threshold_V": 1,
+    "buffer_supply_V": 3.3,
+    "diode_OR": true,
+    "qualification": "Strong buffer, not a 47k pullup driving OFF directly; measure OFF and restart inhibition."
+  }
+}

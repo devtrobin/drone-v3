@@ -1,0 +1,49 @@
+{
+  "method": "FreeCAD Part.read, headless",
+  "version": [
+    "1",
+    "1",
+    "4",
+    "20260928 (Git shallow)",
+    "Unknown",
+    "2026/09/28 13:46:34",
+    "(HEAD detached at 4fd3bf320)",
+    "4fd3bf320d9566a27e60069fc8387448aaa3a094"
+  ],
+  "checked_on": "2026-10-13",
+  "GUI_tested": false,
+  "VSCode_CAD_View_tested": false,
+  "all_passed": true,
+  "checks": [
+    {
+      "file": "surveillance-2s-v3-concept-detaille.step",
+      "sha256": "fb34302ac436526aa58b33f9973d93d24c4417c11e2b5c22a237d151697acfe3",
+      "passed": true,
+      "valid": true,
+      "solids": 352,
+      "faces": 4317,
+      "bbox_error_mm": 0.0,
+      "seconds": 5.44215930000064
+    },
+    {
+      "file": "pololu-2813-officiel.step",
+      "sha256": "89dceed662b33acde2cf32cef641e73ba3a7763c03d66824b471639f7bcb5de8",
+      "passed": true,
+      "valid": true,
+      "solids": 1,
+      "faces": 980,
+      "bbox_error_mm": 0.007451431183023336,
+      "seconds": 1.4470052999968175
+    },
+    {
+      "file": "crydom-d1d100-exterieur-detaille.step",
+      "sha256": "4c11d34e08eb28f808071703659c519d4b91b3be92c74d64eb8b8c2624b73ef2",
+      "passed": true,
+      "valid": true,
+      "solids": 94,
+      "faces": 1518,
+      "bbox_error_mm": 0.0,
+      "seconds": 1.908066099997086
+    }
+  ]
+}

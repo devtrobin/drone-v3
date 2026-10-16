@@ -1,0 +1,21 @@
+{
+  "checked_on": "2026-10-15",
+  "manufacturer_sources": [
+    "https://www.ti.com/product/DRV5033/part-details/DRV5033AJQLPG",
+    "https://www.supermagnete.fr/data_sheet_S-03-02-N.pdf",
+    "https://www.vishay.com/docs/28724/mrs16m25.pdf",
+    "https://search.kemet.com/component-documentation/download/specsheet/C315C104K5R5TA"
+  ],
+  "supplier_pages": [
+    "https://fr.rs-online.com/web/p/capteurs-a-effet-hall/9009807",
+    "https://www.supermagnete.fr/aimants-disques-neodyme/disque-magnetique-3mm-2mm_S-03-02-N",
+    "https://fr.rs-online.com/web/p/resistances-traversantes/6832939",
+    "https://fr.rs-online.com/web/p/condensateurs-ceramique-multicouches/1463570"
+  ],
+  "sensor_FR_price_source": "https://fr.rs-online.com/web/c/semi-conducteurs/?pn=67",
+  "forum": "https://e2e.ti.com/support/sensors-group/sensors/f/sensors-forum/816464/drv5033-hall-sensing-distance",
+  "forum_use": "Manufacturer support: sensing distance depends on magnet field, no transferred gap guarantee",
+  "YouTube_relevant_verified_test_found": false,
+  "Amazon_exact_offer_verified": false,
+  "hardware_tested": false
+}

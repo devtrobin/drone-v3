@@ -1,0 +1,44 @@
+{
+  "generator": "tools/build_battery_protection_step.py",
+  "generator_sha256": "cc8bb7df58beee5f3b7123dfbc44a64e6dbcedbc421e0b51758303c1138ad14a",
+  "generated_on": "2026-10-13",
+  "models": [
+    {
+      "file": "pololu-2813-officiel.step",
+      "title": "Pololu 2813 HP - CAO officielle commune",
+      "unit": "mm",
+      "bytes": 4385103,
+      "sha256": "89dceed662b33acde2cf32cef641e73ba3a7763c03d66824b471639f7bcb5de8",
+      "source_url": "https://www.pololu.com/file/0J1405/big-pushbutton-power-switch-with-reverse-voltage-protection.step",
+      "native_vendor_cad": true,
+      "geometry_modified": false,
+      "hardware_measured": false,
+      "family_model": "2812 MP / 2813 HP",
+      "generated_on": "2026-10-13",
+      "preview": {
+        "file": "pololu-2813-officiel.png",
+        "sha256": "bb8a6e3e8573e82d63b67b32856a65c17a158b5c1063706c8dcba7a2094f5153"
+      },
+      "bounds_mm": {
+        "xmin": -0.00012510000000414957,
+        "xmax": 20.320125100000006,
+        "ymin": -0.00012510000000414957,
+        "ymax": 25.400125100000004,
+        "zmin": -0.00745153118302378,
+        "zmax": 3.9664014319740364
+      },
+      "validation": {
+        "valid_after_reimport": true,
+        "solids": 1,
+        "faces": 980,
+        "xcaf_colors": 13
+      },
+      "estimates_and_limitations": [
+        "Modele commun constructeur; revision recue et accessoires a verifier",
+        "Modele fusionnant plusieurs materiaux: masse physique non deduite du volume"
+      ],
+      "manufacturer_copyright": "Pololu Corporation; no separate redistribution licence identified"
+    }
+  ],
+  "source_assets": "../assets.json"
+}

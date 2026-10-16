@@ -1,0 +1,1364 @@
+{
+  "generated_on": "2026-10-13",
+  "model_count": 4,
+  "component_folders": [
+    "batterie",
+    "regulateur-alimentation",
+    "chargeur-batterie"
+  ],
+  "models": [
+    {
+      "folder": "batterie",
+      "file": "batterie-zeee-2s-5200mah-detaillee.step",
+      "title": "Zeee 2S 5200mAh | un pack, fils et prises",
+      "generated_on": "2026-10-13",
+      "unit": "mm",
+      "cadquery_version": "2.8.0",
+      "coordinate_system": "Boitier centre en X/Y; longueur X, largeur Y; fond z=0; fils dans une pose estimee",
+      "bytes": 8241899,
+      "sha256": "911f357adf814752c645ba61a0b4fbef49d1121aa6acc34b864dd0de4b2f1a3b",
+      "native_vendor_cad": false,
+      "hardware_measured": false,
+      "is_custom_project_design": false,
+      "published_nominal": [
+        "Boitier138 x47 x25 mm ±2; 250g annonçés; configuration2S1P, XT60",
+        "Photographies fabricant: coque rigide noire, etiquette bleue, deux fils de puissance et trois d equilibrage"
+      ],
+      "estimates_and_limitations": [
+        "Fils: diamètre, longueur et pose estimés; pas une longueur livrée garantie",
+        "Genres et géométrie des prises, section des fils, empreintes et parois a verifier",
+        "Motifs vectoriels/textes/fontes approchés; pas de texture photographique",
+        "Coques pleines pour l extérieur; cellules, chimie interne et BMS non représentés; ne pas calculer la masse depuis le volume CAD"
+      ],
+      "parameters": {
+        "body_nominal_mm": [
+          138,
+          47,
+          25
+        ],
+        "nominal_Wh": 38.48,
+        "cable_pose_lengths_mm_estimated": [
+          77.13125203840805,
+          81.25877766518938,
+          61.60530745949849,
+          61.60530745949849,
+          61.60530745949849
+        ],
+        "all_five_cables_one_closed_solid": true,
+        "cable_centerline_probes": 51,
+        "pairwise_cable_intersections_below_mm3": 1e-05,
+        "red_lead_at_marked_plus": true,
+        "black_lead_at_marked_minus": true,
+        "nominal_dimensions_exclude_labels_and_cables": true
+      },
+      "source_pages": [
+        "Zeee manufacturer product page and photographs: ../assets.json"
+      ],
+      "bounds_mm": {
+        "xmin": -89.85669861712339,
+        "xmax": 69.0,
+        "ymin": -52.08,
+        "ymax": 23.5,
+        "zmin": -1.7763568394002505e-15,
+        "zmax": 25.155000100000002
+      },
+      "validation": {
+        "valid_after_reimport": true,
+        "solids": 130,
+        "faces": 2022,
+        "colors": 10,
+        "volume_relative_error": 9.027553953022971e-15,
+        "volume_relative_error_limit": 0.0001,
+        "volume_before_mm3": 167642.2197668921,
+        "volume_after_mm3": 167642.2197668906,
+        "adaptive_volume_tolerance": 1e-09,
+        "bbox_error_mm": 3.964828465541359e-12,
+        "bbox_error_limit_mm": 0.01,
+        "void_and_material_probes": [],
+        "elapsed_seconds": 10.342432199999166
+      },
+      "parts": [
+        {
+          "name": "Coque_inferieure_noire_cavite_non_documentee",
+          "color_linear_rgb": [
+            0.016,
+            0.02,
+            0.024
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Coque_superieure_noire",
+          "color_linear_rgb": [
+            0.016,
+            0.02,
+            0.024
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Ligne_joint_estimee",
+          "color_linear_rgb": [
+            0.03,
+            0.032,
+            0.037
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Moulure_extremite_-67_5",
+          "color_linear_rgb": [
+            0.03,
+            0.032,
+            0.037
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Moulure_extremite_67_5",
+          "color_linear_rgb": [
+            0.03,
+            0.032,
+            0.037
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Etiquette_superieure_fond_noir",
+          "color_linear_rgb": [
+            0.016,
+            0.02,
+            0.024
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Etiquette_motif_bleu_reconstruit",
+          "color_linear_rgb": [
+            0.015,
+            0.06,
+            0.42
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Graphisme_bleu_01",
+          "color_linear_rgb": [
+            0.01,
+            0.45,
+            0.7
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Graphisme_bleu_02",
+          "color_linear_rgb": [
+            0.018,
+            0.14,
+            0.57
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Graphisme_bleu_03",
+          "color_linear_rgb": [
+            0.018,
+            0.14,
+            0.57
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Graphisme_bleu_04",
+          "color_linear_rgb": [
+            0.01,
+            0.45,
+            0.7
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Graphisme_bleu_05",
+          "color_linear_rgb": [
+            0.018,
+            0.14,
+            0.57
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Graphisme_bleu_06",
+          "color_linear_rgb": [
+            0.018,
+            0.14,
+            0.57
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Graphisme_bleu_07",
+          "color_linear_rgb": [
+            0.01,
+            0.45,
+            0.7
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Graphisme_bleu_08",
+          "color_linear_rgb": [
+            0.018,
+            0.14,
+            0.57
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Graphisme_bleu_09",
+          "color_linear_rgb": [
+            0.018,
+            0.14,
+            0.57
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Graphisme_bleu_10",
+          "color_linear_rgb": [
+            0.01,
+            0.45,
+            0.7
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Graphisme_bleu_11",
+          "color_linear_rgb": [
+            0.018,
+            0.14,
+            0.57
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Graphisme_bleu_12",
+          "color_linear_rgb": [
+            0.018,
+            0.14,
+            0.57
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Graphisme_bleu_13",
+          "color_linear_rgb": [
+            0.01,
+            0.45,
+            0.7
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Graphisme_bleu_14",
+          "color_linear_rgb": [
+            0.018,
+            0.14,
+            0.57
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Graphisme_bleu_15",
+          "color_linear_rgb": [
+            0.018,
+            0.14,
+            0.57
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Graphisme_bleu_16",
+          "color_linear_rgb": [
+            0.01,
+            0.45,
+            0.7
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Graphisme_bleu_17",
+          "color_linear_rgb": [
+            0.018,
+            0.14,
+            0.57
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Graphisme_bleu_18",
+          "color_linear_rgb": [
+            0.018,
+            0.14,
+            0.57
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Graphisme_bleu_19",
+          "color_linear_rgb": [
+            0.01,
+            0.45,
+            0.7
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Graphisme_bleu_20",
+          "color_linear_rgb": [
+            0.018,
+            0.14,
+            0.57
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Graphisme_bleu_21",
+          "color_linear_rgb": [
+            0.018,
+            0.14,
+            0.57
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Graphisme_bleu_22",
+          "color_linear_rgb": [
+            0.01,
+            0.45,
+            0.7
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Graphisme_bleu_23",
+          "color_linear_rgb": [
+            0.018,
+            0.14,
+            0.57
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Graphisme_bleu_24",
+          "color_linear_rgb": [
+            0.018,
+            0.14,
+            0.57
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Marquage_5200mAh",
+          "color_linear_rgb": [
+            0.9,
+            0.92,
+            0.94
+          ],
+          "solids": 7
+        },
+        {
+          "name": "Marquage_80C__7.4V__38.48Wh",
+          "color_linear_rgb": [
+            0.9,
+            0.92,
+            0.94
+          ],
+          "solids": 14
+        },
+        {
+          "name": "Marquage_Zeee",
+          "color_linear_rgb": [
+            0.01,
+            0.45,
+            0.7
+          ],
+          "solids": 4
+        },
+        {
+          "name": "Marquage_High_Performance_Lithium_Polymer_Battery",
+          "color_linear_rgb": [
+            0.9,
+            0.92,
+            0.94
+          ],
+          "solids": 39
+        },
+        {
+          "name": "Etiquette_laterale_fond_bleu",
+          "color_linear_rgb": [
+            0.015,
+            0.06,
+            0.42
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Marquage_lateral_5200mAh",
+          "color_linear_rgb": [
+            0.9,
+            0.92,
+            0.94
+          ],
+          "solids": 7
+        },
+        {
+          "name": "Marquage_lateral_80C_7.4V",
+          "color_linear_rgb": [
+            0.9,
+            0.92,
+            0.94
+          ],
+          "solids": 7
+        },
+        {
+          "name": "Marquage_lateral_Zeee",
+          "color_linear_rgb": [
+            0.9,
+            0.92,
+            0.94
+          ],
+          "solids": 4
+        },
+        {
+          "name": "Cordon_puissance_1_continu_pose_estimee",
+          "color_linear_rgb": [
+            0.016,
+            0.02,
+            0.024
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Gaine_thermoretractable_1",
+          "color_linear_rgb": [
+            0.016,
+            0.02,
+            0.024
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Cordon_puissance_2_continu_pose_estimee",
+          "color_linear_rgb": [
+            0.68,
+            0.009,
+            0.006
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Gaine_thermoretractable_2",
+          "color_linear_rgb": [
+            0.68,
+            0.009,
+            0.006
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Prise_XT60_corps_estime",
+          "color_linear_rgb": [
+            0.92,
+            0.61,
+            0.008
+          ],
+          "solids": 3
+        },
+        {
+          "name": "Contact_XT60_femelle_1",
+          "color_linear_rgb": [
+            0.63,
+            0.4,
+            0.07
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Contact_XT60_femelle_2",
+          "color_linear_rgb": [
+            0.63,
+            0.4,
+            0.07
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Cordon_equilibrage_1_continu",
+          "color_linear_rgb": [
+            0.016,
+            0.02,
+            0.024
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Cordon_equilibrage_2_continu",
+          "color_linear_rgb": [
+            0.92,
+            0.61,
+            0.008
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Cordon_equilibrage_3_continu",
+          "color_linear_rgb": [
+            0.68,
+            0.009,
+            0.006
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Contact_equilibrage_1_estime",
+          "color_linear_rgb": [
+            0.48,
+            0.5,
+            0.53
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Contact_equilibrage_2_estime",
+          "color_linear_rgb": [
+            0.48,
+            0.5,
+            0.53
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Contact_equilibrage_3_estime",
+          "color_linear_rgb": [
+            0.48,
+            0.5,
+            0.53
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Connecteur_equilibrage_3_voies_XH_estime",
+          "color_linear_rgb": [
+            0.9,
+            0.92,
+            0.94
+          ],
+          "solids": 1
+        }
+      ],
+      "preview": {
+        "file": "batterie-zeee-2s-5200mah-detaillee.png",
+        "sha256": "af7dcf1bc063cd2ee1aafb4346c7d8cd5c4d4592b1fbe1d4417ac3518733561c"
+      },
+      "generator": "tools/build_power_step.py",
+      "generator_sha256": "912334fa5130770c24bad6a77caf81239a6a43f5b98254ba40f70f95a2735563"
+    },
+    {
+      "folder": "regulateur-alimentation",
+      "file": "pololu-d24v90f5-officiel.step",
+      "title": "Pololu D24V90F5, native shared manufacturer model",
+      "generated_on": "2026-10-13",
+      "unit": "mm",
+      "native_vendor_cad": true,
+      "geometry_modified": false,
+      "hardware_measured": false,
+      "family_model": "D24V60F5 and D24V90F5, supplied by manufacturer for both items",
+      "manufacturer_copyright": "Pololu Corporation; no separate CAD redistribution licence identified",
+      "bytes": 4884801,
+      "sha256": "cdb901f06d5b13f49c6af5d5e64b2a2cd8bafedf1ddfd5c23ed21663bb8f295a",
+      "source_url": "https://www.pololu.com/file/0J1582/step-down-voltage-regulator-d24vxf5.step",
+      "bounds_mm": {
+        "xmin": -1e-07,
+        "xmax": 40.6400001,
+        "ymin": -1e-07,
+        "ymax": 20.3200001,
+        "zmin": -1.0000000000043368e-07,
+        "zmax": 7.674799999999999
+      },
+      "validation": {
+        "valid_after_reimport": true,
+        "solids": 1,
+        "faces": 1155,
+        "xcaf_colors": 12,
+        "rendered_face_colors": 11,
+        "identical_to_download_sha256": true
+      },
+      "previews": [
+        {
+          "file": "pololu-d24v90f5-dessus.png",
+          "sha256": "1ce8ac1d0c28d38770e6cca0a00c609c78587b886bd8e80e2cfa0954bb058e20"
+        },
+        {
+          "file": "pololu-d24v90f5-dessous.png",
+          "sha256": "324c2c4ff7ef88a836cd43442cba86a940cef344378b28c50decabb7e45ade46"
+        },
+        {
+          "file": "pololu-d24v90f5-isometrique.png",
+          "sha256": "7281afe03862403fd42072b6515d627c20f482f135cb733d8e13a2fb7023fcbc"
+        }
+      ],
+      "published_nominal": [
+        "PCB40.64 x20.32 mm; 4 trousØ2.18, centres35.56x15.24"
+      ],
+      "estimates_and_limitations": [
+        "Native model is guidance; actual item revision and component markings may differ",
+        "No inference of internal copper layers, electrical netlist, performance or measured connector clearances",
+        "Factory STEP fuses different materials into one BRep solid; do not calculate physical mass from this one volume"
+      ]
+    },
+    {
+      "folder": "chargeur-batterie",
+      "file": "chargeur-skyrc-s65-detaille.step",
+      "title": "SkyRC S65 | boitier, ecran, ports et ventilation",
+      "generated_on": "2026-10-13",
+      "unit": "mm",
+      "cadquery_version": "2.8.0",
+      "coordinate_system": "Boitier centre en X/Y; largeur X, profondeur Y; bas des pieds z=0",
+      "bytes": 13254570,
+      "sha256": "27b270e2414394e7aaf815778f790b5c238ac6beb41dd3bdb336cb1ee3edb0ee",
+      "native_vendor_cad": false,
+      "hardware_measured": false,
+      "is_custom_project_design": false,
+      "published_nominal": [
+        "118 x115 x45 mm, PDF constructeur V2.10 p24; quatre boutons LCD2x16 bleu",
+        "Ports, embase secteur, ventilation et renfort visibles dans photos constructeur",
+        "Masse annoncée315g; modèle hors véhicule"
+      ],
+      "estimates_and_limitations": [
+        "Contours et pente4 deg reconstruits; positions et dimensions locales estimées",
+        "Chapes/grilles/rotor, parois et cavité ne résultent pas d un démontage",
+        "LCD représente un exemple LiPo2S, non un écran allumé réel ou une programmation du chargeur",
+        "Prise XT60 dite femelle dans notice; genre contacts à vérifier avant adapter la batterie",
+        "Aucune électronique secteur interne inventée; aucun modèle destiné à fabriquer ou modifier le chargeur",
+        "117 x105 x55 relevé chez des distributeurs: variante/erreur inconnue, ne pas en déduire une mesure"
+      ],
+      "parameters": {
+        "case_nominal_mm": [
+          118,
+          115,
+          45
+        ],
+        "roof_slope_deg_estimated": 4,
+        "fan_diameter_mm_estimated": 34,
+        "rotor_blades_estimated": 5,
+        "internal_walls_estimated": true
+      },
+      "source_pages": [
+        "SkyRC S65 manual V2.10, PDF pages 4, 23 and 24; manufacturer photographs: ../assets.json"
+      ],
+      "bounds_mm": {
+        "xmin": -59.0000001,
+        "xmax": 59.00000010000001,
+        "ymin": -59.5,
+        "ymax": 59.5,
+        "zmin": 0.0,
+        "zmax": 45.0000001
+      },
+      "validation": {
+        "valid_after_reimport": true,
+        "solids": 157,
+        "faces": 3125,
+        "colors": 7,
+        "volume_relative_error": 3.775674456138637e-14,
+        "volume_relative_error_limit": 0.0001,
+        "volume_before_mm3": 141831.74069291027,
+        "volume_after_mm3": 141831.74069290492,
+        "adaptive_volume_tolerance": 1e-09,
+        "bbox_error_mm": 7.105427357601002e-15,
+        "bbox_error_limit_mm": 0.01,
+        "void_and_material_probes": [],
+        "elapsed_seconds": 15.33577779999905
+      },
+      "parts": [
+        {
+          "name": "Pied_antiderapant_1_estime",
+          "color_linear_rgb": [
+            0.03,
+            0.032,
+            0.037
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Pied_antiderapant_2_estime",
+          "color_linear_rgb": [
+            0.03,
+            0.032,
+            0.037
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Pied_antiderapant_3_estime",
+          "color_linear_rgb": [
+            0.03,
+            0.032,
+            0.037
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Pied_antiderapant_4_estime",
+          "color_linear_rgb": [
+            0.03,
+            0.032,
+            0.037
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Fond_coque_noire",
+          "color_linear_rgb": [
+            0.016,
+            0.02,
+            0.024
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Coque_principale_profilee_cavite_estimee",
+          "color_linear_rgb": [
+            0.016,
+            0.02,
+            0.024
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Joint_coque",
+          "color_linear_rgb": [
+            0.03,
+            0.032,
+            0.037
+          ],
+          "solids": 4
+        },
+        {
+          "name": "Facade_imprimee_noire",
+          "color_linear_rgb": [
+            0.03,
+            0.032,
+            0.037
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Contour_afficheur_clair",
+          "color_linear_rgb": [
+            0.9,
+            0.92,
+            0.94
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Fenetre_LCD_bleu",
+          "color_linear_rgb": [
+            0.01,
+            0.18,
+            0.31
+          ],
+          "solids": 1
+        },
+        {
+          "name": "LCD_exemple_LiPo_BALANCE",
+          "color_linear_rgb": [
+            0.01,
+            0.45,
+            0.7
+          ],
+          "solids": 12
+        },
+        {
+          "name": "LCD_exemple_2.6A_7.4V(2S)",
+          "color_linear_rgb": [
+            0.01,
+            0.45,
+            0.7
+          ],
+          "solids": 12
+        },
+        {
+          "name": "Bord_bouton_BATT_PROG",
+          "color_linear_rgb": [
+            0.9,
+            0.92,
+            0.94
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Bouton_BATT_PROG",
+          "color_linear_rgb": [
+            0.016,
+            0.02,
+            0.024
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Symbole_BATT_PROG",
+          "color_linear_rgb": [
+            0.03,
+            0.032,
+            0.037
+          ],
+          "solids": 2
+        },
+        {
+          "name": "Texte_BATT_PROG",
+          "color_linear_rgb": [
+            0.9,
+            0.92,
+            0.94
+          ],
+          "solids": 9
+        },
+        {
+          "name": "Texte_bas_BATT_PROG",
+          "color_linear_rgb": [
+            0.9,
+            0.92,
+            0.94
+          ],
+          "solids": 4
+        },
+        {
+          "name": "Bord_bouton_DEC",
+          "color_linear_rgb": [
+            0.9,
+            0.92,
+            0.94
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Bouton_DEC",
+          "color_linear_rgb": [
+            0.016,
+            0.02,
+            0.024
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Symbole_DEC",
+          "color_linear_rgb": [
+            0.03,
+            0.032,
+            0.037
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Texte_DEC",
+          "color_linear_rgb": [
+            0.9,
+            0.92,
+            0.94
+          ],
+          "solids": 3
+        },
+        {
+          "name": "Texte_bas_DEC",
+          "color_linear_rgb": [
+            0.9,
+            0.92,
+            0.94
+          ],
+          "solids": 7
+        },
+        {
+          "name": "Bord_bouton_INC",
+          "color_linear_rgb": [
+            0.9,
+            0.92,
+            0.94
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Bouton_INC",
+          "color_linear_rgb": [
+            0.016,
+            0.02,
+            0.024
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Symbole_INC",
+          "color_linear_rgb": [
+            0.03,
+            0.032,
+            0.037
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Texte_INC",
+          "color_linear_rgb": [
+            0.9,
+            0.92,
+            0.94
+          ],
+          "solids": 3
+        },
+        {
+          "name": "Texte_bas_INC",
+          "color_linear_rgb": [
+            0.9,
+            0.92,
+            0.94
+          ],
+          "solids": 7
+        },
+        {
+          "name": "Bord_bouton_ENTER",
+          "color_linear_rgb": [
+            0.9,
+            0.92,
+            0.94
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Bouton_ENTER",
+          "color_linear_rgb": [
+            0.016,
+            0.02,
+            0.024
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Symbole_ENTER",
+          "color_linear_rgb": [
+            0.03,
+            0.032,
+            0.037
+          ],
+          "solids": 2
+        },
+        {
+          "name": "Texte_ENTER",
+          "color_linear_rgb": [
+            0.9,
+            0.92,
+            0.94
+          ],
+          "solids": 5
+        },
+        {
+          "name": "Texte_bas_ENTER",
+          "color_linear_rgb": [
+            0.9,
+            0.92,
+            0.94
+          ],
+          "solids": 5
+        },
+        {
+          "name": "Impression_S65",
+          "color_linear_rgb": [
+            0.9,
+            0.92,
+            0.94
+          ],
+          "solids": 3
+        },
+        {
+          "name": "Impression_AC_Balance",
+          "color_linear_rgb": [
+            0.9,
+            0.92,
+            0.94
+          ],
+          "solids": 9
+        },
+        {
+          "name": "Impression_Charger_Discharger",
+          "color_linear_rgb": [
+            0.9,
+            0.92,
+            0.94
+          ],
+          "solids": 19
+        },
+        {
+          "name": "Impression_SKYRC",
+          "color_linear_rgb": [
+            0.9,
+            0.92,
+            0.94
+          ],
+          "solids": 5
+        },
+        {
+          "name": "Renfort_avant_superieur_estime",
+          "color_linear_rgb": [
+            0.016,
+            0.02,
+            0.024
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Port_equilibrage_XH_5voies_estime",
+          "color_linear_rgb": [
+            0.9,
+            0.92,
+            0.94
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Contact_XH_1",
+          "color_linear_rgb": [
+            0.63,
+            0.4,
+            0.07
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Contact_XH_2",
+          "color_linear_rgb": [
+            0.63,
+            0.4,
+            0.07
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Contact_XH_3",
+          "color_linear_rgb": [
+            0.63,
+            0.4,
+            0.07
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Contact_XH_4",
+          "color_linear_rgb": [
+            0.63,
+            0.4,
+            0.07
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Contact_XH_5",
+          "color_linear_rgb": [
+            0.63,
+            0.4,
+            0.07
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Port_XT60_noir_geometrie_estimee",
+          "color_linear_rgb": [
+            0.016,
+            0.02,
+            0.024
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Contact_XT60_1_genre_a_verifier",
+          "color_linear_rgb": [
+            0.63,
+            0.4,
+            0.07
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Contact_XT60_2_genre_a_verifier",
+          "color_linear_rgb": [
+            0.63,
+            0.4,
+            0.07
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Prise_sonde_temperature",
+          "color_linear_rgb": [
+            0.016,
+            0.02,
+            0.024
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Contact_sonde_1",
+          "color_linear_rgb": [
+            0.63,
+            0.4,
+            0.07
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Contact_sonde_2",
+          "color_linear_rgb": [
+            0.63,
+            0.4,
+            0.07
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Marquage_frontal_4321",
+          "color_linear_rgb": [
+            0.03,
+            0.032,
+            0.037
+          ],
+          "solids": 4
+        },
+        {
+          "name": "Marquage_frontal_+___-",
+          "color_linear_rgb": [
+            0.03,
+            0.032,
+            0.037
+          ],
+          "solids": 2
+        },
+        {
+          "name": "Marquage_frontal_T",
+          "color_linear_rgb": [
+            0.03,
+            0.032,
+            0.037
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Embase_secteur_C8_estimee",
+          "color_linear_rgb": [
+            0.03,
+            0.032,
+            0.037
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Contact_secteur_C8_1",
+          "color_linear_rgb": [
+            0.48,
+            0.5,
+            0.53
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Contact_secteur_C8_2",
+          "color_linear_rgb": [
+            0.48,
+            0.5,
+            0.53
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Grille_ventilateur_anneaux_et_rayons_estimes",
+          "color_linear_rgb": [
+            0.03,
+            0.032,
+            0.037
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Rotor_ventilateur_visible_pales_estimees",
+          "color_linear_rgb": [
+            0.016,
+            0.02,
+            0.024
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Tete_vis_grille_1",
+          "color_linear_rgb": [
+            0.48,
+            0.5,
+            0.53
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Tete_vis_grille_2",
+          "color_linear_rgb": [
+            0.48,
+            0.5,
+            0.53
+          ],
+          "solids": 1
+        }
+      ],
+      "preview": {
+        "file": "chargeur-skyrc-s65-detaille.png",
+        "sha256": "fb9374ccc3e6d1f59c1fdb373fa871bde2bc23ac7e816eb9988d4580f31acac7"
+      },
+      "generator": "tools/build_power_step.py",
+      "generator_sha256": "912334fa5130770c24bad6a77caf81239a6a43f5b98254ba40f70f95a2735563"
+    },
+    {
+      "folder": "chargeur-batterie",
+      "file": "cordon-secteur-c7-eu-etude.step",
+      "title": "S65 | cordon secteur EU, pose illustrative",
+      "generated_on": "2026-10-13",
+      "unit": "mm",
+      "cadquery_version": "2.8.0",
+      "coordinate_system": "Pose illustrative dans le plan XY; centreline du cable z=0",
+      "bytes": 443160,
+      "sha256": "99020742dee1369a5c9b905fd6218461bb61c350f39598fb491e0232b8c9ff72",
+      "native_vendor_cad": false,
+      "hardware_measured": false,
+      "is_custom_project_design": false,
+      "published_nominal": [
+        "Cordon secteur seul accessoire annoncé, PDF23; deux broches et fiche type8 visibles"
+      ],
+      "estimates_and_limitations": [
+        "Toutes dimensions de prise et longueur de câble estimées; pas un plan IEC ni modèle de fabrication",
+        "Longueur de la pose compacte ne représente pas la longueur livrée; pays et fiche de l offre à contrôler",
+        "Sections, isolation et performances électriques non déduites de la CAO"
+      ],
+      "parameters": {
+        "cable_pose_length_mm_estimated": 198.74196466031623,
+        "not_actual_delivered_length": true
+      },
+      "source_pages": [
+        "SkyRC S65 manual V2.10, PDF page 23; manufacturer cord photograph: ../assets.json"
+      ],
+      "bounds_mm": {
+        "xmin": -9.0000001,
+        "xmax": 145.5,
+        "ymin": -23.5000001,
+        "ymax": 72.53498399017954,
+        "zmin": -6.0,
+        "zmax": 6.0
+      },
+      "validation": {
+        "valid_after_reimport": true,
+        "solids": 9,
+        "faces": 127,
+        "colors": 2,
+        "volume_relative_error": 7.803814086936077e-15,
+        "volume_relative_error_limit": 0.0001,
+        "volume_before_mm3": 16782.46503521227,
+        "volume_after_mm3": 16782.4650352124,
+        "adaptive_volume_tolerance": 1e-09,
+        "bbox_error_mm": 1.4210854715202004e-14,
+        "bbox_error_limit_mm": 0.01,
+        "void_and_material_probes": [],
+        "elapsed_seconds": 0.754762299999129
+      },
+      "parts": [
+        {
+          "name": "Cordon_double_isolation_trace_estime",
+          "color_linear_rgb": [
+            0.016,
+            0.02,
+            0.024
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Contact_C7_-4.3",
+          "color_linear_rgb": [
+            0.48,
+            0.5,
+            0.53
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Contact_C7_4.3",
+          "color_linear_rgb": [
+            0.48,
+            0.5,
+            0.53
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Fiche_C7_reconstruction",
+          "color_linear_rgb": [
+            0.016,
+            0.02,
+            0.024
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Broche_EU_1_geometrie_estimee",
+          "color_linear_rgb": [
+            0.48,
+            0.5,
+            0.53
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Isolation_broche_EU_1",
+          "color_linear_rgb": [
+            0.016,
+            0.02,
+            0.024
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Broche_EU_2_geometrie_estimee",
+          "color_linear_rgb": [
+            0.48,
+            0.5,
+            0.53
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Isolation_broche_EU_2",
+          "color_linear_rgb": [
+            0.016,
+            0.02,
+            0.024
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Fiche_EU_deux_broches_estimee",
+          "color_linear_rgb": [
+            0.016,
+            0.02,
+            0.024
+          ],
+          "solids": 1
+        }
+      ],
+      "preview": {
+        "file": "cordon-secteur-c7-eu-etude.png",
+        "sha256": "485f17762b8d2322ade9370c2de454b7e1469e2c38979ebdda2e5702dbcfc382"
+      },
+      "generator": "tools/build_power_step.py",
+      "generator_sha256": "912334fa5130770c24bad6a77caf81239a6a43f5b98254ba40f70f95a2735563"
+    }
+  ]
+}

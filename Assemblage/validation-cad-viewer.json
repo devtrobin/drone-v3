@@ -1,0 +1,129 @@
+{
+  "all_passed": true,
+  "engine": "CAD Viewer 1.5.7 bundled occt-import-js 0.0.23",
+  "models": [
+    {
+      "file": "drone-v3-structure.step",
+      "sha256": "216b1bbc05e01c2495948618d780aa4af3954cebe21c438103334343d1233612",
+      "engine": "CAD Viewer 1.5.7 bundled occt-import-js 0.0.23",
+      "success": true,
+      "keys": [
+        "success",
+        "root",
+        "meshes"
+      ],
+      "meshes": 147,
+      "triangles": 50724,
+      "milliseconds": 5541,
+      "meshExample": [
+        "name",
+        "attributes",
+        "index",
+        "color",
+        "brep_faces"
+      ]
+    },
+    {
+      "file": "drone-v3-roulage.step",
+      "sha256": "518b576d62bb70e8440db83894a3847eee61387a7a1965b02b2d086aedc2bbe5",
+      "engine": "CAD Viewer 1.5.7 bundled occt-import-js 0.0.23",
+      "success": true,
+      "keys": [
+        "success",
+        "root",
+        "meshes"
+      ],
+      "meshes": 26,
+      "triangles": 3528,
+      "milliseconds": 575,
+      "meshExample": [
+        "name",
+        "attributes",
+        "index",
+        "color",
+        "brep_faces"
+      ]
+    },
+    {
+      "file": "drone-v3-electronique.step",
+      "sha256": "234d2df0932cfa28273fdd455b6305d563810a63143c7771becf3fb6b4056e58",
+      "engine": "CAD Viewer 1.5.7 bundled occt-import-js 0.0.23",
+      "success": true,
+      "keys": [
+        "success",
+        "root",
+        "meshes"
+      ],
+      "meshes": 18,
+      "triangles": 2048,
+      "milliseconds": 842,
+      "meshExample": [
+        "name",
+        "attributes",
+        "index",
+        "color",
+        "brep_faces"
+      ]
+    },
+    {
+      "file": "drone-v3-puissance.step",
+      "sha256": "6f83c5904715ccc4aa0501537f5df05c152d5a1a90afd38f2a1d1324f3599243",
+      "engine": "CAD Viewer 1.5.7 bundled occt-import-js 0.0.23",
+      "success": true,
+      "keys": [
+        "success",
+        "root",
+        "meshes"
+      ],
+      "meshes": 34,
+      "triangles": 2800,
+      "milliseconds": 869,
+      "meshExample": [
+        "name",
+        "attributes",
+        "index",
+        "color",
+        "brep_faces"
+      ]
+    },
+    {
+      "file": "drone-v3-complet-detaille.step",
+      "sha256": "5b015bf59800b186dc31814df4c4378941578aacca3340b4b615a4e91fa311f5",
+      "engine": "CAD Viewer 1.5.7 bundled occt-import-js 0.0.23",
+      "success": true,
+      "keys": [
+        "success",
+        "root",
+        "meshes"
+      ],
+      "meshes": 225,
+      "triangles": 58984,
+      "milliseconds": 8534,
+      "meshExample": [
+        "name",
+        "attributes",
+        "index",
+        "color",
+        "brep_faces"
+      ]
+    }
+  ],
+  "scope": "Actual bundled STEP parser exercised. GUI display checked separately where recorded; not inferred from parser success.",
+  "actual_app_test": {
+    "all_passed": true,
+    "extension": "Thingraph CAD Viewer 1.5.7",
+    "file": "drone-v3-complet-detaille.step",
+    "sha256": "5b015bf59800b186dc31814df4c4378941578aacca3340b4b615a4e91fa311f5",
+    "test_copy": "tools\\temp\\cad-viewer-complet-leger.step",
+    "extension_reported_model_loaded": true,
+    "signal": {
+      "type": "viewerState",
+      "state": "modelLoaded",
+      "fileName": "cad-viewer-complet-leger.step",
+      "url": "https://file%2B.vscode-resource.vscode-cdn.net/C%3A/Users/thoma/workspace/Drone/drone-v3/tools/temp/cad-viewer-complet-leger.step",
+      "mode": "3d"
+    },
+    "source_log": "C:\\Users\\thoma\\AppData\\Roaming\\Code\\logs\\20261015T104847\\window2\\exthost\\output_logging_20261015T140801\\1-CAD Viewer.log",
+    "visual_screenshot_inspected": false
+  }
+}

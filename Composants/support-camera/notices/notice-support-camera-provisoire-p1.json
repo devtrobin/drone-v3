@@ -1,0 +1,15 @@
+{
+  "pages": 3,
+  "sha256": "84ee21cea506d9f862635e60d16103c343d6f4694ccf5bde81d3780b11dd2346",
+  "renders": [
+    "tools\\temp\\support-camera-p1\\page-1.png",
+    "tools\\temp\\support-camera-p1\\page-2.png",
+    "tools\\temp\\support-camera-p1\\page-3.png"
+  ],
+  "visual_review_completed": true,
+  "visual_review_pages": [
+    1,
+    2,
+    3
+  ]
+}

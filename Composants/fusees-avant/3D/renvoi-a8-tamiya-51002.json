@@ -1,0 +1,62 @@
+{
+  "file": "renvoi-a8-tamiya-51002.step",
+  "title": "Tamiya A8 | renvoi de direction",
+  "generated_on": "2026-10-13",
+  "unit": "mm",
+  "cadquery_version": "2.8.0",
+  "coordinate_system": "A7: axe roue X, pivot Z, centre de roulements (0,0,0); A6/renvois: pivot Z",
+  "bytes": 92834,
+  "sha256": "9ef9d4cbebd24d2c67d00bf231baed19baf3d9f6135738c554afa5982c56506b",
+  "native_vendor_cad": false,
+  "hardware_measured": false,
+  "is_custom_project_design": false,
+  "published_nominal": [
+    "Renvoi A8 et vis decollétees identifies TT01R p.10"
+  ],
+  "estimates_and_limitations": [
+    "Contours, epaisseurs, entraxes et alesages entierement reconstruits non mesures",
+    "Etude d implantation, pas une copie garantie du moulage Tamiya"
+  ],
+  "parameters": {},
+  "source_pages": [
+    "Tamiya-TT01R-notice-constructeur.pdf p.10"
+  ],
+  "bounds_mm": {
+    "xmin": -4.0,
+    "xmax": 19.5,
+    "ymin": -4.0,
+    "ymax": 14.5,
+    "zmin": 0.0,
+    "zmax": 7.0
+  },
+  "validation": {
+    "valid_after_reimport": true,
+    "solids": 1,
+    "faces": 25,
+    "colors": 1,
+    "volume_relative_error": 2.97481803834681e-14,
+    "volume_relative_error_limit": 0.0001,
+    "volume_before_mm3": 890.44213285251,
+    "volume_after_mm3": 890.4421328525365,
+    "adaptive_volume_tolerance": 1e-09,
+    "bbox_error_mm": 0.0,
+    "bbox_error_limit_mm": 0.01,
+    "void_and_material_probes": [],
+    "elapsed_seconds": 0.1482782999992196
+  },
+  "parts": [
+    {
+      "name": "Renvoi_A8",
+      "color_linear_rgb": [
+        0.022,
+        0.026,
+        0.032
+      ],
+      "solids": 1
+    }
+  ],
+  "preview": {
+    "file": "renvoi-a8-tamiya-51002.png",
+    "sha256": "980fafedcd60fed22a0914c9506f7490a1546158f61062a8c3322531745e1e4b"
+  }
+}

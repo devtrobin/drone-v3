@@ -1,0 +1,82 @@
+{
+  "checked_on": "2026-10-14",
+  "reference": "SC1148",
+  "quantity": 1,
+  "manufacturer_product": "https://www.raspberrypi.com/products/active-cooler/",
+  "manufacturer_portal": "https://pip.raspberrypi.com/categories/993-raspberry-pi-active-cooler",
+  "mechanical_reference_mm": {
+    "width": 63.5,
+    "length": 42.5,
+    "total_height_with_clips": 13.7,
+    "fan_footprint": [
+      30,
+      30
+    ],
+    "production_dimensions": false
+  },
+  "electrical": {
+    "supply_V": 5,
+    "header": "Pi5 FAN JST-SH4pins,1mm",
+    "pins": [
+      {
+        "pin": 1,
+        "function": "+5V",
+        "color": "rouge"
+      },
+      {
+        "pin": 2,
+        "function": "PWM",
+        "color": "bleu"
+      },
+      {
+        "pin": 3,
+        "function": "GND",
+        "color": "noir"
+      },
+      {
+        "pin": 4,
+        "function": "TACH",
+        "color": "jaune"
+      }
+    ],
+    "current_active_cooler_not_published_in_brief": true,
+    "USB_budget_shared_with_fan": true,
+    "case_fan_60mA_not_transferred_to_ActiveCooler": true
+  },
+  "fan": {
+    "airflow_max_CFM": 1.09,
+    "rpm_max_nominal": 8000,
+    "rpm_tolerance_percent": 15,
+    "MTTF_hours_at_25C": 379000
+  },
+  "primary_brief_edition": "January2026",
+  "portal_plan_updated": "2025-10-06",
+  "portal_brief_updated": "2026-01-09",
+  "current_control_profile": {
+    "temperature_rising_C": [
+      50,
+      60,
+      67.5,
+      75
+    ],
+    "duty_percent": [
+      30,
+      50,
+      70,
+      100
+    ],
+    "hysteresis_C": 5,
+    "source": "https://www.raspberrypi.com/documentation/computers/raspberry-pi.html",
+    "actual_OS_verified": false
+  },
+  "Amazon_FR_page_verified": true,
+  "Amazon_FR_offer_observed": true,
+  "purchase_evidence": "achat-amazon.json",
+  "assets": "assets.json",
+  "manufacturer_STEP_found": false,
+  "model_3d_created": true,
+  "model_3d_manifest": "3D/provenance.json",
+  "hardware_tested": false,
+  "installed_height_verified": false,
+  "video1080p60_validated_by_cooler": false
+}

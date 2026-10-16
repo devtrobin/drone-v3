@@ -1,0 +1,146 @@
+{
+  "date": "2026-10-14",
+  "kit": {
+    "brand": "Ewwtrey",
+    "manufacturer": "DJJRX",
+    "part": "260018",
+    "asin": "B0DCS5C7SN",
+    "quantity_to_buy": 1,
+    "price_eur_vat_included": 9.98,
+    "shipping_conditional": true,
+    "purchased": false,
+    "advertised_pieces": 335
+  },
+  "study_assembly_only": true,
+  "final_height_selected": false,
+  "total_used_in_study": 20,
+  "total_reserve": 315,
+  "parts": [
+    {
+      "id": "mf-6",
+      "component": "Entretoise mâle-femelle",
+      "specification": "M2.5, corps 6 mm + mâle 6 mm",
+      "bought_in_one_kit": 20,
+      "used_in_study": 0,
+      "reserve": 20,
+      "step": "3D/entretoise-mf-m2-5-6-plus-6.step"
+    },
+    {
+      "id": "mf-8",
+      "component": "Entretoise mâle-femelle",
+      "specification": "M2.5, corps 8 mm + mâle 6 mm",
+      "bought_in_one_kit": 20,
+      "used_in_study": 0,
+      "reserve": 20,
+      "step": "3D/entretoise-mf-m2-5-8-plus-6.step"
+    },
+    {
+      "id": "mf-10",
+      "component": "Entretoise mâle-femelle",
+      "specification": "M2.5, corps 10 mm + mâle 6 mm",
+      "bought_in_one_kit": 20,
+      "used_in_study": 4,
+      "reserve": 16,
+      "step": "3D/entretoise-mf-m2-5-10-plus-6.step"
+    },
+    {
+      "id": "mf-15",
+      "component": "Entretoise mâle-femelle",
+      "specification": "M2.5, corps 15 mm + mâle 6 mm",
+      "bought_in_one_kit": 10,
+      "used_in_study": 0,
+      "reserve": 10,
+      "step": "3D/entretoise-mf-m2-5-15-plus-6.step"
+    },
+    {
+      "id": "mf-20",
+      "component": "Entretoise mâle-femelle",
+      "specification": "M2.5, corps 20 mm + mâle 6 mm",
+      "bought_in_one_kit": 10,
+      "used_in_study": 0,
+      "reserve": 10,
+      "step": "3D/entretoise-mf-m2-5-20-plus-6.step"
+    },
+    {
+      "id": "ff-6",
+      "component": "Entretoise femelle-femelle",
+      "specification": "M2.5, corps 6 mm",
+      "bought_in_one_kit": 20,
+      "used_in_study": 0,
+      "reserve": 20,
+      "step": "3D/entretoise-ff-m2-5-6.step"
+    },
+    {
+      "id": "ff-10",
+      "component": "Entretoise femelle-femelle",
+      "specification": "M2.5, corps 10 mm",
+      "bought_in_one_kit": 20,
+      "used_in_study": 0,
+      "reserve": 20,
+      "step": "3D/entretoise-ff-m2-5-10.step"
+    },
+    {
+      "id": "ff-15",
+      "component": "Entretoise femelle-femelle",
+      "specification": "M2.5, corps 15 mm",
+      "bought_in_one_kit": 15,
+      "used_in_study": 0,
+      "reserve": 15,
+      "step": "3D/entretoise-ff-m2-5-15.step"
+    },
+    {
+      "id": "ff-20",
+      "component": "Entretoise femelle-femelle",
+      "specification": "M2.5, corps 20 mm",
+      "bought_in_one_kit": 20,
+      "used_in_study": 0,
+      "reserve": 20,
+      "step": "3D/entretoise-ff-m2-5-20.step"
+    },
+    {
+      "id": "vis-8",
+      "component": "Vis cruciforme",
+      "specification": "M2.5 x 8 mm sous tête",
+      "bought_in_one_kit": 20,
+      "used_in_study": 4,
+      "reserve": 16,
+      "step": "3D/vis-cruciforme-m2-5-8.step"
+    },
+    {
+      "id": "vis-12",
+      "component": "Vis cruciforme",
+      "specification": "M2.5 x 12 mm sous tête",
+      "bought_in_one_kit": 20,
+      "used_in_study": 0,
+      "reserve": 20,
+      "step": "3D/vis-cruciforme-m2-5-12.step"
+    },
+    {
+      "id": "vis-20",
+      "component": "Vis cruciforme",
+      "specification": "M2.5 x 20 mm sous tête",
+      "bought_in_one_kit": 20,
+      "used_in_study": 0,
+      "reserve": 20,
+      "step": "3D/vis-cruciforme-m2-5-20.step"
+    },
+    {
+      "id": "ecrou",
+      "component": "Écrou hexagonal",
+      "specification": "M2.5",
+      "bought_in_one_kit": 60,
+      "used_in_study": 4,
+      "reserve": 56,
+      "step": "3D/ecrou-m2-5.step"
+    },
+    {
+      "id": "rondelle",
+      "component": "Rondelle plate",
+      "specification": "M2.5",
+      "bought_in_one_kit": 60,
+      "used_in_study": 8,
+      "reserve": 52,
+      "step": "3D/rondelle-m2-5.step"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "checked_on": "2026-10-14",
+  "references": [
+    {
+      "reference": "Ancor 312303",
+      "url": "https://docs.navico.com/view/362211770/24/"
+    },
+    {
+      "reference": "Klauke 95R4",
+      "url": "https://www.klauke.com/gb/en/tubular-cable-lugs-cu-standard-type-4959"
+    },
+    {
+      "reference": "Klauke 95R5",
+      "url": "https://www.klauke.com/gb/en/tubular-cable-lugs-cu-standard-type-4959"
+    },
+    {
+      "reference": "Ancor 309203",
+      "url": "https://docs.navico.com/view/362211770/25/"
+    },
+    {
+      "reference": "TE / Raychem ATUM-8/2-0-STK (NB11802001)",
+      "url": "https://www.te.com/en/product-NB11802001.html"
+    },
+    {
+      "reference": "HellermannTyton T18R 111-01919",
+      "url": "https://www.hellermanntyton.com/products/cable-ties-inside-serrated/t18r/111-01919"
+    },
+    {
+      "reference": "HellermannTyton MB2 151-28210",
+      "url": "https://www.hellermanntyton.com/au/products/cable-tie-mounts/mb2/151-28210"
+    },
+    {
+      "reference": "AUPROTEC FLRY-B 6,00 mm² rouge / noir",
+      "url": "https://auprotec.de/de/elektrik/fahrzeugleitungen-einadrig/flry-b-leitung/6-00-mm2-flry-b-leitung/flry-b-6-0-mm2-batteriekabel-rot-6m-ring/p/044906"
+    }
+  ],
+  "exact_Amazon_FR_offers_verified": false,
+  "price_TTC_verified": false,
+  "hardware_tested": false,
+  "source_archives": "assets.json",
+  "current_TE_documents_web_verified": true
+}

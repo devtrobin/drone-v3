@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-15",
+  "numbering": "Pi physical pins and BCM GPIO explicitly distinguished",
+  "Pi": {
+    "left_OUT": {
+      "physical_pin": 16,
+      "BCM": 23
+    },
+    "right_OUT": {
+      "physical_pin": 18,
+      "BCM": 24
+    },
+    "VCC_physical_pin": 17,
+    "GND_physical_pin": 25
+  },
+  "TI_LPG": {
+    "pin1": "VCC",
+    "pin2": "GND",
+    "pin3": "OUT"
+  },
+  "supply_V": 3.3,
+  "pullups_to_V": 3.3,
+  "decoupling_each_F": 1e-07,
+  "pullup_each_ohm": 10000,
+  "power_5V_separate": true,
+  "hardware_wired": false
+}

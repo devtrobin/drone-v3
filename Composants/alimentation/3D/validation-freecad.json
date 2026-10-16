@@ -1,0 +1,72 @@
+{
+  "checked_on": "2026-10-13",
+  "method": "FreeCAD Part.read, optimalBoundingBox; headless",
+  "version": [
+    "1",
+    "1",
+    "4",
+    "20260928 (Git shallow)",
+    "Unknown",
+    "2026/09/28 13:46:34",
+    "(HEAD detached at 4fd3bf320)",
+    "4fd3bf320d9566a27e60069fc8387448aaa3a094"
+  ],
+  "GUI_tested": false,
+  "VSCode_CAD_View_tested": false,
+  "files": 4,
+  "all_passed": true,
+  "checks": [
+    {
+      "folder": "batterie",
+      "file": "batterie-zeee-2s-5200mah-detaillee.step",
+      "bytes": 8241899,
+      "sha256": "911f357adf814752c645ba61a0b4fbef49d1121aa6acc34b864dd0de4b2f1a3b",
+      "valid": true,
+      "closed_solids": true,
+      "solids": 130,
+      "faces": 2022,
+      "bbox_error_mm": 0.0,
+      "import_seconds": 2.8384813999982725,
+      "passed": true
+    },
+    {
+      "folder": "regulateur-alimentation",
+      "file": "pololu-d24v90f5-officiel.step",
+      "bytes": 4884801,
+      "sha256": "cdb901f06d5b13f49c6af5d5e64b2a2cd8bafedf1ddfd5c23ed21663bb8f295a",
+      "valid": true,
+      "closed_solids": true,
+      "solids": 1,
+      "faces": 1155,
+      "bbox_error_mm": 0.0,
+      "import_seconds": 1.6445839000007254,
+      "passed": true
+    },
+    {
+      "folder": "chargeur-batterie",
+      "file": "chargeur-skyrc-s65-detaille.step",
+      "bytes": 13254570,
+      "sha256": "27b270e2414394e7aaf815778f790b5c238ac6beb41dd3bdb336cb1ee3edb0ee",
+      "valid": true,
+      "closed_solids": true,
+      "solids": 157,
+      "faces": 3125,
+      "bbox_error_mm": 0.0,
+      "import_seconds": 4.00629740000295,
+      "passed": true
+    },
+    {
+      "folder": "chargeur-batterie",
+      "file": "cordon-secteur-c7-eu-etude.step",
+      "bytes": 443160,
+      "sha256": "99020742dee1369a5c9b905fd6218461bb61c350f39598fb491e0232b8c9ff72",
+      "valid": true,
+      "closed_solids": true,
+      "solids": 9,
+      "faces": 127,
+      "bbox_error_mm": 0.0,
+      "import_seconds": 0.16132930000094348,
+      "passed": true
+    }
+  ]
+}

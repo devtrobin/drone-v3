@@ -1,0 +1,68 @@
+{
+  "checked_on": "2026-10-13",
+  "assets": [
+    {
+      "file": "sources-web/zeee-produit.html",
+      "url": "https://zeeebattery.com/products/zeee-2s-lipo-battery-5200mah-7-4v-80c-xt60-plug",
+      "final_url": "https://zeeebattery.com/products/zeee-2s-lipo-battery-5200mah-7-4v-80c-xt60-plug",
+      "kind": "manufacturer-page",
+      "bytes": 360747,
+      "sha256": "2af2205e694d14feb9a45953b1fa7d6599d62e50225d229df76600aa542cf271",
+      "modified": false
+    },
+    {
+      "file": "photos/01-zeee-2s5200.jpg",
+      "url": "https://zeeebattery.com/cdn/shop/files/lipo-74v-010-102_bee541d7-8f4c-45b7-804a-e64950aae98e_1600x1600.jpg?v=1784774020",
+      "final_url": "https://zeeebattery.com/cdn/shop/files/lipo-74v-010-102_bee541d7-8f4c-45b7-804a-e64950aae98e_1600x1600.jpg?v=1784774020",
+      "kind": "manufacturer-photo",
+      "bytes": 314285,
+      "sha256": "2578f047caa304605fa906a95bb04242fbdaac71f9c688c94297ac1c3688e883",
+      "modified": false
+    },
+    {
+      "file": "photos/02-zeee-2s5200.jpg",
+      "url": "https://zeeebattery.com/cdn/shop/files/2_8805a883-ae12-4184-85b0-e6aa93ac260e_1600x1600.jpg?v=1725434112",
+      "final_url": "https://zeeebattery.com/cdn/shop/files/2_8805a883-ae12-4184-85b0-e6aa93ac260e_1600x1600.jpg?v=1725434112",
+      "kind": "manufacturer-photo",
+      "bytes": 283165,
+      "sha256": "a30efafaa30c19cae9c3d10df33aae36ee2a7761e714aa3f808eef729a5541fa",
+      "modified": false
+    },
+    {
+      "file": "photos/03-zeee-2s5200.jpg",
+      "url": "https://zeeebattery.com/cdn/shop/files/3_0ae90469-d1b1-47b7-a89d-02c19d284b5a_1600x1600.jpg?v=1725434112",
+      "final_url": "https://zeeebattery.com/cdn/shop/files/3_0ae90469-d1b1-47b7-a89d-02c19d284b5a_1600x1600.jpg?v=1725434112",
+      "kind": "manufacturer-photo",
+      "bytes": 361418,
+      "sha256": "17a5913dbeec0f65f73122579481b898bb75a030b610d4b8c4f5253763606f5b",
+      "modified": false
+    },
+    {
+      "file": "photos/04-zeee-2s5200.jpg",
+      "url": "https://zeeebattery.com/cdn/shop/files/4_a564e334-d68c-463e-b82c-7a4f04e4da80_1600x1600.jpg?v=1725434112",
+      "final_url": "https://zeeebattery.com/cdn/shop/files/4_a564e334-d68c-463e-b82c-7a4f04e4da80_1600x1600.jpg?v=1725434112",
+      "kind": "manufacturer-photo",
+      "bytes": 144221,
+      "sha256": "6c2386e60f6b14bd4691b0ec04f926591538570da076f849097adade4afed287",
+      "modified": false
+    },
+    {
+      "file": "photos/05-zeee-2s5200.jpg",
+      "url": "https://zeeebattery.com/cdn/shop/files/5_dc5a7fa1-5c7a-41f1-b434-0f7b5b778bd5_1600x1600.jpg?v=1725434112",
+      "final_url": "https://zeeebattery.com/cdn/shop/files/5_dc5a7fa1-5c7a-41f1-b434-0f7b5b778bd5_1600x1600.jpg?v=1725434112",
+      "kind": "manufacturer-photo",
+      "bytes": 539286,
+      "sha256": "656551609ef3a2a4cc1e5b7b48d37a644ad21a1a8c3a351e9d03538118dcc1ac",
+      "modified": false
+    },
+    {
+      "file": "photos/06-zeee-2s5200.jpg",
+      "url": "https://zeeebattery.com/cdn/shop/files/6_292943b2-4e6f-49ab-a04d-8d7bc3c8b5f2_1600x1600.jpg?v=1725434112",
+      "final_url": "https://zeeebattery.com/cdn/shop/files/6_292943b2-4e6f-49ab-a04d-8d7bc3c8b5f2_1600x1600.jpg?v=1725434112",
+      "kind": "manufacturer-photo",
+      "bytes": 297878,
+      "sha256": "d392c038a7b2dcf5918ef49ed02ac34106e751ae1f95ada2fe06537f3584dd82",
+      "modified": false
+    }
+  ]
+}

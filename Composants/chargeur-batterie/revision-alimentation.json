@@ -1,0 +1,6 @@
+{
+  "date": "2026-10-15",
+  "current_source": "../verification-alimentation/selection-active.json",
+  "note": "S65 conservé pour le pack G1 5 Ah : charge LiPo Balance 2S, 5 A, 42 W maximum. Cordon BEEC1067 et rallonge 2S dédiée sélectionnés ; les anciennes valeurs Zeee 5,2 Ah / 5,2 A sont historiques.",
+  "old_project_PDFs_and_complete_CAD_historical": true
+}

@@ -6,6 +6,7 @@ tools/vendor/
 .venv/
 .DS_Store
 .ruff_cache/
+debug.log
 tmp/
 
 # Configuration locale et secrets du robot.
@@ -18,3 +19,7 @@ Logiciel/secrets/
 *.kicad_prl
 *.lck
 *-backups/
+
+# Seule la copie avec graphismes de 142 Mo est reconstruite depuis son ZIP.
+# Les STEP sans graphismes et d'implantation sont suivis directement dans Git.
+Composants/raspberry-pi-5/3D/raspberry-pi-5-officiel-avec-graphismes.step

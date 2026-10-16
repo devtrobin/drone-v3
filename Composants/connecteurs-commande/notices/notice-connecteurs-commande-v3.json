@@ -1,0 +1,40 @@
+{
+  "file": "notice-connecteurs-commande-v3.pdf",
+  "pages": 6,
+  "sha256": "98752252ca9a98cf92c45bfaa57794c2b10ffc925bed66fd3b1481515afc7b06",
+  "rendered_pages": [
+    {
+      "page": 1,
+      "png": "tools\\temp\\final-components\\pdf\\connecteurs-commande\\page-01.png",
+      "characters": 831
+    },
+    {
+      "page": 2,
+      "png": "tools\\temp\\final-components\\pdf\\connecteurs-commande\\page-02.png",
+      "characters": 864
+    },
+    {
+      "page": 3,
+      "png": "tools\\temp\\final-components\\pdf\\connecteurs-commande\\page-03.png",
+      "characters": 2159
+    },
+    {
+      "page": 4,
+      "png": "tools\\temp\\final-components\\pdf\\connecteurs-commande\\page-04.png",
+      "characters": 334
+    },
+    {
+      "page": 5,
+      "png": "tools\\temp\\final-components\\pdf\\connecteurs-commande\\page-05.png",
+      "characters": 1014
+    },
+    {
+      "page": 6,
+      "png": "tools\\temp\\final-components\\pdf\\connecteurs-commande\\page-06.png",
+      "characters": 1014
+    }
+  ],
+  "visual_review_complete": true,
+  "visual_review_date": "2026-10-14",
+  "visual_review_method": "Rendered every final page and viewed all contact sheets, with full page checks for layout issues."
+}

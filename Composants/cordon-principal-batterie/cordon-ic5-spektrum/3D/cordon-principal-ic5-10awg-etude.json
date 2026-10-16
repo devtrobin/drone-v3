@@ -1,0 +1,521 @@
+{
+  "file": "cordon-principal-ic5-10awg-etude.step",
+  "title": "Cordon actif | IC5, 10 AWG et cosses",
+  "generated_on": "2026-10-15",
+  "unit": "mm",
+  "cadquery_version": "2.8.0",
+  "coordinate_system": "Axe principal Z; face de reference z=0; dimensions selon parametres",
+  "bytes": 912322,
+  "sha256": "4e11fcf6c7fab730e17862a18a5f57681db688c0bd3069a17db8ac0c69c04312",
+  "native_vendor_cad": false,
+  "hardware_measured": false,
+  "is_custom_project_design": true,
+  "published_nominal": [
+    "Spektrum SPMXCA510 : IC5 Device, deux fils10AWG4in ; photo officielle montrant pré-câblage et capot.",
+    "TE130191 : L19,3 ; trou5,26 ; épaisseur0,79 ; plage12-10AWG."
+  ],
+  "estimates_and_limitations": [
+    "Reconstruction visuelle sans CAO native ni plan coté ; corps24×21×11 environ, contacts/entraxe, capot, lèvres et rayons estimés.",
+    "SiliconeØ5,5 et faisceau métalliqueØ3,0 estimés ; enveloppe pleine, pas nombre de brins ni masse de cuivre.",
+    "Polarité graphique illustrative : contrôler les marques et continuités du lot reçu. Pas de filSmart ajouté, cavitécentrale simplifiée.",
+    "Référencearrêtéechezfabricant ; aucun essai de courant ou de compatibilité d’accouplement du modèle.",
+    "Pose provisoire à2arcs tangents ; fils entiers du godet au raccord. Les queuesouvertes du modèle référence reproduisent un cordon avant ajout decosses, pas la terminaison installée.",
+    "Étatserti et profilATUM estimés, pas empreinteW validée. Étatinstallé : environ92mm de métal, sous longueur initiale4in ; aucune liste de coupe.",
+    "Couleurs et détails non cotés estimés, aucune pièce mesurée ; aucune qualification à44A."
+  ],
+  "parameters": {
+    "nominal_AWG": 10,
+    "wire_OD_estimated_mm": 5.5,
+    "bundle_OD_estimated_mm": 3.0,
+    "terminated": true
+  },
+  "source_pages": [
+    "Voir sources.json et assets.json du cordon"
+  ],
+  "bounds_mm": {
+    "xmin": -19.565,
+    "xmax": 19.565,
+    "ymin": -5.6,
+    "ymax": 5.6,
+    "zmin": 0.0,
+    "zmax": 117.2
+  },
+  "validation": {
+    "valid_after_reimport": true,
+    "solids": 16,
+    "faces": 284,
+    "colors": 6,
+    "volume_relative_error": 6.081416812906526e-14,
+    "volume_relative_error_limit": 0.0001,
+    "volume_before_mm3": 8644.168847448354,
+    "volume_after_mm3": 8644.168847447829,
+    "adaptive_volume_tolerance": 1e-09,
+    "bbox_error_mm": 0.0,
+    "bbox_error_limit_mm": 0.01,
+    "void_and_material_probes": [
+      {
+        "point": [
+          -14.8,
+          -2.0,
+          109.95
+        ],
+        "occupied": false,
+        "material": "oeillet_integralement_circulaire"
+      },
+      {
+        "point": [
+          -4.8,
+          0.0,
+          15.65
+        ],
+        "occupied": true
+      },
+      {
+        "point": [
+          -4.8,
+          0.0,
+          24.25
+        ],
+        "occupied": true
+      },
+      {
+        "point": [
+          -4.8,
+          0.0,
+          32.85
+        ],
+        "occupied": true
+      },
+      {
+        "point": [
+          -4.851066979385195,
+          0.0,
+          37.020581726739145
+        ],
+        "occupied": true
+      },
+      {
+        "point": [
+          -6.070166537925836,
+          0.0,
+          45.0
+        ],
+        "occupied": true
+      },
+      {
+        "point": [
+          -8.86647368479808,
+          0.0,
+          52.57218502505284
+        ],
+        "occupied": true
+      },
+      {
+        "point": [
+          -10.733526315201914,
+          0.0,
+          56.15764843702133
+        ],
+        "occupied": true
+      },
+      {
+        "point": [
+          -13.529833462074158,
+          0.0,
+          63.72983346207417
+        ],
+        "occupied": true
+      },
+      {
+        "point": [
+          -14.748933020614807,
+          0.0,
+          71.70925173533503
+        ],
+        "occupied": true
+      },
+      {
+        "point": [
+          -14.8,
+          0.0,
+          76.80685011586675
+        ],
+        "occupied": true
+      },
+      {
+        "point": [
+          -14.8,
+          0.0,
+          89.11491673103708
+        ],
+        "occupied": true
+      },
+      {
+        "point": [
+          -14.8,
+          0.0,
+          101.42298334620742
+        ],
+        "occupied": true
+      },
+      {
+        "point": [
+          -4.8,
+          2.125,
+          27.75
+        ],
+        "occupied": true,
+        "material": "gaine_silicone_annulaire"
+      },
+      {
+        "point": [
+          -6.070166537925836,
+          2.125,
+          45.0
+        ],
+        "occupied": true,
+        "material": "gaine_silicone_annulaire"
+      },
+      {
+        "point": [
+          -13.529833462074158,
+          2.125,
+          63.72983346207417
+        ],
+        "occupied": true,
+        "material": "gaine_silicone_annulaire"
+      },
+      {
+        "point": [
+          -14.8,
+          2.125,
+          85.81491673103709
+        ],
+        "occupied": true,
+        "material": "gaine_silicone_annulaire"
+      },
+      {
+        "point": [
+          14.8,
+          -2.0,
+          109.95
+        ],
+        "occupied": false,
+        "material": "oeillet_integralement_circulaire"
+      },
+      {
+        "point": [
+          4.8,
+          0.0,
+          15.65
+        ],
+        "occupied": true
+      },
+      {
+        "point": [
+          4.8,
+          0.0,
+          24.25
+        ],
+        "occupied": true
+      },
+      {
+        "point": [
+          4.8,
+          0.0,
+          32.85
+        ],
+        "occupied": true
+      },
+      {
+        "point": [
+          4.851066979385195,
+          0.0,
+          37.020581726739145
+        ],
+        "occupied": true
+      },
+      {
+        "point": [
+          6.070166537925836,
+          0.0,
+          45.0
+        ],
+        "occupied": true
+      },
+      {
+        "point": [
+          8.86647368479808,
+          0.0,
+          52.57218502505284
+        ],
+        "occupied": true
+      },
+      {
+        "point": [
+          10.733526315201914,
+          0.0,
+          56.15764843702133
+        ],
+        "occupied": true
+      },
+      {
+        "point": [
+          13.529833462074158,
+          0.0,
+          63.72983346207417
+        ],
+        "occupied": true
+      },
+      {
+        "point": [
+          14.748933020614807,
+          0.0,
+          71.70925173533503
+        ],
+        "occupied": true
+      },
+      {
+        "point": [
+          14.8,
+          0.0,
+          76.80685011586675
+        ],
+        "occupied": true
+      },
+      {
+        "point": [
+          14.8,
+          0.0,
+          89.11491673103708
+        ],
+        "occupied": true
+      },
+      {
+        "point": [
+          14.8,
+          0.0,
+          101.42298334620742
+        ],
+        "occupied": true
+      },
+      {
+        "point": [
+          4.8,
+          2.125,
+          27.75
+        ],
+        "occupied": true,
+        "material": "gaine_silicone_annulaire"
+      },
+      {
+        "point": [
+          6.070166537925836,
+          2.125,
+          45.0
+        ],
+        "occupied": true,
+        "material": "gaine_silicone_annulaire"
+      },
+      {
+        "point": [
+          13.529833462074158,
+          2.125,
+          63.72983346207417
+        ],
+        "occupied": true,
+        "material": "gaine_silicone_annulaire"
+      },
+      {
+        "point": [
+          14.8,
+          2.125,
+          85.81491673103709
+        ],
+        "occupied": true,
+        "material": "gaine_silicone_annulaire"
+      }
+    ],
+    "elapsed_seconds": 2.859369700003299,
+    "volume_after_default_quadrature_mm3": 8644.168847449646
+  },
+  "parts": [
+    {
+      "name": "Piece_boitier_IC5_estime",
+      "color_linear_rgb": [
+        0.95,
+        0.24,
+        0.005
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Piece_contact_puissance_1_estime",
+      "color_linear_rgb": [
+        0.72,
+        0.46,
+        0.1
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Piece_contact_puissance_2_estime",
+      "color_linear_rgb": [
+        0.72,
+        0.46,
+        0.1
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Piece_capot_noir_estime",
+      "color_linear_rgb": [
+        0.015,
+        0.019,
+        0.024
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Piece_CP0_moins_metal_enveloppe_estimee",
+      "color_linear_rgb": [
+        0.57,
+        0.62,
+        0.65
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Piece_CP0_moins_gaine10AWG_estimee",
+      "color_linear_rgb": [
+        0.015,
+        0.019,
+        0.024
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Piece_CP0_moins_joint_usine_estime",
+      "color_linear_rgb": [
+        0.57,
+        0.62,
+        0.65
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Piece_CP0_moins_TE130191_sertie_estimee",
+      "color_linear_rgb": [
+        0.57,
+        0.62,
+        0.65
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Piece_CP0_moins_adhesif_installe_estime",
+      "color_linear_rgb": [
+        0.13,
+        0.1,
+        0.075
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Piece_CP0_moins_gaine_installee_estimee",
+      "color_linear_rgb": [
+        0.015,
+        0.019,
+        0.024
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Piece_CP0_plus_metal_enveloppe_estimee",
+      "color_linear_rgb": [
+        0.57,
+        0.62,
+        0.65
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Piece_CP0_plus_gaine10AWG_estimee",
+      "color_linear_rgb": [
+        0.7,
+        0.01,
+        0.01
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Piece_CP0_plus_joint_usine_estime",
+      "color_linear_rgb": [
+        0.57,
+        0.62,
+        0.65
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Piece_CP0_plus_TE130191_sertie_estimee",
+      "color_linear_rgb": [
+        0.57,
+        0.62,
+        0.65
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Piece_CP0_plus_adhesif_installe_estime",
+      "color_linear_rgb": [
+        0.13,
+        0.1,
+        0.075
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Piece_CP0_plus_gaine_installee_estimee",
+      "color_linear_rgb": [
+        0.015,
+        0.019,
+        0.024
+      ],
+      "solids": 1
+    }
+  ],
+  "preview": {
+    "file": "cordon-principal-ic5-10awg-etude.png",
+    "sha256": "27b7b47ae7d001585d187329e2c15abf593007718ef53012d36a85a7f6c3aafa"
+  },
+  "component_folder": "cordon-principal-batterie/cordon-ic5-spektrum",
+  "relative_step_path": "cordon-principal-batterie/cordon-ic5-spektrum/3D/cordon-principal-ic5-10awg-etude.step",
+  "generator": "tools/build_main_cord_ic5_step.py",
+  "generator_sha256": "aa111307c261d89ab9242d12351c60b803f5a52f75f19f719607226a1fba399d",
+  "wire_continuity_checks": [
+    {
+      "pole": "CP0_moins",
+      "core_path_length_mm": 92.69900736065841,
+      "core_radial_samples": 1872,
+      "jacket_radial_samples": 1872,
+      "bonds": {
+        "contact_solder_mm": 0.0,
+        "solder_core_mm": 0.0,
+        "core_lug_mm": 0.0
+      }
+    },
+    {
+      "pole": "CP0_plus",
+      "core_path_length_mm": 92.69900736065841,
+      "core_radial_samples": 1872,
+      "jacket_radial_samples": 1872,
+      "bonds": {
+        "contact_solder_mm": 0.0,
+        "solder_core_mm": 0.0,
+        "core_lug_mm": 0.0
+      }
+    }
+  ],
+  "version": "IC5_active"
+}

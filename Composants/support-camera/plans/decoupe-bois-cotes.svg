@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="493.228346456693" height="411.02362204724415" preserveAspectRatio="xMinYMin meet" viewBox="0 0 493 411" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="493.228346456693" height="411.02362204724415"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-411)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="8.503937007874017" y="181.4173228346457" width="226.7716535433071" height="198.42519685039372" style="stroke: rgb(9%,28%,41%); stroke-linecap: butt; stroke-width: 1; fill: rgb(96%,93%,89%); fill-rule: evenodd;"/>
+			<rect x="172.91338582677167" y="211.88976377952758" width="39.685039370078755" height="12.755905511811022" rx="6.377952755905513" ry="6.377952755905513" style="stroke: rgb(9%,28%,41%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="172.91338582677167" y="336.6141732283465" width="39.685039370078755" height="12.755905511811022" rx="6.377952755905513" ry="6.377952755905513" style="stroke: rgb(9%,28%,41%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="8.503937007874017" y="394.0157480314961" style="font-family: HV3; font-size: 8px;fill: rgb(9%,28%,41%); stroke:none;" transform="translate(0,788) scale(1,-1)">C01 - base, CP6</text>
+			<path d="M 8.503937,167.244094 L 235.275591,167.244094 Z" style="stroke: rgb(9%,28%,41%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 8.503937,164.409449 L 8.503937,170.07874 Z" style="stroke: rgb(9%,28%,41%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 235.275591,164.409449 L 235.275591,170.07874 Z" style="stroke: rgb(9%,28%,41%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<text x="110.55118110236222" y="172.91338582677167" style="font-family: HV3; font-size: 8px;fill: rgb(9%,28%,41%); stroke:none;" transform="translate(0,345) scale(1,-1)">80</text>
+			<path d="M 246.614173,181.417323 L 246.614173,379.84252 Z" style="stroke: rgb(9%,28%,41%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 243.779528,181.417323 L 249.448819,181.417323 Z" style="stroke: rgb(9%,28%,41%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 243.779528,379.84252 L 249.448819,379.84252 Z" style="stroke: rgb(9%,28%,41%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<text x="252.28346456692915" y="280.62992125984255" style="font-family: HV3; font-size: 8px;fill: rgb(9%,28%,41%); stroke:none;" transform="translate(0,561) scale(1,-1)">70</text>
+			<text x="8.503937007874017" y="147.40157480314963" style="font-family: HV3; font-size: 7.4px;fill: rgb(9%,28%,41%); stroke:none;" transform="translate(0,294) scale(1,-1)">2 lumieres 14 x4,5 ; centres (65;13)/(65;57)</text>
+			<rect x="342.992125984252" y="42.51968503937008" width="56.692913385826785" height="340.15748031496065" style="stroke: rgb(9%,28%,41%); stroke-linecap: butt; stroke-width: 1; fill: rgb(96%,93%,89%); fill-rule: evenodd;"/>
+			<rect x="368.1496062992126" y="300.1181102362205" width="6.37795275590554" height="63.07086614173227" rx="3.1889763779527565" ry="3.1889763779527565" style="stroke: rgb(9%,28%,41%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<circle cx="354.33070866141736" cy="260.7874015748032" r="2.834645669291339" style="stroke: rgb(9%,28%,41%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<circle cx="388.3464566929134" cy="260.7874015748032" r="2.834645669291339" style="stroke: rgb(9%,28%,41%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="317.4803149606299" y="396.85039370078744" style="font-family: HV3; font-size: 8px;fill: rgb(9%,28%,41%); stroke:none;" transform="translate(0,793) scale(1,-1)">C02 - montant, CP6 (1:2)</text>
+			<path d="M 413.858268,42.519685 L 413.858268,382.677165 Z" style="stroke: rgb(9%,28%,41%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 411.023622,42.519685 L 416.692913,42.519685 Z" style="stroke: rgb(9%,28%,41%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 411.023622,382.677165 L 416.692913,382.677165 Z" style="stroke: rgb(9%,28%,41%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<text x="419.52755905511816" y="212.59842519685043" style="font-family: HV3; font-size: 8px;fill: rgb(9%,28%,41%); stroke:none;" transform="translate(0,425) scale(1,-1)">240</text>
+			<path d="M 342.992126,28.346457 L 399.685039,28.346457 Z" style="stroke: rgb(9%,28%,41%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 342.992126,25.511811 L 342.992126,31.181102 Z" style="stroke: rgb(9%,28%,41%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<path d="M 399.685039,25.511811 L 399.685039,31.181102 Z" style="stroke: rgb(9%,28%,41%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<text x="360.00000000000006" y="34.01574803149607" style="font-family: HV3; font-size: 8px;fill: rgb(9%,28%,41%); stroke:none;" transform="translate(0,68) scale(1,-1)">40</text>
+			<text x="286.29921259842524" y="8.503937007874017" style="font-family: HV3; font-size: 6.9px;fill: rgb(9%,28%,41%); stroke:none;" transform="translate(0,17) scale(1,-1)">Slot 44,5 x4,5 ; centres utiles 190-230 au montage</text>
+			<polygon points="8.503937 17.00787, 121.8898 17.00787, 8.503937 130.3937" style="stroke: rgb(9%,28%,41%); stroke-linecap: butt; stroke-width: 1; fill: rgb(96%,93%,89%); fill-rule: evenodd;"/>
+			<text x="136.06299212598427" y="107.71653543307087" style="font-family: HV3; font-size: 8px;fill: rgb(9%,28%,41%); stroke:none;" transform="translate(0,215) scale(1,-1)">C03 - gousset CP6</text>
+			<text x="136.06299212598427" y="90.70866141732284" style="font-family: HV3; font-size: 8px;fill: rgb(9%,28%,41%); stroke:none;" transform="translate(0,181) scale(1,-1)">Triangle rectangle</text>
+			<text x="136.06299212598427" y="73.70078740157481" style="font-family: HV3; font-size: 8px;fill: rgb(9%,28%,41%); stroke:none;" transform="translate(0,147) scale(1,-1)">40 x40, angle45 degres</text>
+			<text x="136.06299212598427" y="56.69291338582678" style="font-family: HV3; font-size: 8px;fill: rgb(9%,28%,41%); stroke:none;" transform="translate(0,113) scale(1,-1)">Sans trou : collage sur bois propre</text>
+		</g>
+	</g>
+</svg>

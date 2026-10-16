@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-15",
+  "folder": "fusible-principal-classe-t",
+  "ref": "JLLN050.T",
+  "qty": 1,
+  "name": "Littelfuse JLLN 50 A, classe T rapide",
+  "rating": "160 V DC ; pouvoir de coupure 20 kA DC pour les calibres 35–60 A",
+  "source": "https://www.littelfuse.com/assetdocs/jlln-datasheet?assetguid=3a7bc9bf-d932-4401-bdc7-b39f302195cf",
+  "buy": "https://www.mouser.fr/c/?q=JLLN050.T",
+  "status": "Sélection d’étude ; offre française exacte à confirmer",
+  "hardware_tested": false,
+  "model_created": false
+}

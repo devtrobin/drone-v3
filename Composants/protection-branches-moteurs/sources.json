@@ -1,0 +1,82 @@
+{
+  "checked_on": "2026-10-14",
+  "sources": [
+    {
+      "id": "holder",
+      "url": "https://www.bluesea.com/products/5065",
+      "type": "manufacturer",
+      "support": "ATO/ATC,12AWG,maximum30A; fuse separate; no standalone plan or numeric IP obtained"
+    },
+    {
+      "id": "ATO2022",
+      "url": "https://www.littelfuse.com/assetdocs/littelfuse-datasheet-ato?assetguid=bba6ed2a-96e5-4b07-ab5d-0e8d267c0bd1",
+      "type": "manufacturer",
+      "support": "exact0ATO030.V/VP, cotes, curves, derating, resistance and1kA; revision2022-11-15"
+    },
+    {
+      "id": "ATO-RSP",
+      "url": "https://rspsupply.com/images/downloads/Littelfuse/0/Littelfuse%200ATO020.VP/Specification%20Document.pdf",
+      "type": "manufacturer_document_mirror",
+      "support": "unchanged2022datasheet withRSP banners andMouser last page"
+    },
+    {
+      "id": "ESC",
+      "url": "https://www.hobbywing.com/en/products/quicrun-wp-16bl30-g2",
+      "type": "manufacturer",
+      "support": "16AWG75mm input,XT60,30A/100A announcement; peak duration unknown"
+    },
+    {
+      "id": "Amazon-holder-US",
+      "url": "https://www.amazon.com/dp/B004ZIUA62",
+      "type": "marketplace",
+      "support": "ASIN previously identified; challenge response this task"
+    },
+    {
+      "id": "Amazon-holder-FR",
+      "url": "https://www.amazon.fr/dp/B004ZIUA62",
+      "type": "marketplace",
+      "support": "challenge response; stock/price/delivery not confirmed"
+    },
+    {
+      "id": "Amazon-fuse-FR",
+      "url": "https://www.amazon.fr/s?k=Littelfuse+ATO30BP",
+      "type": "marketplace_search",
+      "support": "no exact listing orASIN validated"
+    },
+    {
+      "id": "price-fuse",
+      "url": "https://www.digikey.com/en/products/detail/littelfuse-inc/0ATO030-V/2519124",
+      "type": "authorized_distributor",
+      "support": "exact reference;1.43USD/one; dimensions body not total envelope"
+    },
+    {
+      "id": "pack-review",
+      "url": "https://www.canadiantire.ca/en/pdp/littelfuse-ato-blade-fuse-5-pk-0201571p.0201581.html",
+      "type": "merchant_and_first_hand_reviews",
+      "support": "ATO30BPfive-pack;6.29CAD;4.6/172 aggregated multiple ratings; no exact thermal validation"
+    },
+    {
+      "id": "holder-forum",
+      "url": "https://forums.sailboatowners.com/threads/what-are-you-using-as-a-bilge-pump-fuse-holder.162517/",
+      "type": "first_hand_forum",
+      "support": "MaineSail2014-05-23#2 explicitlyuses5065; noRC measurements"
+    },
+    {
+      "id": "holder-dimensions",
+      "url": "https://shop.pkys.com/Blue-Sea-5065--Waterproof-In-Line-Fuse-Holder-for-ATOATC-Fuses_p_2716.html",
+      "type": "merchant_measurements_previously_read",
+      "support": "approx2017hole3/16in,edge5/32in; not factorycotes; provenance inPi dossier"
+    },
+    {
+      "id": "holder-price",
+      "url": "https://www.hodgesmarine.com/blu5065-blue-sea-5065-waterproof-inline-fuse-holder-atoa.html",
+      "type": "merchant_previously_read",
+      "support": "15.01USD reference fromsame-dayPi study; recheck beforebuying"
+    }
+  ],
+  "native_step_obtained": false,
+  "hardware_measured": false,
+  "manufacturer_contacted": false,
+  "exact_youtube_measurement_found": false,
+  "amazon_fr_exact_basket_verified": false
+}

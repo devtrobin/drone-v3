@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-15",
+  "ref": "BEEC1067",
+  "brand": "Beez2B",
+  "qty": 1,
+  "length_announced_mm": 120,
+  "price_EUR_TTC": 6.9,
+  "availability_observed": true,
+  "url": "https://www.rcteam.com/products/beez2b-cable-de-charge-xt60-vers-ec5-beec1067",
+  "balance_extension_ref": "INTERMODEL 3-RAL2S",
+  "balance_extension_additional_qty": 1,
+  "balance_extension_price_EUR_TTC_previous": 1.4,
+  "partial_total_EUR": 8.3,
+  "Amazon_exact_offer_verified": false,
+  "compatible_S65_announced": true,
+  "compatible_IC5_power_via_EC5": true,
+  "Smart_data_used": false,
+  "current_initial_A": 5,
+  "lot_polarity_checked": false,
+  "hardware_tested": false
+}

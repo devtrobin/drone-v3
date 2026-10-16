@@ -1,0 +1,150 @@
+{
+  "all_passed": true,
+  "hardware_tested": false,
+  "FreeCAD_current_imports_valid": true,
+  "original_sources_unchanged": true,
+  "local_links_valid": true,
+  "PDF_pages_visually_reviewed": [
+    1,
+    2,
+    3
+  ],
+  "CAD_DXF_STL": [
+    {
+      "file": "plans\\gabarit-fixation-40x30.dxf",
+      "units": "mm",
+      "volume_at3mm_mm3": 3195.773234990287,
+      "expected_volume_mm3": 3195.7732349902876
+    },
+    {
+      "file": "3D\\P01-equerre.stl",
+      "triangles": 2144,
+      "watertight": true,
+      "on_print_bed": true,
+      "volume_relative_error": 6.977269838654951e-06
+    },
+    {
+      "file": "3D\\P02-porte-capteur.stl",
+      "triangles": 2108,
+      "watertight": true,
+      "on_print_bed": true,
+      "volume_relative_error": 1.2537974123876176e-05
+    },
+    {
+      "file": "3D\\P03-retenue.stl",
+      "triangles": 2324,
+      "watertight": true,
+      "on_print_bed": true,
+      "volume_relative_error": 4.226118884606685e-05
+    },
+    {
+      "file": "3D\\P04-rotor.stl",
+      "triangles": 4070,
+      "watertight": true,
+      "on_print_bed": true,
+      "volume_relative_error": 0.00048126722700027525
+    }
+  ],
+  "files": [
+    {
+      "file": "3D/P01-equerre.stl",
+      "sha256": "b406ccee8183e133ad862ed118816b5511b115a3e2e6fe07ca7671c8c152d86f"
+    },
+    {
+      "file": "3D/P02-porte-capteur.stl",
+      "sha256": "87101b4fc9a238f9475be67c7de57b5c67a72666f9f87ae2a70e193e0126df46"
+    },
+    {
+      "file": "3D/P03-retenue.stl",
+      "sha256": "0dd84eb5024dc799bf45aec867b7eb0d5eb09ad8911b6c6b77a0bf0128be7cb5"
+    },
+    {
+      "file": "3D/P04-rotor.stl",
+      "sha256": "0d5bca513b851d4944c1ca5e7a75a6287d8eb2b81d5307e933e022a062d75a7f"
+    },
+    {
+      "file": "3D/paire-supports-vitesse-p1.json",
+      "sha256": "65f33b4cf4123f29925271313aae498d264745dc65eadae9d7162db1e3d03a59"
+    },
+    {
+      "file": "3D/paire-supports-vitesse-p1.png",
+      "sha256": "43e24c1eb760c0eb0f1d6cb20aaf15f351bab896666c17a7a9568fd48378081d"
+    },
+    {
+      "file": "3D/paire-supports-vitesse-p1.step",
+      "sha256": "f0841f04a46bf75ed1fb1579deaa77cdd33286ce3a7a541fae2ebb15348fa1d5"
+    },
+    {
+      "file": "3D/pieces-supports-vitesse-p1.json",
+      "sha256": "fc424ac1605731a95f38e182a3dbd2fce7fb07cf0f760cf9d19a9992b08fc036"
+    },
+    {
+      "file": "3D/pieces-supports-vitesse-p1.png",
+      "sha256": "65c64ca3108f81ac1fcaf9a8011419bcb0d99f2e501bb093b3701a26e9626b90"
+    },
+    {
+      "file": "3D/pieces-supports-vitesse-p1.step",
+      "sha256": "2ee820a31de1d7c107e40e06a28daa97c7240e00e83d825dad5e3b908f1745c1"
+    },
+    {
+      "file": "3D/provenance.json",
+      "sha256": "81afadeee120847c4e6168a078fd7d4d7b657c5e909e5b5aa4894334c1bf876d"
+    },
+    {
+      "file": "3D/README.md",
+      "sha256": "96de34281ea5de655d1336df99b04cd91d4048e61d4e899e3d01dffc4006d35b"
+    },
+    {
+      "file": "3D/station-capteur-vitesse-p1.json",
+      "sha256": "4f8ff2a01720ebb5e69951117e30bf09de59535126dec57725ea5ac7c4f01828"
+    },
+    {
+      "file": "3D/station-capteur-vitesse-p1.png",
+      "sha256": "6b0266aef5fd18ea65917e598670410254171d3a70b2dd32799d903a9b727ec1"
+    },
+    {
+      "file": "3D/station-capteur-vitesse-p1.step",
+      "sha256": "44de2087bd8824bfddb5e713b63c88718e5e3ed5246ecc32d1d3ea71fb6c724e"
+    },
+    {
+      "file": "3D/validation-freecad.json",
+      "sha256": "2e74f480ef39d1d66609539c4a7af8fba90f26de45a4bbeaf2726f8c823cfb6b"
+    },
+    {
+      "file": "cotes.json",
+      "sha256": "213512de1c6976d5196b531a92d44883c63d49d90c9628ab96a785989eb18f79"
+    },
+    {
+      "file": "nomenclature.csv",
+      "sha256": "b06930fbdf95f613512140a431aaa1c9109f46788374bf8ad362613c36c687a5"
+    },
+    {
+      "file": "notices/notice-supports-capteurs-vitesse-p1.json",
+      "sha256": "9b27ea43ada059f8a4e676958079f8a08286d3abbe05b7aacd6099030bc9694d"
+    },
+    {
+      "file": "notices/notice-supports-capteurs-vitesse-p1.pdf",
+      "sha256": "03f1ce784467926135851a66b4ade85745428d7dbdbcf3465c303492a8ee8bf9"
+    },
+    {
+      "file": "plans/cotes-supports-vitesse-p1.svg",
+      "sha256": "c42864c490295adb776d9b6f9c928a3b6cc63ba1f9fc93cfaebc4a9b9dfb37cf"
+    },
+    {
+      "file": "plans/gabarit-fixation-40x30.dxf",
+      "sha256": "5875a63b37562d2e63c91068284736445b601ddd1668d2a32680484219198766"
+    },
+    {
+      "file": "plans/README.md",
+      "sha256": "df76e36f33cb37ac40371d0e62f8649519ff7dbe62b1f3c695ca1ca71327250f"
+    },
+    {
+      "file": "README.md",
+      "sha256": "9aac507c6bb490209cb332195f00f7c8cf91eb4aa03556a0b1938bf999e917f1"
+    },
+    {
+      "file": "verification/conception.json",
+      "sha256": "0ab1394822868bccc49dc9f6c93548674bbe5e7a9fd3fc451a2bbd3a825a0a2d"
+    }
+  ]
+}

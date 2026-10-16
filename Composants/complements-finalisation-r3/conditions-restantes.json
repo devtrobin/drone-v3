@@ -1,0 +1,47 @@
+[
+  {
+    "id": "D01",
+    "statut": "Ouvert - fournisseur",
+    "condition": "Angle Losi, régime et endurance du couple Losi/KHK non publiés pour notre service. La table KHK est une référence à 600 tr/min, pas une qualification à 25 578 tr/min."
+  },
+  {
+    "id": "D02",
+    "statut": "Identification définie ; essais requis",
+    "condition": "Association retenue pour étude : Pololu 3429 FT5335M + palonnier 3431, trou à rayon20 à reprendreØ3.2. Ne pas substituer la version25T. Courants transitoires et alimentation6V restent à qualifier."
+  },
+  {
+    "id": "D03",
+    "statut": "Partiellement documenté",
+    "condition": "LFT30060 : tenue20kA DC explicitement listée au certificat CSA. Restent les brins fins/terminaisons, le couple L60030M+KLKD enDC et les enveloppes maximales de coupure à8.4V."
+  },
+  {
+    "id": "D04",
+    "statut": "Mesure à réception",
+    "condition": "Relever fond hexagonal et face d’écrou des roues. Ajuster entretoises et extrémités d’axes avant le tournage final."
+  },
+  {
+    "id": "D05",
+    "statut": "Plans partiels ; mesure à réception",
+    "condition": "Plan LFT30060 trouvé. TI publie SLVC413 mais le téléchargement répond401 ici ; aucune cote exacte TI n’en est déduite. Contrôler aussi UBEC, supports de fusibles, interfaces et accès."
+  },
+  {
+    "id": "D06",
+    "statut": "Partie fixe conçue ; terminaisons à présenter",
+    "condition": "Quatre parcours3D et huit brides sur armature démontable définis. Les points extrêmes sont des approches. Les descentes terminales et le débit final se font aprèsD03/D05 ; elles ne sont pas déclarées entièrement raccordées."
+  },
+  {
+    "id": "D07",
+    "statut": "Câblage de banc défini ; essais requis",
+    "condition": "Netlist de trois canaux avec brochage exact ISO7710FDR et MCP1703A-3302E/DB. Montage sur adaptateurs séparés ; aucun nouveauPCB/Gerber. Réactions électriques non mesurées."
+  },
+  {
+    "id": "D08",
+    "statut": "Association de puissance non validée",
+    "condition": "Le scénario6.4V/30A moteurs/1A servo donne5.975V à l’entréeUBEC. Un abaisseur ne peut alors tenir6V. Le coupleFT5335M+UBEC doit être revu ; l’alternativeHitec documentée n’est pas intégrée ni déclarée interchangeable."
+  },
+  {
+    "id": "P01-P04",
+    "statut": "Pratique",
+    "condition": "Pesée et charge avant, montage à blanc, échauffement/endurance, banc électrique limité, puis vitesse/autonomie/vidéo. Les objectifs ne deviennent pas des mesures par simulation."
+  }
+]

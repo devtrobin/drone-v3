@@ -1,0 +1,16 @@
+{
+  "all_passed": true,
+  "file": "drone-v3-complet-affichage-rapide.FCStd",
+  "bytes": 27788878,
+  "sha256": "bd945d8715cf2f210ef498e1c82295e6018df40c0f16ba788fe1e22b0c9a2331",
+  "representation": "Maillage de visualisation complet ; BREP exact dans le document séparé",
+  "objects": 369,
+  "source_triangles": 2342728,
+  "restored_triangles": 2342728,
+  "gui_open_seconds": 18.291060700001253,
+  "viewport_renders": [
+    "apercu-freecad-isometrique.png",
+    "apercu-freecad-dessus.png"
+  ],
+  "exact_CAD_document_unchanged": true
+}

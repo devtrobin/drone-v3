@@ -1,0 +1,990 @@
+{
+  "generated_on": "2026-10-14",
+  "model_count": 8,
+  "models": [
+    {
+      "file": "amass-xt60h-f-detaille.step",
+      "title": "XT60H-F | prise faisceau avec capot",
+      "generated_on": "2026-10-14",
+      "unit": "mm",
+      "cadquery_version": "2.8.0",
+      "coordinate_system": "X entraxe contacts, Y epaisseur, Z axe de connexion ; face avant z0 ; fils vers +Z",
+      "bytes": 933778,
+      "sha256": "d9a24fc243bc31e76932a32dcab1af89dad9213f0e6c8d9946785fb18429cc5c",
+      "native_vendor_cad": false,
+      "hardware_measured": false,
+      "is_custom_project_design": false,
+      "published_nominal": [
+        "F24.95 ou M23.85 mm ; largeur16.4, hauteur9.2 : catalogue AMASS2026 p15",
+        "Deux contacts : femelle F cote source, male M cote ESC ; PA, laiton dore",
+        "Entraxe7.20 : fiche historique V1.2, conserve comme hypothese de compatibilite courante"
+      ],
+      "estimates_and_limitations": [
+        "Reconstruction parametrique, pas CAO native fabricant ni piece mesuree",
+        "Profils, profondeurs, epaisseurs, rainures, clips, contacts3.5, godets3.3 et rayons estimes",
+        "Front F9.1, M8.0 et capot11.8 : repartition estimee des longueurs officielles",
+        "Marquages simplifiés graves et teintes visuelles ; pas de microtexture ni placage physique",
+        "Accouplement7.5 et jeux non qualifies ; plan fabricant en ligne arronditF25/M23.9",
+        "Catalogue2026 differe deV1.2 F23.5/M23.8 ; lot Amazon a mesurer avant usinage"
+      ],
+      "parameters": {
+        "F_length_mm": 24.95,
+        "M_length_mm": 23.85,
+        "width_mm": 16.4,
+        "height_mm": 9.2,
+        "historical_pitch_mm": 7.2,
+        "cap_length_estimated_mm": 11.8,
+        "mating_depth_estimated_mm": 7.5
+      },
+      "source_pages": [
+        "https://www.china-amass.com/public/upload/20260207/7fa24f5a6f35ec66c7a115c07a34ab06.pdf",
+        "https://www.shoptronica.com/ficheros/XT60H.pdf"
+      ],
+      "bounds_mm": {
+        "xmin": -8.2,
+        "xmax": 8.2,
+        "ymin": -4.6000001,
+        "ymax": 4.600000000000007,
+        "zmin": 0.0,
+        "zmax": 24.95
+      },
+      "validation": {
+        "valid_after_reimport": true,
+        "solids": 4,
+        "faces": 246,
+        "colors": 3,
+        "volume_relative_error": 1.1942070640362463e-15,
+        "volume_relative_error_limit": 0.0001,
+        "volume_before_mm3": 2284.7663420252306,
+        "volume_after_mm3": 2284.766342025228,
+        "adaptive_volume_tolerance": 1e-09,
+        "bbox_error_mm": 7.105427357601002e-15,
+        "bbox_error_limit_mm": 0.01,
+        "void_and_material_probes": [],
+        "elapsed_seconds": 2.3243663000002925
+      },
+      "parts": [
+        {
+          "name": "Boitier_PA_XT60H_F",
+          "color_linear_rgb": [
+            0.95,
+            0.54,
+            0.008
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Contact_F_1_laiton_dore",
+          "color_linear_rgb": [
+            0.72,
+            0.46,
+            0.1
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Contact_F_2_laiton_dore",
+          "color_linear_rgb": [
+            0.72,
+            0.46,
+            0.1
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Capot_PA_gris_sombre",
+          "color_linear_rgb": [
+            0.055,
+            0.065,
+            0.08
+          ],
+          "solids": 1
+        }
+      ],
+      "preview": {
+        "file": "amass-xt60h-f-detaille.png",
+        "sha256": "10dd0e72404900a24f1809e6f0ca72b050b54a7be6764ce8ac7180a14a1b9206"
+      },
+      "generator": "tools/build_connector_step.py",
+      "generator_sha256": "22262e56c40363c44766c843b2a77ff0dfeadf8a9b55eca731c10f0177a68d1d",
+      "mating_overlap_check": null,
+      "wires_hardware_specified": false,
+      "polarity_orientation_illustrative": true,
+      "wire_continuity_checks": []
+    },
+    {
+      "file": "amass-xt60h-m-detaille.step",
+      "title": "XT60H-M | reference cote variateur",
+      "generated_on": "2026-10-14",
+      "unit": "mm",
+      "cadquery_version": "2.8.0",
+      "coordinate_system": "X entraxe contacts, Y epaisseur, Z axe de connexion ; face avant z0 ; fils vers +Z",
+      "bytes": 1185268,
+      "sha256": "05c019d83caf4fd3354815938c7f7399101321618ab3c234b31b56ed65fe0c02",
+      "native_vendor_cad": false,
+      "hardware_measured": false,
+      "is_custom_project_design": false,
+      "published_nominal": [
+        "F24.95 ou M23.85 mm ; largeur16.4, hauteur9.2 : catalogue AMASS2026 p15",
+        "Deux contacts : femelle F cote source, male M cote ESC ; PA, laiton dore",
+        "Entraxe7.20 : fiche historique V1.2, conserve comme hypothese de compatibilite courante"
+      ],
+      "estimates_and_limitations": [
+        "Reconstruction parametrique, pas CAO native fabricant ni piece mesuree",
+        "Profils, profondeurs, epaisseurs, rainures, clips, contacts3.5, godets3.3 et rayons estimes",
+        "Front F9.1, M8.0 et capot11.8 : repartition estimee des longueurs officielles",
+        "Marquages simplifiés graves et teintes visuelles ; pas de microtexture ni placage physique",
+        "Accouplement7.5 et jeux non qualifies ; plan fabricant en ligne arronditF25/M23.9",
+        "Catalogue2026 differe deV1.2 F23.5/M23.8 ; lot Amazon a mesurer avant usinage"
+      ],
+      "parameters": {
+        "F_length_mm": 24.95,
+        "M_length_mm": 23.85,
+        "width_mm": 16.4,
+        "height_mm": 9.2,
+        "historical_pitch_mm": 7.2,
+        "cap_length_estimated_mm": 11.8,
+        "mating_depth_estimated_mm": 7.5
+      },
+      "source_pages": [
+        "https://www.china-amass.com/public/upload/20260207/7fa24f5a6f35ec66c7a115c07a34ab06.pdf",
+        "https://www.shoptronica.com/ficheros/XT60H.pdf"
+      ],
+      "bounds_mm": {
+        "xmin": -8.2,
+        "xmax": 8.2,
+        "ymin": -4.6000001,
+        "ymax": 4.600000000000007,
+        "zmin": 0.0,
+        "zmax": 23.85
+      },
+      "validation": {
+        "valid_after_reimport": true,
+        "solids": 4,
+        "faces": 305,
+        "colors": 3,
+        "volume_relative_error": 5.104741954252149e-16,
+        "volume_relative_error_limit": 0.0001,
+        "volume_before_mm3": 1781.6663602659428,
+        "volume_after_mm3": 1781.6663602659437,
+        "adaptive_volume_tolerance": 1e-09,
+        "bbox_error_mm": 7.105427357601002e-15,
+        "bbox_error_limit_mm": 0.01,
+        "void_and_material_probes": [],
+        "elapsed_seconds": 2.7739237999999204
+      },
+      "parts": [
+        {
+          "name": "Boitier_PA_XT60H_M",
+          "color_linear_rgb": [
+            0.95,
+            0.54,
+            0.008
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Contact_M_1_laiton_dore",
+          "color_linear_rgb": [
+            0.72,
+            0.46,
+            0.1
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Contact_M_2_laiton_dore",
+          "color_linear_rgb": [
+            0.72,
+            0.46,
+            0.1
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Capot_PA_gris_sombre",
+          "color_linear_rgb": [
+            0.055,
+            0.065,
+            0.08
+          ],
+          "solids": 1
+        }
+      ],
+      "preview": {
+        "file": "amass-xt60h-m-detaille.png",
+        "sha256": "0114e123655d09d66597b536451a0fc907e44a4a0f8a31ebed1ae52243ccc451"
+      },
+      "generator": "tools/build_connector_step.py",
+      "generator_sha256": "22262e56c40363c44766c843b2a77ff0dfeadf8a9b55eca731c10f0177a68d1d",
+      "mating_overlap_check": null,
+      "wires_hardware_specified": false,
+      "polarity_orientation_illustrative": true,
+      "wire_continuity_checks": []
+    },
+    {
+      "file": "amass-xt60h-f-sans-capot.step",
+      "title": "XT60H-F | contacts et godets visibles",
+      "generated_on": "2026-10-14",
+      "unit": "mm",
+      "cadquery_version": "2.8.0",
+      "coordinate_system": "X entraxe contacts, Y epaisseur, Z axe de connexion ; face avant z0 ; fils vers +Z",
+      "bytes": 701663,
+      "sha256": "74731131760a77aea1109dc0d32c16c9e9338113425d4a7a3674c7f1be2d552e",
+      "native_vendor_cad": false,
+      "hardware_measured": false,
+      "is_custom_project_design": false,
+      "published_nominal": [
+        "F24.95 ou M23.85 mm ; largeur16.4, hauteur9.2 : catalogue AMASS2026 p15",
+        "Deux contacts : femelle F cote source, male M cote ESC ; PA, laiton dore",
+        "Entraxe7.20 : fiche historique V1.2, conserve comme hypothese de compatibilite courante"
+      ],
+      "estimates_and_limitations": [
+        "Reconstruction parametrique, pas CAO native fabricant ni piece mesuree",
+        "Profils, profondeurs, epaisseurs, rainures, clips, contacts3.5, godets3.3 et rayons estimes",
+        "Front F9.1, M8.0 et capot11.8 : repartition estimee des longueurs officielles",
+        "Marquages simplifiés graves et teintes visuelles ; pas de microtexture ni placage physique",
+        "Accouplement7.5 et jeux non qualifies ; plan fabricant en ligne arronditF25/M23.9",
+        "Catalogue2026 differe deV1.2 F23.5/M23.8 ; lot Amazon a mesurer avant usinage"
+      ],
+      "parameters": {
+        "F_length_mm": 24.95,
+        "M_length_mm": 23.85,
+        "width_mm": 16.4,
+        "height_mm": 9.2,
+        "historical_pitch_mm": 7.2,
+        "cap_length_estimated_mm": 11.8,
+        "mating_depth_estimated_mm": 7.5
+      },
+      "source_pages": [
+        "https://www.china-amass.com/public/upload/20260207/7fa24f5a6f35ec66c7a115c07a34ab06.pdf",
+        "https://www.shoptronica.com/ficheros/XT60H.pdf"
+      ],
+      "bounds_mm": {
+        "xmin": -8.2,
+        "xmax": 8.2,
+        "ymin": -4.6000001,
+        "ymax": 4.6,
+        "zmin": 0.0,
+        "zmax": 19.97
+      },
+      "validation": {
+        "valid_after_reimport": true,
+        "solids": 3,
+        "faces": 181,
+        "colors": 2,
+        "volume_relative_error": 2.67598257493698e-16,
+        "volume_relative_error_limit": 0.0001,
+        "volume_before_mm3": 1699.3658895449778,
+        "volume_after_mm3": 1699.3658895449782,
+        "adaptive_volume_tolerance": 1e-09,
+        "bbox_error_mm": 0.004307361493662398,
+        "bbox_error_limit_mm": 0.01,
+        "void_and_material_probes": [],
+        "elapsed_seconds": 2.7330384000001686
+      },
+      "parts": [
+        {
+          "name": "Boitier_PA_XT60H_F",
+          "color_linear_rgb": [
+            0.95,
+            0.54,
+            0.008
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Contact_F_1_laiton_dore",
+          "color_linear_rgb": [
+            0.72,
+            0.46,
+            0.1
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Contact_F_2_laiton_dore",
+          "color_linear_rgb": [
+            0.72,
+            0.46,
+            0.1
+          ],
+          "solids": 1
+        }
+      ],
+      "preview": {
+        "file": "amass-xt60h-f-sans-capot.png",
+        "sha256": "7ba8f3568a504c443ba847d9cdd401cbfd5b35992c5c5c0683eaf7c6a7a0b926"
+      },
+      "generator": "tools/build_connector_step.py",
+      "generator_sha256": "22262e56c40363c44766c843b2a77ff0dfeadf8a9b55eca731c10f0177a68d1d",
+      "mating_overlap_check": null,
+      "wires_hardware_specified": false,
+      "polarity_orientation_illustrative": true,
+      "wire_continuity_checks": []
+    },
+    {
+      "file": "amass-xt60h-m-sans-capot.step",
+      "title": "XT60H-M | broches fendues et godets",
+      "generated_on": "2026-10-14",
+      "unit": "mm",
+      "cadquery_version": "2.8.0",
+      "coordinate_system": "X entraxe contacts, Y epaisseur, Z axe de connexion ; face avant z0 ; fils vers +Z",
+      "bytes": 953166,
+      "sha256": "f7d76a808317c8dcd41abaca0bade870b327d6d11496ed9d798b83f57f81848e",
+      "native_vendor_cad": false,
+      "hardware_measured": false,
+      "is_custom_project_design": false,
+      "published_nominal": [
+        "F24.95 ou M23.85 mm ; largeur16.4, hauteur9.2 : catalogue AMASS2026 p15",
+        "Deux contacts : femelle F cote source, male M cote ESC ; PA, laiton dore",
+        "Entraxe7.20 : fiche historique V1.2, conserve comme hypothese de compatibilite courante"
+      ],
+      "estimates_and_limitations": [
+        "Reconstruction parametrique, pas CAO native fabricant ni piece mesuree",
+        "Profils, profondeurs, epaisseurs, rainures, clips, contacts3.5, godets3.3 et rayons estimes",
+        "Front F9.1, M8.0 et capot11.8 : repartition estimee des longueurs officielles",
+        "Marquages simplifiés graves et teintes visuelles ; pas de microtexture ni placage physique",
+        "Accouplement7.5 et jeux non qualifies ; plan fabricant en ligne arronditF25/M23.9",
+        "Catalogue2026 differe deV1.2 F23.5/M23.8 ; lot Amazon a mesurer avant usinage"
+      ],
+      "parameters": {
+        "F_length_mm": 24.95,
+        "M_length_mm": 23.85,
+        "width_mm": 16.4,
+        "height_mm": 9.2,
+        "historical_pitch_mm": 7.2,
+        "cap_length_estimated_mm": 11.8,
+        "mating_depth_estimated_mm": 7.5
+      },
+      "source_pages": [
+        "https://www.china-amass.com/public/upload/20260207/7fa24f5a6f35ec66c7a115c07a34ab06.pdf",
+        "https://www.shoptronica.com/ficheros/XT60H.pdf"
+      ],
+      "bounds_mm": {
+        "xmin": -8.2,
+        "xmax": 8.2,
+        "ymin": -4.6000001,
+        "ymax": 4.6,
+        "zmin": 0.0,
+        "zmax": 18.87
+      },
+      "validation": {
+        "valid_after_reimport": true,
+        "solids": 3,
+        "faces": 240,
+        "colors": 2,
+        "volume_relative_error": 3.041112166964796e-15,
+        "volume_relative_error_limit": 0.0001,
+        "volume_before_mm3": 1196.265907785514,
+        "volume_after_mm3": 1196.2659077855176,
+        "adaptive_volume_tolerance": 1e-09,
+        "bbox_error_mm": 0.004307361493664175,
+        "bbox_error_limit_mm": 0.01,
+        "void_and_material_probes": [],
+        "elapsed_seconds": 2.314092900000105
+      },
+      "parts": [
+        {
+          "name": "Boitier_PA_XT60H_M",
+          "color_linear_rgb": [
+            0.95,
+            0.54,
+            0.008
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Contact_M_1_laiton_dore",
+          "color_linear_rgb": [
+            0.72,
+            0.46,
+            0.1
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Contact_M_2_laiton_dore",
+          "color_linear_rgb": [
+            0.72,
+            0.46,
+            0.1
+          ],
+          "solids": 1
+        }
+      ],
+      "preview": {
+        "file": "amass-xt60h-m-sans-capot.png",
+        "sha256": "165b791739fb4ea76cf233c33b0fdeaa30e2c3506b60b168b5e7092eac1dc8c7"
+      },
+      "generator": "tools/build_connector_step.py",
+      "generator_sha256": "22262e56c40363c44766c843b2a77ff0dfeadf8a9b55eca731c10f0177a68d1d",
+      "mating_overlap_check": null,
+      "wires_hardware_specified": false,
+      "polarity_orientation_illustrative": true,
+      "wire_continuity_checks": []
+    },
+    {
+      "file": "amass-xt60h-capot-detaille.step",
+      "title": "XT60H | capot commun estime",
+      "generated_on": "2026-10-14",
+      "unit": "mm",
+      "cadquery_version": "2.8.0",
+      "coordinate_system": "X entraxe contacts, Y epaisseur, Z axe de connexion ; face avant z0 ; fils vers +Z",
+      "bytes": 221121,
+      "sha256": "fd74c1de0b77164d4da67959fba78da779213532e5da1a5ab332a80c1a8f7919",
+      "native_vendor_cad": false,
+      "hardware_measured": false,
+      "is_custom_project_design": false,
+      "published_nominal": [
+        "F24.95 ou M23.85 mm ; largeur16.4, hauteur9.2 : catalogue AMASS2026 p15",
+        "Deux contacts : femelle F cote source, male M cote ESC ; PA, laiton dore",
+        "Entraxe7.20 : fiche historique V1.2, conserve comme hypothese de compatibilite courante"
+      ],
+      "estimates_and_limitations": [
+        "Reconstruction parametrique, pas CAO native fabricant ni piece mesuree",
+        "Profils, profondeurs, epaisseurs, rainures, clips, contacts3.5, godets3.3 et rayons estimes",
+        "Front F9.1, M8.0 et capot11.8 : repartition estimee des longueurs officielles",
+        "Marquages simplifiés graves et teintes visuelles ; pas de microtexture ni placage physique",
+        "Accouplement7.5 et jeux non qualifies ; plan fabricant en ligne arronditF25/M23.9",
+        "Catalogue2026 differe deV1.2 F23.5/M23.8 ; lot Amazon a mesurer avant usinage"
+      ],
+      "parameters": {
+        "F_length_mm": 24.95,
+        "M_length_mm": 23.85,
+        "width_mm": 16.4,
+        "height_mm": 9.2,
+        "historical_pitch_mm": 7.2,
+        "cap_length_estimated_mm": 11.8,
+        "mating_depth_estimated_mm": 7.5
+      },
+      "source_pages": [
+        "https://www.china-amass.com/public/upload/20260207/7fa24f5a6f35ec66c7a115c07a34ab06.pdf",
+        "https://www.shoptronica.com/ficheros/XT60H.pdf"
+      ],
+      "bounds_mm": {
+        "xmin": -8.2,
+        "xmax": 8.2,
+        "ymin": -4.600000000000007,
+        "ymax": 4.600000000000007,
+        "zmin": 0.0,
+        "zmax": 11.8
+      },
+      "validation": {
+        "valid_after_reimport": true,
+        "solids": 1,
+        "faces": 65,
+        "colors": 1,
+        "volume_relative_error": 5.826106073536854e-16,
+        "volume_relative_error_limit": 0.0001,
+        "volume_before_mm3": 585.400452480606,
+        "volume_after_mm3": 585.4004524806056,
+        "adaptive_volume_tolerance": 1e-09,
+        "bbox_error_mm": 7.105427357601002e-15,
+        "bbox_error_limit_mm": 0.01,
+        "void_and_material_probes": [],
+        "elapsed_seconds": 0.7021213000002717
+      },
+      "parts": [
+        {
+          "name": "Capot_PA_gris_sombre",
+          "color_linear_rgb": [
+            0.055,
+            0.065,
+            0.08
+          ],
+          "solids": 1
+        }
+      ],
+      "preview": {
+        "file": "amass-xt60h-capot-detaille.png",
+        "sha256": "aadc01a20c4698ec312e1f1c4eb462d4811dd549f8c2d3134986749b79accdcf"
+      },
+      "generator": "tools/build_connector_step.py",
+      "generator_sha256": "22262e56c40363c44766c843b2a77ff0dfeadf8a9b55eca731c10f0177a68d1d",
+      "mating_overlap_check": null,
+      "wires_hardware_specified": false,
+      "polarity_orientation_illustrative": true,
+      "wire_continuity_checks": []
+    },
+    {
+      "file": "amass-xt60h-paire-accouplee.step",
+      "title": "XT60H F et M | assemblage illustratif",
+      "generated_on": "2026-10-14",
+      "unit": "mm",
+      "cadquery_version": "2.8.0",
+      "coordinate_system": "X entraxe contacts, Y epaisseur, Z axe de connexion ; face avant z0 ; fils vers +Z",
+      "bytes": 2099672,
+      "sha256": "8e5a5f1793af107feeec9b00f8a8a4744be5dcd40b4f68c211b5bb8a1f06be72",
+      "native_vendor_cad": false,
+      "hardware_measured": false,
+      "is_custom_project_design": false,
+      "published_nominal": [
+        "F24.95 ou M23.85 mm ; largeur16.4, hauteur9.2 : catalogue AMASS2026 p15",
+        "Deux contacts : femelle F cote source, male M cote ESC ; PA, laiton dore",
+        "Entraxe7.20 : fiche historique V1.2, conserve comme hypothese de compatibilite courante"
+      ],
+      "estimates_and_limitations": [
+        "Reconstruction parametrique, pas CAO native fabricant ni piece mesuree",
+        "Profils, profondeurs, epaisseurs, rainures, clips, contacts3.5, godets3.3 et rayons estimes",
+        "Front F9.1, M8.0 et capot11.8 : repartition estimee des longueurs officielles",
+        "Marquages simplifiés graves et teintes visuelles ; pas de microtexture ni placage physique",
+        "Accouplement7.5 et jeux non qualifies ; plan fabricant en ligne arronditF25/M23.9",
+        "Catalogue2026 differe deV1.2 F23.5/M23.8 ; lot Amazon a mesurer avant usinage"
+      ],
+      "parameters": {
+        "F_length_mm": 24.95,
+        "M_length_mm": 23.85,
+        "width_mm": 16.4,
+        "height_mm": 9.2,
+        "historical_pitch_mm": 7.2,
+        "cap_length_estimated_mm": 11.8,
+        "mating_depth_estimated_mm": 7.5
+      },
+      "source_pages": [
+        "https://www.china-amass.com/public/upload/20260207/7fa24f5a6f35ec66c7a115c07a34ab06.pdf",
+        "https://www.shoptronica.com/ficheros/XT60H.pdf"
+      ],
+      "bounds_mm": {
+        "xmin": -8.2,
+        "xmax": 8.2,
+        "ymin": -4.6000001,
+        "ymax": 4.6000001,
+        "zmin": -17.45,
+        "zmax": 23.85
+      },
+      "validation": {
+        "valid_after_reimport": true,
+        "solids": 8,
+        "faces": 551,
+        "colors": 3,
+        "volume_relative_error": 2.348420610339779e-15,
+        "volume_relative_error_limit": 0.0001,
+        "volume_before_mm3": 4066.4327022892458,
+        "volume_after_mm3": 4066.432702289236,
+        "adaptive_volume_tolerance": 1e-09,
+        "bbox_error_mm": 8.881784197001252e-16,
+        "bbox_error_limit_mm": 0.01,
+        "void_and_material_probes": [],
+        "elapsed_seconds": 4.980039900000065
+      },
+      "parts": [
+        {
+          "name": "F_Boitier_PA_XT60H_F",
+          "color_linear_rgb": [
+            0.95,
+            0.54,
+            0.008
+          ],
+          "solids": 1
+        },
+        {
+          "name": "F_Contact_F_1_laiton_dore",
+          "color_linear_rgb": [
+            0.72,
+            0.46,
+            0.1
+          ],
+          "solids": 1
+        },
+        {
+          "name": "F_Contact_F_2_laiton_dore",
+          "color_linear_rgb": [
+            0.72,
+            0.46,
+            0.1
+          ],
+          "solids": 1
+        },
+        {
+          "name": "F_Capot_PA_gris_sombre",
+          "color_linear_rgb": [
+            0.055,
+            0.065,
+            0.08
+          ],
+          "solids": 1
+        },
+        {
+          "name": "M_Boitier_PA_XT60H_M",
+          "color_linear_rgb": [
+            0.95,
+            0.54,
+            0.008
+          ],
+          "solids": 1
+        },
+        {
+          "name": "M_Contact_M_1_laiton_dore",
+          "color_linear_rgb": [
+            0.72,
+            0.46,
+            0.1
+          ],
+          "solids": 1
+        },
+        {
+          "name": "M_Contact_M_2_laiton_dore",
+          "color_linear_rgb": [
+            0.72,
+            0.46,
+            0.1
+          ],
+          "solids": 1
+        },
+        {
+          "name": "M_Capot_PA_gris_sombre",
+          "color_linear_rgb": [
+            0.055,
+            0.065,
+            0.08
+          ],
+          "solids": 1
+        }
+      ],
+      "preview": {
+        "file": "amass-xt60h-paire-accouplee.png",
+        "sha256": "24fa8efd80d12fe78c3e5d519046cd6addc85a4e56fdb39ea8904348f3a3ba98"
+      },
+      "generator": "tools/build_connector_step.py",
+      "generator_sha256": "22262e56c40363c44766c843b2a77ff0dfeadf8a9b55eca731c10f0177a68d1d",
+      "mating_overlap_check": [],
+      "wires_hardware_specified": false,
+      "polarity_orientation_illustrative": true,
+      "wire_continuity_checks": []
+    },
+    {
+      "file": "amass-xt60h-paire-eclatee.step",
+      "title": "XT60H F et M | vue eclatee",
+      "generated_on": "2026-10-14",
+      "unit": "mm",
+      "cadquery_version": "2.8.0",
+      "coordinate_system": "X entraxe contacts, Y epaisseur, Z axe de connexion ; face avant z0 ; fils vers +Z",
+      "bytes": 2085833,
+      "sha256": "38c715249bbe7d3c4481237accccc98ae356fb64910e0845fc50c4cfc7abcf84",
+      "native_vendor_cad": false,
+      "hardware_measured": false,
+      "is_custom_project_design": false,
+      "published_nominal": [
+        "F24.95 ou M23.85 mm ; largeur16.4, hauteur9.2 : catalogue AMASS2026 p15",
+        "Deux contacts : femelle F cote source, male M cote ESC ; PA, laiton dore",
+        "Entraxe7.20 : fiche historique V1.2, conserve comme hypothese de compatibilite courante"
+      ],
+      "estimates_and_limitations": [
+        "Reconstruction parametrique, pas CAO native fabricant ni piece mesuree",
+        "Profils, profondeurs, epaisseurs, rainures, clips, contacts3.5, godets3.3 et rayons estimes",
+        "Front F9.1, M8.0 et capot11.8 : repartition estimee des longueurs officielles",
+        "Marquages simplifiés graves et teintes visuelles ; pas de microtexture ni placage physique",
+        "Accouplement7.5 et jeux non qualifies ; plan fabricant en ligne arronditF25/M23.9",
+        "Catalogue2026 differe deV1.2 F23.5/M23.8 ; lot Amazon a mesurer avant usinage"
+      ],
+      "parameters": {
+        "F_length_mm": 24.95,
+        "M_length_mm": 23.85,
+        "width_mm": 16.4,
+        "height_mm": 9.2,
+        "historical_pitch_mm": 7.2,
+        "cap_length_estimated_mm": 11.8,
+        "mating_depth_estimated_mm": 7.5
+      },
+      "source_pages": [
+        "https://www.china-amass.com/public/upload/20260207/7fa24f5a6f35ec66c7a115c07a34ab06.pdf",
+        "https://www.shoptronica.com/ficheros/XT60H.pdf"
+      ],
+      "bounds_mm": {
+        "xmin": -21.2,
+        "xmax": 21.2,
+        "ymin": -4.6000001,
+        "ymax": 4.600000000000007,
+        "zmin": 0.0,
+        "zmax": 40.95
+      },
+      "validation": {
+        "valid_after_reimport": true,
+        "solids": 8,
+        "faces": 551,
+        "colors": 3,
+        "volume_relative_error": 1.1518443945946831e-14,
+        "volume_relative_error_limit": 0.0001,
+        "volume_before_mm3": 4066.432702291158,
+        "volume_after_mm3": 4066.432702291205,
+        "adaptive_volume_tolerance": 1e-09,
+        "bbox_error_mm": 7.105427357601002e-15,
+        "bbox_error_limit_mm": 0.01,
+        "void_and_material_probes": [],
+        "elapsed_seconds": 4.716643899999781
+      },
+      "parts": [
+        {
+          "name": "F_Boitier_PA_XT60H_F",
+          "color_linear_rgb": [
+            0.95,
+            0.54,
+            0.008
+          ],
+          "solids": 1
+        },
+        {
+          "name": "F_Contact_F_1_laiton_dore",
+          "color_linear_rgb": [
+            0.72,
+            0.46,
+            0.1
+          ],
+          "solids": 1
+        },
+        {
+          "name": "F_Contact_F_2_laiton_dore",
+          "color_linear_rgb": [
+            0.72,
+            0.46,
+            0.1
+          ],
+          "solids": 1
+        },
+        {
+          "name": "F_Capot_PA_gris_sombre",
+          "color_linear_rgb": [
+            0.055,
+            0.065,
+            0.08
+          ],
+          "solids": 1
+        },
+        {
+          "name": "M_Boitier_PA_XT60H_M",
+          "color_linear_rgb": [
+            0.95,
+            0.54,
+            0.008
+          ],
+          "solids": 1
+        },
+        {
+          "name": "M_Contact_M_1_laiton_dore",
+          "color_linear_rgb": [
+            0.72,
+            0.46,
+            0.1
+          ],
+          "solids": 1
+        },
+        {
+          "name": "M_Contact_M_2_laiton_dore",
+          "color_linear_rgb": [
+            0.72,
+            0.46,
+            0.1
+          ],
+          "solids": 1
+        },
+        {
+          "name": "M_Capot_PA_gris_sombre",
+          "color_linear_rgb": [
+            0.055,
+            0.065,
+            0.08
+          ],
+          "solids": 1
+        }
+      ],
+      "preview": {
+        "file": "amass-xt60h-paire-eclatee.png",
+        "sha256": "2ae1ffca8d2521f2c92f9975afb1b4ea3beb01dd33d9b57474df2eec22d75ec3"
+      },
+      "generator": "tools/build_connector_step.py",
+      "generator_sha256": "22262e56c40363c44766c843b2a77ff0dfeadf8a9b55eca731c10f0177a68d1d",
+      "mating_overlap_check": null,
+      "wires_hardware_specified": false,
+      "polarity_orientation_illustrative": true,
+      "wire_continuity_checks": []
+    },
+    {
+      "file": "amass-xt60h-f-cable-12awg-illustration.step",
+      "title": "XT60H-F | deux fils illustratifs",
+      "generated_on": "2026-10-14",
+      "unit": "mm",
+      "cadquery_version": "2.8.0",
+      "coordinate_system": "X entraxe contacts, Y epaisseur, Z axe de connexion ; face avant z0 ; fils vers +Z",
+      "bytes": 1171908,
+      "sha256": "d0ebda808c88047b9f5632620b31ad227333aecf48f67eba74be4d3039f1039f",
+      "native_vendor_cad": false,
+      "hardware_measured": false,
+      "is_custom_project_design": false,
+      "published_nominal": [
+        "F24.95 ou M23.85 mm ; largeur16.4, hauteur9.2 : catalogue AMASS2026 p15",
+        "Deux contacts : femelle F cote source, male M cote ESC ; PA, laiton dore",
+        "Entraxe7.20 : fiche historique V1.2, conserve comme hypothese de compatibilite courante"
+      ],
+      "estimates_and_limitations": [
+        "Reconstruction parametrique, pas CAO native fabricant ni piece mesuree",
+        "Profils, profondeurs, epaisseurs, rainures, clips, contacts3.5, godets3.3 et rayons estimes",
+        "Front F9.1, M8.0 et capot11.8 : repartition estimee des longueurs officielles",
+        "Marquages simplifiés graves et teintes visuelles ; pas de microtexture ni placage physique",
+        "Accouplement7.5 et jeux non qualifies ; plan fabricant en ligne arronditF25/M23.9",
+        "Catalogue2026 differe deV1.2 F23.5/M23.8 ; lot Amazon a mesurer avant usinage"
+      ],
+      "parameters": {
+        "F_length_mm": 24.95,
+        "M_length_mm": 23.85,
+        "width_mm": 16.4,
+        "height_mm": 9.2,
+        "historical_pitch_mm": 7.2,
+        "cap_length_estimated_mm": 11.8,
+        "mating_depth_estimated_mm": 7.5
+      },
+      "source_pages": [
+        "https://www.china-amass.com/public/upload/20260207/7fa24f5a6f35ec66c7a115c07a34ab06.pdf",
+        "https://www.shoptronica.com/ficheros/XT60H.pdf"
+      ],
+      "bounds_mm": {
+        "xmin": -10.591693981139002,
+        "xmax": 10.591693961583234,
+        "ymin": -4.6000001,
+        "ymax": 4.600000000000007,
+        "zmin": 0.0,
+        "zmax": 67.00000010000008
+      },
+      "validation": {
+        "valid_after_reimport": true,
+        "solids": 10,
+        "faces": 274,
+        "colors": 7,
+        "volume_relative_error": 1.570300820921844e-14,
+        "volume_relative_error_limit": 0.0001,
+        "volume_before_mm3": 3561.987831490728,
+        "volume_after_mm3": 3561.987831490672,
+        "adaptive_volume_tolerance": 1e-09,
+        "bbox_error_mm": 0.004307361493662398,
+        "bbox_error_limit_mm": 0.01,
+        "void_and_material_probes": [],
+        "elapsed_seconds": 3.147437799999807
+      },
+      "parts": [
+        {
+          "name": "Boitier_PA_XT60H_F",
+          "color_linear_rgb": [
+            0.95,
+            0.54,
+            0.008
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Contact_F_1_laiton_dore",
+          "color_linear_rgb": [
+            0.72,
+            0.46,
+            0.1
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Contact_F_2_laiton_dore",
+          "color_linear_rgb": [
+            0.72,
+            0.46,
+            0.1
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Capot_PA_gris_sombre",
+          "color_linear_rgb": [
+            0.055,
+            0.065,
+            0.08
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Conducteur_cuivre_1_12AWG_equivalent",
+          "color_linear_rgb": [
+            0.57,
+            0.23,
+            0.06
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Gaine_silicone_1_illustration",
+          "color_linear_rgb": [
+            0.012,
+            0.016,
+            0.02
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Soudure_1_illustration",
+          "color_linear_rgb": [
+            0.5,
+            0.53,
+            0.56
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Conducteur_cuivre_2_12AWG_equivalent",
+          "color_linear_rgb": [
+            0.57,
+            0.23,
+            0.06
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Gaine_silicone_2_illustration",
+          "color_linear_rgb": [
+            0.65,
+            0.012,
+            0.008
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Soudure_2_illustration",
+          "color_linear_rgb": [
+            0.5,
+            0.53,
+            0.56
+          ],
+          "solids": 1
+        }
+      ],
+      "preview": {
+        "file": "amass-xt60h-f-cable-12awg-illustration.png",
+        "sha256": "e49aa60c7322b9613fcc2acb3adfb13fb5df81a964b44283e78cda447229cf15"
+      },
+      "generator": "tools/build_connector_step.py",
+      "generator_sha256": "22262e56c40363c44766c843b2a77ff0dfeadf8a9b55eca731c10f0177a68d1d",
+      "mating_overlap_check": null,
+      "wires_hardware_specified": false,
+      "polarity_orientation_illustrative": true,
+      "wire_continuity_checks": [
+        {
+          "contact": 1,
+          "core_solids": 1,
+          "jacket_solids": 1,
+          "core_material_samples": 240,
+          "jacket_material_samples": 240,
+          "bond_gap_mm": 0,
+          "core_start_in_cup_z_mm": 15.4,
+          "insulation_start_z_mm": 22.0,
+          "remote_strip_start_z_mm": 63.5
+        },
+        {
+          "contact": 2,
+          "core_solids": 1,
+          "jacket_solids": 1,
+          "core_material_samples": 240,
+          "jacket_material_samples": 240,
+          "bond_gap_mm": 0,
+          "core_start_in_cup_z_mm": 15.4,
+          "insulation_start_z_mm": 22.0,
+          "remote_strip_start_z_mm": 63.5
+        }
+      ]
+    }
+  ]
+}

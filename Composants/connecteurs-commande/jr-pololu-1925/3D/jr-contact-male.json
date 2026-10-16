@@ -1,0 +1,67 @@
+{
+  "file": "jr-contact-male.step",
+  "title": "JR | contact mâle à sertir",
+  "generated_on": "2026-10-14",
+  "unit": "mm",
+  "cadquery_version": "2.8.0",
+  "coordinate_system": "Axe principal Z; face de reference z=0; dimensions selon parametres",
+  "bytes": 225282,
+  "sha256": "14108da3c0aa2c26232e9f0f43cbf4f2987313fdd1af559688d43d541f2cdd9a",
+  "native_vendor_cad": false,
+  "hardware_measured": false,
+  "is_custom_project_design": false,
+  "published_nominal": [
+    "PlansPololu : boîtier14x7.90/7.70x2.75/2.65 ; capot18x10.30x4 ; pas2.54 mm."
+  ],
+  "estimates_and_limitations": [
+    "Contact, crimp, languettes et chanfreins fins reconstruits ; longueurs courtes du câblage illustratives.",
+    "Nuances optiques estimées ; géométrie non mesurée. Pas de plan de fabrication ni de qualification mécanique/électrique."
+  ],
+  "parameters": {
+    "pitch_mm": 2.54
+  },
+  "source_pages": [
+    "Voir sources.json et cotes.md du composant / ensemble"
+  ],
+  "bounds_mm": {
+    "xmin": -0.85,
+    "xmax": 0.85,
+    "ymin": -0.855,
+    "ymax": 0.8440971508070001,
+    "zmin": 1.0,
+    "zmax": 17.6
+  },
+  "validation": {
+    "valid_after_reimport": true,
+    "solids": 1,
+    "faces": 61,
+    "colors": 1,
+    "volume_relative_error": 1.851138421638824e-13,
+    "volume_relative_error_limit": 0.0001,
+    "volume_before_mm3": 5.6952401390421095,
+    "volume_after_mm3": 5.695240139043164,
+    "adaptive_volume_tolerance": 1e-09,
+    "bbox_error_mm": 2.935429677108914e-13,
+    "bbox_error_limit_mm": 0.01,
+    "void_and_material_probes": [],
+    "elapsed_seconds": 0.8932486000048812,
+    "volume_after_default_quadrature_mm3": 5.695240139043252
+  },
+  "parts": [
+    {
+      "name": "Piece_jr-contact-male",
+      "color_linear_rgb": [
+        0.72,
+        0.46,
+        0.12
+      ],
+      "solids": 1
+    }
+  ],
+  "preview": {
+    "file": "jr-contact-male.png",
+    "sha256": "9297a8c054e24ba45c736e2caad0d7766d2eafbf42d0d9f68f7636c45f23d7ed"
+  },
+  "component_folder": "connecteurs-commande/jr-pololu-1925",
+  "relative_step_path": "connecteurs-commande/jr-pololu-1925/3D/jr-contact-male.step"
+}

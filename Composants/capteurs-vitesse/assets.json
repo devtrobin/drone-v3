@@ -1,0 +1,180 @@
+{
+  "checked_on": "2026-10-15",
+  "assets": [
+    {
+      "id": "ti-datasheet",
+      "url": "https://www.ti.com/lit/pdf/slis152",
+      "checked_on": "2026-10-15",
+      "local": "notices/TI-DRV5033-original.pdf",
+      "status": "archived_original",
+      "bytes": 854553,
+      "sha256": "397f1a51908fee1642a3d52e95977d3d05d35fd75fac769554eece78b4d4aabc",
+      "final_url": "https://www.ti.com/lit/ds/slis152g/slis152g.pdf?ts=1792057701337",
+      "mime": "application/pdf"
+    },
+    {
+      "id": "ti-package",
+      "url": "https://www.ti.com/lit/pdf/MPBC003B",
+      "checked_on": "2026-10-15",
+      "local": "notices/TI-LPG0003A-plan-original.pdf",
+      "status": "archived_original",
+      "bytes": 144484,
+      "sha256": "dddb41fa5ced9d9c47a25cf1ee5519d7012532c2d995fd03c996b5dd12186d17",
+      "final_url": "https://www.ti.com/lit/ml/mpbc003b/mpbc003b.pdf?ts=1792040651912",
+      "mime": "application/pdf"
+    },
+    {
+      "id": "ti-part",
+      "url": "https://www.ti.com/product/DRV5033/part-details/DRV5033AJQLPG",
+      "checked_on": "2026-10-15",
+      "local": "references/TI-DRV5033AJQLPG.html",
+      "status": "archived_original",
+      "bytes": 81564,
+      "sha256": "6766a8ce945cbaf3846dc1f3b02d257624aac3f75cb717ca02c0baf13591b8da",
+      "final_url": "https://www.ti.com/product/DRV5033/part-details/DRV5033AJQLPG",
+      "mime": "text/html;charset=UTF-8"
+    },
+    {
+      "id": "ti-forum-distance",
+      "url": "https://e2e.ti.com/support/sensors-group/sensors/f/sensors-forum/816464/drv5033-hall-sensing-distance",
+      "checked_on": "2026-10-15",
+      "local": "references/TI-E2E-distance.html",
+      "status": "archived_original",
+      "bytes": 123302,
+      "sha256": "dc7b2f48d128430b9940c58b91e9662e8508dc8e95520e7afb1a4e445ec65856",
+      "final_url": "https://e2e.ti.com/support/sensors-group/sensors/f/sensors-forum/816464/drv5033-hall-sensing-distance",
+      "mime": "text/html; charset=utf-8"
+    },
+    {
+      "id": "magnet",
+      "url": "https://www.supermagnete.fr/aimants-disques-neodyme/disque-magnetique-3mm-2mm_S-03-02-N",
+      "checked_on": "2026-10-15",
+      "local": "references/supermagnete-S-03-02-N.html",
+      "status": "archived_original",
+      "bytes": 264513,
+      "sha256": "dbb1fbcce316582c1824a0a5636e9609031f6294d433b0a64e72aab4b30861fb",
+      "final_url": "https://www.supermagnete.fr/aimants-disques-neodyme/disque-magnetique-3mm-2mm_S-03-02-N",
+      "mime": "text/html; charset=UTF-8"
+    },
+    {
+      "id": "resistor",
+      "url": "https://www.vishay.com/docs/28724/mrs16m25.pdf",
+      "checked_on": "2026-10-15",
+      "local": "notices/Vishay-MRS16-MRS25-original.pdf",
+      "status": "archived_original",
+      "bytes": 94869,
+      "sha256": "645bb41aaa34f2a72fc19fc71d02ddb14ed400ae97634684ad1745189505f47e",
+      "final_url": "https://www.vishay.com/docs/28724/mrs16m25.pdf",
+      "mime": "application/pdf"
+    },
+    {
+      "id": "capacitor",
+      "url": "https://search.kemet.com/component-documentation/download/specsheet/C315C104K5R5TA",
+      "checked_on": "2026-10-15",
+      "local": "notices/KEMET-C315C104K5R5TA-original.pdf",
+      "status": "archived_original",
+      "bytes": 287537,
+      "sha256": "0b10363e5141ab6dc1b0e2084dffe2054857985ee868914547b0c082d669cbdc",
+      "final_url": "https://search.kemet.com/component-documentation/download/specsheet/C315C104K5R5TA",
+      "mime": "application/pdf"
+    },
+    {
+      "id": "rs-sensor",
+      "url": "https://fr.rs-online.com/web/p/capteurs-a-effet-hall/9009807",
+      "checked_on": "2026-10-15",
+      "status": "not_archived",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "rs-be-sensor",
+      "url": "https://befr.rs-online.com/web/p/motion-sensor-ics/9009807",
+      "checked_on": "2026-10-15",
+      "status": "not_archived",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "amazon-sensor-search",
+      "url": "https://www.amazon.fr/s?k=DRV5033AJQLPG",
+      "checked_on": "2026-10-15",
+      "local": "references/Amazon-capteur.html",
+      "status": "access_challenge_archived",
+      "bytes": 2256,
+      "sha256": "13c723d01e5d72e1947807da263895a738a44f0daeafb471e36ee2e3a2bd42b7",
+      "final_url": "https://www.amazon.fr/s?k=DRV5033AJQLPG",
+      "mime": "text/html",
+      "content_is_product_offer": false,
+      "offer_verified": false
+    },
+    {
+      "id": "amazon-magnet-search",
+      "url": "https://www.amazon.fr/s?k=supermagnete+S-03-02-N",
+      "checked_on": "2026-10-15",
+      "local": "references/Amazon-aimant.html",
+      "status": "access_challenge_archived",
+      "bytes": 2292,
+      "sha256": "c7334c96762654e2bc778862a4434090c97696933cf989768853501a58f71ce0",
+      "final_url": "https://www.amazon.fr/s?k=supermagnete+S-03-02-N",
+      "mime": "text/html",
+      "content_is_product_offer": false,
+      "offer_verified": false
+    },
+    {
+      "id": "magnet-pdf",
+      "url": "https://www.supermagnete.fr/data_sheet_S-03-02-N.pdf",
+      "checked_on": "2026-10-15",
+      "local": "notices/supermagnete-S-03-02-N-original.pdf",
+      "status": "archived_original",
+      "bytes": 77885,
+      "sha256": "62bed644621ed7b77471895292da0e9de1c5502b0a96ac6fa1852066bf2af194",
+      "final_url": "https://www.supermagnete.fr/data_sheet_S-03-02-N.pdf",
+      "mime": "application/pdf"
+    },
+    {
+      "id": "magnet-drawing",
+      "url": "https://www.supermagnete.fr/draw_svg/article/S-03-02-N.svg",
+      "checked_on": "2026-10-15",
+      "local": "references/supermagnete-S-03-02-N-plan-original.svg",
+      "status": "archived_original",
+      "bytes": 2756,
+      "sha256": "16051f31a43c9fb460cca90b808b2799150bdb4183b4d79e187d99f5e5f728d7",
+      "final_url": "https://www.supermagnete.fr/draw_svg/article/S-03-02-N.svg",
+      "mime": "image/svg+xml"
+    },
+    {
+      "id": "magnet-photo",
+      "url": "https://img.supermagnete.fr/photos/orig/13657.jpg?fit=pad&h=1200&w=1200&s=cPCgNrfZwME",
+      "checked_on": "2026-10-15",
+      "local": "references/supermagnete-S-03-02-N-photo-originale.jpg",
+      "status": "archived_original",
+      "bytes": 118950,
+      "sha256": "35b0d8290ec5b83533fa992c26a0a780d3e0ec5105749788a7906c06b32a1c78",
+      "final_url": "https://img.supermagnete.fr/photos/orig/13657.jpg?fit=pad&h=1200&w=1200&s=cPCgNrfZwME",
+      "mime": "image/jpeg"
+    },
+    {
+      "id": "kemet-step",
+      "url": "https://search.kemet.com/component-documentation/download/step/C315C104K5R5TA.STEP",
+      "checked_on": "2026-10-15",
+      "local": "references/KEMET-C315C104K5R5TA-original.step",
+      "status": "archived_original",
+      "bytes": 272604,
+      "sha256": "a04191a57c7125d1f98f6e9bfec61852b51d1cd429f0c37ff5337bdf3e913fa9",
+      "final_url": "https://search.kemet.com/component-documentation/download/step/C315C104K5R5TA.STEP",
+      "mime": "application/octet-stream"
+    },
+    {
+      "id": "rs-resistor",
+      "url": "https://fr.rs-online.com/web/p/resistances-traversantes/6832939",
+      "checked_on": "2026-10-15",
+      "status": "not_archived",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "rs-capacitor",
+      "url": "https://fr.rs-online.com/web/p/condensateurs-ceramique-multicouches/1463570",
+      "checked_on": "2026-10-15",
+      "status": "not_archived",
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ]
+}

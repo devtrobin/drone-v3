@@ -1,0 +1,158 @@
+{
+  "checked_on": "2026-10-15",
+  "sources": [
+    {
+      "id": "amass-current",
+      "url": "https://www.china-amass.com/biao/283.html",
+      "type": "manufacturer",
+      "supports": "35 A MAX, 12 AWG, élévation <85 K ; PA et contacts laiton doré ; pas une garantie à 44 A"
+    },
+    {
+      "id": "amass-catalog",
+      "url": "https://www.china-amass.com/public/upload/20260207/7fa24f5a6f35ec66c7a115c07a34ab06.pdf",
+      "type": "manufacturer_pdf",
+      "local": "notices/AMASS-catalogue-XT-2026-original.pdf",
+      "pages": "page imprimée 15 / index 14",
+      "supports": "XT60H-M 23,85 ×16,4 ×9,2 mm ; 35 A sous conditions ; XT90H 45 A sous conditions"
+    },
+    {
+      "id": "amass-legacy",
+      "url": "https://www.shoptronica.com/ficheros/XT60H.pdf",
+      "type": "manufacturer_pdf_mirror",
+      "local": "notices/AMASS-XT60H-V1.2-original.pdf",
+      "supports": "30 A RC /60 A MC, entraxe 7,2 mm ; révision distincte"
+    },
+    {
+      "id": "te-product",
+      "url": "https://www.te.com/en/product-130191.html",
+      "type": "manufacturer",
+      "supports": "130191, 12-10 AWG /2,62-6,64 mm², oeillet 5,26 ; L19,3 ; paume0,79 ; canon ID3,28"
+    },
+    {
+      "id": "te-datasheet-lcsc",
+      "url": "https://datasheet.lcsc.com/datasheet/pdf/7c59fb4e89ed2939992bd29da7889710.pdf?productCode=C592185",
+      "type": "manufacturer_pdf_mirror",
+      "local": "notices/TE-130191-fiche-via-LCSC-original.pdf",
+      "supports": "fiche TE de 4 pages, datée 01/07/2025 dans le document, pas le plan coté A3"
+    },
+    {
+      "id": "te-guide",
+      "url": "https://www.te.com/content/dam/te-com/documents/appliances/global/solistrand-terminals-and-splices-qrg.pdf",
+      "type": "manufacturer_pdf_online",
+      "supports": "p5 : variante130191 L19,10/W9,50/ID3,30 ; outils49935,58546-1,58545-1 ; écarts conservés"
+    },
+    {
+      "id": "te-tool",
+      "url": "https://www.farnell.com/datasheets/1922603.pdf",
+      "type": "manufacturer_pdf_mirror",
+      "local": "notices/TE-49935-notice-408-1542-via-Farnell-original.pdf",
+      "supports": "sertissage des SOLISTRAND ; 12-10 AWG, dénudage6,35-7,14 mm standard ; contrôles de qualité"
+    },
+    {
+      "id": "bntechgo",
+      "url": "https://bntechgo.com/bntechgo-12-gauge-silicone-wire-kit-ultra-flexible-20-ft-black-and-red-each-color-10-ft-high-temp-200-c-600v-12-awg-silicone-wire-680-strands-of-tinned-copper-wire-stranded-wire-stranded-wire-for-model-battery/",
+      "type": "manufacturer",
+      "local": "references/BNTECHGO-12awg-page.html",
+      "supports": "SKU big-SW12G68008F10C2 ; 680 brins étamés ; prix14,98USD ; image technique dans dossier fil existant"
+    },
+    {
+      "id": "amazon-wire",
+      "url": "https://www.amazon.fr/dp/B01ABOPMEI",
+      "type": "marketplace_public_html",
+      "local": "references/Amazon-FR-B01ABOPMEI.html",
+      "supports": "titre12AWG/680/10ft par couleur ; 31,93EUR affichés, En stock, vendu et expédié Amazon US ; destination finale non vérifiée"
+    },
+    {
+      "id": "amazon-plug-rejected",
+      "url": "https://www.amazon.fr/dp/B074PN6N4K",
+      "type": "marketplace_rejected",
+      "local": "references/Amazon-FR-B074PN6N4K.html",
+      "supports": "titre FR mélange disque dur/Sonos/XT60H ; indisponible ; fiche écartée comme preuve d’achat"
+    },
+    {
+      "id": "digikey",
+      "url": "https://www.digikey.fr/fr/products/detail/te-connectivity-amp-connectors/130191/1864623",
+      "type": "distributor_indexed_offer",
+      "supports": "0,56EUR HT /0,672EUR TTC par pièce dans résultat indexé, prix indicatif ancien ; accès direct403 ; frais ouverts"
+    },
+    {
+      "id": "tme",
+      "url": "https://www.tme.eu/fr/details/xt60h-m/connecteurs-dc/amass/",
+      "type": "distributor_reference",
+      "supports": "référence AMASS XT60H-M ; prix, stock actuel et livraison non vérifiés"
+    },
+    {
+      "id": "lemon",
+      "url": "https://www.lacameraembarquee.fr/cables-adaptateurs-connecteurs-fpv/14943-connecteur-amass-xt60h-male-avec-jupe-lemonfpv.html",
+      "type": "seller_and_reviews",
+      "supports": "H023-6-A, une prise mâle avec jupe ; 1,10EUR affiché sous Prix HT ; deux avis5/5 du7mars2025 ; sa revendication60Acontinu non reprise"
+    },
+    {
+      "id": "hobbyking-guide",
+      "url": "https://hobbyking.com/blog/xt60-soldering-guide-for-rc-builds",
+      "type": "manufacturer_retailer_own_guide",
+      "supports": "étamage séparé, pas de brins retranchés, logement de maintien, contrôle avant gaine ; pas procédure AMASS de durée/température"
+    },
+    {
+      "id": "forum",
+      "url": "https://www.rccrawler.com/forums/threads/battery-connectors.618927/",
+      "type": "firsthand_users",
+      "supports": "juin2020, préférence pour prises authentiques et maintien par prise complémentaire pendant soudure ; témoignage, pas certification"
+    },
+    {
+      "id": "atum",
+      "url": "https://www.te.com/en/product-NB11802001.html",
+      "type": "manufacturer_shared_reference",
+      "supports": "ATUM8/2 déjà documenté : ID8 fourni/2 libre, paroi1±0,3, adhésif0,5, rétraction110°C, longueur -15% max"
+    },
+    {
+      "id": "spektrum-g1",
+      "url": "https://my.spektrumrc.com/Products/Default.aspx?ProdID=SPMX50002S30H5",
+      "local": "references/battery-g1.html",
+      "type": "manufacturer",
+      "supports": "139×46×25/294g/2S5AhIC5 ; anciennepage"
+    },
+    {
+      "id": "spektrum-g1-current",
+      "url": "https://www.spektrumrc.com/product/7.4v-5000mah-2s-30c-smart-hardcase-lipo-battery-ic5/SPMX50002S30H5.html",
+      "local": "references/battery-g1-current.html",
+      "type": "manufacturer",
+      "supports": "G1 et référence arrêtée"
+    },
+    {
+      "id": "spektrum-oem-cord",
+      "url": "https://www.spektrumrc.com/product/connector-ic5-device-w-4-10awg-wires/SPMXCA510.html",
+      "local": "references/ic5-spektrum.html",
+      "type": "manufacturer",
+      "supports": "Device,10AWG,4in ; deuxfils enphoto ; référence arrêtée"
+    },
+    {
+      "id": "spektrum-faq",
+      "url": "https://www.horizonhobby.com/on/demandware.static/-/Sites-horizon-master/default/dwdb93431e/Manuals/Smart_G2_Battery_and_Charger_FAQ.pdf",
+      "local": "notices/Spektrum-G1-G2-FAQ-original.pdf",
+      "type": "manufacturer_pdf",
+      "supports": "G1avecéquilibrage utilisable avec chargeurclassique ; G2requiertSmart"
+    },
+    {
+      "id": "spektrum-use",
+      "url": "https://www.spektrumrc.com/ProdInfo/Files/SPMXSE1100-Programming_Guide.pdf",
+      "local": "notices/Spektrum-Firma100A-IC5-reference-original.pdf",
+      "type": "manufacturer_pdf",
+      "supports": "ESC100A avecunIC5 ; application,pas ampacitéindépendante du510"
+    },
+    {
+      "id": "battery-verified-offer",
+      "url": "https://www.rcteam.com/products/spektrum-accu-lipo-smart-74v-5000mah-30c-ic5.js",
+      "local": "references/SPMX50002S30H5-offer.json",
+      "type": "distributor_public_product_data",
+      "supports": "SKUexact,availabletrue,price4999centimes"
+    },
+    {
+      "id": "ic5-eu-offer",
+      "url": "https://www.freakware.de/en/p/ic5-geraeteanschluss-kabel-4-100mm-10awg-spektrum-spmxca510-a167682.htm",
+      "local": "references/SPMXCA510-freakware.html",
+      "type": "distributor",
+      "supports": "9,89EURincltaxlocale,stockannoncé ; France/paniernonvérifiés"
+    }
+  ]
+}

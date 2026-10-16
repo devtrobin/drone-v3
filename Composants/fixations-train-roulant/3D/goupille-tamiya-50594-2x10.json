@@ -1,0 +1,59 @@
+{
+  "file": "goupille-tamiya-50594-2x10.step",
+  "title": "Tamiya 50594 | goupille 2 x 10",
+  "generated_on": "2026-10-13",
+  "unit": "mm",
+  "cadquery_version": "2.8.0",
+  "coordinate_system": "Axe principal Z; face de reference z=0; dimensions selon parametres",
+  "bytes": 12769,
+  "sha256": "96df287f9924443abddcbf9ef12ede47edde193c61b69783b83ff11ac4cd2c27",
+  "native_vendor_cad": false,
+  "hardware_measured": false,
+  "is_custom_project_design": false,
+  "published_nominal": [
+    "Ø2 x10 mm identifies dans notice TT01R p.15"
+  ],
+  "estimates_and_limitations": [
+    "Chanfreins0.12 estimes"
+  ],
+  "parameters": {},
+  "source_pages": [],
+  "bounds_mm": {
+    "xmin": -1.0,
+    "xmax": 1.0,
+    "ymin": -1.0,
+    "ymax": 1.0,
+    "zmin": -1.3877787807814457e-17,
+    "zmax": 10.0
+  },
+  "validation": {
+    "valid_after_reimport": true,
+    "solids": 1,
+    "faces": 5,
+    "colors": 1,
+    "volume_relative_error": 1.7304827298205904e-13,
+    "volume_relative_error_limit": 0.0001,
+    "volume_before_mm3": 31.32906778221149,
+    "volume_after_mm3": 31.329067782206067,
+    "adaptive_volume_tolerance": 1e-09,
+    "bbox_error_mm": 1.3877787807814457e-17,
+    "bbox_error_limit_mm": 0.01,
+    "void_and_material_probes": [],
+    "elapsed_seconds": 0.03616150000016205
+  },
+  "parts": [
+    {
+      "name": "Goupille",
+      "color_linear_rgb": [
+        0.62,
+        0.65,
+        0.69
+      ],
+      "solids": 1
+    }
+  ],
+  "preview": {
+    "file": "goupille-tamiya-50594-2x10.png",
+    "sha256": "3d8eb141a0d1ba956a3ac248f1052e95e807fb8e504a93bfbda181808cc89aee"
+  }
+}

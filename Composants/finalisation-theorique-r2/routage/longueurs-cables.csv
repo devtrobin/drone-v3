@@ -1,0 +1,16 @@
+﻿code;net;wire;diameter_design_mm;bend_radius_mm;centreline_mm;service_and_termination_allowance_mm;blank_length_mm;status
+P01;IC5+ vers F0, chemin fixe protégé;10 AWG puis6mm²;6.5;30;414.37;40;460;Approches des bornes à relever
+P02;IC5- vers D-;10 AWG puis6mm², extensionnégative160mm àprésenter;6.5;30;191.25;30;230;Approches des bornes à relever
+P03;F0 sortie vers ED80;6mm²;6.5;30;269.25;60;330;Corridor haut, supports et descentes aux bornes à confirmer
+P04;ED80 vers D+;6mm²;6.5;30;277.25;60;340;"Corridor latéral haut ; descentes aux bornes à confirmer"
+P05;D+ vers SSR;6mm²;6.5;30;177.25;80;260;"Corridor latéral haut ; descentes aux bornes à confirmer"
+P06;SSR vers UD80;6mm²;6.5;30;594.37;60;660;"Corridor supérieur avec pont de maintien à concevoir ; non libéré"
+M_G;F1 vers XT60 ESCG;12 AWG;4;8;166.13;40;210;Approches des bornes à relever
+N_G;ESCG retour D-;12 AWG;4;4;92.57;35;130;Approches des bornes à relever
+M_D;F2 vers XT60 ESCD;12 AWG;4;8;97.13;40;140;Approches des bornes à relever
+N_D;ESCD retour D-;12 AWG;4;4;186.57;35;230;Approches des bornes à relever
+S01;FS5A vers UBEC6V;18 AWG;2.8;5;218.7;40;260;Approches des bornes à relever
+L01;GPIO vers interface avant;22 AWG signaux, enveloppe8mm;8;8;445.17;60;510;Approches des bornes à relever
+H_G;HallG VCC/GND/OUT;3x22 AWG;3.5;5;149.99;50;200;Approches des bornes à relever
+H_D;HallD VCC/GND/OUT;3x22 AWG;3.5;5;149.99;50;200;Approches des bornes à relever
+USB;Caméra vers USB Pi;USB blindé, câble caméra à confirmer;5;20;357.26;100;460;Approches des bornes à relever

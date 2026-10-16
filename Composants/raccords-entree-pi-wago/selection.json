@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-15",
+  "folder": "raccords-entree-pi-wago",
+  "ref": "WAGO 221-413",
+  "qty": 2,
+  "name": "Répartition de la branche Pi côté batterie",
+  "rating": "Deux bornes séparées, positif et GND ; acceptent12 AWG et18 AWG selon le dossier WAGO existant. Elles évitent de serrer18 AWG hors de la plage10–14 du support Midget.",
+  "source": "https://www.wago.com/221-413",
+  "buy": "https://www.gotronic.fr/cat-bornes-de-connexion-wago-0-5-a-2-5-mm2.htm",
+  "status": "Prix antérieur0,75 EUR TTC/pièce àrevalider ; deux ajouts, hors répartition5 V déjà prévue",
+  "hardware_tested": false,
+  "model_created": false
+}

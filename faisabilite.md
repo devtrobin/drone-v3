@@ -1,8 +1,10 @@
 # Première étude de faisabilité — V3
 
-Consultation technique : **12 octobre 2026**. Aucun prix V3 ni composant de remplacement n'est encore validé.
+Consultation initiale : **12 octobre 2026** ; choix du calculateur mis à jour le **13 octobre 2026**. Les modèles caméra, moteur et carte de contrôle sont retenus pour l'étude ; le montage et le panier complet restent à valider.
 
 ## Vidéo : revoir la chaîne complète
+
+Calculateur désormais retenu : [Raspberry Pi 5, 4 Go](Composants/raspberry-pi-5/README.md), seul pour vidéo, Wi-Fi et commande des deux variateurs. Caméra choisie : [InnoMaker U20CAM-4M USB UVC](Composants/camera/README.md), 1080p60 MJPEG annoncé. Tester la transmission MJPEG ou la conversion H.264 logiciel sur Pi 5 ; aucun résultat de chaîne complète n'est encore mesuré. Les paragraphes ci-dessous expliquent les limites des alternatives initiales.
 
 Le [Pi Zero 2 W officiel](https://www.raspberrypi.com/products/raspberry-pi-zero-2-w/) est spécifié pour l'encodage H.264 en 1080p30. Il ne constitue donc pas une base documentée permettant de garantir le 1080p60 demandé.
 
@@ -14,7 +16,7 @@ Le débit radio utile dépendra du codec et de la qualité retenus. À titre de 
 
 ## Vitesse : nouvelle base mécanique à étudier
 
-40 km/h = **11,11 m/s**, soit environ 18 fois l'estimation de vitesse V2. Après clarification utilisateur, la piste de travail est un **châssis fabriqué à quatre roues**, avec direction par servo, propulsion et freinage adaptés. Une voiture RC complète est exclue. Transmission et références restent à comparer et à chiffrer.
+40 km/h = **11,11 m/s**, soit environ 18 fois l'estimation de vitesse V2. L'architecture retenue est un **châssis fabriqué à quatre roues : deux moteurs arrière et deux roues avant non motrices dédiées à la direction**. Prévoir deux variateurs, une réduction par roue arrière et un train avant orientable. Le [2435SL G3 à 4 500 KV](Composants/moteur/README.md) est retenu comme modèle moteur. Une voiture RC complète est exclue.
 
 Avec des roues de diamètre 65 mm, atteindre 40 km/h demande environ **3 265 tr/min aux roues en charge**, d'après n = 60 × v / (π × D). Ce calcul cinématique ne détermine ni puissance moteur, ni rapport de transmission, ni vitesse réelle.
 
@@ -39,4 +41,4 @@ Ces puissances illustrent la relation durée = énergie / puissance ; elles ne p
 
 Le dossier ne permet pas encore d'affirmer que les trois objectifs peuvent être réunis à 200 €. Il faut comparer des paniers complets, avec chargeur, alimentation vidéo, commande, fixations et livraison, et déclarer les éventuelles pièces réutilisées. Le panier V2 à 257,03 € n'est pas une base de coût compatible par simple ajout.
 
-Le périmètre est maintenant confirmé : 200 € pour tout le matériel neuf, 10 à 20 minutes à 40 km/h et au moins 45 minutes à 20 km/h. L'estimation V2 de plusieurs heures n'est plus la cible de dimensionnement. Voir le [dimensionnement](dimensionnement.md) et les [pistes techniques](pistes-techniques.md).
+Le dimensionnement vise 10 à 20 minutes à 40 km/h et au moins 45 minutes à 20 km/h. À la demande de l'utilisateur, on chiffre d'abord les performances demandées, puis on recherche les économies et compromis pour revenir vers l'objectif initial de 200 € pour tout le matériel neuf. L'estimation V2 de plusieurs heures n'est plus la cible de dimensionnement. Voir le [dimensionnement](dimensionnement.md) et les [pistes techniques](pistes-techniques.md).

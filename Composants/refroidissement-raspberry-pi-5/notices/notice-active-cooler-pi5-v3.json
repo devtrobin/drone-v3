@@ -1,0 +1,42 @@
+{
+  "file": "notice-active-cooler-pi5-v3.pdf",
+  "pages": 6,
+  "sha256": "04233daf332740cefbc5480397572fd24eb9d9dd67cc6ced140c573f3105455c",
+  "generator": "tools/build_pi_cooler_pdf.py",
+  "generated_on": "2026-10-14",
+  "renders": [
+    {
+      "page": 1,
+      "render": "tools\\temp\\pi-cooler-review\\pdf\\page-1.png",
+      "chars": 1027
+    },
+    {
+      "page": 2,
+      "render": "tools\\temp\\pi-cooler-review\\pdf\\page-2.png",
+      "chars": 1575
+    },
+    {
+      "page": 3,
+      "render": "tools\\temp\\pi-cooler-review\\pdf\\page-3.png",
+      "chars": 1405
+    },
+    {
+      "page": 4,
+      "render": "tools\\temp\\pi-cooler-review\\pdf\\page-4.png",
+      "chars": 1171
+    },
+    {
+      "page": 5,
+      "render": "tools\\temp\\pi-cooler-review\\pdf\\page-5.png",
+      "chars": 1151
+    },
+    {
+      "page": 6,
+      "render": "tools\\temp\\pi-cooler-review\\pdf\\page-6.png",
+      "chars": 2009
+    }
+  ],
+  "visual_review_complete": true,
+  "visually_reviewed_pages": [1, 2, 3, 4, 5, 6],
+  "visual_review_notes": "Six rendus finaux inspectés : textes, tableaux, plans et images lisibles, sans débordement ni collision avec les pieds de page."
+}

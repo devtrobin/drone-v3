@@ -1,0 +1,13 @@
+{
+  "source": "drone-v3-r2-etude.step",
+  "source_sha256": "73eeda462a399ace5944e6d0def9d6d0e59cf865d48b0b6b81b3e594732edc18",
+  "native_file": "drone-v3-r2-etude.FCStd",
+  "bytes": 706631,
+  "features": 334,
+  "solids": 334,
+  "all_imported_shapes_valid": true,
+  "gui_reopen_seconds": 3.5291705999998157,
+  "total_seconds": 19.631384499999513,
+  "native_reopen_tested": true,
+  "full_collision_validation": false
+}

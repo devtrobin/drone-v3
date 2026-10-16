@@ -1,0 +1,6 @@
+{
+  "date": "2026-10-15",
+  "current_source": "../verification-alimentation/selection-active.json",
+  "note": "ATO 30 A / Blue Sea 5065 retirés de la sélection active. Deux KLKD020.T 20 A proposés. Régime continu de dimensionnement : 15 A par ESC ; scénario court 20 A par ESC, 2 s, à tester. Les objectifs de vitesse/autonomie sont conservés.",
+  "old_project_PDFs_and_complete_CAD_historical": true
+}

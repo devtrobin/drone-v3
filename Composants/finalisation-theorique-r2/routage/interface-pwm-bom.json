@@ -1,0 +1,11 @@
+{
+  "ISO7710FDR": 3,
+  "MCP1703A_3302": 3,
+  "C100nF": 6,
+  "C1uF_effective_min": 6,
+  "R220ohm": 6,
+  "R10kohm": 6,
+  "SOIC8_adapter_separate_rows": 3,
+  "prototype_hand_wired": true,
+  "new_PCB_ready": false
+}

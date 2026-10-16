@@ -1,0 +1,30 @@
+{
+  "revision": "M1P",
+  "date": "2026-10-15",
+  "prototype_carrier_fabrication_ready": true,
+  "bench_procedure_ready": true,
+  "hardware_tested": false,
+  "manufacturing_ready_for_vehicle": false,
+  "vehicle_battery_release": false,
+  "native_file_checks_passed": true,
+  "manufacturing_exports_geometry_checked": true,
+  "package": {
+    "file": "fabrication/surveillance-m1p-prototype-banc.zip",
+    "sha256": "98c25645cde635abe054a10e706a52a755a34e404879a7cd4d4ddee8bbeca9f7"
+  },
+  "release_conditions": [
+    "Manufacturer accepts all finished copper/etch/plating specifications",
+    "Bare PCB continuity/isolation and assembly incoming inspection",
+    "Bench sources verified against B00 before connection",
+    "External modules supported separately and interfaces inspected",
+    "B00-B14 results not yet recorded"
+  ],
+  "unresolved_exact_TI_dimensions": true,
+  "remaining_for_vehicle": [
+    "Native TI mechanical data or measured modules and final support validation",
+    "Maximum clearing envelope / current limiting and full R2 branch coordination",
+    "Bench thermal, electrical and fault tests",
+    "Pi software shutdown and 2813 interaction",
+    "EMC, motor transients and integration tests"
+  ]
+}

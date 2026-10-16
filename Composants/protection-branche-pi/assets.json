@@ -1,0 +1,161 @@
+{
+  "checked_on": "2026-10-14",
+  "assets": [
+    {
+      "file": "notices/Littelfuse-ATO-aftermarket-2022.pdf",
+      "url": "https://www.mouser.com/datasheet/2/240/media-3323444.pdf",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "status": "unavailable",
+      "error": "not a PDF"
+    },
+    {
+      "file": "notices/Littelfuse-ATO-aftermarket-2022-source-fabricant.pdf",
+      "url": "https://www.littelfuse.cn/assetdocs/littelfuse-datasheet-ato?assetguid=bba6ed2a-96e5-4b07-ab5d-0e8d267c0bd1",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "file": "notices/BlueSea-porte-fusibles-catalogue-2015.pdf",
+      "url": "https://catalog2015.bluesea.com/files/common/downloads/page0043.pdf",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "status": "unavailable",
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "file": "notices/Littelfuse-FHM-comparaison-2020.pdf",
+      "url": "https://xonstorage.z8.web.core.windows.net/pdf/littelfuse_0fhm0002lxn_apr22_xonlink.pdf",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "bytes": 223066,
+      "sha256": "a022f991de8096b184c6ca15ad9f69119cef7f8b3376a65bad83c173b82beaa6",
+      "final_url": "https://xonstorage.z8.web.core.windows.net/pdf/littelfuse_0fhm0002lxn_apr22_xonlink.pdf",
+      "status": "downloaded"
+    },
+    {
+      "file": "sources-web/BlueSea-5065.html",
+      "url": "https://www.bluesea.com/products/5065/Waterproof_In-Line_ATO_ATC_Fuse_holder",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "file": "sources-web/Pololu-2813.html",
+      "url": "https://www.pololu.com/product/2813",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "bytes": 71839,
+      "sha256": "33053e180ba47361bb965f797e3214919e68ede206b59db6fe1766bbde980312",
+      "final_url": "https://www.pololu.com/product/2813",
+      "status": "downloaded"
+    },
+    {
+      "file": "sources-web/Amazon-FR-5065.html",
+      "url": "https://www.amazon.fr/dp/B004ZIUA62",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "bytes": 3815,
+      "sha256": "0315802ad7fbee573880d133f34dafd60d782a34090626e422a589cc85921a65",
+      "final_url": "https://www.amazon.fr/dp/B004ZIUA62",
+      "status": "challenge_html"
+    },
+    {
+      "file": "sources-web/Amazon-US-5065.html",
+      "url": "https://www.amazon.com/dp/B004ZIUA62",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "bytes": 3781,
+      "sha256": "0bacf38fd5913129b56d618d746ee0b866a3c144112dd6319f1ab6bcec067589",
+      "final_url": "https://www.amazon.com/dp/B004ZIUA62",
+      "status": "challenge_html"
+    },
+    {
+      "file": "sources-web/Amazon-FR-fusible-recherche.html",
+      "url": "https://www.amazon.fr/s?k=Littelfuse+ATO7.5BP",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "final_url": "https://www.amazon.fr/s?k=Littelfuse+ATO7.5BP",
+      "status": "empty_response"
+    },
+    {
+      "file": "sources-web/PKYS-5065-mesures.html",
+      "url": "https://shop.pkys.com/Blue-Sea-5065--Waterproof-In-Line-Fuse-Holder-for-ATOATC-Fuses_p_2716.html",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "bytes": 104100,
+      "sha256": "7a23ff9f4271c7da9083c8ca50ca2ba99043bfcd105204fc1a48b66bd974e80f",
+      "final_url": "https://shop.pkys.com/Blue-Sea-5065--Waterproof-In-Line-Fuse-Holder-for-ATOATC-Fuses_p_2716.html",
+      "status": "downloaded"
+    },
+    {
+      "file": "sources-web/Forum-SailboatOwners-5065.html",
+      "url": "https://forums.sailboatowners.com/threads/what-are-you-using-as-a-bilge-pump-fuse-holder.162517/",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "bytes": 174873,
+      "sha256": "45bb1341ad4a8ed6d2d5ac8b9682be7cad380e73040e13e624bb266e8c8cf464",
+      "final_url": "https://forums.sailboatowners.com/threads/what-are-you-using-as-a-bilge-pump-fuse-holder.162517/",
+      "status": "downloaded"
+    },
+    {
+      "file": "sources-web/Skysat-5065.html",
+      "url": "https://skysat.fr/en-gb/products/blue-sea-waterproof-inline-ato-atc-fuse-holder",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "bytes": 652390,
+      "sha256": "1182e42e4da21fa23fa94166c89611904424f3047c1ec397403ef6fe48b773ed",
+      "final_url": "https://skysat.fr/en-gb/products/blue-sea-waterproof-inline-ato-atc-fuse-holder",
+      "status": "downloaded"
+    },
+    {
+      "file": "porte-fusible/photos/Amazon-5065-original.jpg",
+      "url": "https://m.media-amazon.com/images/I/51mfLfEM4UL._AC_SL1000_.jpg",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "bytes": 32235,
+      "sha256": "34c58e9a78914e6ecd7bbe3da9cc5cc624c6adc634dca1912ea1a5fc812016b7",
+      "final_url": "https://m.media-amazon.com/images/I/51mfLfEM4UL._AC_SL1000_.jpg",
+      "status": "downloaded"
+    },
+    {
+      "file": "notices/Littelfuse-ATO-fiche-originale-via-RSP.pdf",
+      "url": "https://rspsupply.com/images/downloads/Littelfuse/0/Littelfuse%200ATO020.VP/Specification%20Document.pdf",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "bytes": 1743934,
+      "sha256": "461e406be560638332fb0152c98f3e0ef829c56c221a14c334a564f2b3f790d1",
+      "final_url": "https://rspsupply.com/images/downloads/Littelfuse/0/Littelfuse%200ATO020.VP/Specification%20Document.pdf",
+      "status": "downloaded",
+      "supplier_annotations_present": true
+    },
+    {
+      "file": "notices/Littelfuse-catalogue-aftermarket-2013-via-RS.pdf",
+      "url": "https://docs.rs-online.com/d38b/0900766b813f0619.pdf",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "bytes": 7439925,
+      "sha256": "7753aa169fc73f5d412e44e72c75a6beda9509b748560b1c239c844d57d91017",
+      "final_url": "https://docs.rs-online.com/d38b/0900766b813f0619.pdf",
+      "status": "downloaded"
+    },
+    {
+      "file": "../distribution-alimentation/notices/BlueSea-catalogue-2024-miroir-PrimeMarine.pdf",
+      "status": "local_reference",
+      "modified": false,
+      "url": "https://primemarine.com.pl/pli/141_Katalog%20BlueSea.pdf",
+      "bytes": 28399645,
+      "sha256": "28f98d4ce2c56b14fc7701cfa4a80a22bad144a615ef4c51471af4f3c73023a9",
+      "checked_on": "2026-10-14",
+      "relevant_pdf_pages": [
+        60,
+        72
+      ]
+    }
+  ]
+}

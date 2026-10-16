@@ -1,0 +1,89 @@
+        Pololu Pack de connecteurs JR, mâle - Opencircuit                                                                                          {"@context":"http://schema.org","@type":"Store","url":"https://opencircuit.fr","telephone":"","address":{"@type": "PostalAddress","addressCountry": "The Netherlands","addressLocality": "Houten","postalCode": "3991CS","streetAddress": "Kaagschip 14"},"name":"Opencircuit","image":"https://cdn.bodanius.com/media/1/0ca159731_headerlogo.svg","logo":"https://cdn.bodanius.com/media/1/0ca159731_headerlogo.svg","email":"info@opencircuit.nl","sameAs":["https://web.facebook.com/OpencircuitNL", "https://www.instagram.com/opencircuitnl", "https://www.linkedin.com/company/opencircuitnl", "https://www.youtube.com/@OpencircuitNL"],"priceRange":["$"]}  {"@context":"http://schema.org","@type":"Organization","url":"https://opencircuit.fr","logo":"https://cdn.bodanius.com/media/1/0ca159731_headerlogo.svg","potentialAction":[{"@type":"SearchAction","target":"https://opencircuit.fr/rechercher/{search_term_string}","query-input":"required name=search_term_string"}]}              
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+              Menu          
+ 
+   
+                                                                                    
+   
+    
+   
+    
+ 
+               Marques      Électronique      Plateformes      Robotique      Kits de démarrage      Ordinateurs      Matériel      Produits de saison                         Commandé avant 23h59, expédié aujourd'hui            Livraison gratuite  à partir de € 150,-            Évaluation du client:  4.8  / 5          Service excellent    Entreprises  Contact           Opencircuit         Matériel         Connecteurs         Bouchons         Pololu Pack de connecteurs JR, mâle               Compte       Aperçu du compte          Les catégories           Robotique              Plateformes                Électronique              Kits de démarrage              Matériel              Ordinateurs              Produits de saison                  Programme d'affiliation   Tout le monde est invité à rejoindre notre programme d'affiliation.    Placez des liens et des bannières vers nos produits.  Le visiteur nous passe une commande.  Recevez jusqu'à 10% de commission.    Plus d'information                  Pololu Pack de connecteurs JR, mâle      Numéro d'article    61217       Marque    Pololu      Modèle    1925            Share       Écrire une critique                                                                            La description          Le pack de connecteurs Pololu JR, mâle offre une solution complète pour ajouter jusqu'à trois connecteurs JR mâles à vos câbles personnalisés. Ces connecteurs correspondent à ceux que l'on trouve généralement sur les servos RC génériques. Le pack est conçu pour fonctionner avec des fils 22-26 AWG, qui peuvent être fixés à l'aide d'un outil de sertissage. Chaque pack est livré avec suffisamment de boîtiers et de broches à sertir pour trois connecteurs mâles, ainsi que trois broches de rechange. Les broches à sertir sont dotées de contacts mâles dorés pour des performances fiables et efficaces. Que vous travailliez sur un projet de robotique ou répariez un appareil RC, le Pololu JR Connector Pack, Male s'avère être un outil indispensable. Il constitue un moyen pratique et efficace d’établir des connexions sécurisées entre différents composants. Les connecteurs sont conçus pour être compatibles avec les servos RC génériques, ce qui les rend très polyvalents pour une large gamme d'applications.  L'une des caractéristiques les plus remarquables de ce produit réside dans les contacts mâles dorés sur les broches à sertir. Cela garantit non seulement une excellente connexion, mais améliore également considérablement la longévité et la durabilité des broches. Le pack comprend également des épingles supplémentaires, offrant plus de commodité et garantissant que vous avez tout ce dont vous avez besoin à votre disposition.  Le pack de connecteurs Pololu JR, mâle n'est pas seulement une question de fonctionnalité, mais également de rendre votre travail plus facile et plus efficace. Il fournit une solution complète pour vos besoins de connectivité, ce qui en fait un ajout précieux à toute boîte à outils. Avec sa conception facile à utiliser et ses composants de haute qualité, ce pack offre un moyen fiable et pratique d'ajouter des connecteurs JR mâles à vos câbles personnalisés.            Propriétés    Informations sur la marque      Marque     Pololu         Modèle  1925                               € 9,75   € 8,15  Excl. T.V.A. (FR)                     274   en entrepôt externe Délai de livraison 5 à 7 jours ouvrables                
+   
+  Notification de stock              
+   
+ 
+      
+   
+ 
+     
+ 
+   Chariot       
+   
+            Pololu Pack de connecteurs JR, mâle          Livré en 5 à 7 jours      € 9,75    
+ 
+   Chariot        
+   
+            Afficher les remises progressives       Acheter  10  pièces pour  € 9,19  par pièce  6% de remise        Acheter  25  pièces pour  € 8,63  par pièce  11% de remise        Acheter  50  pièces pour  € 8,06  par pièce  17% de remise        Acheter  100  pièces pour  € 7,49  par pièce  23% de remise        Acheter  500  pièces pour  € 6,92  par pièce  29% de remise                
+     
+   Expédié de  € 9,95   (FR)             Délai de rétractation de 30 jours     
+ 
+     
+  Service excellent                                  Questions et réponses         Q         Poser une question           Avis des clients                           Pololu Pack de connecteurs JR, mâle     ★  ★  ★  ★  ★  Cliquez sur une étoile pour laisser votre avis  Pire expérience possible  Une mauvaise expérience  Une expérience modérée  Une expérience satisfaite  Une expérience très positive                                                    Réduit          
+   
+       En stock         -50 %             Régulateur de tension abaisseur 7,5 V, 2,4 A Pololu D24V22F7        € 28,05    € 14,05     Voir le produit               Réduit          
+   
+       En stock         -50 %                  
+   
+     Régulateur de tension élévateur 5V Pololu U1V10F5        € 6,15    € 3,10     Voir le produit               Réduit          
+   
+       En stock         -50 %             Pololu Mini interrupteur à glissière : 3 broches, SPDT, 0,3 A (paquet de 3)        € 3,40    € 1,70     Voir le produit               Réduit          
+   
+       En stock         -50 %             Pololu Régulateur de tension élévateur 5V U3V16F5        € 9,85    € 4,95     Voir le produit               Réduit          
+   
+       En stock         -50 %              
+   
+     Pololu Tamiya 70168 Kit Double Boîte de Vitesses        € 23,20    € 11,60     Voir le produit               Réduit          
+   
+       En stock         -48 %              
+   
+     Pololu Embase mâle détachable 0,100" (2,54 mm) : 1 × 40 broches, droite, blanche        € 1,55    € 0,80     Voir le produit               Réduit          
+   
+       En stock         -50 %              
+   
+     Pololu Régulateur de tension élévateur 12V U3V70F12        € 31,95    € 16,-     Voir le produit               Réduit          
+   
+       En stock         -50 %              
+   
+     Pololu Ensemble de pneus lisses Tamiya 70192 (4 pneus)        € 9,05    € 4,55     Voir le produit               Réduit          
+   
+       En stock         -50 %             Paire De Supports De Motoréducteur En Métal Pololu Micro - Noir        € 4,20    € 2,10     Voir le produit               Réduit          
+   
+       En stock         -50 %              
+   
+     Pololu Régulateur de tension abaisseur 3,3 V, 600 mA D36V6F3        € 9,75    € 4,90     Voir le produit               Réduit          
+   
+       En stock         -50 %              
+   
+     Pololu Câble ruban avec bornes pré-serties 10 couleurs FF 12" (30 cm)        € 5,40    € 2,70     Voir le produit               Réduit          
+   
+       En stock         -50 %             Pololu Câble ruban Premium Jumper Wires 10 couleurs FF 12" (30 cm)        € 6,65    € 3,35     Voir le produit               Réduit          
+   
+       En stock         -50 %              
+   
+     Multiplexeur servo RC 4 canaux Pololu (assemblé)        € 25,45    € 12,75     Voir le produit               Réduit          
+   
+       En stock         -50 %              
+   
+     Pololu Mini interrupteur d'alimentation à bouton-poussoir avec protection contre les inversions de tension, BT        € 6,90    € 3,45     Voir le produit               Réduit          
+   
+       En stock         -50 %             Régulateur de tension abaisseur Pololu 3,3 V, 2,6 A D24V22F3        € 38,25    € 19,10     Voir le produit                       Articles consultés récemment                             
+   
+                  Pololu Pack de connecteurs JR, mâle        € 9,75     Voir le produit            Effacer la liste                        Commandé avant 23h59, expédié aujourd'hui            Livraison gratuite  à partir de € 150,-            Évaluation du client:  4.8  / 5          Service excellent           Opencircuit France  Opencircuit commercialise des composants et modules électroniques pour le prototypage, les projets pédagogiques et la domotique.      Service Clients  Entreprises  Contact  info@opencircuit.nl  +31 850014013      Socials                                Happy halloween!           Informations     Informations de commande    Politique de retour    Termes et conditions    Déclaration de confidentialité    Réclamations           À propos Opencircuit     À propos de nous    Commentaires    Notre assortiment    Marques    Questions fréquentes           Service supplémentaire     Opencircuit Carte cadeau    Écrire un blog    Programme d'affiliation    Codage couleur de la            Nouveaux blogs     Souder comme un pro : conseils pour des connexions électroniques parfaites    Choisir le bon capteur de température [youtube]    Batteries 18650 : petite taille, grande performance    Protocole RS232 : le guide du débutant    Plus de blogs      © Opencircuit 2014 - 2026                                                                                 

@@ -1,0 +1,34 @@
+{
+  "part": "TPS3700EVM-114 / PWR114 A",
+  "date": "2026-10-15",
+  "source": "notices/TI-TPS3700EVM-114-original.pdf",
+  "sha256": "2064524f87e5411fcf60888362b5394b218d1372c57015d9733f7148f2280245",
+  "page": 5,
+  "method": "Vector drawing, Fig 4, calibrated against thirteen 2.54 mm header pitches from TI BOM p8. Not an exact manufacturer mechanical drawing.",
+  "exact_documented": {
+    "header_pitch_mm": 2.54,
+    "header_2pin_part": "PEC02SAAN",
+    "header_3pin_part": "PEC03SAAN"
+  },
+  "inferred_NOT_certified": {
+    "board_xy_mm": [
+      51.052567899675964,
+      48.258462521974224
+    ],
+    "scale_mm_per_pdf_point": 0.22642731903701346,
+    "scale_spread_relative": 0.00016187922559955176,
+    "pitch_samples": 13,
+    "drawing_tolerance_unknown": true,
+    "thickness_mm": null,
+    "maximum_assembled_height_mm": null,
+    "mounting_holes_mm": null
+  },
+  "design_reservation_mm": [
+    60,
+    60,
+    12
+  ],
+  "native_gerbers_available": false,
+  "exact_vendor_board_dimensions_verified": false,
+  "conclusion": "Only connector pitch is exactly specified. Inferred outline about 51.05 x 48.26 mm is NOT a drilling or manufacturing datum. Keep 60 x 60 x 12 reservation; no module mounting holes invented. Modules on separate insulated bench stands, flying harnesses."
+}

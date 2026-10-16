@@ -1,0 +1,26 @@
+[
+  {
+    "url": "https://www.ti.com/lit/zip/SLVC413",
+    "error": "HTTP Error 401: Unauthorized"
+  },
+  {
+    "url": "https://www.ti.com.cn/lit/zip/slvc413",
+    "error": "HTTP Error 401: Unauthorized"
+  },
+  {
+    "url": "https://www.ti.com/lit/xx/slvc413/slvc413.zip",
+    "error": "HTTP Error 401: Unauthorized"
+  },
+  {
+    "url": "https://www.littelfuse.com/assetdocs/klkd-datasheet?assetguid=7b52eebb-c7cc-43df-a8da-9682a338e0f6",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://www.littelfuse.com/assetdocs/littelfuse-fuse-clips-124-series-datasheet?assetguid=e53fb66d-80db-4159-9662-98be84673bb3",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://www.digikey.fr/fr/products/detail/texas-instruments/TPS3700EVM-114/3182032",
+    "error": "HTTP Error 403: Forbidden"
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "local_links_checked": 38,
+  "all_links_exist": true,
+  "STEP_files": 121,
+  "DXF_files": 14,
+  "static_pairs_checked": 46980,
+  "unexpected_new_intersections": 0,
+  "steering_samples": 51,
+  "new_objects_clear_at_samples": true,
+  "FreeCAD_native_reopened": true,
+  "FreeCAD_reopen_seconds": 3.5351776000024984,
+  "CAD_Viewer_installed_parser_passed": true,
+  "R2_STEP_unchanged": true,
+  "PDF_pages": 11,
+  "PDF_visual_review_pending": false,
+  "all_electrical_conditions_closed": false,
+  "physical_tests_done": false
+}

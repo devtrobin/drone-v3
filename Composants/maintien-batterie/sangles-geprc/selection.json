@@ -1,0 +1,47 @@
+{
+  "checked_on": "2026-10-14",
+  "purchase_made": false,
+  "hardware_tested": false,
+  "id": "sangles-geprc",
+  "ref": "GEPRC New Version Battery Strap - jaune20 x250, lot5",
+  "qty": 1,
+  "unit": "lot5",
+  "price": 5.99,
+  "currency": "USD",
+  "tax": "Taxes/port France non confirmés",
+  "buy": "https://geprc.com/product/geprc-new-version-battery-strap5pcs/",
+  "maker": "https://geprc.com/product/geprc-new-version-battery-strap5pcs/",
+  "query": "GEPRC battery strap 20 250 jaune",
+  "stock": "Variantes20x220 et20x250 ; choisir250. Offre Amazon exacte non confirmée.",
+  "scope": "2 sangles montées,3 en réserve ; boucle métallique et surfaces noires/jaunes observées sur photo.",
+  "role": "Maintien autour de la section47x25 du pack, avec patin et passages à déterminer au châssis.",
+  "cotes": [
+    [
+      "Largeur x longueur",
+      "20 x250",
+      "Fabricant"
+    ],
+    [
+      "Épaisseur sangle / fil boucle",
+      "1,2 / Ø1,6",
+      "Estimations photo"
+    ],
+    [
+      "Boucle extérieure CAO",
+      "25 x10,6",
+      "Estimation, pas mesurée"
+    ],
+    [
+      "Résistance à traction / vibrations",
+      "Non chiffrée",
+      "Aucune charge admissible retenue"
+    ],
+    [
+      "Pose fermée",
+      "Section interne47x27",
+      "Hypothèse pack25 + patin2, sans épaisseur châssis définitive"
+    ]
+  ],
+  "amazon_search": "https://www.amazon.fr/s?k=GEPRC+battery+strap+20+250+jaune",
+  "amazon_FR_verified": false
+}

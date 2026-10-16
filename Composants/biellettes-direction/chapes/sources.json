@@ -1,0 +1,39 @@
+{
+  "selected_on": "2026-10-13",
+  "selected_by": "assistant, authorized by user",
+  "reference": "Tamiya 50596 — 5 mm Adjuster",
+  "quantity_design": "6 chapes pour trois biellettes ; un sachet annoncé de 6",
+  "purchased": false,
+  "hardware_tested": false,
+  "model_3d_created": true,
+  "purchase_status": "Not an identified or verified Amazon offer; fabrication lines are not purchase-ready",
+  "price_eur": null,
+  "amazon_search_url": "https://www.amazon.fr/s?k=Tamiya+50596",
+  "specifications": {
+    "interface": "Chapes pour rotules de diamètre nominal 5 mm",
+    "tige associée": "M3, suivant le principe de la page PDF 10 étape 19 et page 13 étape 26",
+    "besoin": "Deux biellettes vers les fusées et une liaison du servo au renvoi"
+  },
+  "sources": [
+    {
+      "url": "https://www.tamiya.com/english/products/50596/index.html",
+      "type": "primary or explicitly identified supplier reference",
+      "checked_on": "2026-10-13"
+    }
+  ],
+  "documents": [
+    {
+      "file": "Tamiya-TT01R-notice-constructeur.pdf",
+      "url": "https://www.tamiya.com/cms/english/rc/rcmanual/tt01r.pdf",
+      "bytes": 4744628,
+      "sha256": "c8ef6f865c9a81df967932ec86143cf1074ecc2f6d48df566a94c0d2643a9ed1",
+      "modified": false,
+      "local_file": "../../direction-et-transmission/notices/Tamiya-TT01R-notice-constructeur.pdf"
+    }
+  ],
+  "unknowns": [
+    "Confirmer les longueurs entre centres à partir de notre voie et de notre empattement",
+    "Contrôler tenue des clips et débattement sur les rotules retenues"
+  ],
+  "model_3d_manifest": "3D/provenance.json"
+}

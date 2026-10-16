@@ -27,9 +27,13 @@ Ce choix représente 11,5 % du plafond de 200 € ; il reste 177 € pour les au
 | Fixations | 4 trous de diamètre 2,2 mm ; entraxes à relever avant fabrication |
 | Champ de vision | 71° diagonal, 58° horizontal |
 | Câble | 1 m |
-| Mise au point | À vérifier sur le module ; ne pas compter sur un autofocus, documentation ambiguë |
+| Mise au point | Réglage manuel par rotation de l'objectif selon des utilisateurs ; ne pas prévoir d'autofocus |
+| Identification USB | VID 0x364D / PID 0x6203, cohérent avec un relevé utilisateur |
+| Alimentation | Par USB ; 500 mA déclarés dans un relevé utilisateur, consommation réelle inconnue |
 
 La masse, la hauteur totale, la consommation et les entraxes de fixation ne sont pas considérés mesurés.
+
+La [recherche complémentaire](recherche-technique.md) détaille les témoignages, les contradictions, les données encore inconnues et les commandes de validation. Aucun essai public mesurant le 1080p60 réel du modèle exact n'a été identifié sur les forums ou YouTube consultés. La caméra demeure une candidate, pas une référence aux performances vérifiées.
 
 ## Compatibilité Raspberry Pi
 
@@ -42,7 +46,7 @@ La compatibilité de connexion ne garantit pas le **retour Wi-Fi 1080p60**. Le f
 
 ## Réserves documentaires et réception
 
-La notice V1.0 présente une incohérence : page 3, la ligne générale de cadence indique 30 fps ; page 4, le tableau détaillé indique explicitement 1080p60 en MJPEG. Un avis Amazon rapporte également des modes par défaut à 30 fps. Ces éléments n'établissent pas l'impossibilité du 60 fps, mais justifient de conserver ce choix **sous réserve de contrôle matériel**, sans annoncer une performance déjà démontrée.
+La notice V1.0 présente une incohérence : page 3, la ligne générale de cadence indique 30 fps ; page 4, le tableau détaillé indique explicitement 1080p60 en MJPEG. Un [avis technique Amazon](https://www.amazon.fr/gp/customer-reviews/R3TLNFYAXTGZ5K) rapporte des modes par défaut à 30 fps tout en décrivant 1440p60 dans l'application Windows. Un mode par défaut n'est pas nécessairement le maximum, et une indication logicielle à 60 fps ne prouve pas 60 images uniques. Ces éléments justifient de conserver ce choix **sous réserve de contrôle matériel**. Aucune cause liée au firmware n'est établie.
 
 À réception :
 
@@ -58,3 +62,7 @@ La notice V1.0 présente une incohérence : page 3, la ligne générale de caden
 - [Notice constructeur locale](notices/U20CAM-4M-Usermanual.pdf), V1.0 du 21 mai 2026.
 - [Dépôt documentaire officiel InnoMaker](https://github.com/INNO-MAKER/U20CAM-4M).
 - [Index des composants](../README.md).
+
+## Modèle 3D détaillé
+
+[STEP coloré et vues de contrôle](3D/README.md) : reconstruction géométrique du module avec objectif, composants, connecteur, pastilles, vias, pistes visibles et sérigraphie. Les cotes publiées et les estimations photographiques sont distinguées dans le registre de provenance. Le modèle ne constitue pas un plan de fabrication ni une reproduction des couches internes.

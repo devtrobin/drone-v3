@@ -1,0 +1,93 @@
+{
+  "file": "jr-esc-droit-2contacts.step",
+  "title": "JR | ESC droit, BEC absent",
+  "generated_on": "2026-10-14",
+  "unit": "mm",
+  "cadquery_version": "2.8.0",
+  "coordinate_system": "Axe principal Z; face de reference z=0; dimensions selon parametres",
+  "bytes": 706957,
+  "sha256": "bc04c90fc7544709f5115847e4a5899f57a3f9e7dcaa5d6a4b0b0ba91d641bbc",
+  "native_vendor_cad": false,
+  "hardware_measured": false,
+  "is_custom_project_design": false,
+  "published_nominal": [
+    "PlansPololu : boîtier14x7.90/7.70x2.75/2.65 ; capot18x10.30x4 ; pas2.54 mm."
+  ],
+  "estimates_and_limitations": [
+    "Contact, crimp, languettes et chanfreins fins reconstruits ; longueurs courtes du câblage illustratives.",
+    "Cavité centrale réellement sans métal côté faisceauPi.",
+    "Nuances optiques estimées ; géométrie non mesurée. Pas de plan de fabrication ni de qualification mécanique/électrique."
+  ],
+  "parameters": {},
+  "source_pages": [
+    "Voir sources.json et cotes.md du composant / ensemble"
+  ],
+  "bounds_mm": {
+    "xmin": -5.15,
+    "xmax": 5.15,
+    "ymin": -2.0,
+    "ymax": 2.0,
+    "zmin": 0.0,
+    "zmax": 21.4
+  },
+  "validation": {
+    "valid_after_reimport": true,
+    "solids": 4,
+    "faces": 198,
+    "colors": 2,
+    "volume_relative_error": 3.03476763513276e-15,
+    "volume_relative_error_limit": 0.0001,
+    "volume_before_mm3": 561.9219560938938,
+    "volume_after_mm3": 561.9219560938955,
+    "adaptive_volume_tolerance": 1e-09,
+    "bbox_error_mm": 3.552713678800501e-15,
+    "bbox_error_limit_mm": 0.01,
+    "void_and_material_probes": [],
+    "elapsed_seconds": 1.3787972999998601,
+    "volume_after_default_quadrature_mm3": 561.9219560938969
+  },
+  "parts": [
+    {
+      "name": "Piece_capot",
+      "color_linear_rgb": [
+        0.018,
+        0.021,
+        0.025
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Piece_boitier",
+      "color_linear_rgb": [
+        0.018,
+        0.021,
+        0.025
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Piece_contact_1",
+      "color_linear_rgb": [
+        0.72,
+        0.46,
+        0.12
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Piece_contact_3",
+      "color_linear_rgb": [
+        0.72,
+        0.46,
+        0.12
+      ],
+      "solids": 1
+    }
+  ],
+  "preview": {
+    "file": "jr-esc-droit-2contacts.png",
+    "sha256": "ace32656e996a872f34b13101d5ec8baea5af4e7f4f2ca992cd6b32f50cf51a6"
+  },
+  "component_folder": "connecteurs-commande/jr-pololu-1925",
+  "relative_step_path": "connecteurs-commande/jr-pololu-1925/3D/jr-esc-droit-2contacts.step"
+}

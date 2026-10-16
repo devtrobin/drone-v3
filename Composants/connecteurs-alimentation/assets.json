@@ -1,0 +1,179 @@
+{
+  "checked_on": "2026-10-14",
+  "assets": [
+    {
+      "file": "notices/AMASS-XT60H-F-M-V1.2-via-Shoptronica.pdf",
+      "url": "https://www.shoptronica.com/ficheros/XT60H.pdf",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "status": "downloaded",
+      "bytes": 288483,
+      "sha256": "441deb82c3234ae5983c5fbf78df79ab101bda1a40c140ab20379707e0dff65a",
+      "final_url": "https://www.shoptronica.com/ficheros/XT60H.pdf"
+    },
+    {
+      "file": "notices/AMASS-XT60H-M-V1.2-via-Marutsu.pdf",
+      "url": "https://www.marutsu.co.jp/contents/shop/marutsu/datasheet/XT60H-M.pdf",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "file": "notices/AMASS-XT60H-F-2023C0-via-LCSC.pdf",
+      "url": "https://datasheet.lcsc.com/lcsc/2409041651_Changzhou-Amass-Elec-XT60H-F-Z-G-Y_C30170204.pdf",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "status": "unavailable",
+      "error": "response is not PDF"
+    },
+    {
+      "file": "notices/AMASS-catalogue-3G-2024-original.pdf",
+      "url": "https://www.china-amass.com/public/upload/20240620/94b600a6a4c042646bc89646abc8ea85.pdf",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "status": "downloaded",
+      "bytes": 6904707,
+      "sha256": "4083576147ff6ac617a0e490e3e26b16f23192682dfb49a1c692dcf7f22076dc",
+      "final_url": "https://www.china-amass.com/public/upload/20240620/94b600a6a4c042646bc89646abc8ea85.pdf"
+    },
+    {
+      "file": "notices/AMASS-catalogue-XT-2026-original.pdf",
+      "url": "https://www.china-amass.com/public/upload/20260207/7fa24f5a6f35ec66c7a115c07a34ab06.pdf",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "status": "downloaded",
+      "bytes": 5212959,
+      "sha256": "763e2058896f87fb8839ebfa82917bb04ab7421d2a320190fbaf9aef66ab8699",
+      "final_url": "https://www.china-amass.com/public/upload/20260207/7fa24f5a6f35ec66c7a115c07a34ab06.pdf"
+    },
+    {
+      "file": "photos/AMASS-plan-page-produit.png",
+      "url": "https://www.china-amass.com/ueditor/php/upload/image/20241112/1731400363441838.png",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "status": "downloaded",
+      "bytes": 13401,
+      "sha256": "cc70d01436830d620dcab7b6562965d68d97215ff2aa04ba0598fe720d2e3c23",
+      "final_url": "https://www.china-amass.com/ueditor/php/upload/image/20241112/1731400363441838.png"
+    },
+    {
+      "file": "sources-web/AMASS-XT60H.html",
+      "url": "https://www.china-amass.com/biao/283.html",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "status": "downloaded",
+      "bytes": 42954,
+      "sha256": "190ec3a8cfaf344255325cc91c1d6edca5c9071ebec8d5d31c614b2becb5da4e",
+      "final_url": "https://www.china-amass.com/biao/283.html"
+    },
+    {
+      "file": "sources-web/AMASS-telechargements.html",
+      "url": "https://www.china-amass.com/download/",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "status": "downloaded",
+      "bytes": 38958,
+      "sha256": "cd0731d7e444b80bd16c70ae5b9817af16f865638786e0af437544022e18527b",
+      "final_url": "https://www.china-amass.com/download/"
+    },
+    {
+      "file": "sources-web/Amazon-FR-B074PN6N4K.html",
+      "url": "https://www.amazon.fr/dp/B074PN6N4K",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "status": "challenge_html",
+      "bytes": 3815,
+      "sha256": "bb329d230a04ae7534620fa1fa46a1e2b55411ef6d7a1548368b3ee8364dab8f",
+      "final_url": "https://www.amazon.fr/dp/B074PN6N4K"
+    },
+    {
+      "file": "sources-web/Amazon-COM-B074PN6N4K.html",
+      "url": "https://www.amazon.com/dp/B074PN6N4K",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "status": "challenge_html",
+      "bytes": 3781,
+      "sha256": "6d1349400b80ada7a6906f3aaf318169b89d64c9f1f3e46dc2be31f4b780533e",
+      "final_url": "https://www.amazon.com/dp/B074PN6N4K"
+    },
+    {
+      "file": "sources-web/TME-F.html",
+      "url": "https://www.tme.eu/fr/details/xt60h-f/connecteurs-dc/amass/",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "status": "challenge_html",
+      "bytes": 794352,
+      "sha256": "be257d011cf041ead00c9cb27b628e5669e7317dc49fe6992de12ebc17ba0e06",
+      "final_url": "https://www.tme.eu/fr/details/xt60h-f/connecteurs-dc/amass/"
+    },
+    {
+      "file": "sources-web/RCCrawler-utilisateurs.html",
+      "url": "https://www.rccrawler.com/forums/threads/genuine-connectors.619280/",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "file": "sources-web/DashCamTalk-cables.html",
+      "url": "https://dashcamtalk.com/forum/threads/7500-mah-96-wh-blackboxmycar-powercell-8-blackvue-b-130x-thinkware-ivolt-xtra-bab-95.48162/page-2",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "status": "downloaded",
+      "bytes": 319992,
+      "sha256": "eaeb8104e461fc916791673e926f5f6c77d0bc24dbcc98453e1e8945fdd9f045",
+      "final_url": "https://dashcamtalk.com/forum/threads/7500-mah-96-wh-blackboxmycar-powercell-8-blackvue-b-130x-thinkware-ivolt-xtra-bab-95.48162/page-2"
+    },
+    {
+      "file": "photos/AMASS-produit-1.png",
+      "url": "https://www.china-amass.com/public/upload/20260113/460d27171bfe8ae94079d6d343d87804.png",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "status": "downloaded",
+      "bytes": 190420,
+      "sha256": "cca59d3da8d53d9f34228e219f96547fac2a34994684baea8a367b7b3d84300c",
+      "final_url": "https://www.china-amass.com/public/upload/20260113/460d27171bfe8ae94079d6d343d87804.png"
+    },
+    {
+      "file": "photos/AMASS-produit-2.jpg",
+      "url": "https://www.china-amass.com/public/upload/20240329/240329144TG53.jpg",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "status": "downloaded",
+      "bytes": 549964,
+      "sha256": "9e57adb989e0b81deb2c59411cc5fd75b1f5d241e8930edf70a8f915997422f2",
+      "final_url": "https://www.china-amass.com/public/upload/20240329/240329144TG53.jpg"
+    },
+    {
+      "file": "photos/AMASS-produit-3.jpg",
+      "url": "https://www.china-amass.com/public/upload/20240329/240329144T9224.jpg",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "status": "downloaded",
+      "bytes": 465611,
+      "sha256": "fa821f56aeae0f977065ab3763fecf393f67d4a609c96a29dcfdba6e920270e2",
+      "final_url": "https://www.china-amass.com/public/upload/20240329/240329144T9224.jpg"
+    },
+    {
+      "file": "photos/AMASS-produit-4.jpg",
+      "url": "https://www.china-amass.com/public/upload/20240329/240329144TX49.jpg",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "status": "downloaded",
+      "bytes": 463389,
+      "sha256": "43bd291648dcd975f069148eedbe5a7ec4a3bbcbe3cbc48da3bd66c543b8b3f8",
+      "final_url": "https://www.china-amass.com/public/upload/20240329/240329144TX49.jpg"
+    },
+    {
+      "file": "photos/Hobbywing-WP16BL30-G2-contacts-originaux.jpg",
+      "status": "copied_original",
+      "modified": false,
+      "bytes": 357684,
+      "sha256": "32d82208e05297d20022f1842f42e218195f672765adccf638a52a55c3c27219",
+      "url": "https://www.hobbywing.com/en/uploads/image/20250320/11fe634ae7e7736d36fcc3684c4a2eb6.jpg",
+      "source_local": "Composants/moteur/photos/04-variateur-cables.jpg",
+      "checked_on": "2026-10-14"
+    }
+  ]
+}

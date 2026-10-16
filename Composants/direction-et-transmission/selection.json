@@ -1,0 +1,166 @@
+{
+  "selected_on": "2026-10-13",
+  "status": "Documented design choices; no validated purchase basket, fabrication interfaces still to validate",
+  "components": [
+    {
+      "folder": "servo-direction",
+      "name": "Servomoteur de direction",
+      "reference": "FEETECH FT90M-C001 / FT-90M0-C001",
+      "quantity": "1 servo avec ses palonniers 20T et sa vis de sortie",
+      "purchased": false,
+      "model_3d_created": true,
+      "price_eur": null
+    },
+    {
+      "folder": "fusees-avant",
+      "name": "Fusées avant et renvois",
+      "reference": "Tamiya 51002 — TT-01 A Parts",
+      "quantity": "Besoin : 2×A7, 4×A6, renvois A1/A8 ; quantité de grappes à confirmer",
+      "purchased": false,
+      "model_3d_created": true,
+      "price_eur": null
+    },
+    {
+      "folder": "axes-avant",
+      "name": "Axes métalliques de roues avant",
+      "reference": "Tamiya 50823 — TG10 Wheel Axle",
+      "quantity": "1 sachet de 2 axes pour les deux roues avant",
+      "purchased": false,
+      "model_3d_created": true,
+      "price_eur": null
+    },
+    {
+      "folder": "moyeux",
+      "name": "Moyeux de roues",
+      "reference": "Tamiya 53569 — Clamp Type Aluminum Wheel Hub, 6 mm",
+      "quantity": "4 moyeux ; jeu commercial annoncé de 4, contenu des accessoires à contrôler",
+      "purchased": false,
+      "model_3d_created": true,
+      "price_eur": null
+    },
+    {
+      "folder": "roulements",
+      "name": "Roulements de roues et transmissions",
+      "reference": "MR115ZZ — 5×11×4 mm ; référence documentaire SMB Bearings",
+      "quantity": "12 : 4 avant, 4 sorties arrière, 4 arbres intermédiaires",
+      "purchased": false,
+      "model_3d_created": true,
+      "price_eur": null
+    },
+    {
+      "folder": "biellettes-direction/chapes",
+      "name": "Chapes de biellettes",
+      "reference": "Tamiya 50596 — 5 mm Adjuster",
+      "quantity": "6 chapes pour trois biellettes ; un sachet annoncé de 6",
+      "purchased": false,
+      "model_3d_created": true,
+      "price_eur": null
+    },
+    {
+      "folder": "biellettes-direction/rotules",
+      "name": "Rotules de biellettes",
+      "reference": "Tamiya 50592 — 5 mm Ball Connector",
+      "quantity": "6 rotules utilisées ; un sachet annoncé de 10",
+      "purchased": false,
+      "model_3d_created": true,
+      "price_eur": null
+    },
+    {
+      "folder": "biellettes-direction/tiges",
+      "name": "Tiges de biellettes",
+      "reference": "Tiges filetées acier M3×0,5, coupées à longueur",
+      "quantity": "3 tiges ; longueurs finales après implantation",
+      "purchased": false,
+      "model_3d_created": true,
+      "price_eur": null
+    },
+    {
+      "folder": "transmission-arriere/pignon-moteur",
+      "name": "Pignon de chaque moteur",
+      "reference": "Losi LOS212054 — 16T, module 0,5, alésage 2 mm",
+      "quantity": "2 pignons, un par moteur",
+      "purchased": false,
+      "model_3d_created": true,
+      "price_eur": null
+    },
+    {
+      "folder": "transmission-arriere/engrenages-54dents",
+      "name": "Grandes roues dentées des deux étages",
+      "reference": "KHK SS0.5-54A",
+      "quantity": "4 roues dentées : deux par transmission arrière",
+      "purchased": false,
+      "model_3d_created": true,
+      "price_eur": null
+    },
+    {
+      "folder": "transmission-arriere/pignon-intermediaire",
+      "name": "Pignon du second étage",
+      "reference": "KHK SS0.5-24B",
+      "quantity": "2 pignons, un par arbre intermédiaire",
+      "purchased": false,
+      "model_3d_created": true,
+      "price_eur": null
+    },
+    {
+      "folder": "arbres-transmission",
+      "name": "Arbres arrière et intermédiaires",
+      "reference": "A5-V3 et A5M4-V3 — arbres à fabriquer",
+      "quantity": "2 intermédiaires Ø5 + 2 sorties Ø5 avec extrémité M4",
+      "purchased": false,
+      "model_3d_created": true,
+      "price_eur": null
+    },
+    {
+      "folder": "paliers-transmission",
+      "name": "Paliers et supports de direction",
+      "reference": "P115-V3 / F-AV-V3 — supports à fabriquer",
+      "quantity": "4 ensembles à deux roulements arrière/intermédiaires + 2 fourches avant",
+      "purchased": false,
+      "model_3d_created": true,
+      "price_eur": null
+    },
+    {
+      "folder": "fixations-train-roulant",
+      "name": "Fixations du train roulant",
+      "reference": "Tamiya 50594, 9805557, 50577, 9805945 et 50582",
+      "quantity": "4 goupilles, 4 écrous de roue, 4 vis de pivot avant et les pivots des renvois ; compléments châssis après implantation",
+      "purchased": false,
+      "model_3d_created": true,
+      "price_eur": null
+    }
+  ],
+  "calculations": {
+    "wheel_diameter_mm": 63,
+    "stage_teeth": [
+      [
+        16,
+        54
+      ],
+      [
+        24,
+        54
+      ]
+    ],
+    "ratio": 7.59375,
+    "module_mm": 0.5,
+    "center_distances_mm": [
+      17.5,
+      19.5
+    ],
+    "wheel_rpm_40": 3368.3585839554567,
+    "intermediate_rpm_40": 7578.806813899778,
+    "motor_rpm_40": 25578.47299691175,
+    "unloaded_motor_rpm_7_4V": 33300.0,
+    "unloaded_speed_kmh_7_4V": 52.07503982590441,
+    "not_a_performance_guarantee": true,
+    "front_mass_kg_assumed": 0.8,
+    "friction_assumed": 0.8,
+    "scrub_radius_m_assumed": 0.004,
+    "horn_to_steering_arm_ratio_assumed": 1.2,
+    "servo_static_torque_Nm_assumed": 0.0301260288,
+    "servo_static_torque_kgfcm_assumed": 0.3072,
+    "servo_double_margin_kgfcm_assumed": 0.6144
+  },
+  "original_docs": "notices/assets.json",
+  "no_3d_created": false
+}

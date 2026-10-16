@@ -1,0 +1,35 @@
+{
+    "file":  "notice-distribution-alimentation-v3.pdf",
+    "pages":  5,
+    "sha256":  "286e65ae4675275d10cce3827b8ea56eed49ba9172bbc059c9cf3662e677eab1",
+    "generated_on":  "2026-10-14",
+    "generator":  "tools/build_distribution_pdf.py",
+    "renders":  [
+                    {
+                        "page":  1,
+                        "render":  "tools/temp/distribution-review/pdf/page-1.png",
+                        "chars":  884
+                    },
+                    {
+                        "page":  2,
+                        "render":  "tools/temp/distribution-review/pdf/page-2.png",
+                        "chars":  1162
+                    },
+                    {
+                        "page":  3,
+                        "render":  "tools/temp/distribution-review/pdf/page-3.png",
+                        "chars":  1638
+                    },
+                    {
+                        "page":  4,
+                        "render":  "tools/temp/distribution-review/pdf/page-4.png",
+                        "chars":  1960
+                    },
+                    {
+                        "page":  5,
+                        "render":  "tools/temp/distribution-review/pdf/page-5.png",
+                        "chars":  2162
+                    }
+                ],
+    "visual_review_complete":  true
+}

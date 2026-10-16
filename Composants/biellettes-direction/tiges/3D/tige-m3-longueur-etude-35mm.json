@@ -1,0 +1,63 @@
+{
+  "file": "tige-m3-longueur-etude-35mm.step",
+  "title": "Biellette | tige M3, exemple 35 mm",
+  "generated_on": "2026-10-13",
+  "unit": "mm",
+  "cadquery_version": "2.8.0",
+  "coordinate_system": "Axe principal Z; face de reference z=0; dimensions selon parametres",
+  "bytes": 1758264,
+  "sha256": "77bcab6c45c5ea4d1dcd8bc25ffca1e10a64f8a18c83b6c039b552c480e3274a",
+  "native_vendor_cad": false,
+  "hardware_measured": false,
+  "is_custom_project_design": true,
+  "published_nominal": [
+    "Famille retenue M3, pas nominal 0.5 mm"
+  ],
+  "estimates_and_limitations": [
+    "Longueur 35 mm: exemple parametrique, pas cote de la direction V3"
+  ],
+  "parameters": {
+    "diameter": 3,
+    "pitch": 0.5,
+    "example_length": 35
+  },
+  "source_pages": [],
+  "bounds_mm": {
+    "xmin": -1.5000231620765985,
+    "xmax": 1.5000231620765903,
+    "ymin": -1.5000231620767164,
+    "ymax": 1.5000231620765876,
+    "zmin": -1.0686396294876211e-07,
+    "zmax": 35.000035455065955
+  },
+  "validation": {
+    "valid_after_reimport": true,
+    "solids": 1,
+    "faces": 76,
+    "colors": 1,
+    "volume_relative_error": 4.858401614880422e-05,
+    "volume_relative_error_limit": 0.0001,
+    "volume_before_mm3": 200.40805426156498,
+    "volume_after_mm3": 200.41779088970958,
+    "adaptive_volume_tolerance": 1e-09,
+    "bbox_error_mm": 3.086420008457935e-13,
+    "bbox_error_limit_mm": 0.01,
+    "void_and_material_probes": [],
+    "elapsed_seconds": 2.532961000000796
+  },
+  "parts": [
+    {
+      "name": "Tige_filetee_M3x0_5_L35_etude",
+      "color_linear_rgb": [
+        0.62,
+        0.65,
+        0.69
+      ],
+      "solids": 1
+    }
+  ],
+  "preview": {
+    "file": "tige-m3-longueur-etude-35mm.png",
+    "sha256": "20831e462f030ca6541c64f7fe82996cfbf76bdbfc8e1755d8ce653692f5a6d6"
+  }
+}

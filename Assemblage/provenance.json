@@ -1,0 +1,948 @@
+{
+  "revision": "A2-R2 - compatibilité CAD Viewer et FreeCAD natif",
+  "models": [
+    {
+      "file": "drone-v3-structure.step",
+      "bytes": 2259849,
+      "sha256": "216b1bbc05e01c2495948618d780aa4af3954cebe21c438103334343d1233612",
+      "representation": "Visualisation optimisée ; détails complets dans le FCStd"
+    },
+    {
+      "file": "drone-v3-roulage.step",
+      "bytes": 136715,
+      "sha256": "518b576d62bb70e8440db83894a3847eee61387a7a1965b02b2d086aedc2bbe5",
+      "representation": "Visualisation optimisée ; détails complets dans le FCStd"
+    },
+    {
+      "file": "drone-v3-electronique.step",
+      "bytes": 206645,
+      "sha256": "234d2df0932cfa28273fdd455b6305d563810a63143c7771becf3fb6b4056e58",
+      "representation": "Visualisation optimisée ; détails complets dans le FCStd"
+    },
+    {
+      "file": "drone-v3-puissance.step",
+      "bytes": 265667,
+      "sha256": "6f83c5904715ccc4aa0501537f5df05c152d5a1a90afd38f2a1d1324f3599243",
+      "representation": "Visualisation optimisée ; détails complets dans le FCStd"
+    },
+    {
+      "file": "drone-v3-complet-detaille.step",
+      "bytes": 6642932,
+      "sha256": "5b015bf59800b186dc31814df4c4378941578aacca3340b4b615a4e91fa311f5",
+      "representation": "Visualisation optimisée ; détails complets dans le FCStd"
+    }
+  ],
+  "instances": [
+    {
+      "name": "Roue_AV_G",
+      "group": "roulage",
+      "source": "Composants/roues/3D/roue-hobbypark-63x26-detaillee.step",
+      "source_sha256": "5acd110e323142003f358b34157e08aed4d9b675e8c89cf7ac990e66bb14a7ef",
+      "location": [
+        [
+          -200.0,
+          55.0,
+          31.5
+        ],
+        [
+          0.0,
+          -90.0,
+          0.0
+        ]
+      ],
+      "status": "Modèle existant placé ; pose des câbles et interfaces non qualifiées"
+    },
+    {
+      "name": "Roue_AR_G",
+      "group": "roulage",
+      "source": "Composants/roues/3D/roue-hobbypark-63x26-detaillee.step",
+      "source_sha256": "5acd110e323142003f358b34157e08aed4d9b675e8c89cf7ac990e66bb14a7ef",
+      "location": [
+        [
+          -200.0,
+          445.0,
+          31.5
+        ],
+        [
+          0.0,
+          -90.0,
+          0.0
+        ]
+      ],
+      "status": "Modèle existant placé ; pose des câbles et interfaces non qualifiées"
+    },
+    {
+      "name": "Moteur_G",
+      "group": "roulage",
+      "source": "Composants/moteur/3D/moteur-quicrun-2435-g3-4500kv-detaille.step",
+      "source_sha256": "7943b3af6c74a815851ee8ce178cbfdc6624cdfef9ee4103a5a2cf8a25f7267c",
+      "location": [
+        [
+          -140.0,
+          408.0,
+          31.5
+        ],
+        [
+          0.0,
+          -90.0,
+          0.0
+        ]
+      ],
+      "status": "Modèle existant placé ; pose des câbles et interfaces non qualifiées"
+    },
+    {
+      "name": "Pignon16_G",
+      "group": "roulage",
+      "source": "Composants/transmission-arriere/pignon-moteur/3D/pignon-losi-los212054-16t.step",
+      "source_sha256": "8e7324b680c32c3f13640e026ac9de045d01c6b6065e4f94084d1d0860881dfb",
+      "location": [
+        [
+          -128.0,
+          408.0,
+          31.5
+        ],
+        [
+          0.0,
+          -90.0,
+          0.0
+        ]
+      ],
+      "status": "Modèle existant placé ; pose des câbles et interfaces non qualifiées"
+    },
+    {
+      "name": "Couronne54_etage1_G",
+      "group": "roulage",
+      "source": "Composants/transmission-arriere/engrenages-54dents/3D/couronne-khk-ss0-5-54a.step",
+      "source_sha256": "b562472645d8f03bc8add1f9b65986995cd6acca15eb35f3677eecad553af0a1",
+      "location": [
+        [
+          -128.0,
+          425.5,
+          31.5
+        ],
+        [
+          0.0,
+          -90.0,
+          0.0
+        ]
+      ],
+      "status": "Modèle existant placé ; pose des câbles et interfaces non qualifiées"
+    },
+    {
+      "name": "Pignon24_G",
+      "group": "roulage",
+      "source": "Composants/transmission-arriere/pignon-intermediaire/3D/pignon-khk-ss0-5-24b.step",
+      "source_sha256": "a521ca8d80d23a5412bdcb281924dc02ddfe171410c25964d00dc73dfe361eac",
+      "location": [
+        [
+          -122.0,
+          425.5,
+          31.5
+        ],
+        [
+          -0.0,
+          90.0,
+          0.0
+        ]
+      ],
+      "status": "Modèle existant placé ; pose des câbles et interfaces non qualifiées"
+    },
+    {
+      "name": "Couronne54_etage2_G",
+      "group": "roulage",
+      "source": "Composants/transmission-arriere/engrenages-54dents/3D/couronne-khk-ss0-5-54a.step",
+      "source_sha256": "b562472645d8f03bc8add1f9b65986995cd6acca15eb35f3677eecad553af0a1",
+      "location": [
+        [
+          -117.0,
+          445.0,
+          31.5
+        ],
+        [
+          0.0,
+          -90.0,
+          0.0
+        ]
+      ],
+      "status": "Modèle existant placé ; pose des câbles et interfaces non qualifiées"
+    },
+    {
+      "name": "MR115_G_101",
+      "group": "roulage",
+      "source": "Composants/roulements/3D/roulement-mr115zz-5x11x4.step",
+      "source_sha256": "87d92a9e21c845433fb3260c5f062fb73e4deed88e48ffc7a9b6e36411d978f2",
+      "location": [
+        [
+          -99.0,
+          425.5,
+          31.5
+        ],
+        [
+          0.0,
+          -90.0,
+          0.0
+        ]
+      ],
+      "status": "Modèle existant placé ; pose des câbles et interfaces non qualifiées"
+    },
+    {
+      "name": "MR115_G_145",
+      "group": "roulage",
+      "source": "Composants/roulements/3D/roulement-mr115zz-5x11x4.step",
+      "source_sha256": "87d92a9e21c845433fb3260c5f062fb73e4deed88e48ffc7a9b6e36411d978f2",
+      "location": [
+        [
+          -143.0,
+          425.5,
+          31.5
+        ],
+        [
+          0.0,
+          -90.0,
+          0.0
+        ]
+      ],
+      "status": "Modèle existant placé ; pose des câbles et interfaces non qualifiées"
+    },
+    {
+      "name": "MR115_G_113.5",
+      "group": "roulage",
+      "source": "Composants/roulements/3D/roulement-mr115zz-5x11x4.step",
+      "source_sha256": "87d92a9e21c845433fb3260c5f062fb73e4deed88e48ffc7a9b6e36411d978f2",
+      "location": [
+        [
+          -111.5,
+          445.0,
+          31.5
+        ],
+        [
+          0.0,
+          -90.0,
+          0.0
+        ]
+      ],
+      "status": "Modèle existant placé ; pose des câbles et interfaces non qualifiées"
+    },
+    {
+      "name": "MR115_G_171.5",
+      "group": "roulage",
+      "source": "Composants/roulements/3D/roulement-mr115zz-5x11x4.step",
+      "source_sha256": "87d92a9e21c845433fb3260c5f062fb73e4deed88e48ffc7a9b6e36411d978f2",
+      "location": [
+        [
+          -169.5,
+          445.0,
+          31.5
+        ],
+        [
+          0.0,
+          -90.0,
+          0.0
+        ]
+      ],
+      "status": "Modèle existant placé ; pose des câbles et interfaces non qualifiées"
+    },
+    {
+      "name": "Fusee_A7_G",
+      "group": "roulage",
+      "source": "Composants/fusees-avant/3D/fusee-a7-gauche-tamiya-51002.step",
+      "source_sha256": "8aea4fa43b5a3b8fd2592bf6439a2511546dbe9c7056b4a01a0552a483465218",
+      "location": [
+        [
+          -170.0,
+          55.0,
+          31.5
+        ],
+        [
+          0.0,
+          -0.0,
+          0.0
+        ]
+      ],
+      "status": "Modèle existant placé ; pose des câbles et interfaces non qualifiées"
+    },
+    {
+      "name": "ESC_G",
+      "group": "electronique",
+      "source": "Composants/moteur/3D/variateur-quicrun-wp16bl30-g2-detaille.step",
+      "source_sha256": "554460cb92f6b59cb3d3b7a0cd8079d79b5453ea326c4e51e1cf021e6ba8bef1",
+      "location": [
+        [
+          -63.7,
+          362.6,
+          17.0
+        ],
+        [
+          0.0,
+          -0.0,
+          0.0
+        ]
+      ],
+      "status": "Modèle existant placé ; pose des câbles et interfaces non qualifiées"
+    },
+    {
+      "name": "Roue_AV_D",
+      "group": "roulage",
+      "source": "Composants/roues/3D/roue-hobbypark-63x26-detaillee.step",
+      "source_sha256": "5acd110e323142003f358b34157e08aed4d9b675e8c89cf7ac990e66bb14a7ef",
+      "location": [
+        [
+          200.0,
+          55.0,
+          31.5
+        ],
+        [
+          -0.0,
+          90.0,
+          0.0
+        ]
+      ],
+      "status": "Modèle existant placé ; pose des câbles et interfaces non qualifiées"
+    },
+    {
+      "name": "Roue_AR_D",
+      "group": "roulage",
+      "source": "Composants/roues/3D/roue-hobbypark-63x26-detaillee.step",
+      "source_sha256": "5acd110e323142003f358b34157e08aed4d9b675e8c89cf7ac990e66bb14a7ef",
+      "location": [
+        [
+          200.0,
+          445.0,
+          31.5
+        ],
+        [
+          -0.0,
+          90.0,
+          0.0
+        ]
+      ],
+      "status": "Modèle existant placé ; pose des câbles et interfaces non qualifiées"
+    },
+    {
+      "name": "Moteur_D",
+      "group": "roulage",
+      "source": "Composants/moteur/3D/moteur-quicrun-2435-g3-4500kv-detaille.step",
+      "source_sha256": "7943b3af6c74a815851ee8ce178cbfdc6624cdfef9ee4103a5a2cf8a25f7267c",
+      "location": [
+        [
+          140.0,
+          408.0,
+          31.5
+        ],
+        [
+          -0.0,
+          90.0,
+          0.0
+        ]
+      ],
+      "status": "Modèle existant placé ; pose des câbles et interfaces non qualifiées"
+    },
+    {
+      "name": "Pignon16_D",
+      "group": "roulage",
+      "source": "Composants/transmission-arriere/pignon-moteur/3D/pignon-losi-los212054-16t.step",
+      "source_sha256": "8e7324b680c32c3f13640e026ac9de045d01c6b6065e4f94084d1d0860881dfb",
+      "location": [
+        [
+          128.0,
+          408.0,
+          31.5
+        ],
+        [
+          -0.0,
+          90.0,
+          0.0
+        ]
+      ],
+      "status": "Modèle existant placé ; pose des câbles et interfaces non qualifiées"
+    },
+    {
+      "name": "Couronne54_etage1_D",
+      "group": "roulage",
+      "source": "Composants/transmission-arriere/engrenages-54dents/3D/couronne-khk-ss0-5-54a.step",
+      "source_sha256": "b562472645d8f03bc8add1f9b65986995cd6acca15eb35f3677eecad553af0a1",
+      "location": [
+        [
+          128.0,
+          425.5,
+          31.5
+        ],
+        [
+          -0.0,
+          90.0,
+          0.0
+        ]
+      ],
+      "status": "Modèle existant placé ; pose des câbles et interfaces non qualifiées"
+    },
+    {
+      "name": "Pignon24_D",
+      "group": "roulage",
+      "source": "Composants/transmission-arriere/pignon-intermediaire/3D/pignon-khk-ss0-5-24b.step",
+      "source_sha256": "a521ca8d80d23a5412bdcb281924dc02ddfe171410c25964d00dc73dfe361eac",
+      "location": [
+        [
+          122.0,
+          425.5,
+          31.5
+        ],
+        [
+          0.0,
+          -90.0,
+          0.0
+        ]
+      ],
+      "status": "Modèle existant placé ; pose des câbles et interfaces non qualifiées"
+    },
+    {
+      "name": "Couronne54_etage2_D",
+      "group": "roulage",
+      "source": "Composants/transmission-arriere/engrenages-54dents/3D/couronne-khk-ss0-5-54a.step",
+      "source_sha256": "b562472645d8f03bc8add1f9b65986995cd6acca15eb35f3677eecad553af0a1",
+      "location": [
+        [
+          117.0,
+          445.0,
+          31.5
+        ],
+        [
+          -0.0,
+          90.0,
+          0.0
+        ]
+      ],
+      "status": "Modèle existant placé ; pose des câbles et interfaces non qualifiées"
+    },
+    {
+      "name": "MR115_D_101",
+      "group": "roulage",
+      "source": "Composants/roulements/3D/roulement-mr115zz-5x11x4.step",
+      "source_sha256": "87d92a9e21c845433fb3260c5f062fb73e4deed88e48ffc7a9b6e36411d978f2",
+      "location": [
+        [
+          99.0,
+          425.5,
+          31.5
+        ],
+        [
+          -0.0,
+          90.0,
+          0.0
+        ]
+      ],
+      "status": "Modèle existant placé ; pose des câbles et interfaces non qualifiées"
+    },
+    {
+      "name": "MR115_D_145",
+      "group": "roulage",
+      "source": "Composants/roulements/3D/roulement-mr115zz-5x11x4.step",
+      "source_sha256": "87d92a9e21c845433fb3260c5f062fb73e4deed88e48ffc7a9b6e36411d978f2",
+      "location": [
+        [
+          143.0,
+          425.5,
+          31.5
+        ],
+        [
+          -0.0,
+          90.0,
+          0.0
+        ]
+      ],
+      "status": "Modèle existant placé ; pose des câbles et interfaces non qualifiées"
+    },
+    {
+      "name": "MR115_D_113.5",
+      "group": "roulage",
+      "source": "Composants/roulements/3D/roulement-mr115zz-5x11x4.step",
+      "source_sha256": "87d92a9e21c845433fb3260c5f062fb73e4deed88e48ffc7a9b6e36411d978f2",
+      "location": [
+        [
+          111.5,
+          445.0,
+          31.5
+        ],
+        [
+          -0.0,
+          90.0,
+          0.0
+        ]
+      ],
+      "status": "Modèle existant placé ; pose des câbles et interfaces non qualifiées"
+    },
+    {
+      "name": "MR115_D_171.5",
+      "group": "roulage",
+      "source": "Composants/roulements/3D/roulement-mr115zz-5x11x4.step",
+      "source_sha256": "87d92a9e21c845433fb3260c5f062fb73e4deed88e48ffc7a9b6e36411d978f2",
+      "location": [
+        [
+          169.5,
+          445.0,
+          31.5
+        ],
+        [
+          -0.0,
+          90.0,
+          0.0
+        ]
+      ],
+      "status": "Modèle existant placé ; pose des câbles et interfaces non qualifiées"
+    },
+    {
+      "name": "Fusee_A7_D",
+      "group": "roulage",
+      "source": "Composants/fusees-avant/3D/fusee-a7-droite-tamiya-51002.step",
+      "source_sha256": "3c52b305c85484a914d5a3abadaf53e8177d9568b6a554e378cd7b2b4ea40b83",
+      "location": [
+        [
+          170.0,
+          55.0,
+          31.5
+        ],
+        [
+          0.0,
+          -0.0,
+          0.0
+        ]
+      ],
+      "status": "Modèle existant placé ; pose des câbles et interfaces non qualifiées"
+    },
+    {
+      "name": "ESC_D",
+      "group": "electronique",
+      "source": "Composants/moteur/3D/variateur-quicrun-wp16bl30-g2-detaille.step",
+      "source_sha256": "554460cb92f6b59cb3d3b7a0cd8079d79b5453ea326c4e51e1cf021e6ba8bef1",
+      "location": [
+        [
+          30.3,
+          362.6,
+          17.0
+        ],
+        [
+          0.0,
+          -0.0,
+          0.0
+        ]
+      ],
+      "status": "Modèle existant placé ; pose des câbles et interfaces non qualifiées"
+    },
+    {
+      "name": "Servo_FT90M",
+      "group": "roulage",
+      "source": "Composants/servo-direction/3D/servo-feetech-ft90m-detaille.step",
+      "source_sha256": "e381ee1a9f918e887b9c31f5d1d037d3da78069da430483f25482591dc75e739",
+      "location": [
+        [
+          0.0,
+          80.0,
+          14.2
+        ],
+        [
+          0.0,
+          -0.0,
+          0.0
+        ]
+      ],
+      "status": "Modèle existant placé ; pose des câbles et interfaces non qualifiées"
+    },
+    {
+      "name": "Palonnier",
+      "group": "roulage",
+      "source": "Composants/servo-direction/3D/palonnier-double-ft90m.step",
+      "source_sha256": "37061f27d75ae25f2e87e8992f76917a76a85c38f6872ce5d1611d496945629f",
+      "location": [
+        [
+          -5.7,
+          80.0,
+          38.0
+        ],
+        [
+          0.0,
+          -0.0,
+          0.0
+        ]
+      ],
+      "status": "Modèle existant placé ; pose des câbles et interfaces non qualifiées"
+    },
+    {
+      "name": "Pi5_4Go_detail",
+      "group": "electronique",
+      "source": "Composants/raspberry-pi-5/3D/raspberry-pi-5-4go-ultra-detaille.step",
+      "source_sha256": "78164070c1cc7ab854382950d2e85926c6e35432f1e5a146b733397a7c6afb44",
+      "location": [
+        [
+          -35.0,
+          350.0,
+          98.0
+        ],
+        [
+          0.0,
+          -0.0,
+          0.0
+        ]
+      ],
+      "status": "Modèle existant placé ; pose des câbles et interfaces non qualifiées"
+    },
+    {
+      "name": "ActiveCooler",
+      "group": "electronique",
+      "source": "Composants/refroidissement-raspberry-pi-5/3D/raspberry-pi-active-cooler-sc1148-detaille.step",
+      "source_sha256": "a8bf4c32607189d84ad53ae1dc95ae37672a64335d1df23e04a0797ae63e0046",
+      "location": [
+        [
+          -34.25,
+          356.75,
+          102.0
+        ],
+        [
+          0.0,
+          -0.0,
+          0.0
+        ]
+      ],
+      "status": "Modèle existant placé ; pose des câbles et interfaces non qualifiées"
+    },
+    {
+      "name": "Camera_U20CAM4M",
+      "group": "electronique",
+      "source": "Composants/camera/3D/camera-u20cam-4m-detaillee.step",
+      "source_sha256": "e191e3e3c775d635b87ba70816ee22189a3d356d84cb21e81d0cfd232cb50b6c",
+      "location": [
+        [
+          -16.0,
+          487.4723222932107,
+          215.96491806742546
+        ],
+        [
+          110.0,
+          -0.0,
+          0.0
+        ]
+      ],
+      "status": "Modèle existant placé ; pose des câbles et interfaces non qualifiées"
+    },
+    {
+      "name": "Surveillance_M1P",
+      "group": "electronique",
+      "source": "Composants/carte-surveillance-electrique/3D/porteuse-surveillance-2s-m1-detaillee.step",
+      "source_sha256": "5db79bd3815a94779302abdd54633c57491ebb030328f48a87c2729f13e65c69",
+      "location": [
+        [
+          -70.0,
+          270.0,
+          98.0
+        ],
+        [
+          0.0,
+          -0.0,
+          0.0
+        ]
+      ],
+      "status": "Modèle existant placé ; pose des câbles et interfaces non qualifiées"
+    },
+    {
+      "name": "D42V55F5",
+      "group": "electronique",
+      "source": "Composants/regulateur-alimentation/d42v55f5/3D/pololu-d42v55fx-officiel.step",
+      "source_sha256": "849512fa686206951d282a92b8701418b7f5707e91d0abd70312e0af01caae5e",
+      "location": [
+        [
+          -70.19999999999999,
+          375.3,
+          97.35000009999993
+        ],
+        [
+          0.0,
+          -0.0,
+          0.0
+        ]
+      ],
+      "status": "Modèle existant placé ; pose des câbles et interfaces non qualifiées"
+    },
+    {
+      "name": "Pololu2813",
+      "group": "electronique",
+      "source": "Composants/protection-batterie/interrupteur-pi/3D/pololu-2813-officiel.step",
+      "source_sha256": "89dceed662b33acde2cf32cef641e73ba3a7763c03d66824b471639f7bcb5de8",
+      "location": [
+        [
+          19.84,
+          177.3,
+          83.0000001
+        ],
+        [
+          0.0,
+          -0.0,
+          0.0
+        ]
+      ],
+      "status": "Modèle existant placé ; pose des câbles et interfaces non qualifiées"
+    },
+    {
+      "name": "WAGO_INplus",
+      "group": "electronique",
+      "source": "Composants/liaisons-alimentation-surveillance/wago-221-413/3D/wago-221-413-detaille.step",
+      "source_sha256": "52931185f012a2661667840c4f48cd3058e9a3af6b8c54483011ea639304b851",
+      "location": [
+        [
+          -60.0,
+          325.0,
+          83.0
+        ],
+        [
+          0.0,
+          -0.0,
+          0.0
+        ]
+      ],
+      "status": "Modèle existant placé ; pose des câbles et interfaces non qualifiées"
+    },
+    {
+      "name": "WAGO_INmoins",
+      "group": "electronique",
+      "source": "Composants/liaisons-alimentation-surveillance/wago-221-413/3D/wago-221-413-detaille.step",
+      "source_sha256": "52931185f012a2661667840c4f48cd3058e9a3af6b8c54483011ea639304b851",
+      "location": [
+        [
+          -35.0,
+          325.0,
+          83.0
+        ],
+        [
+          0.0,
+          -0.0,
+          0.0
+        ]
+      ],
+      "status": "Modèle existant placé ; pose des câbles et interfaces non qualifiées"
+    },
+    {
+      "name": "WAGO_5V",
+      "group": "electronique",
+      "source": "Composants/liaisons-alimentation-surveillance/wago-221-413/3D/wago-221-413-detaille.step",
+      "source_sha256": "52931185f012a2661667840c4f48cd3058e9a3af6b8c54483011ea639304b851",
+      "location": [
+        [
+          -30.0,
+          420.0,
+          83.0
+        ],
+        [
+          0.0,
+          -0.0,
+          0.0
+        ]
+      ],
+      "status": "Modèle existant placé ; pose des câbles et interfaces non qualifiées"
+    },
+    {
+      "name": "WAGO_GND",
+      "group": "electronique",
+      "source": "Composants/liaisons-alimentation-surveillance/wago-221-415/3D/wago-221-415-detaille.step",
+      "source_sha256": "9922243f818c2c25e37e8839b88bfdf5966682c851fef74ee39b47e69200266f",
+      "location": [
+        [
+          -24.0,
+          388.0,
+          83.0
+        ],
+        [
+          0.0,
+          -0.0,
+          0.0
+        ]
+      ],
+      "status": "Modèle existant placé ; pose des câbles et interfaces non qualifiées"
+    },
+    {
+      "name": "D_plus",
+      "group": "puissance",
+      "source": "Composants/distribution-alimentation/bornier-2315/3D/bluesea-2315-complet-detaille.step",
+      "source_sha256": "7d06cb397015a81eee7815601b76c3cf250e16ec4d51ac3010454fc6e9a364b7",
+      "location": [
+        [
+          -87.0,
+          285.0,
+          17.0
+        ],
+        [
+          0.0,
+          -0.0,
+          0.0
+        ]
+      ],
+      "status": "Modèle existant placé ; pose des câbles et interfaces non qualifiées"
+    },
+    {
+      "name": "D_moins",
+      "group": "puissance",
+      "source": "Composants/distribution-alimentation/bornier-2315/3D/bluesea-2315-complet-detaille.step",
+      "source_sha256": "7d06cb397015a81eee7815601b76c3cf250e16ec4d51ac3010454fc6e9a364b7",
+      "location": [
+        [
+          -87.0,
+          320.0,
+          17.0
+        ],
+        [
+          0.0,
+          -0.0,
+          0.0
+        ]
+      ],
+      "status": "Modèle existant placé ; pose des câbles et interfaces non qualifiées"
+    },
+    {
+      "name": "HS251_D1D100",
+      "group": "puissance",
+      "source": "Composants/dissipateur-relais/3D/assemblage-d1d100-hs251-hsp1-etude.step",
+      "source_sha256": "1059165fdd23b291443b0dd108065bef0f9625fbd98b04b56878be7b2544fc66",
+      "location": [
+        [
+          -112.0,
+          227.0,
+          17.0
+        ],
+        [
+          0.0,
+          -0.0,
+          90.0
+        ]
+      ],
+      "status": "Modèle existant placé ; pose des câbles et interfaces non qualifiées"
+    },
+    {
+      "name": "UD80",
+      "group": "puissance",
+      "source": "Composants/repartition-moteurs/3D/eriflex-ud80a-implantation-v3.step",
+      "source_sha256": "7dfb2e00ca79a256618bf963e8b75826b2bb12627d4322634726bf003404c788",
+      "location": [
+        [
+          108.0,
+          368.0,
+          19.0
+        ],
+        [
+          0.0,
+          -0.0,
+          0.0
+        ]
+      ],
+      "status": "Modèle existant placé ; pose des câbles et interfaces non qualifiées"
+    },
+    {
+      "name": "ED80",
+      "group": "puissance",
+      "source": "Composants/coupure-manuelle/albright-ed80/3D/albright-ed80-ferme-detaille.step",
+      "source_sha256": "0ae802898dd53eb56ee37b0540ca4e56c985b50c331581d0dbbd8d5801142356",
+      "location": [
+        [
+          -95.0,
+          140.0,
+          70.0
+        ],
+        [
+          0.0,
+          -0.0,
+          0.0
+        ]
+      ],
+      "status": "Têtes M5 relevées3mm au-dessus du panneau ; corps inchangés"
+    }
+  ],
+  "reservations_retained": [
+    "B01_G1_IC5_139x46x25",
+    "F0_LFT_JLLN50_reserve_NON_CAO",
+    "F1_KLKD20_reserve_NON_CAO",
+    "F2_KLKD20_reserve_NON_CAO",
+    "FP_KLKD10_reserve_NON_CAO",
+    "FAUX_KLKD1_reserve_NON_CAO",
+    "EVM60_reserve_-38",
+    "EVM60_reserve_38",
+    "Pololu2831_reserve",
+    "AC03_XH_zone_locale",
+    "IC5_zone_connecteur",
+    "Arbre_sortie_D_enveloppe_a_definir",
+    "Arbre_sortie_G_enveloppe_a_definir",
+    "Direction_biellette_gabarit"
+  ],
+  "native_sources_unchanged": true,
+  "physical_fit_validated": false,
+  "complete_harness_routed": false,
+  "explicit_missing": [
+    "BatterieG1 IC5 : pas de STEP exact, ne pas réutiliser Zeee",
+    "LFT classeT et4 supportsKLKD : volumes réservés conservés",
+    "EVM TI et Pololu2831 : gabarits conservés",
+    "Arbres définitifs, paliers adaptés, carters et visserie finale non libérés",
+    "Câbles détaillés des composants gardent leur pose de référence, pas des liaisons électriques achevées"
+  ],
+  "original_generator_sha256": "9d4c27495e9c64019c1b51c4e5abe8e562e9c08779d9ed048d11ab55bbd05368",
+  "native_model": {
+    "file": "drone-v3-complet-ultra-detaille.FCStd",
+    "bytes": 27244530,
+    "sha256": "e67d2b2e20e01b8c3c697efb6efd1e0ef54d2bea5d8f1dfccc5ef32f02b6def0",
+    "solids": 5441,
+    "features": 194,
+    "explicit_camera_height_mm": 850
+  },
+  "original_step_archives": [
+    {
+      "file": "sources-step-detaillees-originales.zip",
+      "bytes": 57795043,
+      "sha256": "9fa8ab5827cee28d632967652b3020702e3b05831e010fa8ab3c4cac6a0145c2",
+      "members": [
+        "drone-v3-structure.step",
+        "drone-v3-roulage.step",
+        "drone-v3-electronique.step",
+        "drone-v3-puissance.step",
+        "provenance.json",
+        "validation-freecad.json"
+      ]
+    },
+    {
+      "file": "sources-step-complet-original.zip",
+      "bytes": 57886014,
+      "sha256": "f6785696728b8dff0b0eea17b0aa26c89916b65292fec1971aced1a7ab9fa0cc",
+      "members": [
+        "drone-v3-complet-detaille.step"
+      ]
+    }
+  ],
+  "fast_freecad_display": {
+    "all_passed": true,
+    "file": "drone-v3-complet-affichage-rapide.FCStd",
+    "bytes": 27788878,
+    "sha256": "bd945d8715cf2f210ef498e1c82295e6018df40c0f16ba788fe1e22b0c9a2331",
+    "representation": "Maillage de visualisation complet ; BREP exact dans le document séparé",
+    "objects": 369,
+    "source_triangles": 2342728,
+    "restored_triangles": 2342728,
+    "gui_open_seconds": 18.291060700001253,
+    "viewport_renders": [
+      "apercu-freecad-isometrique.png",
+      "apercu-freecad-dessus.png"
+    ],
+    "exact_CAD_document_unchanged": true
+  },
+  "complete_native_geometry_retained": true,
+  "view_step_simplifications": [
+    "STEP : modèle d’implantation A2-R1 à formes simples et volumes réservés, 225 solides au total",
+    "Petits composants, pistes, pneus sculptés, dentures, interfaces et faisceaux détaillés sont dans les FCStd / GLB",
+    "Les STEP d’implantation ne qualifient pas les interfaces mécaniques ni les interférences locales"
+  ],
+  "generation_scripts_sha256": {
+    "prepare_vehicle_viewers.py": "17cc092f82b75d0b6913a1b63d713e85c1413b7f4966f6a1b045989d796ca3d4",
+    "transfer_vehicle_components.py": "2d176bf0315e917a6115a3c592a260ceba7037c69bbf62018f38cfec16358779",
+    "finish_vehicle_native.py": "84e5ae961697d61fce539dd64eccb1e09bd83f4e7766e8baefda87010a662b08",
+    "compact_vehicle_previews.py": "470030159cbfa77830166c7349309895edc5374739f3d498a9632cc0501f2fa7",
+    "build_vehicle_fast_freecad.py": "4ea1e15f3fc3349c17ba6a3645af496aa26e646a698d06d0d8df09a95e74d7a1",
+    "merge_vehicle_glb.py": "9533d7c5b112d5ebd8ddd6a37a14ca63c61223c086c7c9d0852406e52dd3e71e",
+    "build_vehicle_light_steps.py": "19a393963925acb7ea61168a2fea4ce29895ca437b280f7115b54a033613a93c",
+    "check_light_vehicle_steps.py": "0edfcb6d9c8305b653866f12be11468ecf19a4f8045f4f8d313524f0ab829a68",
+    "check_vehicle_viewers.py": "b76b96f05c6508fbfc5cbbcf7b243395aefcd6f35818ddaabb3af5581675ee42",
+    "check_vehicle_glb.py": "74a634b88214e0be4e5742326d89658a6dcc6fd7cca1c92e1cf53a7534717edc",
+    "check_cad_viewer.cjs": "157199e890fc85d047ce80e760b79a9a612dcae130a7c888bf054d5438bcd3b5",
+    "run_freecad_job.py": "a713b4f0b672c8c030fe0faf5ffab7eb01883c3334c74a340a9718330e05ec74"
+  }
+}

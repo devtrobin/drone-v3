@@ -1,0 +1,6 @@
+{
+  "date": "2026-10-15",
+  "current_source": "../verification-alimentation/selection-active.json",
+  "note": "Moteurs et ESC conservés. Fils d’usine 16 AWG non remplacés à l’aveugle. Deux fusibles rapides 20 A, 15 A continus par départ pour le dimensionnement ; accepter le lot et tester le démarrage, le freinage et la thermique avant roulage.",
+  "old_project_PDFs_and_complete_CAD_historical": true
+}

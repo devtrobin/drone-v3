@@ -1,0 +1,98 @@
+{
+  "file": "cosse-klauke-95r5-6mm2.step",
+  "title": "Klauke 95R5 | 6 mm2, trou 5.3 mm",
+  "generated_on": "2026-10-14",
+  "unit": "mm",
+  "cadquery_version": "2.8.0",
+  "coordinate_system": "Cosses/cables/gaines: axe X, holecentreX0 Klauke; MB2 baseZ0; collier droitX0..100. Voir parametres.",
+  "bytes": 134641,
+  "sha256": "49a923d1399a109b075e560255c9217ad337ba033c85a9708a8b1ae6466c05dc",
+  "native_vendor_cad": false,
+  "hardware_measured": false,
+  "is_custom_project_design": false,
+  "published_nominal": [
+    "d1=4; a=9; b=9.5; d2=5.3; d4=6; c1=6; c2=6; l=19 mm",
+    "Dessin famille archive: l est depuis centre trou; l+c1 donne23/25 mm dans reconstruction"
+  ],
+  "estimates_and_limitations": [
+    "Epaisseur de paume2mm, rayons, loft et trou inspection reconstruits; chanfrein interne non cote omis",
+    "Pas de marque gravee ni deformation de sertissage inventee; mesurer le lot avant usinage",
+    "Vis SSR #8-32 ou ecrous #10-32 conserves; trou M4/M5 ne change pas le filetage"
+  ],
+  "parameters": {
+    "section_mm2": 6,
+    "d1": 4,
+    "a": 9,
+    "b": 9.5,
+    "d2": 5.3,
+    "d4": 6,
+    "c1": 6,
+    "c2": 6,
+    "l": 19,
+    "reconstructed_overall_length_mm": 25,
+    "palm_thickness_assumed_mm": 2,
+    "inspection_hole_assumed_mm": 1.4,
+    "l_datum": "centre du trou -> extremite du canon, dessin famille archive"
+  },
+  "source_pages": [
+    "Klauke catalogue archive via PowerCables, PDF p.14 / imprimee12",
+    "Klauke tableau actuel 95R4/95R5"
+  ],
+  "bounds_mm": {
+    "xmin": -6.0,
+    "xmax": 19.0000001,
+    "ymin": -4.7500001,
+    "ymax": 4.7500001,
+    "zmin": -1e-07,
+    "zmax": 6.0000001
+  },
+  "validation": {
+    "valid_after_reimport": true,
+    "solids": 1,
+    "faces": 23,
+    "colors": 1,
+    "volume_relative_error": 8.858938465767037e-10,
+    "volume_relative_error_limit": 0.0001,
+    "volume_before_mm3": 405.6722063196119,
+    "volume_after_mm3": 405.6722066789944,
+    "adaptive_volume_tolerance": 1e-09,
+    "bbox_error_mm": 0.0,
+    "bbox_error_limit_mm": 0.01,
+    "void_and_material_probes": [
+      {
+        "point": [
+          0,
+          0,
+          1
+        ],
+        "occupied": false
+      },
+      {
+        "point": [
+          18.5,
+          0,
+          3
+        ],
+        "occupied": false
+      }
+    ],
+    "elapsed_seconds": 0.22699029999967024
+  },
+  "parts": [
+    {
+      "name": "Cosse_Cu_etame_non_sertie",
+      "color_linear_rgb": [
+        0.62,
+        0.65,
+        0.69
+      ],
+      "solids": 1
+    }
+  ],
+  "preview": {
+    "file": "cosse-klauke-95r5-6mm2.png",
+    "sha256": "6624f593b29d9d80c213e7dff436164037df9d03c4e817406c92036ed698d6ab"
+  },
+  "generator": "tools/build_harness_step.py",
+  "generator_sha256": "343c45a6f573cd2d4205b4159948bddbdee9c39cf2bcf267fc7d6b8eb9957edc"
+}

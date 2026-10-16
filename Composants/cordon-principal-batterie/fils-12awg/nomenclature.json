@@ -1,0 +1,38 @@
+{
+  "folder": "fils-12awg",
+  "ref": "BNTECHGO SW12G68008F10C2",
+  "qty": 0.2,
+  "unit": "m par couleur, provision",
+  "buy": "https://www.amazon.fr/dp/B01ABOPMEI",
+  "role": "Deux fils séparés, rouge CP0+ vers entrée MIDI, noir CP0- vers D- N2 ; 12 AWG compatible avec la section d’essai AMASS.",
+  "reuse": "Prélever dans le lot déjà prévu : besoin total connu passe de0,40 à0,60 m par couleur ; pas un deuxième lot.",
+  "price": 31.93,
+  "currency": "EUR",
+  "cotes": [
+    [
+      "Lot",
+      "3,048 m rouge +3,048 m noir",
+      "10 ft par couleur ; Amazon/BNTECHGO"
+    ],
+    [
+      "Construction",
+      "680 brins Ø0,08 mm, cuivre étamé",
+      "Fabricant ; non mesuré"
+    ],
+    [
+      "Diamètre",
+      "gaine4,5 ±0,1 ; faisceau2,41 mm",
+      "Offre /image technique archivée"
+    ],
+    [
+      "Section",
+      "3,4 mm² annoncés ; AWG nominal3,31",
+      "Valeurs distinctes ; pas calcul de masse CAO"
+    ],
+    [
+      "Résistance",
+      "5,06 mΩ/m",
+      "Image fabricant ; température non précisée"
+    ]
+  ]
+}

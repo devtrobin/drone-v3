@@ -1,0 +1,59 @@
+{
+  "checked_on": "2026-10-14",
+  "selection": {
+    "id": "klauke95r5",
+    "folder": "cosses-puissance/klauke-95r5",
+    "reference": "Klauke 95R5",
+    "role": "Cosses 6 mm² sur MIDI M5 et MiniBus #10",
+    "quantity": 5,
+    "mandatory": 4,
+    "conditional": 1,
+    "pack": 100,
+    "maker": "https://www.klauke.com/gb/en/tubular-cable-lugs-cu-standard-type-4959",
+    "amazon_query": "Klauke 95R5",
+    "spec": "Cuivre recuit EN13600 étamé ; section 6 mm² ; trou M5 de 5,3 mm ; trou de contrôle ; conducteur fin classe 5 dans la gamme.",
+    "usage": "Deux pour MIDI sortie → D+ P2 ; une sur D+ P3 → relais +2 ; une sur D− N2. Une cinquième serait sur l’entrée MIDI si l’interface batterie retenue utilise ce câble 6 mm². Cette interface reste ouverte.",
+    "dimensions": [
+      [
+        "d1 / a / b",
+        "4 / 9 / 9,5 mm",
+        "Tableau fabricant"
+      ],
+      [
+        "d2 / d4",
+        "5,3 / 6 mm",
+        "Trou de vis / diamètre extérieur canon"
+      ],
+      [
+        "c1 / c2 / l",
+        "6 / 6 / 19 mm",
+        "Repères du dessin de famille"
+      ],
+      [
+        "Longueur reconstruite",
+        "25 mm = c1 + l",
+        "À distinguer de l seule"
+      ],
+      [
+        "Paume / inspection",
+        "2 mm / Ø1,4 mm",
+        "Estimation CAO"
+      ]
+    ],
+    "source_files": [
+      "notices/Klauke-catalogue-via-PowerCables.pdf"
+    ],
+    "source_pages": "PDF archivé p.14 / imprimée12 ; tableau fabricant actuel95R5",
+    "fit": "Trou de 5,3 mm proposé pour M5 Ø5 et #10 Ø4,826. Conserver les écrous M5×0,8 MIDI et #10-32 UNF MiniBus respectivement ; ne pas les permuter. Appui de cosse et couple du lot à contrôler.",
+    "amazon_search": "https://www.amazon.fr/s?k=Klauke+95R5",
+    "amazon_FR_verified": false,
+    "price_EUR_TTC": null
+  },
+  "manufacturer_source_verified": true,
+  "hardware_measured": false,
+  "model_3d_created": true,
+  "model_3d_manifest": "3D/provenance.json",
+  "source_archive_manifest": "../../faisceau-puissance/assets.json",
+  "exact_reviews_verified": false,
+  "qualification_complete": false
+}

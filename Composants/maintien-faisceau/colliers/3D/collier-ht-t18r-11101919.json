@@ -1,0 +1,75 @@
+{
+  "file": "collier-ht-t18r-11101919.step",
+  "title": "HellermannTyton T18R | 100 x 2.5, naturel",
+  "generated_on": "2026-10-14",
+  "unit": "mm",
+  "cadquery_version": "2.8.0",
+  "coordinate_system": "Cosses/cables/gaines: axe X, holecentreX0 Klauke; MB2 baseZ0; collier droitX0..100. Voir parametres.",
+  "bytes": 1962186,
+  "sha256": "04ad26f4f37b09b7dbc3125c2c60262f722c6610b9756aab85f623378a58216a",
+  "native_vendor_cad": false,
+  "hardware_measured": false,
+  "is_custom_project_design": false,
+  "published_nominal": [
+    "TDS actuelle: L100 W2.5 T1 H3.7mm; tete4.8x4.45 annoncee page; couleur naturelle",
+    "Plan famille2025 different: T1.1+/-0.2; tete4.8 et H3.5+/-0.2"
+  ],
+  "estimates_and_limitations": [
+    "Pas/dentures, forme pointe, logement et cliquet estimes; pose droite, pas pre-serree",
+    "80N est une resistance minimale de boucle, jamais une consigne de serrage",
+    "Les variantes noire et UV ne sont pas la reference111-01919"
+  ],
+  "parameters": {
+    "length": 100,
+    "width": 2.5,
+    "thickness": 1,
+    "head_height": 3.7,
+    "head_width": 4.45,
+    "head_length": 4.8,
+    "teeth_pitch_assumed": 0.65
+  },
+  "source_pages": [
+    "HT TDS111-01919,9Oct2026",
+    "Plan famille10-0585-001-CSC rev10.1,5Dec2025"
+  ],
+  "bounds_mm": {
+    "xmin": 0.0,
+    "xmax": 100.0,
+    "ymin": -2.225,
+    "ymax": 2.225,
+    "zmin": 0.0,
+    "zmax": 3.7
+  },
+  "validation": {
+    "valid_after_reimport": true,
+    "solids": 1,
+    "faces": 635,
+    "colors": 1,
+    "volume_relative_error": 1.638310514531067e-15,
+    "volume_relative_error_limit": 0.0001,
+    "volume_before_mm3": 277.5709164124032,
+    "volume_after_mm3": 277.5709164124037,
+    "adaptive_volume_tolerance": 1e-09,
+    "bbox_error_mm": 0.0,
+    "bbox_error_limit_mm": 0.01,
+    "void_and_material_probes": [],
+    "elapsed_seconds": 3.2619121999996423
+  },
+  "parts": [
+    {
+      "name": "PA66_naturel_serrure_denture",
+      "color_linear_rgb": [
+        0.86,
+        0.82,
+        0.68
+      ],
+      "solids": 1
+    }
+  ],
+  "preview": {
+    "file": "collier-ht-t18r-11101919.png",
+    "sha256": "69af9e2af4fbe9b6645722e31c7ab99f05fc0b452ff6c1be45aef0c0eb6ee52a"
+  },
+  "generator": "tools/build_harness_step.py",
+  "generator_sha256": "343c45a6f573cd2d4205b4159948bddbdee9c39cf2bcf267fc7d6b8eb9957edc"
+}

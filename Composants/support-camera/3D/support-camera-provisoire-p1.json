@@ -1,0 +1,285 @@
+{
+  "file": "support-camera-provisoire-p1.step",
+  "title": "Support camera P1 | simple et remplacable",
+  "generated_on": "2026-10-15",
+  "unit": "mm",
+  "cadquery_version": "2.8.0",
+  "coordinate_system": "X lateral, -Y forward, Z up. Base bottomZ0. Pivot axisX atY0,Z220 in nominal assembly.",
+  "bytes": 657203,
+  "sha256": "3df487b1ad1c50bdb06183160c874a28cd347171c382c08004995af81cf43daf",
+  "native_vendor_cad": false,
+  "hardware_measured": false,
+  "is_custom_project_design": true,
+  "published_nominal": [
+    "Camera board32x32mm and mounting holesdiam2.2 from existing local manufacturer dossier."
+  ],
+  "estimates_and_limitations": [
+    "Custom prototype, no strength or vibration test. Camera28mm pitch,1.2mm thickness,lens and USB shapes estimated from existing model.",
+    "Threads not modeled. Provisional hardware only. No chassis or USB cable route included."
+  ],
+  "parameters": {
+    "revision": "P1",
+    "height_mm": 220,
+    "down_pitch_deg": 20,
+    "custom_parts": 4,
+    "camera_gabarit_only": true
+  },
+  "source_pages": [
+    "../camera/notices/U20CAM-4M-Usermanual.pdf; ../camera/3D/provenance.json"
+  ],
+  "bounds_mm": {
+    "xmin": -45.0,
+    "xmax": 35.0,
+    "ymin": -35.0,
+    "ymax": 35.0,
+    "zmin": 0.0,
+    "zmax": 247.68292504874
+  },
+  "validation": {
+    "valid_after_reimport": true,
+    "solids": 25,
+    "faces": 200,
+    "colors": 8,
+    "volume_relative_error": 5.729338090810423e-14,
+    "volume_relative_error_limit": 0.0001,
+    "volume_before_mm3": 106421.58629921674,
+    "volume_after_mm3": 106421.58629921064,
+    "adaptive_volume_tolerance": 1e-09,
+    "bbox_error_mm": 6.821210263296962e-12,
+    "bbox_error_limit_mm": 0.01,
+    "void_and_material_probes": [],
+    "elapsed_seconds": 2.014964299996791
+  },
+  "parts": [
+    {
+      "name": "C01_Base_CP6_80x70",
+      "color_linear_rgb": [
+        0.55,
+        0.33,
+        0.13
+      ],
+      "solids": 1
+    },
+    {
+      "name": "C02_Montant_CP6_40x240",
+      "color_linear_rgb": [
+        0.55,
+        0.33,
+        0.13
+      ],
+      "solids": 1
+    },
+    {
+      "name": "C03_Gousset_CP6_40x40",
+      "color_linear_rgb": [
+        0.42,
+        0.24,
+        0.08
+      ],
+      "solids": 1
+    },
+    {
+      "name": "C04_Berceau_pivot",
+      "color_linear_rgb": [
+        0.06,
+        0.16,
+        0.23
+      ],
+      "solids": 1
+    },
+    {
+      "name": "CAM_Gabarit_PCB_32x32_estime",
+      "color_linear_rgb": [
+        0.035,
+        0.04,
+        0.045
+      ],
+      "solids": 1
+    },
+    {
+      "name": "CAM_Objectif_gabarit_estime",
+      "color_linear_rgb": [
+        0.015,
+        0.015,
+        0.018
+      ],
+      "solids": 1
+    },
+    {
+      "name": "CAM_Verre_gabarit_estime",
+      "color_linear_rgb": [
+        0.035,
+        0.12,
+        0.19
+      ],
+      "solids": 1
+    },
+    {
+      "name": "CAM_USB_gabarit_estime",
+      "color_linear_rgb": [
+        0.45,
+        0.48,
+        0.5
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Entretoise_M2_12_-14_-14",
+      "color_linear_rgb": [
+        0.8,
+        0.79,
+        0.68
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Vis_M2x20_nominale_-14_-14",
+      "color_linear_rgb": [
+        0.8,
+        0.79,
+        0.68
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Ecrou_M2_nominal_-14_-14",
+      "color_linear_rgb": [
+        0.8,
+        0.79,
+        0.68
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Entretoise_M2_12_-14_14",
+      "color_linear_rgb": [
+        0.8,
+        0.79,
+        0.68
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Vis_M2x20_nominale_-14_14",
+      "color_linear_rgb": [
+        0.8,
+        0.79,
+        0.68
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Ecrou_M2_nominal_-14_14",
+      "color_linear_rgb": [
+        0.8,
+        0.79,
+        0.68
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Entretoise_M2_12_14_-14",
+      "color_linear_rgb": [
+        0.8,
+        0.79,
+        0.68
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Vis_M2x20_nominale_14_-14",
+      "color_linear_rgb": [
+        0.8,
+        0.79,
+        0.68
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Ecrou_M2_nominal_14_-14",
+      "color_linear_rgb": [
+        0.8,
+        0.79,
+        0.68
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Entretoise_M2_12_14_14",
+      "color_linear_rgb": [
+        0.8,
+        0.79,
+        0.68
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Vis_M2x20_nominale_14_14",
+      "color_linear_rgb": [
+        0.8,
+        0.79,
+        0.68
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Ecrou_M2_nominal_14_14",
+      "color_linear_rgb": [
+        0.8,
+        0.79,
+        0.68
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Pivot_M4x20_nominal_sans_filet",
+      "color_linear_rgb": [
+        0.45,
+        0.48,
+        0.5
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Rondelle_exterieure",
+      "color_linear_rgb": [
+        0.45,
+        0.48,
+        0.5
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Rondelle_friction_nylon",
+      "color_linear_rgb": [
+        0.8,
+        0.79,
+        0.68
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Rondelle_interieure",
+      "color_linear_rgb": [
+        0.45,
+        0.48,
+        0.5
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Ecrou_M4_nominal",
+      "color_linear_rgb": [
+        0.45,
+        0.48,
+        0.5
+      ],
+      "solids": 1
+    }
+  ],
+  "preview": {
+    "file": "support-camera-provisoire-p1.png",
+    "sha256": "1b28f519766acac718aaca31c7bbee35cadbf6e980689a81ca130504d821ec1f"
+  },
+  "hardware_tested": false
+}

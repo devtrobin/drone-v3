@@ -1,0 +1,93 @@
+{
+  "file": "pieces-support-camera-p1.step",
+  "title": "P1 | quatre pieces a fabriquer",
+  "generated_on": "2026-10-15",
+  "unit": "mm",
+  "cadquery_version": "2.8.0",
+  "coordinate_system": "X lateral, -Y forward, Z up. Base bottomZ0. Pivot axisX atY0,Z220 in nominal assembly.",
+  "bytes": 265645,
+  "sha256": "e1d3e6581c1a06efd5a4a0bb99d852f934630acc33a3ab417d3af5914a02a6c1",
+  "native_vendor_cad": false,
+  "hardware_measured": false,
+  "is_custom_project_design": true,
+  "published_nominal": [
+    "Camera board32x32mm and mounting holesdiam2.2 from existing local manufacturer dossier."
+  ],
+  "estimates_and_limitations": [
+    "Custom prototype, no strength or vibration test. Camera28mm pitch,1.2mm thickness,lens and USB shapes estimated from existing model.",
+    "Threads not modeled. Provisional hardware only. No chassis or USB cable route included."
+  ],
+  "parameters": {
+    "custom_parts": 4,
+    "hardware_included": false
+  },
+  "source_pages": [
+    "../camera/notices/U20CAM-4M-Usermanual.pdf; ../camera/3D/provenance.json"
+  ],
+  "bounds_mm": {
+    "xmin": -45.0,
+    "xmax": 35.0,
+    "ymin": -35.0,
+    "ymax": 35.0,
+    "zmin": 0.0,
+    "zmax": 247.68292504874
+  },
+  "validation": {
+    "valid_after_reimport": true,
+    "solids": 4,
+    "faces": 70,
+    "colors": 3,
+    "volume_relative_error": 9.802046203514558e-14,
+    "volume_relative_error_limit": 0.0001,
+    "volume_before_mm3": 102881.3478724718,
+    "volume_after_mm3": 102881.34787246172,
+    "adaptive_volume_tolerance": 1e-09,
+    "bbox_error_mm": 6.821210263296962e-12,
+    "bbox_error_limit_mm": 0.01,
+    "void_and_material_probes": [],
+    "elapsed_seconds": 0.6610633999989659
+  },
+  "parts": [
+    {
+      "name": "C01_Base_CP6_80x70",
+      "color_linear_rgb": [
+        0.55,
+        0.33,
+        0.13
+      ],
+      "solids": 1
+    },
+    {
+      "name": "C02_Montant_CP6_40x240",
+      "color_linear_rgb": [
+        0.55,
+        0.33,
+        0.13
+      ],
+      "solids": 1
+    },
+    {
+      "name": "C03_Gousset_CP6_40x40",
+      "color_linear_rgb": [
+        0.42,
+        0.24,
+        0.08
+      ],
+      "solids": 1
+    },
+    {
+      "name": "C04_Berceau_pivot",
+      "color_linear_rgb": [
+        0.06,
+        0.16,
+        0.23
+      ],
+      "solids": 1
+    }
+  ],
+  "preview": {
+    "file": "pieces-support-camera-p1.png",
+    "sha256": "46585ef467e6a5155874f64f4bdb09048a4c3012bee1f1b71ae6c2598f33ad5e"
+  },
+  "hardware_tested": false
+}

@@ -1,0 +1,49 @@
+{
+  "checked_on": "2026-10-14",
+  "purchased": false,
+  "items": [
+    {
+      "manufacturer": "Blue Sea Systems",
+      "part_number": "2315",
+      "quantity": 2,
+      "description": "MiniBus commun 100A, quatre goujons #10-32, capot2713 inclus",
+      "roles": [
+        "D+ positif apres MIDI principal",
+        "D- retours negatifs"
+      ],
+      "asin": "B000OTJ8A0",
+      "asin_verified_at": "Amazon.com via web tool",
+      "amazon_fr_url": "https://www.amazon.fr/dp/B000OTJ8A0",
+      "amazon_fr_offer_confirmed": false,
+      "france_price_eur": null,
+      "france_stock_confirmed": false,
+      "indicative_alternative": {
+        "supplier": "Hodges Marine",
+        "currency": "USD",
+        "unit_price": 26.4,
+        "quantity_price": 52.8,
+        "shipping_and_france_taxes_included": false
+      },
+      "included": {
+        "busbar_with_four_studs": 1,
+        "serrated_flange_nuts": 4,
+        "cover_2713": 1
+      },
+      "contents_need_lot_check": true,
+      "excluded": [
+        "cosses",
+        "fils",
+        "vis de chassis",
+        "fusibles de branches"
+      ]
+    }
+  ],
+  "additional_cover_purchase_quantity": 0,
+  "additional_parts_not_yet_selected": [
+    "cosses serties",
+    "fils",
+    "fixations",
+    "qualification du repartiteur UD80A569010 apres SSR",
+    "qualification des protections de branches"
+  ]
+}

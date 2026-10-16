@@ -1,0 +1,138 @@
+{
+  "all_passed": true,
+  "FreeCAD_version": [
+    "1",
+    "1",
+    "4",
+    "20260928 (Git shallow)",
+    "Unknown",
+    "2026/09/28 13:46:34",
+    "(HEAD detached at 4fd3bf320)",
+    "4fd3bf320d9566a27e60069fc8387448aaa3a094"
+  ],
+  "native_file": "drone-v3-complet-ultra-detaille.FCStd",
+  "native_load_seconds": 220.75346100000024,
+  "native_solids": 5441,
+  "native_zones": [
+    {
+      "zone": "structure",
+      "passed": true,
+      "solids": 151,
+      "faces": 1524,
+      "features": 151,
+      "face_color_entries": 1524,
+      "bounds_mm": [
+        -207.0,
+        207.0,
+        -6.0,
+        520.0,
+        6.8,
+        258.68292504874
+      ]
+    },
+    {
+      "zone": "roulage",
+      "passed": true,
+      "solids": 275,
+      "faces": 8904,
+      "features": 26,
+      "face_color_entries": 8904,
+      "bounds_mm": [
+        -213.0,
+        213.0,
+        23.5,
+        476.5,
+        0.0,
+        63.0
+      ]
+    },
+    {
+      "zone": "electronique",
+      "passed": true,
+      "solids": 4882,
+      "faces": 70794,
+      "features": 12,
+      "face_color_entries": 70794,
+      "bounds_mm": [
+        -127.7,
+        145.70000000000002,
+        177.3,
+        487.48923676038515,
+        17.0,
+        247.71850594368794
+      ]
+    },
+    {
+      "zone": "puissance",
+      "passed": true,
+      "solids": 133,
+      "faces": 10497,
+      "features": 5,
+      "face_color_entries": 10497,
+      "bounds_mm": [
+        -140.34,
+        123.0241,
+        111.0,
+        402.5186,
+        15.0,
+        126.0
+      ]
+    }
+  ],
+  "native_GUI_document_restored": true,
+  "native_camera": "#Inventor V2.1 ascii\n\n\nOrthographicCamera {\n  viewportMapping ADJUST_CAMERA\n  position 0 257 1129.3414\n  orientation 0 0 1  0\n  nearDistance 869.78784\n  farDistance 1130.4708\n  aspectRatio 1\n  focalDistance 1000\n  height 850\n\n}\n",
+  "qt_platform": "windows",
+  "viewport_renders": [
+    {
+      "file": "apercu-freecad-cao-isometrique.png",
+      "bytes": 119793,
+      "sha256": "bab96fa620296711ecae03128f8b944a7dfdf6c8440e3ffdce4aaf1caebf0fa1"
+    },
+    {
+      "file": "apercu-freecad-cao-dessus.png",
+      "bytes": 54912,
+      "sha256": "2a336f8591039e7d17d1a018a16a4d7fe435616dbbf037fc91c00300395454ea"
+    }
+  ],
+  "view_steps": [
+    {
+      "file": "drone-v3-structure.step",
+      "passed": true,
+      "solids": 147,
+      "bytes": 2259849,
+      "sha256": "216b1bbc05e01c2495948618d780aa4af3954cebe21c438103334343d1233612"
+    },
+    {
+      "file": "drone-v3-roulage.step",
+      "passed": true,
+      "solids": 26,
+      "bytes": 136715,
+      "sha256": "518b576d62bb70e8440db83894a3847eee61387a7a1965b02b2d086aedc2bbe5"
+    },
+    {
+      "file": "drone-v3-electronique.step",
+      "passed": true,
+      "solids": 18,
+      "bytes": 206645,
+      "sha256": "234d2df0932cfa28273fdd455b6305d563810a63143c7771becf3fb6b4056e58"
+    },
+    {
+      "file": "drone-v3-puissance.step",
+      "passed": true,
+      "solids": 34,
+      "bytes": 265667,
+      "sha256": "6f83c5904715ccc4aa0501537f5df05c152d5a1a90afd38f2a1d1324f3599243"
+    },
+    {
+      "file": "drone-v3-complet-detaille.step",
+      "passed": true,
+      "solids": 225,
+      "bytes": 6642932,
+      "sha256": "5b015bf59800b186dc31814df4c4378941578aacca3340b4b615a4e91fa311f5"
+    }
+  ],
+  "component_sources_unchanged": true,
+  "physical_fit_validated": false,
+  "complete_wiring_validated": false,
+  "view_step_representation": "Implantation légère A2-R1 ; géométrie CAO complète inchangée"
+}

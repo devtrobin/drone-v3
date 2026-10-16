@@ -1,0 +1,80 @@
+[
+  {
+    "file": "notices/Diodes-BAT54-datasheet.pdf",
+    "bytes": 502635,
+    "sha256": "50b04e4e17bcf5db62164f6e5422e91546d0cace0ab2efed61660c3044b4fef0",
+    "modified": false
+  },
+  {
+    "file": "notices/Littelfuse-KLKD-2021-original-via-distributeur.pdf",
+    "bytes": 478615,
+    "sha256": "7613219f066c8c38bf0693956de49e817e4dfd06fd142389e5326c010a437ba8",
+    "modified": false
+  },
+  {
+    "file": "notices/Microchip-MCP1703A-datasheet.pdf",
+    "bytes": 2296306,
+    "sha256": "6fdfc2f20167c7292c92c9c4c8003fd4d8615e0f2f90e224e1e10dce6ed65b5f",
+    "modified": false
+  },
+  {
+    "file": "notices/Murata-GRM21BR71E225KA73-original.pdf",
+    "bytes": 824604,
+    "sha256": "c99b4739752d76e033fa7be73ef63b3d590840a7597842dc1180451a8dd7bfda",
+    "modified": false
+  },
+  {
+    "file": "notices/Pololu-D24V10Fx-schema-original.pdf",
+    "bytes": 135960,
+    "sha256": "7b250c93bac005f51b1ededcb5cc06fd1b803b3ac836616aeabb7221f7eb4466",
+    "modified": false
+  },
+  {
+    "file": "notices/TI-SN74LVC2G17-datasheet.pdf",
+    "bytes": 1888823,
+    "sha256": "624dbe55679d2fed4123b0d7708cd0d295efcc78de395e71a0caf5cd13cbc216",
+    "modified": false
+  },
+  {
+    "file": "notices/TI-TPS2596-original.pdf",
+    "bytes": 4211281,
+    "sha256": "34a800f18954a9b2d759918a45bf88385784e91a8af10b65516e08618f38533f",
+    "modified": false
+  },
+  {
+    "file": "notices/TI-TPS3700-original.pdf",
+    "bytes": 682718,
+    "sha256": "3bb7daed20b154bf22ded78e23269c6437eb587400b89bce0f543813df94ebf0",
+    "modified": false
+  },
+  {
+    "file": "notices/TI-TPS3700EVM-114-original.pdf",
+    "bytes": 281823,
+    "sha256": "2064524f87e5411fcf60888362b5394b218d1372c57015d9733f7148f2280245",
+    "modified": false
+  },
+  {
+    "file": "notices/Traco-TMR1-original.pdf",
+    "bytes": 875765,
+    "sha256": "b4786f2faff592809a3ce0a000a6830306d09eea0dca9ca91e16163cc0831441",
+    "modified": false
+  },
+  {
+    "file": "notices/Vishay-AC-original.pdf",
+    "bytes": 218742,
+    "sha256": "ebd3c714bb6b8c267c4cee006f5c72f105ee79c47d43ca680eb7e65929051f51",
+    "modified": false
+  },
+  {
+    "file": "notices/Vishay-TNPW-original.pdf",
+    "bytes": 363615,
+    "sha256": "6f0508c568cb355aaf2accdd33fe3a780d3ea5ef207c4c9a71839a8acadc33a5",
+    "modified": false
+  },
+  {
+    "file": "notices/Vishay-VOS618A-datasheet.pdf",
+    "bytes": 164773,
+    "sha256": "61d948c9edadff66dad1bfc49f8ae17f2258b25ee15af8509d0361e218a9971a",
+    "modified": false
+  }
+]

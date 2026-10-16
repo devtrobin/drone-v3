@@ -1,0 +1,144 @@
+{
+  "accessed": "2026-10-14",
+  "sources": [
+    {
+      "id": "JST-XH-catalogue",
+      "url": "https://order.jst-mfg.com/InternetShop/app/pdf_show.php?kbn=1&key=eXH.pdf",
+      "accessed": "2026-10-14",
+      "original_unmodified": true,
+      "status": "unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": "JST-XH-famille",
+      "url": "https://www.jst-mfg.com/product/index.php?series=277",
+      "accessed": "2026-10-14",
+      "original_unmodified": true,
+      "file": "sources/JST-XH-famille-original.html",
+      "sha256": "9ad36d88a7e9b28b18ac5fe58fc66562bd5f9e70eaaa28923e3ae128f98ece22",
+      "bytes": 96458,
+      "status": "archived"
+    },
+    {
+      "id": "WAGO-221-413",
+      "url": "https://www.mouser.com/datasheet/2/737/Data_Sheet221_413_-1928674.pdf",
+      "accessed": "2026-10-14",
+      "original_unmodified": true,
+      "status": "unavailable",
+      "error": "Non-PDF response"
+    },
+    {
+      "id": "WAGO-221-415",
+      "url": "https://www.mouser.com/datasheet/2/737/Data_Sheet221_415_-1928675.pdf",
+      "accessed": "2026-10-14",
+      "original_unmodified": true,
+      "status": "unavailable",
+      "error": "Non-PDF response"
+    },
+    {
+      "id": "DigiKey-221-415",
+      "url": "https://www.digikey.fr/fr/products/detail/wago-corporation/221-415/13549457",
+      "accessed": "2026-10-14",
+      "original_unmodified": true,
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "Amazon-WAGO-recherche",
+      "url": "https://www.amazon.fr/s?k=WAGO+221-413+221-415",
+      "accessed": "2026-10-14",
+      "original_unmodified": true,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "status": "unavailable",
+      "error": "Empty response"
+    },
+    {
+      "id": "JST-XH-catalogue-public",
+      "url": "https://www.jst-mfg.com/product/pdf/eng/eXH.pdf",
+      "accessed": "2026-10-14",
+      "original_unmodified": true,
+      "file": "notices/JST-XH-catalogue-public-original.pdf",
+      "sha256": "9426b136902f11900825077535e5c65032b7fbc31ffb59c5e9e1f463bb20fb90",
+      "bytes": 175724,
+      "status": "archived"
+    },
+    {
+      "id": "WAGO-221-notice",
+      "url": "https://www.wiska.com/files/2/document_7a8d1577378a637c2bc1b426459d7abf.pdf",
+      "accessed": "2026-10-14",
+      "original_unmodified": true,
+      "file": "notices/WAGO-221-notice-original.pdf",
+      "sha256": "a096e693f7f68eeb530d36dca37534147b06c243e136e6e734fd6ac5f9750517",
+      "bytes": 786378,
+      "status": "archived"
+    },
+    {
+      "id": "WAGO-221-415-public",
+      "url": "https://m.media-amazon.com/images/I/B1tUMAUMH7L.pdf",
+      "accessed": "2026-10-14",
+      "original_unmodified": true,
+      "file": "notices/WAGO-221-415-public-original.pdf",
+      "sha256": "d1a7b1ced22bb62f445504245681b66c6f7c04f1d7907272fa53b57d87feacaa",
+      "bytes": 2969975,
+      "status": "archived"
+    },
+    {
+      "id": "WAGO-221-413-public",
+      "url": "https://m.media-amazon.com/images/I/91VkNZV%2BTHL.pdf",
+      "accessed": "2026-10-14",
+      "original_unmodified": true,
+      "file": "notices/WAGO-221-413-public-original.pdf",
+      "sha256": "1a134812e343bd3c89c70ba02f0e092a4af69db348e804602860dfa13a99cf69",
+      "bytes": 782147,
+      "status": "archived"
+    },
+    {
+      "id": "BNTECHGO-18AWG",
+      "url": "https://bntechgo.com/bntechgo-18-gauge-silicone-wire-kit-ultra-flexible-20-ft-black-and-red-each-color-10-ft-high-temp-200-c-600v-18-awg-silicone-wire-150-strands-of-tinned-copper-wire-stranded-wire-stranded-wire-for-model-battery/",
+      "accessed": "2026-10-14",
+      "original_unmodified": true,
+      "file": "sources/BNTECHGO-18AWG-original.html",
+      "sha256": "cd6aa5c409ad3c3b333ded3cb6765b86d37f785f48f38b021498ef0ecb319f18",
+      "bytes": 209928,
+      "status": "archived"
+    },
+    {
+      "id": "WAGO-413-FR",
+      "url": "https://www.gotronic.fr/pj2-fiche-technique-wg413-3763.pdf",
+      "accessed": "2026-10-14",
+      "original_unmodified": true,
+      "file": "notices/WAGO-413-FR-original.pdf",
+      "sha256": "2fb421167be6d926387d2c9afe51630a75e58c9084978e488ef9310b44bb3531",
+      "bytes": 7412941,
+      "status": "archived"
+    },
+    {
+      "id": "JST-rallonge-Intermodel",
+      "url": "https://www.intermodel.fr/cordons-et-prises-de-charge/548-rallonge-pour-prise-equilibrage-2s-intermodel-rallonge-2s-rallonge-prise-equilibrage-2s.html",
+      "accessed": "2026-10-14",
+      "original_unmodified": true,
+      "file": "sources/JST-rallonge-Intermodel-original.html",
+      "sha256": "cb9b24e2040f90a28a44f527d09af36798918ff223963f28a3016095f18290a7",
+      "bytes": 243283,
+      "status": "archived"
+    },
+    {
+      "id": "GoTronic-WAGO-achat",
+      "url": "https://www.gotronic.fr/cat-bornes-de-connexion-wago-0-5-a-2-5-mm2.htm",
+      "accessed": "2026-10-14",
+      "original_unmodified": true,
+      "file": "sources/GoTronic-WAGO-achat-original.html",
+      "sha256": "ec61843163b010b15f4b6532356fb1bb740e6afd0510cbac90b650d03b92296a",
+      "bytes": 107090,
+      "status": "archived"
+    },
+    {
+      "url": "https://cdn11.bigcommerce.com/s-clng77kigt/images/stencil/1280x1280/products/846/17494/18_Awg__41727.1576570492.jpg?c=2",
+      "file": "photos/BNTECHGO-18AWG-construction.jpg",
+      "status": "archived",
+      "sha256": "c728f94f9f8427bfb3c303df47cf6c3bfc9962d2e409fba1b5fd10c48db93273",
+      "original_unmodified": true
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "file": "sensata-hs251-officiel.step",
+  "title": "HS251 | STEP officiel inchange",
+  "unit": "mm",
+  "sha256": "0205bb9ca8d5a5ede282401681bf73ae1e72846dbbf2cabb05274b79f33a66ce",
+  "bytes": 222271,
+  "native_vendor_cad": true,
+  "geometry_modified": false,
+  "hardware_measured": false,
+  "coordinate_system": "Repere fabricant; contact SSR normal +Y. Voir modele implantation pour repere V3.",
+  "source_url": "https://www.sensata.com.cn/sites/default/files/a/sensata-hs251-heatsink-accessories-drawing.step",
+  "bounds_mm": {
+    "xmin": -42.672,
+    "xmax": 42.672,
+    "ymin": -21.082000000000015,
+    "ymax": 19.558000000000003,
+    "zmin": -6.419766481290787e-31,
+    "zmax": 52.32400000000001
+  },
+  "validation": {
+    "valid_after_reimport": true,
+    "solids": 1,
+    "faces": 88,
+    "xcaf_colors": 1
+  },
+  "estimates_and_limitations": [
+    "Modele officiel: filetages representes par alesages, pas helices physiques.",
+    "Corps et pattes regroupes dans un solide officiel; ni vis de montage ni pad.",
+    "Ne reproduit pas rugosite, rayures ou tolerance de la piece recue."
+  ],
+  "manufacturer_copyright": "Sensata Technologies / Crydom; aucune licence de redistribution distincte identifiee",
+  "preview": {
+    "file": "sensata-hs251-officiel.png",
+    "sha256": "63341b329a881a4820d1943e76ac965e842c934eeb094302d24a12228eaaacbd"
+  }
+}

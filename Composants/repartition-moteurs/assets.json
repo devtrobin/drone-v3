@@ -1,0 +1,250 @@
+{
+  "checked_on": "2026-10-14",
+  "assets": [
+    {
+      "file": "notices/nVent-UD80A-fiche-FR-2023-via-RS.pdf",
+      "url": "https://docs.rs-online.com/e8ac/A700000010539200.pdf",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "status": "downloaded",
+      "bytes": 1386853,
+      "sha256": "a54e3bdea8ec6927e4233c2139b9e2db38094e705407a8cc0866f47aaff3de10",
+      "final_url": "https://docs.rs-online.com/e8ac/A700000010539200.pdf"
+    },
+    {
+      "file": "notices/nVent-UD80A-fiche-EN-2023-via-RS.pdf",
+      "url": "https://docs.rs-online.com/0b1d/A700000010539216.pdf",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "status": "downloaded",
+      "bytes": 1385873,
+      "sha256": "b8339f9c536b1a856258769f2a6216c3542b484e842d0e91ec58394bd4f8893a",
+      "final_url": "https://docs.rs-online.com/0b1d/A700000010539216.pdf"
+    },
+    {
+      "file": "notices/nVent-UD80A-fiche-FR-2020-via-Sonepar.pdf",
+      "url": "https://res.cloudinary.com/sonepar-fr/raw/upload/s--hVva9jzD--/v1/documents/3058/569010_FICHE.pdf",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "status": "downloaded",
+      "bytes": 550418,
+      "sha256": "3f2245ce4c71aaf590869ca3cb3f5d045ca6398798373e12b56fd3f9c52abde3",
+      "final_url": "https://res.cloudinary.com/sonepar-fr/raw/upload/s--hVva9jzD--/v1/documents/3058/569010_FICHE.pdf"
+    },
+    {
+      "file": "notices/nVent-UD-distribution-catalogue.pdf",
+      "url": "https://www.nvent.com/sites/default/files/dam/h85126-en.pdf",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "status": "downloaded",
+      "bytes": 464457,
+      "sha256": "8892695f98b07b0e52029bcb3ff194475b576f457803202ce644fc3958378d4c",
+      "final_url": "https://www.nvent.com/sites/default/files/dam/h85126-en.pdf"
+    },
+    {
+      "file": "notices/Graybar-UD80A-document-1.pdf",
+      "url": "https://static.graybarcanada.com/Products/Enclosures/Enclosure%2C%20Industrial/ERI569010/Files/ERI569010_Files_1.pdf",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "status": "downloaded",
+      "bytes": 557317,
+      "sha256": "02b7d29f80ca202a0d5926c0692e55753a478a61fb8019c5b457796a4bfa80ad",
+      "final_url": "https://static.graybarcanada.com/Products/Enclosures/Enclosure%2C%20Industrial/ERI569010/Files/ERI569010_Files_1.pdf"
+    },
+    {
+      "file": "notices/Graybar-UD80A-document-2.pdf",
+      "url": "https://static.graybarcanada.com/Products/Enclosures/Enclosure%2C%20Industrial/ERI569010/Files/ERI569010_Files_2.pdf",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "status": "downloaded",
+      "bytes": 557388,
+      "sha256": "f41f37a0f096495c98bcfce3ff1dde4f6f5a2bf4af347cf5829e72c83ba69afb",
+      "final_url": "https://static.graybarcanada.com/Products/Enclosures/Enclosure%2C%20Industrial/ERI569010/Files/ERI569010_Files_2.pdf"
+    },
+    {
+      "file": "notices/Graybar-UD80A-document-3.pdf",
+      "url": "https://static.graybarcanada.com/Products/Enclosures/Enclosure%2C%20Industrial/ERI569010/Files/ERI569010_Files_3.pdf",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "status": "downloaded",
+      "bytes": 556998,
+      "sha256": "80a21ae07bd18dc45dcf1a54bf94f7ea2aa8565d992056b94baaeb91e7fa983b",
+      "final_url": "https://static.graybarcanada.com/Products/Enclosures/Enclosure%2C%20Industrial/ERI569010/Files/ERI569010_Files_3.pdf"
+    },
+    {
+      "file": "sources-web/nVent-UD80A.html",
+      "url": "https://www.nvent.com/en-us/ERIFLEX/products/EFSUD-80A",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "status": "downloaded_with_product_content",
+      "bytes": 286581,
+      "sha256": "b1f4f87452e264e6c2ec30b438da6824c09c0fec4d151085d0214adae0eafca7",
+      "final_url": "https://www.nvent.com/en-us/eriflex/products/efsud-80a",
+      "note": "Full product attributes, download URLs and photos present; site also contains challenge script."
+    },
+    {
+      "file": "sources-web/RS-FR-569010.html",
+      "url": "https://fr.rs-online.com/web/p/blocs-de-distribution/2776180",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "file": "sources-web/Amazon-FR-recherche.html",
+      "url": "https://www.amazon.fr/s?k=Eriflex+UD-80A+569010",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "status": "empty_response",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "final_url": "https://www.amazon.fr/s?k=Eriflex+UD-80A+569010"
+    },
+    {
+      "file": "sources-web/Graybar-569010.html",
+      "url": "https://www.graybarcanada.com/item/eri569010",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "file": "sources-web/Iconopower-avis.html",
+      "url": "https://www.iconopower.com/Single_Pole_Distribution_Block_p/569010.htm",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "status": "challenge_html",
+      "bytes": 98382,
+      "sha256": "0885d4ceb1de6bb6fd3efe7433385562c906ef427759beb5d2c43c6a85e77d35",
+      "final_url": "https://www.iconopower.com/Single_Pole_Distribution_Block_p/569010.htm"
+    },
+    {
+      "file": "photos/RS-569010-original.jpg",
+      "url": "https://media.rs-online.com/f_auto%2Cq_auto%2Cbo_1.5px_solid_white%2Cb_auto%2Cc_pad%2Cdpr_2%2Ch_399%2Cw_710/c_pad%2Ch_399%2Cw_710/Y2776180-01?pgw=1",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "status": "downloaded",
+      "bytes": 26806,
+      "sha256": "a91e059dbed3f26dfc87e63ec8eb6e2155a8f684db482631bf13884b49f9ea31",
+      "final_url": "https://media.rs-online.com/f_auto%2Cq_auto%2Cbo_1.5px_solid_white%2Cb_auto%2Cc_pad%2Cdpr_2%2Ch_399%2Cw_710/c_pad%2Ch_399%2Cw_710/Y2776180-01?pgw=1"
+    },
+    {
+      "file": "notices/nVent-UD80A-instructions-IP7802.pdf",
+      "url": "https://nvent.widen.net/content/vhxyvvgeqg/original/ip7802.pdf",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "status": "downloaded",
+      "bytes": 352065,
+      "sha256": "b3d6c15e040485d6905ee6447bfdd6a3ae043449c3d50232c9c1d9cdc6f1b03e",
+      "final_url": "https://cf-store.widencdn.net/nvent/c/f/3/cf30a78d-d91f-427c-852a-78beae0e3af3.pdf?response-content-disposition=inline%3B%20filename%3D%22IP7802.pdf%22&response-content-type=application%2Fpdf&Expires=1791945054&Signature=YxUYpsyZRqe4FwkrrOfCxKo6GiWEwI2BgJRn4a38s~eqngmfcim5aCEQIM-6~f~~EQNR6mkM92XfNLu6MBMIoZe6rL6HK4gxbekWdA4y7dLV-OpgEKt5o~v12h1TqYnmejfz51D3wwf44-eSmS8LOCxOl5JptSL-wt5~OlFXal1bqtDR5xDXXzuglbm2p9n1p81bOvOKbwHXIG2zD~FLfHdNPYBmSn6aGG-SJqQSZHAz5vHNy~69cFRVlZtAnNT9mcFMwWd47Tlw4LvdLANBBdoqcLlk2dnT6mDGcpo3algJb0s--ZQiGYcrbDfsdEqf5hQpMUpLvU2FqTI~R6CpSA__&Key-Pair-Id=APKAJD5XONOBVWWOA65A"
+    },
+    {
+      "file": "notices/nVent-UD-specifications.pdf",
+      "url": "https://nvent.widen.net/content/ngmdxkxgcd/original/pi-ud_blocks_specs.pdf",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "status": "downloaded",
+      "bytes": 90841,
+      "sha256": "426962ecf9ea4b77e47f9879158259021cadfeea9fd6d9456dbe78b23c3adbd9",
+      "final_url": "https://cf-store.widencdn.net/nvent/7/2/2/722a7fb8-1876-4e58-a050-a62368bd9c17.pdf?response-content-disposition=inline%3B%20filename%3D%22PI-UD_Blocks_specs.pdf%22&response-content-type=application%2Fpdf&Expires=1791945054&Signature=aP~55g4pVPUenb~m39j8BvpXTgx0WSRM11PpAmvG0rvnzXNoPj2fHOM20nblFDH3SRyuLee5zCGK2J3wbe-nnU9O7PJBnX8ZsIg~UvSPmvTSyGuorFilfESg74cSNZ9O6Hz5wlXOzDPLdBPJyC6ZzF0VSqLfbIlSCUHGklcgISKs-F8BbiDARAqlkEO8YqMGizitg5ZG3pb0ICIe99WqxcVFSw-h3sVZL9xAwD96uG2owBMxWzU1ueaW-jgvSvo-73vIaCefTD6t8UGYh95hHrcQP6ES~tjRosZM~S1ky4pQosX6g~8ngeQPPeVylnH8Srx2o~FMHSj6xr0wGZ57Uw__&Key-Pair-Id=APKAJD5XONOBVWWOA65A"
+    },
+    {
+      "file": "notices/nVent-UD-catalogue-P1215C.pdf",
+      "url": "https://nvent.widen.net/content/yuoao2u6nw/original/p1215c-uken.pdf",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "status": "downloaded",
+      "bytes": 14329000,
+      "sha256": "bfc9c6bd63606c9d7613508a642919383e88dd7989c3bb0c25aec9a963d8f006",
+      "final_url": "https://cf-store.widencdn.net/nvent/2/5/f/25fdbe67-7198-47a8-9c21-2c8c666a499e.pdf?response-content-disposition=inline%3B%20filename%3D%22P1215C-UKEN.pdf%22&response-content-type=application%2Fpdf&Expires=1791945054&Signature=NVPd7LX9XIRMFGOUfm32e1C06g6R4eUvT1oEmunJBvtgMjkBTHOAMueRa9giYvSPUsIN129Mkz~-MDFWCJ43KPJt9IE41gJ6vxWmtHAGBrXGVa8atob1MWiBya-5YymYWgmOOvd-zpo~rBApv1DkJFfXAaKAuSqMup9pZ8vrAb2U1r7nhfICLLuefcl4gx0Y1i3Ij~YW7R35djzKfpzhsa64us0NxnRRGwezU1jyuim43USKnk4f3Xk694dDaUNX9S1p2ugOzhr1s~RZ2OFhvC71dg4TMo56sbj-gtumkgfDPvzBKKB0G6kMwFTjozD2Rk-JsCgEJXXP2FFGEgkeFQ__&Key-Pair-Id=APKAJD5XONOBVWWOA65A"
+    },
+    {
+      "file": "photos/nVent-UD80A-produit-original.webp",
+      "url": "https://www.nvent.com/sites/default/files/styles/product_and_sku_image_582x334_no_crop/public/dam/0c9zfrqlic/ph22076.png.webp?itok=LSVDrJR-",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "status": "downloaded",
+      "bytes": 88520,
+      "sha256": "3691b78edff0f2875bfc5ab40682e3a7b2ad4bcc73769875e83d9f2345345a4e",
+      "final_url": "https://www.nvent.com/sites/default/files/styles/product_and_sku_image_582x334_no_crop/public/dam/0c9zfrqlic/ph22076.png.webp?itok=LSVDrJR-"
+    },
+    {
+      "file": "photos/nVent-UD80A-plan-face.webp",
+      "url": "https://www.nvent.com/sites/default/files/styles/convert_only/public/dam/7rmakguwwo/il42001.png.webp?itok=W5CAQZ0z",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "status": "downloaded",
+      "bytes": 14296,
+      "sha256": "6c1db3bd5c4b75ba412fe43b208d9819986e7118aacf5127c3bcc36efe8138b1",
+      "final_url": "https://www.nvent.com/sites/default/files/styles/convert_only/public/dam/7rmakguwwo/il42001.png.webp?itok=W5CAQZ0z"
+    },
+    {
+      "file": "photos/nVent-UD80A-plan-profil.webp",
+      "url": "https://www.nvent.com/sites/default/files/styles/convert_only/public/dam/mebscodrm7/il42002.png.webp?itok=n22vmi--",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "status": "downloaded",
+      "bytes": 8808,
+      "sha256": "3623b84796e89a3102b752bb6914e93eb4fc1496b186bf43c3bd12cf3b562b6d",
+      "final_url": "https://www.nvent.com/sites/default/files/styles/convert_only/public/dam/mebscodrm7/il42002.png.webp?itok=n22vmi--"
+    },
+    {
+      "file": "photos/nVent-UD80A-plan-connexions.webp",
+      "url": "https://www.nvent.com/sites/default/files/styles/convert_only/public/dam/q2lflunxr1/il42003.png.webp?itok=ZZmWOe6W",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "status": "downloaded",
+      "bytes": 20418,
+      "sha256": "87c225ef3b2c54f76e76731240dcdcce089bb06a09c85efcecd1ea805f3925ba",
+      "final_url": "https://www.nvent.com/sites/default/files/styles/convert_only/public/dam/q2lflunxr1/il42003.png.webp?itok=ZZmWOe6W"
+    },
+    {
+      "file": "sources-web/Forum-PLCtalk-SCCR.html",
+      "url": "https://www.plctalk.net/forums/threads/sccr-in-the-feeder.125932/",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "file": "sources-web/nVent-CAD-viewer.json",
+      "url": "https://www.nvent.com/en-us/api/traceparts/viewer?part_number=UD-80A&check_availability=0&brand=ERIFLEX",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "status": "downloaded",
+      "bytes": 294,
+      "sha256": "2598af3aa77a8a82a2a61d0713df8634a29f322d6800673251d2dfea56e92f66",
+      "final_url": "https://www.nvent.com/en-us/api/traceparts/viewer?part_number=UD-80A&check_availability=0&brand=ERIFLEX"
+    },
+    {
+      "file": "sources-web/nVent-CAD-options.json",
+      "url": "https://www.nvent.com/en-us/api/traceparts/options?part_number=UD-80A&check_availability=0&brand=ERIFLEX",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "status": "downloaded",
+      "bytes": 8267,
+      "sha256": "011b1dd7f6c1eb1a56d76302d0c5a064d89af1e09726fdeca4883a9644509d6e",
+      "final_url": "https://www.nvent.com/en-us/api/traceparts/options?part_number=UD-80A&check_availability=0&brand=ERIFLEX"
+    },
+    {
+      "file": "3D/originaux/nVent-UD80A-AP214-telechargement.bin",
+      "url": "https://noproxy-download.nvent.com/api/traceparts/download?part_number=UD-80A&format=19&brand=ERIFLEX",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "status": "downloaded",
+      "bytes": 219993,
+      "sha256": "7301f522636776ebeabca71348642778cea943347d9b6bc6e66c8bb837a20a35",
+      "final_url": "https://traceparts-cache.s3.eu-west-1.amazonaws.com/CAD/CACHE/NVENT_ERIFLEX/90-24062020-026512/1.0.4/19/0/EN/90-24062020-0265122V6CDDHTHO0FF7PO290VUZ8DK/0205B95A18CBD1DA13FB52874DFFF7DF.ZIP?X-Amz-Expires=21600&response-cache-control=no-cache&response-content-disposition=attachment%3B%20filename%3D%22193555537-19-ud-80a.zip%22&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJJNIPQEROXQBKU2A%2F20261014%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20261014T093209Z&X-Amz-SignedHeaders=host&X-Amz-Signature=4d48f61f2c130c3c78766e6ce19034df75330e944e770add61a9f538b2f3767b"
+    },
+    {
+      "file": "3D/eriflex-ud80a-officiel.step",
+      "url": "https://noproxy-download.nvent.com/api/traceparts/download?part_number=UD-80A&format=19&brand=ERIFLEX",
+      "checked_on": "2026-10-14",
+      "status": "manufacturer_CAD_unchanged",
+      "archive_entry": "E10106602.step",
+      "modified": false,
+      "bytes": 1524304,
+      "sha256": "68f63c19ac7e6b23aea0bbe7f336b9b2e52d5aaeecd588fe24f437906998a6b6"
+    }
+  ]
+}

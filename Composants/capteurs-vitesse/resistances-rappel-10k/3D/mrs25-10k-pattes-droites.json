@@ -1,0 +1,136 @@
+{
+  "file": "mrs25-10k-pattes-droites.step",
+  "title": "Vishay MRS25 10k | pattes droites non recoupees",
+  "generated_on": "2026-10-15",
+  "unit": "mm",
+  "cadquery_version": "2.8.0",
+  "coordinate_system": "Body axisX; centreZ=2.45 for formed version, Z=0 for straight; formed leads downward",
+  "bytes": 127899,
+  "sha256": "5fb9b773a77b21b9b0ccdd159206d7e4a32fbff6e3e119f3dbf56431d7d5df70",
+  "native_vendor_cad": false,
+  "hardware_measured": false,
+  "is_custom_project_design": false,
+  "published_nominal": [
+    "Vishay28724 p3: body diameter2.5max, length6.5max, wire diameter0.6nom, lead length28min each, formed pitch10min"
+  ],
+  "estimates_and_limitations": [
+    "Body envelope drawn at maximum, end chamfers and lacquer thickness estimated",
+    "Five band code brown black black red brown; exact lot paint colour and band geometry unmeasured",
+    "Colours and minor optical details estimated; no measured hardware or internal reconstruction"
+  ],
+  "parameters": {
+    "body_length_max_mm": 6.5,
+    "body_diameter_max_mm": 2.5,
+    "lead_diameter_mm": 0.6,
+    "formed": false,
+    "terminal_pitch_mm": null,
+    "coordinate_system": "Body axisX; centreZ=2.45 for formed version, Z=0 for straight; formed leads downward"
+  },
+  "source_pages": [
+    "See component cotes.md and original PDFs in ../notices"
+  ],
+  "bounds_mm": {
+    "xmin": -31.25,
+    "xmax": 31.25,
+    "ymin": -1.25,
+    "ymax": 1.25,
+    "zmin": -1.25,
+    "zmax": 1.25
+  },
+  "validation": {
+    "valid_after_reimport": true,
+    "solids": 8,
+    "faces": 51,
+    "colors": 5,
+    "volume_relative_error": 1.8081890332006502e-14,
+    "volume_relative_error_limit": 0.0001,
+    "volume_before_mm3": 47.547944074623544,
+    "volume_after_mm3": 47.547944074622684,
+    "adaptive_volume_tolerance": 1e-09,
+    "bbox_error_mm": 0.0,
+    "bbox_error_limit_mm": 0.01,
+    "void_and_material_probes": [],
+    "elapsed_seconds": 0.3833722999997917,
+    "volume_after_default_quadrature_mm3": 47.54794407462251
+  },
+  "parts": [
+    {
+      "name": "Corps_laque_bleue_estimee",
+      "color_linear_rgb": [
+        0.025,
+        0.2,
+        0.38
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Anneau_1_code10k_1pct",
+      "color_linear_rgb": [
+        0.13,
+        0.045,
+        0.015
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Anneau_2_code10k_1pct",
+      "color_linear_rgb": [
+        0.008,
+        0.008,
+        0.008
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Anneau_3_code10k_1pct",
+      "color_linear_rgb": [
+        0.008,
+        0.008,
+        0.008
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Anneau_4_code10k_1pct",
+      "color_linear_rgb": [
+        0.65,
+        0.008,
+        0.006
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Anneau_5_code10k_1pct",
+      "color_linear_rgb": [
+        0.13,
+        0.045,
+        0.015
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Fil_gauche_28mm",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Fil_droit_28mm",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    }
+  ],
+  "preview": {
+    "file": "mrs25-10k-pattes-droites.png",
+    "sha256": "11715cbe05f2c8d1ac0d5ed2a1acd3d2ff5de5780cb0099ee2067b5dcde34ebd"
+  },
+  "component_folder": "resistances-rappel-10k",
+  "relative_step_path": "Composants/capteurs-vitesse/resistances-rappel-10k/3D/mrs25-10k-pattes-droites.step"
+}

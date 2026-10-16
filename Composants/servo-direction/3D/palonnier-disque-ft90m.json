@@ -1,0 +1,79 @@
+{
+  "file": "palonnier-disque-ft90m.step",
+  "title": "FT90M | palonnier-disque",
+  "generated_on": "2026-10-13",
+  "unit": "mm",
+  "cadquery_version": "2.8.0",
+  "coordinate_system": "Z vertical; corps centre X/Y, fond z=0; sortie x=-5.7; etiquette vers -Y",
+  "bytes": 394850,
+  "sha256": "72e1260d42a1690fcc78c2e01f13125294cdef692eb6bd699735f330ab7f280b",
+  "native_vendor_cad": false,
+  "hardware_measured": false,
+  "is_custom_project_design": false,
+  "published_nominal": [
+    "Accessoires blancs observes PDF p.7; famille de sortie 20T OD3.95"
+  ],
+  "estimates_and_limitations": [
+    "Toutes cotes de palonnier, trous et profil estimees; spline interne 20T reconstruite NON certifiee",
+    "Trou central Ø2.2, roof1.3 et socket1.9: choix geometriques non cotes",
+    "Table PDF p.6: No Accessories, malgre photo p.7; contenu du sachet non garanti",
+    "Dessins de pose uniquement: verifier accessoires du servo recu"
+  ],
+  "parameters": {},
+  "source_pages": [],
+  "bounds_mm": {
+    "xmin": -9.978875000000025,
+    "xmax": 9.978875000000025,
+    "ymin": -9.978875000000025,
+    "ymax": 9.978875000000025,
+    "zmin": 0.0,
+    "zmax": 3.2
+  },
+  "validation": {
+    "valid_after_reimport": true,
+    "solids": 1,
+    "faces": 102,
+    "colors": 1,
+    "volume_relative_error": 3.3641417930013295e-14,
+    "volume_relative_error_limit": 0.0001,
+    "volume_before_mm3": 425.800766861968,
+    "volume_after_mm3": 425.8007668619823,
+    "adaptive_volume_tolerance": 1e-09,
+    "bbox_error_mm": 2.6645352591003757e-14,
+    "bbox_error_limit_mm": 0.01,
+    "void_and_material_probes": [
+      {
+        "point": [
+          0,
+          0,
+          2.5
+        ],
+        "occupied": false
+      },
+      {
+        "point": [
+          1.2,
+          0,
+          2.5
+        ],
+        "occupied": true
+      }
+    ],
+    "elapsed_seconds": 0.5147264999977779
+  },
+  "parts": [
+    {
+      "name": "POM_blanc",
+      "color_linear_rgb": [
+        0.88,
+        0.87,
+        0.8
+      ],
+      "solids": 1
+    }
+  ],
+  "preview": {
+    "file": "palonnier-disque-ft90m.png",
+    "sha256": "f3d8b14c8a103835110d6979c8a5b62f7007fd66d27ff10b89c6bbebad971ec4"
+  }
+}

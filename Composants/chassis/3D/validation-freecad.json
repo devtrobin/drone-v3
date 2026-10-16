@@ -1,0 +1,196 @@
+{
+  "all_passed": true,
+  "FreeCAD_version": [
+    "1",
+    "1",
+    "4",
+    "20260928 (Git shallow)",
+    "Unknown",
+    "2026/09/28 13:46:34",
+    "(HEAD detached at 4fd3bf320)",
+    "4fd3bf320d9566a27e60069fc8387448aaa3a094"
+  ],
+  "models": [
+    {
+      "file": "C01.step",
+      "sha256": "dc065fc37ac7cace17aaa50a146f452405cf2f1e84d8133ce3ee408832c298d3",
+      "passed": true,
+      "solids": 1,
+      "volume_mm3": 463733.77912828786
+    },
+    {
+      "file": "C02.step",
+      "sha256": "d8800dd91b7549f94bd36ea08fa971d9a12b9d6c740e66ba0529a02356c024c1",
+      "passed": true,
+      "solids": 1,
+      "volume_mm3": 78960.87924617683
+    },
+    {
+      "file": "C03.step",
+      "sha256": "5c48a0c027303ae4ae95142acf497113bcfdf200adf251b10f7205a39b554c85",
+      "passed": true,
+      "solids": 1,
+      "volume_mm3": 43657.074705752
+    },
+    {
+      "file": "C04D.step",
+      "sha256": "c79452d8c9592961b3d0953b370b8898068dcc13bafa25765f73b269f9674dc2",
+      "passed": true,
+      "solids": 1,
+      "volume_mm3": 22522.14824629442
+    },
+    {
+      "file": "C04G.step",
+      "sha256": "26ac4a6af5c5ccba0b241cb61c7a54db2d7716b83e5b292d203875e2eec72f19",
+      "passed": true,
+      "solids": 1,
+      "volume_mm3": 22522.148246294415
+    },
+    {
+      "file": "C05.step",
+      "sha256": "7b989186f490be2fa229392aa81014d3ff816ec052f238beec6ec4cb36939de6",
+      "passed": true,
+      "solids": 1,
+      "volume_mm3": 56057.57744996762
+    },
+    {
+      "file": "C06.step",
+      "sha256": "e41bb625ff6681b76f02a972b1f354f2a20c3ca27274ca9bb30c61d7ec3b45f6",
+      "passed": true,
+      "solids": 1,
+      "volume_mm3": 62207.57744996762
+    },
+    {
+      "file": "C07.step",
+      "sha256": "685201170ceb7439b7d7ee9e7ff53754b0bb88764367b58de55352dfa1895703",
+      "passed": true,
+      "solids": 1,
+      "volume_mm3": 22493.97692326751
+    },
+    {
+      "file": "C08.step",
+      "sha256": "fe6e000b71ad26d64c033e674a31582e11c68171426b570cdce6090dcc972abf",
+      "passed": true,
+      "solids": 1,
+      "volume_mm3": 4750.060628040155
+    },
+    {
+      "file": "C09.step",
+      "sha256": "5c3200ebdf75c18e6a4e0aa372b5267b6b40b248761d7d316f2280fc76cca1f8",
+      "passed": true,
+      "solids": 1,
+      "volume_mm3": 15088.134969157112
+    },
+    {
+      "file": "C10.step",
+      "sha256": "a8897be52a2d08a0c0bc2697763a4a25be1cf51bd20c1361ee6ff0131923cc7f",
+      "passed": true,
+      "solids": 1,
+      "volume_mm3": 4504.546469980573
+    },
+    {
+      "file": "C11D.step",
+      "sha256": "997abeb464f60f7e6835818ee00bb9f8b8e1445ffbebbe1006c0016771b2faf8",
+      "passed": true,
+      "solids": 1,
+      "volume_mm3": 5375.319704970856
+    },
+    {
+      "file": "C11G.step",
+      "sha256": "35b7eeedb5363ce498fc7d34786e2ba040b7b96a063ec6118a1934590937dc83",
+      "passed": true,
+      "solids": 1,
+      "volume_mm3": 5375.319704970856
+    },
+    {
+      "file": "C12.step",
+      "sha256": "60c1310da004b4acebbb4c5f6c055dae926486a9258236586ab6564b70f5a5eb",
+      "passed": true,
+      "solids": 1,
+      "volume_mm3": 21057.57744996762
+    },
+    {
+      "file": "C13.step",
+      "sha256": "2ac5752966fa17a9c65f5c5c728970a4c2114efe08332719f8f82e92aebdb40b",
+      "passed": true,
+      "solids": 1,
+      "volume_mm3": 15136.546469980574
+    },
+    {
+      "file": "C14.step",
+      "sha256": "266eb52736bc123efaabc225c9a426ff34b2fc24d044666c7384221e68d9bf80",
+      "passed": true,
+      "solids": 1,
+      "volume_mm3": 20554.54646998057
+    },
+    {
+      "file": "C15.step",
+      "sha256": "c23f69a0421b52b022a2a0afc121783e191d0eb33ae4e49dbbd32c76d03d5c85",
+      "passed": true,
+      "solids": 1,
+      "volume_mm3": 4482.433087475713
+    },
+    {
+      "file": "C16.step",
+      "sha256": "66a254427c9a4e544aa82b9936939f30c38724cd670213e61e977937f728b2b6",
+      "passed": true,
+      "solids": 1,
+      "volume_mm3": 5222.061959974096
+    },
+    {
+      "file": "C17.step",
+      "sha256": "94dc344b87167402e21f2e1bbec42f24a89b140a71f3f69ec4a9e1a780c9ab43",
+      "passed": true,
+      "solids": 1,
+      "volume_mm3": 947.0309799870472
+    },
+    {
+      "file": "C18.step",
+      "sha256": "1bbec28b6be1730664579908df18565dbbf71d955f0f3a65230ae0125f76be16",
+      "passed": true,
+      "solids": 1,
+      "volume_mm3": 34118.296492588815
+    },
+    {
+      "file": "C19.step",
+      "sha256": "a5d6e09885b5b2c5b1f1f8adc1692e55d404fa1681f21baafaed34915da75be7",
+      "passed": true,
+      "solids": 1,
+      "volume_mm3": 21013.72236944163
+    },
+    {
+      "file": "chassis-a2-r1-implante.step",
+      "sha256": "5b015bf59800b186dc31814df4c4378941578aacca3340b4b615a4e91fa311f5",
+      "passed": true,
+      "solids": 225,
+      "volume_mm3": 3467723.7907170835,
+      "bounds_mm": {
+        "xmin": -213.0,
+        "xmax": 213.0,
+        "ymin": -6.0,
+        "ymax": 520.0,
+        "zmin": 0.0,
+        "zmax": 258.68292504874
+      },
+      "max_bbox_error_mm": 0.0
+    },
+    {
+      "file": "chassis-a2-r1-nu.step",
+      "sha256": "6bd6d772299c6eb8137525dc151c7c58a80bb462e23eeaeca8b43a2180bc58c3",
+      "passed": true,
+      "solids": 69,
+      "volume_mm3": 1163420.095579508,
+      "bounds_mm": {
+        "xmin": -182.0,
+        "xmax": 182.0,
+        "ymin": -6.0,
+        "ymax": 520.0,
+        "zmin": 8.0,
+        "zmax": 246.0
+      },
+      "max_bbox_error_mm": 0.0
+    }
+  ],
+  "hardware_tested": false,
+  "GUI_test": false
+}

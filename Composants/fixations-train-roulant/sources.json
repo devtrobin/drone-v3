@@ -1,0 +1,52 @@
+{
+  "selected_on": "2026-10-13",
+  "selected_by": "assistant, authorized by user",
+  "reference": "Tamiya 50594, 9805557, 50577, 9805945 et 50582",
+  "quantity_design": "4 goupilles, 4 écrous de roue, 4 vis de pivot avant et les pivots des renvois ; compléments châssis après implantation",
+  "purchased": false,
+  "hardware_tested": false,
+  "model_3d_created": true,
+  "purchase_status": "Not an identified or verified Amazon offer; fabrication lines are not purchase-ready",
+  "price_eur": null,
+  "amazon_search_url": "https://www.amazon.fr/s?k=Tamiya+50594+50582+9805557",
+  "specifications": {
+    "goupilles de roues": "50594 : Ø2×10 mm, quatre utilisées ; vérifier celles incluses dans 53569",
+    "écrous de roues": "9805557 : écrous nylstop à flasque de 4 mm, MC4 dans la notice",
+    "pivots de fusées": "50577 : vis autotaraudeuses 3×10 mm, avec pièces A6 selon étape 18",
+    "pivots de renvois": "9805945 : vis décolletée 3×18 ; 50582 : vis décolletée 3×14 suivant étape 19",
+    "palonnier servo": "Vis M2×4 du FT90M, séparée de la visserie Tamiya"
+  },
+  "sources": [
+    {
+      "url": "https://www.tamiya.com/english/products/50594/index.html",
+      "type": "primary or explicitly identified supplier reference",
+      "checked_on": "2026-10-13"
+    },
+    {
+      "url": "https://www.tamiya.com/english/products/50582/index.html",
+      "type": "primary or explicitly identified supplier reference",
+      "checked_on": "2026-10-13"
+    },
+    {
+      "url": "https://www.tamiya.com/english/products/50577/index.html",
+      "type": "primary or explicitly identified supplier reference",
+      "checked_on": "2026-10-13"
+    }
+  ],
+  "documents": [
+    {
+      "file": "Tamiya-TT01R-notice-constructeur.pdf",
+      "url": "https://www.tamiya.com/cms/english/rc/rcmanual/tt01r.pdf",
+      "bytes": 4744628,
+      "sha256": "c8ef6f865c9a81df967932ec86143cf1074ecc2f6d48df566a94c0d2643a9ed1",
+      "modified": false,
+      "local_file": "../direction-et-transmission/notices/Tamiya-TT01R-notice-constructeur.pdf"
+    }
+  ],
+  "unknowns": [
+    "Disponibilité des références de service et accessoires inclus",
+    "Quantités de vis châssis, entretoises et retenues axiales à terminer après implantation",
+    "Vérifier les filetages et les portées avant de substituer une référence générique"
+  ],
+  "model_3d_manifest": "3D/provenance.json"
+}

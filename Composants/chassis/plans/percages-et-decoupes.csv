@@ -1,0 +1,224 @@
+﻿piece;feature;type;x_mm;y_mm;diametre_mm;longueur_mm;largeur_mm;angle_deg;usage
+C01;1;hole;15;40;4.5;;;;C03 traverse avant
+C01;2;hole;15;70;4.5;;;;C03 traverse avant
+C01;3;hole;50;40;4.5;;;;C03 traverse avant
+C01;4;hole;50;70;4.5;;;;C03 traverse avant
+C01;5;hole;250;40;4.5;;;;C03 traverse avant
+C01;6;hole;250;70;4.5;;;;C03 traverse avant
+C01;7;hole;285;40;4.5;;;;C03 traverse avant
+C01;8;hole;285;70;4.5;;;;C03 traverse avant
+C01;9;hole;20;120;4.5;;;;L01 longeron
+C01;10;hole;20;215;4.5;;;;L01 longeron
+C01;11;hole;20;355;4.5;;;;L01 longeron
+C01;12;hole;280;120;4.5;;;;L01 longeron
+C01;13;hole;280;215;4.5;;;;L01 longeron
+C01;14;hole;280;355;4.5;;;;L01 longeron
+C01;15;hole;78;194;4.5;;;;Pont C02 / tube L70
+C01;16;hole;78;408;4.5;;;;Pont C02 / tube L70
+C01;17;hole;222;194;4.5;;;;Pont C02 / tube L70
+C01;18;hole;222;408;4.5;;;;Pont C02 / tube L70
+C01;19;hole;127;68;2.7;;;;C08 servo / entretoise20
+C01;20;hole;127;92;2.7;;;;C08 servo / entretoise20
+C01;21;hole;173;68;2.7;;;;C08 servo / entretoise20
+C01;22;hole;173;92;2.7;;;;C08 servo / entretoise20
+C01;23;hole;17;102;4.5;;;;C07 pod ED80 / tube L56
+C01;24;hole;17;178;4.5;;;;C07 pod ED80 / tube L56
+C01;25;hole;93;102;4.5;;;;C07 pod ED80 / tube L56
+C01;26;hole;93;178;4.5;;;;C07 pod ED80 / tube L56
+C01;27;hole;76;435;3.5;;;;P1 capteur vitesse, pied réglable
+C01;28;hole;76;455;3.5;;;;P1 capteur vitesse, pied réglable
+C01;29;hole;224;435;3.5;;;;P1 capteur vitesse, pied réglable
+C01;30;hole;224;455;3.5;;;;P1 capteur vitesse, pied réglable
+C01;31;slot;116;230;;23;3.5;90;Sangle20 batterie
+C01;32;slot;184;230;;23;3.5;90;Sangle20 batterie
+C01;33;slot;116;310;;23;3.5;90;Sangle20 batterie
+C01;34;slot;184;310;;23;3.5;90;Sangle20 batterie
+C01;35;hole;130;193;3.5;;;;C16 butée batterie
+C01;36;hole;170;193;3.5;;;;C16 butée batterie
+C01;37;hole;130;347;3.5;;;;C16 butée batterie
+C01;38;hole;170;347;3.5;;;;C16 butée batterie
+C01;39;hole;122;212;3.5;;;;C17 guide latéral batterie
+C01;40;hole;122;328;3.5;;;;C17 guide latéral batterie
+C01;41;hole;178;212;3.5;;;;C17 guide latéral batterie
+C01;42;hole;178;328;3.5;;;;C17 guide latéral batterie
+C01;43;hole;32;487;4.5;;;;L02 pieds portique caméra
+C01;44;hole;12;487;4.5;;;;L02 pieds portique caméra
+C01;45;hole;268;487;4.5;;;;L02 pieds portique caméra
+C01;46;hole;288;487;4.5;;;;L02 pieds portique caméra
+C01;47;hole;170.0;102.0;3.5;;;;C05 cassette
+C01;48;hole;170.0;178.0;3.5;;;;C05 cassette
+C01;49;hole;280.0;102.0;3.5;;;;C05 cassette
+C01;50;hole;280.0;178.0;3.5;;;;C05 cassette
+C01;51;hole;193.0;210.0;3.5;;;;C06 cassette
+C01;52;hole;193.0;314.0;3.5;;;;C06 cassette
+C01;53;hole;283.0;210.0;3.5;;;;C06 cassette
+C01;54;hole;283.0;314.0;3.5;;;;C06 cassette
+C01;55;hole;247.0;333.0;3.5;;;;C12 cassette
+C01;56;hole;247.0;403.0;3.5;;;;C12 cassette
+C01;57;hole;277.0;333.0;3.5;;;;C12 cassette
+C01;58;hole;277.0;403.0;3.5;;;;C12 cassette
+C01;59;hole;16.0;192.0;3.5;;;;C13 cassette
+C01;60;hole;16.0;258.0;3.5;;;;C13 cassette
+C01;61;hole;64.0;192.0;3.5;;;;C13 cassette
+C01;62;hole;64.0;258.0;3.5;;;;C13 cassette
+C01;63;hole;16.0;278.0;3.5;;;;C14 cassette
+C01;64;hole;16.0;328.0;3.5;;;;C14 cassette
+C01;65;hole;108.0;278.0;3.5;;;;C14 cassette
+C01;66;hole;108.0;328.0;3.5;;;;C14 cassette
+C01;67;hole;127.0;132.0;3.5;;;;C15 cassette
+C01;68;hole;127.0;158.0;3.5;;;;C15 cassette
+C01;69;hole;153.0;132.0;3.5;;;;C15 cassette
+C01;70;hole;153.0;158.0;3.5;;;;C15 cassette
+C01;71;hole;84.0;362.0;3.5;;;;C11G cassette
+C01;72;hole;84.0;390.0;3.5;;;;C11G cassette
+C01;73;hole;122.0;362.0;3.5;;;;C11G cassette
+C01;74;hole;122.0;390.0;3.5;;;;C11G cassette
+C01;75;hole;178.0;362.0;3.5;;;;C11D cassette
+C01;76;hole;178.0;390.0;3.5;;;;C11D cassette
+C01;77;hole;216.0;362.0;3.5;;;;C11D cassette
+C01;78;hole;216.0;390.0;3.5;;;;C11D cassette
+C01;79;hole;270;392;4.5;;;;C04D lumières
+C01;80;hole;270;460;4.5;;;;C04D lumières
+C01;81;hole;290;392;4.5;;;;C04D lumières
+C01;82;hole;290;460;4.5;;;;C04D lumières
+C01;83;hole;30;392;4.5;;;;C04G lumières
+C01;84;hole;30;460;4.5;;;;C04G lumières
+C01;85;hole;10;392;4.5;;;;C04G lumières
+C01;86;hole;10;460;4.5;;;;C04G lumières
+C05;1;hole;7.5;7.0;3.5;;;;Fixation cassette M3
+C05;2;hole;7.5;83.0;3.5;;;;Fixation cassette M3
+C05;3;hole;117.5;7.0;3.5;;;;Fixation cassette M3
+C05;4;hole;117.5;83.0;3.5;;;;Fixation cassette M3
+C06;1;hole;7.0;8.0;3.5;;;;Fixation cassette M3
+C06;2;hole;7.0;112.0;3.5;;;;Fixation cassette M3
+C06;3;hole;97.0;8.0;3.5;;;;Fixation cassette M3
+C06;4;hole;97.0;112.0;3.5;;;;Fixation cassette M3
+C12;1;hole;10.0;7.5;3.5;;;;Fixation cassette M3
+C12;2;hole;10.0;77.5;3.5;;;;Fixation cassette M3
+C12;3;hole;40.0;7.5;3.5;;;;Fixation cassette M3
+C12;4;hole;40.0;77.5;3.5;;;;Fixation cassette M3
+C13;1;hole;7.0;8.0;3.5;;;;Fixation cassette M3
+C13;2;hole;7.0;74.0;3.5;;;;Fixation cassette M3
+C13;3;hole;55.0;8.0;3.5;;;;Fixation cassette M3
+C13;4;hole;55.0;74.0;3.5;;;;Fixation cassette M3
+C14;1;hole;7.0;7.5;3.5;;;;Fixation cassette M3
+C14;2;hole;7.0;57.5;3.5;;;;Fixation cassette M3
+C14;3;hole;99.0;7.5;3.5;;;;Fixation cassette M3
+C14;4;hole;99.0;57.5;3.5;;;;Fixation cassette M3
+C15;1;hole;7.0;7.0;3.5;;;;Fixation cassette M3
+C15;2;hole;7.0;33.0;3.5;;;;Fixation cassette M3
+C15;3;hole;33.0;7.0;3.5;;;;Fixation cassette M3
+C15;4;hole;33.0;33.0;3.5;;;;Fixation cassette M3
+C15;5;slot;20;20;;20;3.5;90;Collier isolé
+C11G;1;hole;6.0;6.0;3.5;;;;Fixation cassette M3
+C11G;2;hole;6.0;34.0;3.5;;;;Fixation cassette M3
+C11G;3;hole;44.0;6.0;3.5;;;;Fixation cassette M3
+C11G;4;hole;44.0;34.0;3.5;;;;Fixation cassette M3
+C11G;5;slot;14;20;;25;3.5;90;Maintien ESC
+C11G;6;slot;36;20;;25;3.5;90;Maintien ESC
+C11D;1;hole;6.0;6.0;3.5;;;;Fixation cassette M3
+C11D;2;hole;6.0;34.0;3.5;;;;Fixation cassette M3
+C11D;3;hole;44.0;6.0;3.5;;;;Fixation cassette M3
+C11D;4;hole;44.0;34.0;3.5;;;;Fixation cassette M3
+C11D;5;slot;14;20;;25;3.5;90;Maintien ESC
+C11D;6;slot;36;20;;25;3.5;90;Maintien ESC
+C04D;1;slot;28;12;;15;4.5;0;Fixation transmission au plateau
+C04D;2;slot;28;80;;15;4.5;0;Fixation transmission au plateau
+C04D;3;slot;48;12;;15;4.5;0;Fixation transmission au plateau
+C04D;4;slot;48;80;;15;4.5;0;Fixation transmission au plateau
+C04G;1;slot;62;12;;15;4.5;0;Fixation transmission au plateau
+C04G;2;slot;62;80;;15;4.5;0;Fixation transmission au plateau
+C04G;3;slot;42;12;;15;4.5;0;Fixation transmission au plateau
+C04G;4;slot;42;80;;15;4.5;0;Fixation transmission au plateau
+C03;1;hole;39;10;4.5;;;;Fixation au plateau
+C03;2;hole;39;40;4.5;;;;Fixation au plateau
+C03;3;hole;74;10;4.5;;;;Fixation au plateau
+C03;4;hole;74;40;4.5;;;;Fixation au plateau
+C03;5;hole;274;10;4.5;;;;Fixation au plateau
+C03;6;hole;274;40;4.5;;;;Fixation au plateau
+C03;7;hole;309;10;4.5;;;;Fixation au plateau
+C03;8;hole;309;40;4.5;;;;Fixation au plateau
+C03;9;hole;4;26;3.5;;;;Fourche F-AV, montage nominal
+C03;10;hole;4;40;3.5;;;;Fourche F-AV, montage nominal
+C03;11;hole;344;26;3.5;;;;Fourche F-AV, montage nominal
+C03;12;hole;344;40;3.5;;;;Fourche F-AV, montage nominal
+C03;13;hole;151;38;2.7;;;;Entretoise avant servo17.5
+C03;14;hole;197;38;2.7;;;;Entretoise avant servo17.5
+C07;1;hole;45;45;25;;;;ED80 centre
+C07;2;hole;21;45;5.5;;;;ED80 fixation
+C07;3;hole;69;45;5.5;;;;ED80 fixation
+C07;4;hole;7;7;4.5;;;;Tube L56
+C07;5;hole;7;83;4.5;;;;Tube L56
+C07;6;hole;83;7;4.5;;;;Tube L56
+C07;7;hole;83;83;4.5;;;;Tube L56
+C08;1;window;27.5;17.5;;24;13;;Passage corps FT90M
+C08;2;hole;13.25;17.5;2.2;;;;FT90M oreilles à vérifier
+C08;3;hole;41.75;17.5;2.2;;;;FT90M oreilles à vérifier
+C08;4;hole;4.5;5.5;2.7;;;;Entretoises20
+C08;5;hole;4.5;29.5;2.7;;;;Entretoises20
+C08;6;hole;50.5;5.5;2.7;;;;Entretoises20
+C08;7;hole;50.5;29.5;2.7;;;;Entretoises20
+C02;1;hole;8;14;4.5;;;;Tube L70
+C02;2;hole;8;228;4.5;;;;Tube L70
+C02;3;hole;152;14;4.5;;;;Tube L70
+C02;4;hole;152;228;4.5;;;;Tube L70
+C02;5;hole;14;94;3.5;;;;Porteuse M1P
+C02;6;hole;14;161;3.5;;;;Porteuse M1P
+C02;7;hole;146;94;3.5;;;;Porteuse M1P
+C02;8;hole;146;161;3.5;;;;Porteuse M1P
+C02;9;hole;48.5;173.5;2.7;;;;Pi5 rectangle58 x49
+C02;10;hole;48.5;222.5;2.7;;;;Pi5 rectangle58 x49
+C02;11;hole;106.5;173.5;2.7;;;;Pi5 rectangle58 x49
+C02;12;hole;106.5;222.5;2.7;;;;Pi5 rectangle58 x49
+C02;13;window;63;227;;18;4;;"Passage des fils sous GPIO ; souder Pi hors châssis"
+C02;14;hole;11;19;3.5;;;;Cassette EVM
+C02;15;hole;11;81;3.5;;;;Cassette EVM
+C02;16;hole;73;19;3.5;;;;Cassette EVM
+C02;17;hole;73;81;3.5;;;;Cassette EVM
+C02;18;hole;87;19;3.5;;;;Cassette EVM
+C02;19;hole;87;81;3.5;;;;Cassette EVM
+C02;20;hole;149;19;3.5;;;;Cassette EVM
+C02;21;hole;149;81;3.5;;;;Cassette EVM
+C02;22;hole;10;188;3.5;;;;Cassette régulateur
+C02;23;hole;10;216;3.5;;;;Cassette régulateur
+C02;24;hole;34;188;3.5;;;;Cassette régulateur
+C02;25;hole;34;216;3.5;;;;Cassette régulateur
+C02;26;slot;10;3;;10;3.5;0;Signal / retenue câble
+C02;27;slot;150;3;;10;3.5;0;Signal / retenue câble
+C02;28;slot;10;87;;10;3.5;0;Signal / retenue câble
+C02;29;slot;150;87;;10;3.5;0;Signal / retenue câble
+C02;30;slot;10;166;;10;3.5;0;Signal / retenue câble
+C02;31;slot;150;166;;10;3.5;0;Signal / retenue câble
+C09;1;hole;5;5;3.5;;;;Fixation cassette EVM
+C09;2;hole;5;67;3.5;;;;Fixation cassette EVM
+C09;3;hole;67;5;3.5;;;;Fixation cassette EVM
+C09;4;hole;67;67;3.5;;;;Fixation cassette EVM
+C09;5;slot;3;36;;20;3;90;Lien silicone sur isolant
+C09;6;slot;69;36;;20;3;90;Lien silicone sur isolant
+C10;1;hole;5;10;3.5;;;;Fixation au pont, tête affleurante
+C10;2;hole;5;38;3.5;;;;Fixation au pont, tête affleurante
+C10;3;hole;29;10;3.5;;;;Fixation au pont, tête affleurante
+C10;4;hole;29;38;3.5;;;;Fixation au pont, tête affleurante
+C16;1;hole;8;6;3.5;;;;Butée M3
+C16;2;hole;48;6;3.5;;;;Butée M3
+C17;1;hole;4;8;3.5;;;;Guide M3
+C18;1;hole;12.5;12;4.5;;;;Portique M4
+C18;2;hole;12.5;28;4.5;;;;Portique M4
+C18;3;hole;12.5;212;4.5;;;;Portique M4
+C18;4;hole;12.5;224;4.5;;;;Portique M4
+C19;1;hole;14;7;4.5;;;;Montants caméra M4
+C19;2;hole;14;19;4.5;;;;Montants caméra M4
+C19;3;hole;270;7;4.5;;;;Montants caméra M4
+C19;4;hole;270;19;4.5;;;;Montants caméra M4
+C19;5;hole;122;12;4.5;;;;L03 angle pivot
+C19;6;hole;142;12;4.5;;;;L03 angle pivot
+L01-semelle;1;hole;20;15;4.5;;;;Station depuis coupe avant, distance depuis talon extérieur
+L01-semelle;2;hole;115;15;4.5;;;;Station depuis coupe avant, distance depuis talon extérieur
+L01-semelle;3;hole;255;15;4.5;;;;Station depuis coupe avant, distance depuis talon extérieur
+L02-semelle;1;hole;10;15;4.5;;;;Depuis coin avant gauche de la semelle
+L02-semelle;2;hole;30;15;4.5;;;;Depuis coin avant gauche de la semelle
+L02-verticale;1;hole;20;15;4.5;;;;Depuis côté gauche et dessous semelle
+L02-verticale;2;hole;20;31;4.5;;;;Depuis côté gauche et dessous semelle
+L03-arriere;1;hole;15;35;4.5;;;;Depuis côté gauche et coupe inférieure
+L03-arriere;2;hole;35;35;4.5;;;;Depuis côté gauche et coupe inférieure
+L03-pivot;1;slot;13;25;;44.5;4.5;90;Depuis chant avant et coupe inférieure

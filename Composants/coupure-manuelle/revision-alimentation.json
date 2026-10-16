@@ -1,0 +1,6 @@
+{
+  "date": "2026-10-15",
+  "current_source": "../verification-alimentation/selection-active.json",
+  "note": "ED80 conservé, après le nouveau F0 classe T et avant D+. La logique de surveillance alimentée avant ED80 et les voies de cellule restent à débrancher pour stockage. ED80 coupe les charges, pas une protection universelle du pack.",
+  "old_project_PDFs_and_complete_CAD_historical": true
+}

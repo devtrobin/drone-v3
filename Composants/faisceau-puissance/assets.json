@@ -1,0 +1,319 @@
+{
+  "checked_on": "2026-10-14",
+  "assets": [
+    {
+      "file": "sources-web/Klauke-95R.html",
+      "url": "https://www.klauke.com/gb/en/tubular-cable-lugs-cu-standard-type-4959",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "file": "sources-web/AUPROTEC-FLRYB6.html",
+      "url": "https://auprotec.de/de/elektrik/fahrzeugleitungen-einadrig/flry-b-leitung/6-00-mm2-flry-b-leitung/flry-b-6-0-mm2-batteriekabel-rot-6m-ring/p/044906",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "status": "downloaded",
+      "bytes": 193282,
+      "sha256": "1b829c61897d6b9dbe1e4b022b426f50888c4010e38becfe8510df7751e062c8",
+      "final_url": "https://auprotec.de/de/elektrik/fahrzeugleitungen-einadrig/flry-b-leitung/6-00-mm2-flry-b-leitung/flry-b-6-0-mm2-batteriekabel-rot-6m-ring/p/044906"
+    },
+    {
+      "file": "sources-web/Ancor-catalogue-page24.html",
+      "url": "https://docs.navico.com/view/362211770/24/",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "status": "downloaded",
+      "bytes": 86576,
+      "sha256": "c2e3cbe3512d9e17456e7b5edd89d36367ab4d454f6b8e24dbae921a0b56105a",
+      "final_url": "https://docs.navico.com/view/362211770/24/"
+    },
+    {
+      "file": "sources-web/Ancor-catalogue-page25.html",
+      "url": "https://docs.navico.com/view/362211770/25/",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "status": "downloaded",
+      "bytes": 85923,
+      "sha256": "5767c58df3b568d12535f72a5f5342fb917225f3aa6fa8fd01853237099b22be",
+      "final_url": "https://docs.navico.com/view/362211770/25/"
+    },
+    {
+      "file": "notices/Ancor-catalogue-2020-original.pdf",
+      "url": "https://www.projectk.co.jp/marine/pdf/2020_ancor_catalog.pdf",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "status": "downloaded",
+      "bytes": 24917213,
+      "sha256": "949c3e07fd8a898ce720434794f72486451fca42496d81de22943d775b9b3780",
+      "final_url": "https://www.projectk.co.jp/marine/pdf/2020_ancor_catalog.pdf"
+    },
+    {
+      "file": "notices/Klauke-catalogue-2019-original.pdf",
+      "url": "https://www.klauke.com/Media/Default/Downloads/CatalogsBrochures/KATHAUPT19GB_06_19_I_GB_web.pdf",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "file": "notices/HT-isolation-catalogue-2026-original.pdf",
+      "url": "https://www.hellermanntyton.com/binaries/content/assets/downloads/com/product_catalogue/ht_insulation_2026_com.pdf",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "status": "unavailable",
+      "error": "HTTP Error 522: <none>"
+    },
+    {
+      "file": "notices/HT-T18R-11101919-fiche-originale.pdf",
+      "url": "https://www.hellermanntyton.com/shared/assets/TDS_111-01919_com.pdf",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "status": "downloaded",
+      "bytes": 130660,
+      "sha256": "e39b11a35116dcd75a92bc20179f2e383d41430d5a683bc647a9d88b92ed5706",
+      "final_url": "https://www.hellermanntyton.com/shared/assets/TDS_111-01919_com.pdf"
+    },
+    {
+      "file": "notices/HT-T18R-plan-original.pdf",
+      "url": "https://www.hellermanntyton.com/shared/assets/CAD_10-0585-001-CSC.pdf",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "status": "downloaded",
+      "bytes": 400038,
+      "sha256": "802fee6ae40d71f001599e86e5fa4ffcaa5b34306f7b1dc26ded80fe289f74af",
+      "final_url": "https://www.hellermanntyton.com/shared/assets/CAD_10-0585-001-CSC.pdf"
+    },
+    {
+      "file": "sources-web/HT-T18R.html",
+      "url": "https://www.hellermanntyton.com/products/cable-ties-inside-serrated/t18r/111-01919",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "file": "sources-web/HT-MB2.html",
+      "url": "https://www.hellermanntyton.com/au/products/cable-tie-mounts/mb2/151-28210",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "file": "sources-web/HT-HISA9.html",
+      "url": "https://www.hellermanntyton.com/products/heat-shrink-tubing/his-a-9-3/308-10900",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "file": "sources-web/Amazon-FR-Ancor312303.html",
+      "url": "https://www.amazon.fr/s?k=Ancor+312303",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "status": "empty_response",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "final_url": "https://www.amazon.fr/s?k=Ancor+312303"
+    },
+    {
+      "file": "sources-web/Amazon-FR-Ancor309203.html",
+      "url": "https://www.amazon.fr/s?k=Ancor+309203",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "status": "empty_response",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "final_url": "https://www.amazon.fr/s?k=Ancor+309203"
+    },
+    {
+      "file": "sources-web/Amazon-FR-Klauke95R.html",
+      "url": "https://www.amazon.fr/s?k=Klauke+95R4+95R5",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "status": "empty_response",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "final_url": "https://www.amazon.fr/s?k=Klauke+95R4+95R5"
+    },
+    {
+      "file": "sources-web/Amazon-FR-HISA9.html",
+      "url": "https://www.amazon.fr/s?k=HellermannTyton+308-10900",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "status": "empty_response",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "final_url": "https://www.amazon.fr/s?k=HellermannTyton+308-10900"
+    },
+    {
+      "file": "sources-web/Amazon-FR-MB2.html",
+      "url": "https://www.amazon.fr/s?k=HellermannTyton+151-28210",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "status": "empty_response",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "final_url": "https://www.amazon.fr/s?k=HellermannTyton+151-28210"
+    },
+    {
+      "file": "sources-web/Amazon-FR-T18R.html",
+      "url": "https://www.amazon.fr/s?k=HellermannTyton+111-01919",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "status": "empty_response",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "final_url": "https://www.amazon.fr/s?k=HellermannTyton+111-01919"
+    },
+    {
+      "file": "sources-web/Amazon-COM-AUPROTEC6.html",
+      "url": "https://www.amazon.com/dp/B00HDGB6GG",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "status": "challenge_html",
+      "bytes": 3781,
+      "sha256": "5de4782fba5c6689262d652fb0b492dcde14f4b0b57353ef4dee8fac05dd9979",
+      "final_url": "https://www.amazon.com/dp/B00HDGB6GG"
+    },
+    {
+      "file": "sources-web/Amazon-FR-AUPROTEC6.html",
+      "url": "https://www.amazon.fr/dp/B00HDGB6GG",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "status": "challenge_html",
+      "bytes": 3815,
+      "sha256": "154c014a1067a2726d0cecf3ad152d744ec4512a2408585c89b981f49455d284",
+      "final_url": "https://www.amazon.fr/dp/B00HDGB6GG"
+    },
+    {
+      "file": "sources-web/TE-ATUM8.html",
+      "url": "https://www.te.com/en/product-NB11802001.html",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "file": "notices/TE-ATUM-guide-2015-original.pdf",
+      "url": "https://www.te.com/content/dam/te-com/documents/energy/jpn/heat_shrink_tubing_2015-03_rev.pdf",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "file": "notices/Klauke-cosses-catalogue-via-IEP.pdf",
+      "url": "https://www.iep.com.my/wp-content/uploads/2020/10/Klauke-cable-lugs.pdf",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "status": "unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "file": "notices/HT-MB2-15128210-fiche-originale.pdf",
+      "url": "https://www.hellermanntyton.com/shared/assets/TDS_151-28210_com.pdf",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "status": "unavailable",
+      "error": "HTTP Error 522: <none>"
+    },
+    {
+      "file": "sources-web/Amazon-FR-ATUM8.html",
+      "url": "https://www.amazon.fr/s?k=Raychem+ATUM-8%2F2-0-STK",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "status": "empty_response",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "final_url": "https://www.amazon.fr/s?k=Raychem+ATUM-8%2F2-0-STK"
+    },
+    {
+      "file": "notices/HT-MB2-plan-original.pdf",
+      "url": "https://www.hellermanntyton.com/shared/assets/CAD_141622.pdf",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "status": "downloaded",
+      "bytes": 36513,
+      "sha256": "83251e2c18bc90ef5d4877e67a6795188a6ff52faa41d084f556617430541382",
+      "final_url": "https://www.hellermanntyton.com/shared/assets/CAD_141622.pdf"
+    },
+    {
+      "file": "notices/HT-MB2-fiche-AU-originale.pdf",
+      "url": "https://www.hellermanntyton.com/shared/assets/TDS_151-28210_com_au.pdf",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "status": "unavailable",
+      "error": "The read operation timed out"
+    },
+    {
+      "file": "notices/TE-ATUM-plan-A2-original.pdf",
+      "url": "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocFormat=pdf&DocLang=English&DocNm=ATUM_4_to_RATIO_STANDARD_SIZES&DocType=Customer+Drawing&PartCntxt=NB11802001",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "file": "notices/TE-ATUM-fiche-2024-originale.pdf",
+      "url": "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocFormat=pdf&DocLang=English&DocNm=atum-tubing&DocType=Data+Sheet&PartCntxt=NB11802001",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "file": "photos/Klauke-logo-UL-original.jpg",
+      "url": "https://cdn.klauke.com/resources/images/a6c5ac55-b8af-4cf2-9cd8-73b2bacc4fab",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "status": "downloaded",
+      "bytes": 1717,
+      "sha256": "e8075eb154e69ff69d4b3db92b13cf27b70474c315e3c7f636ef9d645bbfe07a",
+      "final_url": "https://cdn.klauke.com/resources/images/a6c5ac55-b8af-4cf2-9cd8-73b2bacc4fab"
+    },
+    {
+      "file": "photos/Klauke-photo-original",
+      "url": "https://cdn.klauke.com/resources/images/58f368e6-8c3c-46db-9776-cd561880f2d7",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "status": "downloaded",
+      "bytes": 1460,
+      "sha256": "af68f71bf39c1944e249a3163d974d79c1bcf9658d4c0bebd2924961b9a5fd91",
+      "final_url": "https://cdn.klauke.com/resources/images/58f368e6-8c3c-46db-9776-cd561880f2d7"
+    },
+    {
+      "file": "photos/Klauke-dessin-original",
+      "url": "https://cdn.klauke.com/resources/images/6be6e875-a5d3-4ec9-b70a-b47478924bca",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "status": "downloaded",
+      "bytes": 2048,
+      "sha256": "7cc9143fbbefcfb2ad050521e5d9cf3dde75df99b1e241eb5ae011e5f7c7f3ee",
+      "final_url": "https://cdn.klauke.com/resources/images/6be6e875-a5d3-4ec9-b70a-b47478924bca"
+    },
+    {
+      "file": "notices/Klauke-catalogue-via-PowerCables.pdf",
+      "url": "https://www.powerandcables.com/wp-content/uploads/2018/09/Klauke-Cable-Lug-Connectors-Tools-Crimping-Cutting-Section-1.pdf",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "status": "downloaded",
+      "bytes": 12058267,
+      "sha256": "d4bc27d62aadb34dd0c93b875a21283e5f4aacf1c1b23001b8236dc514ed6d72",
+      "final_url": "https://www.powerandcables.com/wp-content/uploads/2018/09/Klauke-Cable-Lug-Connectors-Tools-Crimping-Cutting-Section-1.pdf"
+    },
+    {
+      "file": "notices/TE-ATUM-fiche-via-Raytronics.pdf",
+      "url": "https://raytronics.ch/phocadownloadpap/Datasheets/heat_shrink_tube_with_adhesive/Heat%20shrink%20tube%20with%20adhesive%20ATUM%203%20to%201%204%20to%201%20environmentally%20sealing%20Raytronics%20AG.pdf",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "status": "downloaded",
+      "bytes": 112490,
+      "sha256": "f5fa606aef9ce7c373ddc4f1ea3d8801deb324f3d33d6929e142b8bbaa56136b",
+      "final_url": "https://raytronics.ch/phocadownloadpap/Datasheets/heat_shrink_tube_with_adhesive/Heat%20shrink%20tube%20with%20adhesive%20ATUM%203%20to%201%204%20to%201%20environmentally%20sealing%20Raytronics%20AG.pdf"
+    }
+  ]
+}

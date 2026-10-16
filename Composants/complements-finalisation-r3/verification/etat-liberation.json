@@ -1,0 +1,13 @@
+{
+  "review_date": "2026-10-17",
+  "user_confirmed_no_parts_received": true,
+  "fixed_harness_and_supports_nominally_defined": true,
+  "terminal_tails_and_fittings_fully_defined": false,
+  "all_supplier_dimensions_exact": false,
+  "servo_power_pair_validated": false,
+  "complete_fuse_coordination_proven": false,
+  "full_vehicle_manufacturing_released": false,
+  "vehicle_power_on_released": false,
+  "physical_tests_done": false,
+  "remaining_conditions": "../conditions-restantes.json"
+}

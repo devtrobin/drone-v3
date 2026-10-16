@@ -1,0 +1,92 @@
+{
+  "file": "paire-18awg-courbe-etude.step",
+  "title": "AlimentationPi | paire18AWG",
+  "generated_on": "2026-10-14",
+  "unit": "mm",
+  "cadquery_version": "2.8.0",
+  "coordinate_system": "Axe principal Z; face de reference z=0; dimensions selon parametres",
+  "bytes": 97264,
+  "sha256": "fccb59ee1754979a36b1fbcbdcb56b447b34a847fb93e0e20c1ac9fd8ca133cb",
+  "native_vendor_cad": false,
+  "hardware_measured": false,
+  "is_custom_project_design": true,
+  "published_nominal": [
+    "18AWGBNTECHGO, siliconeØ2.3."
+  ],
+  "estimates_and_limitations": [
+    "Âmeéquivalente0.754mm² pourreprésentationcourbe ; pas150brinscourbesdanscemodèle, longueurcourteillustrative.",
+    "Nuances optiques estimées ; géométrie non mesurée. Pas de plan de fabrication ni de qualification mécanique/électrique."
+  ],
+  "parameters": {},
+  "source_pages": [
+    "Voir sources.json et cotes.md du composant / ensemble"
+  ],
+  "bounds_mm": {
+    "xmin": -3.150000099999712,
+    "xmax": 3.1500001000000037,
+    "ymin": -1.1500001000002222,
+    "ymax": 13.150000100000222,
+    "zmin": -1.0000000355271367e-07,
+    "zmax": 58.00000010000008
+  },
+  "validation": {
+    "valid_after_reimport": true,
+    "solids": 4,
+    "faces": 14,
+    "colors": 3,
+    "volume_relative_error": 1.3210306822152509e-14,
+    "volume_relative_error_limit": 0.0001,
+    "volume_before_mm3": 494.84037403514094,
+    "volume_after_mm3": 494.8403740351344,
+    "adaptive_volume_tolerance": 1e-09,
+    "bbox_error_mm": 2.8954616482224083e-13,
+    "bbox_error_limit_mm": 0.01,
+    "void_and_material_probes": [],
+    "elapsed_seconds": 0.8664599999974598,
+    "volume_after_default_quadrature_mm3": 494.84037403559904
+  },
+  "parts": [
+    {
+      "name": "Piece_fil18_rouge_ame_equivalente",
+      "color_linear_rgb": [
+        0.58,
+        0.25,
+        0.1
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Piece_fil18_rouge_gaine",
+      "color_linear_rgb": [
+        0.7,
+        0.008,
+        0.009
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Piece_fil18_noir_ame_equivalente",
+      "color_linear_rgb": [
+        0.58,
+        0.25,
+        0.1
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Piece_fil18_noir_gaine",
+      "color_linear_rgb": [
+        0.018,
+        0.021,
+        0.025
+      ],
+      "solids": 1
+    }
+  ],
+  "preview": {
+    "file": "paire-18awg-courbe-etude.png",
+    "sha256": "3abdfa7ff2be841234b8f8d8aa805e972cd132936c7cbb4f152ecc1ff9ef237a"
+  },
+  "component_folder": "liaisons-alimentation-surveillance/fil-18awg",
+  "relative_step_path": "liaisons-alimentation-surveillance/fil-18awg/3D/paire-18awg-courbe-etude.step"
+}

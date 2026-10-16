@@ -1,0 +1,18 @@
+{
+  "status": "Sélection électrique à reprendre D08",
+  "range_pack_V": [
+    6.4,
+    8.4
+  ],
+  "regulated_output_required_for_FT5335M_V": 6,
+  "converter_must_support_VIN_below_VOUT_in_studied_scenarios": true,
+  "servo_work_torque_before_R2_factor2_Nm": 0.588788479019492,
+  "servo_peak_design_torque_with_R2_factor2_Nm": 1.177576958038984,
+  "do_not_substitute_stall_torque_for_continuous_torque": true,
+  "require_minimum_terminal_voltage_after_wire_and_connector_drop": true,
+  "current_transients_must_be_bounded": true,
+  "main_and_FS_fuse_coordination_required": true,
+  "all_servos_without_microcontroller": true,
+  "hardware_received": false,
+  "user_confirmed_no_parts_received_on": "2026-10-17"
+}

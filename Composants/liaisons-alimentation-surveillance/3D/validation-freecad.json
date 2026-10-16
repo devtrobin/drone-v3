@@ -1,0 +1,272 @@
+{
+  "checked_on": "2026-10-14",
+  "all_passed": true,
+  "checks": [
+    {
+      "file": "trois-bornes-potentiels-separes-etude.step",
+      "relative_step_path": "liaisons-alimentation-surveillance/3D/trois-bornes-potentiels-separes-etude.step",
+      "sha256": "d1b83ad679b3de12f6d4418368e993f9ab58bca9f343cc757f9f4a4ca7c118ed",
+      "passed": true,
+      "valid": true,
+      "solids_closed": true,
+      "solids": 17,
+      "faces": 620,
+      "bbox_error_mm": 0.0,
+      "volume_relative_error": 0.0,
+      "volume_mm3": 6917.640338724698,
+      "compared_CadQuery_default_quadrature_mm3": 6917.640338724698,
+      "material_probes": [],
+      "seconds": 2.9948998000036227
+    },
+    {
+      "file": "bntechgo-18awg-150brins.step",
+      "relative_step_path": "liaisons-alimentation-surveillance/fil-18awg/3D/bntechgo-18awg-150brins.step",
+      "sha256": "aa97f3c7971c5d29dab6e2e9dbb95ade92693cc2c4f16315fbaeeb2bccef04ac",
+      "passed": true,
+      "valid": true,
+      "solids_closed": true,
+      "solids": 151,
+      "faces": 454,
+      "bbox_error_mm": 0.0,
+      "volume_relative_error": 0.0,
+      "volume_mm3": 98.26461997457659,
+      "compared_CadQuery_default_quadrature_mm3": 98.26461997457659,
+      "material_probes": [],
+      "seconds": 1.014284900003986
+    },
+    {
+      "file": "paire-18awg-courbe-etude.step",
+      "relative_step_path": "liaisons-alimentation-surveillance/fil-18awg/3D/paire-18awg-courbe-etude.step",
+      "sha256": "fccb59ee1754979a36b1fbcbdcb56b447b34a847fb93e0e20c1ac9fd8ca133cb",
+      "passed": true,
+      "valid": true,
+      "solids_closed": true,
+      "solids": 4,
+      "faces": 14,
+      "bbox_error_mm": 0.0,
+      "volume_relative_error": 0.0,
+      "volume_mm3": 494.84037403559904,
+      "compared_CadQuery_default_quadrature_mm3": 494.84037403559904,
+      "material_probes": [],
+      "seconds": 0.5021722000019508
+    },
+    {
+      "file": "jst-b3b-xh-a.step",
+      "relative_step_path": "liaisons-alimentation-surveillance/jst-xh-3/3D/jst-b3b-xh-a.step",
+      "sha256": "d881353e873f3e15e876d373dea9529974d5463d6bff34210ae18f1179c9599a",
+      "passed": true,
+      "valid": true,
+      "solids_closed": true,
+      "solids": 4,
+      "faces": 48,
+      "bbox_error_mm": 0.0,
+      "volume_relative_error": 0.0,
+      "volume_mm3": 188.78352000000004,
+      "compared_CadQuery_default_quadrature_mm3": 188.78352000000004,
+      "material_probes": [],
+      "seconds": 0.16844549999950686
+    },
+    {
+      "file": "jst-sxh-001t-p06.step",
+      "relative_step_path": "liaisons-alimentation-surveillance/jst-xh-3/3D/jst-sxh-001t-p06.step",
+      "sha256": "2b66f125f978e99a39139ea656af60e42e8f5ae89d87c3d1ca722cebf02668bb",
+      "passed": true,
+      "valid": true,
+      "solids_closed": true,
+      "solids": 1,
+      "faces": 70,
+      "bbox_error_mm": 0.0,
+      "volume_relative_error": 0.0,
+      "volume_mm3": 3.3350294117285313,
+      "compared_CadQuery_default_quadrature_mm3": 3.3350294117285313,
+      "material_probes": [],
+      "seconds": 0.3539764000015566
+    },
+    {
+      "file": "jst-xh-3-accouple-etude.step",
+      "relative_step_path": "liaisons-alimentation-surveillance/jst-xh-3/3D/jst-xh-3-accouple-etude.step",
+      "sha256": "6bd3bfdbb89a0996abbd8889c740b6a27cbc5191ba160a4957c60751c2de9de8",
+      "passed": true,
+      "valid": true,
+      "solids_closed": true,
+      "solids": 8,
+      "faces": 306,
+      "bbox_error_mm": 0.0,
+      "volume_relative_error": 0.0,
+      "volume_mm3": 422.089608235186,
+      "compared_CadQuery_default_quadrature_mm3": 422.089608235186,
+      "material_probes": [],
+      "seconds": 1.4030618000033428
+    },
+    {
+      "file": "jst-xhp-3.step",
+      "relative_step_path": "liaisons-alimentation-surveillance/jst-xh-3/3D/jst-xhp-3.step",
+      "sha256": "0d9bdfccc689baac16f40d22ebc31c239d79438aaa84d59a14792b62d9e01b8c",
+      "passed": true,
+      "valid": true,
+      "solids_closed": true,
+      "solids": 1,
+      "faces": 48,
+      "bbox_error_mm": 0.0,
+      "volume_relative_error": 0.0,
+      "volume_mm3": 223.30099999999982,
+      "compared_CadQuery_default_quadrature_mm3": 223.30099999999982,
+      "material_probes": [],
+      "seconds": 0.20501510000030976
+    },
+    {
+      "file": "rallonge-equilibrage-2s-20cm.step",
+      "relative_step_path": "liaisons-alimentation-surveillance/rallonge-equilibrage-2s/3D/rallonge-equilibrage-2s-20cm.step",
+      "sha256": "077d335a550b30493204a3825f301b2cc7ad2d6be0902bf57c183d0c1e975b2b",
+      "passed": true,
+      "valid": true,
+      "solids_closed": true,
+      "solids": 15,
+      "faces": 337,
+      "bbox_error_mm": 0.0,
+      "volume_relative_error": 0.0,
+      "volume_mm3": 1617.5295775866966,
+      "compared_CadQuery_default_quadrature_mm3": 1617.5295775866966,
+      "material_probes": [
+        {
+          "point": [
+            -2.5,
+            -0.525,
+            -194.5
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            -2.5,
+            -0.525,
+            -100
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            -2.5,
+            -0.525,
+            -3.3
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            0,
+            -0.525,
+            -194.5
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            0,
+            -0.525,
+            -100
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            0,
+            -0.525,
+            -3.3
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            2.5,
+            -0.525,
+            -194.5
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            2.5,
+            -0.525,
+            -100
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            2.5,
+            -0.525,
+            -3.3
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        }
+      ],
+      "seconds": 3.466882100001385
+    },
+    {
+      "file": "wago-221-413-detaille.step",
+      "relative_step_path": "liaisons-alimentation-surveillance/wago-221-413/3D/wago-221-413-detaille.step",
+      "sha256": "52931185f012a2661667840c4f48cd3058e9a3af6b8c54483011ea639304b851",
+      "passed": true,
+      "valid": true,
+      "solids_closed": true,
+      "solids": 5,
+      "faces": 172,
+      "bbox_error_mm": 0.0,
+      "volume_relative_error": 0.0,
+      "volume_mm3": 1938.3834659591457,
+      "compared_CadQuery_default_quadrature_mm3": 1938.3834659591457,
+      "material_probes": [],
+      "seconds": 1.7018108000047505
+    },
+    {
+      "file": "wago-221-415-detaille.step",
+      "relative_step_path": "liaisons-alimentation-surveillance/wago-221-415/3D/wago-221-415-detaille.step",
+      "sha256": "9922243f818c2c25e37e8839b88bfdf5966682c851fef74ee39b47e69200266f",
+      "passed": true,
+      "valid": true,
+      "solids_closed": true,
+      "solids": 7,
+      "faces": 276,
+      "bbox_error_mm": 0.0,
+      "volume_relative_error": 0.0,
+      "volume_mm3": 3040.8734068064273,
+      "compared_CadQuery_default_quadrature_mm3": 3040.8734068064273,
+      "material_probes": [],
+      "seconds": 1.6631010999990394
+    }
+  ],
+  "mode": "headless",
+  "FreeCAD_version": [
+    "1",
+    "1",
+    "4",
+    "20260928 (Git shallow)",
+    "Unknown",
+    "2026/09/28 13:46:34",
+    "(HEAD detached at 4fd3bf320)",
+    "4fd3bf320d9566a27e60069fc8387448aaa3a094"
+  ],
+  "GUI_tested": false,
+  "CADView_tested": false,
+  "hardware_tested": false,
+  "comparison": "FreeCAD default quadrature versus same CadQuery imported STEP default quadrature. Strict adaptive roundtrip independently in catalogue."
+}

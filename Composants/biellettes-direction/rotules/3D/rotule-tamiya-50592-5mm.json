@@ -1,0 +1,62 @@
+{
+  "file": "rotule-tamiya-50592-5mm.step",
+  "title": "Tamiya 50592 | rotule 5 mm",
+  "generated_on": "2026-10-13",
+  "unit": "mm",
+  "cadquery_version": "2.8.0",
+  "coordinate_system": "Axe principal Z; face de reference z=0; dimensions selon parametres",
+  "bytes": 35221,
+  "sha256": "8209c5ef0fe8b950051cc35a80b94fb823c032dfae19089bd4cd00e62ad8679f",
+  "native_vendor_cad": false,
+  "hardware_measured": false,
+  "is_custom_project_design": false,
+  "published_nominal": [
+    "Boule nominale diametre 5 mm; principe visible notice TT01R p.10"
+  ],
+  "estimates_and_limitations": [
+    "Hauteurs, hexagone AF4.5 et tige M3x0.5 reconstruits; pas un plan Tamiya cote",
+    "Profil de col et longueur de filetage a mesurer"
+  ],
+  "parameters": {},
+  "source_pages": [
+    "Tamiya-TT01R-notice-constructeur.pdf p.10"
+  ],
+  "bounds_mm": {
+    "xmin": -2.5980762113539866,
+    "xmax": 2.598076211353987,
+    "ymin": -2.5,
+    "ymax": 2.5,
+    "zmin": 0.0,
+    "zmax": 10.7
+  },
+  "validation": {
+    "valid_after_reimport": true,
+    "solids": 1,
+    "faces": 12,
+    "colors": 1,
+    "volume_relative_error": 2.3357293322035945e-14,
+    "volume_relative_error_limit": 0.0001,
+    "volume_before_mm3": 119.24872825704657,
+    "volume_after_mm3": 119.24872825704378,
+    "adaptive_volume_tolerance": 1e-09,
+    "bbox_error_mm": 6.710187960834446e-13,
+    "bbox_error_limit_mm": 0.01,
+    "void_and_material_probes": [],
+    "elapsed_seconds": 0.07147439999971539
+  },
+  "parts": [
+    {
+      "name": "Rotule_metal",
+      "color_linear_rgb": [
+        0.62,
+        0.65,
+        0.69
+      ],
+      "solids": 1
+    }
+  ],
+  "preview": {
+    "file": "rotule-tamiya-50592-5mm.png",
+    "sha256": "86de11f3fa2832e42a2cb1f5ada5a26ce722f882b42f87c9fd4675850e3a0ecd"
+  }
+}

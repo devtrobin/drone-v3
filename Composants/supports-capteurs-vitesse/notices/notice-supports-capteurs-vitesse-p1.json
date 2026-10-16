@@ -1,0 +1,15 @@
+{
+  "pages": 3,
+  "renders": [
+    "tools\\temp\\speed-mount\\pdf\\page-1.png",
+    "tools\\temp\\speed-mount\\pdf\\page-2.png",
+    "tools\\temp\\speed-mount\\pdf\\page-3.png"
+  ],
+  "sha256": "03f1ce784467926135851a66b4ade85745428d7dbdbcf3465c303492a8ee8bf9",
+  "visual_review_completed": true,
+  "visually_reviewed_pages": [
+    1,
+    2,
+    3
+  ]
+}

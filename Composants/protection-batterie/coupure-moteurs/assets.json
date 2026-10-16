@@ -1,0 +1,13 @@
+{
+  "checked_on": "2026-10-13",
+  "assets": [
+    {
+      "file": "notices/Sensata-Crydom-1-DC-D1D100-datasheet.pdf",
+      "url": "https://www.farnell.com/datasheets/3917448.pdf",
+      "final_url": "https://www.farnell.com/datasheets/3917448.pdf",
+      "bytes": 515071,
+      "sha256": "26bf94f00221398c179bfbc73e3f2ec0bea8ccea3cbfdd3d21f8564a923d433e",
+      "modified": false
+    }
+  ]
+}

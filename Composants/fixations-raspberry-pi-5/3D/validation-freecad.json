@@ -1,0 +1,2715 @@
+{
+  "checked_on": "2026-10-14",
+  "all_passed": true,
+  "mode": "headless",
+  "FreeCAD_version": [
+    "1",
+    "1",
+    "4",
+    "20260928 (Git shallow)",
+    "Unknown",
+    "2026/09/28 13:46:34",
+    "(HEAD detached at 4fd3bf320)",
+    "4fd3bf320d9566a27e60069fc8387448aaa3a094"
+  ],
+  "volume_method": "FreeCAD Volume compared to CadQuery default quadrature of identical STEP; strict adaptive round-trip conserved separately in catalogue.",
+  "GUI_tested": false,
+  "CADView_tested": false,
+  "hardware_tested": false,
+  "checks": [
+    {
+      "file": "entretoise-mf-m2-5-6-plus-6.step",
+      "sha256": "86d3250f4d8575b95e5922d73b80245d64fa378079d8d6192bfa89cfe2f44281",
+      "passed": true,
+      "valid": true,
+      "solids_closed": true,
+      "solids": 1,
+      "faces": 54,
+      "bbox_error_mm": 0.0,
+      "volume_relative_error": 0.0,
+      "volume_mm3": 136.46770390396347,
+      "compared_default_quadrature_mm3": 136.46770390396347,
+      "source_adaptive_volume_mm3": 136.46744305614465,
+      "material_and_helical_probes": [
+        {
+          "point": [
+            0,
+            0,
+            0.5
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        },
+        {
+          "point": [
+            2.2,
+            0,
+            2
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            1.18,
+            0,
+            0.9
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        },
+        {
+          "point": [
+            1.18,
+            0,
+            1.125
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            1.18,
+            0,
+            2.25
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        },
+        {
+          "point": [
+            1.18,
+            0,
+            2.475
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            0,
+            0,
+            5.5
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            0,
+            0,
+            9
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            1.15,
+            0,
+            6.9
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            1.15,
+            0,
+            7.125
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        },
+        {
+          "point": [
+            1.15,
+            0,
+            8.25
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            1.15,
+            0,
+            8.475
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        },
+        {
+          "point": [
+            1.15,
+            0,
+            9.6
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            1.15,
+            0,
+            9.825
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        },
+        {
+          "point": [
+            1.15,
+            0,
+            10.95
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            1.15,
+            0,
+            11.175
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        }
+      ],
+      "seconds": 1.1598911999972188
+    },
+    {
+      "file": "entretoise-mf-m2-5-8-plus-6.step",
+      "sha256": "3bf6f2168c8a4634e294f9b20c24bc339442961958354a3cac4cf5c049a1f17f",
+      "passed": true,
+      "valid": true,
+      "solids_closed": true,
+      "solids": 1,
+      "faces": 58,
+      "bbox_error_mm": 0.0,
+      "volume_relative_error": 0.0,
+      "volume_mm3": 171.67062331232162,
+      "compared_default_quadrature_mm3": 171.67062331232162,
+      "source_adaptive_volume_mm3": 171.66968281016065,
+      "material_and_helical_probes": [
+        {
+          "point": [
+            0,
+            0,
+            0.5
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        },
+        {
+          "point": [
+            2.2,
+            0,
+            2
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            1.18,
+            0,
+            0.9
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        },
+        {
+          "point": [
+            1.18,
+            0,
+            1.125
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            1.18,
+            0,
+            2.25
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        },
+        {
+          "point": [
+            1.18,
+            0,
+            2.475
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            1.18,
+            0,
+            3.6
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        },
+        {
+          "point": [
+            1.18,
+            0,
+            3.825
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            1.18,
+            0,
+            4.95
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        },
+        {
+          "point": [
+            1.18,
+            0,
+            5.175
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            0,
+            0,
+            7.5
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            0,
+            0,
+            11
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            1.15,
+            0,
+            8.9
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            1.15,
+            0,
+            9.125
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        },
+        {
+          "point": [
+            1.15,
+            0,
+            10.25
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            1.15,
+            0,
+            10.475
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        },
+        {
+          "point": [
+            1.15,
+            0,
+            11.6
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            1.15,
+            0,
+            11.825
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        },
+        {
+          "point": [
+            1.15,
+            0,
+            12.95
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            1.15,
+            0,
+            13.175
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        }
+      ],
+      "seconds": 1.3798139999998966
+    },
+    {
+      "file": "entretoise-mf-m2-5-10-plus-6.step",
+      "sha256": "8c07e9fbca1ac141f45edadea18926778642ba88a0be508fd93b9f437a13651f",
+      "passed": true,
+      "valid": true,
+      "solids_closed": true,
+      "solids": 1,
+      "faces": 60,
+      "bbox_error_mm": 0.0,
+      "volume_relative_error": 0.0,
+      "volume_mm3": 212.94661785791243,
+      "compared_default_quadrature_mm3": 212.94661785791243,
+      "source_adaptive_volume_mm3": 212.94589783994738,
+      "material_and_helical_probes": [
+        {
+          "point": [
+            0,
+            0,
+            0.5
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        },
+        {
+          "point": [
+            2.2,
+            0,
+            2
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            1.18,
+            0,
+            0.9
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        },
+        {
+          "point": [
+            1.18,
+            0,
+            1.125
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            1.18,
+            0,
+            2.25
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        },
+        {
+          "point": [
+            1.18,
+            0,
+            2.475
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            1.18,
+            0,
+            3.6
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        },
+        {
+          "point": [
+            1.18,
+            0,
+            3.825
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            1.18,
+            0,
+            4.95
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        },
+        {
+          "point": [
+            1.18,
+            0,
+            5.175
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            0,
+            0,
+            9.5
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            0,
+            0,
+            13
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            1.15,
+            0,
+            10.9
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            1.15,
+            0,
+            11.125
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        },
+        {
+          "point": [
+            1.15,
+            0,
+            12.25
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            1.15,
+            0,
+            12.475
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        },
+        {
+          "point": [
+            1.15,
+            0,
+            13.6
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            1.15,
+            0,
+            13.825
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        },
+        {
+          "point": [
+            1.15,
+            0,
+            14.95
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            1.15,
+            0,
+            15.175
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        }
+      ],
+      "seconds": 1.4539065999997547
+    },
+    {
+      "file": "entretoise-mf-m2-5-15-plus-6.step",
+      "sha256": "88390fe7c07edcf4dc116ae966afbfd07ce1c9421cb18dd64c7e20b049d1cb48",
+      "passed": true,
+      "valid": true,
+      "solids_closed": true,
+      "solids": 1,
+      "faces": 60,
+      "bbox_error_mm": 0.0,
+      "volume_relative_error": 0.0,
+      "volume_mm3": 321.1999396254457,
+      "compared_default_quadrature_mm3": 321.1999396254457,
+      "source_adaptive_volume_mm3": 321.19906895458064,
+      "material_and_helical_probes": [
+        {
+          "point": [
+            0,
+            0,
+            0.5
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        },
+        {
+          "point": [
+            2.2,
+            0,
+            2
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            1.18,
+            0,
+            0.9
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        },
+        {
+          "point": [
+            1.18,
+            0,
+            1.125
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            1.18,
+            0,
+            2.25
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        },
+        {
+          "point": [
+            1.18,
+            0,
+            2.475
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            1.18,
+            0,
+            3.6
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        },
+        {
+          "point": [
+            1.18,
+            0,
+            3.825
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            1.18,
+            0,
+            4.95
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        },
+        {
+          "point": [
+            1.18,
+            0,
+            5.175
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            0,
+            0,
+            14.5
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            0,
+            0,
+            18
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            1.15,
+            0,
+            15.9
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            1.15,
+            0,
+            16.125
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        },
+        {
+          "point": [
+            1.15,
+            0,
+            17.25
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            1.15,
+            0,
+            17.475
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        },
+        {
+          "point": [
+            1.15,
+            0,
+            18.6
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            1.15,
+            0,
+            18.825
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        },
+        {
+          "point": [
+            1.15,
+            0,
+            19.95
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            1.15,
+            0,
+            20.175
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        }
+      ],
+      "seconds": 1.5439071000000695
+    },
+    {
+      "file": "entretoise-mf-m2-5-20-plus-6.step",
+      "sha256": "e9f31135f916d0e4b90d4b0cc081128ee46b9457696536f4d2eb8b43507e84cb",
+      "passed": true,
+      "valid": true,
+      "solids_closed": true,
+      "solids": 1,
+      "faces": 60,
+      "bbox_error_mm": 0.0,
+      "volume_relative_error": 0.0,
+      "volume_mm3": 429.453261392979,
+      "compared_default_quadrature_mm3": 429.453261392979,
+      "source_adaptive_volume_mm3": 429.45223813958495,
+      "material_and_helical_probes": [
+        {
+          "point": [
+            0,
+            0,
+            0.5
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        },
+        {
+          "point": [
+            2.2,
+            0,
+            2
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            1.18,
+            0,
+            0.9
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        },
+        {
+          "point": [
+            1.18,
+            0,
+            1.125
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            1.18,
+            0,
+            2.25
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        },
+        {
+          "point": [
+            1.18,
+            0,
+            2.475
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            1.18,
+            0,
+            3.6
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        },
+        {
+          "point": [
+            1.18,
+            0,
+            3.825
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            1.18,
+            0,
+            4.95
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        },
+        {
+          "point": [
+            1.18,
+            0,
+            5.175
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            0,
+            0,
+            19.5
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            0,
+            0,
+            23
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            1.15,
+            0,
+            20.9
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            1.15,
+            0,
+            21.125
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        },
+        {
+          "point": [
+            1.15,
+            0,
+            22.25
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            1.15,
+            0,
+            22.475
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        },
+        {
+          "point": [
+            1.15,
+            0,
+            23.6
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            1.15,
+            0,
+            23.825
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        },
+        {
+          "point": [
+            1.15,
+            0,
+            24.95
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            1.15,
+            0,
+            25.175
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        }
+      ],
+      "seconds": 1.76524309999877
+    },
+    {
+      "file": "entretoise-ff-m2-5-6.step",
+      "sha256": "0cd1176ef9c9a3b29a86f1a2af925b9ea99c5c6ebafdf2cfa29fff226f5d8c30",
+      "passed": true,
+      "valid": true,
+      "solids_closed": true,
+      "solids": 1,
+      "faces": 41,
+      "bbox_error_mm": 0.0,
+      "volume_relative_error": 0.0,
+      "volume_mm3": 105.10229901479013,
+      "compared_default_quadrature_mm3": 105.10229901479013,
+      "source_adaptive_volume_mm3": 105.10225471611489,
+      "material_and_helical_probes": [
+        {
+          "point": [
+            0,
+            0,
+            0.5
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        },
+        {
+          "point": [
+            2.2,
+            0,
+            2
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            1.18,
+            0,
+            0.9
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        },
+        {
+          "point": [
+            1.18,
+            0,
+            1.125
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            1.18,
+            0,
+            2.25
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        },
+        {
+          "point": [
+            1.18,
+            0,
+            2.475
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            1.18,
+            0,
+            3.6
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        },
+        {
+          "point": [
+            1.18,
+            0,
+            3.825
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            1.18,
+            0,
+            4.95
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        },
+        {
+          "point": [
+            1.18,
+            0,
+            5.175
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            0,
+            0,
+            3.0
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        }
+      ],
+      "seconds": 0.6239424000013969
+    },
+    {
+      "file": "entretoise-ff-m2-5-10.step",
+      "sha256": "990017a58590024f8458d61def6b080217581e7781f4defd7fa128ff64c2479c",
+      "passed": true,
+      "valid": true,
+      "solids_closed": true,
+      "solids": 1,
+      "faces": 51,
+      "bbox_error_mm": 0.0,
+      "volume_relative_error": 0.0,
+      "volume_mm3": 175.50599547821,
+      "compared_default_quadrature_mm3": 175.50599547821,
+      "source_adaptive_volume_mm3": 175.50629168540107,
+      "material_and_helical_probes": [
+        {
+          "point": [
+            0,
+            0,
+            0.5
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        },
+        {
+          "point": [
+            2.2,
+            0,
+            2
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            1.18,
+            0,
+            0.9
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        },
+        {
+          "point": [
+            1.18,
+            0,
+            1.125
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            1.18,
+            0,
+            2.25
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        },
+        {
+          "point": [
+            1.18,
+            0,
+            2.475
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            1.18,
+            0,
+            3.6
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        },
+        {
+          "point": [
+            1.18,
+            0,
+            3.825
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            1.18,
+            0,
+            4.95
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        },
+        {
+          "point": [
+            1.18,
+            0,
+            5.175
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            1.18,
+            0,
+            6.3
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        },
+        {
+          "point": [
+            1.18,
+            0,
+            6.525
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            1.18,
+            0,
+            7.65
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        },
+        {
+          "point": [
+            1.18,
+            0,
+            7.875
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            1.18,
+            0,
+            9.0
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        },
+        {
+          "point": [
+            1.18,
+            0,
+            9.225
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            0,
+            0,
+            5.0
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        }
+      ],
+      "seconds": 1.0781786999978067
+    },
+    {
+      "file": "entretoise-ff-m2-5-15.step",
+      "sha256": "5ab86168de4b510ee89742df6163068197557380d8446f13794d755d89df94e6",
+      "passed": true,
+      "valid": true,
+      "solids_closed": true,
+      "solids": 1,
+      "faces": 61,
+      "bbox_error_mm": 0.0,
+      "volume_relative_error": 0.0,
+      "volume_mm3": 263.50946881172473,
+      "compared_default_quadrature_mm3": 263.50946881172473,
+      "source_adaptive_volume_mm3": 263.5101421789649,
+      "material_and_helical_probes": [
+        {
+          "point": [
+            0,
+            0,
+            0.5
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        },
+        {
+          "point": [
+            2.2,
+            0,
+            2
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            1.18,
+            0,
+            0.9
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        },
+        {
+          "point": [
+            1.18,
+            0,
+            1.125
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            1.18,
+            0,
+            2.25
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        },
+        {
+          "point": [
+            1.18,
+            0,
+            2.475
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            1.18,
+            0,
+            3.6
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        },
+        {
+          "point": [
+            1.18,
+            0,
+            3.825
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            1.18,
+            0,
+            4.95
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        },
+        {
+          "point": [
+            1.18,
+            0,
+            5.175
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            1.18,
+            0,
+            6.3
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        },
+        {
+          "point": [
+            1.18,
+            0,
+            6.525
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            1.18,
+            0,
+            7.65
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        },
+        {
+          "point": [
+            1.18,
+            0,
+            7.875
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            1.18,
+            0,
+            9.0
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        },
+        {
+          "point": [
+            1.18,
+            0,
+            9.225
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            1.18,
+            0,
+            10.35
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        },
+        {
+          "point": [
+            1.18,
+            0,
+            10.575000000000001
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            1.18,
+            0,
+            11.700000000000001
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        },
+        {
+          "point": [
+            1.18,
+            0,
+            11.925
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            1.18,
+            0,
+            13.05
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        },
+        {
+          "point": [
+            1.18,
+            0,
+            13.275
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            0,
+            0,
+            7.5
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        }
+      ],
+      "seconds": 1.8951253000013821
+    },
+    {
+      "file": "entretoise-ff-m2-5-20.step",
+      "sha256": "e2d14309df97ad899a165375f9e03cf5d40e60326be82b34aaa325e8d085bbfe",
+      "passed": true,
+      "valid": true,
+      "solids_closed": true,
+      "solids": 1,
+      "faces": 72,
+      "bbox_error_mm": 0.0,
+      "volume_relative_error": 0.0,
+      "volume_mm3": 351.45998595457,
+      "compared_default_quadrature_mm3": 351.45998595457,
+      "source_adaptive_volume_mm3": 351.5147334147464,
+      "material_and_helical_probes": [
+        {
+          "point": [
+            0,
+            0,
+            0.5
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        },
+        {
+          "point": [
+            2.2,
+            0,
+            2
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            1.18,
+            0,
+            0.9
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        },
+        {
+          "point": [
+            1.18,
+            0,
+            1.125
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            1.18,
+            0,
+            2.25
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        },
+        {
+          "point": [
+            1.18,
+            0,
+            2.475
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            1.18,
+            0,
+            3.6
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        },
+        {
+          "point": [
+            1.18,
+            0,
+            3.825
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            1.18,
+            0,
+            4.95
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        },
+        {
+          "point": [
+            1.18,
+            0,
+            5.175
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            1.18,
+            0,
+            6.3
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        },
+        {
+          "point": [
+            1.18,
+            0,
+            6.525
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            1.18,
+            0,
+            7.65
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        },
+        {
+          "point": [
+            1.18,
+            0,
+            7.875
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            1.18,
+            0,
+            9.0
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        },
+        {
+          "point": [
+            1.18,
+            0,
+            9.225
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            1.18,
+            0,
+            10.35
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        },
+        {
+          "point": [
+            1.18,
+            0,
+            10.575000000000001
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            1.18,
+            0,
+            11.700000000000001
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        },
+        {
+          "point": [
+            1.18,
+            0,
+            11.925
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            1.18,
+            0,
+            13.05
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        },
+        {
+          "point": [
+            1.18,
+            0,
+            13.275
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            1.18,
+            0,
+            14.4
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        },
+        {
+          "point": [
+            1.18,
+            0,
+            14.625
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            1.18,
+            0,
+            15.75
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        },
+        {
+          "point": [
+            1.18,
+            0,
+            15.975
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            1.18,
+            0,
+            17.1
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        },
+        {
+          "point": [
+            1.18,
+            0,
+            17.325
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            1.18,
+            0,
+            18.45
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        },
+        {
+          "point": [
+            1.18,
+            0,
+            18.675
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            0,
+            0,
+            10.0
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        }
+      ],
+      "seconds": 3.336377100000391
+    },
+    {
+      "file": "vis-cruciforme-m2-5-8.step",
+      "sha256": "a3ee10ba9f56fb5404b248fa6a0571a7dfc719271256ee16bf0aaf5167d4680c",
+      "passed": true,
+      "valid": true,
+      "solids_closed": true,
+      "solids": 1,
+      "faces": 40,
+      "bbox_error_mm": 0.0,
+      "volume_relative_error": 0.0,
+      "volume_mm3": 60.51989269432013,
+      "compared_default_quadrature_mm3": 60.51989269432013,
+      "source_adaptive_volume_mm3": 60.520019580687105,
+      "material_and_helical_probes": [
+        {
+          "point": [
+            0,
+            0,
+            1
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            0,
+            0,
+            9.5
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        },
+        {
+          "point": [
+            1.15,
+            0,
+            0.9
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            1.15,
+            0,
+            1.125
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        },
+        {
+          "point": [
+            1.15,
+            0,
+            2.25
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            1.15,
+            0,
+            2.475
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        },
+        {
+          "point": [
+            1.15,
+            0,
+            3.6
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            1.15,
+            0,
+            3.825
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        },
+        {
+          "point": [
+            1.15,
+            0,
+            4.95
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            1.15,
+            0,
+            5.175
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        },
+        {
+          "point": [
+            1.15,
+            0,
+            6.3
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            1.15,
+            0,
+            6.525
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        }
+      ],
+      "seconds": 1.2283023000018147
+    },
+    {
+      "file": "vis-cruciforme-m2-5-12.step",
+      "sha256": "bb2427c242e96e9cc9e2fdaae1b2b3ed8730bc98c375a3bb38deb810ce63bf64",
+      "passed": true,
+      "valid": true,
+      "solids_closed": true,
+      "solids": 1,
+      "faces": 49,
+      "bbox_error_mm": 0.0,
+      "volume_relative_error": 0.0,
+      "volume_mm3": 75.87696750437873,
+      "compared_default_quadrature_mm3": 75.87696750437873,
+      "source_adaptive_volume_mm3": 75.87679110651007,
+      "material_and_helical_probes": [
+        {
+          "point": [
+            0,
+            0,
+            1
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            0,
+            0,
+            13.5
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        },
+        {
+          "point": [
+            1.15,
+            0,
+            0.9
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            1.15,
+            0,
+            1.125
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        },
+        {
+          "point": [
+            1.15,
+            0,
+            2.25
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            1.15,
+            0,
+            2.475
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        },
+        {
+          "point": [
+            1.15,
+            0,
+            3.6
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            1.15,
+            0,
+            3.825
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        },
+        {
+          "point": [
+            1.15,
+            0,
+            4.95
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            1.15,
+            0,
+            5.175
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        },
+        {
+          "point": [
+            1.15,
+            0,
+            6.3
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            1.15,
+            0,
+            6.525
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        },
+        {
+          "point": [
+            1.15,
+            0,
+            7.65
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            1.15,
+            0,
+            7.875
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        },
+        {
+          "point": [
+            1.15,
+            0,
+            9.0
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            1.15,
+            0,
+            9.225
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        },
+        {
+          "point": [
+            1.15,
+            0,
+            10.35
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            1.15,
+            0,
+            10.575000000000001
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        }
+      ],
+      "seconds": 2.338100699998904
+    },
+    {
+      "file": "vis-cruciforme-m2-5-20.step",
+      "sha256": "e10f89933f1df95e604bced3b7c94f3f122b2b1aa618ca390b4372f03d5ef24a",
+      "passed": true,
+      "valid": true,
+      "solids_closed": true,
+      "solids": 1,
+      "faces": 67,
+      "bbox_error_mm": 0.0,
+      "volume_relative_error": 0.0,
+      "volume_mm3": 106.57246101016348,
+      "compared_default_quadrature_mm3": 106.57246101016348,
+      "source_adaptive_volume_mm3": 106.59194179581633,
+      "material_and_helical_probes": [
+        {
+          "point": [
+            0,
+            0,
+            1
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            0,
+            0,
+            21.5
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        },
+        {
+          "point": [
+            1.15,
+            0,
+            0.9
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            1.15,
+            0,
+            1.125
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        },
+        {
+          "point": [
+            1.15,
+            0,
+            2.25
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            1.15,
+            0,
+            2.475
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        },
+        {
+          "point": [
+            1.15,
+            0,
+            3.6
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            1.15,
+            0,
+            3.825
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        },
+        {
+          "point": [
+            1.15,
+            0,
+            4.95
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            1.15,
+            0,
+            5.175
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        },
+        {
+          "point": [
+            1.15,
+            0,
+            6.3
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            1.15,
+            0,
+            6.525
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        },
+        {
+          "point": [
+            1.15,
+            0,
+            7.65
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            1.15,
+            0,
+            7.875
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        },
+        {
+          "point": [
+            1.15,
+            0,
+            9.0
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            1.15,
+            0,
+            9.225
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        },
+        {
+          "point": [
+            1.15,
+            0,
+            10.35
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            1.15,
+            0,
+            10.575000000000001
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        },
+        {
+          "point": [
+            1.15,
+            0,
+            11.700000000000001
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            1.15,
+            0,
+            11.925
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        },
+        {
+          "point": [
+            1.15,
+            0,
+            13.05
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            1.15,
+            0,
+            13.275
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        },
+        {
+          "point": [
+            1.15,
+            0,
+            14.4
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            1.15,
+            0,
+            14.625
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        },
+        {
+          "point": [
+            1.15,
+            0,
+            15.75
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            1.15,
+            0,
+            15.975
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        },
+        {
+          "point": [
+            1.15,
+            0,
+            17.1
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            1.15,
+            0,
+            17.325
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        },
+        {
+          "point": [
+            1.15,
+            0,
+            18.45
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            1.15,
+            0,
+            18.675
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        }
+      ],
+      "seconds": 9.367032400001335
+    },
+    {
+      "file": "ecrou-m2-5.step",
+      "sha256": "f7aa40998b1e020048b25086c462ba7bfa0a30264300e34f8cf55db29700f0d4",
+      "passed": true,
+      "valid": true,
+      "solids_closed": true,
+      "solids": 1,
+      "faces": 31,
+      "bbox_error_mm": 0.0,
+      "volume_relative_error": 0.0,
+      "volume_mm3": 34.601526145973494,
+      "compared_default_quadrature_mm3": 34.601526145973494,
+      "source_adaptive_volume_mm3": 34.60143394867978,
+      "material_and_helical_probes": [
+        {
+          "point": [
+            0,
+            0,
+            1
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        },
+        {
+          "point": [
+            2.2,
+            0,
+            1
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        },
+        {
+          "point": [
+            1.18,
+            0,
+            0.9
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        },
+        {
+          "point": [
+            1.18,
+            0,
+            1.125
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        }
+      ],
+      "seconds": 0.2324659999976575
+    },
+    {
+      "file": "rondelle-m2-5.step",
+      "sha256": "dc0b1976542a2bd7217b486f67baacce25391020f60e2baec890980e05b18592",
+      "passed": true,
+      "valid": true,
+      "solids_closed": true,
+      "solids": 1,
+      "faces": 4,
+      "bbox_error_mm": 0.0,
+      "volume_relative_error": 0.0,
+      "volume_mm3": 6.954700736884555,
+      "compared_default_quadrature_mm3": 6.954700736884555,
+      "source_adaptive_volume_mm3": 6.954700736884406,
+      "material_and_helical_probes": [
+        {
+          "point": [
+            0,
+            0,
+            0.25
+          ],
+          "expected": false,
+          "occupied": false,
+          "passed": true
+        },
+        {
+          "point": [
+            2,
+            0,
+            0.25
+          ],
+          "expected": true,
+          "occupied": true,
+          "passed": true
+        }
+      ],
+      "seconds": 0.008742099998926278
+    },
+    {
+      "file": "quatre-fixations-pi-5-10mm-etude.step",
+      "sha256": "16ebe7f954432daa0b5770d708b59bc2b77cb0ec4ffa20d62b06b32d722c9908",
+      "passed": true,
+      "valid": true,
+      "solids_closed": true,
+      "solids": 20,
+      "faces": 556,
+      "bbox_error_mm": 0.0,
+      "volume_relative_error": 0.0,
+      "volume_mm3": 1287.9134015997413,
+      "compared_default_quadrature_mm3": 1287.9134015997413,
+      "source_adaptive_volume_mm3": 1287.9069901884523,
+      "material_and_helical_probes": [],
+      "seconds": 4.905141700000968
+    }
+  ]
+}

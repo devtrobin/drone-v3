@@ -1,0 +1,156 @@
+{
+  "checked_on": "2026-10-15",
+  "kicad_version": "10.0.7",
+  "hardware_tested": false,
+  "manufacturing_ready": false,
+  "source_sha256": {
+    "surveillance-2s-m1.kicad_sch": "1e786e35785a3f8f6c704ab9bca6906bb235ee9b95157d5027729eb73695af47",
+    "surveillance-2s-m1.kicad_pcb": "5718bafb44bbc3d06ca01ec1fb87dfc1a3a8de3496c4c755b7ff713b3b4e6a05"
+  },
+  "pin_net_matches": true,
+  "erc_count": 0,
+  "drc_count": 0,
+  "unconnected_count": 0,
+  "parity_count": 0,
+  "erc_types": {},
+  "drc_types": {},
+  "commands": [
+    {
+      "arguments": [
+        "sch",
+        "erc",
+        "--format",
+        "json",
+        "--severity-all",
+        "-o",
+        "C:\\Users\\thoma\\workspace\\Drone\\drone-v3\\Composants\\carte-surveillance-electrique\\verification\\erc.json",
+        "C:\\Users\\thoma\\workspace\\Drone\\drone-v3\\Composants\\carte-surveillance-electrique\\KiCad\\surveillance-2s-m1.kicad_sch"
+      ],
+      "returncode": 0,
+      "stdout": "Violations trouvées 0\nRapport ERC sauvegardé en C:/Users/thoma/workspace/Drone/drone-v3/Composants/carte-surveillance-electrique/verification/erc.json\n",
+      "stderr": "14:31:39: Error: Can't create registry key 'HKCU\\Software\\kicad-cli' (error 5: Acc�s refus�.)\n14:31:39: Error: Can't open registry key 'HKCU\\Software\\kicad-cli' (error 2: Le fichier sp�cifi� est introuvable.)\n"
+    },
+    {
+      "arguments": [
+        "pcb",
+        "drc",
+        "--format",
+        "json",
+        "--severity-all",
+        "--all-track-errors",
+        "--schematic-parity",
+        "-o",
+        "C:\\Users\\thoma\\workspace\\Drone\\drone-v3\\Composants\\carte-surveillance-electrique\\verification\\drc.json",
+        "C:\\Users\\thoma\\workspace\\Drone\\drone-v3\\Composants\\carte-surveillance-electrique\\KiCad\\surveillance-2s-m1.kicad_pcb"
+      ],
+      "returncode": 0,
+      "stdout": "Violations trouvées 0\nTrouvé 0 éléments non connectés\nTrouvé 0 problèmes de parité de schématique\nRapport DRC sauvegardé en C:/Users/thoma/workspace/Drone/drone-v3/Composants/carte-surveillance-electrique/verification/drc.json\n",
+      "stderr": "14:31:41: Error: Can't create registry key 'HKCU\\Software\\kicad-cli' (error 5: Acc�s refus�.)\n14:31:41: Error: Can't open registry key 'HKCU\\Software\\kicad-cli' (error 2: Le fichier sp�cifi� est introuvable.)\n"
+    },
+    {
+      "arguments": [
+        "sch",
+        "export",
+        "netlist",
+        "--format",
+        "kicadxml",
+        "-o",
+        "C:\\Users\\thoma\\workspace\\Drone\\drone-v3\\Composants\\carte-surveillance-electrique\\KiCad\\netlist.xml",
+        "C:\\Users\\thoma\\workspace\\Drone\\drone-v3\\Composants\\carte-surveillance-electrique\\KiCad\\surveillance-2s-m1.kicad_sch"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "14:31:43: Error: Can't create registry key 'HKCU\\Software\\kicad-cli' (error 5: Acc�s refus�.)\n14:31:43: Error: Can't open registry key 'HKCU\\Software\\kicad-cli' (error 2: Le fichier sp�cifi� est introuvable.)\n"
+    },
+    {
+      "arguments": [
+        "sch",
+        "export",
+        "svg",
+        "-o",
+        "C:\\Users\\thoma\\workspace\\Drone\\drone-v3\\Composants\\carte-surveillance-electrique\\KiCad\\vues",
+        "C:\\Users\\thoma\\workspace\\Drone\\drone-v3\\Composants\\carte-surveillance-electrique\\KiCad\\surveillance-2s-m1.kicad_sch"
+      ],
+      "returncode": 0,
+      "stdout": "Tracé en 'C:\\Users\\thoma\\workspace\\Drone\\drone-v3\\Composants\\carte-surveillance-electrique\\KiCad\\vues\\surveillance-2s-m1.svg'.\nFini.\n",
+      "stderr": "14:31:44: Error: Can't create registry key 'HKCU\\Software\\kicad-cli' (error 5: Acc�s refus�.)\n14:31:44: Error: Can't open registry key 'HKCU\\Software\\kicad-cli' (error 2: Le fichier sp�cifi� est introuvable.)\n"
+    },
+    {
+      "arguments": [
+        "pcb",
+        "export",
+        "svg",
+        "--layers",
+        "F.Cu,B.Cu,F.SilkS,Edge.Cuts",
+        "--mode-single",
+        "--fit-page-to-board",
+        "--exclude-drawing-sheet",
+        "--sp",
+        "-o",
+        "C:\\Users\\thoma\\workspace\\Drone\\drone-v3\\Composants\\carte-surveillance-electrique\\KiCad\\vues\\routage.svg",
+        "C:\\Users\\thoma\\workspace\\Drone\\drone-v3\\Composants\\carte-surveillance-electrique\\KiCad\\surveillance-2s-m1.kicad_pcb"
+      ],
+      "returncode": 0,
+      "stdout": "Tracé en 'C:\\Users\\thoma\\workspace\\Drone\\drone-v3\\Composants\\carte-surveillance-electrique\\KiCad\\vues\\routage.svg'.\nFini.\n",
+      "stderr": "14:31:45: Error: Can't create registry key 'HKCU\\Software\\kicad-cli' (error 5: Acc�s refus�.)\n14:31:45: Error: Can't open registry key 'HKCU\\Software\\kicad-cli' (error 2: Le fichier sp�cifi� est introuvable.)\n"
+    },
+    {
+      "arguments": [
+        "pcb",
+        "export",
+        "svg",
+        "--layers",
+        "F.Fab,Edge.Cuts",
+        "--mode-single",
+        "--fit-page-to-board",
+        "--exclude-drawing-sheet",
+        "--sp",
+        "-o",
+        "C:\\Users\\thoma\\workspace\\Drone\\drone-v3\\Composants\\carte-surveillance-electrique\\KiCad\\vues\\montage.svg",
+        "C:\\Users\\thoma\\workspace\\Drone\\drone-v3\\Composants\\carte-surveillance-electrique\\KiCad\\surveillance-2s-m1.kicad_pcb"
+      ],
+      "returncode": 0,
+      "stdout": "Tracé en 'C:\\Users\\thoma\\workspace\\Drone\\drone-v3\\Composants\\carte-surveillance-electrique\\KiCad\\vues\\montage.svg'.\nFini.\n",
+      "stderr": "14:31:45: Error: Can't create registry key 'HKCU\\Software\\kicad-cli' (error 5: Acc�s refus�.)\n14:31:45: Error: Can't open registry key 'HKCU\\Software\\kicad-cli' (error 2: Le fichier sp�cifi� est introuvable.)\n"
+    },
+    {
+      "arguments": [
+        "pcb",
+        "export",
+        "svg",
+        "--layers",
+        "F.Cu,Edge.Cuts",
+        "--mode-single",
+        "--fit-page-to-board",
+        "--exclude-drawing-sheet",
+        "--sp",
+        "-o",
+        "C:\\Users\\thoma\\workspace\\Drone\\drone-v3\\Composants\\carte-surveillance-electrique\\KiCad\\vues\\cuivre-dessus.svg",
+        "C:\\Users\\thoma\\workspace\\Drone\\drone-v3\\Composants\\carte-surveillance-electrique\\KiCad\\surveillance-2s-m1.kicad_pcb"
+      ],
+      "returncode": 0,
+      "stdout": "Tracé en 'C:\\Users\\thoma\\workspace\\Drone\\drone-v3\\Composants\\carte-surveillance-electrique\\KiCad\\vues\\cuivre-dessus.svg'.\nFini.\n",
+      "stderr": "14:31:46: Error: Can't create registry key 'HKCU\\Software\\kicad-cli' (error 5: Acc�s refus�.)\n14:31:46: Error: Can't open registry key 'HKCU\\Software\\kicad-cli' (error 2: Le fichier sp�cifi� est introuvable.)\n"
+    },
+    {
+      "arguments": [
+        "pcb",
+        "export",
+        "svg",
+        "--layers",
+        "B.Cu,Edge.Cuts",
+        "--mode-single",
+        "--fit-page-to-board",
+        "--exclude-drawing-sheet",
+        "--sp",
+        "-o",
+        "C:\\Users\\thoma\\workspace\\Drone\\drone-v3\\Composants\\carte-surveillance-electrique\\KiCad\\vues\\cuivre-dessous.svg",
+        "C:\\Users\\thoma\\workspace\\Drone\\drone-v3\\Composants\\carte-surveillance-electrique\\KiCad\\surveillance-2s-m1.kicad_pcb"
+      ],
+      "returncode": 0,
+      "stdout": "Tracé en 'C:\\Users\\thoma\\workspace\\Drone\\drone-v3\\Composants\\carte-surveillance-electrique\\KiCad\\vues\\cuivre-dessous.svg'.\nFini.\n",
+      "stderr": "14:31:46: Error: Can't create registry key 'HKCU\\Software\\kicad-cli' (error 5: Acc�s refus�.)\n14:31:46: Error: Can't open registry key 'HKCU\\Software\\kicad-cli' (error 2: Le fichier sp�cifi� est introuvable.)\n"
+    }
+  ],
+  "interpretation": "Native file checks only. External EVM modifications, physical interfaces, protection coordination and bench tests are not validated by ERC/DRC."
+}

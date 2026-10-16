@@ -1,0 +1,67 @@
+{
+  "file": "jr-capot.step",
+  "title": "JR | capot extérieur",
+  "generated_on": "2026-10-14",
+  "unit": "mm",
+  "cadquery_version": "2.8.0",
+  "coordinate_system": "Axe principal Z; face de reference z=0; dimensions selon parametres",
+  "bytes": 63223,
+  "sha256": "4b938d9264c53ca7c8ee3aa412ec826c0ff6523205aab75564db4419456098f3",
+  "native_vendor_cad": false,
+  "hardware_measured": false,
+  "is_custom_project_design": false,
+  "published_nominal": [
+    "PlansPololu : boîtier14x7.90/7.70x2.75/2.65 ; capot18x10.30x4 ; pas2.54 mm."
+  ],
+  "estimates_and_limitations": [
+    "Contact, crimp, languettes et chanfreins fins reconstruits ; longueurs courtes du câblage illustratives.",
+    "Nuances optiques estimées ; géométrie non mesurée. Pas de plan de fabrication ni de qualification mécanique/électrique."
+  ],
+  "parameters": {
+    "pitch_mm": 2.54
+  },
+  "source_pages": [
+    "Voir sources.json et cotes.md du composant / ensemble"
+  ],
+  "bounds_mm": {
+    "xmin": -5.15,
+    "xmax": 5.15,
+    "ymin": -2.0,
+    "ymax": 2.0,
+    "zmin": 0.0,
+    "zmax": 18.0
+  },
+  "validation": {
+    "valid_after_reimport": true,
+    "solids": 1,
+    "faces": 18,
+    "colors": 1,
+    "volume_relative_error": 1.354583866376878e-15,
+    "volume_relative_error_limit": 0.0001,
+    "volume_before_mm3": 335.7100008158095,
+    "volume_after_mm3": 335.71000081580996,
+    "adaptive_volume_tolerance": 1e-09,
+    "bbox_error_mm": 0.0,
+    "bbox_error_limit_mm": 0.01,
+    "void_and_material_probes": [],
+    "elapsed_seconds": 0.1423203000013018,
+    "volume_after_default_quadrature_mm3": 335.710000815811
+  },
+  "parts": [
+    {
+      "name": "Piece_jr-capot",
+      "color_linear_rgb": [
+        0.018,
+        0.021,
+        0.025
+      ],
+      "solids": 1
+    }
+  ],
+  "preview": {
+    "file": "jr-capot.png",
+    "sha256": "571c72f12722a9cd404776ddf9a0daaf12e1a29c5f447d62833787a850ad5fb6"
+  },
+  "component_folder": "connecteurs-commande/jr-pololu-1925",
+  "relative_step_path": "connecteurs-commande/jr-pololu-1925/3D/jr-capot.step"
+}

@@ -1,0 +1,39 @@
+{
+  "selected_on": "2026-10-13",
+  "selected_by": "assistant, authorized by user",
+  "reference": "Tiges filetées acier M3×0,5, coupées à longueur",
+  "quantity_design": "3 tiges ; longueurs finales après implantation",
+  "purchased": false,
+  "hardware_tested": false,
+  "model_3d_created": true,
+  "purchase_status": "Not an identified or verified Amazon offer; fabrication lines are not purchase-ready",
+  "price_eur": null,
+  "amazon_search_url": "https://www.amazon.fr/s?k=tige+filetee+M3+acier",
+  "specifications": {
+    "filetage retenu": "M3 au pas normal 0,5 mm",
+    "matière": "Acier ; référence de fabrication, fournisseur non arrêté",
+    "longueur": "À couper après relevé des centres ; pas de longueur TT-01 copiée"
+  },
+  "sources": [
+    {
+      "url": "https://www.tamiya.com/english/products/50596/index.html",
+      "type": "primary or explicitly identified supplier reference",
+      "checked_on": "2026-10-13"
+    }
+  ],
+  "documents": [
+    {
+      "file": "Tamiya-TT01R-notice-constructeur.pdf",
+      "url": "https://www.tamiya.com/cms/english/rc/rcmanual/tt01r.pdf",
+      "bytes": 4744628,
+      "sha256": "c8ef6f865c9a81df967932ec86143cf1074ecc2f6d48df566a94c0d2643a9ed1",
+      "modified": false,
+      "local_file": "../../direction-et-transmission/notices/Tamiya-TT01R-notice-constructeur.pdf"
+    }
+  ],
+  "unknowns": [
+    "Longueurs et engagement de filet",
+    "Vérifier flambage, jeu et réglage du parallélisme avec les efforts réels"
+  ],
+  "model_3d_manifest": "3D/provenance.json"
+}

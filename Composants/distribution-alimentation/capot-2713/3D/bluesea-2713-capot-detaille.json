@@ -1,0 +1,99 @@
+{
+  "file": "bluesea-2713-capot-detaille.step",
+  "title": "2713 | capot de protection MiniBus",
+  "generated_on": "2026-10-14",
+  "unit": "mm",
+  "cadquery_version": "2.8.0",
+  "coordinate_system": "X longueur; Y largeur; Z vertical; centre XY du socle; dessous z=0. Assemblages: decalages explicites.",
+  "bytes": 1633492,
+  "sha256": "d061c292e6f81af3a386e1a8398340ead52d2e7ef24097bff269921a09a2fb05",
+  "native_vendor_cad": false,
+  "hardware_measured": false,
+  "is_custom_project_design": false,
+  "published_nominal": [
+    "2315: quatre goujons #10-32, bus commun, capot 2713 inclus.",
+    "Plan constructeur: L106.68 W22.86; fixation90.49; goujons extremes64.77.",
+    "Hauteur minimum avec capot31.75; cote verticale sans capot15.88 du plan."
+  ],
+  "estimates_and_limitations": [
+    "Reconstruction, pas un STEP natif fabricant; dimensions non mesurees sur pieces.",
+    "Hauteur31.75 est MINIMUM constructeur: ne garantit pas enveloppe maximum avec cosses.",
+    "Diametres de fixation5.5 et lamages11, epaisseurs, contour du bus et visserie estimes.",
+    "Filetages externes #10-32 UNF par sections reglees, erreur radiale de corde<=0.047mm; taraudages simplifies.",
+    "Manchons, clips, parois, reliefs, rayons et logos du capot non cotes estimes.",
+    "Cosses, cables, vis de chassis et fusibles de branches absents; implantation a terminer.",
+    "Cote15.88 du plan utilisee comme dessus de barre pour reconstruction; interpretation interne non cotee."
+  ],
+  "parameters": {
+    "base_envelope_mm": [
+      106.68,
+      22.86
+    ],
+    "mount_pitch_mm": 90.49,
+    "mount_bore_estimated_mm": 5.5,
+    "stud_thread": "#10-32 UNF",
+    "stud_diameter_mm": 4.826,
+    "stud_pitch_mm": 0.79375,
+    "extreme_stud_pitch_mm": 64.77,
+    "stud_centres_mm": [
+      -32.385,
+      -10.795,
+      10.795,
+      32.385
+    ],
+    "adjacent_stud_pitch_inferred_mm": 21.59,
+    "closed_minimum_height_mm": 31.75,
+    "bus_cross_section_estimated_mm": [
+      12.7,
+      1.98
+    ]
+  },
+  "source_pages": [
+    "Plan JPG2315 officiel",
+    "Catalogue BlueSea2024: PDF p100",
+    "Photos Amazon.com ASINB000OTJ8A0"
+  ],
+  "bounds_mm": {
+    "xmin": -43.1800001,
+    "xmax": 43.1800001,
+    "ymin": -11.0000001,
+    "ymax": 11.0000001,
+    "zmin": 18.0,
+    "zmax": 31.7500001
+  },
+  "validation": {
+    "valid_after_reimport": true,
+    "solids": 1,
+    "faces": 331,
+    "colors": 1,
+    "volume_relative_error": 1.1913458646544324e-13,
+    "volume_relative_error_limit": 0.0001,
+    "volume_before_mm3": 5191.241398105525,
+    "volume_after_mm3": 5191.241398106144,
+    "adaptive_volume_tolerance": 1e-09,
+    "bbox_error_mm": 7.105427357601002e-15,
+    "bbox_error_limit_mm": 0.01,
+    "void_and_material_probes": [],
+    "elapsed_seconds": 4.992642199998954,
+    "pairwise_overlap_limit_mm3": 1e-05,
+    "pairwise_material_overlaps": [],
+    "visible_thread_verified": false,
+    "external_thread_validation": null
+  },
+  "parts": [
+    {
+      "name": "Capot_2713_PC_clair_affichage_opaque",
+      "color_linear_rgb": [
+        0.78,
+        0.81,
+        0.82
+      ],
+      "solids": 1
+    }
+  ],
+  "preview": {
+    "file": "bluesea-2713-capot-detaille.png",
+    "sha256": "1f7acf7361b36b8cb469ab1ffd23549c608293e2e329a99cf16c9030c83d6f1f"
+  },
+  "appearance_note": "Polycarbonate transparent reel; teinte claire opaque dans cet export pour compatibilite. Aucun indice optique valide."
+}

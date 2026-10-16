@@ -1,0 +1,13 @@
+{
+  "theoretical_review_documented": true,
+  "nominal_custom_mechanical_parts_defined": true,
+  "selected_geometry_checks_passed": true,
+  "normalised_axial_retention_defined": true,
+  "all_supplier_interfaces_exact": false,
+  "all_harness_routes_and_anchors_defined": false,
+  "full_electrical_protection_coordination_proven": false,
+  "vehicle_fabrication_released": false,
+  "vehicle_power_on_released": false,
+  "hardware_tested": false,
+  "remaining_conditions": "../conditions-restantes.json"
+}

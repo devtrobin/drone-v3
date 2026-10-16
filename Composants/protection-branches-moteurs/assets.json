@@ -1,0 +1,117 @@
+{
+  "checked_on": "2026-10-14",
+  "assets": [
+    {
+      "file": "notices/Littelfuse-ATO-aftermarket-2022-fabricant.pdf",
+      "url": "https://www.littelfuse.com/assetdocs/littelfuse-datasheet-ato?assetguid=bba6ed2a-96e5-4b07-ab5d-0e8d267c0bd1",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "file": "sources-web/BlueSea-5065.html",
+      "url": "https://www.bluesea.com/products/5065",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "file": "sources-web/Hobbywing-WP16BL30-G2.html",
+      "url": "https://www.hobbywing.com/en/products/quicrun-wp-16bl30-g2",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "status": "downloaded",
+      "bytes": 178516,
+      "sha256": "bb3bdb3ba6d387e524e502bc81d5ed5ca28393149bc30016628fd0db8ff80cd2",
+      "final_url": "https://www.hobbywing.com/en/products/quicrun-wp-16bl30-g2"
+    },
+    {
+      "file": "sources-web/Amazon-FR-5065.html",
+      "url": "https://www.amazon.fr/dp/B004ZIUA62",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "status": "challenge_html",
+      "bytes": 3815,
+      "sha256": "0ac7f81bcbcc2b679ff0c7b6f4c0a15068faae269dc2486d098b168d078d3afc",
+      "final_url": "https://www.amazon.fr/dp/B004ZIUA62"
+    },
+    {
+      "file": "sources-web/Amazon-US-5065.html",
+      "url": "https://www.amazon.com/dp/B004ZIUA62",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "status": "challenge_html",
+      "bytes": 3781,
+      "sha256": "781953f47d61f27b0864eb036fe2face122d4f6dcde8c83e7d3090fb4fb46b8f",
+      "final_url": "https://www.amazon.com/dp/B004ZIUA62"
+    },
+    {
+      "file": "sources-web/Amazon-FR-ATO30BP-recherche.html",
+      "url": "https://www.amazon.fr/s?k=Littelfuse+ATO30BP",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "status": "empty_response",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "final_url": "https://www.amazon.fr/s?k=Littelfuse+ATO30BP"
+    },
+    {
+      "file": "sources-web/DigiKey-0ATO030-V.html",
+      "url": "https://www.digikey.com/en/products/detail/littelfuse-inc/0ATO030-V/2519124",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "file": "sources-web/CanadianTire-ATO30BP.html",
+      "url": "https://www.canadiantire.ca/en/pdp/littelfuse-ato-blade-fuse-5-pk-0201571p.0201581.html",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "file": "sources-web/Forum-SailboatOwners-5065.html",
+      "url": "https://forums.sailboatowners.com/threads/what-are-you-using-as-a-bilge-pump-fuse-holder.162517/",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "status": "downloaded",
+      "bytes": 174722,
+      "sha256": "2cfb2fea08fca1ecc639e54e86483d164d5941abff82def2234c4ab0c6203b6d",
+      "final_url": "https://forums.sailboatowners.com/threads/what-are-you-using-as-a-bilge-pump-fuse-holder.162517/"
+    },
+    {
+      "file": "notices/Littelfuse-ATO-fiche-originale-via-RSP.pdf",
+      "url": "https://rspsupply.com/images/downloads/Littelfuse/0/Littelfuse%200ATO020.VP/Specification%20Document.pdf",
+      "checked_on": "2026-10-14",
+      "status": "unchanged_local_copy",
+      "origin": "Composants/protection-branche-pi/notices/Littelfuse-ATO-fiche-originale-via-RSP.pdf",
+      "modified": false,
+      "bytes": 1743934,
+      "sha256": "461e406be560638332fb0152c98f3e0ef829c56c221a14c334a564f2b3f790d1"
+    },
+    {
+      "file": "notices/Littelfuse-catalogue-aftermarket-2013-via-RS.pdf",
+      "url": "https://docs.rs-online.com/d38b/0900766b813f0619.pdf",
+      "checked_on": "2026-10-14",
+      "status": "unchanged_local_copy",
+      "origin": "Composants/protection-branche-pi/notices/Littelfuse-catalogue-aftermarket-2013-via-RS.pdf",
+      "modified": false,
+      "bytes": 7439925,
+      "sha256": "7753aa169fc73f5d412e44e72c75a6beda9509b748560b1c239c844d57d91017"
+    },
+    {
+      "file": "porte-fusible/photos/Amazon-5065-original.jpg",
+      "url": "https://m.media-amazon.com/images/I/51mfLfEM4UL._AC_SL1000_.jpg",
+      "checked_on": "2026-10-14",
+      "status": "unchanged_local_copy",
+      "origin": "Composants/protection-branche-pi/porte-fusible/photos/Amazon-5065-original.jpg",
+      "modified": false,
+      "bytes": 32235,
+      "sha256": "34c58e9a78914e6ecd7bbe3da9cc5cc624c6adc634dca1912ea1a5fc812016b7"
+    }
+  ]
+}

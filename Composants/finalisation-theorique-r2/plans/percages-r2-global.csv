@@ -1,0 +1,55 @@
+﻿piece;x_global;y_global;x_C01;y_C01;diameter;role
+C01+C04-R2;-100;414.5;50;414.5;3.5;"R2 palier, vis sous plateau ; C04 à repercer également"
+C01+C04-R2;-100;436.5;50;436.5;3.5;"R2 palier, vis sous plateau ; C04 à repercer également"
+C04-R2;-180;414.5;;;3.5;"R2 palier, vis sous plateau ; C04 à repercer également"
+C04-R2;-180;436.5;;;3.5;"R2 palier, vis sous plateau ; C04 à repercer également"
+C01+C04-R2;-109;434;41;434;3.5;"R2 palier, vis sous plateau ; C04 à repercer également"
+C01+C04-R2;-109;456;41;456;3.5;"R2 palier, vis sous plateau ; C04 à repercer également"
+C04-R2;-170;434;;;3.5;"R2 palier, vis sous plateau ; C04 à repercer également"
+C04-R2;-170;456;;;3.5;"R2 palier, vis sous plateau ; C04 à repercer également"
+C04-R2;-155;398;;;3.5;"R2 palier, vis sous plateau ; C04 à repercer également"
+C04-R2;-155;418;;;3.5;"R2 palier, vis sous plateau ; C04 à repercer également"
+C01;-51;435;99;435;3.5;Pied Hall déplacé : rotorX±80
+C01;-51;455;99;455;3.5;Pied Hall déplacé : rotorX±80
+C03;-158;54;;;3.5;FourcheR209 : traverse C03 à reprendre, hors plateauC01
+C03;-158;74;;;3.5;FourcheR209 : traverse C03 à reprendre, hors plateauC01
+C03;-170;55;;;6.2;PivotR211 : passage à traversC03
+C01+C03;-139;60.509624248557586;11;60.509624248557586;3.5;ButéeR219 surC01+C03
+C01+C03;-139;68.50962424855759;11;68.50962424855759;3.5;ButéeR219 surC01+C03
+C01+C04-R2;-110;386.5;40;386.5;3.5;Fixation carterR215
+C01+C04-R2;-110;466.5;40;466.5;3.5;Fixation carterR215
+C01+C04-R2;-141.6;386.5;8.400000000000006;386.5;3.5;Fixation carterR215
+C01+C04-R2;-141.6;466.5;8.400000000000006;466.5;3.5;Fixation carterR215
+C01+C04-R2;100;414.5;250;414.5;3.5;"R2 palier, vis sous plateau ; C04 à repercer également"
+C01+C04-R2;100;436.5;250;436.5;3.5;"R2 palier, vis sous plateau ; C04 à repercer également"
+C04-R2;180;414.5;;;3.5;"R2 palier, vis sous plateau ; C04 à repercer également"
+C04-R2;180;436.5;;;3.5;"R2 palier, vis sous plateau ; C04 à repercer également"
+C01+C04-R2;109;434;259;434;3.5;"R2 palier, vis sous plateau ; C04 à repercer également"
+C01+C04-R2;109;456;259;456;3.5;"R2 palier, vis sous plateau ; C04 à repercer également"
+C04-R2;170;434;;;3.5;"R2 palier, vis sous plateau ; C04 à repercer également"
+C04-R2;170;456;;;3.5;"R2 palier, vis sous plateau ; C04 à repercer également"
+C04-R2;155;398;;;3.5;"R2 palier, vis sous plateau ; C04 à repercer également"
+C04-R2;155;418;;;3.5;"R2 palier, vis sous plateau ; C04 à repercer également"
+C01;51;435;201;435;3.5;Pied Hall déplacé : rotorX±80
+C01;51;455;201;455;3.5;Pied Hall déplacé : rotorX±80
+C03;158;54;;;3.5;FourcheR209 : traverse C03 à reprendre, hors plateauC01
+C03;158;74;;;3.5;FourcheR209 : traverse C03 à reprendre, hors plateauC01
+C03;170;55;;;6.2;PivotR211 : passage à traversC03
+C01+C03;139;60.509624248557586;289;60.509624248557586;3.5;ButéeR219 surC01+C03
+C01+C03;139;68.50962424855759;289;68.50962424855759;3.5;ButéeR219 surC01+C03
+C01+C04-R2;110;386.5;260;386.5;3.5;Fixation carterR215
+C01+C04-R2;110;466.5;260;466.5;3.5;Fixation carterR215
+C01+C04-R2;141.6;386.5;291.6;386.5;3.5;Fixation carterR215
+C01+C04-R2;141.6;466.5;291.6;466.5;3.5;Fixation carterR215
+C01+C03;-30;55;120;55;3.5;Support R212/R213/R214
+C01;-30;105;120;105;3.5;Support R212/R213/R214
+C01+C03;60;55;210;55;3.5;Support R212/R213/R214
+C01;60;105;210;105;3.5;Support R212/R213/R214
+C01;-47;104;103;104;3.5;Support R212/R213/R214
+C01;-3;104;147;104;3.5;Support R212/R213/R214
+C01;-47;166;103;166;3.5;Support R212/R213/R214
+C01;-3;166;147;166;3.5;Support R212/R213/R214
+C01;84;17.5;234;17.5;3.5;Support R212/R213/R214
+C01;106;17.5;256;17.5;3.5;Support R212/R213/R214
+C01;84;102.5;234;102.5;3.5;Support R212/R213/R214
+C01;106;102.5;256;102.5;3.5;Support R212/R213/R214

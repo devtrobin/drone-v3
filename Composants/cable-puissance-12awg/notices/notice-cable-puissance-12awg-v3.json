@@ -1,0 +1,31 @@
+{
+  "file": "notice-cable-puissance-12awg-v3.pdf",
+  "pages": 4,
+  "sha256": "a25c64f9eed0eed02c77f6620fa33246607ff40942a970ed437bbbd60518038f",
+  "generator": "tools/build_power_wire_pdf.py",
+  "generated_on": "2026-10-14",
+  "renders": [
+    {
+      "page": 1,
+      "render": "tools/temp/power-wire-review/pdf/page-1.png",
+      "chars": 1006
+    },
+    {
+      "page": 2,
+      "render": "tools/temp/power-wire-review/pdf/page-2.png",
+      "chars": 2135
+    },
+    {
+      "page": 3,
+      "render": "tools/temp/power-wire-review/pdf/page-3.png",
+      "chars": 1958
+    },
+    {
+      "page": 4,
+      "render": "tools/temp/power-wire-review/pdf/page-4.png",
+      "chars": 2198
+    }
+  ],
+  "visual_review_complete": true,
+  "review_note": "All four PDF pages and all six final CAD previews visually reviewed: no clipping, missing glyphs or apparent wire cuts."
+}

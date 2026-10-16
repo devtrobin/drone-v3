@@ -1,0 +1,59 @@
+{
+  "file": "bague-pivot-a6-tamiya-51002.step",
+  "title": "Tamiya A6 | bague pivot",
+  "generated_on": "2026-10-13",
+  "unit": "mm",
+  "cadquery_version": "2.8.0",
+  "coordinate_system": "A7: axe roue X, pivot Z, centre de roulements (0,0,0); A6/renvois: pivot Z",
+  "bytes": 15210,
+  "sha256": "01ff4aea61bf7f9ac56aba32945eada9d77daf61f7218644562fc3106c1d16c3",
+  "native_vendor_cad": false,
+  "hardware_measured": false,
+  "is_custom_project_design": false,
+  "published_nominal": [
+    "Bague A6 identifiee dans la notice p.10"
+  ],
+  "estimates_and_limitations": [
+    "Tous diametres et hauteurs reconstruits; Ø3.1 trou de vis et forme a confirmer"
+  ],
+  "parameters": {},
+  "source_pages": [],
+  "bounds_mm": {
+    "xmin": -2.8,
+    "xmax": 2.8,
+    "ymin": -2.8,
+    "ymax": 2.8,
+    "zmin": 0.0,
+    "zmax": 2.8
+  },
+  "validation": {
+    "valid_after_reimport": true,
+    "solids": 1,
+    "faces": 6,
+    "colors": 1,
+    "volume_relative_error": 0.0,
+    "volume_relative_error_limit": 0.0001,
+    "volume_before_mm3": 21.8183609791811,
+    "volume_after_mm3": 21.8183609791811,
+    "adaptive_volume_tolerance": 1e-09,
+    "bbox_error_mm": 0.0,
+    "bbox_error_limit_mm": 0.01,
+    "void_and_material_probes": [],
+    "elapsed_seconds": 0.044374400000378955
+  },
+  "parts": [
+    {
+      "name": "Bague_pivot_A6",
+      "color_linear_rgb": [
+        0.022,
+        0.026,
+        0.032
+      ],
+      "solids": 1
+    }
+  ],
+  "preview": {
+    "file": "bague-pivot-a6-tamiya-51002.png",
+    "sha256": "b6d0257fe73de6ceddee3895addfe7eb435a48d80882e1715db207ca831c26ec"
+  }
+}

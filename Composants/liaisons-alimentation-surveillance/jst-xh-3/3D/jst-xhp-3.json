@@ -1,0 +1,65 @@
+{
+  "file": "jst-xhp-3.step",
+  "title": "JSTXHP-3 | boîtier3positions",
+  "generated_on": "2026-10-14",
+  "unit": "mm",
+  "cadquery_version": "2.8.0",
+  "coordinate_system": "Axe principal Z; face de reference z=0; dimensions selon parametres",
+  "bytes": 152810,
+  "sha256": "0d9bdfccc689baac16f40d22ebc31c239d79438aaa84d59a14792b62d9e01b8c",
+  "native_vendor_cad": false,
+  "hardware_measured": false,
+  "is_custom_project_design": false,
+  "published_nominal": [
+    "JST2025 : pas2.50,3positions ; embasesansboss9.9x5.75x7 ;XHP3collerette9.8x5.7x7.5 ;pin0.64."
+  ],
+  "estimates_and_limitations": [
+    "Réconstruction des évidements etressorts à partirdu catalogue, ajustement visuel seulement ; aucune donnéeCAO native téléchargée (distributionfabricantparformulaire/email).",
+    "Nuances optiques estimées ; géométrie non mesurée. Pas de plan de fabrication ni de qualification mécanique/électrique."
+  ],
+  "parameters": {},
+  "source_pages": [
+    "Voir sources.json et cotes.md du composant / ensemble"
+  ],
+  "bounds_mm": {
+    "xmin": -4.9,
+    "xmax": 4.9,
+    "ymin": -2.85,
+    "ymax": 2.85,
+    "zmin": 0.0,
+    "zmax": 7.5
+  },
+  "validation": {
+    "valid_after_reimport": true,
+    "solids": 1,
+    "faces": 48,
+    "colors": 1,
+    "volume_relative_error": 0.0,
+    "volume_relative_error_limit": 0.0001,
+    "volume_before_mm3": 223.30099999999982,
+    "volume_after_mm3": 223.30099999999982,
+    "adaptive_volume_tolerance": 1e-09,
+    "bbox_error_mm": 0.0,
+    "bbox_error_limit_mm": 0.01,
+    "void_and_material_probes": [],
+    "elapsed_seconds": 0.3851025000039954,
+    "volume_after_default_quadrature_mm3": 223.30099999999982
+  },
+  "parts": [
+    {
+      "name": "Piece_boitier",
+      "color_linear_rgb": [
+        0.87,
+        0.87,
+        0.83
+      ],
+      "solids": 1
+    }
+  ],
+  "preview": {
+    "file": "jst-xhp-3.png",
+    "sha256": "1d78dd88030ed49542bc683a10f0c73c5ccd3bc270fc015b3413e42e1fafdd4e"
+  },
+  "component_folder": "liaisons-alimentation-surveillance/jst-xh-3",
+  "relative_step_path": "liaisons-alimentation-surveillance/jst-xh-3/3D/jst-xhp-3.step"
+}

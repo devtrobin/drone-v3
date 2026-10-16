@@ -1,0 +1,315 @@
+{
+  "generated_on": "2026-10-13",
+  "generator": "tools/build_running_gear_step.py",
+  "generator_sha256": "3cc48dca6f563d7222132a9fb3986d9d3a72dfa92d4309f8bec62fd5da2b6ec8",
+  "source_manifest_sha256": "39f448ceb321d4ac6979a72053b436e6d68592100ffde328eac1119eca2f2739",
+  "models": [
+    {
+      "file": "goupille-tamiya-50594-2x10.step",
+      "title": "Tamiya 50594 | goupille 2 x 10",
+      "generated_on": "2026-10-13",
+      "unit": "mm",
+      "cadquery_version": "2.8.0",
+      "coordinate_system": "Axe principal Z; face de reference z=0; dimensions selon parametres",
+      "bytes": 12769,
+      "sha256": "96df287f9924443abddcbf9ef12ede47edde193c61b69783b83ff11ac4cd2c27",
+      "native_vendor_cad": false,
+      "hardware_measured": false,
+      "is_custom_project_design": false,
+      "published_nominal": [
+        "Ø2 x10 mm identifies dans notice TT01R p.15"
+      ],
+      "estimates_and_limitations": [
+        "Chanfreins0.12 estimes"
+      ],
+      "parameters": {},
+      "source_pages": [],
+      "bounds_mm": {
+        "xmin": -1.0,
+        "xmax": 1.0,
+        "ymin": -1.0,
+        "ymax": 1.0,
+        "zmin": -1.3877787807814457e-17,
+        "zmax": 10.0
+      },
+      "validation": {
+        "valid_after_reimport": true,
+        "solids": 1,
+        "faces": 5,
+        "colors": 1,
+        "volume_relative_error": 1.7304827298205904e-13,
+        "volume_relative_error_limit": 0.0001,
+        "volume_before_mm3": 31.32906778221149,
+        "volume_after_mm3": 31.329067782206067,
+        "adaptive_volume_tolerance": 1e-09,
+        "bbox_error_mm": 1.3877787807814457e-17,
+        "bbox_error_limit_mm": 0.01,
+        "void_and_material_probes": [],
+        "elapsed_seconds": 0.03616150000016205
+      },
+      "parts": [
+        {
+          "name": "Goupille",
+          "color_linear_rgb": [
+            0.62,
+            0.65,
+            0.69
+          ],
+          "solids": 1
+        }
+      ],
+      "preview": {
+        "file": "goupille-tamiya-50594-2x10.png",
+        "sha256": "3d8eb141a0d1ba956a3ac248f1052e95e807fb8e504a93bfbda181808cc89aee"
+      }
+    },
+    {
+      "file": "ecrou-tamiya-9805557-m4-flasque.step",
+      "title": "Tamiya 9805557 | ecrou M4 a flasque",
+      "generated_on": "2026-10-13",
+      "unit": "mm",
+      "cadquery_version": "2.8.0",
+      "coordinate_system": "Axe principal Z; face de reference z=0; dimensions selon parametres",
+      "bytes": 48087,
+      "sha256": "ec0aba768a2afedff18ac0da3343f62f16313de92117f3132817d770dcd407c2",
+      "native_vendor_cad": false,
+      "hardware_measured": false,
+      "is_custom_project_design": false,
+      "published_nominal": [
+        "Ecrou de roue nylstop a flasque M4, MC4 dans la notice"
+      ],
+      "estimates_and_limitations": [
+        "AF7, flasqueOD9, hauteur4 et bague de couleur bleue estimes",
+        "Taraudage interieur represente par alesage4, sans tolerances ni helix interne"
+      ],
+      "parameters": {},
+      "source_pages": [],
+      "bounds_mm": {
+        "xmin": -4.5,
+        "xmax": 4.5,
+        "ymin": -4.5,
+        "ymax": 4.5,
+        "zmin": 0.0,
+        "zmax": 4.05
+      },
+      "validation": {
+        "valid_after_reimport": true,
+        "solids": 2,
+        "faces": 17,
+        "colors": 2,
+        "volume_relative_error": 7.484654090498723e-14,
+        "volume_relative_error_limit": 0.0001,
+        "volume_before_mm3": 140.12151601144015,
+        "volume_after_mm3": 140.12151601142966,
+        "adaptive_volume_tolerance": 1e-09,
+        "bbox_error_mm": 8.881784197001252e-16,
+        "bbox_error_limit_mm": 0.01,
+        "void_and_material_probes": [],
+        "elapsed_seconds": 0.08403239999825018
+      },
+      "parts": [
+        {
+          "name": "Ecrou_metal",
+          "color_linear_rgb": [
+            0.62,
+            0.65,
+            0.69
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Bague_nylon_estimee",
+          "color_linear_rgb": [
+            0.018,
+            0.09,
+            0.39
+          ],
+          "solids": 1
+        }
+      ],
+      "preview": {
+        "file": "ecrou-tamiya-9805557-m4-flasque.png",
+        "sha256": "40aa2b136dfc2902522764fb4c1ab32ed18ac126c4649b094c11fac3e4a5cfe5"
+      }
+    },
+    {
+      "file": "vis-tamiya-50577-3x10.step",
+      "title": "Tamiya 50577 | vis autotaraudeuse 3 x 10",
+      "generated_on": "2026-10-13",
+      "unit": "mm",
+      "cadquery_version": "2.8.0",
+      "coordinate_system": "Axe principal Z; face de reference z=0; dimensions selon parametres",
+      "bytes": 369194,
+      "sha256": "151eaa01b5fd879da6de3b47399552e1f388131689e7fd01c4513c9eec4137df",
+      "native_vendor_cad": false,
+      "hardware_measured": false,
+      "is_custom_project_design": false,
+      "published_nominal": [
+        "Diametre3 et longueur10 publies; vis autotaraudeuse et empreinte cruciforme illustrees"
+      ],
+      "estimates_and_limitations": [
+        "Pas1.2, diametre tete5.2, filetage et pointe estimes; ne pas confondre avec M3x0.5"
+      ],
+      "parameters": {},
+      "source_pages": [],
+      "bounds_mm": {
+        "xmin": -2.6000001,
+        "xmax": 2.6000001,
+        "ymin": -2.6000001,
+        "ymax": 2.6000001,
+        "zmin": -1.0211775516043254e-07,
+        "zmax": 11.5
+      },
+      "validation": {
+        "valid_after_reimport": true,
+        "solids": 1,
+        "faces": 29,
+        "colors": 1,
+        "volume_relative_error": 8.097552062715152e-08,
+        "volume_relative_error_limit": 0.0001,
+        "volume_before_mm3": 69.70209770209036,
+        "volume_after_mm3": 69.702103346254,
+        "adaptive_volume_tolerance": 1e-09,
+        "bbox_error_mm": 5.978822448620719e-07,
+        "bbox_error_limit_mm": 0.01,
+        "void_and_material_probes": [],
+        "elapsed_seconds": 0.5305813000013586
+      },
+      "parts": [
+        {
+          "name": "Vis_autotaraudeuse_estimee",
+          "color_linear_rgb": [
+            0.62,
+            0.65,
+            0.69
+          ],
+          "solids": 1
+        }
+      ],
+      "preview": {
+        "file": "vis-tamiya-50577-3x10.png",
+        "sha256": "d67dd2e664841072e71da91df8686bec21994a3ece5196255123fc27f25d383c"
+      }
+    },
+    {
+      "file": "vis-tamiya-9805945-3x18.step",
+      "title": "Tamiya 9805945 | vis decollétee 3 x 18",
+      "generated_on": "2026-10-13",
+      "unit": "mm",
+      "cadquery_version": "2.8.0",
+      "coordinate_system": "Axe principal Z; face de reference z=0; dimensions selon parametres",
+      "bytes": 355358,
+      "sha256": "7e3796cec3099ff045a832b72b90e34ec0025e621e495e04a96747b5f60dd0cc",
+      "native_vendor_cad": false,
+      "hardware_measured": false,
+      "is_custom_project_design": false,
+      "published_nominal": [
+        "Diametre3, longueur18; type step screw dans notice p.10"
+      ],
+      "estimates_and_limitations": [
+        "Portee lisse10, pas partie filetée1.2 et forme tete estimes",
+        "Pas, longueurs de portees et vis originale a relever"
+      ],
+      "parameters": {},
+      "source_pages": [],
+      "bounds_mm": {
+        "xmin": -2.6,
+        "xmax": 2.6,
+        "ymin": -2.6,
+        "ymax": 2.6,
+        "zmin": -1.026044274141408e-07,
+        "zmax": 19.5
+      },
+      "validation": {
+        "valid_after_reimport": true,
+        "solids": 1,
+        "faces": 30,
+        "colors": 1,
+        "volume_relative_error": 6.351109856325358e-08,
+        "volume_relative_error_limit": 0.0001,
+        "volume_before_mm3": 131.91911820030222,
+        "volume_after_mm3": 131.91912657863034,
+        "adaptive_volume_tolerance": 1e-09,
+        "bbox_error_mm": 5.973955725667303e-07,
+        "bbox_error_limit_mm": 0.01,
+        "void_and_material_probes": [],
+        "elapsed_seconds": 0.5312630999978865
+      },
+      "parts": [
+        {
+          "name": "Vis_pivot_tete_cruciforme",
+          "color_linear_rgb": [
+            0.62,
+            0.65,
+            0.69
+          ],
+          "solids": 1
+        }
+      ],
+      "preview": {
+        "file": "vis-tamiya-9805945-3x18.png",
+        "sha256": "456a8b69a764c6280dc2f6e268fa77aef820bff489ea52b92241f1f51ff1db86"
+      }
+    },
+    {
+      "file": "vis-tamiya-50582-3x14.step",
+      "title": "Tamiya 50582 | vis decollétee 3 x 14",
+      "generated_on": "2026-10-13",
+      "unit": "mm",
+      "cadquery_version": "2.8.0",
+      "coordinate_system": "Axe principal Z; face de reference z=0; dimensions selon parametres",
+      "bytes": 340174,
+      "sha256": "6b1846e509af9b8a2c994d8344cc0ea6c6c3ef803402e75bbb454f6f0c4bda38",
+      "native_vendor_cad": false,
+      "hardware_measured": false,
+      "is_custom_project_design": false,
+      "published_nominal": [
+        "Diametre3, longueur14; type step screw dans notice p.10"
+      ],
+      "estimates_and_limitations": [
+        "Portee lisse7, pas partie filetée1.2 et forme tete estimes",
+        "Pas, longueurs de portees et vis originale a relever"
+      ],
+      "parameters": {},
+      "source_pages": [],
+      "bounds_mm": {
+        "xmin": -2.6,
+        "xmax": 2.6,
+        "ymin": -2.6,
+        "ymax": 2.6,
+        "zmin": -1.0547440724534409e-07,
+        "zmax": 15.5
+      },
+      "validation": {
+        "valid_after_reimport": true,
+        "solids": 1,
+        "faces": 30,
+        "colors": 1,
+        "volume_relative_error": 8.942159580709851e-08,
+        "volume_relative_error_limit": 0.0001,
+        "volume_before_mm3": 106.4790380083621,
+        "volume_after_mm3": 106.4790475298876,
+        "adaptive_volume_tolerance": 1e-09,
+        "bbox_error_mm": 5.945255928465494e-07,
+        "bbox_error_limit_mm": 0.01,
+        "void_and_material_probes": [],
+        "elapsed_seconds": 0.48813720000180183
+      },
+      "parts": [
+        {
+          "name": "Vis_pivot_tete_cruciforme",
+          "color_linear_rgb": [
+            0.62,
+            0.65,
+            0.69
+          ],
+          "solids": 1
+        }
+      ],
+      "preview": {
+        "file": "vis-tamiya-50582-3x14.png",
+        "sha256": "115f0d652992803ca5d8dae8393a769a68f88cd638c7f181a1599a9de6578518"
+      }
+    }
+  ]
+}

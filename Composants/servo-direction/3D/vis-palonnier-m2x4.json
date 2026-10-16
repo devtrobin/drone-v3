@@ -1,0 +1,59 @@
+{
+  "file": "vis-palonnier-m2x4.step",
+  "title": "FT90M | vis nominale M2 x 4",
+  "generated_on": "2026-10-13",
+  "unit": "mm",
+  "cadquery_version": "2.8.0",
+  "coordinate_system": "Z vertical; corps centre X/Y, fond z=0; sortie x=-5.7; etiquette vers -Y",
+  "bytes": 433914,
+  "sha256": "5ed6ae2e19474f2f28ff9ed945ed0458d7072fe3f34ca5768aebb4c1ff3acf3d",
+  "native_vendor_cad": false,
+  "hardware_measured": false,
+  "is_custom_project_design": false,
+  "published_nominal": [
+    "Vis M2 x 4 mentionnee dans la fiche"
+  ],
+  "estimates_and_limitations": [
+    "Pas ISO 0.4 et forme de tete proposes; vis recue a comparer"
+  ],
+  "parameters": {},
+  "source_pages": [],
+  "bounds_mm": {
+    "xmin": -1.8000001,
+    "xmax": 1.8000001,
+    "ymin": -1.8000001,
+    "ymax": 1.8000001,
+    "zmin": -1.0924340329407434e-07,
+    "zmax": 5.0
+  },
+  "validation": {
+    "valid_after_reimport": true,
+    "solids": 1,
+    "faces": 31,
+    "colors": 1,
+    "volume_relative_error": 7.008865227872124e-08,
+    "volume_relative_error_limit": 0.0001,
+    "volume_before_mm3": 18.5852553778017,
+    "volume_after_mm3": 18.5852540751862,
+    "adaptive_volume_tolerance": 1e-09,
+    "bbox_error_mm": 5.309603477611361e-14,
+    "bbox_error_limit_mm": 0.01,
+    "void_and_material_probes": [],
+    "elapsed_seconds": 0.5622062000002188
+  },
+  "parts": [
+    {
+      "name": "Vis_M2x4_estimee",
+      "color_linear_rgb": [
+        0.62,
+        0.65,
+        0.69
+      ],
+      "solids": 1
+    }
+  ],
+  "preview": {
+    "file": "vis-palonnier-m2x4.png",
+    "sha256": "577ca573ea1bbe48c6f5dbb0a4b497290d9d6efc7806de8a42f49dc28ec95a3b"
+  }
+}

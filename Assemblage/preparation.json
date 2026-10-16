@@ -1,0 +1,1768 @@
+{
+  "revision": "A2-R2 compatibilité visualiseurs",
+  "archive": {
+    "file": "sources-step-detaillees-originales.zip",
+    "bytes": 57795043,
+    "sha256": "9fa8ab5827cee28d632967652b3020702e3b05831e010fa8ab3c4cac6a0145c2",
+    "members": [
+      "drone-v3-structure.step",
+      "drone-v3-roulage.step",
+      "drone-v3-electronique.step",
+      "drone-v3-puissance.step",
+      "provenance.json",
+      "validation-freecad.json"
+    ]
+  },
+  "zones": [
+    {
+      "zone": "structure",
+      "exact_solids": 151,
+      "exact_faces": 1524,
+      "native_components": 151,
+      "view_solids": 147,
+      "bounds_mm": [
+        -207.0,
+        207.0,
+        -6.0,
+        520.0,
+        6.8,
+        258.68292504874
+      ],
+      "volume_mm3": null,
+      "centre_mm": null,
+      "original_source_bounds_match": true,
+      "original_volume_and_centre_match": null,
+      "step_file": "drone-v3-structure.step",
+      "step_bytes": 2259849,
+      "step_sha256": "216b1bbc05e01c2495948618d780aa4af3954cebe21c438103334343d1233612",
+      "glb": {
+        "meshes": 151,
+        "triangles": 69400,
+        "bytes": 1754740,
+        "sha256": "c69d55f95f7bfa5e3e25da3af2fbe3a997d6585b357dfa074f82358c3619cbe6"
+      },
+      "components": [
+        {
+          "component": "C01_1",
+          "exact_solids": 1,
+          "faces": 108,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "C05_1",
+          "exact_solids": 1,
+          "faces": 10,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "C06_1",
+          "exact_solids": 1,
+          "faces": 10,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "C12_1",
+          "exact_solids": 1,
+          "faces": 10,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "C13_1",
+          "exact_solids": 1,
+          "faces": 10,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "C14_1",
+          "exact_solids": 1,
+          "faces": 10,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "C15_1",
+          "exact_solids": 1,
+          "faces": 14,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "C11G_1",
+          "exact_solids": 1,
+          "faces": 18,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "C11D_1",
+          "exact_solids": 1,
+          "faces": 18,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "C04D_1",
+          "exact_solids": 1,
+          "faces": 26,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "C04G_1",
+          "exact_solids": 1,
+          "faces": 26,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "C03_1",
+          "exact_solids": 1,
+          "faces": 28,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "C07_1",
+          "exact_solids": 1,
+          "faces": 13,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "C08_1",
+          "exact_solids": 1,
+          "faces": 20,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "C02_1",
+          "exact_solids": 1,
+          "faces": 66,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "C09_1",
+          "exact_solids": 1,
+          "faces": 18,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "C09_2",
+          "exact_solids": 1,
+          "faces": 18,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "C10_1",
+          "exact_solids": 1,
+          "faces": 10,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "C16_1",
+          "exact_solids": 1,
+          "faces": 8,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "C16_2",
+          "exact_solids": 1,
+          "faces": 8,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "C17_1",
+          "exact_solids": 1,
+          "faces": 7,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "C17_2",
+          "exact_solids": 1,
+          "faces": 7,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "C17_3",
+          "exact_solids": 1,
+          "faces": 7,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "C17_4",
+          "exact_solids": 1,
+          "faces": 7,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "C18_1",
+          "exact_solids": 1,
+          "faces": 10,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "C18_2",
+          "exact_solids": 1,
+          "faces": 10,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "C19_1",
+          "exact_solids": 1,
+          "faces": 12,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "L01_longeron_-1",
+          "exact_solids": 1,
+          "faces": 11,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "L01_longeron_1",
+          "exact_solids": 1,
+          "faces": 11,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "L02_pied_camera_-128",
+          "exact_solids": 1,
+          "faces": 12,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "L02_pied_camera_128",
+          "exact_solids": 1,
+          "faces": 12,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "L03_angle_pivot_camera",
+          "exact_solids": 1,
+          "faces": 14,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "T01_L70_-72_194",
+          "exact_solids": 1,
+          "faces": 4,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "T01_L70_-72_408",
+          "exact_solids": 1,
+          "faces": 4,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "T01_L70_72_194",
+          "exact_solids": 1,
+          "faces": 4,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "T01_L70_72_408",
+          "exact_solids": 1,
+          "faces": 4,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "T02_L56_-133_102",
+          "exact_solids": 1,
+          "faces": 4,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "T02_L56_-133_178",
+          "exact_solids": 1,
+          "faces": 4,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "T02_L56_-57_102",
+          "exact_solids": 1,
+          "faces": 4,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "T02_L56_-57_178",
+          "exact_solids": 1,
+          "faces": 4,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "N01_entretoise_servo_-23_68",
+          "exact_solids": 1,
+          "faces": 4,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "N01_entretoise_servo_-23_92",
+          "exact_solids": 1,
+          "faces": 4,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "N01_entretoise_servo_23_68",
+          "exact_solids": 1,
+          "faces": 4,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "N01_entretoise_servo_23_92",
+          "exact_solids": 1,
+          "faces": 4,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "N02_cale3_44",
+          "exact_solids": 1,
+          "faces": 4,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "N02_cale3_45",
+          "exact_solids": 1,
+          "faces": 4,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "N02_cale3_46",
+          "exact_solids": 1,
+          "faces": 4,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "N02_cale3_47",
+          "exact_solids": 1,
+          "faces": 4,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "N02_cale3_48",
+          "exact_solids": 1,
+          "faces": 4,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "N02_cale3_49",
+          "exact_solids": 1,
+          "faces": 4,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "N02_cale3_50",
+          "exact_solids": 1,
+          "faces": 4,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "N02_cale3_51",
+          "exact_solids": 1,
+          "faces": 4,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "N02_cale3_52",
+          "exact_solids": 1,
+          "faces": 4,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "N02_cale3_53",
+          "exact_solids": 1,
+          "faces": 4,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "N02_cale3_54",
+          "exact_solids": 1,
+          "faces": 4,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "N02_cale3_55",
+          "exact_solids": 1,
+          "faces": 4,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "N02_cale3_56",
+          "exact_solids": 1,
+          "faces": 4,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "N02_cale3_57",
+          "exact_solids": 1,
+          "faces": 4,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "N02_cale3_58",
+          "exact_solids": 1,
+          "faces": 4,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "N02_cale3_59",
+          "exact_solids": 1,
+          "faces": 4,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "N02_cale3_60",
+          "exact_solids": 1,
+          "faces": 4,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "N02_cale3_61",
+          "exact_solids": 1,
+          "faces": 4,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "N02_cale3_62",
+          "exact_solids": 1,
+          "faces": 4,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "N02_cale3_63",
+          "exact_solids": 1,
+          "faces": 4,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "N02_cale3_64",
+          "exact_solids": 1,
+          "faces": 4,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "N02_cale3_65",
+          "exact_solids": 1,
+          "faces": 4,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "N02_cale3_66",
+          "exact_solids": 1,
+          "faces": 4,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "S01_patin_silicone140x46x2",
+          "exact_solids": 1,
+          "faces": 6,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "S02_bumper_EVA260x15x6",
+          "exact_solids": 1,
+          "faces": 6,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "B01_G1_IC5_139x46x25",
+          "exact_solids": 1,
+          "faces": 10,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "Sangle20_gabarit_230",
+          "exact_solids": 1,
+          "faces": 28,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "Sangle20_gabarit_310",
+          "exact_solids": 1,
+          "faces": 28,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "F0_LFT_JLLN50_reserve_NON_CAO",
+          "exact_solids": 1,
+          "faces": 10,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "F1_KLKD20_reserve_NON_CAO",
+          "exact_solids": 1,
+          "faces": 10,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "F2_KLKD20_reserve_NON_CAO",
+          "exact_solids": 1,
+          "faces": 10,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "FP_KLKD10_reserve_NON_CAO",
+          "exact_solids": 1,
+          "faces": 10,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "FAUX_KLKD1_reserve_NON_CAO",
+          "exact_solids": 1,
+          "faces": 10,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "EVM60_reserve_-38",
+          "exact_solids": 1,
+          "faces": 10,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "EVM60_reserve_38",
+          "exact_solids": 1,
+          "faces": 10,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "Pololu2831_reserve",
+          "exact_solids": 1,
+          "faces": 10,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "Entretoise_Pi15_-31.5_353.5",
+          "exact_solids": 1,
+          "faces": 4,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "Entretoise_Pi15_-31.5_402.5",
+          "exact_solids": 1,
+          "faces": 4,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "Entretoise_Pi15_26.5_353.5",
+          "exact_solids": 1,
+          "faces": 4,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "Entretoise_Pi15_26.5_402.5",
+          "exact_solids": 1,
+          "faces": 4,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "Entretoise_M1_15_-66_274",
+          "exact_solids": 1,
+          "faces": 4,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "Entretoise_M1_15_-66_341",
+          "exact_solids": 1,
+          "faces": 4,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "Entretoise_M1_15_66_274",
+          "exact_solids": 1,
+          "faces": 4,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "Entretoise_M1_15_66_341",
+          "exact_solids": 1,
+          "faces": 4,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "Entretoise_EVM_10_-69_199",
+          "exact_solids": 1,
+          "faces": 4,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "Entretoise_EVM_10_-69_261",
+          "exact_solids": 1,
+          "faces": 4,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "Entretoise_EVM_10_-7_199",
+          "exact_solids": 1,
+          "faces": 4,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "Entretoise_EVM_10_-7_261",
+          "exact_solids": 1,
+          "faces": 4,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "Entretoise_EVM_10_7_199",
+          "exact_solids": 1,
+          "faces": 4,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "Entretoise_EVM_10_7_261",
+          "exact_solids": 1,
+          "faces": 4,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "Entretoise_EVM_10_69_199",
+          "exact_solids": 1,
+          "faces": 4,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "Entretoise_EVM_10_69_261",
+          "exact_solids": 1,
+          "faces": 4,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "AC03_XH_zone_locale",
+          "exact_solids": 1,
+          "faces": 10,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "IC5_zone_connecteur",
+          "exact_solids": 1,
+          "faces": 10,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "HALL_D_P01_Equerre_fourche",
+          "exact_solids": 1,
+          "faces": 38,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "HALL_D_P02_Porte_capteur",
+          "exact_solids": 1,
+          "faces": 34,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "HALL_D_P03_Retenue_capteur",
+          "exact_solids": 1,
+          "faces": 18,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "HALL_D_DRV5033_corps_nominal_face_plusX",
+          "exact_solids": 1,
+          "faces": 8,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "HALL_D_DRV5033_VCC_patte_raccourcie6",
+          "exact_solids": 1,
+          "faces": 6,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "HALL_D_DRV5033_GND_patte_raccourcie6",
+          "exact_solids": 1,
+          "faces": 6,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "HALL_D_DRV5033_OUT_patte_raccourcie6",
+          "exact_solids": 1,
+          "faces": 6,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "HALL_D_P04_Rotor_capteur_faceX0",
+          "exact_solids": 1,
+          "faces": 24,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "HALL_D_Aimant_3x2_-1",
+          "exact_solids": 1,
+          "faces": 3,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "HALL_D_Vis_blocage_M3x8_nominale_-1",
+          "exact_solids": 1,
+          "faces": 5,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "HALL_D_Aimant_3x2_1",
+          "exact_solids": 1,
+          "faces": 3,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "HALL_D_Vis_blocage_M3x8_nominale_1",
+          "exact_solids": 1,
+          "faces": 5,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "Transmission_D_limite_118",
+          "exact_solids": 1,
+          "faces": 6,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "Transmission_D_limite_176",
+          "exact_solids": 1,
+          "faces": 6,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "Transmission_D_limite_388",
+          "exact_solids": 1,
+          "faces": 6,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "Transmission_D_limite_459",
+          "exact_solids": 1,
+          "faces": 6,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "Arbre_sortie_D_enveloppe_a_definir",
+          "exact_solids": 1,
+          "faces": 3,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "HALL_G_P01_Equerre_fourche",
+          "exact_solids": 1,
+          "faces": 38,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "HALL_G_P02_Porte_capteur",
+          "exact_solids": 1,
+          "faces": 34,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "HALL_G_P03_Retenue_capteur",
+          "exact_solids": 1,
+          "faces": 18,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "HALL_G_DRV5033_corps_nominal_face_plusX",
+          "exact_solids": 1,
+          "faces": 8,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "HALL_G_DRV5033_VCC_patte_raccourcie6",
+          "exact_solids": 1,
+          "faces": 6,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "HALL_G_DRV5033_GND_patte_raccourcie6",
+          "exact_solids": 1,
+          "faces": 6,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "HALL_G_DRV5033_OUT_patte_raccourcie6",
+          "exact_solids": 1,
+          "faces": 6,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "HALL_G_P04_Rotor_capteur_faceX0",
+          "exact_solids": 1,
+          "faces": 24,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "HALL_G_Aimant_3x2_-1",
+          "exact_solids": 1,
+          "faces": 3,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "HALL_G_Vis_blocage_M3x8_nominale_-1",
+          "exact_solids": 1,
+          "faces": 5,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "HALL_G_Aimant_3x2_1",
+          "exact_solids": 1,
+          "faces": 3,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "HALL_G_Vis_blocage_M3x8_nominale_1",
+          "exact_solids": 1,
+          "faces": 5,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "Transmission_G_limite_118",
+          "exact_solids": 1,
+          "faces": 6,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "Transmission_G_limite_176",
+          "exact_solids": 1,
+          "faces": 6,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "Transmission_G_limite_388",
+          "exact_solids": 1,
+          "faces": 6,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "Transmission_G_limite_459",
+          "exact_solids": 1,
+          "faces": 6,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "Arbre_sortie_G_enveloppe_a_definir",
+          "exact_solids": 1,
+          "faces": 3,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "F_AV_G_etude_existante",
+          "exact_solids": 1,
+          "faces": 41,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "Axe_avant_G_gabarit",
+          "exact_solids": 1,
+          "faces": 3,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "F_AV_D_etude_existante",
+          "exact_solids": 1,
+          "faces": 41,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "Axe_avant_D_gabarit",
+          "exact_solids": 1,
+          "faces": 3,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "Direction_biellette_gabarit",
+          "exact_solids": 1,
+          "faces": 3,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "Camera_Berceau_P1_reutilise",
+          "exact_solids": 1,
+          "faces": 39,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "Camera_Entretoise_M2_12_-14_-14",
+          "exact_solids": 1,
+          "faces": 4,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "Camera_Vis_M2x20_nominale_-14_-14",
+          "exact_solids": 1,
+          "faces": 5,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "Camera_Ecrou_M2_nominal_-14_-14",
+          "exact_solids": 1,
+          "faces": 9,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "Camera_Entretoise_M2_12_-14_14",
+          "exact_solids": 1,
+          "faces": 4,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "Camera_Vis_M2x20_nominale_-14_14",
+          "exact_solids": 1,
+          "faces": 5,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "Camera_Ecrou_M2_nominal_-14_14",
+          "exact_solids": 1,
+          "faces": 9,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "Camera_Entretoise_M2_12_14_-14",
+          "exact_solids": 1,
+          "faces": 4,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "Camera_Vis_M2x20_nominale_14_-14",
+          "exact_solids": 1,
+          "faces": 5,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "Camera_Ecrou_M2_nominal_14_-14",
+          "exact_solids": 1,
+          "faces": 9,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "Camera_Entretoise_M2_12_14_14",
+          "exact_solids": 1,
+          "faces": 4,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "Camera_Vis_M2x20_nominale_14_14",
+          "exact_solids": 1,
+          "faces": 5,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "Camera_Ecrou_M2_nominal_14_14",
+          "exact_solids": 1,
+          "faces": 9,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "Pivot_camera_M4_nominal",
+          "exact_solids": 1,
+          "faces": 5,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        }
+      ],
+      "seconds": 8.62398150000081,
+      "view_representation": "Implantation A2-R1 simplifiée, détails dans FCStd et GLB"
+    },
+    {
+      "zone": "roulage",
+      "exact_solids": 275,
+      "exact_faces": 8904,
+      "native_components": 26,
+      "view_solids": 26,
+      "bounds_mm": [
+        -213.0,
+        213.0,
+        23.5,
+        476.5,
+        -3.552713678800501e-15,
+        63.0
+      ],
+      "volume_mm3": null,
+      "centre_mm": null,
+      "original_source_bounds_match": true,
+      "original_volume_and_centre_match": null,
+      "step_file": "drone-v3-roulage.step",
+      "step_bytes": 136715,
+      "step_sha256": "518b576d62bb70e8440db83894a3847eee61387a7a1965b02b2d086aedc2bbe5",
+      "glb": {
+        "meshes": 76,
+        "triangles": 403290,
+        "bytes": 9725676,
+        "sha256": "9bf0656898a53ea63f400795eba86290516040633a3f25e5f0f5a3721172473f"
+      },
+      "components": [
+        {
+          "component": "Roue_AV_G",
+          "exact_solids": 3,
+          "faces": 681,
+          "view_solids": 3,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "Roue_AR_G",
+          "exact_solids": 3,
+          "faces": 681,
+          "view_solids": 3,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "Moteur_G",
+          "exact_solids": 90,
+          "faces": 1616,
+          "view_solids": 90,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "Pignon16_G",
+          "exact_solids": 2,
+          "faces": 145,
+          "view_solids": 2,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "Couronne54_etage1_G",
+          "exact_solids": 2,
+          "faces": 340,
+          "view_solids": 2,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "Pignon24_G",
+          "exact_solids": 3,
+          "faces": 162,
+          "view_solids": 3,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "Couronne54_etage2_G",
+          "exact_solids": 2,
+          "faces": 340,
+          "view_solids": 2,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "MR115_G_101",
+          "exact_solids": 4,
+          "faces": 24,
+          "view_solids": 4,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "MR115_G_145",
+          "exact_solids": 4,
+          "faces": 24,
+          "view_solids": 4,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "MR115_G_113.5",
+          "exact_solids": 4,
+          "faces": 24,
+          "view_solids": 4,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "MR115_G_171.5",
+          "exact_solids": 4,
+          "faces": 24,
+          "view_solids": 4,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "Fusee_A7_G",
+          "exact_solids": 1,
+          "faces": 118,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "Roue_AV_D",
+          "exact_solids": 3,
+          "faces": 681,
+          "view_solids": 3,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "Roue_AR_D",
+          "exact_solids": 3,
+          "faces": 681,
+          "view_solids": 3,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "Moteur_D",
+          "exact_solids": 90,
+          "faces": 1616,
+          "view_solids": 90,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "Pignon16_D",
+          "exact_solids": 2,
+          "faces": 145,
+          "view_solids": 2,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "Couronne54_etage1_D",
+          "exact_solids": 2,
+          "faces": 340,
+          "view_solids": 2,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "Pignon24_D",
+          "exact_solids": 3,
+          "faces": 162,
+          "view_solids": 3,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "Couronne54_etage2_D",
+          "exact_solids": 2,
+          "faces": 340,
+          "view_solids": 2,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "MR115_D_101",
+          "exact_solids": 4,
+          "faces": 24,
+          "view_solids": 4,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "MR115_D_145",
+          "exact_solids": 4,
+          "faces": 24,
+          "view_solids": 4,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "MR115_D_113.5",
+          "exact_solids": 4,
+          "faces": 24,
+          "view_solids": 4,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "MR115_D_171.5",
+          "exact_solids": 4,
+          "faces": 24,
+          "view_solids": 4,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "Fusee_A7_D",
+          "exact_solids": 1,
+          "faces": 118,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "Servo_FT90M",
+          "exact_solids": 30,
+          "faces": 443,
+          "view_solids": 30,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "Palonnier",
+          "exact_solids": 1,
+          "faces": 103,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        }
+      ],
+      "seconds": 52.16497510000045,
+      "view_tires_without_grooves": [
+        "Roue_AV_G",
+        "Roue_AR_G",
+        "Roue_AV_D",
+        "Roue_AR_D"
+      ],
+      "view_representation": "Implantation A2-R1 simplifiée, détails dans FCStd et GLB"
+    },
+    {
+      "zone": "electronique",
+      "exact_solids": 4882,
+      "exact_faces": 70794,
+      "native_components": 12,
+      "view_solids": 18,
+      "bounds_mm": [
+        -127.7,
+        145.70000000000002,
+        177.3,
+        487.48923676038515,
+        17.0,
+        247.71850594368794
+      ],
+      "volume_mm3": null,
+      "centre_mm": null,
+      "original_source_bounds_match": null,
+      "original_volume_and_centre_match": null,
+      "step_file": "drone-v3-electronique.step",
+      "components": [
+        {
+          "component": "ESC_G",
+          "exact_solids": 143,
+          "faces": 1799,
+          "view_solids": 81,
+          "electronic_leaves_omitted": 38,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "ESC_D",
+          "exact_solids": 143,
+          "faces": 1799,
+          "view_solids": 81,
+          "electronic_leaves_omitted": 38,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "Pi5_4Go_detail",
+          "exact_solids": 2689,
+          "faces": 45689,
+          "view_solids": 299,
+          "electronic_leaves_omitted": 2412,
+          "envelope_proxies": 12
+        },
+        {
+          "component": "ActiveCooler",
+          "exact_solids": 38,
+          "faces": 4399,
+          "view_solids": 30,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 2
+        },
+        {
+          "component": "Camera_U20CAM4M",
+          "exact_solids": 1227,
+          "faces": 7073,
+          "view_solids": 499,
+          "electronic_leaves_omitted": 710,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "Surveillance_M1P",
+          "exact_solids": 618,
+          "faces": 6834,
+          "view_solids": 128,
+          "electronic_leaves_omitted": 397,
+          "envelope_proxies": 3
+        },
+        {
+          "component": "D42V55F5",
+          "exact_solids": 1,
+          "faces": 1429,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 1
+        },
+        {
+          "component": "Pololu2813",
+          "exact_solids": 1,
+          "faces": 980,
+          "view_solids": 1,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 1
+        },
+        {
+          "component": "WAGO_INplus",
+          "exact_solids": 5,
+          "faces": 172,
+          "view_solids": 5,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "WAGO_INmoins",
+          "exact_solids": 5,
+          "faces": 172,
+          "view_solids": 5,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "WAGO_5V",
+          "exact_solids": 5,
+          "faces": 172,
+          "view_solids": 5,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "WAGO_GND",
+          "exact_solids": 7,
+          "faces": 276,
+          "view_solids": 7,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        }
+      ],
+      "glb": {
+        "meshes": 124,
+        "triangles": 1764444,
+        "bytes": 42963512,
+        "sha256": "fba5c242cd0170f94bdd1bfcb5d4ec486c745b4ebde27c1bc04a343863cdec27"
+      },
+      "step_bytes": 206645,
+      "step_sha256": "234d2df0932cfa28273fdd455b6305d563810a63143c7771becf3fb6b4056e58",
+      "view_representation": "Implantation A2-R1 simplifiée, détails dans FCStd et GLB"
+    },
+    {
+      "zone": "puissance",
+      "exact_solids": 133,
+      "exact_faces": 10497,
+      "native_components": 5,
+      "view_solids": 34,
+      "bounds_mm": [
+        -140.34,
+        123.0241,
+        111.0,
+        402.5186,
+        15.0,
+        126.0
+      ],
+      "volume_mm3": null,
+      "centre_mm": null,
+      "original_source_bounds_match": null,
+      "original_volume_and_centre_match": null,
+      "step_file": "drone-v3-puissance.step",
+      "components": [
+        {
+          "component": "D_plus",
+          "exact_solids": 11,
+          "faces": 4187,
+          "view_solids": 11,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "D_moins",
+          "exact_solids": 11,
+          "faces": 4187,
+          "view_solids": 11,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "HS251_D1D100",
+          "exact_solids": 96,
+          "faces": 1620,
+          "view_solids": 96,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "UD80",
+          "exact_solids": 3,
+          "faces": 332,
+          "view_solids": 3,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        },
+        {
+          "component": "ED80",
+          "exact_solids": 12,
+          "faces": 171,
+          "view_solids": 12,
+          "electronic_leaves_omitted": 0,
+          "envelope_proxies": 0
+        }
+      ],
+      "glb": {
+        "meshes": 18,
+        "triangles": 105594,
+        "bytes": 2545784,
+        "sha256": "75df58ec62e4902f21a4e55be3263caa896fec008f59d47f636b3771c06fb396"
+      },
+      "step_bytes": 265667,
+      "step_sha256": "6f83c5904715ccc4aa0501537f5df05c152d5a1a90afd38f2a1d1324f3599243",
+      "view_representation": "Implantation A2-R1 simplifiée, détails dans FCStd et GLB"
+    }
+  ],
+  "limitations": [
+    "BatterieG1 IC5 : pas de STEP exact, ne pas réutiliser Zeee",
+    "LFT classeT et4 supportsKLKD : volumes réservés conservés",
+    "EVM TI et Pololu2831 : gabarits conservés",
+    "Arbres définitifs, paliers adaptés, carters et visserie finale non libérés",
+    "Câbles détaillés des composants gardent leur pose de référence, pas des liaisons électriques achevées"
+  ],
+  "GUI_screenshot_tested": false,
+  "all_original_BREP_retained_in_native": true,
+  "native": {
+    "file": "drone-v3-complet-ultra-detaille.FCStd",
+    "bytes": 27244530,
+    "sha256": "e67d2b2e20e01b8c3c697efb6efd1e0ef54d2bea5d8f1dfccc5ef32f02b6def0",
+    "solids": 5441,
+    "features": 194,
+    "explicit_camera_height_mm": 850
+  },
+  "view_step": {
+    "file": "drone-v3-complet-detaille.step",
+    "bytes": 6642932,
+    "sha256": "5b015bf59800b186dc31814df4c4378941578aacca3340b4b615a4e91fa311f5",
+    "solids": 225
+  },
+  "full_glb": {
+    "meshes": 369,
+    "triangles": 2342728,
+    "bytes": 56987572,
+    "sha256": "6cc3ac8eda20aeb4ca27fe26ecfdf6b27f33779e45762294f6ca157132bc1a35"
+  },
+  "all_original_BREP_solids_preserved": true,
+  "preview_glb_tessellation": {
+    "linear_mm": 0.18,
+    "angular_radians": 0.35,
+    "exact_source_surfaces": true
+  },
+  "step_preview_simplifications": [
+    "STEP : modèle d’implantation A2-R1 à formes simples et volumes réservés, 225 solides au total",
+    "Petits composants, pistes, pneus sculptés, dentures, interfaces et faisceaux détaillés sont dans les FCStd / GLB",
+    "Les STEP d’implantation ne qualifient pas les interfaces mécaniques ni les interférences locales"
+  ],
+  "view_step_source": "Composants/chassis/3D/chassis-a2-r1-implante.step",
+  "view_step_source_sha256": "5b015bf59800b186dc31814df4c4378941578aacca3340b4b615a4e91fa311f5",
+  "original_full_step_archive": {
+    "file": "sources-step-complet-original.zip",
+    "bytes": 57886014,
+    "sha256": "f6785696728b8dff0b0eea17b0aa26c89916b65292fec1971aced1a7ab9fa0cc",
+    "members": [
+      "drone-v3-complet-detaille.step"
+    ]
+  },
+  "fast_freecad_display": {
+    "all_passed": true,
+    "file": "drone-v3-complet-affichage-rapide.FCStd",
+    "bytes": 27788878,
+    "sha256": "bd945d8715cf2f210ef498e1c82295e6018df40c0f16ba788fe1e22b0c9a2331",
+    "representation": "Maillage de visualisation complet ; BREP exact dans le document séparé",
+    "objects": 369,
+    "source_triangles": 2342728,
+    "restored_triangles": 2342728,
+    "gui_open_seconds": 18.291060700001253,
+    "viewport_renders": [
+      "apercu-freecad-isometrique.png",
+      "apercu-freecad-dessus.png"
+    ],
+    "exact_CAD_document_unchanged": true
+  }
+}

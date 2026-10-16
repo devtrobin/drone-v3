@@ -1,0 +1,92 @@
+{
+  "file": "jst-b3b-xh-a.step",
+  "title": "JSTB3B-XH-A | embase3positions",
+  "generated_on": "2026-10-14",
+  "unit": "mm",
+  "cadquery_version": "2.8.0",
+  "coordinate_system": "Axe principal Z; face de reference z=0; dimensions selon parametres",
+  "bytes": 158417,
+  "sha256": "d881353e873f3e15e876d373dea9529974d5463d6bff34210ae18f1179c9599a",
+  "native_vendor_cad": false,
+  "hardware_measured": false,
+  "is_custom_project_design": false,
+  "published_nominal": [
+    "JST2025 : pas2.50,3positions ; embasesansboss9.9x5.75x7 ;XHP3collerette9.8x5.7x7.5 ;pin0.64."
+  ],
+  "estimates_and_limitations": [
+    "Réconstruction des évidements etressorts à partirdu catalogue, ajustement visuel seulement ; aucune donnéeCAO native téléchargée (distributionfabricantparformulaire/email).",
+    "Nuances optiques estimées ; géométrie non mesurée. Pas de plan de fabrication ni de qualification mécanique/électrique."
+  ],
+  "parameters": {},
+  "source_pages": [
+    "Voir sources.json et cotes.md du composant / ensemble"
+  ],
+  "bounds_mm": {
+    "xmin": -4.95,
+    "xmax": 4.95,
+    "ymin": -2.875,
+    "ymax": 2.875,
+    "zmin": -3.4,
+    "zmax": 7.0
+  },
+  "validation": {
+    "valid_after_reimport": true,
+    "solids": 4,
+    "faces": 48,
+    "colors": 2,
+    "volume_relative_error": 0.0,
+    "volume_relative_error_limit": 0.0001,
+    "volume_before_mm3": 188.78352000000004,
+    "volume_after_mm3": 188.78352000000004,
+    "adaptive_volume_tolerance": 1e-09,
+    "bbox_error_mm": 0.0,
+    "bbox_error_limit_mm": 0.01,
+    "void_and_material_probes": [],
+    "elapsed_seconds": 0.5995867999954498,
+    "volume_after_default_quadrature_mm3": 188.78352000000004
+  },
+  "parts": [
+    {
+      "name": "Piece_boitier",
+      "color_linear_rgb": [
+        0.87,
+        0.87,
+        0.83
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Piece_pin_1",
+      "color_linear_rgb": [
+        0.54,
+        0.59,
+        0.62
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Piece_pin_2",
+      "color_linear_rgb": [
+        0.54,
+        0.59,
+        0.62
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Piece_pin_3",
+      "color_linear_rgb": [
+        0.54,
+        0.59,
+        0.62
+      ],
+      "solids": 1
+    }
+  ],
+  "preview": {
+    "file": "jst-b3b-xh-a.png",
+    "sha256": "f0708efc2c1732f6dc0d6049baf67554ab85e317d69953203af18d84f850766d"
+  },
+  "component_folder": "liaisons-alimentation-surveillance/jst-xh-3",
+  "relative_step_path": "liaisons-alimentation-surveillance/jst-xh-3/3D/jst-b3b-xh-a.step"
+}

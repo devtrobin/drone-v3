@@ -1,0 +1,108 @@
+{
+  "assumptions_only": true,
+  "wire_temperature_C": 80,
+  "common_wire_m": 1.40562,
+  "propulsion_only_wire_m": 0.81087,
+  "common_copper_R20_ohm": 0.00403904907,
+  "common_copper_R80_ohm": 0.004991456840706,
+  "common_contacts_acceptance_ohm": 0.002,
+  "propulsion_contacts_acceptance_ohm": 0.001,
+  "SSR_R_assumed_ohm": 0.0015,
+  "Pi_branch_R_acceptance_ohm": 0.05,
+  "efficiencies_assumed": 0.8,
+  "servo12A_is_test_scenario_not_published_maximum": true,
+  "old5mohm_common_budget_not_retained_as_demonstrated": true,
+  "full_protection_coordination_proven": false,
+  "untrimmed_terminal_allowances_not_included": true,
+  "servo_UBEC_pair_not_validated_over_complete_voltage_envelope": true,
+  "scenarios": [
+    {
+      "pack_V": 6.4,
+      "scenario": "travail",
+      "moteurs_A": 30,
+      "servo_sortie_A": 1,
+      "Pi_entree_V": 5.869,
+      "UBEC_entree_V": 5.975,
+      "commun_A": 36.74,
+      "Pi_seuil_5_8V_respecte": true,
+      "servo_6V_regule_non_prouve": true
+    },
+    {
+      "pack_V": 6.4,
+      "scenario": "pointe_etude",
+      "moteurs_A": 40,
+      "servo_sortie_A": 12,
+      "Pi_entree_V": 5.687,
+      "UBEC_entree_V": 5.669,
+      "commun_A": 61.54,
+      "Pi_seuil_5_8V_respecte": false,
+      "servo_6V_regule_non_prouve": true
+    },
+    {
+      "pack_V": 6.6,
+      "scenario": "travail",
+      "moteurs_A": 30,
+      "servo_sortie_A": 1,
+      "Pi_entree_V": 6.08,
+      "UBEC_entree_V": 6.177,
+      "commun_A": 36.51,
+      "Pi_seuil_5_8V_respecte": true,
+      "servo_6V_regule_non_prouve": true
+    },
+    {
+      "pack_V": 6.6,
+      "scenario": "pointe_etude",
+      "moteurs_A": 40,
+      "servo_sortie_A": 12,
+      "Pi_entree_V": 5.903,
+      "UBEC_entree_V": 5.878,
+      "commun_A": 60.77,
+      "Pi_seuil_5_8V_respecte": true,
+      "servo_6V_regule_non_prouve": true
+    },
+    {
+      "pack_V": 7.4,
+      "scenario": "travail",
+      "moteurs_A": 30,
+      "servo_sortie_A": 1,
+      "Pi_entree_V": 6.918,
+      "UBEC_entree_V": 6.983,
+      "commun_A": 35.73,
+      "Pi_seuil_5_8V_respecte": true,
+      "servo_6V_regule_non_prouve": true
+    },
+    {
+      "pack_V": 7.4,
+      "scenario": "pointe_etude",
+      "moteurs_A": 40,
+      "servo_sortie_A": 12,
+      "Pi_entree_V": 6.755,
+      "UBEC_entree_V": 6.706,
+      "commun_A": 58.19,
+      "Pi_seuil_5_8V_respecte": true,
+      "servo_6V_regule_non_prouve": true
+    },
+    {
+      "pack_V": 8.4,
+      "scenario": "travail",
+      "moteurs_A": 30,
+      "servo_sortie_A": 1,
+      "Pi_entree_V": 7.953,
+      "UBEC_entree_V": 7.989,
+      "commun_A": 34.99,
+      "Pi_seuil_5_8V_respecte": true,
+      "servo_6V_regule_non_prouve": true
+    },
+    {
+      "pack_V": 8.4,
+      "scenario": "pointe_etude",
+      "moteurs_A": 40,
+      "servo_sortie_A": 12,
+      "Pi_entree_V": 7.804,
+      "UBEC_entree_V": 7.732,
+      "commun_A": 55.76,
+      "Pi_seuil_5_8V_respecte": true,
+      "servo_6V_regule_non_prouve": true
+    }
+  ]
+}

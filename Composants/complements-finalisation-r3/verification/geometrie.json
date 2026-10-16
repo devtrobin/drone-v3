@@ -1,0 +1,621 @@
+{
+  "pairs": 46980,
+  "exact_intersections": 194,
+  "unexpected": [],
+  "exported_STEP_files": [
+    {
+      "file": "complement-r3.step",
+      "valid": true,
+      "solids": 120
+    },
+    {
+      "file": "L01_R3_D.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "L01_R3_G.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "P03_R3.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "P04_R3.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "P05_R3.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "P06_R3.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "R301_montant_D_150.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "R301_montant_D_355.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "R301_montant_G_150.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "R301_montant_G_355.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "R302_cale1_D_142.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "R302_cale1_D_158.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "R302_cale1_D_347.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "R302_cale1_D_363.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "R302_cale1_G_142.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "R302_cale1_G_158.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "R302_cale1_G_347.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "R302_cale1_G_363.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "R303_rail_D.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "R303_rail_G.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "R304_traverse_335.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "R304_traverse_60.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "R305_eclisse_D_335.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "R305_eclisse_D_60.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "R305_eclisse_G_335.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "R305_eclisse_G_60.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "R306_console_03.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "R306_console_04.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "R306_console_05.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "R306_console_06.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "R306_console_07.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "R306_console_08.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "R307_base_01_P03.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "R307_base_02_P03.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "R307_base_03_P04.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "R307_base_04_P04.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "R307_base_05_P05.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "R307_base_06_P06.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "R307_base_07_P06.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "R307_base_08_P06.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "R308_capot_01_P03.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "R308_capot_02_P03.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "R308_capot_03_P04.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "R308_capot_04_P04.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "R308_capot_05_P05.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "R308_capot_06_P06.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "R308_capot_07_P06.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "R308_capot_08_P06.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "R309_entretoise_01_-1.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "R309_entretoise_01_1.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "R309_entretoise_02_-1.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "R309_entretoise_02_1.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "R309_entretoise_03_-1.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "R309_entretoise_03_1.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "R309_entretoise_04_-1.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "R309_entretoise_04_1.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "R309_entretoise_05_-1.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "R309_entretoise_05_1.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "R309_entretoise_06_-1.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "R309_entretoise_06_1.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "R309_entretoise_07_-1.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "R309_entretoise_07_1.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "R309_entretoise_08_-1.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "R309_entretoise_08_1.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "R310_anti_ecrasement_01.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "R310_anti_ecrasement_02.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "R310_anti_ecrasement_03.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "R310_anti_ecrasement_04.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "R310_anti_ecrasement_05.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "R310_anti_ecrasement_06.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "R310_anti_ecrasement_07.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "R310_anti_ecrasement_08.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "R310_anti_ecrasement_09.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "R310_anti_ecrasement_10.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "R310_anti_ecrasement_11.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "R310_anti_ecrasement_12.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "R310_anti_ecrasement_13.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "R310_anti_ecrasement_14.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "R310_anti_ecrasement_15.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "R310_anti_ecrasement_16.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "R310_anti_ecrasement_17.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "R310_anti_ecrasement_18.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "R310_anti_ecrasement_19.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "R310_anti_ecrasement_20.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "R310_anti_ecrasement_21.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "R310_anti_ecrasement_22.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "R310_anti_ecrasement_23.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "R310_anti_ecrasement_24.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "R310_anti_ecrasement_25.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "R310_anti_ecrasement_26.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "R310_anti_ecrasement_27.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "R310_anti_ecrasement_28.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "R310_anti_ecrasement_29.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "R310_anti_ecrasement_30.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "R310_anti_ecrasement_31.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "R310_anti_ecrasement_32.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "R310_anti_ecrasement_33.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "R310_anti_ecrasement_34.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "R310_anti_ecrasement_35.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "R310_anti_ecrasement_36.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "R311_garniture_01.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "R311_garniture_02.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "R311_garniture_03.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "R311_garniture_04.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "R311_garniture_05.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "R311_garniture_06.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "R311_garniture_07.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "R311_garniture_08.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "R312_bouchon_D_150.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "R312_bouchon_D_355.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "R312_bouchon_G_150.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "R312_bouchon_G_355.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "R313_anti_ecrasement_montant_D_142.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "R313_anti_ecrasement_montant_D_158.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "R313_anti_ecrasement_montant_D_347.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "R313_anti_ecrasement_montant_D_363.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "R313_anti_ecrasement_montant_G_142.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "R313_anti_ecrasement_montant_G_158.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "R313_anti_ecrasement_montant_G_347.step",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "file": "R313_anti_ecrasement_montant_G_363.step",
+      "valid": true,
+      "solids": 1
+    }
+  ],
+  "all_steps_valid": true,
+  "nominal_frame_and_cables_clear": true,
+  "old_vehicle_internal_overlaps_not_rechecked": true,
+  "nominal_endpoint_ports_not_actual_terminals": true,
+  "steering_samples": 51,
+  "steering_unexpected": [],
+  "steering_scope": "New R3 objects versus right moving parts and reconstructed tyre; left nominal geometry is mirrored",
+  "hardware_tested": false,
+  "seconds": 13.99423861503601
+}

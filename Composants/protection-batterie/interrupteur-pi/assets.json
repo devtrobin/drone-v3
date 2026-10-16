@@ -1,0 +1,157 @@
+{
+  "checked_on": "2026-10-13",
+  "assets": [
+    {
+      "file": "sources-web/Pololu-2813.html",
+      "url": "https://www.pololu.com/product/2813",
+      "final_url": "https://www.pololu.com/product/2813",
+      "bytes": 71841,
+      "sha256": "559e4bf5bba5e2e4f62ae87029c5f64593d280655af137da459d2bd07dae5589",
+      "modified": false
+    },
+    {
+      "file": "sources-web/Pololu-2813-resources.html",
+      "url": "https://www.pololu.com/product/2813/resources",
+      "final_url": "https://www.pololu.com/product/2813/resources",
+      "bytes": 51444,
+      "sha256": "e9af9a95b91f1bbc80c45bb6b8defe4328ae1215ab55c16e3b41cf2dd3e039ca",
+      "modified": false
+    },
+    {
+      "file": "sources-web/retour-auto-demarrage.html",
+      "url": "https://forum.pololu.com/t/problem-with-pushbutton-power-switch-item-2813-auto-on-with-power-fluctuation/13660",
+      "final_url": "https://forum.pololu.com/t/problem-with-pushbutton-power-switch-item-2813-auto-on-with-power-fluctuation/13660",
+      "bytes": 27012,
+      "sha256": "ca8e6aea1e5153518bbe15965f418830b658e5ba111c3bd1e91a01e8bcff0722",
+      "modified": false
+    },
+    {
+      "file": "sources-web/retour-arret-pi.html",
+      "url": "https://forum.pololu.com/t/raspberry-pi-can-it-turn-itself-off-with-the-mini-pushbutton-power-switch/21371",
+      "final_url": "https://forum.pololu.com/t/raspberry-pi-can-it-turn-itself-off-with-the-mini-pushbutton-power-switch/21371",
+      "bytes": 26374,
+      "sha256": "ba3a579294795122f7d433aa98060e8fb260eadc561332d87cfe03b1a71c293d",
+      "modified": false
+    },
+    {
+      "file": "notices/big-pushbutton-power-switch-block-diagram.pdf",
+      "url": "https://www.pololu.com/file/0J1070/big-pushbutton-power-switch-block-diagram.pdf",
+      "final_url": "https://www.pololu.com/file/0J1070/big-pushbutton-power-switch-block-diagram.pdf",
+      "bytes": 594322,
+      "sha256": "86b9f5c30cc57d70d358d30f07c51c5f6ffb982e51061bc94fcb0b81386978ac",
+      "modified": false
+    },
+    {
+      "file": "notices/big-pushbutton-power-switch-with-reverse-voltage-protection-dimension-diagram.pdf",
+      "url": "https://www.pololu.com/file/0J1102/big-pushbutton-power-switch-with-reverse-voltage-protection-dimension-diagram.pdf",
+      "final_url": "https://www.pololu.com/file/0J1102/big-pushbutton-power-switch-with-reverse-voltage-protection-dimension-diagram.pdf",
+      "bytes": 366596,
+      "sha256": "40a8f0a8a0b1ef78497fe441352f1bbb7e2d274ef684e305ee52a1b743516482",
+      "modified": false
+    },
+    {
+      "file": "3D/pololu-2813-officiel.step",
+      "url": "https://www.pololu.com/file/0J1405/big-pushbutton-power-switch-with-reverse-voltage-protection.step",
+      "final_url": "https://www.pololu.com/file/0J1405/big-pushbutton-power-switch-with-reverse-voltage-protection.step",
+      "bytes": 4385103,
+      "sha256": "89dceed662b33acde2cf32cef641e73ba3a7763c03d66824b471639f7bcb5de8",
+      "modified": false
+    },
+    {
+      "file": "notices/psw03b-drill.dxf",
+      "url": "https://www.pololu.com/file/0J1099/psw03b-drill.dxf",
+      "final_url": "https://www.pololu.com/file/0J1099/psw03b-drill.dxf",
+      "bytes": 38083,
+      "sha256": "dbf6377c4a188170ace4cfe53fe5f101c71392711f06747d25417bcc77bdb544",
+      "modified": false
+    },
+    {
+      "file": "photos/01-pololu-2813.jpg",
+      "url": "https://a.pololu-files.com/picture/0J6925.1200x627.jpg",
+      "final_url": "https://a.pololu-files.com/picture/0J6925.1200x627.jpg",
+      "bytes": 121631,
+      "sha256": "9a807730fd6701dd89b5cc38ff5852328d5a2ba0367cd1fdb4f4fec62650c362",
+      "modified": false
+    },
+    {
+      "file": "photos/02-pololu-2813.jpg",
+      "url": "https://a.pololu-files.com/picture/0J6926.1200.jpg",
+      "final_url": "https://a.pololu-files.com/picture/0J6926.1200.jpg",
+      "bytes": 1562361,
+      "sha256": "6da9a2171517cf937b21bfbb5f8eb977bf0b86a31507191ddda68eb60610da17",
+      "modified": false
+    },
+    {
+      "file": "photos/03-pololu-2813.jpg",
+      "url": "https://a.pololu-files.com/picture/0J6927.1200.jpg",
+      "final_url": "https://a.pololu-files.com/picture/0J6927.1200.jpg",
+      "bytes": 490278,
+      "sha256": "7a868f9ab7d58844122889dcd2cafdbb5c3a922d84163af763c265609dd3eb5c",
+      "modified": false
+    },
+    {
+      "file": "photos/04-pololu-2813.jpg",
+      "url": "https://a.pololu-files.com/picture/0J6928.1200.jpg",
+      "final_url": "https://a.pololu-files.com/picture/0J6928.1200.jpg",
+      "bytes": 439593,
+      "sha256": "e1d4990b6a009d897a78422a8b2cba792b919051f119f30a7b2322ee05f844f6",
+      "modified": false
+    },
+    {
+      "file": "photos/05-pololu-2813.jpg",
+      "url": "https://a.pololu-files.com/picture/0J6929.1200.jpg",
+      "final_url": "https://a.pololu-files.com/picture/0J6929.1200.jpg",
+      "bytes": 757114,
+      "sha256": "6f402f78f9d52665fd7f5225de4097ed613d32bb3947804147e801652d3b3d69",
+      "modified": false
+    },
+    {
+      "file": "photos/06-pololu-2813.jpg",
+      "url": "https://a.pololu-files.com/picture/0J6930.1200.jpg",
+      "final_url": "https://a.pololu-files.com/picture/0J6930.1200.jpg",
+      "bytes": 461620,
+      "sha256": "d8e4fa77e638f07b5d6fabcfade9a100516ccab6b53daefb5bdaf1a8cfe3d37c",
+      "modified": false
+    },
+    {
+      "file": "photos/07-pololu-2813.jpg",
+      "url": "https://a.pololu-files.com/picture/0J6931.1200.jpg",
+      "final_url": "https://a.pololu-files.com/picture/0J6931.1200.jpg",
+      "bytes": 213103,
+      "sha256": "8b4d159e21a00beaa1c21548e660dcfee20ec77f6218246415e2fb4399b55539",
+      "modified": false
+    },
+    {
+      "file": "photos/08-pololu-2813.jpg",
+      "url": "https://a.pololu-files.com/picture/0J6932.1200.jpg",
+      "final_url": "https://a.pololu-files.com/picture/0J6932.1200.jpg",
+      "bytes": 218871,
+      "sha256": "fdb7caab76f6e9eb510937db3e382747f9ad38a2ab714676c952c509b6ec36a4",
+      "modified": false
+    },
+    {
+      "file": "photos/09-pololu-2813.png",
+      "url": "https://a.pololu-files.com/picture/0J6945.1200.png",
+      "final_url": "https://a.pololu-files.com/picture/0J6945.1200.png",
+      "bytes": 37012,
+      "sha256": "8de1ff3c6f0ac128795980d06a2b6306655bd6c9c8c375ca1cb925e40e4dd028",
+      "modified": false
+    },
+    {
+      "file": "photos/10-pololu-2813.png",
+      "url": "https://a.pololu-files.com/picture/0J6763.1200.png",
+      "final_url": "https://a.pololu-files.com/picture/0J6763.1200.png",
+      "bytes": 24086,
+      "sha256": "7b0eda5d1c460d21a058a0b881207337daf4850f2ca4f4c46250337aebea98e1",
+      "modified": false
+    },
+    {
+      "file": "photos/11-pololu-2813.png",
+      "url": "https://a.pololu-files.com/picture/0J6764.1200.png",
+      "final_url": "https://a.pololu-files.com/picture/0J6764.1200.png",
+      "bytes": 11046,
+      "sha256": "0ad8a10cc85581ec05a92490e82e4ae66708868deeb992816dc54da8dd9da100",
+      "modified": false
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "file": "gaine-te-atum-8-2-retreinte-libre-coupe.step",
+  "title": "TE ATUM 8/2 | retreinte-libre-coupe",
+  "generated_on": "2026-10-14",
+  "unit": "mm",
+  "cadquery_version": "2.8.0",
+  "coordinate_system": "Cosses/cables/gaines: axe X, holecentreX0 Klauke; MB2 baseZ0; collier droitX0..100. Voir parametres.",
+  "bytes": 36392,
+  "sha256": "8b93d1beceb09a28d9d2e9c77b56e955b945d6b24a71e79732530d9c531287ae",
+  "native_vendor_cad": false,
+  "hardware_measured": false,
+  "is_custom_project_design": false,
+  "published_nominal": [
+    "Diametre fourni min8; libre retreint max2; paroi libre totale1.0+/-0.3, adhesif0.5nom mm",
+    "Retrait longitudinal0 a -15%: plan TE A2, 2023; couleur noire"
+  ],
+  "estimates_and_limitations": [
+    "Longueurs40/36mm exemples de coupe, pas une longueur livree; 1.2m STK",
+    "Etat expanse: OD8.7 et partage0.17/0.18mm estimes; paroi fournie non publiee",
+    "Adhesif ambre est une couleur de lecture, teinte reelle non documentee",
+    "Retreinte libre n est pas la geometrie installee sur fil4.7 ou canon6mm",
+    "Demi-coupe volontaire"
+  ],
+  "parameters": {
+    "state": "retreinte-libre-coupe",
+    "inside_mm": 2,
+    "outside_mm": 4,
+    "length_example_mm": 36,
+    "free_recovered_wall_mm": 1,
+    "free_recovered_adhesive_mm": 0.5
+  },
+  "source_pages": [
+    "TE drawing ATUM_4_to_RATIO_STANDARD_SIZES revA2",
+    "TE datasheet ATUM05/24",
+    "Raytronics fiche secondaire archivee"
+  ],
+  "bounds_mm": {
+    "xmin": 0.0,
+    "xmax": 36.0,
+    "ymin": -2.0,
+    "ymax": 4.898587196589e-16,
+    "zmin": -2.0,
+    "zmax": 2.0
+  },
+  "validation": {
+    "valid_after_reimport": true,
+    "solids": 2,
+    "faces": 12,
+    "colors": 2,
+    "volume_relative_error": 4.355920156341801e-14,
+    "volume_relative_error_limit": 0.0001,
+    "volume_before_mm3": 169.64600329384893,
+    "volume_after_mm3": 169.64600329385632,
+    "adaptive_volume_tolerance": 1e-09,
+    "bbox_error_mm": 4.1316589910950493e-29,
+    "bbox_error_limit_mm": 0.01,
+    "void_and_material_probes": [],
+    "elapsed_seconds": 0.08520099999986996
+  },
+  "parts": [
+    {
+      "name": "Adhesif_ambre_estime_optique",
+      "color_linear_rgb": [
+        0.65,
+        0.39,
+        0.13
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Polyolefine_noire",
+      "color_linear_rgb": [
+        0.022,
+        0.026,
+        0.032
+      ],
+      "solids": 1
+    }
+  ],
+  "preview": {
+    "file": "gaine-te-atum-8-2-retreinte-libre-coupe.png",
+    "sha256": "0c9824a837638ad559172ef635ec3d5a465e13255420ff9bee24b775385d855a"
+  },
+  "generator": "tools/build_harness_step.py",
+  "generator_sha256": "343c45a6f573cd2d4205b4159948bddbdee9c39cf2bcf267fc7d6b8eb9957edc"
+}

@@ -1,0 +1,188 @@
+{
+  "file": "ensemble-midi-60a-vue-eclatee.step",
+  "title": "MIDI 60 A | vue eclatee",
+  "generated_on": "2026-10-14",
+  "unit": "mm",
+  "cadquery_version": "2.8.0",
+  "coordinate_system": "X longueur et entraxeM5; Y largeur; Z vertical. Fond socle/fusibleZ=0. Vue eclatee capot+25mm.",
+  "bytes": 3688768,
+  "sha256": "2130755befbb2899cf0039ba1d03105b5ee83624742c3053fcb8fe85ccb974f6",
+  "native_vendor_cad": false,
+  "hardware_measured": false,
+  "is_custom_project_design": false,
+  "published_nominal": [
+    "Memes pieces reconstruites que montage ferme."
+  ],
+  "estimates_and_limitations": [
+    "Reconstruction exterieure: pas le STEP constructeur, dont acces propose par formulaire.",
+    "Diametre3.81 des trous de fixation; deux goujons M5 entraxe30 selon interface MIDI.",
+    "Poches, nervures, clips, visserie, cotes de laniere et marquages estimes d apres plan/photos.",
+    "Plan du corps51.4x27.3x24.9; laniere deborde, reserve d espace supplementaire.",
+    "Dimensions d empilage hors cosses estimees; taraudage des ecrous simplifie.",
+    "Vue eclatee illustrative; laniere omise, ce n est pas une simulation de son articulation."
+  ],
+  "parameters": {
+    "cover_exploded_offset_z_mm": 25
+  },
+  "source_pages": [
+    "Porte-fusible: catalogue Littelfuse 2012, PDF p.164 (imprime159); fiche2008 p.1",
+    "Fusible: Littelfuse REV07272021 p.2; photo Farnell0498060.M"
+  ],
+  "bounds_mm": {
+    "xmin": -25.7000001,
+    "xmax": 25.7000001,
+    "ymin": -13.65,
+    "ymax": 13.65,
+    "zmin": 0.0,
+    "zmax": 49.9000001
+  },
+  "validation": {
+    "valid_after_reimport": true,
+    "solids": 15,
+    "faces": 657,
+    "colors": 5,
+    "volume_relative_error": 2.846927880965782e-11,
+    "volume_relative_error_limit": 0.0001,
+    "volume_before_mm3": 11369.89821568588,
+    "volume_after_mm3": 11369.898215362187,
+    "adaptive_volume_tolerance": 1e-09,
+    "bbox_error_mm": 0.0,
+    "bbox_error_limit_mm": 0.01,
+    "void_and_material_probes": [],
+    "elapsed_seconds": 5.4047876999975415
+  },
+  "parts": [
+    {
+      "name": "Socle_noir_poches_et_fixation",
+      "color_linear_rgb": [
+        0.015,
+        0.017,
+        0.02
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Goujon_M5x08_1_longueur_estimee",
+      "color_linear_rgb": [
+        0.53,
+        0.39,
+        0.13
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Rondelle_plate_1",
+      "color_linear_rgb": [
+        0.53,
+        0.39,
+        0.13
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Rondelle_frein_fendue_1",
+      "color_linear_rgb": [
+        0.53,
+        0.39,
+        0.13
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Ecrou_M5_AF8_1_taraudage_simplifie",
+      "color_linear_rgb": [
+        0.53,
+        0.39,
+        0.13
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Goujon_M5x08_2_longueur_estimee",
+      "color_linear_rgb": [
+        0.53,
+        0.39,
+        0.13
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Rondelle_plate_2",
+      "color_linear_rgb": [
+        0.53,
+        0.39,
+        0.13
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Rondelle_frein_fendue_2",
+      "color_linear_rgb": [
+        0.53,
+        0.39,
+        0.13
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Ecrou_M5_AF8_2_taraudage_simplifie",
+      "color_linear_rgb": [
+        0.53,
+        0.39,
+        0.13
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Capot_AD_estime_exterieur",
+      "color_linear_rgb": [
+        0.026,
+        0.029,
+        0.032
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Fusible_Patte_cuivre_etame_-1",
+      "color_linear_rgb": [
+        0.57,
+        0.59,
+        0.6
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Fusible_Patte_cuivre_etame_1",
+      "color_linear_rgb": [
+        0.57,
+        0.59,
+        0.6
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Fusible_Boitier_noir_PA66_GF25_exterieur",
+      "color_linear_rgb": [
+        0.015,
+        0.017,
+        0.02
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Fusible_Marquage_60_jaune_approche",
+      "color_linear_rgb": [
+        0.65,
+        0.55,
+        0.035
+      ],
+      "solids": 2
+    }
+  ],
+  "preview": {
+    "file": "ensemble-midi-60a-vue-eclatee.png",
+    "sha256": "1ec977e38db8bae1b6477b2e5839d7a1c632fd7288a11c7970d12b70af8dade5"
+  },
+  "generator": "tools/build_overcurrent_step.py",
+  "generator_sha256": "d564461b91e9c7d9e6aee4640d1c83f33f8709f8b707ae420a188615929614fa"
+}

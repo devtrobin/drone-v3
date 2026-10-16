@@ -1,0 +1,65 @@
+{
+  "warning": {
+    "falling_typical_V": 3.56628,
+    "falling_corner_min_V": 3.4902552667432576,
+    "falling_corner_max_V": 3.6244504484384383,
+    "rising_typical_V": 3.6159999999999997,
+    "top_ohm": 80400,
+    "bottom_ohm": 10000,
+    "resistor_tolerance": 0.001,
+    "falling_reference_range_V": [
+      0.387,
+      0.4
+    ],
+    "input_bias_bound_A": 2.5e-08
+  },
+  "hard_cut": {
+    "falling_typical_V": 3.35325,
+    "falling_corner_min_V": 3.2818276742008,
+    "falling_corner_max_V": 3.4078828810060053,
+    "rising_typical_V": 3.4000000000000004,
+    "top_ohm": 75000,
+    "bottom_ohm": 10000,
+    "resistor_tolerance": 0.001,
+    "falling_reference_range_V": [
+      0.387,
+      0.4
+    ],
+    "input_bias_bound_A": 2.5e-08
+  },
+  "hardware_tested": false,
+  "manufacturer_cell_minimum_V": 3.2,
+  "TLV_source": "TI-TLV6700-datasheet.pdf PDF5",
+  "current_is_not_ESC_rating": true,
+  "SSR_rds_max_ohm": 0.005,
+  "ssr_losses_W": [
+    {
+      "current_A": 10,
+      "power_W": 0.5,
+      "drop_V": 0.05
+    },
+    {
+      "current_A": 20,
+      "power_W": 2.0,
+      "drop_V": 0.1
+    },
+    {
+      "current_A": 30,
+      "power_W": 4.5,
+      "drop_V": 0.15
+    },
+    {
+      "current_A": 40,
+      "power_W": 8.0,
+      "drop_V": 0.2
+    },
+    {
+      "current_A": 60,
+      "power_W": 18.0,
+      "drop_V": 0.3
+    }
+  ],
+  "pi_branch_input_A_at_25W_output_6_4V_and_90pct": 4.340277777777778,
+  "guaranteed_shutdown_time_s": null,
+  "autonomy_guarantee": false
+}

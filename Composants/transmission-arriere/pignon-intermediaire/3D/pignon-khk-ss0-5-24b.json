@@ -1,0 +1,105 @@
+{
+  "file": "pignon-khk-ss0-5-24b.step",
+  "title": "KHK SS0.5-24B | 24 dents",
+  "generated_on": "2026-10-13",
+  "unit": "mm",
+  "cadquery_version": "2.8.0",
+  "coordinate_system": "Axe principal Z; face de reference z=0; dimensions selon parametres",
+  "bytes": 1025917,
+  "sha256": "a521ca8d80d23a5412bdcb281924dc02ddfe171410c25964d00dc73dfe361eac",
+  "native_vendor_cad": false,
+  "hardware_measured": false,
+  "is_custom_project_design": false,
+  "published_nominal": [
+    "24 dents, module0.5, angle20 deg, bore5H8 nominal",
+    "Diametre primitif12, exterieur13, moyeu13, denture5, moyeu11, total16",
+    "Vis M4; axe vis J=3 mm depuis face du moyeu; acier S45C noirci"
+  ],
+  "estimates_and_limitations": [
+    "Raccord pied de dent, chanfreins et geometrie vis non cotes; tolerance H8 non appliquee",
+    "24B: deux volumes BRep axiaux adjacents pour un seul engrenage physique; aucune separation reelle",
+    "Flancs par splines de developpante (12 points); raccord racine reconstruit non trochoidal",
+    "Pas un fichier natif KHK/Losi ni un profil de fabrication certifie"
+  ],
+  "parameters": {
+    "teeth": 24,
+    "module": 0.5,
+    "pressure_angle": 20,
+    "pressure_angle_verified": true,
+    "bore": 5,
+    "pitch_diameter": 12.0,
+    "tip_diameter": 13.0,
+    "face_width": 5,
+    "hub_diameter": 13,
+    "hub_length": 11,
+    "overall_length": 16,
+    "set_screw_axis_from_hub_end": 3
+  },
+  "source_pages": [
+    "KHK-engrenages-acier-SS.pdf p.1"
+  ],
+  "bounds_mm": {
+    "xmin": -6.5000001,
+    "xmax": 6.5000001,
+    "ymin": -6.5000001,
+    "ymax": 6.5000001,
+    "zmin": -1e-07,
+    "zmax": 16.0000001
+  },
+  "validation": {
+    "valid_after_reimport": true,
+    "solids": 3,
+    "faces": 162,
+    "colors": 2,
+    "volume_relative_error": 2.91489072107104e-13,
+    "volume_relative_error_limit": 0.0001,
+    "volume_before_mm3": 1678.650064020394,
+    "volume_after_mm3": 1678.6500640208833,
+    "adaptive_volume_tolerance": 1e-09,
+    "bbox_error_mm": 1.7763568394002505e-15,
+    "bbox_error_limit_mm": 0.01,
+    "void_and_material_probes": [
+      {
+        "point": [
+          2.49,
+          0,
+          2.5
+        ],
+        "occupied": false
+      },
+      {
+        "point": [
+          2.55,
+          0,
+          2.5
+        ],
+        "occupied": true
+      }
+    ],
+    "elapsed_seconds": 1.173395599998912
+  },
+  "parts": [
+    {
+      "name": "Engrenage_denture_involute",
+      "color_linear_rgb": [
+        0.022,
+        0.026,
+        0.032
+      ],
+      "solids": 2
+    },
+    {
+      "name": "Vis_pression_geometrie_estimee",
+      "color_linear_rgb": [
+        0.38,
+        0.41,
+        0.45
+      ],
+      "solids": 1
+    }
+  ],
+  "preview": {
+    "file": "pignon-khk-ss0-5-24b.png",
+    "sha256": "290950e7af666eca61203203df120848f4cc5d72dfe2b24f0de3d338d1360928"
+  }
+}

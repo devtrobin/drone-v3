@@ -1,0 +1,165 @@
+{
+  "checked_on": "2026-10-13",
+  "assets": [
+    {
+      "file": "sources-web/Sensata-HS251.html",
+      "url": "https://www.sensata.com/products/relays/hs-series-heat-sinks-hs251",
+      "checked_on": "2026-10-13",
+      "modified": false,
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "file": "notices/Sensata-HS251-datasheet.pdf",
+      "url": "https://www.sensata.com/sites/default/files/a/sensata-hs251-heatsink-datasheet.pdf?cb=495b66ac",
+      "checked_on": "2026-10-13",
+      "modified": false,
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "file": "notices/Sensata-HS251-plan.pdf",
+      "url": "https://www.sensata.com.cn/sites/default/files/a/sensata-hs251-heatsink-accessories-drawing.pdf",
+      "checked_on": "2026-10-13",
+      "modified": false,
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "file": "3D/sensata-hs251-officiel.step",
+      "url": "https://www.sensata.com.cn/sites/default/files/a/sensata-hs251-heatsink-accessories-drawing.step",
+      "checked_on": "2026-10-13",
+      "modified": false,
+      "final_url": "https://www.sensata.com.cn/sites/default/files/a/sensata-hs251-heatsink-accessories-drawing.step",
+      "bytes": 222271,
+      "sha256": "0205bb9ca8d5a5ede282401681bf73ae1e72846dbbf2cabb05274b79f33a66ce",
+      "status": "downloaded"
+    },
+    {
+      "file": "photos/Sensata-HS251.jpg",
+      "url": "https://www.sensata.com/sites/default/files/styles/p_img_active/public/media/images/2024-09-23/sensata-hs251-heatsink-accessories-product-image.jpg?cb=2c8a372b&itok=TLV5xU17",
+      "checked_on": "2026-10-13",
+      "modified": false,
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "file": "notices/Sensata-HS-installation.pdf",
+      "url": "https://www.sensata.com/sites/default/files/a/sensata-hs-series-installation-guide.pdf",
+      "checked_on": "2026-10-13",
+      "modified": false,
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "file": "notices/Sensata-HSP-datasheet-actuelle.pdf",
+      "url": "https://www.sensata.com.cn/sites/default/files/a/sensata-hsp-series-thermal-pads-datasheet-and-specifications.pdf",
+      "checked_on": "2026-10-13",
+      "modified": false,
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "file": "notices/Sensata-HSP-datasheet-historique-2018.pdf",
+      "url": "https://www.sensata.com.cn/sites/default/files/media/documents/2018-04-04/ourproducts_thermal_pads_hsp.pdf",
+      "checked_on": "2026-10-13",
+      "modified": false,
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "file": "notices/Crydom-HS251-datasheet-miroir-2017.pdf",
+      "url": "https://www.ic-relays.com/pdf-6a/hs251.pdf",
+      "checked_on": "2026-10-13",
+      "modified": false,
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "file": "notices/Sensata-HS-installation-miroir-RS.pdf",
+      "url": "https://docs.rs-online.com/766e/A700000009477596.pdf",
+      "checked_on": "2026-10-13",
+      "modified": false,
+      "final_url": "https://docs.rs-online.com/766e/A700000009477596.pdf",
+      "bytes": 459725,
+      "sha256": "59d83f8907f6a1df440fed22efd6b8e8bbc789cca806a3c74b90ee6a3032501d",
+      "status": "downloaded"
+    },
+    {
+      "file": "notices/Sensata-HSP-PCN-SSR-231214.pdf",
+      "url": "https://www.tti.com/content/dam/ttiinc/products/PCN/sensata/Sensata-PCN-SSR-231214.pdf",
+      "checked_on": "2026-10-13",
+      "modified": false,
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "file": "notices/Sensata-HS-brochure-miroir-RS.pdf",
+      "url": "https://docs.rs-online.com/cf62/A700000010035084.pdf",
+      "checked_on": "2026-10-13",
+      "modified": false,
+      "final_url": "https://docs.rs-online.com/cf62/A700000010035084.pdf",
+      "bytes": 2547279,
+      "sha256": "e6e4206c1e69735712f4336800b03e9295ee5b91155ba4e0f1ea6fc9ec46ba9f",
+      "status": "downloaded"
+    },
+    {
+      "file": "notices/Sensata-HS251-datasheet-miroir-Farnell.pdf",
+      "url": "https://www.farnell.com/datasheets/4619827.pdf",
+      "checked_on": "2026-10-13",
+      "modified": false,
+      "final_url": "https://www.farnell.com/datasheets/4619827.pdf",
+      "bytes": 138967,
+      "sha256": "e418eae6c326d1faf09c61d04e3ff2c55b240d7cf298ce84715dba4bc9e84b96",
+      "status": "downloaded"
+    },
+    {
+      "file": "photos/distributeur-HS251.jpg",
+      "url": "https://www.newark.com/productimages/standard/en_US/41X7868-40.jpg",
+      "checked_on": "2026-10-13",
+      "modified": false,
+      "final_url": "https://www.newark.com/productimages/standard/en_US/41X7868-40.jpg",
+      "bytes": 6585,
+      "sha256": "36ea6b8c5599cf688d345b342045fb7634e8e3b8a75fc9da49312e8994cd067f",
+      "status": "downloaded"
+    },
+    {
+      "file": "notices/Sensata-HSP-datasheet-miroir-Farnell.pdf",
+      "url": "https://www.farnell.com/datasheets/4600889.pdf",
+      "checked_on": "2026-10-13",
+      "modified": false,
+      "final_url": "https://www.farnell.com/datasheets/4600889.pdf",
+      "bytes": 247577,
+      "sha256": "0b491b7ef347d5f9c5f73fe9ac48de86455869b78e159fb5f998ad92589611dc",
+      "status": "downloaded"
+    },
+    {
+      "file": "notices/Sensata-HSP-PCN-miroir-Farnell.pdf",
+      "url": "https://www.farnell.com/datasheets/4129384.pdf",
+      "checked_on": "2026-10-13",
+      "modified": false,
+      "final_url": "https://www.farnell.com/datasheets/4129384.pdf",
+      "bytes": 255181,
+      "sha256": "81b4d103703b6d9ec411ad1f39c3231ebc20fe9d3f1bb1b2d3245d890a54e4ea",
+      "status": "downloaded"
+    },
+    {
+      "file": "notices/Sensata-HSP-plan-miroir-Farnell.pdf",
+      "url": "https://www.farnell.com/cad/4775092.pdf",
+      "checked_on": "2026-10-13",
+      "modified": false,
+      "final_url": "https://www.farnell.com/cad/4775092.pdf",
+      "bytes": 56906,
+      "sha256": "dcbbc1bac1c723c7a3a1ad3d77216754a56a091eff443870f36f9694f786b165",
+      "status": "downloaded"
+    },
+    {
+      "file": "notices/Sensata-HSP-PCN-avec-annexe-miroir-TTI.pdf",
+      "url": "https://www.ttiasia.com/content/dam/ttiinc/products/PCN/sensata/Sensata-PCN-PCN-SSR-231214.pdf",
+      "checked_on": "2026-10-13",
+      "modified": false,
+      "status": "unavailable",
+      "error": "not a PDF"
+    }
+  ]
+}

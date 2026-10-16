@@ -1,0 +1,158 @@
+{
+  "checked_on": "2026-10-13",
+  "assets": [
+    {
+      "file": "sources-web/pololu-produit.html",
+      "url": "https://www.pololu.com/product/2866",
+      "final_url": "https://www.pololu.com/product/2866",
+      "kind": "manufacturer-page",
+      "bytes": 71345,
+      "sha256": "00d386f8243e365e20a4fe51e5fc1f620388d3336c90f9dd49381b488cef4a5a",
+      "modified": false
+    },
+    {
+      "file": "notices/Raspberry-Pi-5-alimentation-USB-PD-livre-blanc-2026.pdf",
+      "url": "https://pip-assets.raspberrypi.com/categories/685-app-notes-guides-whitepapers/documents/RP-009856-WP-1-USB%2520Power%2520delivery%2520on%2520Raspberry%2520Pi%25205.pdf",
+      "final_url": "https://pip-assets.raspberrypi.com/categories/685-app-notes-guides-whitepapers/documents/RP-009856-WP-1-USB%2520Power%2520delivery%2520on%2520Raspberry%2520Pi%25205.pdf",
+      "kind": "manufacturer-application-note",
+      "bytes": 434270,
+      "sha256": "95024157e7931196a4fd232e941be4012007ea51f5d715612a4f57f776d21e0e",
+      "modified": false
+    },
+    {
+      "file": "notices/Pololu-D24V60F5-D24V90F5-plan-cote.pdf",
+      "url": "https://www.pololu.com/file/0J1581/step-down-voltage-regulator-d24vxf5-dimensions.pdf",
+      "final_url": "https://www.pololu.com/file/0J1581/step-down-voltage-regulator-d24vxf5-dimensions.pdf",
+      "kind": "manufacturer-drawing",
+      "bytes": 251278,
+      "sha256": "d1bd5b4a58943130c571fde04bb9897d1a06e9131bf1384182e03b509e43361d",
+      "modified": false
+    },
+    {
+      "file": "notices/Pololu-D24V60F5-D24V90F5-percages.dxf",
+      "url": "https://www.pololu.com/file/0J915/reg15b02-drill.dxf",
+      "final_url": "https://www.pololu.com/file/0J915/reg15b02-drill.dxf",
+      "kind": "manufacturer-drawing",
+      "bytes": 46211,
+      "sha256": "4d64bb11c98e5a5ed6d9087c50b0a7328e66f482f50de3fb50a48ae902327de4",
+      "modified": false
+    },
+    {
+      "file": "3D/pololu-d24v90f5-officiel.step",
+      "url": "https://www.pololu.com/file/0J1582/step-down-voltage-regulator-d24vxf5.step",
+      "final_url": "https://www.pololu.com/file/0J1582/step-down-voltage-regulator-d24vxf5.step",
+      "kind": "manufacturer-cad",
+      "bytes": 4884801,
+      "sha256": "cdb901f06d5b13f49c6af5d5e64b2a2cd8bafedf1ddfd5c23ed21663bb8f295a",
+      "modified": false
+    },
+    {
+      "file": "photos/01-pololu-d24v90f5.jpg",
+      "url": "https://a.pololu-files.com/picture/0J5585.1200x627.jpg",
+      "final_url": "https://a.pololu-files.com/picture/0J5585.1200x627.jpg",
+      "kind": "manufacturer-photo-or-graph",
+      "bytes": 128156,
+      "sha256": "4b6787ff15bf752a48baf25b5333ac58d63982044665058c0d896e528a765dfd",
+      "modified": false
+    },
+    {
+      "file": "photos/02-pololu-d24v90f5.jpg",
+      "url": "https://a.pololu-files.com/picture/0J5586.1200.jpg",
+      "final_url": "https://a.pololu-files.com/picture/0J5586.1200.jpg",
+      "kind": "manufacturer-photo-or-graph",
+      "bytes": 190682,
+      "sha256": "ad65d9fbb92cbe4c53641755446ebaffcccd205eef78fb09691fb18ea9c1a221",
+      "modified": false
+    },
+    {
+      "file": "photos/03-pololu-d24v90f5.jpg",
+      "url": "https://a.pololu-files.com/picture/0J5590.1200.jpg",
+      "final_url": "https://a.pololu-files.com/picture/0J5590.1200.jpg",
+      "kind": "manufacturer-photo-or-graph",
+      "bytes": 238405,
+      "sha256": "070f4c562722c9f95cac01a3db654990ddbdd9ae4c8b4d58878e3d366e09cf01",
+      "modified": false
+    },
+    {
+      "file": "photos/04-pololu-d24v90f5.jpg",
+      "url": "https://a.pololu-files.com/picture/0J5589.1200.jpg",
+      "final_url": "https://a.pololu-files.com/picture/0J5589.1200.jpg",
+      "kind": "manufacturer-photo-or-graph",
+      "bytes": 275822,
+      "sha256": "63edfb1f410ecb6bdb1260bb558090e4e8216c29318a08d1b6608962ba3b9a9a",
+      "modified": false
+    },
+    {
+      "file": "photos/05-pololu-d24v90f5.jpg",
+      "url": "https://a.pololu-files.com/picture/0J5588.1200.jpg",
+      "final_url": "https://a.pololu-files.com/picture/0J5588.1200.jpg",
+      "kind": "manufacturer-photo-or-graph",
+      "bytes": 110893,
+      "sha256": "1f751f9d05df7dd030a8a31bb39d0b95f0c7c08bb8bb9829d096a25011db08b9",
+      "modified": false
+    },
+    {
+      "file": "photos/06-pololu-d24v90f5.jpg",
+      "url": "https://a.pololu-files.com/picture/0J5591.1200.jpg",
+      "final_url": "https://a.pololu-files.com/picture/0J5591.1200.jpg",
+      "kind": "manufacturer-photo-or-graph",
+      "bytes": 269973,
+      "sha256": "0c5b64a5ba0accf1084974d882ab35c8151501480b52ea3831c8b544690eb025",
+      "modified": false
+    },
+    {
+      "file": "photos/07-pololu-d24v90f5.jpg",
+      "url": "https://a.pololu-files.com/picture/0J5587.1200.jpg",
+      "final_url": "https://a.pololu-files.com/picture/0J5587.1200.jpg",
+      "kind": "manufacturer-photo-or-graph",
+      "bytes": 71869,
+      "sha256": "e3876e7fa17cc6e58654a6f515f0b9f14eebe8bac6b695aa8c5ccd7fa11ad73d",
+      "modified": false
+    },
+    {
+      "file": "photos/08-pololu-d24v90f5.jpg",
+      "url": "https://a.pololu-files.com/picture/0J5818.1200.jpg",
+      "final_url": "https://a.pololu-files.com/picture/0J5818.1200.jpg",
+      "kind": "manufacturer-photo-or-graph",
+      "bytes": 292613,
+      "sha256": "678ec0870ef1b4232dcbff59026429fcc021904b017240243706ff8a3d854462",
+      "modified": false
+    },
+    {
+      "file": "photos/09-pololu-d24v90f5.png",
+      "url": "https://a.pololu-files.com/picture/0J5595.1200.png",
+      "final_url": "https://a.pololu-files.com/picture/0J5595.1200.png",
+      "kind": "manufacturer-photo-or-graph",
+      "bytes": 10376,
+      "sha256": "6d71fb16af84418d367401de9aaad6f03b8c9cb4f927e9791547c595de6c81be",
+      "modified": false
+    },
+    {
+      "file": "photos/10-pololu-d24v90f5.png",
+      "url": "https://a.pololu-files.com/picture/0J5596.1200.png",
+      "final_url": "https://a.pololu-files.com/picture/0J5596.1200.png",
+      "kind": "manufacturer-photo-or-graph",
+      "bytes": 8756,
+      "sha256": "3ce135795f6e6fddedfcda5cfb424952e5f5bc1ca069a4e1bd24cea7a1ade860",
+      "modified": false
+    },
+    {
+      "file": "photos/11-pololu-d24v90f5.png",
+      "url": "https://a.pololu-files.com/picture/0J7442.1200.png",
+      "final_url": "https://a.pololu-files.com/picture/0J7442.1200.png",
+      "kind": "manufacturer-photo-or-graph",
+      "bytes": 7953,
+      "sha256": "b246cd543ee378b170e35fa7f2a33bdbe5837bfb94a40f063c4ef5ee07fb0359",
+      "modified": false
+    },
+    {
+      "file": "photos/12-pololu-d24v90f5.png",
+      "url": "https://a.pololu-files.com/picture/0J5598.1200.png",
+      "final_url": "https://a.pololu-files.com/picture/0J5598.1200.png",
+      "kind": "manufacturer-photo-or-graph",
+      "bytes": 10673,
+      "sha256": "565cfec94a962e650cc514a0a393acabafb422674c5369fab4c79b67a1593a9e",
+      "modified": false
+    }
+  ]
+}

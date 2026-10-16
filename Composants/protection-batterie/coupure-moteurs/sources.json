@@ -1,0 +1,19 @@
+{
+  "selected_on": "2026-10-13",
+  "title": "Relais DC Sensata/CrydomD1D100",
+  "primary_source": "https://www.sensata.com/sites/default/files/a/sensata-1-dc-series-d1d-dc-output-panel-mount-datasheet.pdf",
+  "purchased": false,
+  "hardware_measured": false,
+  "hardware_tested": false,
+  "manufacturing_ready": false,
+  "is_custom_design": false,
+  "amazon": {
+    "asin": null,
+    "france_offer_verified": false,
+    "price_eur": null,
+    "stock": null
+  },
+  "assets": "assets.json",
+  "CAD": "3D/provenance.json",
+  "integration": "../integration.md"
+}

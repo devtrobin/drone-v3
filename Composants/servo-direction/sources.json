@@ -1,0 +1,55 @@
+{
+  "selected_on": "2026-10-13",
+  "selected_by": "assistant, authorized by user",
+  "reference": "FEETECH FT90M-C001 / FT-90M0-C001",
+  "quantity_design": "1 servo avec ses palonniers 20T et sa vis de sortie",
+  "purchased": false,
+  "hardware_tested": false,
+  "model_3d_created": true,
+  "purchase_status": "Not an identified or verified Amazon offer; fabrication lines are not purchase-ready",
+  "price_eur": null,
+  "amazon_search_url": "https://www.amazon.fr/s?k=FEETECH+FT90M+C001",
+  "specifications": {
+    "type": "Servo numérique de position, engrenages métalliques ; pas FT90MR continu",
+    "alimentation retenue": "6 V régulés",
+    "plage publiée": "3–8,4 V ; caractéristiques citées à 6 V",
+    "couple nominal conservateur": "0,7 kgf·cm (fiche 2020) ; page actuelle 0,76",
+    "couple de blocage": "2,3 kgf·cm ; ne pas utiliser comme couple continu",
+    "courant à 6 V": "6 mA arrêté, 150 mA à vide, 350 mA nominal et 1 A bloqué (fiche 2020)",
+    "commande": "Période 20 ms (50 Hz), 1000–2000 µs, neutre 1500 µs",
+    "niveaux logiques": "Haut 2–5 V ; bas 0–0,45 V dans la fiche 2020",
+    "sortie": "20 dents, Ø3,95 mm ; vis M2×4",
+    "encombrement": "23,2×12,1×25,25 mm dans le plan historique ; hauteur 25,5 sur page actuelle",
+    "masse": "13,5 ± 1 g"
+  },
+  "sources": [
+    {
+      "url": "https://www.feetechrc.com/6v-2kg-digital-steering-gear.html",
+      "type": "primary or explicitly identified supplier reference",
+      "checked_on": "2026-10-13"
+    },
+    {
+      "url": "https://www.gotronic.fr/art-servomoteur-ft90m-36023.htm",
+      "type": "primary or explicitly identified supplier reference",
+      "checked_on": "2026-10-13"
+    }
+  ],
+  "documents": [
+    {
+      "file": "FEETECH-FT90M-fiche-historique-miroir.pdf",
+      "url": "https://www.gotronic.fr/pj2-ft90m-2907.pdf",
+      "bytes": 447722,
+      "sha256": "66712ceddd8b37e9af7a3479a2d3034da3919ccc49740f003ef7563ce2eef33e",
+      "modified": false,
+      "local_file": "../direction-et-transmission/notices/FEETECH-FT90M-fiche-historique-miroir.pdf"
+    }
+  ],
+  "unknowns": [
+    "Confirmer le modèle C001 et les paramètres de la carte livrée ; anciennes fiches FT90M 2,15 kgf·cm non interchangeables",
+    "Masse réelle et charge avant, rayon de pivot, bras et effort des biellettes",
+    "Courant de pointe, chute de tension et température du BEC choisi",
+    "Câble : 250 mm dans fiche 2020, 200 mm sur page actuelle ; température de service et hauteur également différentes",
+    "La fiche 2026 liée par le fabricant est restée inaccessible ; PDF constructeur 2020 hébergé par Gotronic conservé"
+  ],
+  "model_3d_manifest": "3D/provenance.json"
+}

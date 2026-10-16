@@ -1,0 +1,555 @@
+{
+  "file": "batterie-zeee-2s-5200mah-detaillee.step",
+  "title": "Zeee 2S 5200mAh | un pack, fils et prises",
+  "generated_on": "2026-10-13",
+  "unit": "mm",
+  "cadquery_version": "2.8.0",
+  "coordinate_system": "Boitier centre en X/Y; longueur X, largeur Y; fond z=0; fils dans une pose estimee",
+  "bytes": 8241899,
+  "sha256": "911f357adf814752c645ba61a0b4fbef49d1121aa6acc34b864dd0de4b2f1a3b",
+  "native_vendor_cad": false,
+  "hardware_measured": false,
+  "is_custom_project_design": false,
+  "published_nominal": [
+    "Boitier138 x47 x25 mm ±2; 250g annonçés; configuration2S1P, XT60",
+    "Photographies fabricant: coque rigide noire, etiquette bleue, deux fils de puissance et trois d equilibrage"
+  ],
+  "estimates_and_limitations": [
+    "Fils: diamètre, longueur et pose estimés; pas une longueur livrée garantie",
+    "Genres et géométrie des prises, section des fils, empreintes et parois a verifier",
+    "Motifs vectoriels/textes/fontes approchés; pas de texture photographique",
+    "Coques pleines pour l extérieur; cellules, chimie interne et BMS non représentés; ne pas calculer la masse depuis le volume CAD"
+  ],
+  "parameters": {
+    "body_nominal_mm": [
+      138,
+      47,
+      25
+    ],
+    "nominal_Wh": 38.48,
+    "cable_pose_lengths_mm_estimated": [
+      77.13125203840805,
+      81.25877766518938,
+      61.60530745949849,
+      61.60530745949849,
+      61.60530745949849
+    ],
+    "all_five_cables_one_closed_solid": true,
+    "cable_centerline_probes": 51,
+    "pairwise_cable_intersections_below_mm3": 1e-05,
+    "red_lead_at_marked_plus": true,
+    "black_lead_at_marked_minus": true,
+    "nominal_dimensions_exclude_labels_and_cables": true
+  },
+  "source_pages": [
+    "Zeee manufacturer product page and photographs: ../assets.json"
+  ],
+  "bounds_mm": {
+    "xmin": -89.85669861712339,
+    "xmax": 69.0,
+    "ymin": -52.08,
+    "ymax": 23.5,
+    "zmin": -1.7763568394002505e-15,
+    "zmax": 25.155000100000002
+  },
+  "validation": {
+    "valid_after_reimport": true,
+    "solids": 130,
+    "faces": 2022,
+    "colors": 10,
+    "volume_relative_error": 9.027553953022971e-15,
+    "volume_relative_error_limit": 0.0001,
+    "volume_before_mm3": 167642.2197668921,
+    "volume_after_mm3": 167642.2197668906,
+    "adaptive_volume_tolerance": 1e-09,
+    "bbox_error_mm": 3.964828465541359e-12,
+    "bbox_error_limit_mm": 0.01,
+    "void_and_material_probes": [],
+    "elapsed_seconds": 10.342432199999166
+  },
+  "parts": [
+    {
+      "name": "Coque_inferieure_noire_cavite_non_documentee",
+      "color_linear_rgb": [
+        0.016,
+        0.02,
+        0.024
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Coque_superieure_noire",
+      "color_linear_rgb": [
+        0.016,
+        0.02,
+        0.024
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Ligne_joint_estimee",
+      "color_linear_rgb": [
+        0.03,
+        0.032,
+        0.037
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Moulure_extremite_-67_5",
+      "color_linear_rgb": [
+        0.03,
+        0.032,
+        0.037
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Moulure_extremite_67_5",
+      "color_linear_rgb": [
+        0.03,
+        0.032,
+        0.037
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Etiquette_superieure_fond_noir",
+      "color_linear_rgb": [
+        0.016,
+        0.02,
+        0.024
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Etiquette_motif_bleu_reconstruit",
+      "color_linear_rgb": [
+        0.015,
+        0.06,
+        0.42
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Graphisme_bleu_01",
+      "color_linear_rgb": [
+        0.01,
+        0.45,
+        0.7
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Graphisme_bleu_02",
+      "color_linear_rgb": [
+        0.018,
+        0.14,
+        0.57
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Graphisme_bleu_03",
+      "color_linear_rgb": [
+        0.018,
+        0.14,
+        0.57
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Graphisme_bleu_04",
+      "color_linear_rgb": [
+        0.01,
+        0.45,
+        0.7
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Graphisme_bleu_05",
+      "color_linear_rgb": [
+        0.018,
+        0.14,
+        0.57
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Graphisme_bleu_06",
+      "color_linear_rgb": [
+        0.018,
+        0.14,
+        0.57
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Graphisme_bleu_07",
+      "color_linear_rgb": [
+        0.01,
+        0.45,
+        0.7
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Graphisme_bleu_08",
+      "color_linear_rgb": [
+        0.018,
+        0.14,
+        0.57
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Graphisme_bleu_09",
+      "color_linear_rgb": [
+        0.018,
+        0.14,
+        0.57
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Graphisme_bleu_10",
+      "color_linear_rgb": [
+        0.01,
+        0.45,
+        0.7
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Graphisme_bleu_11",
+      "color_linear_rgb": [
+        0.018,
+        0.14,
+        0.57
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Graphisme_bleu_12",
+      "color_linear_rgb": [
+        0.018,
+        0.14,
+        0.57
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Graphisme_bleu_13",
+      "color_linear_rgb": [
+        0.01,
+        0.45,
+        0.7
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Graphisme_bleu_14",
+      "color_linear_rgb": [
+        0.018,
+        0.14,
+        0.57
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Graphisme_bleu_15",
+      "color_linear_rgb": [
+        0.018,
+        0.14,
+        0.57
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Graphisme_bleu_16",
+      "color_linear_rgb": [
+        0.01,
+        0.45,
+        0.7
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Graphisme_bleu_17",
+      "color_linear_rgb": [
+        0.018,
+        0.14,
+        0.57
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Graphisme_bleu_18",
+      "color_linear_rgb": [
+        0.018,
+        0.14,
+        0.57
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Graphisme_bleu_19",
+      "color_linear_rgb": [
+        0.01,
+        0.45,
+        0.7
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Graphisme_bleu_20",
+      "color_linear_rgb": [
+        0.018,
+        0.14,
+        0.57
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Graphisme_bleu_21",
+      "color_linear_rgb": [
+        0.018,
+        0.14,
+        0.57
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Graphisme_bleu_22",
+      "color_linear_rgb": [
+        0.01,
+        0.45,
+        0.7
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Graphisme_bleu_23",
+      "color_linear_rgb": [
+        0.018,
+        0.14,
+        0.57
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Graphisme_bleu_24",
+      "color_linear_rgb": [
+        0.018,
+        0.14,
+        0.57
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Marquage_5200mAh",
+      "color_linear_rgb": [
+        0.9,
+        0.92,
+        0.94
+      ],
+      "solids": 7
+    },
+    {
+      "name": "Marquage_80C__7.4V__38.48Wh",
+      "color_linear_rgb": [
+        0.9,
+        0.92,
+        0.94
+      ],
+      "solids": 14
+    },
+    {
+      "name": "Marquage_Zeee",
+      "color_linear_rgb": [
+        0.01,
+        0.45,
+        0.7
+      ],
+      "solids": 4
+    },
+    {
+      "name": "Marquage_High_Performance_Lithium_Polymer_Battery",
+      "color_linear_rgb": [
+        0.9,
+        0.92,
+        0.94
+      ],
+      "solids": 39
+    },
+    {
+      "name": "Etiquette_laterale_fond_bleu",
+      "color_linear_rgb": [
+        0.015,
+        0.06,
+        0.42
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Marquage_lateral_5200mAh",
+      "color_linear_rgb": [
+        0.9,
+        0.92,
+        0.94
+      ],
+      "solids": 7
+    },
+    {
+      "name": "Marquage_lateral_80C_7.4V",
+      "color_linear_rgb": [
+        0.9,
+        0.92,
+        0.94
+      ],
+      "solids": 7
+    },
+    {
+      "name": "Marquage_lateral_Zeee",
+      "color_linear_rgb": [
+        0.9,
+        0.92,
+        0.94
+      ],
+      "solids": 4
+    },
+    {
+      "name": "Cordon_puissance_1_continu_pose_estimee",
+      "color_linear_rgb": [
+        0.016,
+        0.02,
+        0.024
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Gaine_thermoretractable_1",
+      "color_linear_rgb": [
+        0.016,
+        0.02,
+        0.024
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Cordon_puissance_2_continu_pose_estimee",
+      "color_linear_rgb": [
+        0.68,
+        0.009,
+        0.006
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Gaine_thermoretractable_2",
+      "color_linear_rgb": [
+        0.68,
+        0.009,
+        0.006
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Prise_XT60_corps_estime",
+      "color_linear_rgb": [
+        0.92,
+        0.61,
+        0.008
+      ],
+      "solids": 3
+    },
+    {
+      "name": "Contact_XT60_femelle_1",
+      "color_linear_rgb": [
+        0.63,
+        0.4,
+        0.07
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Contact_XT60_femelle_2",
+      "color_linear_rgb": [
+        0.63,
+        0.4,
+        0.07
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Cordon_equilibrage_1_continu",
+      "color_linear_rgb": [
+        0.016,
+        0.02,
+        0.024
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Cordon_equilibrage_2_continu",
+      "color_linear_rgb": [
+        0.92,
+        0.61,
+        0.008
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Cordon_equilibrage_3_continu",
+      "color_linear_rgb": [
+        0.68,
+        0.009,
+        0.006
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Contact_equilibrage_1_estime",
+      "color_linear_rgb": [
+        0.48,
+        0.5,
+        0.53
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Contact_equilibrage_2_estime",
+      "color_linear_rgb": [
+        0.48,
+        0.5,
+        0.53
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Contact_equilibrage_3_estime",
+      "color_linear_rgb": [
+        0.48,
+        0.5,
+        0.53
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Connecteur_equilibrage_3_voies_XH_estime",
+      "color_linear_rgb": [
+        0.9,
+        0.92,
+        0.94
+      ],
+      "solids": 1
+    }
+  ],
+  "preview": {
+    "file": "batterie-zeee-2s-5200mah-detaillee.png",
+    "sha256": "af7dcf1bc063cd2ee1aafb4346c7d8cd5c4d4592b1fbe1d4417ac3518733561c"
+  },
+  "generator": "tools/build_power_step.py",
+  "generator_sha256": "912334fa5130770c24bad6a77caf81239a6a43f5b98254ba40f70f95a2735563"
+}

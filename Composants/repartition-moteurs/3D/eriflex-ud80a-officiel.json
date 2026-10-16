@@ -1,0 +1,37 @@
+{
+  "file": "eriflex-ud80a-officiel.step",
+  "title": "UD80A : STEP officiel intact",
+  "unit": "mm",
+  "sha256": "68f63c19ac7e6b23aea0bbe7f336b9b2e52d5aaeecd588fe24f437906998a6b6",
+  "bytes": 1524304,
+  "native_vendor_cad": true,
+  "geometry_modified": false,
+  "hardware_measured": false,
+  "source_url": "https://noproxy-download.nvent.com/api/traceparts/download?part_number=UD-80A&format=19&brand=ERIFLEX",
+  "archive_entry": "E10106602.step",
+  "coordinate_system": "Repere natif:X hauteur fabricant,Y profondeur,Z largeur; centre non nul.",
+  "bounds_mm": {
+    "xmin": -37.73248978261439,
+    "ymin": -24.30238986322877,
+    "zmin": -12.520799801741822,
+    "xmax": 31.30471021738561,
+    "ymax": 21.935100316818332,
+    "zmax": 17.527400398258184
+  },
+  "validation": {
+    "valid_after_reimport": true,
+    "solids": 3,
+    "faces": 332,
+    "xcaf_colors": 4
+  },
+  "estimates_and_limitations": [
+    "Modele fabricant pour implantation; ne remplace pas plans de fabrication ni mesure du lot.",
+    "Enveloppe CAO69.0372x46.23749x30.0482 differe legerement du nominal69x46x30mm.",
+    "Trois solides seulement; vis et details internes non tous disponibles comme pieces separees.",
+    "Pas de fils, embouts ou vis de fixation au chassis fournis dans cette CAO."
+  ],
+  "preview": {
+    "file": "eriflex-ud80a-officiel.png",
+    "sha256": "6fd8f33f67e3478f7c715adba0e581613a963935ec67f2186fc00fe6f2c17de4"
+  }
+}

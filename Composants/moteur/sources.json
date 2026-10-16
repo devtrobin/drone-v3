@@ -1,0 +1,276 @@
+{
+  "recorded_on": "2026-10-12",
+  "motor": "Hobbywing QuicRun 2435SL G3 4500KV",
+  "selection_status": "Selected by user; not purchased",
+  "purchase_quantity": 2,
+  "initial_chassis": "Four wheels: two independently driven rear wheels, two unpowered steering front wheels",
+  "steering_candidate": "Mechanical front-wheel steering; servo and linkages to select; two rear motors and two ESCs retained by user",
+  "amazon_offer": {
+    "url": "https://www.amazon.fr/dp/B0FM6D1F1W",
+    "asin": "B0FM6D1F1W",
+    "variant": "2435SL 4500KV",
+    "contents": [
+      "One motor",
+      "One QuicRun WP16BL30 G2 ESC"
+    ],
+    "price_eur_vat_included": 66.34,
+    "standard_shipping_eur_observed": 0,
+    "import_fees_included_observed": true,
+    "seller_and_dispatch": "Amazon US",
+    "availability_when_observed": "In stock",
+    "price_and_stock_require_recheck_before_purchase": true
+  },
+  "sources": [
+    {
+      "type": "manufacturer_motor_manual",
+      "url": "https://www.hobbywing.com/en/uploads/file/20230426/edf26f2966fcb92587538360159162a2.pdf",
+      "id": "motor-manual",
+      "local_file": "notices/QuicRun-2435SL-G3-notice-constructeur.pdf",
+      "document_date": "2023-04-03",
+      "language": "English",
+      "pages": 1,
+      "checked_on": "2026-10-12",
+      "bytes": 2927693,
+      "sha256": "9b2feb87c3ecf04a09cb1c86b1db07ddd40eb158b1ff21d8b900138a9068ec6c"
+    },
+    {
+      "type": "manufacturer_esc_specifications",
+      "url": "https://www.hobbywing.com/en/products/quicrun-wp-16bl30-g2",
+      "id": "esc-specifications",
+      "checked_on": "2026-10-12"
+    },
+    {
+      "type": "manufacturer_esc_manual",
+      "url": "https://www.hobbywing.com/en/uploads/file/20250320/b9addd01e22cb5be3ff28e6f25db2a5f.pdf",
+      "id": "esc-manual",
+      "local_file": "notices/QuicRun-WP16BL30-G2-notice-constructeur.pdf",
+      "document_date": "2025-03-11",
+      "edition": "HW-SMA336DUL00",
+      "language": "English",
+      "pages": 1,
+      "checked_on": "2026-10-12",
+      "bytes": 10742914,
+      "sha256": "eb8c7800573e6469e8030715b607a856bb7ab7527c0b1032bdf3d88f25367f7a"
+    },
+    {
+      "id": "purchase-and-reviews",
+      "type": "purchase_and_first_hand_reviews",
+      "url": "https://www.amazon.fr/dp/B0FM6D1F1W",
+      "checked_on": "2026-10-12"
+    },
+    {
+      "id": "motor-specifications",
+      "type": "manufacturer_motor_specifications",
+      "url": "https://www.hobbywing.com/en/products/quicrun2435slg3.html",
+      "checked_on": "2026-10-12"
+    },
+    {
+      "id": "reddit-shaft-report",
+      "type": "first_hand_forum_report",
+      "url": "https://www.reddit.com/r/rccars/comments/1c36nur/",
+      "access": "Indexed excerpt read; full thread unavailable",
+      "checked_on": "2026-10-12"
+    },
+    {
+      "id": "kit-photo",
+      "type": "product_photo",
+      "url": "https://m.media-amazon.com/images/I/51dObYJeQhL._SL1000_.jpg",
+      "local_file": "photos/01-kit-moteur-variateur.jpg",
+      "checked_on": "2026-10-12",
+      "bytes": 53669,
+      "sha256": "0a5ddd887fb4929669eb8d855072a5e4dc0964e0cc4084326797000f5d02b857",
+      "image_size_px": [
+        1000,
+        1000
+      ]
+    },
+    {
+      "id": "motor-family-photo",
+      "type": "manufacturer_product_photo",
+      "url": "https://www.hobbywing.com/en/uploads/image/20230323/76f0c8c6ecd508a665af44bb3824ad16.jpg",
+      "local_file": "photos/02-moteur-2435-g3.jpg",
+      "scope": "Shared G3 family gallery; KV marking not visible",
+      "checked_on": "2026-10-12",
+      "bytes": 127054,
+      "sha256": "d4d2c6e011749447615151e0eea82f4680164bec16f75eeed16fdc6ff5ef0b53",
+      "image_size_px": [
+        1100,
+        690
+      ]
+    },
+    {
+      "id": "esc-photo",
+      "type": "manufacturer_product_photo",
+      "url": "https://www.hobbywing.com/en/uploads/image/20250320/4e3118ab8e34e09588ffb1d278dfeeba.jpg",
+      "local_file": "photos/03-variateur-16bl30-g2.jpg",
+      "checked_on": "2026-10-12",
+      "bytes": 243386,
+      "sha256": "3f6f8f2f769cec7f11f6049903a82b1d2a7c6693f7ff20264556647ada3a1fd9",
+      "image_size_px": [
+        2600,
+        1600
+      ]
+    },
+    {
+      "id": "esc-cables-photo",
+      "type": "manufacturer_product_photo",
+      "url": "https://www.hobbywing.com/en/uploads/image/20250320/11fe634ae7e7736d36fcc3684c4a2eb6.jpg",
+      "local_file": "photos/04-variateur-cables.jpg",
+      "checked_on": "2026-10-12",
+      "bytes": 357684,
+      "sha256": "32d82208e05297d20022f1842f42e218195f672765adccf638a52a55c3c27219",
+      "image_size_px": [
+        2600,
+        1600
+      ]
+    },
+    {
+      "id": "esc-top-switch-photo",
+      "type": "manufacturer_product_photo",
+      "url": "https://www.hobbywing.com/en/uploads/image/20250320/ce0c27a24766dc44ff905c98d5db176a.jpg",
+      "local_file": "photos/05-variateur-interrupteur.jpg",
+      "checked_on": "2026-10-12",
+      "bytes": 210212,
+      "sha256": "175906cd21075176acdd6ca60c31ebf7971059dd697ed8a39cbd8d2fb8baad6c",
+      "image_size_px": [
+        2600,
+        1600
+      ]
+    }
+  ],
+  "hardware_tested": false,
+  "speed_and_endurance_validated": false,
+  "slug": "moteur",
+  "manufacturer": "Hobbywing",
+  "model": "QuicRun 2435SL G3 4500KV",
+  "asin": "B0FM6D1F1W",
+  "purchase_url": "https://www.amazon.fr/dp/B0FM6D1F1W",
+  "purchase_channel": "Amazon.fr",
+  "checked_on": "2026-10-12",
+  "procurement_state": "not purchased",
+  "research_file": "recherche-technique.md",
+  "research_checked_on": "2026-10-12",
+  "verification_method": "Amazon page and first-hand reviews read in Chrome; official PDFs downloaded, text extracted and pages rendered for visual inspection; web forum and YouTube searches",
+  "manufacturer_motor_specs": {
+    "source_id": "motor-manual",
+    "kv": 4500,
+    "manufacturer_product_number_from_web": "30404002",
+    "type": "sensorless brushless",
+    "poles": 4,
+    "lipo_cells": [
+      2,
+      3
+    ],
+    "body_diameter_mm": 24,
+    "body_length_mm": 36,
+    "body_length_tolerance_mm": 0.2,
+    "shaft_diameter_mm": 2,
+    "shaft_projection_mm": 12,
+    "shaft_projection_tolerance_mm": 0.5,
+    "mass_g": 61.2,
+    "no_load_current_a": 2.1,
+    "no_load_test_voltage": null,
+    "mounting_hole_spacing_groups_mm": [
+      14,
+      16,
+      17
+    ],
+    "mounting_threads": [
+      "M2.5",
+      "M3"
+    ],
+    "mounting_hole_depth_mm": 4,
+    "motor_phase_connector_mm": 3.5,
+    "measured": false
+  },
+  "manufacturer_esc_specs": {
+    "source_ids": [
+      "esc-manual",
+      "esc-specifications"
+    ],
+    "model": "QuicRun WP16BL30 G2",
+    "manufacturer_product_number": "30110001",
+    "continuous_current_announced_a": 30,
+    "peak_current_announced_a": 100,
+    "peak_duration_confirmed": false,
+    "lipo_cells": [
+      2,
+      3
+    ],
+    "body_xyz_mm": [
+      33.4,
+      26.8,
+      15.1
+    ],
+    "mass_with_wires_connectors_g": 38.5,
+    "battery_connector": "XT60",
+    "phase_connector": "3.5mm female",
+    "bec_voltage_options_v": [
+      6,
+      7.4
+    ],
+    "bec_continuous_current_a_manual": 1.5,
+    "bec_continuous_current_a_current_web_page": 2,
+    "bec_conflict_resolved": false,
+    "measured": false
+  },
+  "first_hand_observations": [
+    {
+      "review_id": "R2U5MQOFM9W8JZ",
+      "author": "Anthony",
+      "date": "2025-12-29",
+      "variant": "2435SL 4500KV",
+      "verified_purchase": true,
+      "observation": "Reports installation, replacement of defective ESC and gearing sensitivity",
+      "technical_measurements_verified": false
+    },
+    {
+      "review_id": "RJ8J5MXV5FWLF",
+      "author": "Jerry V",
+      "date": "2026-05-08",
+      "variant": "2435SL 4500KV",
+      "verified_purchase": true,
+      "observation": "Reports Mojave Grom installation and button/program-card setup",
+      "technical_measurements_verified": false
+    },
+    {
+      "review_id": "RA0TKKMSXX0YB",
+      "author": "Mariano Hamilton",
+      "date": "2026-06-11",
+      "variant": "2435SL 4500KV",
+      "verified_purchase": true,
+      "observation": "Reports shaft failure under aggressive use; cause not established",
+      "technical_measurements_verified": false
+    }
+  ],
+  "uncertainties": [
+    "Installed motor/ESC revision and physical contents",
+    "BEC current discrepancy between manual and current product page",
+    "Current, torque, speed and efficiency under load",
+    "Throttle input voltage thresholds, pulse widths and frequency for chosen controller",
+    "Motor quantity, gearing and supported wheel axles",
+    "Low-speed behavior and independent drive synchronization",
+    "Wi-Fi loss/frozen-controller stop behavior",
+    "Battery, actual speed and endurance with video active",
+    "Front ball load and speed suitability"
+  ],
+  "models_3d": [
+    {
+      "component": "motor",
+      "file": "3D/moteur-quicrun-2435-g3-4500kv-detaille.step",
+      "provenance": "3D/moteur-quicrun-2435-g3-4500kv-detaille-provenance.json",
+      "documentation": "3D/README.md",
+      "hardware_measured": false,
+      "vendor_native_cad": false
+    },
+    {
+      "component": "esc",
+      "file": "3D/variateur-quicrun-wp16bl30-g2-detaille.step",
+      "provenance": "3D/variateur-quicrun-wp16bl30-g2-detaille-provenance.json",
+      "documentation": "3D/README.md",
+      "hardware_measured": false,
+      "vendor_native_cad": false
+    }
+  ],
+  "quantity_status": "Design quantity selected by user, not purchased"
+}

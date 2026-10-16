@@ -1,0 +1,14 @@
+{
+  "cu_rho_20C_ohm_mm2_per_m": 0.0175,
+  "strand_count": 150,
+  "strand_diameter_mm": 0.08,
+  "computed_section_mm2": 0.7539822368615503,
+  "one_way_length_study_m": 0.2,
+  "current_study_A": 5,
+  "loop_drop_V": 0.04642019173513615,
+  "loop_loss_W": 0.23210095867568076,
+  "contact_losses_included": false,
+  "header_current_share_guaranteed": false,
+  "main_current_study_A": 44.39,
+  "main_XT60_qualified": false
+}

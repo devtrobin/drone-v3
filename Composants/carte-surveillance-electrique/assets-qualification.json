@@ -1,0 +1,20 @@
+[
+  {
+    "url": "https://www.littelfuse.com/assetdocs/littelfuse-fuse-452-454-datasheet?assetguid=8c87aa93-80a7-4ea8-8749-a19ba03901c2",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://www.littelfuse.com/assetdocs/fuse-452-and-454-datasheet?assetguid=8c87aa93-80a7-4ea8-8749-a19ba03901c2",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://download.mikroe.com/documents/add-on-boards/click/efuse-2/efuse-2-click-schematic-v100.pdf",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://download.mikroe.com/documents/datasheets/TPS2596_Datasheet.pdf",
+    "bytes": 4211281,
+    "sha256": "34a800f18954a9b2d759918a45bf88385784e91a8af10b65516e08618f38533f",
+    "file": "notices/TI-TPS2596-original.pdf"
+  }
+]

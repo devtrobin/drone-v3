@@ -1,0 +1,46 @@
+{
+  "selected_on": "2026-10-13",
+  "selected_by": "assistant, authorized by user",
+  "reference": "Tamiya 50823 — TG10 Wheel Axle",
+  "quantity_design": "1 sachet de 2 axes pour les deux roues avant",
+  "purchased": false,
+  "hardware_tested": false,
+  "model_3d_created": true,
+  "purchase_status": "Not an identified or verified Amazon offer; fabrication lines are not purchase-ready",
+  "price_eur": null,
+  "amazon_search_url": "https://www.amazon.fr/s?k=Tamiya+50823",
+  "specifications": {
+    "matière / longueur commerciale": "Axes métalliques de 35 mm (page Tamiya Allemagne)",
+    "interface de famille": "Portées pour roulements 1150, goupille 2×10, écrou de roue M4 dans le montage TT-01R",
+    "emploi V3": "Deux roues avant non motrices ; coupelle intérieure libre",
+    "référence dans la notice": "MA22, page PDF 10 ; nomenclature 50823 page PDF 24"
+  },
+  "sources": [
+    {
+      "url": "https://www.tamiya.com/english/products/50823/index.html",
+      "type": "primary or explicitly identified supplier reference",
+      "checked_on": "2026-10-13"
+    },
+    {
+      "url": "https://www.tamiya.de/tamiya_en/spare-parts-accessories/rc-spare-parts/powertrain/axes-drive-shafts/wheel-axle-2-rc-spare-part-35-mm-metal-300050823-en.html",
+      "type": "primary or explicitly identified supplier reference",
+      "checked_on": "2026-10-13"
+    }
+  ],
+  "documents": [
+    {
+      "file": "Tamiya-TT01R-notice-constructeur.pdf",
+      "url": "https://www.tamiya.com/cms/english/rc/rcmanual/tt01r.pdf",
+      "bytes": 4744628,
+      "sha256": "c8ef6f865c9a81df967932ec86143cf1074ecc2f6d48df566a94c0d2643a9ed1",
+      "modified": false,
+      "local_file": "../direction-et-transmission/notices/Tamiya-TT01R-notice-constructeur.pdf"
+    }
+  ],
+  "unknowns": [
+    "Mesurer les portées, longueur filetée et position du trou de goupille sur l’axe reçu",
+    "Vérifier que le serrage M4 ne précharge pas excessivement les roulements",
+    "Ces axes ne sont pas retenus comme sorties arrière directes : la place disponible pour une couronne de 12 mm reste insuffisamment documentée"
+  ],
+  "model_3d_manifest": "3D/provenance.json"
+}

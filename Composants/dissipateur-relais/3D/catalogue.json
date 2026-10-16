@@ -1,0 +1,660 @@
+{
+  "model_count": 5,
+  "models": [
+    {
+      "file": "sensata-hs251-officiel.step",
+      "title": "HS251 | STEP officiel inchange",
+      "unit": "mm",
+      "sha256": "0205bb9ca8d5a5ede282401681bf73ae1e72846dbbf2cabb05274b79f33a66ce",
+      "bytes": 222271,
+      "native_vendor_cad": true,
+      "geometry_modified": false,
+      "hardware_measured": false,
+      "coordinate_system": "Repere fabricant; contact SSR normal +Y. Voir modele implantation pour repere V3.",
+      "source_url": "https://www.sensata.com.cn/sites/default/files/a/sensata-hs251-heatsink-accessories-drawing.step",
+      "bounds_mm": {
+        "xmin": -42.672,
+        "xmax": 42.672,
+        "ymin": -21.082000000000015,
+        "ymax": 19.558000000000003,
+        "zmin": -6.419766481290787e-31,
+        "zmax": 52.32400000000001
+      },
+      "validation": {
+        "valid_after_reimport": true,
+        "solids": 1,
+        "faces": 88,
+        "xcaf_colors": 1
+      },
+      "estimates_and_limitations": [
+        "Modele officiel: filetages representes par alesages, pas helices physiques.",
+        "Corps et pattes regroupes dans un solide officiel; ni vis de montage ni pad.",
+        "Ne reproduit pas rugosite, rayures ou tolerance de la piece recue."
+      ],
+      "manufacturer_copyright": "Sensata Technologies / Crydom; aucune licence de redistribution distincte identifiee",
+      "preview": {
+        "file": "sensata-hs251-officiel.png",
+        "sha256": "63341b329a881a4820d1943e76ac965e842c934eeb094302d24a12228eaaacbd"
+      }
+    },
+    {
+      "file": "sensata-hs251-implantation-v3.step",
+      "title": "HS251 | implantation V3",
+      "generated_on": "2026-10-13",
+      "unit": "mm",
+      "cadquery_version": "2.8.0",
+      "coordinate_system": "X largeur et entraxe SSR; Y longueur; Z normal au contact. Face SSR du dissipateur Z=40.640 mm; centre des trous Y=0.",
+      "bytes": 358153,
+      "sha256": "8da60eaaabd2879eb9e054aa8c08cc2c8192fdc0632341214c5a99038cd7fcba",
+      "native_vendor_cad": false,
+      "hardware_measured": false,
+      "is_custom_project_design": false,
+      "published_nominal": [
+        "Geometrie et couleur issues du STEP constructeur sans modification de forme."
+      ],
+      "estimates_and_limitations": [
+        "Modele officiel: filetages representes par alesages, pas helices physiques.",
+        "Corps et pattes regroupes dans un solide officiel; ni vis de montage ni pad.",
+        "Ne reproduit pas rugosite, rayures ou tolerance de la piece recue."
+      ],
+      "parameters": {
+        "envelope_with_tabs_mm": [
+          85.344,
+          52.324,
+          40.64
+        ],
+        "ssr_hole_centres_mm": 47.625,
+        "ssr_mount_face_z_mm": 40.64,
+        "transformation": "rotate X +90 deg; translate [0,26.162,21.082] mm"
+      },
+      "source_pages": [
+        "Sensata HS251 STEP et fiche PDF 2024 p.2",
+        "Sensata HSP fiche 2018 p.1 / PCN-SSR-231214 / annexe TTI",
+        "D1D100 modele exterieur existant et fiche PDF p.3"
+      ],
+      "bounds_mm": {
+        "xmin": -42.672,
+        "xmax": 42.672,
+        "ymin": -26.162000000000003,
+        "ymax": 26.162,
+        "zmin": -1.0811177024840037e-14,
+        "zmax": 40.64
+      },
+      "validation": {
+        "valid_after_reimport": true,
+        "solids": 1,
+        "faces": 88,
+        "colors": 1,
+        "volume_relative_error": 1.144327311957954e-13,
+        "volume_relative_error_limit": 0.0001,
+        "volume_before_mm3": 38340.45028468054,
+        "volume_after_mm3": 38340.45028468493,
+        "adaptive_volume_tolerance": 1e-09,
+        "bbox_error_mm": 0.0009563506395657839,
+        "bbox_error_limit_mm": 0.01,
+        "void_and_material_probes": [],
+        "elapsed_seconds": 1.0010498000046937
+      },
+      "parts": [
+        {
+          "name": "HS251_geometrie_officielle",
+          "color_linear_rgb": [
+            0.5271151065826416,
+            0.5271151065826416,
+            0.5271151065826416
+          ],
+          "solids": 1
+        }
+      ],
+      "preview": {
+        "file": "sensata-hs251-implantation-v3.png",
+        "sha256": "b348bb5f948e825b6b8a29c829bbe9f1de5e76e3d00386cc89ee6bf1d04aaa58"
+      },
+      "generator": "tools/build_heatsink_step.py",
+      "generator_sha256": "cde4c4056d7169272a6db14e8742c87de8155f9fa1c55a0637d2c227259de3a9",
+      "derived_from": {
+        "file": "sensata-hs251-officiel.step",
+        "sha256": "0205bb9ca8d5a5ede282401681bf73ae1e72846dbbf2cabb05274b79f33a66ce",
+        "geometry_changes": "rotation et translation seulement"
+      }
+    },
+    {
+      "file": "sensata-hsp1-gris-2018.step",
+      "title": "HSP-1 | gris-2018",
+      "generated_on": "2026-10-13",
+      "unit": "mm",
+      "cadquery_version": "2.8.0",
+      "coordinate_system": "Centre X/Y; bas du pad Z=0; encoche selon X.",
+      "bytes": 47709,
+      "sha256": "0f514b9d739b70242aebe352732ce5b891a7fce5ea7c941b3811260fe3a53ef7",
+      "native_vendor_cad": false,
+      "hardware_measured": false,
+      "is_custom_project_design": false,
+      "published_nominal": [
+        "Contour et epaisseur gris selon fiche 2018; rose 0.127 mm selon annexe preliminaire du PCN 2023."
+      ],
+      "estimates_and_limitations": [
+        "Reconstruction du contour 2018: dimensions arrondies, rayons de coins non cotes non ajoutes.",
+        "Le contour de la version rose est suppose identique au plan 2018; lot reel a verifier.",
+        "Aucun film protecteur, compression ni texture microscopique represente.",
+        "Le plan 2011 donne 57.2x44.5 et 47.8; revisions conservees dans notices, pas melangees."
+      ],
+      "parameters": {
+        "outline_mm": [
+          57.1,
+          44.2
+        ],
+        "thickness_mm": 0.076,
+        "notches_centre_mm": 47.5,
+        "notch_width_mm": 4.83
+      },
+      "source_pages": [
+        "Sensata HS251 STEP et fiche PDF 2024 p.2",
+        "Sensata HSP fiche 2018 p.1 / PCN-SSR-231214 / annexe TTI",
+        "D1D100 modele exterieur existant et fiche PDF p.3"
+      ],
+      "bounds_mm": {
+        "xmin": -28.55,
+        "xmax": 28.55,
+        "ymin": -22.1,
+        "ymax": 22.1,
+        "zmin": 0.0,
+        "zmax": 0.076
+      },
+      "validation": {
+        "valid_after_reimport": true,
+        "solids": 1,
+        "faces": 14,
+        "colors": 1,
+        "volume_relative_error": 1.5207408034309753e-16,
+        "volume_relative_error_limit": 0.0001,
+        "volume_before_mm3": 186.89384388372557,
+        "volume_after_mm3": 186.89384388372554,
+        "adaptive_volume_tolerance": 1e-09,
+        "bbox_error_mm": 3.552713678800501e-15,
+        "bbox_error_limit_mm": 0.01,
+        "void_and_material_probes": [],
+        "elapsed_seconds": 0.14589219999470515
+      },
+      "parts": [
+        {
+          "name": "gris-2018",
+          "color_linear_rgb": [
+            0.40644830114675407,
+            0.43387952044860834,
+            0.44798841244188325
+          ],
+          "solids": 1
+        }
+      ],
+      "preview": {
+        "file": "sensata-hsp1-gris-2018.png",
+        "sha256": "2456e71a5249ffd1c97ae908080ece5af618914142ef1ebdcf766745fa85794a"
+      },
+      "generator": "tools/build_heatsink_step.py",
+      "generator_sha256": "cde4c4056d7169272a6db14e8742c87de8155f9fa1c55a0637d2c227259de3a9"
+    },
+    {
+      "file": "sensata-hsp1-rose-pcn-2023.step",
+      "title": "HSP-1 | rose-pcn-2023",
+      "generated_on": "2026-10-13",
+      "unit": "mm",
+      "cadquery_version": "2.8.0",
+      "coordinate_system": "Centre X/Y; bas du pad Z=0; encoche selon X.",
+      "bytes": 47663,
+      "sha256": "a792220030062583f6424acaa10eedbe0dcc4506576c9c34babe10ede761bcea",
+      "native_vendor_cad": false,
+      "hardware_measured": false,
+      "is_custom_project_design": false,
+      "published_nominal": [
+        "Contour et epaisseur gris selon fiche 2018; rose 0.127 mm selon annexe preliminaire du PCN 2023."
+      ],
+      "estimates_and_limitations": [
+        "Reconstruction du contour 2018: dimensions arrondies, rayons de coins non cotes non ajoutes.",
+        "Le contour de la version rose est suppose identique au plan 2018; lot reel a verifier.",
+        "Aucun film protecteur, compression ni texture microscopique represente.",
+        "Le plan 2011 donne 57.2x44.5 et 47.8; revisions conservees dans notices, pas melangees."
+      ],
+      "parameters": {
+        "outline_mm": [
+          57.1,
+          44.2
+        ],
+        "thickness_mm": 0.127,
+        "notches_centre_mm": 47.5,
+        "notch_width_mm": 4.83
+      },
+      "source_pages": [
+        "Sensata HS251 STEP et fiche PDF 2024 p.2",
+        "Sensata HSP fiche 2018 p.1 / PCN-SSR-231214 / annexe TTI",
+        "D1D100 modele exterieur existant et fiche PDF p.3"
+      ],
+      "bounds_mm": {
+        "xmin": -28.55,
+        "xmax": 28.55,
+        "ymin": -22.1,
+        "ymax": 22.1,
+        "zmin": 0.0,
+        "zmax": 0.127
+      },
+      "validation": {
+        "valid_after_reimport": true,
+        "solids": 1,
+        "faces": 14,
+        "colors": 1,
+        "volume_relative_error": 1.8200992293032142e-16,
+        "volume_relative_error_limit": 0.0001,
+        "volume_before_mm3": 312.3094496478046,
+        "volume_after_mm3": 312.30944964780457,
+        "adaptive_volume_tolerance": 1e-09,
+        "bbox_error_mm": 3.552713678800501e-15,
+        "bbox_error_limit_mm": 0.01,
+        "void_and_material_probes": [],
+        "elapsed_seconds": 0.1301071999987471
+      },
+      "parts": [
+        {
+          "name": "rose-pcn-2023",
+          "color_linear_rgb": [
+            0.8073459089125289,
+            0.24286681390410306,
+            0.38005633644979925
+          ],
+          "solids": 1
+        }
+      ],
+      "preview": {
+        "file": "sensata-hsp1-rose-pcn-2023.png",
+        "sha256": "c85468278c02ba217076088c29822080f7c9e4728081d876d5c4759a821fdfd0"
+      },
+      "generator": "tools/build_heatsink_step.py",
+      "generator_sha256": "cde4c4056d7169272a6db14e8742c87de8155f9fa1c55a0637d2c227259de3a9"
+    },
+    {
+      "file": "assemblage-d1d100-hs251-hsp1-etude.step",
+      "title": "D1D100 + HS251 + HSP-1 | assemblage etude",
+      "generated_on": "2026-10-13",
+      "unit": "mm",
+      "cadquery_version": "2.8.0",
+      "coordinate_system": "X largeur et entraxe SSR; Y longueur; Z normal au contact. Face SSR du dissipateur Z=40.640 mm; centre des trous Y=0.",
+      "bytes": 6326370,
+      "sha256": "1059165fdd23b291443b0dd108065bef0f9625fbd98b04b56878be7b2544fc66",
+      "native_vendor_cad": false,
+      "hardware_measured": false,
+      "is_custom_project_design": false,
+      "published_nominal": [
+        "HS251: STEP officiel; D1D100: enveloppe nominale et entraxe 47.6 mm."
+      ],
+      "estimates_and_limitations": [
+        "Implantation CAO seulement; aucune qualification thermique ou sur piece physique.",
+        "Relais: reconstruction exterieure existante; aucune electronique interne inventee.",
+        "Pad rose: contour 2018 suppose; vis HK1 et fixation chassis absentes de cet assemblage.",
+        "Orientation 3D choisie pour integration; convection a verifier, ailettes verticales recommandees."
+      ],
+      "parameters": {
+        "sink_face_z_mm": 40.64,
+        "pad_uncompressed_mm": 0.127,
+        "relay_bottom_z_mm": 40.767,
+        "sink_holes_x_mm": [
+          -23.8125,
+          23.8125
+        ],
+        "relay_holes_x_mm": [
+          -23.8,
+          23.8
+        ],
+        "centre_offset_each_mm": 0.0125
+      },
+      "source_pages": [
+        "Sensata HS251 STEP et fiche PDF 2024 p.2",
+        "Sensata HSP fiche 2018 p.1 / PCN-SSR-231214 / annexe TTI",
+        "D1D100 modele exterieur existant et fiche PDF p.3"
+      ],
+      "bounds_mm": {
+        "xmin": -42.672,
+        "xmax": 42.672,
+        "ymin": -26.162000000000003,
+        "ymax": 26.162,
+        "zmin": -1.0811177024840037e-14,
+        "zmax": 63.367
+      },
+      "validation": {
+        "valid_after_reimport": true,
+        "solids": 96,
+        "faces": 1620,
+        "colors": 5,
+        "volume_relative_error": 3.040583599158824e-14,
+        "volume_relative_error_limit": 0.0001,
+        "volume_before_mm3": 83274.5809204627,
+        "volume_after_mm3": 83274.58092046523,
+        "adaptive_volume_tolerance": 1e-09,
+        "bbox_error_mm": 0.0009563506395657839,
+        "bbox_error_limit_mm": 0.01,
+        "void_and_material_probes": [],
+        "elapsed_seconds": 15.221069599996554
+      },
+      "parts": [
+        {
+          "name": "HS251_geometrie_officielle",
+          "color_linear_rgb": [
+            0.5271151065826416,
+            0.5271151065826416,
+            0.5271151065826416
+          ],
+          "solids": 1
+        },
+        {
+          "name": "HSP1_rose_sans_films",
+          "color_linear_rgb": [
+            0.8073459089125289,
+            0.24286681390410306,
+            0.38005633644979925
+          ],
+          "solids": 1
+        },
+        {
+          "name": "D1D100_Semelle_aluminium_cotes_nominales",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "D1D100_Coque_noire_exterieure_estimee",
+          "color_linear_rgb": [
+            0.015,
+            0.02,
+            0.025
+          ],
+          "solids": 1
+        },
+        {
+          "name": "D1D100_Borne_1_plaque_metal",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "D1D100_Borne_1_rondelle",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "D1D100_Borne_1_vis_UNC_empreinte_estimee",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "D1D100_Borne_1_barriere_-5.3",
+          "color_linear_rgb": [
+            0.015,
+            0.02,
+            0.025
+          ],
+          "solids": 1
+        },
+        {
+          "name": "D1D100_Borne_1_barriere_5.3",
+          "color_linear_rgb": [
+            0.015,
+            0.02,
+            0.025
+          ],
+          "solids": 1
+        },
+        {
+          "name": "D1D100_Borne_2_plaque_metal",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "D1D100_Borne_2_rondelle",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "D1D100_Borne_2_vis_UNC_empreinte_estimee",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "D1D100_Borne_2_barriere_-5.3",
+          "color_linear_rgb": [
+            0.015,
+            0.02,
+            0.025
+          ],
+          "solids": 1
+        },
+        {
+          "name": "D1D100_Borne_2_barriere_5.3",
+          "color_linear_rgb": [
+            0.015,
+            0.02,
+            0.025
+          ],
+          "solids": 1
+        },
+        {
+          "name": "D1D100_Borne_3_plaque_metal",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "D1D100_Borne_3_rondelle",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "D1D100_Borne_3_vis_UNC_empreinte_estimee",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "D1D100_Borne_3_barriere_-5.3",
+          "color_linear_rgb": [
+            0.015,
+            0.02,
+            0.025
+          ],
+          "solids": 1
+        },
+        {
+          "name": "D1D100_Borne_3_barriere_5.3",
+          "color_linear_rgb": [
+            0.015,
+            0.02,
+            0.025
+          ],
+          "solids": 1
+        },
+        {
+          "name": "D1D100_Borne_4_plaque_metal",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "D1D100_Borne_4_rondelle",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "D1D100_Borne_4_vis_UNC_empreinte_estimee",
+          "color_linear_rgb": [
+            0.5,
+            0.52,
+            0.55
+          ],
+          "solids": 1
+        },
+        {
+          "name": "D1D100_Borne_4_barriere_-5.3",
+          "color_linear_rgb": [
+            0.015,
+            0.02,
+            0.025
+          ],
+          "solids": 1
+        },
+        {
+          "name": "D1D100_Borne_4_barriere_5.3",
+          "color_linear_rgb": [
+            0.015,
+            0.02,
+            0.025
+          ],
+          "solids": 1
+        },
+        {
+          "name": "D1D100_Etiquette_fond_blanc",
+          "color_linear_rgb": [
+            0.87,
+            0.9,
+            0.93
+          ],
+          "solids": 1
+        },
+        {
+          "name": "D1D100_Logo_texte_approche",
+          "color_linear_rgb": [
+            0.015,
+            0.02,
+            0.025
+          ],
+          "solids": 6
+        },
+        {
+          "name": "D1D100_Type_texte_approche",
+          "color_linear_rgb": [
+            0.015,
+            0.02,
+            0.025
+          ],
+          "solids": 6
+        },
+        {
+          "name": "D1D100_Fonction_texte_approche",
+          "color_linear_rgb": [
+            0.015,
+            0.02,
+            0.025
+          ],
+          "solids": 15
+        },
+        {
+          "name": "D1D100_Output_texte_approche",
+          "color_linear_rgb": [
+            0.015,
+            0.02,
+            0.025
+          ],
+          "solids": 13
+        },
+        {
+          "name": "D1D100_Input_texte_approche",
+          "color_linear_rgb": [
+            0.015,
+            0.02,
+            0.025
+          ],
+          "solids": 14
+        },
+        {
+          "name": "D1D100_Repere_1_OUTPUT",
+          "color_linear_rgb": [
+            0.87,
+            0.9,
+            0.93
+          ],
+          "solids": 7
+        },
+        {
+          "name": "D1D100_Repere_+2",
+          "color_linear_rgb": [
+            0.87,
+            0.9,
+            0.93
+          ],
+          "solids": 2
+        },
+        {
+          "name": "D1D100_Repere_4_INPUT",
+          "color_linear_rgb": [
+            0.87,
+            0.9,
+            0.93
+          ],
+          "solids": 6
+        },
+        {
+          "name": "D1D100_Repere_+3",
+          "color_linear_rgb": [
+            0.87,
+            0.9,
+            0.93
+          ],
+          "solids": 2
+        }
+      ],
+      "preview": {
+        "file": "assemblage-d1d100-hs251-hsp1-etude.png",
+        "sha256": "f1f77d96e2fc63df0fea26c6bf0feafb74f361c0800009943d8236b0d24e9941"
+      },
+      "generator": "tools/build_heatsink_step.py",
+      "generator_sha256": "cde4c4056d7169272a6db14e8742c87de8155f9fa1c55a0637d2c227259de3a9",
+      "assembly_checks": {
+        "no_volume_overlap": true,
+        "relay_heatsink_overlap_mm3": 0.0,
+        "thermal_layer_gap_mm": 0,
+        "matching_nominal_holes_offset_each_mm": 0.0125,
+        "physical_fit_tested": false
+      }
+    }
+  ],
+  "source_assets": "../assets.json"
+}

@@ -1,0 +1,270 @@
+{
+  "file": "rallonge-equilibrage-2s-20cm.step",
+  "title": "Équilibrage 2S | cordon 20 cm",
+  "generated_on": "2026-10-14",
+  "unit": "mm",
+  "cadquery_version": "2.8.0",
+  "coordinate_system": "Axe principal Z; face de reference z=0; dimensions selon parametres",
+  "bytes": 1162044,
+  "sha256": "077d335a550b30493204a3825f301b2cc7ad2d6be0902bf57c183d0c1e975b2b",
+  "native_vendor_cad": false,
+  "hardware_measured": false,
+  "is_custom_project_design": false,
+  "published_nominal": [
+    "INTERMODEL : 20 cm, trois positions, type XH annoncé."
+  ],
+  "estimates_and_limitations": [
+    "Famille XH reconstruite ; pas de CAO native du cordon. Calibre et OD non publiés : âme équivalente22AWG et gaine1.5 estimées.",
+    "Trois âmes et trois gaines continues, entrées orientées vers le câble. Plansde référence séparésde200mm, conventionfournisseuràconfirmer.",
+    "Contacts à sertir non déformés, extrémités conductrices insérées dans les terminaisons ; sertissage et isolation réels à contrôler.",
+    "Nuances optiques estimées ; géométrie non mesurée. Pas de plan de fabrication ni de qualification mécanique/électrique."
+  ],
+  "parameters": {
+    "length_advertised_mm": 200,
+    "gauge_CAD_assumed_only": 22,
+    "leads_continuous": true
+  },
+  "source_pages": [
+    "Voir sources.json et cotes.md du composant / ensemble"
+  ],
+  "bounds_mm": {
+    "xmin": -5.4,
+    "xmax": 5.4,
+    "ymin": -3.4,
+    "ymax": 3.4,
+    "zmin": -200.0,
+    "zmax": 7.0
+  },
+  "validation": {
+    "valid_after_reimport": true,
+    "solids": 15,
+    "faces": 337,
+    "colors": 5,
+    "volume_relative_error": 6.438036422702019e-14,
+    "volume_relative_error_limit": 0.0001,
+    "volume_before_mm3": 1617.529577586551,
+    "volume_after_mm3": 1617.5295775866553,
+    "adaptive_volume_tolerance": 1e-09,
+    "bbox_error_mm": 0.0,
+    "bbox_error_limit_mm": 0.01,
+    "void_and_material_probes": [
+      {
+        "point": [
+          -2.5,
+          -0.525,
+          -194.5
+        ],
+        "occupied": true
+      },
+      {
+        "point": [
+          -2.5,
+          -0.525,
+          -100
+        ],
+        "occupied": true
+      },
+      {
+        "point": [
+          -2.5,
+          -0.525,
+          -3.3
+        ],
+        "occupied": true
+      },
+      {
+        "point": [
+          0,
+          -0.525,
+          -194.5
+        ],
+        "occupied": true
+      },
+      {
+        "point": [
+          0,
+          -0.525,
+          -100
+        ],
+        "occupied": true
+      },
+      {
+        "point": [
+          0,
+          -0.525,
+          -3.3
+        ],
+        "occupied": true
+      },
+      {
+        "point": [
+          2.5,
+          -0.525,
+          -194.5
+        ],
+        "occupied": true
+      },
+      {
+        "point": [
+          2.5,
+          -0.525,
+          -100
+        ],
+        "occupied": true
+      },
+      {
+        "point": [
+          2.5,
+          -0.525,
+          -3.3
+        ],
+        "occupied": true
+      }
+    ],
+    "elapsed_seconds": 3.5255881999983103,
+    "volume_after_default_quadrature_mm3": 1617.5295775866966
+  },
+  "parts": [
+    {
+      "name": "Piece_prise_male_corps",
+      "color_linear_rgb": [
+        0.87,
+        0.87,
+        0.83
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Piece_pin_1",
+      "color_linear_rgb": [
+        0.54,
+        0.59,
+        0.62
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Piece_pin_2",
+      "color_linear_rgb": [
+        0.54,
+        0.59,
+        0.62
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Piece_pin_3",
+      "color_linear_rgb": [
+        0.54,
+        0.59,
+        0.62
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Piece_prise_femelle_corps",
+      "color_linear_rgb": [
+        0.87,
+        0.87,
+        0.83
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Piece_protection_arriere_male_estimee",
+      "color_linear_rgb": [
+        0.87,
+        0.87,
+        0.83
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Piece_contact_femelle1",
+      "color_linear_rgb": [
+        0.54,
+        0.59,
+        0.62
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Piece_fil1_ame_estimee22AWG",
+      "color_linear_rgb": [
+        0.58,
+        0.25,
+        0.1
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Piece_fil1_gaine_estimee",
+      "color_linear_rgb": [
+        0.018,
+        0.021,
+        0.025
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Piece_contact_femelle2",
+      "color_linear_rgb": [
+        0.54,
+        0.59,
+        0.62
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Piece_fil2_ame_estimee22AWG",
+      "color_linear_rgb": [
+        0.58,
+        0.25,
+        0.1
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Piece_fil2_gaine_estimee",
+      "color_linear_rgb": [
+        0.018,
+        0.021,
+        0.025
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Piece_contact_femelle3",
+      "color_linear_rgb": [
+        0.54,
+        0.59,
+        0.62
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Piece_fil3_ame_estimee22AWG",
+      "color_linear_rgb": [
+        0.58,
+        0.25,
+        0.1
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Piece_fil3_gaine_estimee",
+      "color_linear_rgb": [
+        0.7,
+        0.008,
+        0.009
+      ],
+      "solids": 1
+    }
+  ],
+  "preview": {
+    "file": "rallonge-equilibrage-2s-20cm.png",
+    "sha256": "fdd0ef6dff3ed247bcd3a0ba9d418e137f705a12a136aaf02af069c57979fcc7"
+  },
+  "component_folder": "liaisons-alimentation-surveillance/rallonge-equilibrage-2s",
+  "relative_step_path": "liaisons-alimentation-surveillance/rallonge-equilibrage-2s/3D/rallonge-equilibrage-2s-20cm.step"
+}

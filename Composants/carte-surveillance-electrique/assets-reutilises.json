@@ -1,0 +1,32 @@
+[
+  {
+    "file": "notices/Vishay-VOS618A-datasheet.pdf",
+    "copied_from": "Composants\\protection-batterie\\surveillance-2s\\notices\\Vishay-VOS618A-datasheet.pdf",
+    "sha256": "61d948c9edadff66dad1bfc49f8ae17f2258b25ee15af8509d0361e218a9971a",
+    "modified": false
+  },
+  {
+    "file": "notices/Microchip-MCP1703A-datasheet.pdf",
+    "copied_from": "Composants\\protection-batterie\\surveillance-2s\\notices\\Microchip-MCP1703A-datasheet.pdf",
+    "sha256": "6fdfc2f20167c7292c92c9c4c8003fd4d8615e0f2f90e224e1e10dce6ed65b5f",
+    "modified": false
+  },
+  {
+    "file": "notices/TI-SN74LVC2G17-datasheet.pdf",
+    "copied_from": "Composants\\protection-batterie\\surveillance-2s\\notices\\TI-SN74LVC2G17-datasheet.pdf",
+    "sha256": "624dbe55679d2fed4123b0d7708cd0d295efcc78de395e71a0caf5cd13cbc216",
+    "modified": false
+  },
+  {
+    "file": "notices/Diodes-BAT54-datasheet.pdf",
+    "copied_from": "Composants\\protection-batterie\\surveillance-2s\\notices\\Diodes-BAT54-datasheet.pdf",
+    "sha256": "50b04e4e17bcf5db62164f6e5422e91546d0cace0ab2efed61660c3044b4fef0",
+    "modified": false
+  },
+  {
+    "file": "notices/Littelfuse-KLKD-2021-original-via-distributeur.pdf",
+    "copied_from": "Composants\\verification-alimentation\\notices\\Littelfuse-KLKD-2021-original-via-distributeur.pdf",
+    "sha256": "7613219f066c8c38bf0693956de49e817e4dfd06fd142389e5326c010a437ba8",
+    "modified": false
+  }
+]

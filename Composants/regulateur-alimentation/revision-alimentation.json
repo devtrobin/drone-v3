@@ -1,0 +1,6 @@
+{
+  "date": "2026-10-15",
+  "current_source": "../verification-alimentation/selection-active.json",
+  "note": "D24V90F5 retiré de la sélection active : D42V55F5 / Pololu 5571, 5 V ±3 %, dropout plus faible. CAO officielle dans le sous-dossier d42v55f5 ; vérifier le brochage, différent de l’ancien modèle.",
+  "old_project_PDFs_and_complete_CAD_historical": true
+}

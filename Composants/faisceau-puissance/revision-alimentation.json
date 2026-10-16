@@ -1,0 +1,6 @@
+{
+  "date": "2026-10-15",
+  "current_source": "../verification-alimentation/selection-active.json",
+  "note": "Appliquer le tableau de raccordements révisé : classe T, branches Midget, fil LAPP 6 mm², 18 AWG Pi et neuf signaux GPIO. Les nomenclatures, PDF et assemblages précédents restent des instantanés.",
+  "old_project_PDFs_and_complete_CAD_historical": true
+}

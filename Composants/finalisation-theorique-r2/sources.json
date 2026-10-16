@@ -1,0 +1,65 @@
+[
+  {
+    "file": null,
+    "url": "https://www.feetechrc.com/84v-40kg-digital-steering-gear-ft5335m.html",
+    "note": "Current manufacturer table: nominal torque13.5kg.cm@6V. Differs from historical17T PDF; require matched revision.",
+    "archived": false,
+    "error": "<urlopen error _ssl.c:999: The handshake operation timed out>"
+  },
+  {
+    "file": "references/FEETECH-FT5335M-historique.pdf",
+    "url": "https://www.pololu.com/file/0J1434/FT5335M-specs.pdf",
+    "note": "Historical manufacturer sheet, mirrored unchanged by Pololu: conflicting17T and4A, not current25T table.",
+    "archived": true,
+    "sha256": "ffddc77cfe128972df754ec7a670be641b9b51182dca252604ccfe40e106d484"
+  },
+  {
+    "file": "references/Hobbywing-UBEC10ACar.pdf",
+    "url": "https://hobbywing.oss-cn-shenzhen.aliyuncs.com/pdf/pdfen/UBEC10ACar.pdf",
+    "note": "30603003,2-6S,6V output selected,45x20x16.2mm. Not old30603000.",
+    "archived": true,
+    "sha256": "0d74492495504a52aa387897d1d0ae1c1ba5c0f43cbe9d8f0a666651e90b0595"
+  },
+  {
+    "file": "references/TI-ISO7710.pdf",
+    "url": "https://www.ti.com/lit/ds/symlink/iso7710.pdf",
+    "note": "ISO7710F, default low,2.25..5.5V; avoid direct6V supply.",
+    "archived": true,
+    "sha256": "42fc3c704c9ca0c451282373b4a7ffb22d4691d56029b2b485ab111f3cc431c5"
+  },
+  {
+    "file": "references/NSK-ajustements.html",
+    "url": "https://www.nsk.com/tools-resources/abc-bearings/fits-and-internal-clearance/",
+    "note": "Interference reduces internal clearance; avoid nominal fits claimed without incoming metrology.",
+    "archived": true,
+    "sha256": "1e3cc7974f60889871062f46d9661661245a7c889d1870f0c6438d0e3fda9012"
+  },
+  {
+    "file": "references/SMB-MR115ZZ.pdf",
+    "url": "https://www.smbbearings.com/firebrick/ckeditor/plugins/upload/Uploads/Documents/bearingpdfs/MR115ZZ-miniature-bearing-5x11x4mm.pdf",
+    "note": "External dimensions and load ratings; a generic unbranded bearing cannot inherit this specification.",
+    "archived": true,
+    "sha256": "47124fe7b5bda8ddf055701f9a28959712bba733bc043704eec517f020169c94"
+  },
+  {
+    "file": null,
+    "url": "https://www.pololu.com/product/4981",
+    "note": "Alternative examined but not selected:6V ±4%,2.5A typical does not establish compatibility with the old6A peak servo revision.",
+    "archived": false,
+    "consulted_via_web": "2026-10-16"
+  },
+  {
+    "file": "references/Beneri-DIN471.html",
+    "url": "https://www.beneri.com/en/prodotto/din-471",
+    "note": "DIN471-5: anneau0.6, gorgeØ4.8 +0/-0.05, m0.70H13 ; projetresserrem0.70..0.73 ; nminimum0.3. ProfilCADdesoreillesreconstruit.",
+    "archived": true,
+    "sha256": "15a154d49d0030d7017c0583367480fb924c7ddca7bd8c8202509519bf265393"
+  },
+  {
+    "file": "references/HPC-circlips-DIN471.pdf",
+    "url": "https://shop.hpceurope.com/pdf/frPDFauto/CYS.pdf",
+    "note": "DIN471-5: anneau0.6, gorgeØ4.8 +0/-0.05, m0.70H13 ; projetresserrem0.70..0.73 ; nminimum0.3. ProfilCADdesoreillesreconstruit.",
+    "archived": true,
+    "sha256": "91367214d0c39ab49ec0043fae78f18f0c31bc47a602f8ed085c59ce7fc4a4fe"
+  }
+]

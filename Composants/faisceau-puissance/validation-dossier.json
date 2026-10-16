@@ -1,0 +1,21 @@
+{
+  "checked_on": "2026-10-14",
+  "all_passed": true,
+  "component_dossiers": 8,
+  "STEP_models": 14,
+  "FreeCAD_headless_valid": true,
+  "original_archives": 12,
+  "pdf_source_documents": 6,
+  "pdf_notice_pages": 8,
+  "pdf_visual_review_complete": true,
+  "hashes_links_calculations_valid": true,
+  "STEP_not_ignored": true,
+  "source_dimensions_distinguished_from_estimates": true,
+  "current_qualified": false,
+  "hardware_tested": false,
+  "actual_cut_list_validated": false,
+  "battery_interface_final": false,
+  "exact_Amazon_FR_offers_verified": false,
+  "price_FR_TTC_confirmed": false,
+  "tool_and_conductor_pairing_qualified": false
+}

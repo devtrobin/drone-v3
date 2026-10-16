@@ -1,0 +1,42 @@
+{
+  "checked_on": "2026-10-14",
+  "purchase_made": false,
+  "hardware_tested": false,
+  "id": "wago-221-415",
+  "ref": "WAGO 221-415 - cinq entrées, un potentiel",
+  "qty": 1,
+  "unit": "pièce",
+  "price": 1.2,
+  "currency": "EUR",
+  "tax": "TTC affiché GoTronic, hors livraison",
+  "buy": "https://www.gotronic.fr/cat-bornes-de-connexion-wago-0-5-a-2-5-mm2.htm",
+  "maker": "https://www.wago.com/221-415",
+  "query": "WAGO 221-415",
+  "stock": "En stock affiché sur catalogue GoTronic du14/10 ; offre Amazon exacte non confirmée.",
+  "scope": "1 entrée GND 18 AWG du régulateur + 4 sorties GND 22 AWG vers les broches physiques6,9,14,20.",
+  "role": "Retour d’alimentation Pi uniquement ; masses ESC signal et servo documentées séparément.",
+  "cotes": [
+    [
+      "Enveloppe",
+      "30 x 18,6 x 8,4",
+      "Plan WAGO29.09.2024"
+    ],
+    [
+      "Dénudage",
+      "11",
+      "Notice WAGO"
+    ],
+    [
+      "Nombre de potentiels",
+      "1",
+      "Les cinq ports sont reliés entre eux"
+    ],
+    [
+      "Masse",
+      "4 g",
+      "Fiche WAGO ; lot à mesurer"
+    ]
+  ],
+  "amazon_search": "https://www.amazon.fr/s?k=WAGO+221-415",
+  "amazon_FR_verified": false
+}

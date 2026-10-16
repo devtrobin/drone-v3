@@ -1,0 +1,68 @@
+{
+  "checked_on": "2026-10-14",
+  "all_passed": true,
+  "mode": "headless",
+  "FreeCAD_version": [
+    "1",
+    "1",
+    "4",
+    "20260928 (Git shallow)",
+    "Unknown",
+    "2026/09/28 13:46:34",
+    "(HEAD detached at 4fd3bf320)",
+    "4fd3bf320d9566a27e60069fc8387448aaa3a094"
+  ],
+  "GUI_tested": false,
+  "CADView_tested": false,
+  "hardware_tested": false,
+  "checks": [
+    {
+      "file": "raspberry-pi-active-cooler-sc1148-detaille.step",
+      "sha256": "a8bf4c32607189d84ad53ae1dc95ae37672a64335d1df23e04a0797ae63e0046",
+      "passed": true,
+      "valid": true,
+      "solids_closed": true,
+      "solids": 38,
+      "faces": 4399,
+      "bbox_error_mm": 0.0,
+      "volume_relative_error": 6.057287456359692e-08,
+      "seconds": 20.004503000000113
+    },
+    {
+      "file": "raspberry-pi-active-cooler-sc1148-sans-cable.step",
+      "sha256": "f79b7588cf5a4eabe2bacce7efbec9153602278b56bb5a6a44847a8255f5d453",
+      "passed": true,
+      "valid": true,
+      "solids_closed": true,
+      "solids": 25,
+      "faces": 4276,
+      "bbox_error_mm": 0.0,
+      "volume_relative_error": 6.353699953795996e-08,
+      "seconds": 14.478406399999585
+    },
+    {
+      "file": "raspberry-pi-active-cooler-dissipateur-detaille.step",
+      "sha256": "ea99d5ed5a8e8faf47318b0a74b347a990a08930fd40f91560ce66a315b7828a",
+      "passed": true,
+      "valid": true,
+      "solids_closed": true,
+      "solids": 10,
+      "faces": 3946,
+      "bbox_error_mm": 0.0,
+      "volume_relative_error": 3.802688752846723e-15,
+      "seconds": 16.894066900000325
+    },
+    {
+      "file": "raspberry-pi-active-cooler-implantation-legere.step",
+      "sha256": "95ffdffecd607ac74f087ea0e8c43e4f074a01753808ce6d4ac41b217f80973c",
+      "passed": true,
+      "valid": true,
+      "solids_closed": true,
+      "solids": 16,
+      "faces": 621,
+      "bbox_error_mm": 0.0,
+      "volume_relative_error": 1.5863070485561525e-08,
+      "seconds": 3.2732236000010744
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "method": "FreeCAD Part.read, headless",
+  "version": [
+    "1",
+    "1",
+    "4",
+    "20260928 (Git shallow)",
+    "Unknown",
+    "2026/09/28 13:46:34",
+    "(HEAD detached at 4fd3bf320)",
+    "4fd3bf320d9566a27e60069fc8387448aaa3a094"
+  ],
+  "checked_on": "2026-10-14",
+  "GUI_tested": false,
+  "VSCode_CAD_View_tested": false,
+  "all_passed": true,
+  "checks": [
+    {
+      "file": "eriflex-ud80a-officiel.step",
+      "sha256": "68f63c19ac7e6b23aea0bbe7f336b9b2e52d5aaeecd588fe24f437906998a6b6",
+      "passed": true,
+      "valid": true,
+      "solids_closed": true,
+      "solids": 3,
+      "faces": 332,
+      "bbox_error_mm": 0.0,
+      "seconds": 0.7345984999999473
+    },
+    {
+      "file": "eriflex-ud80a-implantation-v3.step",
+      "sha256": "7dfb2e00ca79a256618bf963e8b75826b2bb12627d4322634726bf003404c788",
+      "passed": true,
+      "valid": true,
+      "solids_closed": true,
+      "solids": 3,
+      "faces": 332,
+      "bbox_error_mm": 0.0,
+      "seconds": 0.5245956999999635
+    },
+    {
+      "file": "eriflex-ud80a-sans-capot.step",
+      "sha256": "facc112126a2d4a0dbb1db058cac6f45e0504ee523d12cf4ff527142a3d5e4d8",
+      "passed": true,
+      "valid": true,
+      "solids_closed": true,
+      "solids": 2,
+      "faces": 262,
+      "bbox_error_mm": 0.0,
+      "seconds": 0.32655270000009295
+    },
+    {
+      "file": "eriflex-ud80a-vue-eclatee.step",
+      "sha256": "4d57f701d933c928659d0bdfbd391919f06eb13e635e850992aba958aa43bace",
+      "passed": true,
+      "valid": true,
+      "solids_closed": true,
+      "solids": 3,
+      "faces": 332,
+      "bbox_error_mm": 0.0,
+      "seconds": 0.505763399999978
+    },
+    {
+      "file": "eriflex-ud80a-capot-officiel.step",
+      "sha256": "b8347ffa9e56e133bc36d72cf8bcb5c9afd2a4eaae9103cc43c6e3edc7833a4d",
+      "passed": true,
+      "valid": true,
+      "solids_closed": true,
+      "solids": 1,
+      "faces": 70,
+      "bbox_error_mm": 0.0,
+      "seconds": 0.18766039999991335
+    }
+  ]
+}

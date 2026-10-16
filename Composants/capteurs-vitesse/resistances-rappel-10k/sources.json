@@ -1,0 +1,8 @@
+{
+  "checked_on": "2026-10-15",
+  "manufacturer": "https://www.vishay.com/docs/28724/mrs16m25.pdf",
+  "purchase": "https://fr.rs-online.com/web/p/resistances-traversantes/6832939",
+  "original_pdf": "../notices/Vishay-MRS16-MRS25-original.pdf",
+  "shared_assets": "../assets.json",
+  "research": "../recherche-technique.md"
+}

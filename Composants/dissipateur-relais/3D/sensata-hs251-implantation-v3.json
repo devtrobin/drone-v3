@@ -1,0 +1,81 @@
+{
+  "file": "sensata-hs251-implantation-v3.step",
+  "title": "HS251 | implantation V3",
+  "generated_on": "2026-10-13",
+  "unit": "mm",
+  "cadquery_version": "2.8.0",
+  "coordinate_system": "X largeur et entraxe SSR; Y longueur; Z normal au contact. Face SSR du dissipateur Z=40.640 mm; centre des trous Y=0.",
+  "bytes": 358153,
+  "sha256": "8da60eaaabd2879eb9e054aa8c08cc2c8192fdc0632341214c5a99038cd7fcba",
+  "native_vendor_cad": false,
+  "hardware_measured": false,
+  "is_custom_project_design": false,
+  "published_nominal": [
+    "Geometrie et couleur issues du STEP constructeur sans modification de forme."
+  ],
+  "estimates_and_limitations": [
+    "Modele officiel: filetages representes par alesages, pas helices physiques.",
+    "Corps et pattes regroupes dans un solide officiel; ni vis de montage ni pad.",
+    "Ne reproduit pas rugosite, rayures ou tolerance de la piece recue."
+  ],
+  "parameters": {
+    "envelope_with_tabs_mm": [
+      85.344,
+      52.324,
+      40.64
+    ],
+    "ssr_hole_centres_mm": 47.625,
+    "ssr_mount_face_z_mm": 40.64,
+    "transformation": "rotate X +90 deg; translate [0,26.162,21.082] mm"
+  },
+  "source_pages": [
+    "Sensata HS251 STEP et fiche PDF 2024 p.2",
+    "Sensata HSP fiche 2018 p.1 / PCN-SSR-231214 / annexe TTI",
+    "D1D100 modele exterieur existant et fiche PDF p.3"
+  ],
+  "bounds_mm": {
+    "xmin": -42.672,
+    "xmax": 42.672,
+    "ymin": -26.162000000000003,
+    "ymax": 26.162,
+    "zmin": -1.0811177024840037e-14,
+    "zmax": 40.64
+  },
+  "validation": {
+    "valid_after_reimport": true,
+    "solids": 1,
+    "faces": 88,
+    "colors": 1,
+    "volume_relative_error": 1.144327311957954e-13,
+    "volume_relative_error_limit": 0.0001,
+    "volume_before_mm3": 38340.45028468054,
+    "volume_after_mm3": 38340.45028468493,
+    "adaptive_volume_tolerance": 1e-09,
+    "bbox_error_mm": 0.0009563506395657839,
+    "bbox_error_limit_mm": 0.01,
+    "void_and_material_probes": [],
+    "elapsed_seconds": 1.0010498000046937
+  },
+  "parts": [
+    {
+      "name": "HS251_geometrie_officielle",
+      "color_linear_rgb": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ],
+      "solids": 1
+    }
+  ],
+  "preview": {
+    "file": "sensata-hs251-implantation-v3.png",
+    "sha256": "b348bb5f948e825b6b8a29c829bbe9f1de5e76e3d00386cc89ee6bf1d04aaa58"
+  },
+  "generator": "tools/build_heatsink_step.py",
+  "generator_sha256": "cde4c4056d7169272a6db14e8742c87de8155f9fa1c55a0637d2c227259de3a9",
+  "derived_from": {
+    "file": "sensata-hs251-officiel.step",
+    "sha256": "0205bb9ca8d5a5ede282401681bf73ae1e72846dbbf2cabb05274b79f33a66ce",
+    "geometry_changes": "rotation et translation seulement"
+  }
+}

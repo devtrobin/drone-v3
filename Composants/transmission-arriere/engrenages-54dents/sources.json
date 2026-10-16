@@ -1,0 +1,57 @@
+{
+  "selected_on": "2026-10-13",
+  "selected_by": "assistant, authorized by user",
+  "reference": "KHK SS0.5-54A",
+  "quantity_design": "4 roues dentées : deux par transmission arrière",
+  "purchased": false,
+  "hardware_tested": false,
+  "model_3d_created": true,
+  "purchase_status": "Not an identified or verified Amazon offer; fabrication lines are not purchase-ready",
+  "price_eur": null,
+  "amazon_search_url": "https://www.amazon.fr/s?k=KHK+SS0.5-54A",
+  "specifications": {
+    "denture": "54 dents, module 0,5, angle de pression 20°",
+    "alésage": "5 mm",
+    "diamètres": "Primitif 27 mm ; extérieur 28 mm ; moyeu 25 mm",
+    "dimensions axiales": "Largeur de denture 5 mm ; largeur de moyeu 7 mm ; longueur totale 12 mm",
+    "fixation": "Vis M4 dans le moyeu",
+    "matière / masse catalogue": "Acier S45C, oxydation noire, 47 g par roue dentée",
+    "limites catalogue": "Flexion 2,67 N·m ; durabilité de surface 0,32 N·m, dans les conditions du catalogue"
+  },
+  "sources": [
+    {
+      "url": "https://khkgears.net/pdf/ss.pdf",
+      "type": "primary or explicitly identified supplier reference",
+      "checked_on": "2026-10-13"
+    },
+    {
+      "url": "https://khkgears.net/pdf/spur-tech.pdf",
+      "type": "primary or explicitly identified supplier reference",
+      "checked_on": "2026-10-13"
+    }
+  ],
+  "documents": [
+    {
+      "file": "KHK-engrenages-acier-SS.pdf",
+      "url": "https://khkgears.net/pdf/ss.pdf",
+      "bytes": 718814,
+      "sha256": "f226fe80d3b8295cc8146be91280061474965f033cf4db471618b6d5f66dda74",
+      "modified": false,
+      "local_file": "../../direction-et-transmission/notices/KHK-engrenages-acier-SS.pdf"
+    },
+    {
+      "file": "KHK-guide-technique-engrenages.pdf",
+      "url": "https://khkgears.net/pdf/spur-tech.pdf",
+      "bytes": 987550,
+      "sha256": "66cd4024617ee553e5e2cd52394552654f1f303d3cadc56ae244110d9c1a0e81",
+      "modified": false,
+      "local_file": "../../direction-et-transmission/notices/KHK-guide-technique-engrenages.pdf"
+    }
+  ],
+  "unknowns": [
+    "Recalcul de résistance, bruit, lubrification et endurance aux régimes réels",
+    "Masse et coût : quatre couronnes représentent déjà 188 g ; piste ultérieure d’allègement distincte",
+    "Disponibilité et prix livrés ; sélection industrielle documentaire, offre Amazon non confirmée"
+  ],
+  "model_3d_manifest": "3D/provenance.json"
+}

@@ -1,0 +1,169 @@
+{
+  "checked_on": "2026-10-14",
+  "assets": [
+    {
+      "file": "sources-web/BlueSea-2315.html",
+      "url": "https://www.bluesea.com/products/2315/Common_100A_Mini_BusBar_-_4_Gang_with_Cover",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "file": "sources-web/BlueSea-2305.html",
+      "url": "https://www.bluesea.com/products/2305/Common_100A_Mini_BusBar_-_4_Gang",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "file": "sources-web/BlueSea-2713.html",
+      "url": "https://www.bluesea.com/products/2713/MiniBus_BusBar_Cover_for_PN_2304_and_2305",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "file": "sources-web/BlueSea-rating.html",
+      "url": "https://www.bluesea.com/support/articles/506/How_a_BusBar_Should_be_Rated",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "file": "sources-web/BlueSea-installation.html",
+      "url": "https://www.bluesea.com/support/articles/497/Application_Steps_Which_Improve_Busbar_Performance",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "file": "sources-web/Amazon-FR-B000OTJ8A0.html",
+      "url": "https://www.amazon.fr/dp/B000OTJ8A0",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "bytes": 3815,
+      "sha256": "41daef815f61fac794f43cd842f20fb6383488cbcbbb747e00e85f6c13a16dd6",
+      "final_url": "https://www.amazon.fr/dp/B000OTJ8A0",
+      "status": "challenge_html"
+    },
+    {
+      "file": "sources-web/Amazon-US-B000OTJ8A0.html",
+      "url": "https://www.amazon.com/dp/B000OTJ8A0",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "bytes": 3781,
+      "sha256": "41b550964ab1a88aee236a28a1060478f02f5d565b434a74759d6a731e004869",
+      "final_url": "https://www.amazon.com/dp/B000OTJ8A0",
+      "status": "challenge_html"
+    },
+    {
+      "file": "sources-web/HodgesMarine-2315.html",
+      "url": "https://www.hodgesmarine.com/blu2315-blue-sea-2315-minibus-100-ampere-common-busbar-4-x.html",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "file": "sources-web/Desertcart-2315.html",
+      "url": "https://www.desertcart.in/products/6640266-blue-sea-systems-2315-100-amp-mini-busbar-with-4",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "file": "sources-web/forum-R3Owners.html",
+      "url": "https://www.r3owners.net/threads/tidy-up-your-battery-terminals.44398/page-2",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "bytes": 148394,
+      "sha256": "e69f8e25b30bcef2364028a59bf9798716e1d454e0fe50170a952210a338ecb3",
+      "final_url": "https://www.r3owners.net/threads/tidy-up-your-battery-terminals.44398/page-2",
+      "status": "downloaded"
+    },
+    {
+      "file": "notices/BlueSea-2315-plan-original.jpg",
+      "url": "https://d2pyqm2yd3fw2i.cloudfront.net/files/resources/dimensioned_drawing/2315.jpg",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "bytes": 48402,
+      "sha256": "e1f347e380eb296455eb22c23d444ba7d16e121238425ed41292509b0dfd0442",
+      "final_url": "https://d2pyqm2yd3fw2i.cloudfront.net/files/resources/dimensioned_drawing/2315.jpg",
+      "status": "downloaded"
+    },
+    {
+      "file": "notices/BlueSea-2305-plan-original.jpg",
+      "url": "https://d2pyqm2yd3fw2i.cloudfront.net/files/resources/dimensioned_drawing/2305.jpg",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "bytes": 32443,
+      "sha256": "766ad4391cfa11f4552f6bb1859f1985347c3479af9a83c5ca5006e761c6fb89",
+      "final_url": "https://d2pyqm2yd3fw2i.cloudfront.net/files/resources/dimensioned_drawing/2305.jpg",
+      "status": "downloaded"
+    },
+    {
+      "file": "photos/BlueSea-2315-miniature-originale.png",
+      "url": "https://dh778tpvmt77t.cloudfront.net/images/products/180px_thumbnails/2315.png",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "file": "photos/Amazon-2315-vue-originale.jpg",
+      "url": "https://m.media-amazon.com/images/I/51pMZgmXn8L._AC_SL1000_.jpg",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "bytes": 34141,
+      "sha256": "159d9a1a3fb4264349f15a8f07963c559ff1b569c8d8eae0c3520f9336d35f31",
+      "final_url": "https://m.media-amazon.com/images/I/51pMZgmXn8L._AC_SL1000_.jpg",
+      "status": "downloaded"
+    },
+    {
+      "file": "photos/Amazon-2315-seconde-vue-originale.jpg",
+      "url": "https://m.media-amazon.com/images/I/21ZlOFyEezL._AC_.jpg",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "bytes": 4126,
+      "sha256": "6e36a2d0e2f2c47d9943b51ba305ce3f7d62f3c448c5bd59653697dc26ec6d99",
+      "final_url": "https://m.media-amazon.com/images/I/21ZlOFyEezL._AC_.jpg",
+      "status": "downloaded"
+    },
+    {
+      "file": "notices/BlueSea-certificat-IMCI-BusBars.pdf",
+      "url": "https://d2pyqm2yd3fw2i.cloudfront.net/files/resources/ce_certificate/IMCI_BusBars.pdf",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "bytes": 334978,
+      "sha256": "d1a6c6b4765231f5dde486e3c0214aefc00538ae308166bbd2cabe29b3b58c93",
+      "final_url": "https://d2pyqm2yd3fw2i.cloudfront.net/files/resources/ce_certificate/IMCI_BusBars.pdf",
+      "status": "downloaded"
+    },
+    {
+      "file": "notices/BlueSea-declaration-BusBars.pdf",
+      "url": "https://d2pyqm2yd3fw2i.cloudfront.net/files/resources/declaration_of_conformity/BusBars.pdf",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "bytes": 3349649,
+      "sha256": "1a23b51c29d4cb92ef826f997abdfbc1ed1913c18951074a47cc492e1097b5f0",
+      "final_url": "https://d2pyqm2yd3fw2i.cloudfront.net/files/resources/declaration_of_conformity/BusBars.pdf",
+      "status": "downloaded"
+    },
+    {
+      "file": "notices/BlueSea-catalogue-2024-miroir-PrimeMarine.pdf",
+      "url": "https://primemarine.com.pl/pli/141_Katalog%20BlueSea.pdf",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "bytes": 28399645,
+      "sha256": "28f98d4ce2c56b14fc7701cfa4a80a22bad144a615ef4c51471af4f3c73023a9",
+      "final_url": "https://primemarine.com.pl/pli/141_Katalog%20BlueSea.pdf",
+      "status": "downloaded"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "checked_on": "2026-10-14",
+  "sources": [
+    {
+      "id": "constructeur-2315",
+      "url": "https://www.bluesea.com/products/2315",
+      "support": "100A,48VDC,#10-32,capot,masse0.08kg; couple vis1.69Nm; page lue via web, archivage403"
+    },
+    {
+      "id": "constructeur-2305",
+      "url": "https://www.bluesea.com/products/2305/Common_100A_Mini_BusBar_-_4_Gang",
+      "support": "version sans capot, couple goujon2.03Nm; DXF propose mais inaccessible"
+    },
+    {
+      "id": "comparaison-officielle",
+      "url": "https://www.bluesea.com/products/compare/2305/2314/2315",
+      "support": "ecart des rubriques de couple conserve par le fabricant"
+    },
+    {
+      "id": "constructeur-capot",
+      "url": "https://www.bluesea.com/products/2713/MiniBus_BusBar_Cover_for_PN_2304_and_2305",
+      "support": "compatibilite et inclusion dans2315"
+    },
+    {
+      "id": "plan-2315",
+      "url": "https://d2pyqm2yd3fw2i.cloudfront.net/files/resources/dimensioned_drawing/2315.jpg",
+      "support": "cotes publiees du socle, entraxes et hauteur minimum"
+    },
+    {
+      "id": "catalogue-2024",
+      "url": "https://primemarine.com.pl/pli/141_Katalog%20BlueSea.pdf",
+      "support": "original fabricant via miroir; PDFp100: modeles, capots, goujons; p107: comparaison"
+    },
+    {
+      "id": "intensite-bus",
+      "url": "https://www.bluesea.com/support/articles/506/How_a_BusBar_Should_be_Rated",
+      "support": "principes de calibre fabricant; aucune resistance du2315 publiee"
+    },
+    {
+      "id": "pose-bus",
+      "url": "https://www.bluesea.com/support/articles/497/Application_Steps_Which_Improve_Busbar_Performance",
+      "support": "arrivee centrale et contacts; pas de hausse automatique du calibre"
+    },
+    {
+      "id": "ecrou-flasque",
+      "url": "https://www.bluesea.com/support/articles/435/The_Benefit_of_Serrated_Flange_Nuts",
+      "support": "ecrous a flasque dentee et empilage des cosses"
+    },
+    {
+      "id": "amazon-us",
+      "url": "https://www.amazon.com/dp/B000OTJ8A0",
+      "support": "reference exacte lue via web; offre et prix France non etablis; directchallenge"
+    },
+    {
+      "id": "amazon-fr",
+      "url": "https://www.amazon.fr/dp/B000OTJ8A0",
+      "support": "lien de recherche d achat, offre non confirmee"
+    },
+    {
+      "id": "marchand-prix",
+      "url": "https://www.hodgesmarine.com/blu2315-blue-sea-2315-minibus-100-ampere-common-busbar-4-x.html",
+      "support": "26.40USD affiche en ligne, pas un devis France"
+    },
+    {
+      "id": "avis-exact",
+      "url": "https://www.walmart.ca/en/ip/Blue-Sea-Busbar-2315-BSS-Common-Mini-Busbar-4-Stud-Terminal-300-Volts-AC-48-DC-100-Amps-With-Insulation-Cover-Reinforced-Polycarbonate-Base-With-Tin-Plate/1MLBPWCKLUU7",
+      "support": "avisRobert2020-10-20 qualitatif, aucune mesure"
+    },
+    {
+      "id": "forum-voisin",
+      "url": "https://www.r3owners.net/threads/tidy-up-your-battery-terminals.44398/page-2",
+      "support": "message13: proposition2305/couvert, pas essaiV3; note5024 exclue"
+    },
+    {
+      "id": "alternative-SD-MINI",
+      "url": "https://www.littelfuse.com/assetdocs/littelfuse-fuse-block-sd-mini-datasheet?assetguid=e77927cb-1cc6-4ae4-a5e4-7a58b17682ff",
+      "support": "100Atotal/30Aparcircuit, ne convient pas au depart40Acommun"
+    },
+    {
+      "id": "alternative-LX",
+      "url": "https://www.littelfuse.com/products/dc-power-distribution-modules/fuse-only-pdms/lx.aspx",
+      "support": "boitier mixte de plus grand encombrement"
+    },
+    {
+      "id": "alternative-Victron",
+      "url": "https://www.victronenergy.com/dc-distribution-systems/busbars",
+      "support": "serie150Aavec capot, alternative non retenue"
+    }
+  ],
+  "youtube_exact_usable_test_found": false,
+  "manufacturer_contacted": false,
+  "native_step_obtained": false
+}

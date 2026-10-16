@@ -1,0 +1,94 @@
+{
+  "file": "pieces-supports-vitesse-p1.step",
+  "title": "P1 | quatre pieces a fabriquer par roue",
+  "generated_on": "2026-10-15",
+  "unit": "mm",
+  "cadquery_version": "2.8.0",
+  "coordinate_system": "X shaft axis; rotor frontX0, backX8; sensor marked face on negativeX looking+X. Mounting planeZ0, nominal shaftZ24, magnet orbitR12.",
+  "bytes": 451184,
+  "sha256": "2ee820a31de1d7c107e40e06a28daa97c7240e00e83d825dad5e3b908f1745c1",
+  "native_vendor_cad": false,
+  "hardware_measured": false,
+  "is_custom_project_design": true,
+  "published_nominal": [
+    "TI LPG body maximum4.1x1.62x3.25mm; magnet3x2mm +/-0.1 from existing primary-source dossier."
+  ],
+  "estimates_and_limitations": [
+    "Project prototype dimensions, not manufactured or tested.",
+    "Hall active point height, axle and magnet alignment require physical adjustment. Pins shown shortened to6mm; solder and cable routes absent.",
+    "Provisional screw envelopes without thread geometry. No final chassis, gear, bearing or wheel assembly is claimed."
+  ],
+  "parameters": {
+    "custom_parts_per_side": 4,
+    "quantity_each_for_vehicle": 2
+  },
+  "source_pages": [
+    "../capteurs-vitesse/README.md; ../capteurs-vitesse/notices/TI-DRV5033-original.pdf; ../capteurs-vitesse/aimants-s-03-02-n/cotes.md"
+  ],
+  "bounds_mm": {
+    "xmin": -45.0,
+    "xmax": 8.0000001,
+    "ymin": -16.0000001,
+    "ymax": 16.0000001,
+    "zmin": 0.0,
+    "zmax": 52.0
+  },
+  "validation": {
+    "valid_after_reimport": true,
+    "solids": 4,
+    "faces": 114,
+    "colors": 2,
+    "volume_relative_error": 9.022492478598663e-15,
+    "volume_relative_error_limit": 0.0001,
+    "volume_before_mm3": 15322.06261156745,
+    "volume_after_mm3": 15322.062611567588,
+    "adaptive_volume_tolerance": 1e-09,
+    "bbox_error_mm": 0.0,
+    "bbox_error_limit_mm": 0.01,
+    "void_and_material_probes": [],
+    "elapsed_seconds": 0.5091606999994838
+  },
+  "parts": [
+    {
+      "name": "P01_Equerre_fourche",
+      "color_linear_rgb": [
+        0.035,
+        0.15,
+        0.23
+      ],
+      "solids": 1
+    },
+    {
+      "name": "P02_Porte_capteur",
+      "color_linear_rgb": [
+        0.035,
+        0.15,
+        0.23
+      ],
+      "solids": 1
+    },
+    {
+      "name": "P03_Retenue",
+      "color_linear_rgb": [
+        0.035,
+        0.15,
+        0.23
+      ],
+      "solids": 1
+    },
+    {
+      "name": "P04_Rotor",
+      "color_linear_rgb": [
+        0.75,
+        0.19,
+        0.025
+      ],
+      "solids": 1
+    }
+  ],
+  "preview": {
+    "file": "pieces-supports-vitesse-p1.png",
+    "sha256": "65c64ca3108f81ac1fcaf9a8011419bcb0d99f2e501bb093b3701a26e9626b90"
+  },
+  "hardware_tested": false
+}

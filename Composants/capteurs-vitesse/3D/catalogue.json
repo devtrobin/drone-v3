@@ -1,0 +1,502 @@
+{
+  "generated_on": "2026-10-15",
+  "generator": "tools/build_speed_sensor_step.py",
+  "model_count": 5,
+  "models": [
+    {
+      "file": "drv5033ajqlpg-detaille.step",
+      "title": "TI DRV5033AJQLPG | boitier LPG et pattes",
+      "generated_on": "2026-10-15",
+      "unit": "mm",
+      "cadquery_version": "2.8.0",
+      "coordinate_system": "X across pins; body bottom Z=0, top Z=3.15; leads to -Z; marked flat face -Y; pins1/2/3 at X=-1.27/0/+1.27",
+      "bytes": 449161,
+      "sha256": "da8c15048c9af09effcaefda6c7e2d642990af2afc2e9ff56633c8c71c47d782",
+      "native_vendor_cad": false,
+      "hardware_measured": false,
+      "is_custom_project_design": false,
+      "published_nominal": [
+        "TI LPG0003A drawing 4221343/C: width3.9-4.1; body height3.05-3.25; thickness1.42-1.62mm",
+        "Lead length15.1-15.5; pitch1.27+/-0.05mm; body back flats and 45degree corners",
+        "TI addendum24Jun2026: marking +QLAJ; pin1VCC pin2GND pin3OUT"
+      ],
+      "estimates_and_limitations": [
+        "Mould radii0.035mm, shoulder location, marking font/position/thickness estimated",
+        "No undocumented die, bonding wires, leadframe or mould seam",
+        "Colours and minor optical details estimated; no measured hardware or internal reconstruction"
+      ],
+      "parameters": {
+        "body_width_mm": 4,
+        "body_depth_mm": 1.52,
+        "body_height_mm": 3.15,
+        "lead_length_mm": 15.3,
+        "lead_pitch_mm": 1.27,
+        "coordinate_system": "X across pins; body bottom Z=0, top Z=3.15; leads to -Z; marked flat face -Y; pins1/2/3 at X=-1.27/0/+1.27"
+      },
+      "source_pages": [
+        "See component cotes.md and original PDFs in ../notices"
+      ],
+      "bounds_mm": {
+        "xmin": -2.0,
+        "xmax": 2.0,
+        "ymin": -0.7621001,
+        "ymax": 0.76,
+        "zmin": -15.3000001,
+        "zmax": 3.15
+      },
+      "validation": {
+        "valid_after_reimport": true,
+        "solids": 9,
+        "faces": 126,
+        "colors": 3,
+        "volume_relative_error": 1.4592084791616009e-13,
+        "volume_relative_error_limit": 0.0001,
+        "volume_before_mm3": 25.734625395335684,
+        "volume_after_mm3": 25.73462539533944,
+        "adaptive_volume_tolerance": 1e-09,
+        "bbox_error_mm": 2.220446049250313e-16,
+        "bbox_error_limit_mm": 0.01,
+        "void_and_material_probes": [],
+        "elapsed_seconds": 1.2907170999997106,
+        "volume_after_default_quadrature_mm3": 25.73462539533945
+      },
+      "parts": [
+        {
+          "name": "Corps_LPG_resine_noire",
+          "color_linear_rgb": [
+            0.014,
+            0.016,
+            0.019
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Patte_1_VCC_etamee",
+          "color_linear_rgb": [
+            0.58,
+            0.61,
+            0.64
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Patte_2_GND_etamee",
+          "color_linear_rgb": [
+            0.58,
+            0.61,
+            0.64
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Patte_3_OUT_etamee",
+          "color_linear_rgb": [
+            0.58,
+            0.61,
+            0.64
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Marquage_plus_QLAJ_position_estimee",
+          "color_linear_rgb": [
+            0.35,
+            0.37,
+            0.38
+          ],
+          "solids": 5
+        }
+      ],
+      "preview": {
+        "file": "drv5033ajqlpg-detaille.png",
+        "sha256": "91f80623622b8c0ee923e6139557e8508882aab6d3263dcd8a13566a7adfe8c1"
+      },
+      "component_folder": "capteur-hall-drv5033",
+      "relative_step_path": "Composants/capteurs-vitesse/capteur-hall-drv5033/3D/drv5033ajqlpg-detaille.step"
+    },
+    {
+      "file": "aimant-s-03-02-n-detaille.step",
+      "title": "supermagnete S-03-02-N | diametre3 x2mm",
+      "generated_on": "2026-10-15",
+      "unit": "mm",
+      "cadquery_version": "2.8.0",
+      "coordinate_system": "Disc axisZ; bottom faceZ=0; no absolute pole assignment",
+      "bytes": 13110,
+      "sha256": "3749ca19118087d15c675e030577493be4a2f65076ee02df4522503fe1946ec6",
+      "native_vendor_cad": false,
+      "hardware_measured": false,
+      "is_custom_project_design": false,
+      "published_nominal": [
+        "Article PDF: diameter3, height2mm, tolerances+/-0.1mm; axial magnetisation; NiCuNi silver"
+      ],
+      "estimates_and_limitations": [
+        "Edge radius0.025mm estimated; plating layer thicknesses unpublished and not modelled",
+        "No coloured pole paint: actual product is silver; N/S cannot be determined from STEP",
+        "Colours and minor optical details estimated; no measured hardware or internal reconstruction"
+      ],
+      "parameters": {
+        "diameter_mm": 3,
+        "height_mm": 2,
+        "estimated_edge_radius_mm": 0.025,
+        "magnetisation_axis": "Z",
+        "coordinate_system": "Disc axisZ; bottom faceZ=0; no absolute pole assignment"
+      },
+      "source_pages": [
+        "See component cotes.md and original PDFs in ../notices"
+      ],
+      "bounds_mm": {
+        "xmin": -1.5000001,
+        "xmax": 1.5000001,
+        "ymin": -1.5,
+        "ymax": 1.5,
+        "zmin": 0.0,
+        "zmax": 2.0
+      },
+      "validation": {
+        "valid_after_reimport": true,
+        "solids": 1,
+        "faces": 5,
+        "colors": 1,
+        "volume_relative_error": 0.0,
+        "volume_relative_error_limit": 0.0001,
+        "volume_before_mm3": 14.13464813487774,
+        "volume_after_mm3": 14.13464813487774,
+        "adaptive_volume_tolerance": 1e-09,
+        "bbox_error_mm": 0.0,
+        "bbox_error_limit_mm": 0.01,
+        "void_and_material_probes": [],
+        "elapsed_seconds": 0.2269970999996076,
+        "volume_after_default_quadrature_mm3": 14.134648134877754
+      },
+      "parts": [
+        {
+          "name": "Aimant_NdFeB_N48_surface_NiCuNi",
+          "color_linear_rgb": [
+            0.62,
+            0.65,
+            0.68
+          ],
+          "solids": 1
+        }
+      ],
+      "preview": {
+        "file": "aimant-s-03-02-n-detaille.png",
+        "sha256": "d23250bf11f6086306a7bc4e5ab9cef4f95dc587696a98ac291877e033691a86"
+      },
+      "component_folder": "aimants-s-03-02-n",
+      "relative_step_path": "Composants/capteurs-vitesse/aimants-s-03-02-n/3D/aimant-s-03-02-n-detaille.step"
+    },
+    {
+      "file": "mrs25-10k-pattes-droites.step",
+      "title": "Vishay MRS25 10k | pattes droites non recoupees",
+      "generated_on": "2026-10-15",
+      "unit": "mm",
+      "cadquery_version": "2.8.0",
+      "coordinate_system": "Body axisX; centreZ=2.45 for formed version, Z=0 for straight; formed leads downward",
+      "bytes": 127899,
+      "sha256": "5fb9b773a77b21b9b0ccdd159206d7e4a32fbff6e3e119f3dbf56431d7d5df70",
+      "native_vendor_cad": false,
+      "hardware_measured": false,
+      "is_custom_project_design": false,
+      "published_nominal": [
+        "Vishay28724 p3: body diameter2.5max, length6.5max, wire diameter0.6nom, lead length28min each, formed pitch10min"
+      ],
+      "estimates_and_limitations": [
+        "Body envelope drawn at maximum, end chamfers and lacquer thickness estimated",
+        "Five band code brown black black red brown; exact lot paint colour and band geometry unmeasured",
+        "Colours and minor optical details estimated; no measured hardware or internal reconstruction"
+      ],
+      "parameters": {
+        "body_length_max_mm": 6.5,
+        "body_diameter_max_mm": 2.5,
+        "lead_diameter_mm": 0.6,
+        "formed": false,
+        "terminal_pitch_mm": null,
+        "coordinate_system": "Body axisX; centreZ=2.45 for formed version, Z=0 for straight; formed leads downward"
+      },
+      "source_pages": [
+        "See component cotes.md and original PDFs in ../notices"
+      ],
+      "bounds_mm": {
+        "xmin": -31.25,
+        "xmax": 31.25,
+        "ymin": -1.25,
+        "ymax": 1.25,
+        "zmin": -1.25,
+        "zmax": 1.25
+      },
+      "validation": {
+        "valid_after_reimport": true,
+        "solids": 8,
+        "faces": 51,
+        "colors": 5,
+        "volume_relative_error": 1.8081890332006502e-14,
+        "volume_relative_error_limit": 0.0001,
+        "volume_before_mm3": 47.547944074623544,
+        "volume_after_mm3": 47.547944074622684,
+        "adaptive_volume_tolerance": 1e-09,
+        "bbox_error_mm": 0.0,
+        "bbox_error_limit_mm": 0.01,
+        "void_and_material_probes": [],
+        "elapsed_seconds": 0.3833722999997917,
+        "volume_after_default_quadrature_mm3": 47.54794407462251
+      },
+      "parts": [
+        {
+          "name": "Corps_laque_bleue_estimee",
+          "color_linear_rgb": [
+            0.025,
+            0.2,
+            0.38
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Anneau_1_code10k_1pct",
+          "color_linear_rgb": [
+            0.13,
+            0.045,
+            0.015
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Anneau_2_code10k_1pct",
+          "color_linear_rgb": [
+            0.008,
+            0.008,
+            0.008
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Anneau_3_code10k_1pct",
+          "color_linear_rgb": [
+            0.008,
+            0.008,
+            0.008
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Anneau_4_code10k_1pct",
+          "color_linear_rgb": [
+            0.65,
+            0.008,
+            0.006
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Anneau_5_code10k_1pct",
+          "color_linear_rgb": [
+            0.13,
+            0.045,
+            0.015
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Fil_gauche_28mm",
+          "color_linear_rgb": [
+            0.58,
+            0.61,
+            0.64
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Fil_droit_28mm",
+          "color_linear_rgb": [
+            0.58,
+            0.61,
+            0.64
+          ],
+          "solids": 1
+        }
+      ],
+      "preview": {
+        "file": "mrs25-10k-pattes-droites.png",
+        "sha256": "11715cbe05f2c8d1ac0d5ed2a1acd3d2ff5de5780cb0099ee2067b5dcde34ebd"
+      },
+      "component_folder": "resistances-rappel-10k",
+      "relative_step_path": "Composants/capteurs-vitesse/resistances-rappel-10k/3D/mrs25-10k-pattes-droites.step"
+    },
+    {
+      "file": "mrs25-10k-formee-pas10-16.step",
+      "title": "Vishay MRS25 10k | pattes formees pas10.16mm",
+      "generated_on": "2026-10-15",
+      "unit": "mm",
+      "cadquery_version": "2.8.0",
+      "coordinate_system": "Body axisX; centreZ=2.45 for formed version, Z=0 for straight; formed leads downward",
+      "bytes": 139364,
+      "sha256": "71c72e9734e0935b5b202349b9316c1537f22c77fa73ffc7865754d7e74d5071",
+      "native_vendor_cad": false,
+      "hardware_measured": false,
+      "is_custom_project_design": false,
+      "published_nominal": [
+        "Vishay28724 p3: body diameter2.5max, length6.5max, wire diameter0.6nom, lead length28min each, formed pitch10min"
+      ],
+      "estimates_and_limitations": [
+        "Body envelope drawn at maximum, end chamfers and lacquer thickness estimated",
+        "Five band code brown black black red brown; exact lot paint colour and band geometry unmeasured",
+        "Formed geometry is project pose: radius1.2mm, pitch10.16mm, trimmed endsZ=-3; not supplier-preformed part",
+        "Colours and minor optical details estimated; no measured hardware or internal reconstruction"
+      ],
+      "parameters": {
+        "body_length_max_mm": 6.5,
+        "body_diameter_max_mm": 2.5,
+        "lead_diameter_mm": 0.6,
+        "formed": true,
+        "terminal_pitch_mm": 10.16,
+        "coordinate_system": "Body axisX; centreZ=2.45 for formed version, Z=0 for straight; formed leads downward"
+      },
+      "source_pages": [
+        "See component cotes.md and original PDFs in ../notices"
+      ],
+      "bounds_mm": {
+        "xmin": -5.38,
+        "xmax": 5.38,
+        "ymin": -1.25,
+        "ymax": 1.25,
+        "zmin": -3.0,
+        "zmax": 3.7
+      },
+      "validation": {
+        "valid_after_reimport": true,
+        "solids": 8,
+        "faces": 55,
+        "colors": 5,
+        "volume_relative_error": 2.0792583259176982e-14,
+        "volume_relative_error_limit": 0.0001,
+        "volume_before_mm3": 35.539809362761886,
+        "volume_after_mm3": 35.53980936276115,
+        "adaptive_volume_tolerance": 1e-09,
+        "bbox_error_mm": 1.0000000116860974e-07,
+        "bbox_error_limit_mm": 0.01,
+        "void_and_material_probes": [],
+        "elapsed_seconds": 0.5721161999999822,
+        "volume_after_default_quadrature_mm3": 35.539809362761396
+      },
+      "parts": [
+        {
+          "name": "Corps_laque_bleue_estimee",
+          "color_linear_rgb": [
+            0.025,
+            0.2,
+            0.38
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Anneau_1_code10k_1pct",
+          "color_linear_rgb": [
+            0.13,
+            0.045,
+            0.015
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Anneau_2_code10k_1pct",
+          "color_linear_rgb": [
+            0.008,
+            0.008,
+            0.008
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Anneau_3_code10k_1pct",
+          "color_linear_rgb": [
+            0.008,
+            0.008,
+            0.008
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Anneau_4_code10k_1pct",
+          "color_linear_rgb": [
+            0.65,
+            0.008,
+            0.006
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Anneau_5_code10k_1pct",
+          "color_linear_rgb": [
+            0.13,
+            0.045,
+            0.015
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Fil_forme_-1",
+          "color_linear_rgb": [
+            0.58,
+            0.61,
+            0.64
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Fil_forme_1",
+          "color_linear_rgb": [
+            0.58,
+            0.61,
+            0.64
+          ],
+          "solids": 1
+        }
+      ],
+      "preview": {
+        "file": "mrs25-10k-formee-pas10-16.png",
+        "sha256": "f0e10b2506694a7742e62480753dbe379e335af80bc21e652c26ddd396483849"
+      },
+      "component_folder": "resistances-rappel-10k",
+      "relative_step_path": "Composants/capteurs-vitesse/resistances-rappel-10k/3D/mrs25-10k-formee-pas10-16.step"
+    },
+    {
+      "file": "kemet-c315c104k5r5ta-officiel.step",
+      "title": "KEMET C315C104K5R5TA | CAO officielle",
+      "generated_on": "2026-10-15",
+      "unit": "mm",
+      "component_folder": "condensateurs-decouplage-100nf",
+      "relative_step_path": "Composants/capteurs-vitesse/condensateurs-decouplage-100nf/3D/kemet-c315c104k5r5ta-officiel.step",
+      "source": "https://search.kemet.com/component-documentation/download/step/C315C104K5R5TA.STEP",
+      "sha256": "a04191a57c7125d1f98f6e9bfec61852b51d1cd429f0c37ff5337bdf3e913fa9",
+      "bytes": 272604,
+      "native_vendor_cad": true,
+      "original_unchanged": true,
+      "hardware_measured": false,
+      "published_nominal": [
+        "See specific KEMET PDF; official STEP is nominal, not lot tolerance"
+      ],
+      "estimates_and_limitations": [
+        "No geometry or original colours modified; installed lead forming not designed"
+      ],
+      "bounds_mm": {
+        "xmin": -3.8100001,
+        "xmax": 1.0000000077715611e-07,
+        "ymin": -7.0,
+        "ymax": 4.66,
+        "zmin": -1e-07,
+        "zmax": 2.545
+      },
+      "validation": {
+        "valid_after_reimport": true,
+        "solids": 4,
+        "faces": 83,
+        "colors": 4,
+        "volume_after_default_quadrature_mm3": 44.93186366597579
+      },
+      "preview": {
+        "file": "kemet-c315c104k5r5ta-officiel.png",
+        "sha256": "49a975ba6fd378ce2a4b3d4337f9bec92252d32ea9160139b46d7a030817ea6c"
+      }
+    }
+  ]
+}

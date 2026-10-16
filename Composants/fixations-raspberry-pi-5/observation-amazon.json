@@ -1,0 +1,73 @@
+{
+  "observed_on": "2026-10-14",
+  "source_url": "https://www.amazon.fr/dp/B0DCS5C7SN",
+  "method": "Chrome, page publique affichée, variante Noir M2.5 sélectionnée",
+  "brand": "Ewwtrey",
+  "manufacturer": "DJJRX",
+  "manufacturer_part": "260018",
+  "asin": "B0DCS5C7SN",
+  "variant": "Noir M2.5",
+  "material_advertised": "Nylon ; grade et renforcement non publiés",
+  "quantity_advertised": 335,
+  "price_eur_vat_included": 9.98,
+  "stock_display": "En stock",
+  "seller": "QianHaiDian",
+  "fulfilled_by": "Amazon",
+  "shipping_display": "Livraison gratuite dans la session Prime consultée ; autres sessions à revalider",
+  "delivery_display": "15 octobre 2026, prévision affichée le 14 octobre ; non garantie",
+  "item_dimensions_cm": [
+    17,
+    9.7,
+    1.8
+  ],
+  "item_weight_g": 90,
+  "dimensions_scope": "Dimensions du lot/boîte et masse de l’article ; pas des pièces individuelles, aucun poids embarqué déduit",
+  "rating": 4.6,
+  "global_ratings": 871,
+  "rating_scope": "Famille multivariantes M2.5 / M3 / M4 et couleurs ; pas uniquement ce kit noir",
+  "purchase_made": false,
+  "cart_modified": false,
+  "uncertainties": [
+    "Aucune notice PDF ni CAO native propre au kit trouvée",
+    "Pas, tolérances, profondeur de taraudage, couple et températures admissibles non publiés",
+    "Les images haute définition confirment des corps MF et FF hexagonaux ; surplats réel à mesurer"
+  ],
+  "reviews": [
+    {
+      "author": "Gallimard",
+      "date": "2026-09-27",
+      "variant": "Noir M2.5",
+      "stars": 5,
+      "verified_purchase_display": true,
+      "summary": "Retour bref : utile pour son projet, sans mesures ni type de Pi indiqué.",
+      "url": "https://www.amazon.fr/portal/customer-reviews/srp/-/RVVUFD9D8AD8U/"
+    },
+    {
+      "author": "RL",
+      "date": "2026-05-24",
+      "variant": "Noir M2.5",
+      "stars": 5,
+      "verified_purchase_display": true,
+      "summary": "Rapporte une utilisation pour empiler des circuits au laboratoire et un vissage précis ; aucun contrôle dimensionnel publié.",
+      "url": "https://www.amazon.fr/portal/customer-reviews/srp/-/R2ETNH017T6C07/"
+    },
+    {
+      "author": "Ronny Grawitz",
+      "date": "2026-09-26",
+      "variant": "Noir M2.5",
+      "stars": 5,
+      "verified_purchase_display": true,
+      "summary": "Apprécie les différentes hauteurs et la fixation surélevée de cartes. Aucune qualification sous vibrations ni dans ce robot.",
+      "url": "https://www.amazon.fr/dp/B0DCS5C7SN"
+    },
+    {
+      "author": "decaidronaftalene",
+      "date": "2024-12-22",
+      "variant": "Blanc M2.5 : autre couleur",
+      "stars": 5,
+      "verified_purchase_display": true,
+      "summary": "Décrit un montage DAC avec Raspberry Pi et Volumio ; apprécie assortiment et vissage. Variante blanche, modèle du Pi inconnu.",
+      "url": "https://www.amazon.fr/portal/customer-reviews/B0DCS45XHS/"
+    }
+  ]
+}

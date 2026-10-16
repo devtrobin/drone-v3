@@ -1,0 +1,63 @@
+{
+  "method": "FreeCAD Part.read, headless",
+  "version": [
+    "1",
+    "1",
+    "4",
+    "20260928 (Git shallow)",
+    "Unknown",
+    "2026/09/28 13:46:34",
+    "(HEAD detached at 4fd3bf320)",
+    "4fd3bf320d9566a27e60069fc8387448aaa3a094"
+  ],
+  "checked_on": "2026-10-14",
+  "GUI_tested": false,
+  "VSCode_CAD_View_tested": false,
+  "all_passed": true,
+  "checks": [
+    {
+      "file": "littelfuse-04980900zxt-detaille.step",
+      "folder": "protection-surintensite/porte-fusible",
+      "passed": true,
+      "valid": true,
+      "solids": 13,
+      "faces": 405,
+      "bbox_error_mm": 0.0,
+      "seconds": 0.7656242000011844,
+      "sha256": "e742521d31f001dfa5bd7aaa37da4d8fcaa9219704622afcec0c4774ab646a11"
+    },
+    {
+      "file": "littelfuse-0498060m-midi-60a-detaille.step",
+      "folder": "protection-surintensite/fusible-60a",
+      "passed": true,
+      "valid": true,
+      "solids": 5,
+      "faces": 267,
+      "bbox_error_mm": 0.0,
+      "seconds": 0.4606394000002183,
+      "sha256": "d7303ff1e0a084b20b3994fc895cebce3660ea86eb09ac93c70a41c5a81c1c54"
+    },
+    {
+      "file": "ensemble-midi-60a-ferme-etude.step",
+      "folder": "protection-surintensite/porte-fusible",
+      "passed": true,
+      "valid": true,
+      "solids": 18,
+      "faces": 672,
+      "bbox_error_mm": 0.0,
+      "seconds": 1.232268200001272,
+      "sha256": "8c7f9153cc66421818f3e0c9740c77faa9129453ea748c2bf7982dd4881bca6f"
+    },
+    {
+      "file": "ensemble-midi-60a-vue-eclatee.step",
+      "folder": "protection-surintensite/porte-fusible",
+      "passed": true,
+      "valid": true,
+      "solids": 15,
+      "faces": 657,
+      "bbox_error_mm": 0.0,
+      "seconds": 1.2414490000010119,
+      "sha256": "2130755befbb2899cf0039ba1d03105b5ee83624742c3053fcb8fe85ccb974f6"
+    }
+  ]
+}

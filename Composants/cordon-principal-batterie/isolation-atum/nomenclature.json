@@ -1,0 +1,38 @@
+{
+  "folder": "isolation-atum",
+  "ref": "TE/Raychem ATUM-8/2-0-STK",
+  "qty": 2,
+  "unit": "coupes provisionnelles de20mm",
+  "buy": "https://www.te.com/en/product-NB11802001.html",
+  "role": "Deux manchons noirs sur les canons nus des cosses ; jupe XT60H utilisée côté prise, fermeture et isolement à contrôler.",
+  "reuse": "Même barre1,2m déjà prévue ; besoin CP0 ≈40mm, dont20mm peuvent remplacer la coupe positive conditionnelle ancienne. Pas de seconde barre.",
+  "price": null,
+  "currency": "EUR",
+  "cotes": [
+    [
+      "Avant rétraction",
+      "Ø intérieur ≥8 mm",
+      "Fiche TE ATUM du dossier partagé"
+    ],
+    [
+      "Libre après rétraction",
+      "Ø intérieur ≤2 mm ; paroi1 ±0,3 mm",
+      "Valeurs libres, pas diamètre installé"
+    ],
+    [
+      "Adhésif",
+      "0,5 mm nominal libre",
+      "Fiche TE ; installation représentée estimée"
+    ],
+    [
+      "Chauffe",
+      "début80°C ; complète110°C",
+      "Température de rétraction, pas réglage pistolet"
+    ],
+    [
+      "Longueur",
+      "retrait jusqu’à15%",
+      "Prévoir le recouvrement selon lot"
+    ]
+  ]
+}

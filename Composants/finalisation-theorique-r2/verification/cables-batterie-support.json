@@ -1,0 +1,50 @@
+{
+  "checks": [
+    {
+      "cable": "P01",
+      "battery_overlap_mm3": 0.0
+    },
+    {
+      "cable": "P02",
+      "battery_overlap_mm3": 0.0
+    },
+    {
+      "cable": "M_G",
+      "battery_overlap_mm3": 0.0
+    },
+    {
+      "cable": "N_G",
+      "battery_overlap_mm3": 0.0
+    },
+    {
+      "cable": "M_D",
+      "battery_overlap_mm3": 0.0
+    },
+    {
+      "cable": "N_D",
+      "battery_overlap_mm3": 0.0
+    },
+    {
+      "cable": "S01",
+      "battery_overlap_mm3": 0.0
+    },
+    {
+      "cable": "L01",
+      "battery_overlap_mm3": 0.0
+    },
+    {
+      "cable": "H_G",
+      "battery_overlap_mm3": 0.0
+    },
+    {
+      "cable": "H_D",
+      "battery_overlap_mm3": 0.0
+    },
+    {
+      "cable": "USB",
+      "battery_overlap_mm3": 0.0
+    }
+  ],
+  "S01_clear_of_support_R213": true,
+  "other_endpoints_and_high_corridors_unqualified": true
+}

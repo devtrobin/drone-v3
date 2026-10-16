@@ -1,0 +1,42 @@
+﻿Repere;Valeur;Empreinte;Montage
+J1;AUX apres FAUX 1A;Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical;Prototype a qualifier
+J2;Equilibrage PROTEGE;Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical;Prototype a qualifier
+J3;EVM114 C1;Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical;Prototype a qualifier
+M3;TMR 1-0511;Monitor:TMR1;Prototype a qualifier
+F1;0454.500MR 500mA T;Monitor:Nano454;Prototype a qualifier
+R1;2k2 1%;Resistor_SMD:R_0805_2012Metric;Prototype a qualifier
+U1;VOS618A-8T HEALTHY;Package_SO:SSOP-4_4.4x2.6mm_P1.27mm;Prototype a qualifier
+R2;2k2 1%;Resistor_SMD:R_0805_2012Metric;Prototype a qualifier
+U2;VOS618A-8T WARN_OK;Package_SO:SSOP-4_4.4x2.6mm_P1.27mm;Prototype a qualifier
+R5;47k;Resistor_SMD:R_0805_2012Metric;Prototype a qualifier
+R7;47k DNP - cote Pi;Resistor_SMD:R_0805_2012Metric;DNP - rappel a monter cote Pi
+C1;100nF X7R 25V;Capacitor_SMD:C_0805_2012Metric;Prototype a qualifier
+C3;1uF X7R 25V;Capacitor_SMD:C_0805_2012Metric;Prototype a qualifier
+C5;1uF X7R 25V;Capacitor_SMD:C_0805_2012Metric;Prototype a qualifier
+J4;EVM114 C2;Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical;Prototype a qualifier
+M4;TMR 1-0511;Monitor:TMR1;Prototype a qualifier
+F2;0454.500MR 500mA T;Monitor:Nano454;Prototype a qualifier
+R3;2k2 1%;Resistor_SMD:R_0805_2012Metric;Prototype a qualifier
+U3;VOS618A-8T HEALTHY;Package_SO:SSOP-4_4.4x2.6mm_P1.27mm;Prototype a qualifier
+R4;2k2 1%;Resistor_SMD:R_0805_2012Metric;Prototype a qualifier
+U4;VOS618A-8T WARN_OK;Package_SO:SSOP-4_4.4x2.6mm_P1.27mm;Prototype a qualifier
+R6;47k;Resistor_SMD:R_0805_2012Metric;Prototype a qualifier
+R8;47k DNP - cote Pi;Resistor_SMD:R_0805_2012Metric;DNP - rappel a monter cote Pi
+C2;100nF X7R 25V;Capacitor_SMD:C_0805_2012Metric;Prototype a qualifier
+C4;1uF X7R 25V;Capacitor_SMD:C_0805_2012Metric;Prototype a qualifier
+C6;1uF X7R 25V;Capacitor_SMD:C_0805_2012Metric;Prototype a qualifier
+J5;FAISCEAU Pololu2831;Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical;Prototype a qualifier
+J6;Signaux Raspberry Pi;Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical;Prototype a qualifier
+J7;Vers OFF2813;Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical;Prototype a qualifier
+U5;SN74LVC2G17DCKR;Package_TO_SOT_SMD:SOT-363_SC-70-6;Prototype a qualifier
+U6;MCP1703AT-3302E/MB;Package_TO_SOT_SMD:SOT-89-3;Prototype a qualifier
+D1;BAT54-7-F;Package_TO_SOT_SMD:SOT-23;Prototype a qualifier
+D2;BAT54-7-F;Package_TO_SOT_SMD:SOT-23;Prototype a qualifier
+D3;BAT54-7-F;Package_TO_SOT_SMD:SOT-23;Prototype a qualifier
+R9;100k DONE;Resistor_SMD:R_0805_2012Metric;Prototype a qualifier
+R10;100k OFF;Resistor_SMD:R_0805_2012Metric;Prototype a qualifier
+C7;2u2 X7R 25V;Capacitor_SMD:C_0805_2012Metric;Prototype a qualifier
+C8;2u2 X7R 25V;Capacitor_SMD:C_0805_2012Metric;Prototype a qualifier
+C9;100nF X7R 25V;Capacitor_SMD:C_0805_2012Metric;Prototype a qualifier
+C10;10uF X5R 25V;Capacitor_SMD:C_0805_2012Metric;Prototype a qualifier
+C11;10uF X5R 25V;Capacitor_SMD:C_0805_2012Metric;Prototype a qualifier

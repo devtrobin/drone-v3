@@ -1,0 +1,6 @@
+{
+  "date": "2026-10-15",
+  "current_source": "../verification-alimentation/selection-active.json",
+  "note": "Molex conservé pour neuf signaux. Six positions de puissance non câblées dans cette prise. Alimentation Pi séparée : deux positifs et quatre retours courts en 18 AWG soudés aux pads du connecteur Pi ; les anciens quinze fils et leur STEP sont historiques.",
+  "old_project_PDFs_and_complete_CAD_historical": true
+}

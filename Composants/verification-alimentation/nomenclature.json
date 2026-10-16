@@ -1,0 +1,109 @@
+{
+  "date": "2026-10-15",
+  "items": [
+    {
+      "folder": "fusible-principal-classe-t",
+      "ref": "JLLN050.T",
+      "qty": 1,
+      "name": "Littelfuse JLLN 50 A, classe T rapide",
+      "rating": "160 V DC ; pouvoir de coupure 20 kA DC pour les calibres 35–60 A",
+      "source": "https://www.littelfuse.com/assetdocs/jlln-datasheet?assetguid=3a7bc9bf-d932-4401-bdc7-b39f302195cf",
+      "buy": "https://www.mouser.fr/c/?q=JLLN050.T",
+      "status": "Sélection d’étude ; offre française exacte à confirmer"
+    },
+    {
+      "folder": "support-fusible-classe-t",
+      "ref": "LFT300601C + LFT30060FBC",
+      "qty": 1,
+      "name": "Support Littelfuse classe T 60 A et capot",
+      "rating": "Support 60 A pour cartouche JLLN 35–60 A ; tenue DC 20 kA dans le certificat CSA ; capot séparé",
+      "source": "https://www.littelfuse.com/assetdocs/lft-datasheet?assetguid=56b8955c-9cf7-4814-a923-97a4406bfa77",
+      "buy": "https://www.mouser.com/en/ProductDetail/Littelfuse/LFT300601C?qs=Vv6sT79n3zTFrkdp10UQdA%3D%3D",
+      "status": "Stock américain affiché ; prix/livraison France non confirmés"
+    },
+    {
+      "folder": "fusibles-branches-rapides",
+      "ref": "KLKD020.T × 2 ; KLKD010.T × 1",
+      "qty": 3,
+      "name": "Littelfuse KLKD rapides pour les branches",
+      "rating": "Deux 20 A pour ESC ; un 10 A pour entrée Pi ; 600 V DC / 50 kA DC selon UL 248-14, distinct des 10 kA photovoltaïques UL 248-19",
+      "source": "https://www.littelfuse.com/assetdocs/klkd-fuse-datasheet?assetguid=7b52eebb-c7cc-43df-a8da-9682a338e0f6",
+      "buy": "https://www.mouser.fr/c/?q=KLKD020.T",
+      "status": "Références identifiées ; devis français non confirmé"
+    },
+    {
+      "folder": "supports-branches-rapides",
+      "ref": "L60030M1PQ + capot SPL001",
+      "qty": 3,
+      "name": "Supports Littelfuse Midget 10 × 38 mm",
+      "rating": "30 A, 600 V AC/DC ; pression sous vis, 10–14 AWG cuivre multibrin, 2,3 N·m. Utiliser la pression sous vis, pas les languettes rapides limitées à20 A. Bloc recommandé pour KLKD ; association DC à confirmer.",
+      "source": "https://www.littelfuse.com/de/assetdocs/powr-gard-catalog?assetguid=85d36235-a32b-4608-bfed-f9878aa43af0",
+      "buy": "https://www.mouser.fr/c/?q=L60030M1PQ",
+      "status": "Référence précise ; prix France et tenue DC de l’association à confirmer"
+    },
+    {
+      "folder": "cable-principal-silicone-6mm2",
+      "ref": "LAPP 0054104 rouge ; 0054001 noir",
+      "qty": null,
+      "name": "ÖLFLEX HEAT 180 SiF, 1 × 6 mm²",
+      "rating": "Cuivre étamé classe 5 ; silicone −50 à +180 °C en pose fixe ; Ø5 mm ; résistance maximale 3,39 Ω/km à 20 °C ; rayon fixe 6 × diamètre",
+      "source": "https://e.lapp.com/jp/p/temperature-resistant-cables/oelflex-heat-180-sif-1x6-ye-0054005",
+      "buy": "https://mauser.pt/016-0348/lapp-olflex-heat-180-sif-0054104-fio-de-silicone-para-altas-temperaturas-6mm2-vermelho",
+      "status": "Provision 2 m par couleur ; prix et stock exacts non confirmés"
+    },
+    {
+      "folder": "raccord-extension-cordon-ic5",
+      "ref": "TE SOLISTRAND 32151",
+      "qty": 1,
+      "name": "Raccord bout à bout du positif IC5",
+      "rating": "Cuivre non isolé ; 12–10 AWG / 2,62–6,64 mm² de chaque côté ; longueur14,35 mm, canon intérieur3,28 mm. Sertissage SOLISTRAND et ATUM8/2 sur environ35–40 mm.",
+      "source": "https://www.te.com/en/product-32151.html",
+      "buy": "https://www.mouser.fr/c/?q=TE%2032151",
+      "status": "Prix France non confirmé ; compatible nominalement avec10 AWG et6 mm²"
+    },
+    {
+      "folder": "raccords-entree-pi-wago",
+      "ref": "WAGO 221-413",
+      "qty": 2,
+      "name": "Répartition de la branche Pi côté batterie",
+      "rating": "Deux bornes séparées, positif et GND ; acceptent12 AWG et18 AWG selon le dossier WAGO existant. Elles évitent de serrer18 AWG hors de la plage10–14 du support Midget.",
+      "source": "https://www.wago.com/221-413",
+      "buy": "https://www.gotronic.fr/cat-bornes-de-connexion-wago-0-5-a-2-5-mm2.htm",
+      "status": "Prix antérieur0,75 EUR TTC/pièce àrevalider ; deux ajouts, hors répartition5 V déjà prévue"
+    },
+    {
+      "folder": "regulateur-alimentation/d42v55f5",
+      "ref": "Pololu 5571 / D42V55F5",
+      "qty": 1,
+      "name": "Pololu D42V55F5, 5 V / 6 A nominal",
+      "rating": "5 V ±3 % ; dropout typique ≈0,25 V à 5 A ; courant continu dépendant de la thermique. Version 5 V, pas 5,3 V.",
+      "source": "https://www.pololu.com/product/5571",
+      "buy": "https://www.pololu.com/product/5571",
+      "status": "47,95 USD fabricant affichés ; stock consulté, livraison/TVA France non confirmées"
+    }
+  ],
+  "removed_from_active": [
+    "Littelfuse MIDI 0498060.M 60 A",
+    "04980900ZXT M5 holder",
+    "ATO 30 A × 2",
+    "ATO 7.5 A × 1",
+    "Blue Sea 5065 × 3",
+    "AUPROTEC FLRY-B 6 mm² power runs",
+    "D24V90F5 / 2866",
+    "Molex power contacts on pins 2/4/6/9/14/20"
+  ],
+  "reused": [
+    "Pack G1 IC5",
+    "SPMXCA510",
+    "Blue Sea 2315 × 2",
+    "Albright ED80",
+    "D1D100 + HS251 + HSP-1",
+    "UD80A",
+    "BNTECHGO 12 AWG ESC branches",
+    "Existing lugs within their section and stud ranges",
+    "BNTECHGO 18 AWG for Pi",
+    "WAGO 221",
+    "Molex 40-way housing and 9 signal contacts"
+  ],
+  "purchased": false
+}

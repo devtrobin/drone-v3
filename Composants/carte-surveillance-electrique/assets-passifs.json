@@ -1,0 +1,17 @@
+[
+  {
+    "url": "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR71E225KA73-01.pdf",
+    "file": "notices/Murata-GRM21BR71E225KA73-original.pdf",
+    "bytes": 824604,
+    "sha256": "c99b4739752d76e033fa7be73ef63b3d590840a7597842dc1180451a8dd7bfda",
+    "modified": false
+  },
+  {
+    "url": "https://www.littelfuse.com/assetdocs/fuse-452-and-454-datasheet?assetguid=8c87aa93-80a7-4ea8-8749-a19ba03901c2",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://www.jst-mfg.com/product/pdf/eng/eXH.pdf",
+    "error": "HTTP Error 403: Forbidden"
+  }
+]

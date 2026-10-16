@@ -1,0 +1,68 @@
+{
+  "file": "arbre-a5-v3-intermediaire-etude.step",
+  "title": "A5-V3 | arbre intermediaire, etude 50 mm",
+  "generated_on": "2026-10-13",
+  "unit": "mm",
+  "cadquery_version": "2.8.0",
+  "coordinate_system": "Axe principal Z; face de reference z=0; dimensions selon parametres",
+  "bytes": 591151,
+  "sha256": "f90fc4f1bef2b356ca9bf79da00ca59dc86e567a8ea46e297c49846d8b837ff0",
+  "native_vendor_cad": false,
+  "hardware_measured": false,
+  "is_custom_project_design": true,
+  "published_nominal": [
+    "Ø5 interfaces roulements et engrenages choisis"
+  ],
+  "estimates_and_limitations": [
+    "L50, M5x0.8 aux deux bouts, portees et meplats: choix de conception provisoires",
+    "Ne pas fabriquer: ajustements, retenues et empilage doivent etre verifies"
+  ],
+  "parameters": {
+    "length_study": 50,
+    "diameter": 5,
+    "flat_start_z": [
+      10,
+      27
+    ],
+    "flat_depth": 0.5
+  },
+  "source_pages": [],
+  "bounds_mm": {
+    "xmin": -2.5000123042700344,
+    "xmax": 2.5000123042718894,
+    "ymin": -2.500012304271755,
+    "ymax": 2.5000122930681346,
+    "zmin": -1.2291890649758333e-07,
+    "zmax": 50.00000049520637
+  },
+  "validation": {
+    "valid_after_reimport": true,
+    "solids": 1,
+    "faces": 33,
+    "colors": 1,
+    "volume_relative_error": 2.523694190358927e-08,
+    "volume_relative_error_limit": 0.0001,
+    "volume_before_mm3": 927.5263567483739,
+    "volume_after_mm3": 927.5263333404451,
+    "adaptive_volume_tolerance": 1e-09,
+    "bbox_error_mm": 2.8110846983508964e-13,
+    "bbox_error_limit_mm": 0.01,
+    "void_and_material_probes": [],
+    "elapsed_seconds": 0.747089299999061
+  },
+  "parts": [
+    {
+      "name": "Arbre_intermediaire_acier",
+      "color_linear_rgb": [
+        0.38,
+        0.41,
+        0.45
+      ],
+      "solids": 1
+    }
+  ],
+  "preview": {
+    "file": "arbre-a5-v3-intermediaire-etude.png",
+    "sha256": "9694bdbffba7892000d68dda1ee68cf01b25877893ac71f85a95c15166db30b5"
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "checked_on": "2026-10-13",
+  "selection": "Sensata/Crydom HS251 + 1 HSP-1",
+  "purchased": false,
+  "physical_tested": false,
+  "amazon": {
+    "asin": null,
+    "exact_offer_confirmed": false,
+    "price_eur_ttc": null,
+    "search_url": "https://www.amazon.fr/s?k=Crydom+HS251",
+    "status": "Amazon.fr inaccessible; aucune offre exacte verifiee"
+  },
+  "requirements": {
+    "thermal_study_current_total_A": 40,
+    "thermal_study_ambient_max_C": 40,
+    "qualified": false
+  },
+  "dimensions": {
+    "vendor_cad_full_envelope_mm": [
+      85.344,
+      52.324,
+      40.64
+    ],
+    "catalogue_body_mm": [
+      58.7,
+      50.3,
+      38.4
+    ],
+    "vendor_plan_tolerance_mm": 0.5,
+    "ssr_hole_centres_cad_mm": 47.625,
+    "ssr_threads": "#8-32 UNC"
+  },
+  "thermal": {
+    "heatsink_C_per_W": 2.5,
+    "weight_g": 100,
+    "material": "aluminium naturel",
+    "fan_included": false
+  },
+  "pad_variants": [
+    {
+      "variant": "gris-2018",
+      "thickness_mm": 0.076,
+      "outline_mm": [
+        57.1,
+        44.2
+      ],
+      "source": "Fiche Sensata HSP 2018"
+    },
+    {
+      "variant": "rose-PCN-2023",
+      "thickness_mm": 0.127,
+      "outline_mm": [
+        57.1,
+        44.2
+      ],
+      "outline_confirmed": false,
+      "source": "PCN-SSR-231214 et annexe preliminaire TTI; contour 2018 suppose"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Sensata HS251",
+      "url": "https://www.sensata.com/products/relays/hs-series-heat-sinks-hs251",
+      "kind": "manufacturer"
+    },
+    {
+      "title": "STEP Sensata officiel",
+      "url": "https://www.sensata.com.cn/sites/default/files/a/sensata-hs251-heatsink-accessories-drawing.step",
+      "kind": "manufacturer"
+    },
+    {
+      "title": "PCN avec annexe preliminaire",
+      "url": "https://www.ttiasia.com/content/dam/ttiinc/products/PCN/sensata/Sensata-PCN-SSR-231214.pdf",
+      "kind": "manufacturer_document_mirror",
+      "locally_downloaded": false
+    },
+    {
+      "title": "Avis eBay HS251 du 2025-05-09",
+      "url": "https://www.ebay.com/p/1210661465",
+      "kind": "user_review",
+      "tested_relay": "D06D100, autre reference",
+      "quote": "Fits the D06D100 SSR",
+      "thermal_measurements": false
+    }
+  ],
+  "original_assets_manifest": "assets.json",
+  "cad_manifest": "3D/provenance.json",
+  "model_3d_created": true
+}

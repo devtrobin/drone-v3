@@ -1,0 +1,1151 @@
+{
+  "checked_on": "2026-10-14",
+  "all_passed": true,
+  "checks": [
+    {
+      "check": "inventory_335",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "allocation_20",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "reserves_315",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "full_kit_cost",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "chassis_deferred",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "STEP_count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "FreeCAD_all",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "CAD_hash_entretoise-mf-m2-5-6-plus-6.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "preview_hash_entretoise-mf-m2-5-6-plus-6.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "dated_metadata_entretoise-mf-m2-5-6-plus-6.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "closed_solids_entretoise-mf-m2-5-6-plus-6.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "CAD_hash_entretoise-mf-m2-5-8-plus-6.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "preview_hash_entretoise-mf-m2-5-8-plus-6.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "dated_metadata_entretoise-mf-m2-5-8-plus-6.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "closed_solids_entretoise-mf-m2-5-8-plus-6.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "CAD_hash_entretoise-mf-m2-5-10-plus-6.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "preview_hash_entretoise-mf-m2-5-10-plus-6.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "dated_metadata_entretoise-mf-m2-5-10-plus-6.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "closed_solids_entretoise-mf-m2-5-10-plus-6.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "CAD_hash_entretoise-mf-m2-5-15-plus-6.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "preview_hash_entretoise-mf-m2-5-15-plus-6.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "dated_metadata_entretoise-mf-m2-5-15-plus-6.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "closed_solids_entretoise-mf-m2-5-15-plus-6.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "CAD_hash_entretoise-mf-m2-5-20-plus-6.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "preview_hash_entretoise-mf-m2-5-20-plus-6.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "dated_metadata_entretoise-mf-m2-5-20-plus-6.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "closed_solids_entretoise-mf-m2-5-20-plus-6.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "CAD_hash_entretoise-ff-m2-5-6.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "preview_hash_entretoise-ff-m2-5-6.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "dated_metadata_entretoise-ff-m2-5-6.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "closed_solids_entretoise-ff-m2-5-6.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "CAD_hash_entretoise-ff-m2-5-10.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "preview_hash_entretoise-ff-m2-5-10.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "dated_metadata_entretoise-ff-m2-5-10.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "closed_solids_entretoise-ff-m2-5-10.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "CAD_hash_entretoise-ff-m2-5-15.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "preview_hash_entretoise-ff-m2-5-15.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "dated_metadata_entretoise-ff-m2-5-15.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "closed_solids_entretoise-ff-m2-5-15.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "CAD_hash_entretoise-ff-m2-5-20.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "preview_hash_entretoise-ff-m2-5-20.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "dated_metadata_entretoise-ff-m2-5-20.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "closed_solids_entretoise-ff-m2-5-20.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "CAD_hash_vis-cruciforme-m2-5-8.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "preview_hash_vis-cruciforme-m2-5-8.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "dated_metadata_vis-cruciforme-m2-5-8.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "closed_solids_vis-cruciforme-m2-5-8.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "CAD_hash_vis-cruciforme-m2-5-12.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "preview_hash_vis-cruciforme-m2-5-12.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "dated_metadata_vis-cruciforme-m2-5-12.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "closed_solids_vis-cruciforme-m2-5-12.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "CAD_hash_vis-cruciforme-m2-5-20.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "preview_hash_vis-cruciforme-m2-5-20.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "dated_metadata_vis-cruciforme-m2-5-20.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "closed_solids_vis-cruciforme-m2-5-20.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "CAD_hash_ecrou-m2-5.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "preview_hash_ecrou-m2-5.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "dated_metadata_ecrou-m2-5.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "closed_solids_ecrou-m2-5.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "CAD_hash_rondelle-m2-5.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "preview_hash_rondelle-m2-5.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "dated_metadata_rondelle-m2-5.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "closed_solids_rondelle-m2-5.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "CAD_hash_quatre-fixations-pi-5-10mm-etude.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "preview_hash_quatre-fixations-pi-5-10mm-etude.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "dated_metadata_quatre-fixations-pi-5-10mm-etude.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "closed_solids_quatre-fixations-pi-5-10mm-etude.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "source_photos/Ewwtrey-kit-original.jpg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "source_photos/Ewwtrey-longueurs-original.jpg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "source_photos/Ewwtrey-pieces-original.jpg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "source_photos/Ewwtrey-details-original.jpg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "source_notices/RaspberryPi-5-plan-mecanique-original.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "source_notices/Essentra-filetages-plastiques-reference-original.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_Composants\\fixations-raspberry-pi-5\\cotes.md_calculs.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_Composants\\fixations-raspberry-pi-5\\README.md_notices/notice-fixations-pi-5-v3.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_Composants\\fixations-raspberry-pi-5\\README.md_cotes.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_Composants\\fixations-raspberry-pi-5\\README.md_devis.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_Composants\\fixations-raspberry-pi-5\\README.md_integration.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_Composants\\fixations-raspberry-pi-5\\README.md_recherche-technique.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_Composants\\fixations-raspberry-pi-5\\README.md_3D/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_Composants\\fixations-raspberry-pi-5\\README.md_photos/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_Composants\\fixations-raspberry-pi-5\\README.md_notices/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_Composants\\fixations-raspberry-pi-5\\README.md_nomenclature.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_Composants\\fixations-raspberry-pi-5\\README.md_calculs.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_Composants\\fixations-raspberry-pi-5\\README.md_sources.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_Composants\\fixations-raspberry-pi-5\\README.md_observation-amazon.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_Composants\\fixations-raspberry-pi-5\\README.md_assets.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_Composants\\fixations-raspberry-pi-5\\3D\\README.md_../cotes.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_Composants\\fixations-raspberry-pi-5\\3D\\README.md_catalogue.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_Composants\\fixations-raspberry-pi-5\\3D\\README.md_entretoise-mf-m2-5-6-plus-6.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_Composants\\fixations-raspberry-pi-5\\3D\\README.md_entretoise-mf-m2-5-6-plus-6.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_Composants\\fixations-raspberry-pi-5\\3D\\README.md_entretoise-mf-m2-5-8-plus-6.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_Composants\\fixations-raspberry-pi-5\\3D\\README.md_entretoise-mf-m2-5-8-plus-6.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_Composants\\fixations-raspberry-pi-5\\3D\\README.md_entretoise-mf-m2-5-10-plus-6.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_Composants\\fixations-raspberry-pi-5\\3D\\README.md_entretoise-mf-m2-5-10-plus-6.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_Composants\\fixations-raspberry-pi-5\\3D\\README.md_entretoise-mf-m2-5-15-plus-6.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_Composants\\fixations-raspberry-pi-5\\3D\\README.md_entretoise-mf-m2-5-15-plus-6.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_Composants\\fixations-raspberry-pi-5\\3D\\README.md_entretoise-mf-m2-5-20-plus-6.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_Composants\\fixations-raspberry-pi-5\\3D\\README.md_entretoise-mf-m2-5-20-plus-6.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_Composants\\fixations-raspberry-pi-5\\3D\\README.md_entretoise-ff-m2-5-6.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_Composants\\fixations-raspberry-pi-5\\3D\\README.md_entretoise-ff-m2-5-6.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_Composants\\fixations-raspberry-pi-5\\3D\\README.md_entretoise-ff-m2-5-10.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_Composants\\fixations-raspberry-pi-5\\3D\\README.md_entretoise-ff-m2-5-10.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_Composants\\fixations-raspberry-pi-5\\3D\\README.md_entretoise-ff-m2-5-15.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_Composants\\fixations-raspberry-pi-5\\3D\\README.md_entretoise-ff-m2-5-15.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_Composants\\fixations-raspberry-pi-5\\3D\\README.md_entretoise-ff-m2-5-20.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_Composants\\fixations-raspberry-pi-5\\3D\\README.md_entretoise-ff-m2-5-20.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_Composants\\fixations-raspberry-pi-5\\3D\\README.md_vis-cruciforme-m2-5-8.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_Composants\\fixations-raspberry-pi-5\\3D\\README.md_vis-cruciforme-m2-5-8.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_Composants\\fixations-raspberry-pi-5\\3D\\README.md_vis-cruciforme-m2-5-12.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_Composants\\fixations-raspberry-pi-5\\3D\\README.md_vis-cruciforme-m2-5-12.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_Composants\\fixations-raspberry-pi-5\\3D\\README.md_vis-cruciforme-m2-5-20.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_Composants\\fixations-raspberry-pi-5\\3D\\README.md_vis-cruciforme-m2-5-20.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_Composants\\fixations-raspberry-pi-5\\3D\\README.md_ecrou-m2-5.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_Composants\\fixations-raspberry-pi-5\\3D\\README.md_ecrou-m2-5.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_Composants\\fixations-raspberry-pi-5\\3D\\README.md_rondelle-m2-5.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_Composants\\fixations-raspberry-pi-5\\3D\\README.md_rondelle-m2-5.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_Composants\\fixations-raspberry-pi-5\\3D\\README.md_quatre-fixations-pi-5-10mm-etude.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_Composants\\fixations-raspberry-pi-5\\3D\\README.md_quatre-fixations-pi-5-10mm-etude.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_Composants\\fixations-raspberry-pi-5\\3D\\README.md_validation-freecad.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_Composants\\fixations-raspberry-pi-5\\notices\\README.md_notice-fixations-pi-5-v3.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_Composants\\fixations-raspberry-pi-5\\notices\\README.md_RaspberryPi-5-plan-mecanique-original.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_Composants\\fixations-raspberry-pi-5\\notices\\README.md_Essentra-filetages-plastiques-reference-original.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_Composants\\README.md_camera/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_Composants\\README.md_moteur/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_Composants\\README.md_raspberry-pi-5/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_Composants\\README.md_roues/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_Composants\\README.md_servo-direction/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_Composants\\README.md_fusees-avant/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_Composants\\README.md_axes-avant/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_Composants\\README.md_moyeux/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_Composants\\README.md_roulements/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_Composants\\README.md_biellettes-direction/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_Composants\\README.md_transmission-arriere/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_Composants\\README.md_arbres-transmission/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_Composants\\README.md_paliers-transmission/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_Composants\\README.md_fixations-train-roulant/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_Composants\\README.md_batterie/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_Composants\\README.md_regulateur-alimentation/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_Composants\\README.md_chargeur-batterie/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_Composants\\README.md_protection-batterie/surveillance-2s/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_Composants\\README.md_protection-batterie/interrupteur-pi/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_Composants\\README.md_protection-batterie/coupure-moteurs/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_Composants\\README.md_dissipateur-relais/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_Composants\\README.md_protection-surintensite/porte-fusible/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_Composants\\README.md_protection-surintensite/fusible-60a/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_Composants\\README.md_distribution-alimentation/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_Composants\\README.md_protection-branche-pi/porte-fusible/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_Composants\\README.md_protection-branche-pi/fusible-7-5a/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_Composants\\README.md_protection-branches-moteurs/porte-fusible/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_Composants\\README.md_protection-branches-moteurs/fusible-30a/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_Composants\\README.md_repartition-moteurs/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_Composants\\README.md_connecteurs-alimentation/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_Composants\\README.md_cable-puissance-12awg/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_Composants\\README.md_refroidissement-raspberry-pi-5/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_Composants\\README.md_carte-microsd/achat-microsd-raspberry-pi-64go.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_Composants\\README.md_connecteur-gpio/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_Composants\\README.md_fixations-raspberry-pi-5/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_Composants\\README.md_direction-et-transmission/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_Composants\\README.md_direction-et-transmission/3D/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_Composants\\README.md_alimentation/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_Composants\\README.md_alimentation/3D/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_Composants\\README.md_protection-batterie/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_Composants\\README.md_protection-batterie/3D/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_Composants\\README.md_dissipateur-relais/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_Composants\\README.md_dissipateur-relais/3D/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_Composants\\README.md_protection-surintensite/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_Composants\\README.md_distribution-alimentation/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_Composants\\README.md_distribution-alimentation/3D/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_Composants\\README.md_protection-branche-pi/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_Composants\\README.md_protection-branche-pi/cotes.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_Composants\\README.md_protection-branche-pi/notices/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_Composants\\README.md_protection-branche-pi/3D/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_Composants\\README.md_protection-branches-moteurs/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_Composants\\README.md_protection-branches-moteurs/3D/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_Composants\\README.md_repartition-moteurs/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_Composants\\README.md_repartition-moteurs/3D/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_Composants\\README.md_connecteurs-alimentation/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_Composants\\README.md_connecteurs-alimentation/3D/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_Composants\\README.md_cable-puissance-12awg/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_Composants\\README.md_cable-puissance-12awg/3D/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_Composants\\README.md_faisceau-puissance/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_Composants\\README.md_faisceau-puissance/3D/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_Composants\\README.md_fixations-raspberry-pi-5/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_Composants\\README.md_fixations-raspberry-pi-5/3D/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_ReadMe.md_SPECIFICATIONS.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_ReadMe.md_faisabilite.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_ReadMe.md_Composants/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_ReadMe.md_Composants/camera/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_ReadMe.md_Composants/raspberry-pi-5/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_ReadMe.md_Composants/roues/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_ReadMe.md_Composants/direction-et-transmission/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_ReadMe.md_Composants/direction-et-transmission/3D/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_ReadMe.md_Composants/alimentation/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_ReadMe.md_Composants/alimentation/3D/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_ReadMe.md_Composants/protection-batterie/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_ReadMe.md_Composants/dissipateur-relais/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_ReadMe.md_Composants/protection-surintensite/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_ReadMe.md_Composants/distribution-alimentation/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_ReadMe.md_Composants/distribution-alimentation/3D/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_ReadMe.md_Composants/protection-branche-pi/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_ReadMe.md_Composants/protection-branche-pi/3D/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_ReadMe.md_Composants/protection-branches-moteurs/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_ReadMe.md_Composants/protection-branches-moteurs/3D/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_ReadMe.md_Composants/repartition-moteurs/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_ReadMe.md_Composants/repartition-moteurs/3D/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_ReadMe.md_Composants/connecteurs-alimentation/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_ReadMe.md_Composants/connecteurs-alimentation/3D/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_ReadMe.md_Composants/cable-puissance-12awg/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_ReadMe.md_Composants/cable-puissance-12awg/3D/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_ReadMe.md_dimensionnement.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_ReadMe.md_pistes-techniques.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_ReadMe.md_Composants/faisceau-puissance/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_ReadMe.md_Composants/faisceau-puissance/3D/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_ReadMe.md_Composants/refroidissement-raspberry-pi-5/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_ReadMe.md_Composants/refroidissement-raspberry-pi-5/3D/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_ReadMe.md_Composants/carte-microsd/achat-microsd-raspberry-pi-64go.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_ReadMe.md_Composants/connecteur-gpio/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "link_ReadMe.md_Composants/fixations-raspberry-pi-5/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "PDF_6_pages",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "PDF_hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "PDF_visual_review",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "PDF_no_body_footer_collision",
+      "passed": true,
+      "detail": [
+        585.6010131835938,
+        569.1561279296875,
+        533.22314453125,
+        636.7781982421875,
+        615.1561279296875,
+        491.8176574707031
+      ]
+    },
+    {
+      "check": "PDF_Amazon_link",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "PDF_original_plan_link",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "no_candidate_STEP",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "component_not_gitignored",
+      "passed": true,
+      "detail": ""
+    }
+  ],
+  "hardware_tested": false,
+  "GUI_tested": false,
+  "chassis_authored": false
+}

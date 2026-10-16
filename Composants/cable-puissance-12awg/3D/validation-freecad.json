@@ -1,0 +1,91 @@
+{
+  "checked_on": "2026-10-14",
+  "all_passed": true,
+  "mode": "headless",
+  "FreeCAD_version": [
+    "1",
+    "1",
+    "4",
+    "20260928 (Git shallow)",
+    "Unknown",
+    "2026/09/28 13:46:34",
+    "(HEAD detached at 4fd3bf320)",
+    "4fd3bf320d9566a27e60069fc8387448aaa3a094"
+  ],
+  "GUI_tested": false,
+  "hardware_tested": false,
+  "checks": [
+    {
+      "file": "bntechgo-12awg-rouge-100mm-implantation.step",
+      "sha256": "f74daf8a497eb470af52d1210e1f5b968a7af7626cb928d523c47c615373a638",
+      "passed": true,
+      "valid": true,
+      "solids_closed": true,
+      "solids": 2,
+      "faces": 7,
+      "bbox_error_mm": 0.0,
+      "strands_count_verified": null,
+      "seconds": 0.019916299999749754
+    },
+    {
+      "file": "bntechgo-12awg-noir-100mm-implantation.step",
+      "sha256": "4e7f0388d7de22513694d145311988c02ce1ffcb2223f5331eb3fdb54f343169",
+      "passed": true,
+      "valid": true,
+      "solids_closed": true,
+      "solids": 2,
+      "faces": 7,
+      "bbox_error_mm": 0.0,
+      "strands_count_verified": null,
+      "seconds": 0.027641800000310468
+    },
+    {
+      "file": "bntechgo-12awg-paire-courbee-implantation.step",
+      "sha256": "49ed76116ce13c8462b59bd6ba538b3556ff302b5d911c664ca431df14415d32",
+      "passed": true,
+      "valid": true,
+      "solids_closed": true,
+      "solids": 4,
+      "faces": 26,
+      "bbox_error_mm": 0.0,
+      "strands_count_verified": null,
+      "seconds": 0.8815374999994674
+    },
+    {
+      "file": "bntechgo-12awg-rouge-680brins-detaille.step",
+      "sha256": "f0f66e45407a8a0535d8a729274a70f16900475378e2002d1551e9545308b637",
+      "passed": true,
+      "valid": true,
+      "solids_closed": true,
+      "solids": 681,
+      "faces": 2044,
+      "bbox_error_mm": 0.0,
+      "strands_count_verified": 680,
+      "seconds": 4.467045500000495
+    },
+    {
+      "file": "bntechgo-12awg-noir-680brins-detaille.step",
+      "sha256": "2aa6f82dc6ecf9dc68aa71fb0c838900d0299f031bd35649e16a88fa9bb1422f",
+      "passed": true,
+      "valid": true,
+      "solids_closed": true,
+      "solids": 681,
+      "faces": 2044,
+      "bbox_error_mm": 0.0,
+      "strands_count_verified": 680,
+      "seconds": 4.34000769999966
+    },
+    {
+      "file": "bntechgo-12awg-coupe-680brins-detaillee.step",
+      "sha256": "5d629d4853b53d6d501a07392f483cba78944220f35b863ad32f8628a2fba8ae",
+      "passed": true,
+      "valid": true,
+      "solids_closed": true,
+      "solids": 681,
+      "faces": 2046,
+      "bbox_error_mm": 0.0,
+      "strands_count_verified": 680,
+      "seconds": 6.527131800000461
+    }
+  ]
+}

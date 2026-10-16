@@ -1,0 +1,82 @@
+{
+  "file": "eriflex-ud80a-sans-capot.step",
+  "title": "UD80A : capot retire",
+  "unit": "mm",
+  "bytes": 1307063,
+  "sha256": "facc112126a2d4a0dbb1db058cac6f45e0504ee523d12cf4ff527142a3d5e4d8",
+  "hardware_measured": false,
+  "parameters": {
+    "nominal_H_W_D_mm": [
+      69,
+      30,
+      46
+    ],
+    "CAD_placed_X_Y_Z_mm": [
+      30.0482002,
+      69.0372,
+      46.23749018
+    ],
+    "mount_pitch_mm": 54,
+    "slot_width_published_mm": 4.5,
+    "transformation": "rotateaxis[1,1,1]+120deg; translate[-2.5033002983,3.2138897826,24.3023898632]mm"
+  },
+  "estimates_and_limitations": [
+    "Modele fabricant pour implantation; ne remplace pas plans de fabrication ni mesure du lot.",
+    "Enveloppe CAO69.0372x46.23749x30.0482 differe legerement du nominal69x46x30mm.",
+    "Trois solides seulement; vis et details internes non tous disponibles comme pieces separees.",
+    "Pas de fils, embouts ou vis de fixation au chassis fournis dans cette CAO.",
+    "Couleurs derivatives choisies pour lecture; teinte exacte et transparence non garanties.",
+    "Fils et embouts absents; affectationV3 ne represente pas un faisceau teste."
+  ],
+  "bounds_mm": {
+    "xmin": -15.0241001,
+    "ymin": -34.5186,
+    "zmin": -1.1513284324125763e-14,
+    "xmax": 15.024100100000101,
+    "ymax": 34.51860000000032,
+    "zmax": 46.2280001
+  },
+  "preview": {
+    "file": "eriflex-ud80a-sans-capot.png",
+    "sha256": "10519d70cd4e58dcafb24803c53a0530ff0695af04bb598ccb7a217b3f8f04dd"
+  },
+  "validation": {
+    "valid_after_reimport": true,
+    "solids": 2,
+    "faces": 262,
+    "volume_relative_error": 3.2670298584763514e-11,
+    "volume_before_mm3": 19968.27895382464,
+    "volume_after_mm3": 19968.27895317227,
+    "bbox_error_mm": 3.055333763768431e-13,
+    "bbox_method": "BRepBndLib.AddOptimal, no triangulation, no shape tolerance",
+    "bbox_error_limit_mm": 0.01,
+    "pairwise_material_overlaps": []
+  },
+  "parts": [
+    {
+      "name": "Socle_clip_et_formes_officielles",
+      "color_linear_rgb": [
+        0.83,
+        0.84,
+        0.8
+      ]
+    },
+    {
+      "name": "Bloc_conducteur_geometrie_officielle",
+      "color_linear_rgb": [
+        0.62,
+        0.65,
+        0.67
+      ]
+    }
+  ],
+  "generated_on": "2026-10-14",
+  "native_vendor_cad": true,
+  "geometry_source": "eriflex-ud80a-officiel.step",
+  "original_sha256": "68f63c19ac7e6b23aea0bbe7f336b9b2e52d5aaeecd588fe24f437906998a6b6",
+  "generator": "tools/build_motor_splitter_step.py",
+  "generator_sha256": "ff351767476020dc132d7dd9da947dfcdcbff6a6dbe16e7ed73701da5f3b9efe",
+  "shape_modifications": "rotation and translation only; appearance and part labels for derivatives",
+  "coordinate_system": "V3:X largeur,Y longueur de fixation,Z profondeur depuis plan arriere; transformation rotation(1,1,1)+120deg et translation indiquee.",
+  "appearance_note": "Capot reel bleu transparent; derive exporte bleu opaque pour lisibilite. Original conserve ses styles fabricant."
+}

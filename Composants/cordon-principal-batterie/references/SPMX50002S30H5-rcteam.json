@@ -1,0 +1,157 @@
+{
+  "id": 8771758129437,
+  "title": "Spektrum Accu lipo Smart 7.4v 5000mah 30C IC5",
+  "handle": "spektrum-accu-lipo-smart-74v-5000mah-30c-ic5",
+  "description": "<h2>Présentation de la batterie Lipo Spektrum Smart</h2>\n<p>Avec la <strong>technologie Smart</strong>, le chargeur reconnait automatiquement les caractéristiques de chaque batteries Smart et la paramètre automatiquement. Les batteries Smart intègrent un <strong>nouveau connecteur</strong> et une <strong>puce électronique</strong> qui permet au chargeur de les identifier ce qui limite au maximum les risques de mal configurer le chargeur ou d'effectuer une mauvaise manipulation.</p>\n<p>Cette batterie Lipo possède un nouveau <strong>connecteur IC5</strong> qui intègre la <strong>prise d'équilibrage</strong> (compatible EC3/EC5). Il est possible de paramétrer une décharge automatique de la batterie en mode storage (stockage) ce qui augmente fortement la durée de vie de vos accus.</p>\n<p>Bien que vous bénéficierez d'un maximum de fonctionnalité avec un <a href=\"https://www.rcteam.com/104-chargeurs-lipo-multifonctions/s-6/fabricant-spektrum\">chargeur Spektrum Smart</a>, les batteries Smart sont aussi compatibles avec des chargeurs Lipo standards.</p>\n<h2>Présentation de la technologie Smart</h2>\n<p><iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/Bx8PhO8pTgo?rel=0&amp;showinfo=0\" frameborder=\"0\"></iframe></p>\n<p>Les nouvelles batteries Lipo Spektrum Smart sont disponibles dans une grande variété de tailles et sont prêts à être installés dans votre voiture ou bateau radiocommandé. Grâce à elles, vous obtiendrez une performance, une puissance et une fiabilité maximales.</p>\n<p>Les <strong>batteries Spektrum Smart LiPo</strong> stockent des données uniques, telles que :</p>\n<ul>\n<li>Marque</li>\n<li>Type</li>\n<li>Capacité</li>\n<li>Taux de décharge</li>\n<li>Tension des cellules individuelles</li>\n<li>Température</li>\n<li>Cycles de charge et de décharge</li>\n</ul>\n<p>Les batteries Lipo Spektrum Smart tiennent également un journal d'erreurs comprenant le nombre d'incidents de surchauffe, de surdécharge et de surcharge. Elles envoient automatiquement ces données dans le <a href=\"https://www.rcteam.com/104-chargeurs-lipo-multifonctions/s-6/fabricant-spektrum\">chargeur Spektrum Smart</a>, ce qui simplifie et sécurise considérablement la charge.</p>\n<h2>Caractéristiques de la batterie Lipo Spektrum Smart</h2>\n<ul>\n<li>Voltage 7.4v</li>\n<li>Capacité 5000mah</li>\n<li>Connecteur IC5</li>\n<li>Coque rigide</li>\n<li>Prise d'equilibrage JSt XH</li>\n<li>Longueur 139mm</li>\n<li>Largeur 46mm</li>\n<li>Hauteur 25mm</li>\n<li>Poids 294gr</li>\n</ul>",
+  "published_at": "2023-10-07T01:42:46+02:00",
+  "created_at": "2023-10-07T01:42:46+02:00",
+  "vendor": "spektrum",
+  "type": "Accus Lipo 2S",
+  "tags": [
+    "Chargeur Zeen",
+    "INTERDITS-AVION"
+  ],
+  "price": 4999,
+  "price_min": 4999,
+  "price_max": 4999,
+  "available": true,
+  "price_varies": false,
+  "compare_at_price": null,
+  "compare_at_price_min": 0,
+  "compare_at_price_max": 0,
+  "compare_at_price_varies": false,
+  "variants": [
+    {
+      "id": 47478922445085,
+      "title": "Default Title",
+      "option1": "Default Title",
+      "option2": null,
+      "option3": null,
+      "sku": "SPMX50002S30H5",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": null,
+      "available": true,
+      "name": "Spektrum Accu lipo Smart 7.4v 5000mah 30C IC5",
+      "public_title": null,
+      "options": [
+        "Default Title"
+      ],
+      "price": 4999,
+      "weight": 400,
+      "compare_at_price": null,
+      "inventory_management": "shopify",
+      "barcode": "605482209042",
+      "quantity_rule": {
+        "min": 1,
+        "max": null,
+        "increment": 1
+      },
+      "quantity_price_breaks": [],
+      "requires_selling_plan": false,
+      "selling_plan_allocations": []
+    }
+  ],
+  "images": [
+    "//cdn.shopify.com/s/files/1/0783/2161/5133/files/spektrum-accu-lipo-smart-74v-5000mah-30c-ic5.jpg?v=1705717591",
+    "//cdn.shopify.com/s/files/1/0783/2161/5133/files/spektrum-accu-lipo-smart-74v-5000mah-30c-ic5_e9598528-e311-48a4-afc9-f73c8eda95e1.jpg?v=1705717595",
+    "//cdn.shopify.com/s/files/1/0783/2161/5133/files/spektrum-accu-lipo-smart-74v-5000mah-30c-ic5_20afc6f7-687c-4382-85ea-040de3fea1b3.jpg?v=1705717598",
+    "//cdn.shopify.com/s/files/1/0783/2161/5133/files/spektrum-accu-lipo-smart-74v-5000mah-30c-ic5_23a89200-1a11-49e5-b33b-1036246459f8.jpg?v=1705717601",
+    "//cdn.shopify.com/s/files/1/0783/2161/5133/files/spektrum-accu-lipo-smart-74v-5000mah-30c-ic5_8cffe7a2-9863-4762-b5e9-d2af4312c058.jpg?v=1705717605"
+  ],
+  "featured_image": "//cdn.shopify.com/s/files/1/0783/2161/5133/files/spektrum-accu-lipo-smart-74v-5000mah-30c-ic5.jpg?v=1705717591",
+  "options": [
+    {
+      "name": "Title",
+      "position": 1,
+      "values": [
+        "Default Title"
+      ]
+    }
+  ],
+  "url": "/products/spektrum-accu-lipo-smart-74v-5000mah-30c-ic5",
+  "media": [
+    {
+      "alt": "Spektrum Accu lipo Smart 7.4v 5000mah 30C IC5",
+      "id": 37151385420061,
+      "position": 1,
+      "preview_image": {
+        "aspect_ratio": 1.0,
+        "height": 1400,
+        "width": 1400,
+        "src": "https://cdn.shopify.com/s/files/1/0783/2161/5133/files/spektrum-accu-lipo-smart-74v-5000mah-30c-ic5.jpg?v=1705717591"
+      },
+      "aspect_ratio": 1.0,
+      "height": 1400,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0783/2161/5133/files/spektrum-accu-lipo-smart-74v-5000mah-30c-ic5.jpg?v=1705717591",
+      "width": 1400
+    },
+    {
+      "alt": "Spektrum Accu lipo Smart 11.1v 5000mah 30C IC3",
+      "id": 37151385551133,
+      "position": 2,
+      "preview_image": {
+        "aspect_ratio": 1.0,
+        "height": 1400,
+        "width": 1400,
+        "src": "https://cdn.shopify.com/s/files/1/0783/2161/5133/files/spektrum-accu-lipo-smart-74v-5000mah-30c-ic5_e9598528-e311-48a4-afc9-f73c8eda95e1.jpg?v=1705717595"
+      },
+      "aspect_ratio": 1.0,
+      "height": 1400,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0783/2161/5133/files/spektrum-accu-lipo-smart-74v-5000mah-30c-ic5_e9598528-e311-48a4-afc9-f73c8eda95e1.jpg?v=1705717595",
+      "width": 1400
+    },
+    {
+      "alt": "Spektrum Accu lipo Smart 11.1v 5000mah 30C IC3",
+      "id": 37151385878813,
+      "position": 3,
+      "preview_image": {
+        "aspect_ratio": 1.0,
+        "height": 1400,
+        "width": 1400,
+        "src": "https://cdn.shopify.com/s/files/1/0783/2161/5133/files/spektrum-accu-lipo-smart-74v-5000mah-30c-ic5_20afc6f7-687c-4382-85ea-040de3fea1b3.jpg?v=1705717598"
+      },
+      "aspect_ratio": 1.0,
+      "height": 1400,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0783/2161/5133/files/spektrum-accu-lipo-smart-74v-5000mah-30c-ic5_20afc6f7-687c-4382-85ea-040de3fea1b3.jpg?v=1705717598",
+      "width": 1400
+    },
+    {
+      "alt": "Spektrum Accu lipo Smart 11.1v 5000mah 30C IC3",
+      "id": 37151386009885,
+      "position": 4,
+      "preview_image": {
+        "aspect_ratio": 1.0,
+        "height": 1400,
+        "width": 1400,
+        "src": "https://cdn.shopify.com/s/files/1/0783/2161/5133/files/spektrum-accu-lipo-smart-74v-5000mah-30c-ic5_23a89200-1a11-49e5-b33b-1036246459f8.jpg?v=1705717601"
+      },
+      "aspect_ratio": 1.0,
+      "height": 1400,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0783/2161/5133/files/spektrum-accu-lipo-smart-74v-5000mah-30c-ic5_23a89200-1a11-49e5-b33b-1036246459f8.jpg?v=1705717601",
+      "width": 1400
+    },
+    {
+      "alt": "Spektrum Accu lipo Smart 11.1v 5000mah 30C IC3",
+      "id": 37151386304797,
+      "position": 5,
+      "preview_image": {
+        "aspect_ratio": 1.0,
+        "height": 1400,
+        "width": 1400,
+        "src": "https://cdn.shopify.com/s/files/1/0783/2161/5133/files/spektrum-accu-lipo-smart-74v-5000mah-30c-ic5_8cffe7a2-9863-4762-b5e9-d2af4312c058.jpg?v=1705717605"
+      },
+      "aspect_ratio": 1.0,
+      "height": 1400,
+      "media_type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0783/2161/5133/files/spektrum-accu-lipo-smart-74v-5000mah-30c-ic5_8cffe7a2-9863-4762-b5e9-d2af4312c058.jpg?v=1705717605",
+      "width": 1400
+    }
+  ],
+  "requires_selling_plan": false,
+  "selling_plan_groups": []
+}

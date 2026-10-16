@@ -1,0 +1,107 @@
+{
+  "file": "wago-221-413-detaille.step",
+  "title": "WAGO221-413 | 3 ports",
+  "generated_on": "2026-10-14",
+  "unit": "mm",
+  "cadquery_version": "2.8.0",
+  "coordinate_system": "Axe principal Z; face de reference z=0; dimensions selon parametres",
+  "bytes": 584740,
+  "sha256": "52931185f012a2661667840c4f48cd3058e9a3af6b8c54483011ea639304b851",
+  "native_vendor_cad": false,
+  "hardware_measured": false,
+  "is_custom_project_design": false,
+  "published_nominal": [
+    "WAGO2025/2024 :18.8ou30 x18.6x8.4,3ou5ports et unpotentiel."
+  ],
+  "estimates_and_limitations": [
+    "Poches, leviers, ressorts etbarreconductrice reconstruits ; transparence réelle représentée pargrisopaque dansSTEP.",
+    "Nuances optiques estimées ; géométrie non mesurée. Pas de plan de fabrication ni de qualification mécanique/électrique."
+  ],
+  "parameters": {
+    "width_mm": 18.8,
+    "depth_mm": 18.6,
+    "height_mm": 8.4,
+    "strip_mm": 11,
+    "common_potentials": 1
+  },
+  "source_pages": [
+    "Voir sources.json et cotes.md du composant / ensemble"
+  ],
+  "bounds_mm": {
+    "xmin": -9.4,
+    "xmax": 9.4,
+    "ymin": -9.3,
+    "ymax": 9.3,
+    "zmin": 0.0,
+    "zmax": 8.4000001
+  },
+  "validation": {
+    "valid_after_reimport": true,
+    "solids": 5,
+    "faces": 172,
+    "colors": 3,
+    "volume_relative_error": 1.3254975486685389e-14,
+    "volume_relative_error_limit": 0.0001,
+    "volume_before_mm3": 1938.3834659591823,
+    "volume_after_mm3": 1938.3834659591566,
+    "adaptive_volume_tolerance": 1e-09,
+    "bbox_error_mm": 0.0,
+    "bbox_error_limit_mm": 0.01,
+    "void_and_material_probes": [],
+    "elapsed_seconds": 1.2128007999999681,
+    "volume_after_default_quadrature_mm3": 1938.3834659591457
+  },
+  "parts": [
+    {
+      "name": "Piece_boitier_PC_transparence_non_encodee",
+      "color_linear_rgb": [
+        0.56,
+        0.65,
+        0.68
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Piece_levier_orange_1",
+      "color_linear_rgb": [
+        0.93,
+        0.22,
+        0.008
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Piece_levier_orange_2",
+      "color_linear_rgb": [
+        0.93,
+        0.22,
+        0.008
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Piece_levier_orange_3",
+      "color_linear_rgb": [
+        0.93,
+        0.22,
+        0.008
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Piece_barre_et_ressorts_estimes_un_potentiel",
+      "color_linear_rgb": [
+        0.54,
+        0.59,
+        0.62
+      ],
+      "solids": 1
+    }
+  ],
+  "preview": {
+    "file": "wago-221-413-detaille.png",
+    "sha256": "3a9eeeab31361fb85046275469edc3698a9780be08cc48efb8f0a781e006020c"
+  },
+  "component_folder": "liaisons-alimentation-surveillance/wago-221-413",
+  "relative_step_path": "liaisons-alimentation-surveillance/wago-221-413/3D/wago-221-413-detaille.step"
+}

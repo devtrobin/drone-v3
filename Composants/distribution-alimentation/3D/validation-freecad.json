@@ -1,0 +1,74 @@
+{
+  "method": "FreeCAD Part.read, headless",
+  "version": [
+    "1",
+    "1",
+    "4",
+    "20260928 (Git shallow)",
+    "Unknown",
+    "2026/09/28 13:46:34",
+    "(HEAD detached at 4fd3bf320)",
+    "4fd3bf320d9566a27e60069fc8387448aaa3a094"
+  ],
+  "checked_on": "2026-10-14",
+  "GUI_tested": false,
+  "VSCode_CAD_View_tested": false,
+  "all_passed": true,
+  "checks": [
+    {
+      "file": "bluesea-2305-borniers-sans-capot-detaille.step",
+      "folder": "distribution-alimentation/bornier-2315",
+      "passed": true,
+      "valid": true,
+      "solids": 10,
+      "faces": 3856,
+      "bbox_error_mm": 0.0,
+      "seconds": 9.881932900003449,
+      "sha256": "e90afee48718a273eda13c25a428eaf0d044b955a596ab2ae1843f61453d1368"
+    },
+    {
+      "file": "bluesea-2713-capot-detaille.step",
+      "folder": "distribution-alimentation/capot-2713",
+      "passed": true,
+      "valid": true,
+      "solids": 1,
+      "faces": 331,
+      "bbox_error_mm": 0.0,
+      "seconds": 1.0039288999978453,
+      "sha256": "d061c292e6f81af3a386e1a8398340ead52d2e7ef24097bff269921a09a2fb05"
+    },
+    {
+      "file": "bluesea-2315-complet-detaille.step",
+      "folder": "distribution-alimentation/bornier-2315",
+      "passed": true,
+      "valid": true,
+      "solids": 11,
+      "faces": 4187,
+      "bbox_error_mm": 0.0,
+      "seconds": 11.436886600000435,
+      "sha256": "7d06cb397015a81eee7815601b76c3cf250e16ec4d51ac3010454fc6e9a364b7"
+    },
+    {
+      "file": "bluesea-2315-vue-eclatee.step",
+      "folder": "distribution-alimentation",
+      "passed": true,
+      "valid": true,
+      "solids": 11,
+      "faces": 4187,
+      "bbox_error_mm": 0.0,
+      "seconds": 9.819244500002242,
+      "sha256": "f5c368984ba912ab9ffd5a4bc97baa47eed9b6cd43c841a65550472dcf3528bb"
+    },
+    {
+      "file": "distribution-deux-minibus-2315-etude.step",
+      "folder": "distribution-alimentation",
+      "passed": true,
+      "valid": true,
+      "solids": 24,
+      "faces": 8386,
+      "bbox_error_mm": 0.0,
+      "seconds": 20.954305700004625,
+      "sha256": "6172f2891930c685a1ad4413dfe1588a5d111b323bf630b2805b96a562e91c99"
+    }
+  ]
+}

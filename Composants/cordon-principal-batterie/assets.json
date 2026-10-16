@@ -1,0 +1,223 @@
+{
+  "checked_on": "2026-10-15",
+  "assets": [
+    {
+      "id": "te-drawing",
+      "url": "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocFormat=pdf&DocLang=English&DocNm=130191&DocType=Customer+Drawing&PartCntxt=130191",
+      "checked_on": "2026-10-15",
+      "status": "not_downloaded",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "te-qrg",
+      "url": "https://www.te.com/content/dam/te-com/documents/appliances/global/solistrand-terminals-and-splices-qrg.pdf",
+      "checked_on": "2026-10-15",
+      "status": "not_downloaded",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "te-tool",
+      "url": "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocFormat=pdf&DocLang=English&DocNm=408-1216&DocType=Specification+Or+Standard&PartCntxt=49935",
+      "checked_on": "2026-10-15",
+      "status": "not_downloaded",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "te-product",
+      "url": "https://www.te.com/en/product-130191.html",
+      "checked_on": "2026-10-15",
+      "status": "not_downloaded",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "bn-product",
+      "url": "https://bntechgo.com/bntechgo-12-gauge-silicone-wire-kit-ultra-flexible-20-ft-black-and-red-each-color-10-ft-high-temp-200-c-600v-12-awg-silicone-wire-680-strands-of-tinned-copper-wire-stranded-wire-stranded-wire-for-model-battery/",
+      "checked_on": "2026-10-15",
+      "local": "references/BNTECHGO-12awg-page.html",
+      "bytes": 205569,
+      "sha256": "ea393c081678aa433f0c95e8a7761a915ff92161547719dfdd471ced91995ab8",
+      "final_url": "https://bntechgo.com/bntechgo-12-gauge-silicone-wire-kit-ultra-flexible-20-ft-black-and-red-each-color-10-ft-high-temp-200-c-600v-12-awg-silicone-wire-680-strands-of-tinned-copper-wire-stranded-wire-stranded-wire-for-model-battery/",
+      "mime": "text/html; charset=UTF-8",
+      "status": "downloaded_original"
+    },
+    {
+      "id": "amazon-wire",
+      "url": "https://www.amazon.fr/dp/B01ABOPMEI",
+      "checked_on": "2026-10-15",
+      "local": "references/Amazon-FR-B01ABOPMEI.html",
+      "bytes": 1921777,
+      "sha256": "c4729907dc89d3706341ac195edfd04caf59b1c123e9e96bbd3377f0a0ee64f9",
+      "final_url": "https://www.amazon.fr/dp/B01ABOPMEI",
+      "mime": "text/html;charset=UTF-8",
+      "status": "downloaded_original"
+    },
+    {
+      "id": "amazon-plug",
+      "url": "https://www.amazon.fr/dp/B074PN6N4K",
+      "checked_on": "2026-10-15",
+      "local": "references/Amazon-FR-B074PN6N4K.html",
+      "bytes": 1335546,
+      "sha256": "c37033df691b66aecff9a7e0bb60d69794735463a7299d7d913ac2da84a52f78",
+      "final_url": "https://www.amazon.fr/dp/B074PN6N4K",
+      "mime": "text/html;charset=UTF-8",
+      "status": "downloaded_original"
+    },
+    {
+      "id": "digikey-lug",
+      "url": "https://www.digikey.fr/fr/products/detail/te-connectivity-amp-connectors/130191/1864623",
+      "checked_on": "2026-10-15",
+      "status": "not_downloaded",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "AMASS-catalogue-XT-2026-original",
+      "local": "notices/AMASS-catalogue-XT-2026-original.pdf",
+      "copied_from": "../connecteurs-alimentation/notices/AMASS-catalogue-XT-2026-original.pdf",
+      "sha256": "763e2058896f87fb8839ebfa82917bb04ab7421d2a320190fbaf9aef66ab8699",
+      "bytes": 5212959,
+      "status": "copied_original_unchanged"
+    },
+    {
+      "id": "AMASS-XT60H-V1.2-original",
+      "local": "notices/AMASS-XT60H-V1.2-original.pdf",
+      "copied_from": "../connecteurs-alimentation/notices/AMASS-XT60H-F-M-V1.2-via-Shoptronica.pdf",
+      "sha256": "441deb82c3234ae5983c5fbf78df79ab101bda1a40c140ab20379707e0dff65a",
+      "bytes": 288483,
+      "status": "copied_original_unchanged"
+    },
+    {
+      "id": "te-datasheet-lcsc",
+      "url": "https://datasheet.lcsc.com/datasheet/pdf/7c59fb4e89ed2939992bd29da7889710.pdf?productCode=C592185",
+      "local": "notices/TE-130191-fiche-via-LCSC-original.pdf",
+      "sha256": "811a259396f1597439a0d26276d85fedefc60f46e9453727350fa2de78566a08",
+      "bytes": 202624,
+      "status": "downloaded_original",
+      "checked_on": "2026-10-15",
+      "document_kind": "TE product datasheet 4 pages, NOT customer drawing"
+    },
+    {
+      "id": "te-tool-tme",
+      "url": "https://www.tme.eu/Document/fd377e0abbdebab267b3e9b225cec78a/49935.pdf",
+      "local": "notices/TE-49935-notice-408-1542-via-TME-original.pdf",
+      "sha256": "8d46151efa91b359f0e98f7ba49f85f39dbfd77ec20e9dd89ab65ddf28c9bd2c",
+      "bytes": 667294,
+      "status": "downloaded_original",
+      "checked_on": "2026-10-15"
+    },
+    {
+      "id": "te-tool-farnell",
+      "url": "https://www.farnell.com/datasheets/1922603.pdf",
+      "local": "notices/TE-49935-notice-408-1542-via-Farnell-original.pdf",
+      "sha256": "5cd122d84a5433dddbb6fff8569eca1893e4ddf49357f1b10b68e75f1a217919",
+      "bytes": 1322116,
+      "status": "downloaded_original",
+      "checked_on": "2026-10-15"
+    },
+    {
+      "id": "spektrum-faq",
+      "url": "https://www.horizonhobby.com/on/demandware.static/-/Sites-horizon-master/default/dwdb93431e/Manuals/Smart_G2_Battery_and_Charger_FAQ.pdf",
+      "local": "notices/Spektrum-G1-G2-FAQ-original.pdf",
+      "bytes": 211790,
+      "sha256": "029171ebd08727a47a1e61d0bb09a4a1cdcaba7a44d4043232059d7d7bcdf4e5",
+      "status": "downloaded_original",
+      "checked_on": "2026-10-15"
+    },
+    {
+      "id": "spektrum-ic5-application",
+      "url": "https://www.spektrumrc.com/ProdInfo/Files/SPMXSE1100-Programming_Guide.pdf",
+      "local": "notices/Spektrum-Firma100A-IC5-reference-original.pdf",
+      "bytes": 99371,
+      "sha256": "8d36b3b428c572615b5e366e7dc230a8dcefc2463fd8ff263e36a095b40496d2",
+      "status": "downloaded_original",
+      "checked_on": "2026-10-15"
+    },
+    {
+      "id": "stock-battery",
+      "url": "https://www.rcteam.com/products/spektrum-accu-lipo-smart-74v-5000mah-30c-ic5.js",
+      "local": "references/SPMX50002S30H5-offer.json",
+      "bytes": 8295,
+      "sha256": "0ce85fcbfefafbdbffefa8d1d5090265c7534be6488290ec4a966a5e280b474e",
+      "status": "downloaded_original",
+      "checked_on": "2026-10-15"
+    },
+    {
+      "id": "stock-cord",
+      "url": "https://www.absolutehobbyz.com/spektrum-ic5-device-connector-4-100mm-10-awg.html",
+      "status": "not_downloaded",
+      "error": "HTTP Error 404: Not Found",
+      "checked_on": "2026-10-15"
+    },
+    {
+      "id": "battery-photo-1",
+      "url": "https://cdn.shopify.com/s/files/1/0783/2161/5133/files/spektrum-accu-lipo-smart-74v-5000mah-30c-ic5.jpg?v=1705717591",
+      "local": "references/SPMX50002S30H5-photo-1.jpg",
+      "bytes": 90905,
+      "sha256": "e8f3944399ce006eecce6d3ee6de89b2db438da20719ca7fafadb1091d2623fc",
+      "status": "downloaded_original",
+      "checked_on": "2026-10-15"
+    },
+    {
+      "id": "battery-photo-2",
+      "url": "https://cdn.shopify.com/s/files/1/0783/2161/5133/files/spektrum-accu-lipo-smart-74v-5000mah-30c-ic5_e9598528-e311-48a4-afc9-f73c8eda95e1.jpg?v=1705717595",
+      "local": "references/SPMX50002S30H5-photo-2.jpg",
+      "bytes": 83166,
+      "sha256": "f83f29d043c350241ec89d4037537c7c0fba1ffc158d3edc2e1072369adf759e",
+      "status": "downloaded_original",
+      "checked_on": "2026-10-15"
+    },
+    {
+      "id": "battery-photo-3",
+      "url": "https://cdn.shopify.com/s/files/1/0783/2161/5133/files/spektrum-accu-lipo-smart-74v-5000mah-30c-ic5_20afc6f7-687c-4382-85ea-040de3fea1b3.jpg?v=1705717598",
+      "local": "references/SPMX50002S30H5-photo-3.jpg",
+      "bytes": 93588,
+      "sha256": "6f90eb306444b53957de2d70a981a07dd0b30937029af89539b11cb2f826dc31",
+      "status": "downloaded_original",
+      "checked_on": "2026-10-15"
+    },
+    {
+      "id": "ic5-spektrum.html",
+      "url": "https://www.spektrumrc.com/product/connector-ic5-device-w-4-10awg-wires/SPMXCA510.html",
+      "local": "references\\ic5-spektrum.html",
+      "bytes": 120070,
+      "sha256": "9e7cb5201febaac4ae373b74c1377ee20a2ab08d673fcc263af880e50abf876e",
+      "status": "downloaded_original",
+      "checked_on": "2026-10-15"
+    },
+    {
+      "id": "battery-g1-current.html",
+      "url": "https://www.spektrumrc.com/product/7.4v-5000mah-2s-30c-smart-hardcase-lipo-battery-ic5/SPMX50002S30H5.html",
+      "local": "references\\battery-g1-current.html",
+      "bytes": 154632,
+      "sha256": "a7b86a0834cf372a0dfb2592bef9a9a7ead84588971fb0aa63e65b2583da67b2",
+      "status": "downloaded_original",
+      "checked_on": "2026-10-15"
+    },
+    {
+      "id": "battery-g1.html",
+      "url": "https://my.spektrumrc.com/Products/Default.aspx?ProdID=SPMX50002S30H5",
+      "local": "references\\battery-g1.html",
+      "bytes": 27619,
+      "sha256": "0bdab612cd1277d4f33bef5e8ccd401e55fe9763e44038700b69647c347621e3",
+      "status": "downloaded_original",
+      "checked_on": "2026-10-15"
+    },
+    {
+      "id": "Spektrum-SPMXCA510-original.jpg",
+      "url": "https://www.spektrumrc.com/dw/image/v2/BFBR_PRD/on/demandware.static/-/Sites-horizon-master/default/dw00825186/Images/SPM/SPMXCA510_A0_Y2G3HW4L.jpg?sw=800&sh=800&sm=fit",
+      "local": "references\\Spektrum-SPMXCA510-original.jpg",
+      "bytes": 20569,
+      "sha256": "885aacfe6555941ac78b842b8719954a86ee99e0d5b1f0647c434c3eb221239b",
+      "status": "downloaded_original",
+      "checked_on": "2026-10-15"
+    },
+    {
+      "id": "ic5-eu-offer",
+      "url": "https://www.freakware.de/en/p/ic5-geraeteanschluss-kabel-4-100mm-10awg-spektrum-spmxca510-a167682.htm",
+      "local": "references/SPMXCA510-freakware.html",
+      "bytes": 42173,
+      "sha256": "748bd526d64cb60e2bd82545dbf30dde29b05772a89cff743b7fc42a5a4d88c2",
+      "status": "downloaded_original",
+      "checked_on": "2026-10-15"
+    }
+  ]
+}

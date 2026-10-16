@@ -1,0 +1,84 @@
+{
+  "generated_on": "2026-10-15",
+  "model_count": 1,
+  "models": [
+    {
+      "file": "atum-8-2-coupe-20mm.step",
+      "title": "ATUM8/2 | coupe avant rétraction",
+      "generated_on": "2026-10-15",
+      "unit": "mm",
+      "cadquery_version": "2.8.0",
+      "coordinate_system": "Axe principal Z; face de reference z=0; dimensions selon parametres",
+      "bytes": 21183,
+      "sha256": "db61507c4f0d49deee50b6d3e8d464c5e3a8c2af3acc884ee31d4b96864b15f6",
+      "native_vendor_cad": false,
+      "hardware_measured": false,
+      "is_custom_project_design": true,
+      "published_nominal": [
+        "TE : Øintfourni≥8 ; coupe20mm proposée, retraitlongitudinal jusqu’à15%."
+      ],
+      "estimates_and_limitations": [
+        "Paroi fournie0,25 et adhésif0,15 estimés ; valeurs libres rétreintes ne décrivent pas cet état.",
+        "Couleurs et détails non cotés estimés, aucune pièce mesurée ; aucune qualification à44A."
+      ],
+      "parameters": {
+        "provisional_cut_length_mm": 20
+      },
+      "source_pages": [
+        "Voir sources.json et assets.json du cordon"
+      ],
+      "bounds_mm": {
+        "xmin": -4.4,
+        "xmax": 4.4,
+        "ymin": -4.4,
+        "ymax": 4.4,
+        "zmin": 0.0,
+        "zmax": 20.0
+      },
+      "validation": {
+        "valid_after_reimport": true,
+        "solids": 2,
+        "faces": 8,
+        "colors": 2,
+        "volume_relative_error": 0.0,
+        "volume_relative_error_limit": 0.0001,
+        "volume_before_mm3": 211.11502632123415,
+        "volume_after_mm3": 211.11502632123415,
+        "adaptive_volume_tolerance": 1e-09,
+        "bbox_error_mm": 0.0,
+        "bbox_error_limit_mm": 0.01,
+        "void_and_material_probes": [],
+        "elapsed_seconds": 0.06346109999867622,
+        "volume_after_default_quadrature_mm3": 211.11502632123893
+      },
+      "parts": [
+        {
+          "name": "Piece_paroi_polyolefine",
+          "color_linear_rgb": [
+            0.015,
+            0.019,
+            0.024
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Piece_adhesif",
+          "color_linear_rgb": [
+            0.13,
+            0.1,
+            0.075
+          ],
+          "solids": 1
+        }
+      ],
+      "preview": {
+        "file": "atum-8-2-coupe-20mm.png",
+        "sha256": "c6b8d65c10f8ee7a7a9e08c3fc97a8709a894bd3032a65c697a1d1304c977c41"
+      },
+      "component_folder": "cordon-principal-batterie/isolation-atum",
+      "relative_step_path": "cordon-principal-batterie/isolation-atum/3D/atum-8-2-coupe-20mm.step",
+      "generator": "tools/build_main_cord_step.py",
+      "generator_sha256": "fa32714620f5b29cb53937cc7563fa4b8b90d2d2824c13b66ada142267b73bed"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "FreeCAD_version": [
+    "1",
+    "1",
+    "4",
+    "20260928 (Git shallow)",
+    "Unknown",
+    "2026/09/28 13:46:34",
+    "(HEAD detached at 4fd3bf320)",
+    "4fd3bf320d9566a27e60069fc8387448aaa3a094"
+  ],
+  "all_passed": true,
+  "models": [
+    {
+      "file": "porteuse-surveillance-2s-m1-detaillee.step",
+      "sha256": "5db79bd3815a94779302abdd54633c57491ebb030328f48a87c2729f13e65c69",
+      "valid": true,
+      "all_solids_closed": true,
+      "solids": 618,
+      "expected_solids": 618,
+      "bounds_mm": {
+        "xmin": 0.0,
+        "xmax": 140.0,
+        "ymin": 0.0,
+        "ymax": 75.0,
+        "zmin": -1.5,
+        "zmax": 12.922
+      },
+      "bbox_max_difference_mm": 9.99999993922529e-08,
+      "elapsed_s": 30.663371801376343,
+      "passed": true
+    },
+    {
+      "file": "ensemble-surveillance-2s-m1-gabarits.step",
+      "sha256": "41e9c06262968655145cf9e9249882704c2d51ae1c793da7f07e9839e83bede6",
+      "valid": true,
+      "all_solids_closed": true,
+      "solids": 168,
+      "expected_solids": 168,
+      "bounds_mm": {
+        "xmin": 0.0,
+        "xmax": 140.0,
+        "ymin": 0.0,
+        "ymax": 75.0,
+        "zmin": -1.5,
+        "zmax": 27.112000000000002
+      },
+      "bbox_max_difference_mm": 9.999999761589606e-08,
+      "elapsed_s": 5.441939353942871,
+      "passed": true
+    },
+    {
+      "file": "resistances-mesure-3x-ac03-100ohm.step",
+      "sha256": "17cfe947d754920331adb424f3c1e7bae8f7dda8aaf56243e1df051475f43f31",
+      "valid": true,
+      "all_solids_closed": true,
+      "solids": 9,
+      "expected_solids": 9,
+      "bounds_mm": {
+        "xmin": -31.5,
+        "xmax": 31.5,
+        "ymin": -2.4,
+        "ymax": 18.4,
+        "zmin": -2.4,
+        "zmax": 2.4
+      },
+      "bbox_max_difference_mm": 0.0,
+      "elapsed_s": 0.05502724647521973,
+      "passed": true
+    }
+  ],
+  "GUI_open_test": false,
+  "hardware_tested": false
+}

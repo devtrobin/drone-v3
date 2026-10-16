@@ -1,0 +1,86 @@
+{
+  "file": "cosse-klauke-95r6-6mm2.step",
+  "title": "Klauke95R6 | 6mm2,M6",
+  "generated_on": "2026-10-14",
+  "unit": "mm",
+  "cadquery_version": "2.8.0",
+  "coordinate_system": "Axe principal Z; face de reference z=0; dimensions selon parametres",
+  "bytes": 130882,
+  "sha256": "646d7232102f55917a475d2a6bd5d5e940b467fb5316f6b110d37e75ba6a1b99",
+  "native_vendor_cad": false,
+  "hardware_measured": false,
+  "is_custom_project_design": false,
+  "published_nominal": [
+    "CatalogueKlauke :d1=4,a9,b10,d2=6.5,d4=6,c1=7,c2=6.5,l19."
+  ],
+  "estimates_and_limitations": [
+    "Paume2,rayons,loft etfenêtreØ1.4estimés ;sanssertissage, sansgravureinventée.",
+    "Nuances optiques estimées ; géométrie non mesurée. Pas de plan de fabrication ni de qualification mécanique/électrique."
+  ],
+  "parameters": {
+    "section_mm2": 6,
+    "hole_mm": 6.5,
+    "overall_reconstructed_mm": 26
+  },
+  "source_pages": [
+    "Voir sources.json et cotes.md du composant / ensemble"
+  ],
+  "bounds_mm": {
+    "xmin": -7.0,
+    "xmax": 19.0000001,
+    "ymin": -5.0000001,
+    "ymax": 5.0000001,
+    "zmin": -1e-07,
+    "zmax": 6.0000001
+  },
+  "validation": {
+    "valid_after_reimport": true,
+    "solids": 1,
+    "faces": 22,
+    "colors": 1,
+    "volume_relative_error": 3.0453279494254402e-12,
+    "volume_relative_error_limit": 0.0001,
+    "volume_before_mm3": 415.63090372989774,
+    "volume_after_mm3": 415.63090373116347,
+    "adaptive_volume_tolerance": 1e-09,
+    "bbox_error_mm": 0.0,
+    "bbox_error_limit_mm": 0.01,
+    "void_and_material_probes": [
+      {
+        "point": [
+          0,
+          0,
+          1
+        ],
+        "occupied": false
+      },
+      {
+        "point": [
+          18.5,
+          0,
+          3
+        ],
+        "occupied": false
+      }
+    ],
+    "elapsed_seconds": 0.4312442000009469,
+    "volume_after_default_quadrature_mm3": 415.63092830714777
+  },
+  "parts": [
+    {
+      "name": "Piece_Cuivre_etame",
+      "color_linear_rgb": [
+        0.54,
+        0.59,
+        0.62
+      ],
+      "solids": 1
+    }
+  ],
+  "preview": {
+    "file": "cosse-klauke-95r6-6mm2.png",
+    "sha256": "347fd1f5f8921155c92832dc8166a85890c7b957d19a3b876ef8ee34dca55424"
+  },
+  "component_folder": "coupure-manuelle/cosses-klauke-95r6",
+  "relative_step_path": "coupure-manuelle/cosses-klauke-95r6/3D/cosse-klauke-95r6-6mm2.step"
+}

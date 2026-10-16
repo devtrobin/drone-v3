@@ -1,0 +1,5 @@
+﻿code;net;section_mm2;diametre_etude_mm;rayon_axe_mm;longueur_axe_mm;reserve_raccordement_mm;brut_approvisionnement_mm;extremites_sont_bornes_exactes;pret_a_couper_definitivement
+P03;F0 sortie → ED80 entrée;6;6.5;30;413.5;300;720;False;False
+P04;ED80 sortie → D+;6;6.5;30;386.5;300;690;False;False
+P05;D+ → SSR+2;6;6.5;30;386.5;300;690;False;False
+P06;SSR1 → UD80;6;6.5;30;424.37;300;730;False;False

@@ -1,0 +1,89 @@
+{
+  "all_passed": true,
+  "models": [
+    {
+      "file": "drone-v3-structure.glb",
+      "passed": true,
+      "bytes": 1754740,
+      "sha256": "c69d55f95f7bfa5e3e25da3af2fbe3a997d6585b357dfa074f82358c3619cbe6",
+      "meshes": 151,
+      "triangles": 69400,
+      "bounds_mm": [
+        -207.00000000000003,
+        207.00000000000003,
+        -6.0,
+        520.0,
+        6.800000190734863,
+        258.68292236328125
+      ],
+      "native_bounds_error_mm": 2.6854587531488505e-06
+    },
+    {
+      "file": "drone-v3-roulage.glb",
+      "passed": true,
+      "bytes": 9725676,
+      "sha256": "9bf0656898a53ea63f400795eba86290516040633a3f25e5f0f5a3721172473f",
+      "meshes": 76,
+      "triangles": 403290,
+      "bounds_mm": [
+        -213.0,
+        213.0,
+        23.50296401977539,
+        476.4970397949219,
+        0.0,
+        63.0
+      ],
+      "native_bounds_error_mm": 0.002964019775390625
+    },
+    {
+      "file": "drone-v3-electronique.glb",
+      "passed": true,
+      "bytes": 42963512,
+      "sha256": "fba5c242cd0170f94bdd1bfcb5d4ec486c745b4ebde27c1bc04a343863cdec27",
+      "meshes": 124,
+      "triangles": 1764444,
+      "bounds_mm": [
+        -127.69999694824219,
+        145.6999969482422,
+        177.3000030517578,
+        487.4892272949219,
+        17.0,
+        247.718505859375
+      ],
+      "native_bounds_error_mm": 9.465463278957031e-06
+    },
+    {
+      "file": "drone-v3-puissance.glb",
+      "passed": true,
+      "bytes": 2545784,
+      "sha256": "75df58ec62e4902f21a4e55be3263caa896fec008f59d47f636b3771c06fb396",
+      "meshes": 18,
+      "triangles": 105594,
+      "bounds_mm": [
+        -140.33999633789062,
+        123.02410125732423,
+        111.0,
+        402.5185852050782,
+        15.0,
+        126.0
+      ],
+      "native_bounds_error_mm": 1.4794921810334927e-05
+    },
+    {
+      "file": "drone-v3-complet-ultra-detaille.glb",
+      "passed": true,
+      "bytes": 56987572,
+      "sha256": "6cc3ac8eda20aeb4ca27fe26ecfdf6b27f33779e45762294f6ca157132bc1a35",
+      "meshes": 369,
+      "triangles": 2342728,
+      "bounds_mm": [
+        -213.0,
+        213.0,
+        -6.0,
+        520.0,
+        0.0,
+        258.68292236328125
+      ]
+    }
+  ]
+}

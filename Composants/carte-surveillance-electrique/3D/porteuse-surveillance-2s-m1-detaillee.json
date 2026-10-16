@@ -1,0 +1,4593 @@
+{
+  "file": "porteuse-surveillance-2s-m1-detaillee.step",
+  "title": "Surveillance 2S M1P | porteuse routee",
+  "generated_on": "2026-10-15",
+  "unit": "mm",
+  "cadquery_version": "2.8.0",
+  "coordinate_system": "Carrier X0..140,Y0..75; finished copper facesZ0..1.6; substrateZ0.07..1.53 at70um nominal copper. KiCad Y mirrored into CAD Y.",
+  "bytes": 25221622,
+  "sha256": "5db79bd3815a94779302abdd54633c57491ebb030328f48a87c2729f13e65c69",
+  "native_vendor_cad": false,
+  "hardware_measured": false,
+  "is_custom_project_design": true,
+  "published_nominal": [
+    "Carrier project dimensions140x75x1.6mm; four mounting holesdiam3.2, (4,4),(136,4),(4,71),(136,71).",
+    "M1P checked KiCad: power tracks0.4mm, signals0.2mm, vias0.8/0.4mm; copper70um nominal,55um minimum specified.",
+    "TRACO nominal body17x7.62x11mm, pins1/2/4/6; VOS618A body4.4x2.6mm nominal."
+  ],
+  "estimates_and_limitations": [
+    "Study reconstruction, not native vendor CAD; no measured hardware.",
+    "Package colours, component markings, solder fillets and micro-details estimated.",
+    "EVM and Pololu reserves are open frames, not their true geometry. Harnesses and mounting hardware not defined."
+  ],
+  "parameters": {
+    "carrier_mm": [
+      140,
+      75,
+      1.6
+    ],
+    "copper_um": 70,
+    "hardware_measured": false
+  },
+  "source_pages": [
+    "KiCad/implantation.json; notices/TI-TPS3700EVM-114-original.pdf; notices/Traco-TMR1-original.pdf"
+  ],
+  "bounds_mm": {
+    "xmin": 0.0,
+    "xmax": 140.0,
+    "ymin": 0.0,
+    "ymax": 75.0,
+    "zmin": -1.5,
+    "zmax": 12.9220001
+  },
+  "validation": {
+    "valid_after_reimport": true,
+    "solids": 618,
+    "faces": 6834,
+    "colors": 8,
+    "volume_relative_error": 1.805922326214929e-16,
+    "volume_relative_error_limit": 0.0001,
+    "volume_before_mm3": 20144.71361410449,
+    "volume_after_mm3": 20144.713614104494,
+    "adaptive_volume_tolerance": 1e-09,
+    "bbox_error_mm": 0.0,
+    "bbox_error_limit_mm": 0.01,
+    "void_and_material_probes": [],
+    "elapsed_seconds": 94.26838800000041
+  },
+  "parts": [
+    {
+      "name": "PCB_substrat_FR4_pour_epaisseur_finie1_6",
+      "color_linear_rgb": [
+        0.012,
+        0.12,
+        0.045
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Pistes_TMR_IN1_0",
+      "color_linear_rgb": [
+        0.018,
+        0.16,
+        0.06
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Pistes_FAULT1_0",
+      "color_linear_rgb": [
+        0.018,
+        0.16,
+        0.06
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Pistes_TMR_IN2_0",
+      "color_linear_rgb": [
+        0.018,
+        0.16,
+        0.06
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Pistes_ISO5_1_0",
+      "color_linear_rgb": [
+        0.018,
+        0.16,
+        0.06
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Pistes_BUF2_0",
+      "color_linear_rgb": [
+        0.018,
+        0.16,
+        0.06
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Pistes_ISO5_2_0",
+      "color_linear_rgb": [
+        0.018,
+        0.16,
+        0.06
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Pistes_B1_R_0",
+      "color_linear_rgb": [
+        0.018,
+        0.16,
+        0.06
+      ],
+      "solids": 2
+    },
+    {
+      "name": "Pistes_B1_R_1",
+      "color_linear_rgb": [
+        0.018,
+        0.16,
+        0.06
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Pistes_FAULT2_0",
+      "color_linear_rgb": [
+        0.018,
+        0.16,
+        0.06
+      ],
+      "solids": 2
+    },
+    {
+      "name": "Pistes_FAULT2_1",
+      "color_linear_rgb": [
+        0.018,
+        0.16,
+        0.06
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Pistes_WARN_B1_0",
+      "color_linear_rgb": [
+        0.018,
+        0.16,
+        0.06
+      ],
+      "solids": 2
+    },
+    {
+      "name": "Pistes_WARN_B1_1",
+      "color_linear_rgb": [
+        0.018,
+        0.16,
+        0.06
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Pistes_OFF_0",
+      "color_linear_rgb": [
+        0.018,
+        0.16,
+        0.06
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Pistes_3V3_PI_0",
+      "color_linear_rgb": [
+        0.018,
+        0.16,
+        0.06
+      ],
+      "solids": 3
+    },
+    {
+      "name": "Pistes_3V3_PI_1",
+      "color_linear_rgb": [
+        0.018,
+        0.16,
+        0.06
+      ],
+      "solids": 2
+    },
+    {
+      "name": "Pistes_BUF1_0",
+      "color_linear_rgb": [
+        0.018,
+        0.16,
+        0.06
+      ],
+      "solids": 2
+    },
+    {
+      "name": "Pistes_BUF1_1",
+      "color_linear_rgb": [
+        0.018,
+        0.16,
+        0.06
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Pistes_HARD_A2_0",
+      "color_linear_rgb": [
+        0.018,
+        0.16,
+        0.06
+      ],
+      "solids": 2
+    },
+    {
+      "name": "Pistes_HARD_A2_1",
+      "color_linear_rgb": [
+        0.018,
+        0.16,
+        0.06
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Pistes_WARN_B2_0",
+      "color_linear_rgb": [
+        0.018,
+        0.16,
+        0.06
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Pistes_WARN2_0",
+      "color_linear_rgb": [
+        0.018,
+        0.16,
+        0.06
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Pistes_WARN2_1",
+      "color_linear_rgb": [
+        0.018,
+        0.16,
+        0.06
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Pistes_5V_MON_0",
+      "color_linear_rgb": [
+        0.018,
+        0.16,
+        0.06
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Pistes_3V3_AUX_0",
+      "color_linear_rgb": [
+        0.018,
+        0.16,
+        0.06
+      ],
+      "solids": 3
+    },
+    {
+      "name": "Pistes_3V3_AUX_1",
+      "color_linear_rgb": [
+        0.018,
+        0.16,
+        0.06
+      ],
+      "solids": 2
+    },
+    {
+      "name": "Pistes_WARN1_0",
+      "color_linear_rgb": [
+        0.018,
+        0.16,
+        0.06
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Pistes_WARN1_1",
+      "color_linear_rgb": [
+        0.018,
+        0.16,
+        0.06
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Pistes_WARN_LED1_0",
+      "color_linear_rgb": [
+        0.018,
+        0.16,
+        0.06
+      ],
+      "solids": 2
+    },
+    {
+      "name": "Pistes_WARN_LED1_1",
+      "color_linear_rgb": [
+        0.018,
+        0.16,
+        0.06
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Pistes_HARD_A1_0",
+      "color_linear_rgb": [
+        0.018,
+        0.16,
+        0.06
+      ],
+      "solids": 3
+    },
+    {
+      "name": "Pistes_HARD_A1_1",
+      "color_linear_rgb": [
+        0.018,
+        0.16,
+        0.06
+      ],
+      "solids": 2
+    },
+    {
+      "name": "Pistes_B2_R_0",
+      "color_linear_rgb": [
+        0.018,
+        0.16,
+        0.06
+      ],
+      "solids": 2
+    },
+    {
+      "name": "Pistes_B2_R_1",
+      "color_linear_rgb": [
+        0.018,
+        0.16,
+        0.06
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Pistes_DONE_0",
+      "color_linear_rgb": [
+        0.018,
+        0.16,
+        0.06
+      ],
+      "solids": 2
+    },
+    {
+      "name": "Pistes_DONE_1",
+      "color_linear_rgb": [
+        0.018,
+        0.16,
+        0.06
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Pistes_B0_R_0",
+      "color_linear_rgb": [
+        0.018,
+        0.16,
+        0.06
+      ],
+      "solids": 4
+    },
+    {
+      "name": "Pistes_B0_R_1",
+      "color_linear_rgb": [
+        0.018,
+        0.16,
+        0.06
+      ],
+      "solids": 3
+    },
+    {
+      "name": "Pistes_AUX_0",
+      "color_linear_rgb": [
+        0.018,
+        0.16,
+        0.06
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Pistes_WARN_LED2_0",
+      "color_linear_rgb": [
+        0.018,
+        0.16,
+        0.06
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Pistes_GND_0",
+      "color_linear_rgb": [
+        0.018,
+        0.16,
+        0.06
+      ],
+      "solids": 11
+    },
+    {
+      "name": "Pistes_GND_1",
+      "color_linear_rgb": [
+        0.018,
+        0.16,
+        0.06
+      ],
+      "solids": 9
+    },
+    {
+      "name": "Plage_J1_1_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Pastille_dessous_0_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Fut_metallise_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Plage_J1_2_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Pastille_dessous_1_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Fut_metallise_1",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Plage_J2_1_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Pastille_dessous_2_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Fut_metallise_2",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Plage_J2_2_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Pastille_dessous_3_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Fut_metallise_3",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Plage_J2_3_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Pastille_dessous_4_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Fut_metallise_4",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Plage_J3_1_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Pastille_dessous_5_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Fut_metallise_5",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Plage_J3_2_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Pastille_dessous_6_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Fut_metallise_6",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Plage_J3_3_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Pastille_dessous_7_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Fut_metallise_7",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Plage_J3_4_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Pastille_dessous_8_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Fut_metallise_8",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Plage_J3_5_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Pastille_dessous_9_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Fut_metallise_9",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Plage_M3_6_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Pastille_dessous_10_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Fut_metallise_10",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Plage_M3_4_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Pastille_dessous_11_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Fut_metallise_11",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Plage_M3_2_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Pastille_dessous_12_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Fut_metallise_12",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Plage_M3_1_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Pastille_dessous_13_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Fut_metallise_13",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Plage_F1_2_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Plage_F1_1_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Plage_R1_1_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Plage_R1_2_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Plage_U1_1_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Plage_U1_2_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Plage_U1_3_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Plage_U1_4_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Plage_R2_1_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Plage_R2_2_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Plage_U2_1_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Plage_U2_2_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Plage_U2_3_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Plage_U2_4_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Plage_R5_1_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Plage_R5_2_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Plage_R7_1_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Plage_R7_2_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Plage_C1_1_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Plage_C1_2_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Plage_C3_1_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Plage_C3_2_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Plage_C5_1_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Plage_C5_2_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Plage_J4_1_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Pastille_dessous_38_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Fut_metallise_38",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Plage_J4_2_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Pastille_dessous_39_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Fut_metallise_39",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Plage_J4_3_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Pastille_dessous_40_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Fut_metallise_40",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Plage_J4_4_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Pastille_dessous_41_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Fut_metallise_41",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Plage_J4_5_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Pastille_dessous_42_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Fut_metallise_42",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Plage_M4_6_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Pastille_dessous_43_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Fut_metallise_43",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Plage_M4_4_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Pastille_dessous_44_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Fut_metallise_44",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Plage_M4_2_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Pastille_dessous_45_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Fut_metallise_45",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Plage_M4_1_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Pastille_dessous_46_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Fut_metallise_46",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Plage_F2_2_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Plage_F2_1_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Plage_R3_1_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Plage_R3_2_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Plage_U3_1_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Plage_U3_2_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Plage_U3_3_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Plage_U3_4_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Plage_R4_1_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Plage_R4_2_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Plage_U4_1_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Plage_U4_2_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Plage_U4_3_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Plage_U4_4_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Plage_R6_1_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Plage_R6_2_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Plage_R8_1_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Plage_R8_2_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Plage_C2_1_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Plage_C2_2_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Plage_C4_1_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Plage_C4_2_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Plage_C6_1_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Plage_C6_2_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Plage_J5_1_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Pastille_dessous_71_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Fut_metallise_71",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Plage_J5_2_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Pastille_dessous_72_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Fut_metallise_72",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Plage_J5_3_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Pastille_dessous_73_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Fut_metallise_73",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Plage_J6_1_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Pastille_dessous_74_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Fut_metallise_74",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Plage_J6_2_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Pastille_dessous_75_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Fut_metallise_75",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Plage_J6_3_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Pastille_dessous_76_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Fut_metallise_76",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Plage_J6_4_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Pastille_dessous_77_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Fut_metallise_77",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Plage_J6_5_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Pastille_dessous_78_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Fut_metallise_78",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Plage_J7_1_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Pastille_dessous_79_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Fut_metallise_79",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Plage_J7_2_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Pastille_dessous_80_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Fut_metallise_80",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Plage_U5_1_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Plage_U5_2_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Plage_U5_3_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Plage_U5_4_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Plage_U5_5_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Plage_U5_6_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Plage_U6_1_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Plage_U6_2_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Plage_U6_3_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Plage_D1_1_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Plage_D1_3_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Plage_D2_1_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Plage_D2_3_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Plage_D3_1_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Plage_D3_3_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Plage_R9_1_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Plage_R9_2_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Plage_R10_1_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Plage_R10_2_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Plage_C7_1_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Plage_C7_2_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Plage_C8_1_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Plage_C8_2_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Plage_C9_1_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Plage_C9_2_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Plage_C10_1_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Plage_C10_2_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Plage_C11_1_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Plage_C11_2_0",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_0_3V3_AUX_paroi20um",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_0_3V3_AUX_dessus",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_0_3V3_AUX_dessous",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_1_3V3_AUX_paroi20um",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_1_3V3_AUX_dessus",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_1_3V3_AUX_dessous",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_2_3V3_AUX_paroi20um",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_2_3V3_AUX_dessus",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_2_3V3_AUX_dessous",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_3_3V3_AUX_paroi20um",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_3_3V3_AUX_dessus",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_3_3V3_AUX_dessous",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_4_3V3_PI_paroi20um",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_4_3V3_PI_dessus",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_4_3V3_PI_dessous",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_5_3V3_PI_paroi20um",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_5_3V3_PI_dessus",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_5_3V3_PI_dessous",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_6_3V3_PI_paroi20um",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_6_3V3_PI_dessus",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_6_3V3_PI_dessous",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_7_B0_R_paroi20um",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_7_B0_R_dessus",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_7_B0_R_dessous",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_8_B0_R_paroi20um",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_8_B0_R_dessus",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_8_B0_R_dessous",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_9_B0_R_paroi20um",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_9_B0_R_dessus",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_9_B0_R_dessous",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_10_B0_R_paroi20um",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_10_B0_R_dessus",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_10_B0_R_dessous",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_11_B0_R_paroi20um",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_11_B0_R_dessus",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_11_B0_R_dessous",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_12_B0_R_paroi20um",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_12_B0_R_dessus",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_12_B0_R_dessous",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_13_B1_R_paroi20um",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_13_B1_R_dessus",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_13_B1_R_dessous",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_14_B1_R_paroi20um",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_14_B1_R_dessus",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_14_B1_R_dessous",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_15_B2_R_paroi20um",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_15_B2_R_dessus",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_15_B2_R_dessous",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_16_B2_R_paroi20um",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_16_B2_R_dessus",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_16_B2_R_dessous",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_17_BUF1_paroi20um",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_17_BUF1_dessus",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_17_BUF1_dessous",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_18_BUF1_paroi20um",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_18_BUF1_dessus",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_18_BUF1_dessous",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_19_DONE_paroi20um",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_19_DONE_dessus",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_19_DONE_dessous",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_20_DONE_paroi20um",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_20_DONE_dessus",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_20_DONE_dessous",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_21_FAULT2_paroi20um",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_21_FAULT2_dessus",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_21_FAULT2_dessous",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_22_FAULT2_paroi20um",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_22_FAULT2_dessus",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_22_FAULT2_dessous",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_23_GND_paroi20um",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_23_GND_dessus",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_23_GND_dessous",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_24_GND_paroi20um",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_24_GND_dessus",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_24_GND_dessous",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_25_GND_paroi20um",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_25_GND_dessus",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_25_GND_dessous",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_26_GND_paroi20um",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_26_GND_dessus",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_26_GND_dessous",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_27_GND_paroi20um",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_27_GND_dessus",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_27_GND_dessous",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_28_GND_paroi20um",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_28_GND_dessus",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_28_GND_dessous",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_29_GND_paroi20um",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_29_GND_dessus",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_29_GND_dessous",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_30_GND_paroi20um",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_30_GND_dessus",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_30_GND_dessous",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_31_GND_paroi20um",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_31_GND_dessus",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_31_GND_dessous",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_32_GND_paroi20um",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_32_GND_dessus",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_32_GND_dessous",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_33_GND_paroi20um",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_33_GND_dessus",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_33_GND_dessous",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_34_GND_paroi20um",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_34_GND_dessus",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_34_GND_dessous",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_35_GND_paroi20um",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_35_GND_dessus",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_35_GND_dessous",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_36_GND_paroi20um",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_36_GND_dessus",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_36_GND_dessous",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_37_GND_paroi20um",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_37_GND_dessus",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_37_GND_dessous",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_38_GND_paroi20um",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_38_GND_dessus",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_38_GND_dessous",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_39_GND_paroi20um",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_39_GND_dessus",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_39_GND_dessous",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_40_HARD_A1_paroi20um",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_40_HARD_A1_dessus",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_40_HARD_A1_dessous",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_41_HARD_A1_paroi20um",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_41_HARD_A1_dessus",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_41_HARD_A1_dessous",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_42_HARD_A1_paroi20um",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_42_HARD_A1_dessus",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_42_HARD_A1_dessous",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_43_HARD_A1_paroi20um",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_43_HARD_A1_dessus",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_43_HARD_A1_dessous",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_44_HARD_A2_paroi20um",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_44_HARD_A2_dessus",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_44_HARD_A2_dessous",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_45_HARD_A2_paroi20um",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_45_HARD_A2_dessus",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_45_HARD_A2_dessous",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_46_WARN1_paroi20um",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_46_WARN1_dessus",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_46_WARN1_dessous",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_47_WARN2_paroi20um",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_47_WARN2_dessus",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_47_WARN2_dessous",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_48_WARN_B1_paroi20um",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_48_WARN_B1_dessus",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_48_WARN_B1_dessous",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_49_WARN_B1_paroi20um",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_49_WARN_B1_dessus",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_49_WARN_B1_dessous",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_50_WARN_LED1_paroi20um",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_50_WARN_LED1_dessus",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_50_WARN_LED1_dessous",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_51_WARN_LED1_paroi20um",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_51_WARN_LED1_dessus",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Via_51_WARN_LED1_dessous",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "J1_corps_XH_nominal",
+      "color_linear_rgb": [
+        0.82,
+        0.83,
+        0.79
+      ],
+      "solids": 1
+    },
+    {
+      "name": "J1_broche1",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "J1_broche2",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Marquage_377",
+      "color_linear_rgb": [
+        0.82,
+        0.83,
+        0.79
+      ],
+      "solids": 2
+    },
+    {
+      "name": "J2_corps_XH_nominal",
+      "color_linear_rgb": [
+        0.82,
+        0.83,
+        0.79
+      ],
+      "solids": 1
+    },
+    {
+      "name": "J2_broche1",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "J2_broche2",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "J2_broche3",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Marquage_382",
+      "color_linear_rgb": [
+        0.82,
+        0.83,
+        0.79
+      ],
+      "solids": 2
+    },
+    {
+      "name": "J3_corps_XH_nominal",
+      "color_linear_rgb": [
+        0.82,
+        0.83,
+        0.79
+      ],
+      "solids": 1
+    },
+    {
+      "name": "J3_broche1",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "J3_broche2",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "J3_broche3",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "J3_broche4",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "J3_broche5",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Marquage_389",
+      "color_linear_rgb": [
+        0.82,
+        0.83,
+        0.79
+      ],
+      "solids": 2
+    },
+    {
+      "name": "M3_TMR1_corps_17x7_62x11",
+      "color_linear_rgb": [
+        0.013,
+        0.015,
+        0.018
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Marquage_391",
+      "color_linear_rgb": [
+        0.82,
+        0.83,
+        0.79
+      ],
+      "solids": 5
+    },
+    {
+      "name": "M3_pin6",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "M3_pin4",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "M3_pin2",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "M3_pin1",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "F1_ceramique_454",
+      "color_linear_rgb": [
+        0.7,
+        0.64,
+        0.4
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Marquage_397",
+      "color_linear_rgb": [
+        0.013,
+        0.015,
+        0.018
+      ],
+      "solids": 3
+    },
+    {
+      "name": "R1_corps",
+      "color_linear_rgb": [
+        0.013,
+        0.015,
+        0.018
+      ],
+      "solids": 1
+    },
+    {
+      "name": "U1_VOS618A_corps",
+      "color_linear_rgb": [
+        0.013,
+        0.015,
+        0.018
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Marquage_400",
+      "color_linear_rgb": [
+        0.82,
+        0.83,
+        0.79
+      ],
+      "solids": 5
+    },
+    {
+      "name": "U1_repere1",
+      "color_linear_rgb": [
+        0.4,
+        0.4,
+        0.4
+      ],
+      "solids": 1
+    },
+    {
+      "name": "U1_patte1",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "U1_patte2",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "U1_patte3",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "U1_patte4",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "R2_corps",
+      "color_linear_rgb": [
+        0.013,
+        0.015,
+        0.018
+      ],
+      "solids": 1
+    },
+    {
+      "name": "U2_VOS618A_corps",
+      "color_linear_rgb": [
+        0.013,
+        0.015,
+        0.018
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Marquage_408",
+      "color_linear_rgb": [
+        0.82,
+        0.83,
+        0.79
+      ],
+      "solids": 5
+    },
+    {
+      "name": "U2_repere1",
+      "color_linear_rgb": [
+        0.4,
+        0.4,
+        0.4
+      ],
+      "solids": 1
+    },
+    {
+      "name": "U2_patte1",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "U2_patte2",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "U2_patte3",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "U2_patte4",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "R5_corps",
+      "color_linear_rgb": [
+        0.013,
+        0.015,
+        0.018
+      ],
+      "solids": 1
+    },
+    {
+      "name": "C1_corps",
+      "color_linear_rgb": [
+        0.46,
+        0.32,
+        0.18
+      ],
+      "solids": 1
+    },
+    {
+      "name": "C3_corps",
+      "color_linear_rgb": [
+        0.46,
+        0.32,
+        0.18
+      ],
+      "solids": 1
+    },
+    {
+      "name": "C5_corps",
+      "color_linear_rgb": [
+        0.46,
+        0.32,
+        0.18
+      ],
+      "solids": 1
+    },
+    {
+      "name": "J4_corps_XH_nominal",
+      "color_linear_rgb": [
+        0.82,
+        0.83,
+        0.79
+      ],
+      "solids": 1
+    },
+    {
+      "name": "J4_broche1",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "J4_broche2",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "J4_broche3",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "J4_broche4",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "J4_broche5",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Marquage_424",
+      "color_linear_rgb": [
+        0.82,
+        0.83,
+        0.79
+      ],
+      "solids": 2
+    },
+    {
+      "name": "M4_TMR1_corps_17x7_62x11",
+      "color_linear_rgb": [
+        0.013,
+        0.015,
+        0.018
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Marquage_426",
+      "color_linear_rgb": [
+        0.82,
+        0.83,
+        0.79
+      ],
+      "solids": 5
+    },
+    {
+      "name": "M4_pin6",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "M4_pin4",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "M4_pin2",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "M4_pin1",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "F2_ceramique_454",
+      "color_linear_rgb": [
+        0.7,
+        0.64,
+        0.4
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Marquage_432",
+      "color_linear_rgb": [
+        0.013,
+        0.015,
+        0.018
+      ],
+      "solids": 3
+    },
+    {
+      "name": "R3_corps",
+      "color_linear_rgb": [
+        0.013,
+        0.015,
+        0.018
+      ],
+      "solids": 1
+    },
+    {
+      "name": "U3_VOS618A_corps",
+      "color_linear_rgb": [
+        0.013,
+        0.015,
+        0.018
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Marquage_435",
+      "color_linear_rgb": [
+        0.82,
+        0.83,
+        0.79
+      ],
+      "solids": 5
+    },
+    {
+      "name": "U3_repere1",
+      "color_linear_rgb": [
+        0.4,
+        0.4,
+        0.4
+      ],
+      "solids": 1
+    },
+    {
+      "name": "U3_patte1",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "U3_patte2",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "U3_patte3",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "U3_patte4",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "R4_corps",
+      "color_linear_rgb": [
+        0.013,
+        0.015,
+        0.018
+      ],
+      "solids": 1
+    },
+    {
+      "name": "U4_VOS618A_corps",
+      "color_linear_rgb": [
+        0.013,
+        0.015,
+        0.018
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Marquage_443",
+      "color_linear_rgb": [
+        0.82,
+        0.83,
+        0.79
+      ],
+      "solids": 5
+    },
+    {
+      "name": "U4_repere1",
+      "color_linear_rgb": [
+        0.4,
+        0.4,
+        0.4
+      ],
+      "solids": 1
+    },
+    {
+      "name": "U4_patte1",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "U4_patte2",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "U4_patte3",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "U4_patte4",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "R6_corps",
+      "color_linear_rgb": [
+        0.013,
+        0.015,
+        0.018
+      ],
+      "solids": 1
+    },
+    {
+      "name": "C2_corps",
+      "color_linear_rgb": [
+        0.46,
+        0.32,
+        0.18
+      ],
+      "solids": 1
+    },
+    {
+      "name": "C4_corps",
+      "color_linear_rgb": [
+        0.46,
+        0.32,
+        0.18
+      ],
+      "solids": 1
+    },
+    {
+      "name": "C6_corps",
+      "color_linear_rgb": [
+        0.46,
+        0.32,
+        0.18
+      ],
+      "solids": 1
+    },
+    {
+      "name": "J5_corps_XH_nominal",
+      "color_linear_rgb": [
+        0.82,
+        0.83,
+        0.79
+      ],
+      "solids": 1
+    },
+    {
+      "name": "J5_broche1",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "J5_broche2",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "J5_broche3",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Marquage_457",
+      "color_linear_rgb": [
+        0.82,
+        0.83,
+        0.79
+      ],
+      "solids": 2
+    },
+    {
+      "name": "J6_corps_XH_nominal",
+      "color_linear_rgb": [
+        0.82,
+        0.83,
+        0.79
+      ],
+      "solids": 1
+    },
+    {
+      "name": "J6_broche1",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "J6_broche2",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "J6_broche3",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "J6_broche4",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "J6_broche5",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Marquage_464",
+      "color_linear_rgb": [
+        0.82,
+        0.83,
+        0.79
+      ],
+      "solids": 2
+    },
+    {
+      "name": "J7_corps_XH_nominal",
+      "color_linear_rgb": [
+        0.82,
+        0.83,
+        0.79
+      ],
+      "solids": 1
+    },
+    {
+      "name": "J7_broche1",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "J7_broche2",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Marquage_468",
+      "color_linear_rgb": [
+        0.82,
+        0.83,
+        0.79
+      ],
+      "solids": 2
+    },
+    {
+      "name": "U5_boitier_nominal",
+      "color_linear_rgb": [
+        0.013,
+        0.015,
+        0.018
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Marquage_470",
+      "color_linear_rgb": [
+        0.82,
+        0.83,
+        0.79
+      ],
+      "solids": 2
+    },
+    {
+      "name": "U5_terminal1",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "U5_terminal2",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "U5_terminal3",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "U5_terminal4",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "U5_terminal5",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "U5_terminal6",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "U6_boitier_nominal",
+      "color_linear_rgb": [
+        0.013,
+        0.015,
+        0.018
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Marquage_478",
+      "color_linear_rgb": [
+        0.82,
+        0.83,
+        0.79
+      ],
+      "solids": 2
+    },
+    {
+      "name": "U6_terminal1",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "U6_terminal2",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "U6_terminal3",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "D1_boitier_nominal",
+      "color_linear_rgb": [
+        0.013,
+        0.015,
+        0.018
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Marquage_483",
+      "color_linear_rgb": [
+        0.82,
+        0.83,
+        0.79
+      ],
+      "solids": 2
+    },
+    {
+      "name": "D1_terminal1",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "D1_terminal3",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "D2_boitier_nominal",
+      "color_linear_rgb": [
+        0.013,
+        0.015,
+        0.018
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Marquage_487",
+      "color_linear_rgb": [
+        0.82,
+        0.83,
+        0.79
+      ],
+      "solids": 2
+    },
+    {
+      "name": "D2_terminal1",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "D2_terminal3",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "D3_boitier_nominal",
+      "color_linear_rgb": [
+        0.013,
+        0.015,
+        0.018
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Marquage_491",
+      "color_linear_rgb": [
+        0.82,
+        0.83,
+        0.79
+      ],
+      "solids": 2
+    },
+    {
+      "name": "D3_terminal1",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "D3_terminal3",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "R9_corps",
+      "color_linear_rgb": [
+        0.013,
+        0.015,
+        0.018
+      ],
+      "solids": 1
+    },
+    {
+      "name": "R10_corps",
+      "color_linear_rgb": [
+        0.013,
+        0.015,
+        0.018
+      ],
+      "solids": 1
+    },
+    {
+      "name": "C7_corps",
+      "color_linear_rgb": [
+        0.46,
+        0.32,
+        0.18
+      ],
+      "solids": 1
+    },
+    {
+      "name": "C8_corps",
+      "color_linear_rgb": [
+        0.46,
+        0.32,
+        0.18
+      ],
+      "solids": 1
+    },
+    {
+      "name": "C9_corps",
+      "color_linear_rgb": [
+        0.46,
+        0.32,
+        0.18
+      ],
+      "solids": 1
+    },
+    {
+      "name": "C10_corps",
+      "color_linear_rgb": [
+        0.46,
+        0.32,
+        0.18
+      ],
+      "solids": 1
+    },
+    {
+      "name": "C11_corps",
+      "color_linear_rgb": [
+        0.46,
+        0.32,
+        0.18
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Marquage_501",
+      "color_linear_rgb": [
+        0.82,
+        0.83,
+        0.79
+      ],
+      "solids": 21
+    },
+    {
+      "name": "Marquage_502",
+      "color_linear_rgb": [
+        0.82,
+        0.83,
+        0.79
+      ],
+      "solids": 16
+    }
+  ],
+  "preview": {
+    "file": "porteuse-surveillance-2s-m1-detaillee.png",
+    "sha256": "848c77e00bd8464e986a99b41ac634cc9cfc217e65a026cc79ae458e7aa14a89"
+  },
+  "CAD_status": "Prototype exact board outline and checked routing; nominal package reconstructions and explicit reserved modules.",
+  "kicad_pcb_sha256": "5718bafb44bbc3d06ca01ec1fb87dfc1a3a8de3496c4c755b7ff713b3b4e6a05"
+}

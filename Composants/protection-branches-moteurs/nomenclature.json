@@ -1,0 +1,53 @@
+{
+  "checked_on": "2026-10-14",
+  "status": "study; not ordered",
+  "items": [
+    {
+      "ref": [
+        "PFM1",
+        "PFM2"
+      ],
+      "part": "Blue Sea5065",
+      "quantity_installed": 2,
+      "includes": "holder, cap and12AWG pigtails; fuse separate",
+      "amazon_asin_previously_identified": "B004ZIUA62",
+      "amazon_fr_offer_confirmed": false
+    },
+    {
+      "ref": [
+        "FM1",
+        "FM2"
+      ],
+      "part": "Littelfuse0ATO030.V / ATO30",
+      "quantity_installed": 2,
+      "rating_A": 30,
+      "color": "green",
+      "amazon_exact_asin": null
+    }
+  ],
+  "purchase_options": {
+    "fuses": "two individual units OR one0ATO030.VP / ATO30BP five-pack; three spares for this pack",
+    "holders": "two new5065; three total planned including Pi"
+  },
+  "price_eur_delivered": null,
+  "foreign_reference_USD": {
+    "holder_each": 15.01,
+    "fuse_individual_each": 1.43,
+    "sum_for_two_of_each": 32.88,
+    "validated_french_quote": false
+  },
+  "missing": [
+    "qualification of selected nVent UD80A569010 splitter andconnections after SSR",
+    "branch wiring, qualification of selected XT60H-F, crimped joints and retention",
+    "qualification of ESC16AWG, inrush, fault current and coordination",
+    "global stop on loss of one motor"
+  ],
+  "connectors_proposed": {
+    "reference": "AMASS XT60H-F with caps",
+    "quantity": 2,
+    "existing_ESC_males_retained": true
+  },
+  "supply_revision_scope": "historical_before_alimentation_r2",
+  "current_supply_source": "../verification-alimentation/selection-active.json",
+  "historical_values_preserved": true
+}

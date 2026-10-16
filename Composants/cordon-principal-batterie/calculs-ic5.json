@@ -1,0 +1,40 @@
+{
+  "checked_on": "2026-10-15",
+  "active": "IC5 10AWG",
+  "wire_section_nominal_mm2": 5.26,
+  "length_per_pole_study_m": 0.1,
+  "resistivity_assumed_Cu_20C_ohm_m": 1.724e-08,
+  "R_loop_theoretical_ohm": 0.000655513307984791,
+  "actual_wire_resistance_not_published": true,
+  "excludes": [
+    "packleads",
+    "IC5contacts",
+    "terminations",
+    "fuse",
+    "ED80",
+    "bus"
+  ],
+  "does_not_establish_ampacity": true,
+  "rows": [
+    {
+      "current_A": 10,
+      "drop_V": 0.006555133079847911,
+      "loss_W": 0.06555133079847911
+    },
+    {
+      "current_A": 20,
+      "drop_V": 0.013110266159695821,
+      "loss_W": 0.26220532319391643
+    },
+    {
+      "current_A": 30,
+      "drop_V": 0.019665399239543732,
+      "loss_W": 0.5899619771863119
+    },
+    {
+      "current_A": 44.39,
+      "drop_V": 0.029098235741444874,
+      "loss_W": 1.291670684562738
+    }
+  ]
+}

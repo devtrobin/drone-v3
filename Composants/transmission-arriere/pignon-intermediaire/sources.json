@@ -1,0 +1,56 @@
+{
+  "selected_on": "2026-10-13",
+  "selected_by": "assistant, authorized by user",
+  "reference": "KHK SS0.5-24B",
+  "quantity_design": "2 pignons, un par arbre intermédiaire",
+  "purchased": false,
+  "hardware_tested": false,
+  "model_3d_created": true,
+  "purchase_status": "Not an identified or verified Amazon offer; fabrication lines are not purchase-ready",
+  "price_eur": null,
+  "amazon_search_url": "https://www.amazon.fr/s?k=KHK+SS0.5-24B",
+  "specifications": {
+    "denture": "24 dents, module 0,5, angle de pression 20°",
+    "alésage": "5 mm H8 ; choisir B, pas A alésé 4 mm",
+    "diamètres": "Primitif 12 mm ; extérieur 13 mm ; moyeu 13 mm",
+    "dimensions axiales": "Denture 5 mm ; moyeu 11 mm ; total 16 mm",
+    "fixation / masse": "Vis M4 ; 13 g",
+    "limites catalogue": "Flexion 0,93 N·m ; durabilité de surface 0,059 N·m, dans les conditions du catalogue"
+  },
+  "sources": [
+    {
+      "url": "https://khkgears.net/pdf/ss.pdf",
+      "type": "primary or explicitly identified supplier reference",
+      "checked_on": "2026-10-13"
+    },
+    {
+      "url": "https://khkgears.net/pdf/spur-tech.pdf",
+      "type": "primary or explicitly identified supplier reference",
+      "checked_on": "2026-10-13"
+    }
+  ],
+  "documents": [
+    {
+      "file": "KHK-engrenages-acier-SS.pdf",
+      "url": "https://khkgears.net/pdf/ss.pdf",
+      "bytes": 718814,
+      "sha256": "f226fe80d3b8295cc8146be91280061474965f033cf4db471618b6d5f66dda74",
+      "modified": false,
+      "local_file": "../../direction-et-transmission/notices/KHK-engrenages-acier-SS.pdf"
+    },
+    {
+      "file": "KHK-guide-technique-engrenages.pdf",
+      "url": "https://khkgears.net/pdf/spur-tech.pdf",
+      "bytes": 987550,
+      "sha256": "66cd4024617ee553e5e2cd52394552654f1f303d3cadc56ae244110d9c1a0e81",
+      "modified": false,
+      "local_file": "../../direction-et-transmission/notices/KHK-guide-technique-engrenages.pdf"
+    }
+  ],
+  "unknowns": [
+    "Position axiale et dimension des entretoises",
+    "Recalcul de durée de vie et couple à ~7 579 tr/min à 40 km/h",
+    "Offre et prix non confirmés"
+  ],
+  "model_3d_manifest": "3D/provenance.json"
+}

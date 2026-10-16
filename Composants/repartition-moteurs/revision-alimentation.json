@@ -1,0 +1,6 @@
+{
+  "date": "2026-10-15",
+  "current_source": "../verification-alimentation/selection-active.json",
+  "note": "UD80 conservé : arrivée 6 mm² LAPP et départs selon le nouveau tableau. Ne pas substituer du 10 AWG nominal à son minimum IEC 6 mm².",
+  "old_project_PDFs_and_complete_CAD_historical": true
+}

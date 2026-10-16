@@ -1,0 +1,20 @@
+{
+  "ref": "SPMX50002S30H5",
+  "generation": "G1",
+  "voltage_nominal_V": 7.4,
+  "voltage_full_V": 8.4,
+  "capacity_Ah": 5,
+  "energy_Wh": 37,
+  "dimensions_nominal_mm": [
+    139,
+    46,
+    25
+  ],
+  "mass_announced_g": 294,
+  "connector": "IC5 factory",
+  "balance": "3way JST-XH photo; lot to check",
+  "manufacturer_discontinued": true,
+  "offer_price_EUR": 49.99,
+  "offer_available": true,
+  "buy": "https://www.rcteam.com/products/spektrum-accu-lipo-smart-74v-5000mah-30c-ic5"
+}

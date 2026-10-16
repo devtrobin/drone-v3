@@ -1,0 +1,1536 @@
+{
+  "checked_on": "2026-10-15",
+  "checks_count": 303,
+  "all_passed": true,
+  "checks": [
+    {
+      "check": "User choice applied: factory IC5 2S G1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Selected battery exact current offer available",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "OEM cord already includes both wires",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Legacy parts excluded from active purchase",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "No false electrical qualification",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Archived source exists: bn-product",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Archived SHA256: bn-product",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Archived source exists: amazon-wire",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Archived SHA256: amazon-wire",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Archived source exists: amazon-plug",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Archived SHA256: amazon-plug",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Archived source exists: AMASS-catalogue-XT-2026-original",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Archived SHA256: AMASS-catalogue-XT-2026-original",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Archived source exists: AMASS-XT60H-V1.2-original",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Archived SHA256: AMASS-XT60H-V1.2-original",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Archived source exists: te-datasheet-lcsc",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Archived SHA256: te-datasheet-lcsc",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Archived source exists: te-tool-tme",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Archived SHA256: te-tool-tme",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Archived source exists: te-tool-farnell",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Archived SHA256: te-tool-farnell",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Archived source exists: spektrum-faq",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Archived SHA256: spektrum-faq",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Archived source exists: spektrum-ic5-application",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Archived SHA256: spektrum-ic5-application",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Archived source exists: stock-battery",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Archived SHA256: stock-battery",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Archived source exists: battery-photo-1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Archived SHA256: battery-photo-1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Archived source exists: battery-photo-2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Archived SHA256: battery-photo-2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Archived source exists: battery-photo-3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Archived SHA256: battery-photo-3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Archived source exists: ic5-spektrum.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Archived SHA256: ic5-spektrum.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Archived source exists: battery-g1-current.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Archived SHA256: battery-g1-current.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Archived source exists: battery-g1.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Archived SHA256: battery-g1.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Archived source exists: Spektrum-SPMXCA510-original.jpg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Archived SHA256: Spektrum-SPMXCA510-original.jpg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Archived source exists: ic5-eu-offer",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Archived SHA256: ic5-eu-offer",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "11 CAD files, 3 active IC5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Independent FreeCAD pass for all final files",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "STEP exists: amass-xt60h-m-cordon-detaille.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "STEP SHA256: amass-xt60h-m-cordon-detaille.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "FreeCAD exact final SHA256: amass-xt60h-m-cordon-detaille.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "STEP metadata consistent: amass-xt60h-m-cordon-detaille.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Preview exists: amass-xt60h-m-cordon-detaille.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Preview SHA256: amass-xt60h-m-cordon-detaille.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "CAD volume and envelope roundtrip: amass-xt60h-m-cordon-detaille.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Named coloured solids: amass-xt60h-m-cordon-detaille.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "STEP exists: bntechgo-12awg-rouge-680brins-detaille.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "STEP SHA256: bntechgo-12awg-rouge-680brins-detaille.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "FreeCAD exact final SHA256: bntechgo-12awg-rouge-680brins-detaille.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "STEP metadata consistent: bntechgo-12awg-rouge-680brins-detaille.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Preview exists: bntechgo-12awg-rouge-680brins-detaille.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Preview SHA256: bntechgo-12awg-rouge-680brins-detaille.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "CAD volume and envelope roundtrip: bntechgo-12awg-rouge-680brins-detaille.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Named coloured solids: bntechgo-12awg-rouge-680brins-detaille.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "STEP exists: bntechgo-12awg-noir-680brins-detaille.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "STEP SHA256: bntechgo-12awg-noir-680brins-detaille.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "FreeCAD exact final SHA256: bntechgo-12awg-noir-680brins-detaille.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "STEP metadata consistent: bntechgo-12awg-noir-680brins-detaille.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Preview exists: bntechgo-12awg-noir-680brins-detaille.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Preview SHA256: bntechgo-12awg-noir-680brins-detaille.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "CAD volume and envelope roundtrip: bntechgo-12awg-noir-680brins-detaille.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Named coloured solids: bntechgo-12awg-noir-680brins-detaille.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "STEP exists: te-130191-nue-detaillee.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "STEP SHA256: te-130191-nue-detaillee.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "FreeCAD exact final SHA256: te-130191-nue-detaillee.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "STEP metadata consistent: te-130191-nue-detaillee.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Preview exists: te-130191-nue-detaillee.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Preview SHA256: te-130191-nue-detaillee.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "CAD volume and envelope roundtrip: te-130191-nue-detaillee.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Named coloured solids: te-130191-nue-detaillee.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "STEP exists: te-130191-sertissage-illustratif.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "STEP SHA256: te-130191-sertissage-illustratif.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "FreeCAD exact final SHA256: te-130191-sertissage-illustratif.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "STEP metadata consistent: te-130191-sertissage-illustratif.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Preview exists: te-130191-sertissage-illustratif.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Preview SHA256: te-130191-sertissage-illustratif.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "CAD volume and envelope roundtrip: te-130191-sertissage-illustratif.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Named coloured solids: te-130191-sertissage-illustratif.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "STEP exists: atum-8-2-coupe-20mm.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "STEP SHA256: atum-8-2-coupe-20mm.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "FreeCAD exact final SHA256: atum-8-2-coupe-20mm.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "STEP metadata consistent: atum-8-2-coupe-20mm.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Preview exists: atum-8-2-coupe-20mm.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Preview SHA256: atum-8-2-coupe-20mm.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "CAD volume and envelope roundtrip: atum-8-2-coupe-20mm.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Named coloured solids: atum-8-2-coupe-20mm.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "STEP exists: cordon-principal-xt60-12awg-etude.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "STEP SHA256: cordon-principal-xt60-12awg-etude.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "FreeCAD exact final SHA256: cordon-principal-xt60-12awg-etude.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "STEP metadata consistent: cordon-principal-xt60-12awg-etude.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Preview exists: cordon-principal-xt60-12awg-etude.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Preview SHA256: cordon-principal-xt60-12awg-etude.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "CAD volume and envelope roundtrip: cordon-principal-xt60-12awg-etude.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Named coloured solids: cordon-principal-xt60-12awg-etude.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "STEP exists: terminaison-cosse-isolee-detail.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "STEP SHA256: terminaison-cosse-isolee-detail.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "FreeCAD exact final SHA256: terminaison-cosse-isolee-detail.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "STEP metadata consistent: terminaison-cosse-isolee-detail.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Preview exists: terminaison-cosse-isolee-detail.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Preview SHA256: terminaison-cosse-isolee-detail.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "CAD volume and envelope roundtrip: terminaison-cosse-isolee-detail.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Named coloured solids: terminaison-cosse-isolee-detail.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "STEP exists: ic5-device-reconstruction-detaillee.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "STEP SHA256: ic5-device-reconstruction-detaillee.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "FreeCAD exact final SHA256: ic5-device-reconstruction-detaillee.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "STEP metadata consistent: ic5-device-reconstruction-detaillee.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Preview exists: ic5-device-reconstruction-detaillee.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Preview SHA256: ic5-device-reconstruction-detaillee.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "CAD volume and envelope roundtrip: ic5-device-reconstruction-detaillee.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Named coloured solids: ic5-device-reconstruction-detaillee.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "IC5 body dimension estimates disclosed: ic5-device-reconstruction-detaillee.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "STEP exists: spektrum-spmxca510-queue-etude.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "STEP SHA256: spektrum-spmxca510-queue-etude.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "FreeCAD exact final SHA256: spektrum-spmxca510-queue-etude.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "STEP metadata consistent: spektrum-spmxca510-queue-etude.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Preview exists: spektrum-spmxca510-queue-etude.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Preview SHA256: spektrum-spmxca510-queue-etude.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "CAD volume and envelope roundtrip: spektrum-spmxca510-queue-etude.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Named coloured solids: spektrum-spmxca510-queue-etude.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "IC5 body dimension estimates disclosed: spektrum-spmxca510-queue-etude.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "STEP exists: cordon-principal-ic5-10awg-etude.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "STEP SHA256: cordon-principal-ic5-10awg-etude.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "FreeCAD exact final SHA256: cordon-principal-ic5-10awg-etude.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "STEP metadata consistent: cordon-principal-ic5-10awg-etude.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Preview exists: cordon-principal-ic5-10awg-etude.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Preview SHA256: cordon-principal-ic5-10awg-etude.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "CAD volume and envelope roundtrip: cordon-principal-ic5-10awg-etude.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Named coloured solids: cordon-principal-ic5-10awg-etude.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "IC5 body dimension estimates disclosed: cordon-principal-ic5-10awg-etude.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Continuous wire and termination: CP0_moins",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Installed wire fits below OEM initial length: CP0_moins",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Continuous wire and termination: CP0_plus",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Installed wire fits below OEM initial length: CP0_plus",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Independent sleeve and eyelet clearance probes present",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\README.md -> cordon-ic5-spektrum/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\README.md -> cosses-te-130191/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\README.md -> isolation-atum/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\README.md -> ../batterie/spektrum-g1-ic5/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\README.md -> notices/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\README.md -> integration.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\README.md -> cordon-ic5-spektrum/cotes.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\README.md -> revision-batterie-ic5.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\README.md -> 3D/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\README.md -> selection-active.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\README.md -> nomenclature.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\README.md -> verification.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\README.md -> variante-xt60-non-retenue.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\recherche-technique.md -> sources.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\recherche-technique.md -> assets.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\recherche-technique.md -> integration.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\revision-batterie-ic5.md -> notices/Spektrum-G1-G2-FAQ-original.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\revision-batterie-ic5.md -> notices/Spektrum-Firma100A-IC5-reference-original.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\revision-batterie-ic5.md -> sources.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\revision-batterie-ic5.md -> assets.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\revision-batterie-ic5.md -> integration.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\revision-batterie-ic5.md -> recherche-technique.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\variante-xt60-non-retenue.md -> notices/notice-cordon-principal-batterie-v3.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\3D\\README.md -> ../cordon-ic5-spektrum/3D/ic5-device-reconstruction-detaillee.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\3D\\README.md -> ../cordon-ic5-spektrum/3D/spektrum-spmxca510-queue-etude.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\3D\\README.md -> ../cordon-ic5-spektrum/3D/cordon-principal-ic5-10awg-etude.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\3D\\README.md -> ../prise-xt60h-m/3D/amass-xt60h-m-cordon-detaille.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\3D\\README.md -> ../fils-12awg/3D/bntechgo-12awg-rouge-680brins-detaille.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\3D\\README.md -> ../fils-12awg/3D/bntechgo-12awg-noir-680brins-detaille.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\3D\\README.md -> ../cosses-te-130191/3D/te-130191-nue-detaillee.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\3D\\README.md -> ../cosses-te-130191/3D/te-130191-sertissage-illustratif.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\3D\\README.md -> ../isolation-atum/3D/atum-8-2-coupe-20mm.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\3D\\README.md -> cordon-principal-xt60-12awg-etude.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\3D\\README.md -> terminaison-cosse-isolee-detail.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\3D\\README.md -> catalogue.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\3D\\README.md -> validation-freecad.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\3D\\README.md -> ../README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\cordon-ic5-spektrum\\README.md -> cotes.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\cordon-ic5-spektrum\\README.md -> ../notices/notice-cordon-principal-batterie-v3.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\cordon-ic5-spektrum\\README.md -> ../integration.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\cordon-ic5-spektrum\\README.md -> ../revision-batterie-ic5.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\cordon-ic5-spektrum\\README.md -> 3D/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\cordon-ic5-spektrum\\README.md -> ../references/Spektrum-SPMXCA510-original.jpg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\cordon-ic5-spektrum\\3D\\README.md -> ic5-device-reconstruction-detaillee.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\cordon-ic5-spektrum\\3D\\README.md -> ic5-device-reconstruction-detaillee.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\cordon-ic5-spektrum\\3D\\README.md -> ic5-device-reconstruction-detaillee.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\cordon-ic5-spektrum\\3D\\README.md -> spektrum-spmxca510-queue-etude.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\cordon-ic5-spektrum\\3D\\README.md -> spektrum-spmxca510-queue-etude.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\cordon-ic5-spektrum\\3D\\README.md -> spektrum-spmxca510-queue-etude.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\cordon-ic5-spektrum\\3D\\README.md -> cordon-principal-ic5-10awg-etude.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\cordon-ic5-spektrum\\3D\\README.md -> cordon-principal-ic5-10awg-etude.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\cordon-ic5-spektrum\\3D\\README.md -> cordon-principal-ic5-10awg-etude.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\cordon-ic5-spektrum\\3D\\README.md -> ../../integration.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\cosses-te-130191\\cotes.md -> ../cotes.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\cosses-te-130191\\integration.md -> ../integration.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\cosses-te-130191\\README.md -> ../recherche-technique.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\cosses-te-130191\\README.md -> cotes.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\cosses-te-130191\\README.md -> integration.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\cosses-te-130191\\README.md -> ../notices/notice-cordon-principal-batterie-v3.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\cosses-te-130191\\README.md -> ../notices/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\cosses-te-130191\\README.md -> sources.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\cosses-te-130191\\README.md -> 3D/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\cosses-te-130191\\README.md -> ../README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\cosses-te-130191\\README.md -> ../integration.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\cosses-te-130191\\3D\\README.md -> te-130191-nue-detaillee.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\cosses-te-130191\\3D\\README.md -> te-130191-nue-detaillee.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\cosses-te-130191\\3D\\README.md -> te-130191-nue-detaillee.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\cosses-te-130191\\3D\\README.md -> te-130191-sertissage-illustratif.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\cosses-te-130191\\3D\\README.md -> te-130191-sertissage-illustratif.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\cosses-te-130191\\3D\\README.md -> te-130191-sertissage-illustratif.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\cosses-te-130191\\3D\\README.md -> ../README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\fils-12awg\\cotes.md -> ../cotes.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\fils-12awg\\integration.md -> ../integration.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\fils-12awg\\README.md -> ../README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\fils-12awg\\README.md -> ../recherche-technique.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\fils-12awg\\README.md -> cotes.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\fils-12awg\\README.md -> integration.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\fils-12awg\\README.md -> ../notices/notice-cordon-principal-batterie-v3.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\fils-12awg\\README.md -> ../notices/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\fils-12awg\\README.md -> sources.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\fils-12awg\\README.md -> 3D/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\fils-12awg\\README.md -> ../README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\fils-12awg\\3D\\README.md -> bntechgo-12awg-rouge-680brins-detaille.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\fils-12awg\\3D\\README.md -> bntechgo-12awg-rouge-680brins-detaille.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\fils-12awg\\3D\\README.md -> bntechgo-12awg-rouge-680brins-detaille.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\fils-12awg\\3D\\README.md -> bntechgo-12awg-noir-680brins-detaille.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\fils-12awg\\3D\\README.md -> bntechgo-12awg-noir-680brins-detaille.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\fils-12awg\\3D\\README.md -> bntechgo-12awg-noir-680brins-detaille.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\fils-12awg\\3D\\README.md -> ../README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\isolation-atum\\cotes.md -> ../cotes.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\isolation-atum\\integration.md -> ../integration.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\isolation-atum\\README.md -> ../recherche-technique.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\isolation-atum\\README.md -> cotes.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\isolation-atum\\README.md -> integration.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\isolation-atum\\README.md -> ../notices/notice-cordon-principal-batterie-v3.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\isolation-atum\\README.md -> ../notices/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\isolation-atum\\README.md -> sources.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\isolation-atum\\README.md -> 3D/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\isolation-atum\\README.md -> ../README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\isolation-atum\\README.md -> ../integration.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\isolation-atum\\3D\\README.md -> atum-8-2-coupe-20mm.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\isolation-atum\\3D\\README.md -> atum-8-2-coupe-20mm.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\isolation-atum\\3D\\README.md -> atum-8-2-coupe-20mm.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\isolation-atum\\3D\\README.md -> ../README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\notices\\README.md -> notice-cordon-principal-batterie-v3.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\notices\\README.md -> TE-130191-fiche-via-LCSC-original.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\notices\\README.md -> TE-49935-notice-408-1542-via-Farnell-original.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\notices\\README.md -> TE-49935-notice-408-1542-via-TME-original.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\notices\\README.md -> AMASS-catalogue-XT-2026-original.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\notices\\README.md -> AMASS-XT60H-V1.2-original.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\notices\\README.md -> ../../cable-puissance-12awg/notices/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\notices\\README.md -> ../../gaine-thermoretractable/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\notices\\README.md -> ../assets.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\notices\\README.md -> Spektrum-G1-G2-FAQ-original.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\notices\\README.md -> Spektrum-Firma100A-IC5-reference-original.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\prise-xt60h-m\\cotes.md -> ../cotes.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\prise-xt60h-m\\integration.md -> ../integration.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\prise-xt60h-m\\README.md -> ../README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\prise-xt60h-m\\README.md -> ../recherche-technique.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\prise-xt60h-m\\README.md -> cotes.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\prise-xt60h-m\\README.md -> integration.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\prise-xt60h-m\\README.md -> ../notices/notice-cordon-principal-batterie-v3.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\prise-xt60h-m\\README.md -> ../notices/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\prise-xt60h-m\\README.md -> sources.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\prise-xt60h-m\\README.md -> 3D/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\prise-xt60h-m\\README.md -> ../README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\prise-xt60h-m\\3D\\README.md -> amass-xt60h-m-cordon-detaille.step",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\prise-xt60h-m\\3D\\README.md -> amass-xt60h-m-cordon-detaille.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\prise-xt60h-m\\3D\\README.md -> amass-xt60h-m-cordon-detaille.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\cordon-principal-batterie\\prise-xt60h-m\\3D\\README.md -> ../README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\batterie\\spektrum-g1-ic5\\README.md -> ../../cordon-principal-batterie/notices/notice-cordon-principal-batterie-v3.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\batterie\\spektrum-g1-ic5\\README.md -> ../../cordon-principal-batterie/revision-batterie-ic5.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\batterie\\spektrum-g1-ic5\\README.md -> ../../cordon-principal-batterie/references/SPMX50002S30H5-photo-1.jpg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Local link: Composants\\batterie\\spektrum-g1-ic5\\README.md -> selection.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "All final STEP eligible for Git inclusion",
+      "passed": true,
+      "detail": {
+        "returncode": 1,
+        "output": "",
+        "error": ""
+      }
+    },
+    {
+      "check": "Eight notice pages",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Notice SHA256",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "PDF all pages visually inspected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Page has readable text 1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Page layout stays within paper 1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Rendered page exists 1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Page has readable text 2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Page layout stays within paper 2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Rendered page exists 2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Page has readable text 3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Page layout stays within paper 3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Rendered page exists 3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Page has readable text 4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Page layout stays within paper 4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Rendered page exists 4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Page has readable text 5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Page layout stays within paper 5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Rendered page exists 5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Page has readable text 6",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Page layout stays within paper 6",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Rendered page exists 6",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Page has readable text 7",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Page layout stays within paper 7",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Rendered page exists 7",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Page has readable text 8",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Page layout stays within paper 8",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Rendered page exists 8",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "purchased": false,
+  "hardware_tested": false,
+  "GUI_tested": false,
+  "CADView_tested": false,
+  "remaining": [
+    "temperature/current and fuse coordination",
+    "select and verify separate IC5 charge lead",
+    "measure connector and wire lot",
+    "final chassis/camera/monitoring board phase"
+  ]
+}

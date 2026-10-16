@@ -1,0 +1,235 @@
+{
+  "checked_on": "2026-10-14",
+  "assets": [
+    {
+      "file": "sources-web/Molex-boitier.html",
+      "url": "https://www.molex.com/en-us/products/part-detail/0022552401",
+      "checked_on": "2026-10-14",
+      "original_unmodified": true,
+      "status": "unavailable",
+      "error": "The read operation timed out"
+    },
+    {
+      "file": "sources-web/Molex-contact.html",
+      "url": "https://www.molex.com/en-us/products/part-detail/0016020103",
+      "checked_on": "2026-10-14",
+      "original_unmodified": true,
+      "status": "unavailable",
+      "error": "The read operation timed out"
+    },
+    {
+      "file": "sources-web/Adafruit-fil-3175.html",
+      "url": "https://www.adafruit.com/product/3175",
+      "checked_on": "2026-10-14",
+      "original_unmodified": true,
+      "bytes": 83858,
+      "sha256": "5a428539bf08fce369daf7038c4eb3d23035e584aea13fd32df9481126d75d5e",
+      "final_url": "https://www.adafruit.com/product/3175",
+      "status": "downloaded"
+    },
+    {
+      "file": "sources-web/DigiKey-boitier.html",
+      "url": "https://www.digikey.fr/fr/products/detail/molex/0022552401/171975",
+      "checked_on": "2026-10-14",
+      "original_unmodified": true,
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "file": "sources-web/DigiKey-contact.html",
+      "url": "https://www.digikey.fr/fr/products/detail/molex/0016020103/115063",
+      "checked_on": "2026-10-14",
+      "original_unmodified": true,
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "file": "sources-web/Amazon-recherche-boitier.html",
+      "url": "https://www.amazon.fr/s?k=Molex+22-55-2401",
+      "checked_on": "2026-10-14",
+      "original_unmodified": true,
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "final_url": "https://www.amazon.fr/s?k=Molex+22-55-2401",
+      "status": "empty_response"
+    },
+    {
+      "file": "sources-web/Amazon-recherche-contact.html",
+      "url": "https://www.amazon.fr/s?k=Molex+16-02-0103",
+      "checked_on": "2026-10-14",
+      "original_unmodified": true,
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "final_url": "https://www.amazon.fr/s?k=Molex+16-02-0103",
+      "status": "empty_response"
+    },
+    {
+      "file": "sources-web/Amazon-recherche-fil.html",
+      "url": "https://www.amazon.fr/s?k=Adafruit+3175",
+      "checked_on": "2026-10-14",
+      "original_unmodified": true,
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "final_url": "https://www.amazon.fr/s?k=Adafruit+3175",
+      "status": "empty_response"
+    },
+    {
+      "file": "notices/Molex-boitier-fiche-originale-2015.pdf",
+      "url": "https://www.farnell.com/datasheets/1928032.pdf",
+      "checked_on": "2026-10-14",
+      "original_unmodified": true,
+      "bytes": 39972,
+      "sha256": "63b465087ad2a63c86ddb67a422faef4cf884bea1639a3c58d8a55a0cba05a28",
+      "final_url": "https://www.farnell.com/datasheets/1928032.pdf",
+      "status": "downloaded"
+    },
+    {
+      "file": "notices/Molex-contact-fiche-originale-2013.pdf",
+      "url": "https://www.farnell.com/datasheets/1711811.pdf",
+      "checked_on": "2026-10-14",
+      "original_unmodified": true,
+      "bytes": 40937,
+      "sha256": "bdbe41c17c3dfc7854d27b1c4cf8d58bc39be97d4b12402e831d170d39e5c596",
+      "final_url": "https://www.farnell.com/datasheets/1711811.pdf",
+      "status": "downloaded"
+    },
+    {
+      "file": "notices/Molex-boitier-plan-lien-source.pdf",
+      "url": "https://www.molex.com/pdm_docs/sd/022552401_sd.pdf",
+      "checked_on": "2026-10-14",
+      "original_unmodified": true,
+      "status": "unavailable",
+      "error": "The read operation timed out"
+    },
+    {
+      "file": "notices/Molex-SL-specification-lien-source.pdf",
+      "url": "https://www.molex.com/pdm_docs/ps/PS-70058.pdf",
+      "checked_on": "2026-10-14",
+      "original_unmodified": true,
+      "status": "unavailable",
+      "error": "The read operation timed out"
+    },
+    {
+      "file": "notices/Molex-boitier-plan-original.pdf",
+      "url": "https://www.molex.com/pdm_docs/sd/704500026_sd.pdf",
+      "checked_on": "2026-10-14",
+      "original_unmodified": true,
+      "status": "unavailable",
+      "error": "The read operation timed out"
+    },
+    {
+      "file": "notices/Molex-contact-plan-original.pdf",
+      "url": "https://www.molex.com/pdm_docs/sd/700580002_sd.pdf",
+      "checked_on": "2026-10-14",
+      "original_unmodified": true,
+      "status": "unavailable",
+      "error": "The read operation timed out"
+    },
+    {
+      "file": "notices/Molex-SL-specification-originale.pdf",
+      "url": "https://www.molex.com/pdm_docs/ps/700580001_ps.pdf",
+      "checked_on": "2026-10-14",
+      "original_unmodified": true,
+      "status": "unavailable",
+      "error": "The read operation timed out"
+    },
+    {
+      "file": "notices/Molex-sertissage-outil-original.pdf",
+      "url": "https://www.molex.com/pdm_docs/ats/ATS-638118700.pdf",
+      "checked_on": "2026-10-14",
+      "original_unmodified": true,
+      "status": "unavailable",
+      "error": "The read operation timed out"
+    },
+    {
+      "file": "sources-web/Pi-GPIO.html",
+      "url": "https://www.raspberrypi.com/documentation/computers/raspberry-pi.html",
+      "checked_on": "2026-10-14",
+      "original_unmodified": true,
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "file": "notices/Molex-boitier-vue-3D-originale.pdf",
+      "url": "https://www.farnell.com/datasheets/1991070.pdf",
+      "checked_on": "2026-10-14",
+      "original_unmodified": true,
+      "bytes": 177175,
+      "sha256": "d117a1edd66f4bdbda3455858a7d99d62f16bd3d9b5d2c913bc7424a55d95a8f",
+      "final_url": "https://www.farnell.com/datasheets/1991070.pdf",
+      "status": "downloaded"
+    },
+    {
+      "file": "3D/sources/Molex-22-55-2401-CAO-originale.zip",
+      "url": "https://www.farnell.com/cad/1991069.zip",
+      "checked_on": "2026-10-14",
+      "original_unmodified": true,
+      "bytes": 112534,
+      "sha256": "d657b000a23ee54a20058865ece388885227bcb7a76d2a19078bb31537083135",
+      "final_url": "https://www.farnell.com/cad/1991069.zip",
+      "status": "downloaded"
+    },
+    {
+      "file": "notices/Molex-boitier-plan-miroir-original.pdf",
+      "url": "https://4donline.ihs.com/images/VipMasterIC/IC/MOLE/MOLE-S-A0001020644/MOLE-S-A0001396478-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0",
+      "checked_on": "2026-10-14",
+      "original_unmodified": true,
+      "bytes": 90310,
+      "sha256": "b23088fc3288df45d65a3c70090b05a007bb6e5c1bcca509c0a81203ef0b9177",
+      "final_url": "https://4donline.ihs.com/images/VipMasterIC/IC/MOLE/MOLE-S-A0001020644/MOLE-S-A0001396478-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0",
+      "status": "downloaded"
+    },
+    {
+      "file": "notices/Molex-contact-plan-lien-source.pdf",
+      "url": "https://www.molex.com/pdm_docs/sd/016020103_sd.pdf",
+      "checked_on": "2026-10-14",
+      "original_unmodified": true,
+      "status": "unavailable",
+      "error": "The read operation timed out"
+    },
+    {
+      "file": "notices/Molex-boitier-plan-Farnell-original.pdf",
+      "url": "https://www.farnell.com/datasheets/1876149.pdf",
+      "checked_on": "2026-10-14",
+      "original_unmodified": true,
+      "bytes": 39972,
+      "sha256": "809cbd6c473495e5fa6f78e71eebcf90cf3bf93e69848346654b0908c6d70a4b",
+      "final_url": "https://www.farnell.com/datasheets/1876149.pdf",
+      "status": "downloaded"
+    },
+    {
+      "file": "sources-web/Farnell-contact.html",
+      "url": "https://uk.farnell.com/molex/16-02-0103/contact-idc-terminal/dp/1462595",
+      "checked_on": "2026-10-14",
+      "original_unmodified": true,
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "file": "notices/Molex-sertissage-notice-originale-revC.pdf",
+      "url": "https://www.official.cz/static/_dokumenty/9/4/0/0/ATS-638118700.pdf",
+      "checked_on": "2026-10-14",
+      "original_unmodified": true,
+      "bytes": 620960,
+      "sha256": "57bbff998b7a1751b330c25bc497a630985f807d02175b0c5ff677999458b38d",
+      "final_url": "https://www.official.cz/static/_dokumenty/9/4/0/0/ATS-638118700.pdf",
+      "status": "downloaded"
+    },
+    {
+      "file": "notices/Molex-SL-gamme-originale.pdf",
+      "url": "https://www.molex.com/content/dam/molex/molex-dot-com/en_us/pdf/datasheets/987651-0406.pdf",
+      "checked_on": "2026-10-14",
+      "original_unmodified": true,
+      "status": "unavailable",
+      "error": "The read operation timed out"
+    },
+    {
+      "file": "notices/Molex-sertissage-notice-actuelle-revE.pdf",
+      "url": "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/applicationtoolingspecificationpdf/638/63811/ATS-638118700-001.pdf",
+      "checked_on": "2026-10-14",
+      "original_unmodified": true,
+      "status": "unavailable",
+      "error": "The read operation timed out"
+    }
+  ]
+}

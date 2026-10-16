@@ -1,0 +1,161 @@
+{
+  "revision": "M1P",
+  "scope": "Prototype carrier fabrication only, bounded bench, no battery release",
+  "hardware_tested": false,
+  "source_sha256": {
+    "surveillance-2s-m1.kicad_sch": "1e786e35785a3f8f6c704ab9bca6906bb235ee9b95157d5027729eb73695af47",
+    "surveillance-2s-m1.kicad_pcb": "5718bafb44bbc3d06ca01ec1fb87dfc1a3a8de3496c4c755b7ff713b3b4e6a05"
+  },
+  "native_tracks": 521,
+  "power_tracks": 257,
+  "signal_tracks": 264,
+  "vias": 52,
+  "native_pth_count": 85,
+  "native_npth_count": 4,
+  "excellon_counts": {
+    "surveillance-2s-m1-NPTH.drl": 4,
+    "surveillance-2s-m1-PTH.drl": 85
+  },
+  "hole_centers_exact_match": true,
+  "edge_dimensions_mm": [
+    140.0,
+    75.0
+  ],
+  "files": [
+    {
+      "path": "gerbers/surveillance-2s-m1-B_Cu.gbr",
+      "bytes": 15014,
+      "sha256": "ce0967a52d55c38425382a67df819cc036041e3df7fccb5ad036fe99e56579f7"
+    },
+    {
+      "path": "gerbers/surveillance-2s-m1-B_Mask.gbr",
+      "bytes": 2377,
+      "sha256": "9b7c29e93b5e63661d12fa68d28bea367452ca0546c532062e0c6e76f5d90d54"
+    },
+    {
+      "path": "gerbers/surveillance-2s-m1-Edge_Cuts.gbr",
+      "bytes": 655,
+      "sha256": "92d9bbfffbedc42d679aa479c45438dfb79c8af9c3951ac51253f90742e588ab"
+    },
+    {
+      "path": "gerbers/surveillance-2s-m1-F_Cu.gbr",
+      "bytes": 28616,
+      "sha256": "95491b7d1dfa15c4b18829f9d0107f5dfcc6ed09aaf8cf2379d1889ca55d2a40"
+    },
+    {
+      "path": "gerbers/surveillance-2s-m1-F_Mask.gbr",
+      "bytes": 6173,
+      "sha256": "316529b01f7c53db28518860e32f127c8c36512f2c2872ecdf91d7db6e4f6da4"
+    },
+    {
+      "path": "gerbers/surveillance-2s-m1-F_Silkscreen.gbr",
+      "bytes": 49831,
+      "sha256": "679dffcc952e0f190faa4230d680462605d29235e93a6f224be4f559941b3d50"
+    },
+    {
+      "path": "gerbers/surveillance-2s-m1-job.gbrjob",
+      "bytes": 2440,
+      "sha256": "b9ea5d8b102e227deea8d4765bac423f1f3531eebe991dae166eca68d242d81e"
+    },
+    {
+      "path": "gerbers/surveillance-2s-m1-NPTH-drl_map.svg",
+      "bytes": 25542,
+      "sha256": "58ff853faf853b566e19a2689ea9b6db91cca0da026f18a4ba2639a0707a5eb4"
+    },
+    {
+      "path": "gerbers/surveillance-2s-m1-NPTH.drl",
+      "bytes": 393,
+      "sha256": "5bcdb9a66dcc93727578d26a0a9c04045b02bd65903a68f0377cebbbc5e41781"
+    },
+    {
+      "path": "gerbers/surveillance-2s-m1-PTH-drl_map.svg",
+      "bytes": 73308,
+      "sha256": "a4ff08cd2232dd33c9e819247855386a9353a4d1392a8a6aac970fdd4873f7c2"
+    },
+    {
+      "path": "gerbers/surveillance-2s-m1-PTH.drl",
+      "bytes": 1645,
+      "sha256": "bda1cb5bc2acd86a94000fbd2ab88b3b3ee483b3ceaa060b248efdb2cea08540"
+    },
+    {
+      "path": "netlist-controle-pcb.ipc",
+      "bytes": 14432,
+      "sha256": "a38412fff0be3fbafb19b041536c416030e6e3cd3b95dedad9d12ac72c5b2d54"
+    },
+    {
+      "path": "positions-montage.csv",
+      "bytes": 3051,
+      "sha256": "2991a5ce72ded8310552c9d83972697d19c2b94378fefe6778f14a9234f882bf"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3543,
+      "sha256": "372e532b9aecb1d4ec3f8d9eb1758f44ee6aaaec37ea8786f435841a7f7afeec"
+    }
+  ],
+  "commands": [
+    {
+      "args": [
+        "pcb",
+        "export",
+        "gerbers",
+        "--layers",
+        "F.Cu,B.Cu,F.Mask,B.Mask,F.SilkS,Edge.Cuts",
+        "--subtract-soldermask",
+        "--no-protel-ext",
+        "-o",
+        "C:\\Users\\thoma\\workspace\\Drone\\drone-v3\\Composants\\carte-surveillance-electrique\\fabrication\\gerbers\\",
+        "C:\\Users\\thoma\\workspace\\Drone\\drone-v3\\Composants\\carte-surveillance-electrique\\KiCad\\surveillance-2s-m1.kicad_pcb"
+      ],
+      "stdout": "Tracé en 'C:\\Users\\thoma\\workspace\\Drone\\drone-v3\\Composants\\carte-surveillance-electrique\\fabrication\\gerbers\\surveillance-2s-m1-F_Cu.gbr'\nTracé en 'C:\\Users\\thoma\\workspace\\Drone\\drone-v3\\Composants\\carte-surveillance-electrique\\fabrication\\gerbers\\surveillance-2s-m1-B_Cu.gbr'\nTracé en 'C:\\Users\\thoma\\workspace\\Drone\\drone-v3\\Composants\\carte-surveillance-electrique\\fabrication\\gerbers\\surveillance-2s-m1-F_Silkscreen.gbr'\nTracé en 'C:\\Users\\thoma\\workspace\\Drone\\drone-v3\\Composants\\carte-surveillance-electrique\\fabrication\\gerbers\\surveillance-2s-m1-F_Mask.gbr'\nTracé en 'C:\\Users\\thoma\\workspace\\Drone\\drone-v3\\Composants\\carte-surveillance-electrique\\fabrication\\gerbers\\surveillance-2s-m1-B_Mask.gbr'\nTracé en 'C:\\Users\\thoma\\workspace\\Drone\\drone-v3\\Composants\\carte-surveillance-electrique\\fabrication\\gerbers\\surveillance-2s-m1-Edge_Cuts.gbr'\n",
+      "stderr": "16:01:59: Error: Can't create registry key 'HKCU\\Software\\kicad-cli' (error 5: Acc�s refus�.)\n16:01:59: Error: Can't open registry key 'HKCU\\Software\\kicad-cli' (error 2: Le fichier sp�cifi� est introuvable.)\n"
+    },
+    {
+      "args": [
+        "pcb",
+        "export",
+        "drill",
+        "--excellon-separate-th",
+        "--excellon-units",
+        "mm",
+        "--generate-map",
+        "--map-format",
+        "svg",
+        "-o",
+        "C:\\Users\\thoma\\workspace\\Drone\\drone-v3\\Composants\\carte-surveillance-electrique\\fabrication\\gerbers\\",
+        "C:\\Users\\thoma\\workspace\\Drone\\drone-v3\\Composants\\carte-surveillance-electrique\\KiCad\\surveillance-2s-m1.kicad_pcb"
+      ],
+      "stdout": "Création fichier 'C:\\Users\\thoma\\workspace\\Drone\\drone-v3\\Composants\\carte-surveillance-electrique\\fabrication\\gerbers\\surveillance-2s-m1-PTH.drl'\nCréation fichier 'C:\\Users\\thoma\\workspace\\Drone\\drone-v3\\Composants\\carte-surveillance-electrique\\fabrication\\gerbers\\surveillance-2s-m1-NPTH.drl'\nCréation fichier 'C:\\Users\\thoma\\workspace\\Drone\\drone-v3\\Composants\\carte-surveillance-electrique\\fabrication\\gerbers\\surveillance-2s-m1-PTH-drl_map.svg'.\nCréation fichier 'C:\\Users\\thoma\\workspace\\Drone\\drone-v3\\Composants\\carte-surveillance-electrique\\fabrication\\gerbers\\surveillance-2s-m1-NPTH-drl_map.svg'.\nFini.\n",
+      "stderr": "16:02:01: Error: Can't create registry key 'HKCU\\Software\\kicad-cli' (error 5: Acc�s refus�.)\n16:02:01: Error: Can't open registry key 'HKCU\\Software\\kicad-cli' (error 2: Le fichier sp�cifi� est introuvable.)\n"
+    },
+    {
+      "args": [
+        "pcb",
+        "export",
+        "pos",
+        "--format",
+        "csv",
+        "--units",
+        "mm",
+        "--exclude-dnp",
+        "-o",
+        "C:\\Users\\thoma\\workspace\\Drone\\drone-v3\\Composants\\carte-surveillance-electrique\\fabrication\\positions-montage.csv",
+        "C:\\Users\\thoma\\workspace\\Drone\\drone-v3\\Composants\\carte-surveillance-electrique\\KiCad\\surveillance-2s-m1.kicad_pcb"
+      ],
+      "stdout": "Wrote position data to 'C:\\Users\\thoma\\workspace\\Drone\\drone-v3\\Composants\\carte-surveillance-electrique\\fabrication\\positions-montage.csv'.\n",
+      "stderr": "16:02:02: Error: Can't create registry key 'HKCU\\Software\\kicad-cli' (error 5: Acc�s refus�.)\n16:02:02: Error: Can't open registry key 'HKCU\\Software\\kicad-cli' (error 2: Le fichier sp�cifi� est introuvable.)\n"
+    },
+    {
+      "args": [
+        "pcb",
+        "export",
+        "ipcd356",
+        "-o",
+        "C:\\Users\\thoma\\workspace\\Drone\\drone-v3\\Composants\\carte-surveillance-electrique\\fabrication\\netlist-controle-pcb.ipc",
+        "C:\\Users\\thoma\\workspace\\Drone\\drone-v3\\Composants\\carte-surveillance-electrique\\KiCad\\surveillance-2s-m1.kicad_pcb"
+      ],
+      "stdout": "Le fichier IPC-D-356 a été créé avec succès\n",
+      "stderr": "16:02:02: Error: Can't create registry key 'HKCU\\Software\\kicad-cli' (error 5: Acc�s refus�.)\n16:02:02: Error: Can't open registry key 'HKCU\\Software\\kicad-cli' (error 2: Le fichier sp�cifi� est introuvable.)\n"
+    }
+  ]
+}

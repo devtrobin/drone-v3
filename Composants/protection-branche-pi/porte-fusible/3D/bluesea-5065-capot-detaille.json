@@ -1,0 +1,93 @@
+{
+  "file": "bluesea-5065-capot-detaille.step",
+  "title": "5065 | capot avec oreille",
+  "generated_on": "2026-10-14",
+  "unit": "mm",
+  "cadquery_version": "2.8.0",
+  "coordinate_system": "Holder:X largeur,Y insertion, Z epaisseur; cables vers-Y. Fusibleisole:Zhauteur, centreXY; montage rotationX-90,Y+4,Z+7.5.",
+  "bytes": 175837,
+  "sha256": "dd43792bb7179d728dd18cb4421068961de585502b28ec40e35c878f9f935c58",
+  "native_vendor_cad": false,
+  "hardware_measured": false,
+  "is_custom_project_design": false,
+  "published_nominal": [
+    "FusibleATO:19.1x5.1x18.8; lames4.1x0.65; depassement6.5; span14.5 selonfiche2022.",
+    "5065: unATO/ATC, fils12AWG, maximum30A; fusible vendu separement."
+  ],
+  "estimates_and_limitations": [
+    "Reconstruction estimee: pas de plan constructeur ni STEP natif du5065 obtenus.",
+    "Enveloppe corps/oreille37.5x38x15 proposee; taille38x25x15 d un marchand ambiguë, nongarantie.",
+    "Capot creux, languettes, joint et contacts inspiresde photo, formes/epaisseurs/matieres aconfirmer.",
+    "Les deux fils12AWG sortentdu memecote; longueur representee100mm horscorps et denudage8mm illustratifs.",
+    "19brins de rayon0.235 parfil: aire3.30mm2 approximant12AWG, nombre debrins reel nonpublie.",
+    "Compressiondes joints estune poseCAO estimee, nequalifiepas etancheite.",
+    "Troude fixationmodele5.0: estimation, mesureapproxPKYS3/16in, aucunplan deperçage garanti.",
+    "Sans cosses/vis au chassis; fils libres sont leurs terminaisons illustrees, pas uncable interrompu."
+  ],
+  "parameters": {
+    "holder_body_and_tab_estimated_mm": [
+      37.5,
+      38,
+      15
+    ],
+    "wire_gauge_published": "12AWG",
+    "representative_outer_wire_diameter_mm": 4.3,
+    "model_external_lead_length_mm": 100,
+    "model_stripped_end_mm": 8,
+    "representative_strands": 19,
+    "representative_strand_radius_mm": 0.235,
+    "mount_hole_estimated_mm": 5.0,
+    "mount_hole_centre_estimated_mm": [
+      -21.03,
+      22.53
+    ],
+    "native_vendor_dimensions_obtained": false
+  },
+  "source_pages": [
+    "Littelfuse ATOaftermarket2022 p2; catalogue2013 PDFp8",
+    "BlueSea5065 photoAmazonB004ZIUA62",
+    "PKYSmesures2017; marchandSkysat38x25x15 non fabricant"
+  ],
+  "bounds_mm": {
+    "xmin": -25.0,
+    "xmax": 12.5000001,
+    "ymin": -3.5000001,
+    "ymax": 26.5000001,
+    "zmin": -1e-07,
+    "zmax": 15.0000001
+  },
+  "validation": {
+    "valid_after_reimport": true,
+    "solids": 1,
+    "faces": 43,
+    "colors": 1,
+    "volume_relative_error": 3.9431578096455226e-15,
+    "volume_relative_error_limit": 0.0001,
+    "volume_before_mm3": 2652.4906116625657,
+    "volume_after_mm3": 2652.4906116625552,
+    "adaptive_volume_tolerance": 1e-09,
+    "bbox_error_mm": 3.552713678800501e-15,
+    "bbox_error_limit_mm": 0.01,
+    "void_and_material_probes": [],
+    "elapsed_seconds": 0.2499723999935668,
+    "pairwise_material_overlaps": []
+  },
+  "parts": [
+    {
+      "name": "Capot_noir_5065_avec_oreille_estime",
+      "color_linear_rgb": [
+        0.015,
+        0.017,
+        0.02
+      ],
+      "solids": 1
+    }
+  ],
+  "preview": {
+    "file": "bluesea-5065-capot-detaille.png",
+    "sha256": "c9097f070a91dc2fcbf21a97883a132f6ec89170df4de960fa7331a25c5ae22a"
+  },
+  "generator": "tools/build_pi_fuse_step.py",
+  "generator_sha256": "7d3ac669195256da8ab3d86dc81e547b787652c79deb87a27ca80193651f7f60",
+  "appearance_note": "Fusible reel translucide brun; export brun opaque. Aucune simulation optique ou electrique."
+}

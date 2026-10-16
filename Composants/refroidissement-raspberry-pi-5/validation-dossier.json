@@ -1,0 +1,22 @@
+{
+  "checked_on": "2026-10-14",
+  "all_passed": true,
+  "STEP_models": 4,
+  "FreeCAD_headless_valid": true,
+  "STEP_not_ignored": true,
+  "archival_files_hash_verified": 24,
+  "PDF_source_files": 5,
+  "unique_PDF_source_contents": 2,
+  "notice_pages": 6,
+  "notice_visual_review_complete": true,
+  "local_links_verified": 163,
+  "cable_continuity_verified": true,
+  "source_dimensions_distinguished_from_estimates": true,
+  "Amazon_FR_offer_observed": true,
+  "price_displayed_EUR": 6.99,
+  "purchase_made": false,
+  "shipping_final": false,
+  "hardware_tested": false,
+  "installed_fit_verified": false,
+  "video1080p60_qualified": false
+}

@@ -1,0 +1,8276 @@
+{
+  "model": "InnoMaker U20CAM-4M",
+  "generated_on": "2026-10-12",
+  "unit": "mm",
+  "format": "STEP coloured assembly B-rep",
+  "hardware_measured": false,
+  "vendor_native_cad": false,
+  "file": "camera-u20cam-4m-detaillee.step",
+  "sha256": "e191e3e3c775d635b87ba70816ee22189a3d356d84cb21e81d0cfd232cb50b6c",
+  "generator": "../../../tools/build_camera_step.py",
+  "generator_sha256": "5321f7c94195e139d6b01b2687edd272cff6cf4b9b0e368a0cff626017be170e",
+  "parts": 817,
+  "solids": 1227,
+  "colour_records": 13,
+  "bounds_mm": {
+    "xmin": -2.22044604925e-16,
+    "xmax": 32.0,
+    "ymin": -2.22044604925e-16,
+    "ymax": 32.171794871795,
+    "zmin": -4.45,
+    "zmax": 8.23
+  },
+  "validation": {
+    "reimport_valid": true,
+    "volume_relative_error": 4.031805661542243e-14,
+    "bbox_error_mm": 1.2789769243681803e-13,
+    "colours_present": true
+  },
+  "confirmed_dimensions": {
+    "pcb_xy_mm": [
+      32,
+      32
+    ],
+    "mounting_holes_diameter_mm": 2.2,
+    "lens_mount_nominal_spacing_mm": 18,
+    "lens_thread_nominal": "M8.5 x 0.25"
+  },
+  "estimates": {
+    "pcb_thickness_mm": 1.2,
+    "mount_hole_centres_mm": [
+      [
+        2,
+        2
+      ],
+      [
+        30,
+        2
+      ],
+      [
+        2,
+        30
+      ],
+      [
+        30,
+        30
+      ]
+    ],
+    "lens_mount_centres_mm": [
+      [
+        7,
+        16
+      ],
+      [
+        25,
+        16
+      ]
+    ],
+    "lens_front_z_mm": 8.23,
+    "connector_rear_z_mm": -4.45,
+    "lens_frame_xy_mm": [
+      13.2,
+      13.2
+    ],
+    "lens_cap_diameter_mm": 9.9,
+    "lens_glass_diameter_mm": 3.24
+  },
+  "limitations": [
+    "No internal copper reconstructed",
+    "Visible traces approximated from photos, not an electrical netlist",
+    "No optical prescription or internal glass stack available",
+    "Small package types/counts and unreadable chip markings not identified electrically",
+    "No photorealistic textures in STEP; solid colours and geometric details only",
+    "Cable excluded from module STEP; 1m cable shape not a product dimension",
+    "PCB thickness, height, pitch of connector and hole positions require physical measurements"
+  ],
+  "reference_photos": [
+    {
+      "file": "../photos/01-face-avant.jpg",
+      "sha256": "367fa91836cca8acd0834728dcbf78f86a8522177993fb4cb3dc47a7153003d3"
+    },
+    {
+      "file": "../photos/02-profil-objectif.jpg",
+      "sha256": "91785c6e63074c66f95249289f4b9ab3a63a7879370010f0caf20a8027dbebda"
+    },
+    {
+      "file": "../photos/03-gabarit-32mm.jpg",
+      "sha256": "a23f95425392bb66db5b42fc739f984cbb89b062e3061958174cd86e980e8904"
+    },
+    {
+      "file": "../photos/04-verso-utilisateur.jpg",
+      "sha256": "550ed811fdae6fc5a5649619cf3b9680a6bef726695ac30f7fdeb872fe35879d"
+    }
+  ],
+  "part_manifest": [
+    {
+      "name": "PCB_FR4_32x32",
+      "rgb": [
+        0.46,
+        0.37,
+        0.23
+      ],
+      "basis": "published_xy_estimated_thickness_holes_positions",
+      "solids": 1
+    },
+    {
+      "name": "Front_black_solder_mask",
+      "rgb": [
+        0.13,
+        0.14,
+        0.15
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_black_solder_mask",
+      "rgb": [
+        0.13,
+        0.14,
+        0.15
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Mounting_pad_front_0",
+      "rgb": [
+        0.78,
+        0.6,
+        0.29
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Mounting_pad_rear_0",
+      "rgb": [
+        0.78,
+        0.6,
+        0.29
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Mounting_hole_barrel_0",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Mounting_pad_front_1",
+      "rgb": [
+        0.78,
+        0.6,
+        0.29
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Mounting_pad_rear_1",
+      "rgb": [
+        0.78,
+        0.6,
+        0.29
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Mounting_hole_barrel_1",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Mounting_pad_front_2",
+      "rgb": [
+        0.78,
+        0.6,
+        0.29
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Mounting_pad_rear_2",
+      "rgb": [
+        0.78,
+        0.6,
+        0.29
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Mounting_hole_barrel_2",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Mounting_pad_front_3",
+      "rgb": [
+        0.78,
+        0.6,
+        0.29
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Mounting_pad_rear_3",
+      "rgb": [
+        0.78,
+        0.6,
+        0.29
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Mounting_hole_barrel_3",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_front_000",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_rear_000",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_barrel_000",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_front_001",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_rear_001",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_barrel_001",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_front_002",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_rear_002",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_barrel_002",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_front_003",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_rear_003",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_barrel_003",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_front_004",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_rear_004",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_barrel_004",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_front_005",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_rear_005",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_barrel_005",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_front_006",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_rear_006",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_barrel_006",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_front_007",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_rear_007",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_barrel_007",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_front_008",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_rear_008",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_barrel_008",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_front_009",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_rear_009",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_barrel_009",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_front_010",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_rear_010",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_barrel_010",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_front_011",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_rear_011",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_barrel_011",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_front_012",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_rear_012",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_barrel_012",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_front_013",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_rear_013",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_barrel_013",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_front_014",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_rear_014",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_barrel_014",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_front_015",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_rear_015",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_barrel_015",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_front_016",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_rear_016",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_barrel_016",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_front_017",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_rear_017",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_barrel_017",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_front_018",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_rear_018",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_barrel_018",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_front_019",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_rear_019",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_barrel_019",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_front_020",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_rear_020",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_barrel_020",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_front_021",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_rear_021",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_barrel_021",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_front_022",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_rear_022",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_barrel_022",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_front_023",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_rear_023",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_barrel_023",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_front_024",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_rear_024",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_barrel_024",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_front_025",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_rear_025",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_barrel_025",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_front_026",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_rear_026",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_barrel_026",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_front_027",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_rear_027",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_barrel_027",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_front_028",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_rear_028",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_barrel_028",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_front_029",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_rear_029",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_barrel_029",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_front_030",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_rear_030",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_barrel_030",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_front_031",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_rear_031",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_barrel_031",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_front_032",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_rear_032",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_barrel_032",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_front_033",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_rear_033",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_barrel_033",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_front_034",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_rear_034",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_barrel_034",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_front_035",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_rear_035",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_barrel_035",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_front_036",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_rear_036",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_barrel_036",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_front_037",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_rear_037",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_barrel_037",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_front_038",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_rear_038",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_barrel_038",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_front_039",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_rear_039",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_barrel_039",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_front_040",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_rear_040",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_barrel_040",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_front_041",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_rear_041",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_barrel_041",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_front_042",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_rear_042",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_barrel_042",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_front_043",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_rear_043",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_barrel_043",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_front_044",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_rear_044",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_barrel_044",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_front_045",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_rear_045",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_barrel_045",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_front_046",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_rear_046",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_barrel_046",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_front_047",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_rear_047",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_barrel_047",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_front_048",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_rear_048",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_barrel_048",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_front_049",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_rear_049",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_barrel_049",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_front_050",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_rear_050",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_barrel_050",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_front_051",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_rear_051",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_barrel_051",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_front_052",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_rear_052",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_barrel_052",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_front_053",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_rear_053",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_barrel_053",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_front_054",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_rear_054",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_barrel_054",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_front_055",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_rear_055",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_barrel_055",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_front_056",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_rear_056",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_barrel_056",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_front_057",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_rear_057",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_barrel_057",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_front_058",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_rear_058",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_barrel_058",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_front_059",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_rear_059",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_barrel_059",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_front_060",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_rear_060",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_barrel_060",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_front_061",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_rear_061",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_barrel_061",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_front_062",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_rear_062",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_barrel_062",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_front_063",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_rear_063",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_barrel_063",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_front_064",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_rear_064",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_barrel_064",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_front_065",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_rear_065",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_barrel_065",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_front_066",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_rear_066",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_barrel_066",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_front_067",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_rear_067",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_barrel_067",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_front_068",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_rear_068",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_barrel_068",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_front_069",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_rear_069",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_barrel_069",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_front_070",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_rear_070",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_barrel_070",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_front_071",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_rear_071",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_barrel_071",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_front_072",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_rear_072",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_barrel_072",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_front_073",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_rear_073",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_barrel_073",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_front_074",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_rear_074",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_barrel_074",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_front_075",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_rear_075",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_barrel_075",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_front_076",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_rear_076",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_barrel_076",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_front_077",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_rear_077",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_barrel_077",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_front_078",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_rear_078",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_barrel_078",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_front_079",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_rear_079",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_barrel_079",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_front_080",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_rear_080",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_barrel_080",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_front_081",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_rear_081",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_barrel_081",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_front_082",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_rear_082",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_barrel_082",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_front_083",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_rear_083",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_barrel_083",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_front_084",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_rear_084",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_barrel_084",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_front_085",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_rear_085",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_barrel_085",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_front_086",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_rear_086",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_barrel_086",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_front_087",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_rear_087",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_barrel_087",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_front_088",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_rear_088",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_barrel_088",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_front_089",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_rear_089",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_barrel_089",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_front_090",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_rear_090",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_barrel_090",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_front_091",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_rear_091",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_barrel_091",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_front_092",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_rear_092",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_barrel_092",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_front_093",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_rear_093",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_barrel_093",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_front_094",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_rear_094",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_barrel_094",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_front_095",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_rear_095",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_barrel_095",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_front_096",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_rear_096",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_barrel_096",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_front_097",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_rear_097",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_barrel_097",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_front_098",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_rear_098",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_barrel_098",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_front_099",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_rear_099",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_barrel_099",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_front_100",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_rear_100",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_barrel_100",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_front_101",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_rear_101",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_barrel_101",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_front_102",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_rear_102",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_barrel_102",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_front_103",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_rear_103",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_barrel_103",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_front_104",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_rear_104",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_barrel_104",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_front_105",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_rear_105",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_barrel_105",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_front_106",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_rear_106",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_barrel_106",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_front_107",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_rear_107",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_barrel_107",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_front_108",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_annulus_rear_108",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Via_barrel_108",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Front_masked_trace_0_0",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "visible_path_approximation_no_electrical_connectivity",
+      "solids": 9
+    },
+    {
+      "name": "Front_masked_trace_0_1",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "visible_path_approximation_no_electrical_connectivity",
+      "solids": 9
+    },
+    {
+      "name": "Front_masked_trace_0_2",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "visible_path_approximation_no_electrical_connectivity",
+      "solids": 9
+    },
+    {
+      "name": "Front_masked_trace_1_0",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "visible_path_approximation_no_electrical_connectivity",
+      "solids": 9
+    },
+    {
+      "name": "Front_masked_trace_1_1",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "visible_path_approximation_no_electrical_connectivity",
+      "solids": 9
+    },
+    {
+      "name": "Front_masked_trace_1_2",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "visible_path_approximation_no_electrical_connectivity",
+      "solids": 9
+    },
+    {
+      "name": "Front_masked_trace_2_0",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "visible_path_approximation_no_electrical_connectivity",
+      "solids": 5
+    },
+    {
+      "name": "Front_masked_trace_3_0",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "visible_path_approximation_no_electrical_connectivity",
+      "solids": 9
+    },
+    {
+      "name": "Front_masked_trace_3_1",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "visible_path_approximation_no_electrical_connectivity",
+      "solids": 9
+    },
+    {
+      "name": "Front_masked_trace_3_2",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "visible_path_approximation_no_electrical_connectivity",
+      "solids": 9
+    },
+    {
+      "name": "Front_masked_trace_4_0",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "visible_path_approximation_no_electrical_connectivity",
+      "solids": 11
+    },
+    {
+      "name": "Front_masked_trace_5_0",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "visible_path_approximation_no_electrical_connectivity",
+      "solids": 5
+    },
+    {
+      "name": "Front_masked_trace_6_0",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "visible_path_approximation_no_electrical_connectivity",
+      "solids": 7
+    },
+    {
+      "name": "Front_masked_trace_7_0",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "visible_path_approximation_no_electrical_connectivity",
+      "solids": 11
+    },
+    {
+      "name": "Front_masked_trace_7_1",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "visible_path_approximation_no_electrical_connectivity",
+      "solids": 11
+    },
+    {
+      "name": "Front_masked_trace_7_2",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "visible_path_approximation_no_electrical_connectivity",
+      "solids": 11
+    },
+    {
+      "name": "Front_masked_trace_8_0",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "visible_path_approximation_no_electrical_connectivity",
+      "solids": 5
+    },
+    {
+      "name": "Front_masked_trace_8_1",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "visible_path_approximation_no_electrical_connectivity",
+      "solids": 5
+    },
+    {
+      "name": "Front_masked_trace_8_2",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "visible_path_approximation_no_electrical_connectivity",
+      "solids": 5
+    },
+    {
+      "name": "Front_masked_trace_9_0",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "visible_path_approximation_no_electrical_connectivity",
+      "solids": 5
+    },
+    {
+      "name": "Front_masked_trace_9_1",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "visible_path_approximation_no_electrical_connectivity",
+      "solids": 5
+    },
+    {
+      "name": "Front_masked_trace_9_2",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "visible_path_approximation_no_electrical_connectivity",
+      "solids": 5
+    },
+    {
+      "name": "Front_masked_trace_10_0",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "visible_path_approximation_no_electrical_connectivity",
+      "solids": 5
+    },
+    {
+      "name": "Front_gold_test_land",
+      "rgb": [
+        0.78,
+        0.6,
+        0.29
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "USB_through_pad_front_0",
+      "rgb": [
+        0.78,
+        0.6,
+        0.29
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "USB_solder_front_0",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "USB_through_pad_front_1",
+      "rgb": [
+        0.78,
+        0.6,
+        0.29
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "USB_solder_front_1",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "USB_through_pad_front_2",
+      "rgb": [
+        0.78,
+        0.6,
+        0.29
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "USB_solder_front_2",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "USB_through_pad_front_3",
+      "rgb": [
+        0.78,
+        0.6,
+        0.29
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "USB_solder_front_3",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "USB_through_pad_front_4",
+      "rgb": [
+        0.78,
+        0.6,
+        0.29
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "USB_solder_front_4",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Lens_holder_square_and_mounting_ears",
+      "rgb": [
+        0.125,
+        0.13,
+        0.135
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Lens_holder_silkscreen",
+      "rgb": [
+        0.88,
+        0.88,
+        0.82
+      ],
+      "basis": "visible_silkscreen_estimated",
+      "solids": 1
+    },
+    {
+      "name": "Lens_mount_boss_7",
+      "rgb": [
+        0.125,
+        0.13,
+        0.135
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Lens_fixing_screw_shank_7",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Lens_fixing_slotted_head_7",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Lens_screw_slot_dark_floor_7",
+      "rgb": [
+        0.028,
+        0.031,
+        0.034
+      ],
+      "basis": "visual_recess_contrast",
+      "solids": 1
+    },
+    {
+      "name": "Rear_mount_screw_head_7",
+      "rgb": [
+        0.125,
+        0.13,
+        0.135
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_mount_washer_7",
+      "rgb": [
+        0.78,
+        0.6,
+        0.29
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Lens_mount_boss_25",
+      "rgb": [
+        0.125,
+        0.13,
+        0.135
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Lens_fixing_screw_shank_25",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Lens_fixing_slotted_head_25",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Lens_screw_slot_dark_floor_25",
+      "rgb": [
+        0.028,
+        0.031,
+        0.034
+      ],
+      "basis": "visual_recess_contrast",
+      "solids": 1
+    },
+    {
+      "name": "Rear_mount_screw_head_25",
+      "rgb": [
+        0.125,
+        0.13,
+        0.135
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_mount_washer_25",
+      "rgb": [
+        0.78,
+        0.6,
+        0.29
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "M8_5_lens_shank",
+      "rgb": [
+        0.125,
+        0.13,
+        0.135
+      ],
+      "basis": "published_nominal_thread_diameter_estimated_height",
+      "solids": 1
+    },
+    {
+      "name": "Lens_lower_collar",
+      "rgb": [
+        0.125,
+        0.13,
+        0.135
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Lens_focus_knurled_barrel_48_grooves",
+      "rgb": [
+        0.125,
+        0.13,
+        0.135
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Lens_collar_rim_5.36",
+      "rgb": [
+        0.18,
+        0.19,
+        0.2
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Lens_collar_rim_7.32",
+      "rgb": [
+        0.18,
+        0.19,
+        0.2
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Lens_front_scalloped_bezel",
+      "rgb": [
+        0.125,
+        0.13,
+        0.135
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Lens_glass_retaining_ring",
+      "rgb": [
+        0.18,
+        0.19,
+        0.2
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Front_optical_glass_convex",
+      "rgb": [
+        0.075,
+        0.18,
+        0.34
+      ],
+      "basis": "visual_optical_surface_not_optical_prescription",
+      "solids": 1
+    },
+    {
+      "name": "Anti_reflection_coating_ring",
+      "rgb": [
+        0.19,
+        0.14,
+        0.33
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Front_model_marking",
+      "rgb": [
+        0.78,
+        0.6,
+        0.29
+      ],
+      "basis": "visible_marking_estimated",
+      "solids": 7
+    },
+    {
+      "name": "Front_revision_marking",
+      "rgb": [
+        0.88,
+        0.88,
+        0.82
+      ],
+      "basis": "visible_marking_estimated",
+      "solids": 1
+    },
+    {
+      "name": "Rear_R_0_body",
+      "rgb": [
+        0.18,
+        0.19,
+        0.2
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_R_0_terminal_0",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_R_0_solder_0",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_R_0_terminal_1",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_R_0_solder_1",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_1_body",
+      "rgb": [
+        0.6,
+        0.52,
+        0.39
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_1_terminal_0",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_1_solder_0",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_1_terminal_1",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_1_solder_1",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_2_body",
+      "rgb": [
+        0.6,
+        0.52,
+        0.39
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_2_terminal_0",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_2_solder_0",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_2_terminal_1",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_2_solder_1",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_R_3_body",
+      "rgb": [
+        0.18,
+        0.19,
+        0.2
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_R_3_terminal_0",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_R_3_solder_0",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_R_3_terminal_1",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_R_3_solder_1",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_4_body",
+      "rgb": [
+        0.6,
+        0.52,
+        0.39
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_4_terminal_0",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_4_solder_0",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_4_terminal_1",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_4_solder_1",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_5_body",
+      "rgb": [
+        0.6,
+        0.52,
+        0.39
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_5_terminal_0",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_5_solder_0",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_5_terminal_1",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_5_solder_1",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_R_6_body",
+      "rgb": [
+        0.18,
+        0.19,
+        0.2
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_R_6_terminal_0",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_R_6_solder_0",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_R_6_terminal_1",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_R_6_solder_1",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_7_body",
+      "rgb": [
+        0.6,
+        0.52,
+        0.39
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_7_terminal_0",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_7_solder_0",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_7_terminal_1",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_7_solder_1",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_8_body",
+      "rgb": [
+        0.6,
+        0.52,
+        0.39
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_8_terminal_0",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_8_solder_0",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_8_terminal_1",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_8_solder_1",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_R_9_body",
+      "rgb": [
+        0.18,
+        0.19,
+        0.2
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_R_9_terminal_0",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_R_9_solder_0",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_R_9_terminal_1",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_R_9_solder_1",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_10_body",
+      "rgb": [
+        0.6,
+        0.52,
+        0.39
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_10_terminal_0",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_10_solder_0",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_10_terminal_1",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_10_solder_1",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_11_body",
+      "rgb": [
+        0.6,
+        0.52,
+        0.39
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_11_terminal_0",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_11_solder_0",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_11_terminal_1",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_11_solder_1",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_R_12_body",
+      "rgb": [
+        0.18,
+        0.19,
+        0.2
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_R_12_terminal_0",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_R_12_solder_0",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_R_12_terminal_1",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_R_12_solder_1",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_13_body",
+      "rgb": [
+        0.6,
+        0.52,
+        0.39
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_13_terminal_0",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_13_solder_0",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_13_terminal_1",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_13_solder_1",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_14_body",
+      "rgb": [
+        0.6,
+        0.52,
+        0.39
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_14_terminal_0",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_14_solder_0",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_14_terminal_1",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_14_solder_1",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_R_15_body",
+      "rgb": [
+        0.18,
+        0.19,
+        0.2
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_R_15_terminal_0",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_R_15_solder_0",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_R_15_terminal_1",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_R_15_solder_1",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_16_body",
+      "rgb": [
+        0.6,
+        0.52,
+        0.39
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_16_terminal_0",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_16_solder_0",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_16_terminal_1",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_16_solder_1",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_17_body",
+      "rgb": [
+        0.6,
+        0.52,
+        0.39
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_17_terminal_0",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_17_solder_0",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_17_terminal_1",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_17_solder_1",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_R_18_body",
+      "rgb": [
+        0.18,
+        0.19,
+        0.2
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_R_18_terminal_0",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_R_18_solder_0",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_R_18_terminal_1",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_R_18_solder_1",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_19_body",
+      "rgb": [
+        0.6,
+        0.52,
+        0.39
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_19_terminal_0",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_19_solder_0",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_19_terminal_1",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_19_solder_1",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_20_body",
+      "rgb": [
+        0.6,
+        0.52,
+        0.39
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_20_terminal_0",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_20_solder_0",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_20_terminal_1",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_20_solder_1",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_R_21_body",
+      "rgb": [
+        0.18,
+        0.19,
+        0.2
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_R_21_terminal_0",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_R_21_solder_0",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_R_21_terminal_1",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_R_21_solder_1",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_22_body",
+      "rgb": [
+        0.6,
+        0.52,
+        0.39
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_22_terminal_0",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_22_solder_0",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_22_terminal_1",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_22_solder_1",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_23_body",
+      "rgb": [
+        0.6,
+        0.52,
+        0.39
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_23_terminal_0",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_23_solder_0",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_23_terminal_1",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_23_solder_1",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_R_24_body",
+      "rgb": [
+        0.18,
+        0.19,
+        0.2
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_R_24_terminal_0",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_R_24_solder_0",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_R_24_terminal_1",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_R_24_solder_1",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_25_body",
+      "rgb": [
+        0.6,
+        0.52,
+        0.39
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_25_terminal_0",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_25_solder_0",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_25_terminal_1",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_25_solder_1",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_26_body",
+      "rgb": [
+        0.6,
+        0.52,
+        0.39
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_26_terminal_0",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_26_solder_0",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_26_terminal_1",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_26_solder_1",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_R_27_body",
+      "rgb": [
+        0.18,
+        0.19,
+        0.2
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_R_27_terminal_0",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_R_27_solder_0",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_R_27_terminal_1",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_R_27_solder_1",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_28_body",
+      "rgb": [
+        0.6,
+        0.52,
+        0.39
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_28_terminal_0",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_28_solder_0",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_28_terminal_1",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_28_solder_1",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_29_body",
+      "rgb": [
+        0.6,
+        0.52,
+        0.39
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_29_terminal_0",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_29_solder_0",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_29_terminal_1",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_29_solder_1",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_R_30_body",
+      "rgb": [
+        0.18,
+        0.19,
+        0.2
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_R_30_terminal_0",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_R_30_solder_0",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_R_30_terminal_1",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_R_30_solder_1",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_31_body",
+      "rgb": [
+        0.6,
+        0.52,
+        0.39
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_31_terminal_0",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_31_solder_0",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_31_terminal_1",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_31_solder_1",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_32_body",
+      "rgb": [
+        0.6,
+        0.52,
+        0.39
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_32_terminal_0",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_32_solder_0",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_32_terminal_1",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_32_solder_1",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_R_33_body",
+      "rgb": [
+        0.18,
+        0.19,
+        0.2
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_R_33_terminal_0",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_R_33_solder_0",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_R_33_terminal_1",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_R_33_solder_1",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_34_body",
+      "rgb": [
+        0.6,
+        0.52,
+        0.39
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_34_terminal_0",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_34_solder_0",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_34_terminal_1",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_34_solder_1",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_35_body",
+      "rgb": [
+        0.6,
+        0.52,
+        0.39
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_35_terminal_0",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_35_solder_0",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_35_terminal_1",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_35_solder_1",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_R_36_body",
+      "rgb": [
+        0.18,
+        0.19,
+        0.2
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_R_36_terminal_0",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_R_36_solder_0",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_R_36_terminal_1",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_R_36_solder_1",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_37_body",
+      "rgb": [
+        0.6,
+        0.52,
+        0.39
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_37_terminal_0",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_37_solder_0",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_37_terminal_1",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_37_solder_1",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_38_body",
+      "rgb": [
+        0.6,
+        0.52,
+        0.39
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_38_terminal_0",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_38_solder_0",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_38_terminal_1",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_38_solder_1",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_R_39_body",
+      "rgb": [
+        0.18,
+        0.19,
+        0.2
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_R_39_terminal_0",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_R_39_solder_0",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_R_39_terminal_1",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_R_39_solder_1",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_40_body",
+      "rgb": [
+        0.6,
+        0.52,
+        0.39
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_40_terminal_0",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_40_solder_0",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_40_terminal_1",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_40_solder_1",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_41_body",
+      "rgb": [
+        0.6,
+        0.52,
+        0.39
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_41_terminal_0",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_41_solder_0",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_41_terminal_1",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_41_solder_1",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_R_42_body",
+      "rgb": [
+        0.18,
+        0.19,
+        0.2
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_R_42_terminal_0",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_R_42_solder_0",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_R_42_terminal_1",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_R_42_solder_1",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_43_body",
+      "rgb": [
+        0.6,
+        0.52,
+        0.39
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_43_terminal_0",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_43_solder_0",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_43_terminal_1",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_43_solder_1",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_44_body",
+      "rgb": [
+        0.6,
+        0.52,
+        0.39
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_44_terminal_0",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_44_solder_0",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_44_terminal_1",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_44_solder_1",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_large_1_body",
+      "rgb": [
+        0.6,
+        0.52,
+        0.39
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_large_1_terminal_0",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_large_1_solder_0",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_large_1_terminal_1",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_large_1_solder_1",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_large_2_body",
+      "rgb": [
+        0.6,
+        0.52,
+        0.39
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_large_2_terminal_0",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_large_2_solder_0",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_large_2_terminal_1",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_large_2_solder_1",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_pair_1_body",
+      "rgb": [
+        0.6,
+        0.52,
+        0.39
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_pair_1_terminal_0",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_pair_1_solder_0",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_pair_1_terminal_1",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_pair_1_solder_1",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_pair_2_body",
+      "rgb": [
+        0.6,
+        0.52,
+        0.39
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_pair_2_terminal_0",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_pair_2_solder_0",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_pair_2_terminal_1",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_C_pair_2_solder_1",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_R_resistor_14_body",
+      "rgb": [
+        0.18,
+        0.19,
+        0.2
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_R_resistor_14_terminal_0",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_R_resistor_14_solder_0",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_R_resistor_14_terminal_1",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_R_resistor_14_solder_1",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_R_right_edge_body",
+      "rgb": [
+        0.18,
+        0.19,
+        0.2
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_R_right_edge_terminal_0",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_R_right_edge_solder_0",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_R_right_edge_terminal_1",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_R_right_edge_solder_1",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_regulator_YJ18_moulding",
+      "rgb": [
+        0.18,
+        0.19,
+        0.2
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_regulator_YJ18_lead_0_-1",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_regulator_YJ18_lead_0_1",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_regulator_YJ18_lead_1_-1",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_regulator_YJ18_lead_1_1",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_regulator_YJ18_lead_2_-1",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_regulator_YJ18_lead_2_1",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_regulator_YJ18_marking",
+      "rgb": [
+        0.88,
+        0.88,
+        0.82
+      ],
+      "basis": "visible_marking_estimated",
+      "solids": 4
+    },
+    {
+      "name": "Rear_regulator_YJ28_moulding",
+      "rgb": [
+        0.18,
+        0.19,
+        0.2
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_regulator_YJ28_lead_0_-1",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_regulator_YJ28_lead_0_1",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_regulator_YJ28_lead_1_-1",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_regulator_YJ28_lead_1_1",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_regulator_YJ28_lead_2_-1",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_regulator_YJ28_lead_2_1",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_regulator_YJ28_marking",
+      "rgb": [
+        0.88,
+        0.88,
+        0.82
+      ],
+      "basis": "visible_marking_estimated",
+      "solids": 4
+    },
+    {
+      "name": "Rear_SOT23_6_upper_moulding",
+      "rgb": [
+        0.18,
+        0.19,
+        0.2
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_SOT23_6_upper_lead_0_-1",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_SOT23_6_upper_lead_0_1",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_SOT23_6_upper_lead_1_-1",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_SOT23_6_upper_lead_1_1",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_SOT23_6_upper_lead_2_-1",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_SOT23_6_upper_lead_2_1",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_SOT23_6_left_moulding",
+      "rgb": [
+        0.18,
+        0.19,
+        0.2
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_SOT23_6_left_lead_0_-1",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_SOT23_6_left_lead_0_1",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_SOT23_6_left_lead_1_-1",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_SOT23_6_left_lead_1_1",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_SOT23_6_left_lead_2_-1",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_SOT23_6_left_lead_2_1",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_SOT23_top_moulding",
+      "rgb": [
+        0.18,
+        0.19,
+        0.2
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_SOT23_top_lead_0_-1",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_SOT23_top_lead_0_1",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_SOT23_top_lead_1_-1",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_SOT23_top_lead_1_1",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_USB_image_processor_QFN",
+      "rgb": [
+        0.18,
+        0.19,
+        0.2
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_processor_top_unreadable_marking_area",
+      "rgb": [
+        0.125,
+        0.13,
+        0.135
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "QFN48_visible_contact_0_0",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "QFN48_visible_contact_0_1",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "QFN48_visible_contact_0_2",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "QFN48_visible_contact_0_3",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "QFN48_visible_contact_0_4",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "QFN48_visible_contact_0_5",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "QFN48_visible_contact_0_6",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "QFN48_visible_contact_0_7",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "QFN48_visible_contact_0_8",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "QFN48_visible_contact_0_9",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "QFN48_visible_contact_0_10",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "QFN48_visible_contact_0_11",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "QFN48_visible_contact_1_0",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "QFN48_visible_contact_1_1",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "QFN48_visible_contact_1_2",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "QFN48_visible_contact_1_3",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "QFN48_visible_contact_1_4",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "QFN48_visible_contact_1_5",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "QFN48_visible_contact_1_6",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "QFN48_visible_contact_1_7",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "QFN48_visible_contact_1_8",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "QFN48_visible_contact_1_9",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "QFN48_visible_contact_1_10",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "QFN48_visible_contact_1_11",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "QFN48_visible_contact_2_0",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "QFN48_visible_contact_2_1",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "QFN48_visible_contact_2_2",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "QFN48_visible_contact_2_3",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "QFN48_visible_contact_2_4",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "QFN48_visible_contact_2_5",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "QFN48_visible_contact_2_6",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "QFN48_visible_contact_2_7",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "QFN48_visible_contact_2_8",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "QFN48_visible_contact_2_9",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "QFN48_visible_contact_2_10",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "QFN48_visible_contact_2_11",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "QFN48_visible_contact_3_0",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "QFN48_visible_contact_3_1",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "QFN48_visible_contact_3_2",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "QFN48_visible_contact_3_3",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "QFN48_visible_contact_3_4",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "QFN48_visible_contact_3_5",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "QFN48_visible_contact_3_6",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "QFN48_visible_contact_3_7",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "QFN48_visible_contact_3_8",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "QFN48_visible_contact_3_9",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "QFN48_visible_contact_3_10",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "QFN48_visible_contact_3_11",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "QFN_pin1_dot",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_quartz_metal_can",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_quartz_ceramic_base",
+      "rgb": [
+        0.18,
+        0.19,
+        0.2
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Quartz_pad_-0.95_-1.2",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Quartz_pad_-0.95_1.2",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Quartz_pad_0.95_-1.2",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Quartz_pad_0.95_1.2",
+      "rgb": [
+        0.57,
+        0.6,
+        0.63
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_SOIC8_flash_memory",
+      "rgb": [
+        0.18,
+        0.19,
+        0.2
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "SOIC8_gullwing_-1_0",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "SOIC8_gullwing_-1_1",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "SOIC8_gullwing_-1_2",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "SOIC8_gullwing_-1_3",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "SOIC8_gullwing_1_0",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "SOIC8_gullwing_1_1",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "SOIC8_gullwing_1_2",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "SOIC8_gullwing_1_3",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "SOIC8_pin1_dot",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_USB_5pin_shrouded_connector",
+      "rgb": [
+        0.88,
+        0.88,
+        0.82
+      ],
+      "basis": "photo_inferred_unidentified_connector",
+      "solids": 1
+    },
+    {
+      "name": "USB_connector_inner_contact_carrier",
+      "rgb": [
+        0.028,
+        0.031,
+        0.034
+      ],
+      "basis": "visual_recess_contrast",
+      "solids": 1
+    },
+    {
+      "name": "USB_connector_contact_0",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "USB_connector_front_pin_tail_0",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "USB_connector_contact_1",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "USB_connector_front_pin_tail_1",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "USB_connector_contact_2",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "USB_connector_front_pin_tail_2",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "USB_connector_contact_3",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "USB_connector_front_pin_tail_3",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "USB_connector_contact_4",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "USB_connector_front_pin_tail_4",
+      "rgb": [
+        0.7,
+        0.72,
+        0.73
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "USB_connector_latch_-1",
+      "rgb": [
+        0.88,
+        0.88,
+        0.82
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "USB_connector_latch_1",
+      "rgb": [
+        0.88,
+        0.88,
+        0.82
+      ],
+      "basis": "estimated_from_photos",
+      "solids": 1
+    },
+    {
+      "name": "Rear_processor_fanout_bottom_0",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "visible_path_approximation_no_electrical_connectivity",
+      "solids": 7
+    },
+    {
+      "name": "Rear_processor_fanout_bottom_1",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "visible_path_approximation_no_electrical_connectivity",
+      "solids": 7
+    },
+    {
+      "name": "Rear_processor_fanout_bottom_2",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "visible_path_approximation_no_electrical_connectivity",
+      "solids": 7
+    },
+    {
+      "name": "Rear_processor_fanout_bottom_3",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "visible_path_approximation_no_electrical_connectivity",
+      "solids": 7
+    },
+    {
+      "name": "Rear_processor_fanout_bottom_4",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "visible_path_approximation_no_electrical_connectivity",
+      "solids": 7
+    },
+    {
+      "name": "Rear_processor_fanout_bottom_5",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "visible_path_approximation_no_electrical_connectivity",
+      "solids": 7
+    },
+    {
+      "name": "Rear_processor_fanout_bottom_6",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "visible_path_approximation_no_electrical_connectivity",
+      "solids": 7
+    },
+    {
+      "name": "Rear_processor_fanout_bottom_7",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "visible_path_approximation_no_electrical_connectivity",
+      "solids": 7
+    },
+    {
+      "name": "Rear_processor_fanout_bottom_8",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "visible_path_approximation_no_electrical_connectivity",
+      "solids": 7
+    },
+    {
+      "name": "Rear_processor_fanout_bottom_9",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "visible_path_approximation_no_electrical_connectivity",
+      "solids": 7
+    },
+    {
+      "name": "Rear_processor_fanout_right_0",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "visible_path_approximation_no_electrical_connectivity",
+      "solids": 7
+    },
+    {
+      "name": "Rear_processor_fanout_right_1",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "visible_path_approximation_no_electrical_connectivity",
+      "solids": 7
+    },
+    {
+      "name": "Rear_processor_fanout_right_2",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "visible_path_approximation_no_electrical_connectivity",
+      "solids": 7
+    },
+    {
+      "name": "Rear_processor_fanout_right_3",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "visible_path_approximation_no_electrical_connectivity",
+      "solids": 7
+    },
+    {
+      "name": "Rear_processor_fanout_right_4",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "visible_path_approximation_no_electrical_connectivity",
+      "solids": 7
+    },
+    {
+      "name": "Rear_processor_fanout_right_5",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "visible_path_approximation_no_electrical_connectivity",
+      "solids": 7
+    },
+    {
+      "name": "Rear_processor_fanout_right_6",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "visible_path_approximation_no_electrical_connectivity",
+      "solids": 7
+    },
+    {
+      "name": "Rear_masked_trace_0_0",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "visible_path_approximation_no_electrical_connectivity",
+      "solids": 7
+    },
+    {
+      "name": "Rear_masked_trace_0_1",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "visible_path_approximation_no_electrical_connectivity",
+      "solids": 7
+    },
+    {
+      "name": "Rear_masked_trace_1_0",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "visible_path_approximation_no_electrical_connectivity",
+      "solids": 15
+    },
+    {
+      "name": "Rear_masked_trace_1_1",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "visible_path_approximation_no_electrical_connectivity",
+      "solids": 15
+    },
+    {
+      "name": "Rear_masked_trace_2_0",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "visible_path_approximation_no_electrical_connectivity",
+      "solids": 13
+    },
+    {
+      "name": "Rear_masked_trace_2_1",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "visible_path_approximation_no_electrical_connectivity",
+      "solids": 13
+    },
+    {
+      "name": "Rear_masked_trace_3_0",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "visible_path_approximation_no_electrical_connectivity",
+      "solids": 7
+    },
+    {
+      "name": "Rear_masked_trace_3_1",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "visible_path_approximation_no_electrical_connectivity",
+      "solids": 7
+    },
+    {
+      "name": "Rear_masked_trace_4_0",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "visible_path_approximation_no_electrical_connectivity",
+      "solids": 5
+    },
+    {
+      "name": "Rear_masked_trace_4_1",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "visible_path_approximation_no_electrical_connectivity",
+      "solids": 5
+    },
+    {
+      "name": "Rear_masked_trace_5_0",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "visible_path_approximation_no_electrical_connectivity",
+      "solids": 5
+    },
+    {
+      "name": "Rear_masked_trace_5_1",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "visible_path_approximation_no_electrical_connectivity",
+      "solids": 5
+    },
+    {
+      "name": "Rear_masked_trace_6_0",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "visible_path_approximation_no_electrical_connectivity",
+      "solids": 11
+    },
+    {
+      "name": "Rear_masked_trace_6_1",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "visible_path_approximation_no_electrical_connectivity",
+      "solids": 11
+    },
+    {
+      "name": "Rear_masked_trace_7_0",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "visible_path_approximation_no_electrical_connectivity",
+      "solids": 9
+    },
+    {
+      "name": "Rear_masked_trace_7_1",
+      "rgb": [
+        0.2,
+        0.21,
+        0.22
+      ],
+      "basis": "visible_path_approximation_no_electrical_connectivity",
+      "solids": 9
+    },
+    {
+      "name": "Rear_SMD_outline_0",
+      "rgb": [
+        0.88,
+        0.88,
+        0.82
+      ],
+      "basis": "visible_silkscreen_estimated",
+      "solids": 1
+    },
+    {
+      "name": "Rear_SMD_outline_1",
+      "rgb": [
+        0.88,
+        0.88,
+        0.82
+      ],
+      "basis": "visible_silkscreen_estimated",
+      "solids": 1
+    },
+    {
+      "name": "Rear_SMD_outline_2",
+      "rgb": [
+        0.88,
+        0.88,
+        0.82
+      ],
+      "basis": "visible_silkscreen_estimated",
+      "solids": 1
+    },
+    {
+      "name": "Rear_SMD_outline_3",
+      "rgb": [
+        0.88,
+        0.88,
+        0.82
+      ],
+      "basis": "visible_silkscreen_estimated",
+      "solids": 1
+    },
+    {
+      "name": "Rear_SMD_outline_4",
+      "rgb": [
+        0.88,
+        0.88,
+        0.82
+      ],
+      "basis": "visible_silkscreen_estimated",
+      "solids": 1
+    },
+    {
+      "name": "Rear_SMD_outline_5",
+      "rgb": [
+        0.88,
+        0.88,
+        0.82
+      ],
+      "basis": "visible_silkscreen_estimated",
+      "solids": 1
+    },
+    {
+      "name": "Rear_reference_C4",
+      "rgb": [
+        0.88,
+        0.88,
+        0.82
+      ],
+      "basis": "visible_marking_estimated",
+      "solids": 2
+    },
+    {
+      "name": "Rear_reference_C10",
+      "rgb": [
+        0.88,
+        0.88,
+        0.82
+      ],
+      "basis": "visible_marking_estimated",
+      "solids": 3
+    },
+    {
+      "name": "Rear_reference_R14",
+      "rgb": [
+        0.88,
+        0.88,
+        0.82
+      ],
+      "basis": "visible_marking_estimated",
+      "solids": 3
+    },
+    {
+      "name": "Rear_reference_R0",
+      "rgb": [
+        0.88,
+        0.88,
+        0.82
+      ],
+      "basis": "visible_marking_estimated",
+      "solids": 2
+    },
+    {
+      "name": "Rear_reference_C15",
+      "rgb": [
+        0.88,
+        0.88,
+        0.82
+      ],
+      "basis": "visible_marking_estimated",
+      "solids": 3
+    },
+    {
+      "name": "Rear_board_revision",
+      "rgb": [
+        0.88,
+        0.88,
+        0.82
+      ],
+      "basis": "visible_marking_estimated",
+      "solids": 7
+    }
+  ]
+}

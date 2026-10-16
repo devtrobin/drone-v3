@@ -1,0 +1,21 @@
+{
+  "geprc_length_mm": 250,
+  "pack_nominal_mm": [
+    138,
+    47,
+    25
+  ],
+  "pad_study_mm": [
+    142,
+    51,
+    2
+  ],
+  "minimum_perimeter_mm": 148,
+  "remaining_before_buckle_chassis_overlap_mm": 102,
+  "worst_pack_section_perimeter_mm": 156,
+  "remaining_worst_mm": 94,
+  "pack_mass_kg": 0.25,
+  "speed_kmh": 40,
+  "kinetic_energy_J": 15.432098765432098,
+  "retention_tested": false
+}

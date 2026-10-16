@@ -1,0 +1,43 @@
+{
+  "file": "notice-fusible-principal-v3.pdf",
+  "pages": 5,
+  "sha256": "3493c7f31a10cf8581635bf1ba9d5b97ca04d86c72bd632e08509fc016e05dbb",
+  "generated_on": "2026-10-14",
+  "generator": "tools/build_overcurrent_pdf.py",
+  "renders": [
+    {
+      "page": 1,
+      "render": "tools/temp/overcurrent-review/pdf/page-1.png",
+      "chars": 957
+    },
+    {
+      "page": 2,
+      "render": "tools/temp/overcurrent-review/pdf/page-2.png",
+      "chars": 1776
+    },
+    {
+      "page": 3,
+      "render": "tools/temp/overcurrent-review/pdf/page-3.png",
+      "chars": 1274
+    },
+    {
+      "page": 4,
+      "render": "tools/temp/overcurrent-review/pdf/page-4.png",
+      "chars": 1707
+    },
+    {
+      "page": 5,
+      "render": "tools/temp/overcurrent-review/pdf/page-5.png",
+      "chars": 2071
+    }
+  ],
+  "visual_review_complete": true,
+  "visual_review_pages": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "visual_review_notes": "All final page PNGs inspected: tables, formulas, CAD views, source links and footers legible; no clipped or overlapping content"
+}

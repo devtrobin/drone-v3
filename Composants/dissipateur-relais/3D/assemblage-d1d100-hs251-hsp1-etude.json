@@ -1,0 +1,385 @@
+{
+  "file": "assemblage-d1d100-hs251-hsp1-etude.step",
+  "title": "D1D100 + HS251 + HSP-1 | assemblage etude",
+  "generated_on": "2026-10-13",
+  "unit": "mm",
+  "cadquery_version": "2.8.0",
+  "coordinate_system": "X largeur et entraxe SSR; Y longueur; Z normal au contact. Face SSR du dissipateur Z=40.640 mm; centre des trous Y=0.",
+  "bytes": 6326370,
+  "sha256": "1059165fdd23b291443b0dd108065bef0f9625fbd98b04b56878be7b2544fc66",
+  "native_vendor_cad": false,
+  "hardware_measured": false,
+  "is_custom_project_design": false,
+  "published_nominal": [
+    "HS251: STEP officiel; D1D100: enveloppe nominale et entraxe 47.6 mm."
+  ],
+  "estimates_and_limitations": [
+    "Implantation CAO seulement; aucune qualification thermique ou sur piece physique.",
+    "Relais: reconstruction exterieure existante; aucune electronique interne inventee.",
+    "Pad rose: contour 2018 suppose; vis HK1 et fixation chassis absentes de cet assemblage.",
+    "Orientation 3D choisie pour integration; convection a verifier, ailettes verticales recommandees."
+  ],
+  "parameters": {
+    "sink_face_z_mm": 40.64,
+    "pad_uncompressed_mm": 0.127,
+    "relay_bottom_z_mm": 40.767,
+    "sink_holes_x_mm": [
+      -23.8125,
+      23.8125
+    ],
+    "relay_holes_x_mm": [
+      -23.8,
+      23.8
+    ],
+    "centre_offset_each_mm": 0.0125
+  },
+  "source_pages": [
+    "Sensata HS251 STEP et fiche PDF 2024 p.2",
+    "Sensata HSP fiche 2018 p.1 / PCN-SSR-231214 / annexe TTI",
+    "D1D100 modele exterieur existant et fiche PDF p.3"
+  ],
+  "bounds_mm": {
+    "xmin": -42.672,
+    "xmax": 42.672,
+    "ymin": -26.162000000000003,
+    "ymax": 26.162,
+    "zmin": -1.0811177024840037e-14,
+    "zmax": 63.367
+  },
+  "validation": {
+    "valid_after_reimport": true,
+    "solids": 96,
+    "faces": 1620,
+    "colors": 5,
+    "volume_relative_error": 3.040583599158824e-14,
+    "volume_relative_error_limit": 0.0001,
+    "volume_before_mm3": 83274.5809204627,
+    "volume_after_mm3": 83274.58092046523,
+    "adaptive_volume_tolerance": 1e-09,
+    "bbox_error_mm": 0.0009563506395657839,
+    "bbox_error_limit_mm": 0.01,
+    "void_and_material_probes": [],
+    "elapsed_seconds": 15.221069599996554
+  },
+  "parts": [
+    {
+      "name": "HS251_geometrie_officielle",
+      "color_linear_rgb": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ],
+      "solids": 1
+    },
+    {
+      "name": "HSP1_rose_sans_films",
+      "color_linear_rgb": [
+        0.8073459089125289,
+        0.24286681390410306,
+        0.38005633644979925
+      ],
+      "solids": 1
+    },
+    {
+      "name": "D1D100_Semelle_aluminium_cotes_nominales",
+      "color_linear_rgb": [
+        0.5,
+        0.52,
+        0.55
+      ],
+      "solids": 1
+    },
+    {
+      "name": "D1D100_Coque_noire_exterieure_estimee",
+      "color_linear_rgb": [
+        0.015,
+        0.02,
+        0.025
+      ],
+      "solids": 1
+    },
+    {
+      "name": "D1D100_Borne_1_plaque_metal",
+      "color_linear_rgb": [
+        0.5,
+        0.52,
+        0.55
+      ],
+      "solids": 1
+    },
+    {
+      "name": "D1D100_Borne_1_rondelle",
+      "color_linear_rgb": [
+        0.5,
+        0.52,
+        0.55
+      ],
+      "solids": 1
+    },
+    {
+      "name": "D1D100_Borne_1_vis_UNC_empreinte_estimee",
+      "color_linear_rgb": [
+        0.5,
+        0.52,
+        0.55
+      ],
+      "solids": 1
+    },
+    {
+      "name": "D1D100_Borne_1_barriere_-5.3",
+      "color_linear_rgb": [
+        0.015,
+        0.02,
+        0.025
+      ],
+      "solids": 1
+    },
+    {
+      "name": "D1D100_Borne_1_barriere_5.3",
+      "color_linear_rgb": [
+        0.015,
+        0.02,
+        0.025
+      ],
+      "solids": 1
+    },
+    {
+      "name": "D1D100_Borne_2_plaque_metal",
+      "color_linear_rgb": [
+        0.5,
+        0.52,
+        0.55
+      ],
+      "solids": 1
+    },
+    {
+      "name": "D1D100_Borne_2_rondelle",
+      "color_linear_rgb": [
+        0.5,
+        0.52,
+        0.55
+      ],
+      "solids": 1
+    },
+    {
+      "name": "D1D100_Borne_2_vis_UNC_empreinte_estimee",
+      "color_linear_rgb": [
+        0.5,
+        0.52,
+        0.55
+      ],
+      "solids": 1
+    },
+    {
+      "name": "D1D100_Borne_2_barriere_-5.3",
+      "color_linear_rgb": [
+        0.015,
+        0.02,
+        0.025
+      ],
+      "solids": 1
+    },
+    {
+      "name": "D1D100_Borne_2_barriere_5.3",
+      "color_linear_rgb": [
+        0.015,
+        0.02,
+        0.025
+      ],
+      "solids": 1
+    },
+    {
+      "name": "D1D100_Borne_3_plaque_metal",
+      "color_linear_rgb": [
+        0.5,
+        0.52,
+        0.55
+      ],
+      "solids": 1
+    },
+    {
+      "name": "D1D100_Borne_3_rondelle",
+      "color_linear_rgb": [
+        0.5,
+        0.52,
+        0.55
+      ],
+      "solids": 1
+    },
+    {
+      "name": "D1D100_Borne_3_vis_UNC_empreinte_estimee",
+      "color_linear_rgb": [
+        0.5,
+        0.52,
+        0.55
+      ],
+      "solids": 1
+    },
+    {
+      "name": "D1D100_Borne_3_barriere_-5.3",
+      "color_linear_rgb": [
+        0.015,
+        0.02,
+        0.025
+      ],
+      "solids": 1
+    },
+    {
+      "name": "D1D100_Borne_3_barriere_5.3",
+      "color_linear_rgb": [
+        0.015,
+        0.02,
+        0.025
+      ],
+      "solids": 1
+    },
+    {
+      "name": "D1D100_Borne_4_plaque_metal",
+      "color_linear_rgb": [
+        0.5,
+        0.52,
+        0.55
+      ],
+      "solids": 1
+    },
+    {
+      "name": "D1D100_Borne_4_rondelle",
+      "color_linear_rgb": [
+        0.5,
+        0.52,
+        0.55
+      ],
+      "solids": 1
+    },
+    {
+      "name": "D1D100_Borne_4_vis_UNC_empreinte_estimee",
+      "color_linear_rgb": [
+        0.5,
+        0.52,
+        0.55
+      ],
+      "solids": 1
+    },
+    {
+      "name": "D1D100_Borne_4_barriere_-5.3",
+      "color_linear_rgb": [
+        0.015,
+        0.02,
+        0.025
+      ],
+      "solids": 1
+    },
+    {
+      "name": "D1D100_Borne_4_barriere_5.3",
+      "color_linear_rgb": [
+        0.015,
+        0.02,
+        0.025
+      ],
+      "solids": 1
+    },
+    {
+      "name": "D1D100_Etiquette_fond_blanc",
+      "color_linear_rgb": [
+        0.87,
+        0.9,
+        0.93
+      ],
+      "solids": 1
+    },
+    {
+      "name": "D1D100_Logo_texte_approche",
+      "color_linear_rgb": [
+        0.015,
+        0.02,
+        0.025
+      ],
+      "solids": 6
+    },
+    {
+      "name": "D1D100_Type_texte_approche",
+      "color_linear_rgb": [
+        0.015,
+        0.02,
+        0.025
+      ],
+      "solids": 6
+    },
+    {
+      "name": "D1D100_Fonction_texte_approche",
+      "color_linear_rgb": [
+        0.015,
+        0.02,
+        0.025
+      ],
+      "solids": 15
+    },
+    {
+      "name": "D1D100_Output_texte_approche",
+      "color_linear_rgb": [
+        0.015,
+        0.02,
+        0.025
+      ],
+      "solids": 13
+    },
+    {
+      "name": "D1D100_Input_texte_approche",
+      "color_linear_rgb": [
+        0.015,
+        0.02,
+        0.025
+      ],
+      "solids": 14
+    },
+    {
+      "name": "D1D100_Repere_1_OUTPUT",
+      "color_linear_rgb": [
+        0.87,
+        0.9,
+        0.93
+      ],
+      "solids": 7
+    },
+    {
+      "name": "D1D100_Repere_+2",
+      "color_linear_rgb": [
+        0.87,
+        0.9,
+        0.93
+      ],
+      "solids": 2
+    },
+    {
+      "name": "D1D100_Repere_4_INPUT",
+      "color_linear_rgb": [
+        0.87,
+        0.9,
+        0.93
+      ],
+      "solids": 6
+    },
+    {
+      "name": "D1D100_Repere_+3",
+      "color_linear_rgb": [
+        0.87,
+        0.9,
+        0.93
+      ],
+      "solids": 2
+    }
+  ],
+  "preview": {
+    "file": "assemblage-d1d100-hs251-hsp1-etude.png",
+    "sha256": "f1f77d96e2fc63df0fea26c6bf0feafb74f361c0800009943d8236b0d24e9941"
+  },
+  "generator": "tools/build_heatsink_step.py",
+  "generator_sha256": "cde4c4056d7169272a6db14e8742c87de8155f9fa1c55a0637d2c227259de3a9",
+  "assembly_checks": {
+    "no_volume_overlap": true,
+    "relay_heatsink_overlap_mm3": 0.0,
+    "thermal_layer_gap_mm": 0,
+    "matching_nominal_holes_offset_each_mm": 0.0125,
+    "physical_fit_tested": false
+  }
+}

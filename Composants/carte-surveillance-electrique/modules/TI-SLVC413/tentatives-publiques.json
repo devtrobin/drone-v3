@@ -1,0 +1,26 @@
+[
+  {
+    "url": "https://www.ti.com/lit/df/slvc413/slvc413.zip",
+    "error": "HTTP Error 401: Unauthorized"
+  },
+  {
+    "url": "https://www.ti.com/lit/sw/slvc413a/slvc413a.zip",
+    "error": "HTTP Error 401: Unauthorized"
+  },
+  {
+    "url": "https://www.ti.com/lit/zip/slvc413a",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://software-dl.ti.com/analog/analog_public_sw/",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://www.ti.com/general/docs/lit/getliterature.tsp?baseLiteratureNumber=slvc413&fileType=zip",
+    "error": "HTTP Error 401: Unauthorized"
+  },
+  {
+    "url": "https://www.ti.com/tool/download/SLVC413",
+    "error": "HTTP Error 404: Not Found"
+  }
+]

@@ -1,0 +1,68 @@
+{
+  "checked_on": "2026-10-14",
+  "all_passed": true,
+  "mode": "headless",
+  "FreeCAD_version": [
+    "1",
+    "1",
+    "4",
+    "20260928 (Git shallow)",
+    "Unknown",
+    "2026/09/28 13:46:34",
+    "(HEAD detached at 4fd3bf320)",
+    "4fd3bf320d9566a27e60069fc8387448aaa3a094"
+  ],
+  "GUI_tested": false,
+  "CADView_tested": false,
+  "hardware_tested": false,
+  "checks": [
+    {
+      "file": "molex-22-55-2401-boitier-noir.step",
+      "sha256": "bde131e39a0aad42b663aad1129218b9eee467ec31bf84a1c250b207b63465f6",
+      "passed": true,
+      "valid": true,
+      "solids_closed": true,
+      "solids": 1,
+      "faces": 626,
+      "bbox_error_mm": 0.0,
+      "volume_relative_error": 5.980597953257341e-16,
+      "seconds": 2.9423319999987143
+    },
+    {
+      "file": "molex-16-02-0103-contact-detaille.step",
+      "sha256": "4c683d033d03d1988a502b9bdf53bfc1866475ebb00416ae4c0a97524db2b135",
+      "passed": true,
+      "valid": true,
+      "solids_closed": true,
+      "solids": 2,
+      "faces": 87,
+      "bbox_error_mm": 0.0,
+      "volume_relative_error": 1.16477544359784e-14,
+      "seconds": 0.43131910000010976
+    },
+    {
+      "file": "connecteur-gpio-15-contacts-detaille.step",
+      "sha256": "605cafd2bb803e052f81b9e1762c8402b3f958799909cd46db5c46df253bbb10",
+      "passed": true,
+      "valid": true,
+      "solids_closed": true,
+      "solids": 31,
+      "faces": 1931,
+      "bbox_error_mm": 0.0,
+      "volume_relative_error": 3.3170590700303614e-15,
+      "seconds": 8.863397699999041
+    },
+    {
+      "file": "connecteur-gpio-faisceau-detaille.step",
+      "sha256": "3198e964d770ce6ce7b2b1dae87a89d27cc2f0636e24dff8ad43443958927add",
+      "passed": true,
+      "valid": true,
+      "solids_closed": true,
+      "solids": 61,
+      "faces": 2081,
+      "bbox_error_mm": 0.0,
+      "volume_relative_error": 7.91752653376655e-12,
+      "seconds": 11.945707900002162
+    }
+  ]
+}

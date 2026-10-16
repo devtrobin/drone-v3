@@ -1,0 +1,8 @@
+{
+  "checked_on": "2026-10-15",
+  "manufacturer": "https://www.ti.com/product/DRV5033/part-details/DRV5033AJQLPG",
+  "purchase": "https://fr.rs-online.com/web/p/capteurs-a-effet-hall/9009807",
+  "original_pdf": "../notices/TI-DRV5033-original.pdf",
+  "shared_assets": "../assets.json",
+  "research": "../recherche-technique.md"
+}

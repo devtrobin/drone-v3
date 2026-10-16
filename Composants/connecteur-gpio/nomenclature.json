@@ -1,0 +1,52 @@
+{
+  "selected_on": "2026-10-14",
+  "parts": [
+    {
+      "reference": "Molex 22-55-2401 / 0022552401",
+      "quantity": 1,
+      "type": "boîtier nu, 40 positions femelles, 2 rangées",
+      "manufacturer": "https://www.molex.com/en-us/products/part-detail/0022552401",
+      "purchase": "https://www.digikey.fr/fr/products/detail/molex/0022552401/171975",
+      "amazon": "https://www.amazon.fr/s?k=Molex+22-55-2401",
+      "price_EUR_TTC": null,
+      "observed_USD_unit_price": 2.95,
+      "price_source": "https://www.newark.com/molex/22-55-2401/connector-rcpt-40pos-2row-2-54mm/dp/77C6142"
+    },
+    {
+      "reference": "Molex 16-02-0103 / 0016020103",
+      "quantity": 18,
+      "installed": 13,
+      "spares": 5,
+      "type": "contacts femelles dorés en vrac, pas de bobine à acheter",
+      "manufacturer": "https://www.molex.com/en-us/products/part-detail/0016020103",
+      "purchase": "https://www.digikey.fr/fr/products/detail/molex/0016020103/115063",
+      "amazon": "https://www.amazon.fr/s?k=Molex+16-02-0103",
+      "price_EUR_TTC": null,
+      "observed_USD_unit_price": 0.25,
+      "price_source": "https://www.digikey.com/en/products/detail/molex/0638118700/1832243"
+    },
+    {
+      "reference": "Adafruit 3175",
+      "quantity": 1,
+      "type": "lot de fil multibrin 22 AWG, diamètre isolant annoncé 1,5 mm",
+      "manufacturer": "https://www.adafruit.com/product/3175",
+      "purchase": "https://www.adafruit.com/product/3175",
+      "amazon": "https://www.amazon.fr/s?k=Adafruit+3175",
+      "price_EUR_TTC": null,
+      "observed_USD_unit_price": 29.95,
+      "package_content_discrepancy": "Titre 10 bobines de 25 ft, prose 6 bobines : contenu à confirmer avant achat.",
+      "price_source": "https://www.adafruit.com/product/3175"
+    }
+  ],
+  "connector_populated_contacts": 13,
+  "connector_total_positions": 40,
+  "french_total_EUR_TTC": null,
+  "provisional_sum_USD_at_unit1_prices": 37.4,
+  "tooling_shipping_taxes_excluded": true,
+  "purchased": false,
+  "wire_cut_list_final": false,
+  "RC_end_connectors_not_included": true,
+  "revised_on": "2026-10-15",
+  "power_wires_in_this_removable_connector": false,
+  "harness_revision": "vitesse-r1-after-alimentation-r2"
+}

@@ -1,0 +1,284 @@
+{
+  "checked_on": "2026-10-14",
+  "assets": [
+    {
+      "file": "sources-web/RaspberryPi-produit.html",
+      "url": "https://www.raspberrypi.com/products/active-cooler/",
+      "checked_on": "2026-10-14",
+      "original_unmodified": true,
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "file": "sources-web/RaspberryPi-portail.html",
+      "url": "https://pip.raspberrypi.com/categories/993-raspberry-pi-active-cooler",
+      "checked_on": "2026-10-14",
+      "original_unmodified": true,
+      "status": "downloaded",
+      "bytes": 41219,
+      "sha256": "85be0f4cbfad6bf16140132c7c8977f7c5addb57a21a054a6cf01711934c51a3",
+      "final_url": "https://pip.raspberrypi.com/categories/993-raspberry-pi-active-cooler"
+    },
+    {
+      "file": "notices/RaspberryPi-ActiveCooler-fiche-actuelle-originale.pdf",
+      "url": "https://pip.raspberrypi.com/documents/RP-008188-DS-active-cooler-product-brief.pdf",
+      "checked_on": "2026-10-14",
+      "original_unmodified": true,
+      "status": "downloaded",
+      "bytes": 1509055,
+      "sha256": "8cfa494afdfba991a338ae2710a1438405a0752d61c5d0930b02a8f88dd2eed3",
+      "final_url": "https://pip-assets.raspberrypi.com/categories/993-raspberry-pi-active-cooler/documents/RP-008188-DS-2-raspberry-pi-active-cooler-product-brief.pdf"
+    },
+    {
+      "file": "notices/RaspberryPi-ActiveCooler-plan-reference-original.pdf",
+      "url": "https://datasheets.raspberrypi.com/cooling/raspberry-pi-active-cooler-mechanical-drawing.pdf",
+      "checked_on": "2026-10-14",
+      "original_unmodified": true,
+      "status": "downloaded",
+      "bytes": 233138,
+      "sha256": "3cc3bccc4b58d0690c2b18251cffc3863091305c32fd5d198f152722ba2bd09f",
+      "final_url": "https://pip-assets.raspberrypi.com/categories/993-raspberry-pi-active-cooler/documents/RP-008187-DS-1-raspberry-pi-active-cooler-mechanical-drawing.pdf"
+    },
+    {
+      "file": "notices/RaspberryPi-ActiveCooler-fiche-historique-originale.pdf",
+      "url": "https://datasheets.raspberrypi.com/cooling/raspberry-pi-active-cooler-product-brief.pdf",
+      "checked_on": "2026-10-14",
+      "original_unmodified": true,
+      "status": "downloaded",
+      "bytes": 1509055,
+      "sha256": "8cfa494afdfba991a338ae2710a1438405a0752d61c5d0930b02a8f88dd2eed3",
+      "final_url": "https://pip-assets.raspberrypi.com/categories/993-raspberry-pi-active-cooler/documents/RP-008188-DS-2-raspberry-pi-active-cooler-product-brief.pdf"
+    },
+    {
+      "file": "sources-web/RaspberryPi-thermique-2023.html",
+      "url": "https://www.raspberrypi.com/news/heating-and-cooling-raspberry-pi-5/",
+      "checked_on": "2026-10-14",
+      "original_unmodified": true,
+      "status": "challenge_html",
+      "bytes": 300498,
+      "sha256": "ba1347bc03cabaae29458acf581a15ca63677e2299147d5d7e3cde770c47f745",
+      "final_url": "https://www.raspberrypi.com/news/heating-and-cooling-raspberry-pi-5/"
+    },
+    {
+      "file": "sources-web/RaspberryPi-doc-materiel.html",
+      "url": "https://www.raspberrypi.com/documentation/computers/raspberry-pi.html",
+      "checked_on": "2026-10-14",
+      "original_unmodified": true,
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "file": "sources-web/Amazon-FR-recherche.html",
+      "url": "https://www.amazon.fr/s?k=Raspberry+Pi+Active+Cooler+SC1148",
+      "checked_on": "2026-10-14",
+      "original_unmodified": true,
+      "status": "challenge_html",
+      "bytes": 2350,
+      "sha256": "688c275ea1b1550278ec2414907c9503318896374ae659f3a6de61575e190ed2",
+      "final_url": "https://www.amazon.fr/s?k=Raspberry+Pi+Active+Cooler+SC1148"
+    },
+    {
+      "file": "sources-web/Geerling-mesures-2024.html",
+      "url": "https://www.jeffgeerling.com/blog/2024/water-cooling-overkill-pi-5/",
+      "checked_on": "2026-10-14",
+      "original_unmodified": true,
+      "status": "downloaded",
+      "bytes": 13758,
+      "sha256": "4e38a8f3ff68185e3756a9478e18c40c59752e43cb004329b53802435e336e52",
+      "final_url": "https://www.jeffgeerling.com/blog/2024/water-cooling-overkill-pi-5/"
+    },
+    {
+      "file": "sources-web/Forum-bruit.html",
+      "url": "https://forums.raspberrypi.com/viewtopic.php?p=2179285",
+      "checked_on": "2026-10-14",
+      "original_unmodified": true,
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "file": "sources-web/Forum-boitier.html",
+      "url": "https://forums.raspberrypi.com/viewtopic.php?t=367026",
+      "checked_on": "2026-10-14",
+      "original_unmodified": true,
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "file": "sources-web/YouTube-Geerling.html",
+      "url": "https://www.youtube.com/watch?v=nBtOEmUqASQ",
+      "checked_on": "2026-10-14",
+      "original_unmodified": true,
+      "status": "downloaded",
+      "bytes": 1542761,
+      "sha256": "7c914c2e8b74dc17eb2375e4aeca4983298d49f1ad994c819d6341f0f16cdd28",
+      "final_url": "https://www.youtube.com/watch?v=nBtOEmUqASQ"
+    },
+    {
+      "file": "sources-web/Olimex-produit.html",
+      "url": "https://www.olimex.com/Products/RaspberryPi/RPi5-ACOOL/",
+      "checked_on": "2026-10-14",
+      "original_unmodified": true,
+      "status": "downloaded",
+      "bytes": 17257,
+      "sha256": "c9d73471f7716afaee1ae1b4dc00a10ecf226a8137632940c10c043efb045362",
+      "final_url": "https://www.olimex.com/Products/RaspberryPi/RPi5-ACOOL/"
+    },
+    {
+      "file": "notices/portail-plan-original.pdf",
+      "url": "https://pip-assets.raspberrypi.com/categories/993-raspberry-pi-active-cooler/documents/RP-008187-DS-1-raspberry-pi-active-cooler-mechanical-drawing.pdf",
+      "checked_on": "2026-10-14",
+      "original_unmodified": true,
+      "status": "downloaded",
+      "bytes": 233138,
+      "sha256": "3cc3bccc4b58d0690c2b18251cffc3863091305c32fd5d198f152722ba2bd09f",
+      "final_url": "https://pip-assets.raspberrypi.com/categories/993-raspberry-pi-active-cooler/documents/RP-008187-DS-1-raspberry-pi-active-cooler-mechanical-drawing.pdf"
+    },
+    {
+      "file": "notices/portail-fiche-original.pdf",
+      "url": "https://pip-assets.raspberrypi.com/categories/993-raspberry-pi-active-cooler/documents/RP-008188-DS-2-raspberry-pi-active-cooler-product-brief.pdf",
+      "checked_on": "2026-10-14",
+      "original_unmodified": true,
+      "status": "downloaded",
+      "bytes": 1509055,
+      "sha256": "8cfa494afdfba991a338ae2710a1438405a0752d61c5d0930b02a8f88dd2eed3",
+      "final_url": "https://pip-assets.raspberrypi.com/categories/993-raspberry-pi-active-cooler/documents/RP-008188-DS-2-raspberry-pi-active-cooler-product-brief.pdf"
+    },
+    {
+      "file": "photos/RaspberryPi-fiche-p2-1.jpeg",
+      "source_document": "notices/RaspberryPi-ActiveCooler-fiche-actuelle-originale.pdf",
+      "source_pdf_page": 2,
+      "original_unmodified": true,
+      "status": "extracted_original",
+      "bytes": 203586,
+      "sha256": "97fe9982123a8211464fbb3cfa0e5215310f8a0b0c331f5ab6b68cc1f6c09eb8"
+    },
+    {
+      "file": "sources-web/Amazon-COM-B0CLXZBR5P.html",
+      "url": "https://www.amazon.com/dp/B0CLXZBR5P",
+      "checked_on": "2026-10-14",
+      "original_unmodified": true,
+      "status": "challenge_html",
+      "bytes": 3781,
+      "sha256": "6ba2df83e2bc287dc373d6b4e306b6e4c81c43121e51eec45d40cd28a4c71c1e",
+      "final_url": "https://www.amazon.com/dp/B0CLXZBR5P"
+    },
+    {
+      "file": "sources-web/Amazon-FR-B0CLXZBR5P.html",
+      "url": "https://www.amazon.fr/dp/B0CLXZBR5P",
+      "checked_on": "2026-10-14",
+      "original_unmodified": true,
+      "status": "downloaded",
+      "bytes": 1386392,
+      "sha256": "74b88ab04dceb763df8adf95c280af17059e2b98c25dabb0e3bb684a0c390cdf",
+      "final_url": "https://www.amazon.fr/dp/B0CLXZBR5P"
+    },
+    {
+      "file": "sources-web/Waveshare-produit.html",
+      "url": "https://www.waveshare.com/product/accessories/power-heat-sinks/raspberry-pi-5-official-active-cooler.htm",
+      "checked_on": "2026-10-14",
+      "original_unmodified": true,
+      "status": "challenge_html",
+      "bytes": 201562,
+      "sha256": "1678c48dfd234937f4fc2eedfb88a33877438841d41a6df2775056dc1cde665e",
+      "final_url": "https://www.waveshare.com/product/accessories/power-heat-sinks/raspberry-pi-5-official-active-cooler.htm"
+    },
+    {
+      "file": "sources-web/PiHut-produit.html",
+      "url": "https://thepihut.com/products/active-cooler-for-raspberry-pi-5",
+      "checked_on": "2026-10-14",
+      "original_unmodified": true,
+      "status": "downloaded",
+      "bytes": 385558,
+      "sha256": "94c6866812f52fa8f7f01e504949f9e04f7912175ef3645ac8d493504efad82c",
+      "final_url": "https://thepihut.com/products/active-cooler-for-raspberry-pi-5"
+    },
+    {
+      "file": "sources-web/Desertcart-achat-reprise.html",
+      "url": "https://www.desertcart.us/products/642583692-raspberry-pi-active-cooler-for-raspberry-pi-5-active-cooler",
+      "checked_on": "2026-10-14",
+      "original_unmodified": true,
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "file": "photos/Waveshare-produit-1.jpg",
+      "url": "https://www.waveshare.com/media/catalog/product/cache/1/image/800x800/9df78eab33525d08d6e5fb8d27136e95/r/a/raspberry-pi-5-official-active-cooler-1.jpg",
+      "checked_on": "2026-10-14",
+      "original_unmodified": true,
+      "status": "downloaded",
+      "bytes": 41720,
+      "sha256": "cf794853ad89426716bf92089eab68dcd8c0313aa83df34879d6f1e1ea39f1fe",
+      "final_url": "https://www.waveshare.com/media/catalog/product/cache/1/image/800x800/9df78eab33525d08d6e5fb8d27136e95/r/a/raspberry-pi-5-official-active-cooler-1.jpg"
+    },
+    {
+      "file": "photos/Waveshare-produit-2.jpg",
+      "url": "https://www.waveshare.com/media/catalog/product/cache/1/thumbnail/122x122/9df78eab33525d08d6e5fb8d27136e95/r/a/raspberry-pi-5-official-active-cooler-1.jpg",
+      "checked_on": "2026-10-14",
+      "original_unmodified": true,
+      "status": "downloaded",
+      "bytes": 2565,
+      "sha256": "a381be952846fc10c2ff4de177435a099c3b936b44e495dbadf0d06249a8739c",
+      "final_url": "https://www.waveshare.com/media/catalog/product/cache/1/thumbnail/122x122/9df78eab33525d08d6e5fb8d27136e95/r/a/raspberry-pi-5-official-active-cooler-1.jpg"
+    },
+    {
+      "file": "photos/Waveshare-produit-3.jpg",
+      "url": "https://www.waveshare.com/media/catalog/product/cache/1/image/800x800/9df78eab33525d08d6e5fb8d27136e95/r/a/raspberry-pi-5-official-active-cooler-2.jpg",
+      "checked_on": "2026-10-14",
+      "original_unmodified": true,
+      "status": "downloaded",
+      "bytes": 32889,
+      "sha256": "27ebb00a45512bc1e2fd68ee85e2022fa773ae4f01527c5a165a67894a94deab",
+      "final_url": "https://www.waveshare.com/media/catalog/product/cache/1/image/800x800/9df78eab33525d08d6e5fb8d27136e95/r/a/raspberry-pi-5-official-active-cooler-2.jpg"
+    },
+    {
+      "file": "photos/Waveshare-produit-4.jpg",
+      "url": "https://www.waveshare.com/media/catalog/product/cache/1/thumbnail/122x122/9df78eab33525d08d6e5fb8d27136e95/r/a/raspberry-pi-5-official-active-cooler-2.jpg",
+      "checked_on": "2026-10-14",
+      "original_unmodified": true,
+      "status": "downloaded",
+      "bytes": 2369,
+      "sha256": "b981717d57230aa39b794518be69f9f5b26cb3b06c8f8afa53ef9888c04e63ec",
+      "final_url": "https://www.waveshare.com/media/catalog/product/cache/1/thumbnail/122x122/9df78eab33525d08d6e5fb8d27136e95/r/a/raspberry-pi-5-official-active-cooler-2.jpg"
+    },
+    {
+      "file": "photos/Waveshare-produit-5.jpg",
+      "url": "https://www.waveshare.com/media/catalog/product/cache/1/image/800x800/9df78eab33525d08d6e5fb8d27136e95/r/a/raspberry-pi-5-official-active-cooler-3.jpg",
+      "checked_on": "2026-10-14",
+      "original_unmodified": true,
+      "status": "downloaded",
+      "bytes": 36604,
+      "sha256": "54df24b25b714c1435fb2ba5e052421c3533e2971043c8556327d78c45e191d0",
+      "final_url": "https://www.waveshare.com/media/catalog/product/cache/1/image/800x800/9df78eab33525d08d6e5fb8d27136e95/r/a/raspberry-pi-5-official-active-cooler-3.jpg"
+    },
+    {
+      "file": "photos/Waveshare-produit-6.jpg",
+      "url": "https://www.waveshare.com/media/catalog/product/cache/1/thumbnail/122x122/9df78eab33525d08d6e5fb8d27136e95/r/a/raspberry-pi-5-official-active-cooler-3.jpg",
+      "checked_on": "2026-10-14",
+      "original_unmodified": true,
+      "status": "downloaded",
+      "bytes": 2438,
+      "sha256": "af05c15a5c11625b2ce6fc260b4c94e3e6ac8a46ab4b4c2849c6216946d391f2",
+      "final_url": "https://www.waveshare.com/media/catalog/product/cache/1/thumbnail/122x122/9df78eab33525d08d6e5fb8d27136e95/r/a/raspberry-pi-5-official-active-cooler-3.jpg"
+    },
+    {
+      "file": "photos/Waveshare-produit-7.jpg",
+      "url": "https://www.waveshare.com/media/catalog/product/cache/1/image/800x800/9df78eab33525d08d6e5fb8d27136e95/r/a/raspberry-pi-5-official-active-cooler-4.jpg",
+      "checked_on": "2026-10-14",
+      "original_unmodified": true,
+      "status": "downloaded",
+      "bytes": 79082,
+      "sha256": "28f575c70bbb9c87d8ed3a4d535604fe59d9318609e8455ba9d6c2c3309046ca",
+      "final_url": "https://www.waveshare.com/media/catalog/product/cache/1/image/800x800/9df78eab33525d08d6e5fb8d27136e95/r/a/raspberry-pi-5-official-active-cooler-4.jpg"
+    },
+    {
+      "file": "photos/Waveshare-produit-8.jpg",
+      "url": "https://www.waveshare.com/media/catalog/product/cache/1/thumbnail/122x122/9df78eab33525d08d6e5fb8d27136e95/r/a/raspberry-pi-5-official-active-cooler-4.jpg",
+      "checked_on": "2026-10-14",
+      "original_unmodified": true,
+      "status": "downloaded",
+      "bytes": 3928,
+      "sha256": "1b458f51c42fef36d7c90e1f557251e89d7cbd3153a92630a75fffe85b3b1182",
+      "final_url": "https://www.waveshare.com/media/catalog/product/cache/1/thumbnail/122x122/9df78eab33525d08d6e5fb8d27136e95/r/a/raspberry-pi-5-official-active-cooler-4.jpg"
+    }
+  ]
+}

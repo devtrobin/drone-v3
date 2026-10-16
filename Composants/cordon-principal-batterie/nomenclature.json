@@ -1,0 +1,187 @@
+{
+  "checked_on": "2026-10-15",
+  "status": "IC5_user_selected_engineering_study",
+  "pack_unchanged": false,
+  "main_fuse_coordination_validated": false,
+  "hardware_purchased": false,
+  "legacy_parts": [
+    {
+      "folder": "prise-xt60h-m",
+      "ref": "AMASS XT60H-M avec capot",
+      "qty": 1,
+      "unit": "prise",
+      "buy": "https://www.tme.eu/fr/details/xt60h-m/connecteurs-dc/amass/",
+      "role": "Interface côté véhicule : contacts mâles, à brancher sur les contacts femelles du pack 2S actuellement choisi.",
+      "reuse": "Une prise du lot déjà prévu, si lot confirmé authentique et en quantité suffisante ; sinon une pièce à acheter.",
+      "price": null,
+      "currency": "EUR",
+      "cotes": [
+        [
+          "Enveloppe actuelle M",
+          "23,85 ×16,4 ×9,2 mm",
+          "Catalogue AMASS2026 p15"
+        ],
+        [
+          "Entraxe contacts",
+          "7,2 mm",
+          "Fiche V1.2 historique ; lot actuel à contrôler"
+        ],
+        [
+          "Courant annoncé",
+          "35 A MAX /12 AWG /élévation <85 K",
+          "Document actuel ; 44,39 A non justifiés"
+        ],
+        [
+          "Révision ancienne",
+          "30 A RC /60 A MC",
+          "V1.2 ; pas 60 A continu garantis"
+        ]
+      ]
+    },
+    {
+      "folder": "fils-12awg",
+      "ref": "BNTECHGO SW12G68008F10C2",
+      "qty": 0.2,
+      "unit": "m par couleur, provision",
+      "buy": "https://www.amazon.fr/dp/B01ABOPMEI",
+      "role": "Deux fils séparés, rouge CP0+ vers entrée MIDI, noir CP0- vers D- N2 ; 12 AWG compatible avec la section d’essai AMASS.",
+      "reuse": "Prélever dans le lot déjà prévu : besoin total connu passe de0,40 à0,60 m par couleur ; pas un deuxième lot.",
+      "price": 31.93,
+      "currency": "EUR",
+      "cotes": [
+        [
+          "Lot",
+          "3,048 m rouge +3,048 m noir",
+          "10 ft par couleur ; Amazon/BNTECHGO"
+        ],
+        [
+          "Construction",
+          "680 brins Ø0,08 mm, cuivre étamé",
+          "Fabricant ; non mesuré"
+        ],
+        [
+          "Diamètre",
+          "gaine4,5 ±0,1 ; faisceau2,41 mm",
+          "Offre /image technique archivée"
+        ],
+        [
+          "Section",
+          "3,4 mm² annoncés ; AWG nominal3,31",
+          "Valeurs distinctes ; pas calcul de masse CAO"
+        ],
+        [
+          "Résistance",
+          "5,06 mΩ/m",
+          "Image fabricant ; température non précisée"
+        ]
+      ]
+    },
+    {
+      "folder": "cosses-te-130191",
+      "ref": "TE SOLISTRAND 130191",
+      "qty": 2,
+      "unit": "cosses",
+      "buy": "https://www.digikey.fr/fr/products/detail/te-connectivity-amp-connectors/130191/1864623",
+      "role": "Une cosse sur goujon M5 de l’entrée MIDI ; une sur goujon #10-32 du MiniBus négatif N2.",
+      "reuse": "Remplace uniquement les deux terminaisons Klauke95R5 conditionnelles de CP0 ; les autres95R5 restent prévues.",
+      "price": 0.672,
+      "currency": "EUR",
+      "cotes": [
+        [
+          "Section admise",
+          "12-10 AWG /2,62-6,64 mm²",
+          "Page TE ; sertissage avec fil680brins à qualifier"
+        ],
+        [
+          "Oeillet",
+          "Ø5,26 mm, désignation M5",
+          "TE ; passage nominal sur #10-32 Ø4,826"
+        ],
+        [
+          "Longueur",
+          "19,3 mm",
+          "Page et fiche TE2025"
+        ],
+        [
+          "Paume",
+          "épaisseur0,79 mm",
+          "Page et fiche TE ; distributeurs0,99 divergents"
+        ],
+        [
+          "Canon",
+          "Ø intérieur3,28 mm",
+          "TE ; profil extérieur non coté ici"
+        ],
+        [
+          "Variante catalogue",
+          "L19,10 ; largeur9,50 ; ID3,30 mm",
+          "Guide TE ; non fusionnée avec fiche2025"
+        ]
+      ]
+    },
+    {
+      "folder": "isolation-atum",
+      "ref": "TE/Raychem ATUM-8/2-0-STK",
+      "qty": 2,
+      "unit": "coupes provisionnelles de20mm",
+      "buy": "https://www.te.com/en/product-NB11802001.html",
+      "role": "Deux manchons noirs sur les canons nus des cosses ; jupe XT60H utilisée côté prise, fermeture et isolement à contrôler.",
+      "reuse": "Même barre1,2m déjà prévue ; besoin CP0 ≈40mm, dont20mm peuvent remplacer la coupe positive conditionnelle ancienne. Pas de seconde barre.",
+      "price": null,
+      "currency": "EUR",
+      "cotes": [
+        [
+          "Avant rétraction",
+          "Ø intérieur ≥8 mm",
+          "Fiche TE ATUM du dossier partagé"
+        ],
+        [
+          "Libre après rétraction",
+          "Ø intérieur ≤2 mm ; paroi1 ±0,3 mm",
+          "Valeurs libres, pas diamètre installé"
+        ],
+        [
+          "Adhésif",
+          "0,5 mm nominal libre",
+          "Fiche TE ; installation représentée estimée"
+        ],
+        [
+          "Chauffe",
+          "début80°C ; complète110°C",
+          "Température de rétraction, pas réglage pistolet"
+        ],
+        [
+          "Longueur",
+          "retrait jusqu’à15%",
+          "Prévoir le recouvrement selon lot"
+        ]
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "ref": "SPMXCA510",
+      "qty": 1,
+      "unit": "cordon pré-câblé",
+      "includes": "IC5 Device +2fils10AWG4in",
+      "price_EUR": 9.89,
+      "price_FR_delivered_confirmed": false,
+      "buy": "https://www.freakware.de/en/p/ic5-geraeteanschluss-kabel-4-100mm-10awg-spektrum-spmxca510-a167682.htm"
+    },
+    {
+      "ref": "TE130191",
+      "qty": 2,
+      "unit": "cosses",
+      "price_each_indicative_EUR": 0.672,
+      "buy": "https://www.digikey.fr/fr/products/detail/te-connectivity-amp-connectors/130191/1864623"
+    },
+    {
+      "ref": "ATUM-8/2-0-STK",
+      "qty": 2,
+      "unit": "coupes≈20mm",
+      "reuse": "barreexistante,aucunsecondlot"
+    }
+  ],
+  "active_battery_reference": "SPMX50002S30H5",
+  "legacy_parts_not_to_add_to_active_purchase": true
+}

@@ -1,0 +1,6 @@
+{
+  "date": "2026-10-15",
+  "current_source": "../verification-alimentation/selection-active.json",
+  "note": "Modifier l’alimentation de la logique indépendante : depuis le positif après F0 mais avant ED80, à travers une protection auxiliaire à dimensionner, retour vers D−. B0/B1/B2 ne rejoignent que les voies locales isolées ; aucune masse de puissance par l’équilibrage.",
+  "old_project_PDFs_and_complete_CAD_historical": true
+}

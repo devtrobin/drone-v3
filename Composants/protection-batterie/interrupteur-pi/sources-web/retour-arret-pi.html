@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Raspberry Pi - can it turn itself off with the Mini Pushbutton Power Switch - Other Pololu products - Pololu Forum</title>
+    <meta name="description" content="Hello 
+Im trying to get a Raspberry Pi set up so that when I run ‘shutdown’ on the OS, it will also shut off it’s own power. Has anyone ever done this? 
+I was hoping to use a Mini Pushbutton Power Switch but it has turne&amp;hellip;">
+    <meta name="generator" content="Discourse 3.4.7 - https://github.com/discourse/discourse version unknown">
+<link rel="icon" type="image/png" href="https://forum.pololu.com/uploads/default/optimized/2X/e/e80254c12bfcb5f7ba79bbe9e2cc65376504c4c9_2_32x32.png">
+<link rel="apple-touch-icon" type="image/png" href="https://forum.pololu.com/uploads/default/optimized/2X/3/3f19eeb131a6c00ce4208fcfbe0827aca04bc287_2_180x180.png">
+<meta name="theme-color" media="all" content="#fff">
+
+<meta name="color-scheme" content="light">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, viewport-fit=cover">
+<link rel="canonical" href="https://forum.pololu.com/t/raspberry-pi-can-it-turn-itself-off-with-the-mini-pushbutton-power-switch/21371" />
+
+<link rel="search" type="application/opensearchdescription+xml" href="https://forum.pololu.com/opensearch.xml" title="Pololu Forum Search">
+
+    <link href="/stylesheets/color_definitions_base__6_ca9e82a3e8640e87fd7a9afaa5e6272af32cc539.css?__ws=forum.pololu.com" media="all" rel="stylesheet" class="light-scheme"/>
+
+  <link href="/stylesheets/desktop_f9e0b40fe07e5fe0bc5c9d70aefebeeb64d9220c.css?__ws=forum.pololu.com" media="all" rel="stylesheet" data-target="desktop"  />
+
+
+
+  <link href="/stylesheets/chat_f9e0b40fe07e5fe0bc5c9d70aefebeeb64d9220c.css?__ws=forum.pololu.com" media="all" rel="stylesheet" data-target="chat"  />
+  <link href="/stylesheets/checklist_f9e0b40fe07e5fe0bc5c9d70aefebeeb64d9220c.css?__ws=forum.pololu.com" media="all" rel="stylesheet" data-target="checklist"  />
+  <link href="/stylesheets/discourse-details_f9e0b40fe07e5fe0bc5c9d70aefebeeb64d9220c.css?__ws=forum.pololu.com" media="all" rel="stylesheet" data-target="discourse-details"  />
+  <link href="/stylesheets/discourse-lazy-videos_f9e0b40fe07e5fe0bc5c9d70aefebeeb64d9220c.css?__ws=forum.pololu.com" media="all" rel="stylesheet" data-target="discourse-lazy-videos"  />
+  <link href="/stylesheets/discourse-local-dates_f9e0b40fe07e5fe0bc5c9d70aefebeeb64d9220c.css?__ws=forum.pololu.com" media="all" rel="stylesheet" data-target="discourse-local-dates"  />
+  <link href="/stylesheets/discourse-math_f9e0b40fe07e5fe0bc5c9d70aefebeeb64d9220c.css?__ws=forum.pololu.com" media="all" rel="stylesheet" data-target="discourse-math"  />
+  <link href="/stylesheets/discourse-narrative-bot_f9e0b40fe07e5fe0bc5c9d70aefebeeb64d9220c.css?__ws=forum.pololu.com" media="all" rel="stylesheet" data-target="discourse-narrative-bot"  />
+  <link href="/stylesheets/discourse-presence_f9e0b40fe07e5fe0bc5c9d70aefebeeb64d9220c.css?__ws=forum.pololu.com" media="all" rel="stylesheet" data-target="discourse-presence"  />
+  <link href="/stylesheets/discourse-solved_f9e0b40fe07e5fe0bc5c9d70aefebeeb64d9220c.css?__ws=forum.pololu.com" media="all" rel="stylesheet" data-target="discourse-solved"  />
+  <link href="/stylesheets/footnote_f9e0b40fe07e5fe0bc5c9d70aefebeeb64d9220c.css?__ws=forum.pololu.com" media="all" rel="stylesheet" data-target="footnote"  />
+  <link href="/stylesheets/poll_f9e0b40fe07e5fe0bc5c9d70aefebeeb64d9220c.css?__ws=forum.pololu.com" media="all" rel="stylesheet" data-target="poll"  />
+  <link href="/stylesheets/spoiler-alert_f9e0b40fe07e5fe0bc5c9d70aefebeeb64d9220c.css?__ws=forum.pololu.com" media="all" rel="stylesheet" data-target="spoiler-alert"  />
+  <link href="/stylesheets/chat_desktop_f9e0b40fe07e5fe0bc5c9d70aefebeeb64d9220c.css?__ws=forum.pololu.com" media="all" rel="stylesheet" data-target="chat_desktop"  />
+  <link href="/stylesheets/poll_desktop_f9e0b40fe07e5fe0bc5c9d70aefebeeb64d9220c.css?__ws=forum.pololu.com" media="all" rel="stylesheet" data-target="poll_desktop"  />
+
+  <link href="/stylesheets/desktop_theme_5_65baed65f1ad3e2c12a21f62f520078ae5e651ff.css?__ws=forum.pololu.com" media="all" rel="stylesheet" data-target="desktop_theme" data-theme-id="5" data-theme-name="discourse fixes"/>
+<link href="/stylesheets/desktop_theme_2_0f839b85ec95504b1b34f99eeb0c89bba636e800.css?__ws=forum.pololu.com" media="all" rel="stylesheet" data-target="desktop_theme" data-theme-id="2" data-theme-name="pololu header"/>
+<link href="/stylesheets/desktop_theme_6_052adabab7aa407b51be6de0f513b8ec5e7a0440.css?__ws=forum.pololu.com" media="all" rel="stylesheet" data-target="desktop_theme" data-theme-id="6" data-theme-name="default"/>
+
+    
+    <meta id="data-ga-universal-analytics" data-tracking-code="UA-3723284-7" data-json="{&quot;cookieDomain&quot;:&quot;auto&quot;}" data-auto-link-domains="">
+
+  <script defer src="/assets/google-universal-analytics-v3-08add7ec997ab472fcd9f821d32ff7caf4b8b9a5de2ec18ca723a040be07a098.js" data-discourse-entrypoint="google-universal-analytics-v3" nonce="w7HfKjyb20Pt9g7k7XZMa5q7g"></script>
+
+
+        <link rel="alternate nofollow" type="application/rss+xml" title="RSS feed of &#39;Raspberry Pi - can it turn itself off with the Mini Pushbutton Power Switch&#39;" href="https://forum.pololu.com/t/raspberry-pi-can-it-turn-itself-off-with-the-mini-pushbutton-power-switch/21371.rss" />
+    <meta property="og:site_name" content="Pololu Forum" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:image" content="https://forum.pololu.com/uploads/default/original/2X/2/2c7b83b6119fb5c172456c7ebad7231932e57b8b.png" />
+<meta property="og:image" content="https://forum.pololu.com/uploads/default/original/2X/2/2c7b83b6119fb5c172456c7ebad7231932e57b8b.png" />
+<meta property="og:url" content="https://forum.pololu.com/t/raspberry-pi-can-it-turn-itself-off-with-the-mini-pushbutton-power-switch/21371" />
+<meta name="twitter:url" content="https://forum.pololu.com/t/raspberry-pi-can-it-turn-itself-off-with-the-mini-pushbutton-power-switch/21371" />
+<meta property="og:title" content="Raspberry Pi - can it turn itself off with the Mini Pushbutton Power Switch" />
+<meta name="twitter:title" content="Raspberry Pi - can it turn itself off with the Mini Pushbutton Power Switch" />
+<meta property="og:description" content="Hello  Im trying to get a Raspberry Pi set up so that when I run ‘shutdown’ on the OS, it will also shut off it’s own power. Has anyone ever done this?  I was hoping to use a Mini Pushbutton Power Switch but it has turned out to be non-simple. Under Linux, the GPIO pins apparently can be set to steady output high, or steady output low, after shutdown using the special gpio-poweroff setup in /boot/config.txt. There is also an ‘active_low’ feature which apparently will force a transition from  hig..." />
+<meta name="twitter:description" content="Hello  Im trying to get a Raspberry Pi set up so that when I run ‘shutdown’ on the OS, it will also shut off it’s own power. Has anyone ever done this?  I was hoping to use a Mini Pushbutton Power Switch but it has turned out to be non-simple. Under Linux, the GPIO pins apparently can be set to steady output high, or steady output low, after shutdown using the special gpio-poweroff setup in /boot/config.txt. There is also an ‘active_low’ feature which apparently will force a transition from  hig..." />
+<meta property="og:article:section" content="Support" />
+<meta property="og:article:section:color" content="0E76BD" />
+<meta property="og:article:section" content="Other Pololu products" />
+<meta property="og:article:section:color" content="F7941D" />
+<meta name="twitter:label1" value="Reading time" />
+<meta name="twitter:data1" value="1 mins 🕑" />
+<meta name="twitter:label2" value="Likes" />
+<meta name="twitter:data2" value="3 ❤" />
+<meta property="article:published_time" content="2021-04-12T09:21:16+00:00" />
+<meta property="og:ignore_canonical" content="true" />
+
+
+    <script type="application/ld+json">{"@context":"http://schema.org","@type":"QAPage","name":"Raspberry Pi - can it turn itself off with the Mini Pushbutton Power Switch","mainEntity":{"@type":"Question","name":"Raspberry Pi - can it turn itself off with the Mini Pushbutton Power Switch","text":"Hello\n\nIm trying to get a Raspberry Pi set up so that when I run ‘shutdown’ on the OS, it will also shut off it’s own power. Has anyone ever done this?\n\nI was hoping to use a Mini Pushbutton Power Switch but it has turned out to be non-simple. Under Linux, the GPIO pins apparently can be set to stea&hellip;","upvoteCount":0,"answerCount":1,"datePublished":"2021-04-12T09:21:16.200Z","author":{"@type":"Person","name":"hmbright","url":"https://forum.pololu.com/u/hmbright"},"acceptedAnswer":{"@type":"Answer","text":"Hello, hmbright.\n\nI was able to get this working with dtoverlay=gpio-poweroff,gpiopin=17 in my /boot/config.txt and GPIO17 connected to the pushbutton power switch’s OFF pin. (You’ll probably need to use GPIO 9+ since GPIO 0-8 are pulled high by default when the RPi starts up.)\n\nIf you keep having t&hellip;","upvoteCount":0,"datePublished":"2021-04-13T04:43:28.144Z","url":"https://forum.pololu.com/t/raspberry-pi-can-it-turn-itself-off-with-the-mini-pushbutton-power-switch/21371/2","author":{"@type":"Person","name":"kevin","url":"https://forum.pololu.com/u/kevin"}}}}</script>
+  </head>
+  <body class="crawler ">
+    <div id="pololu-header">
+
+
+
+<div id="header_small_top">
+<!-- / this has to go first since it takes up 100% of the width and would block clicking on other parts -->
+<div id="header_center_right">
+
+</div>
+<div id="header_small_left">
+<a href="https://www.pololu.com/"><img width="118" height="30" alt="Pololu Robotics &amp; Electronics" class="logo_pololu_only" src="https://www.pololu.com/assets/header_pololu_only-fff6349c8769e6b2e59624d6dceacac4422156c5ac8b8b23532f0e93678bb981.png"></a>
+</div>
+<div id="header_small_right">
+</div>
+</div>
+<div id="header_small_bottom">
+<div id="header_small_right">
+</div>
+<div id="header_small_left">
+<a id="menu_button" onclick="return false;" href="https://www.pololu.com/catalog/menu"><img width="30" height="30" alt="Menu" src="https://www.pololu.com/assets/menu-2023bba099d8fd2a25d8e1803c5bdf0aa0a024d9d585000ff9aec2c8a436b29a.png"></a>
+</div>
+</div>
+<div id="header_small_menu">
+<div class="header_small_menu_columns">
+<a href="https://www.pololu.com/catalog/menu">Shop</a>
+<a href="https://www.pololu.com/blog">Blog</a>
+<a href="https://forum.pololu.com/">Forum</a>
+<a href="https://www.pololu.com/support">Support</a>
+</div>
+<!-- / specify local variable id to set an id for the form, mainly for use with testing -->
+<form action="https://www.pololu.com/search" id="header_small_search">
+<div class="search"><input class="search_input mini_search_input" name="query" placeholder="Search" type="text"><input alt="" class="search_button" src="https://www.pololu.com/assets/magglass-d28c6b7b9d1f35858a702b71e13b678bfdee962d795c7ad2426ed9b19ccac5e8.png" type="image" value="go">
+</div>
+</form>
+
+<a title="My account" href="https://www.pololu.com/account">My account</a>
+<a onclick="window.open(this.href,'feedback','height=700,width=660,scrollbars=1,resizable=1');return false;" href="https://www.pololu.com/feedback/new?account%5Burl%5D=https%3A%2F%2Fforum.pololu.com%2F">Comments or questions?</a>
+<a href="https://www.pololu.com/about">About Pololu</a>
+<a href="https://www.pololu.com/contact">Contact</a>
+<a href="https://www.pololu.com/ordering">Ordering information</a>
+<a href="https://www.pololu.com/distributors">Distributors</a>
+</div>
+<div id="gray_screen"></div>
+
+
+<div id="header_holder">
+<table id="header">
+<tbody><tr id="header_top">
+<td id="header_logo" rowspan="2">
+<a href="https://www.pololu.com/"><img width="219" height="69" alt="Pololu Robotics and Electronics" class="logo" style="max-width: 230px;" src="https://www.pololu.com/assets/header_pololu_no_padding-e37eb899d2ec2ded9153a53ad9e0e6e12861f762e2c3bafb4ca40e79a85d149e.png"></a>
+</td>
+<td colspan="16" id="header_address">
+</td>
+</tr>
+<tr id="header_links">
+<th>
+<a href="https://www.pololu.com/">Catalog</a>
+</th>
+<td>&nbsp;</td>
+<th class="selected">
+<a href="https://forum.pololu.com/">Forum</a>
+</th>
+<td>&nbsp;</td>
+<th class="">
+<a href="https://www.pololu.com/blog">Blog</a>
+</th>
+<td>&nbsp;</td>
+<th class="">
+<a href="https://www.pololu.com/support">Support</a>
+</th>
+<td>&nbsp;</td>
+<th class="">
+<a href="https://www.pololu.com/ordering">Ordering</a>
+</th>
+<td>&nbsp;</td>
+<th class="">
+<a href="https://www.pololu.com/distributors">Distributors</a>
+</th>
+<td>&nbsp;</td>
+<th class="">
+<a href="https://www.pololu.com/about">About</a>
+</th>
+<td>&nbsp;</td>
+<th class="">
+<a href="https://www.pololu.com/contact">Contact</a>
+</th>
+<td class="last"></td>
+</tr>
+</tbody></table>
+</div>
+</div><script defer="" src="/theme-javascripts/57b650cf3c02c558667e7ca49c13ac6de04c4779.js?__ws=forum.pololu.com" data-theme-id="2" nonce="w7HfKjyb20Pt9g7k7XZMa5q7g"></script>
+
+    <header>
+  <a href="/">
+    Pololu Forum
+  </a>
+</header>
+
+    <div id="main-outlet" class="wrap" role="main">
+        <div id="topic-title">
+    <h1>
+      <a href="/t/raspberry-pi-can-it-turn-itself-off-with-the-mini-pushbutton-power-switch/21371">Raspberry Pi - can it turn itself off with the Mini Pushbutton Power Switch</a>
+    </h1>
+
+      <div class="topic-category" itemscope itemtype="http://schema.org/BreadcrumbList">
+          <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+            <a href="/c/support/other-pololu-products/25" class="badge-wrapper bullet" itemprop="item">
+              <span class='badge-category-bg' style='background-color: #0E76BD'></span>
+              <span class='badge-category clear-badge'>
+                <span class='category-name' itemprop='name'>Support</span>
+              </span>
+            </a>
+            <meta itemprop="position" content="1" />
+          </span>
+          <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+            <a href="/c/support/other-pololu-products/25" class="badge-wrapper bullet" itemprop="item">
+              <span class='badge-category-bg' style='background-color: #F7941D'></span>
+              <span class='badge-category clear-badge'>
+                <span class='category-name' itemprop='name'>Other Pololu products</span>
+              </span>
+            </a>
+            <meta itemprop="position" content="2" />
+          </span>
+      </div>
+
+  </div>
+
+  
+
+    <div itemscope itemtype='http://schema.org/DiscussionForumPosting'>
+      <meta itemprop='headline' content='Raspberry Pi - can it turn itself off with the Mini Pushbutton Power Switch'>
+      <link itemprop='url' href='https://forum.pololu.com/t/raspberry-pi-can-it-turn-itself-off-with-the-mini-pushbutton-power-switch/21371'>
+      <meta itemprop='datePublished' content='2021-04-12T09:21:16Z'>
+        <meta itemprop='articleSection' content='Other Pololu products'>
+      <meta itemprop='keywords' content=''>
+      <div itemprop='publisher' itemscope itemtype="http://schema.org/Organization">
+        <meta itemprop='name' content='Pololu Forum'>
+      </div>
+
+
+          <div id='post_1'  class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" rel='nofollow' href='https://forum.pololu.com/u/hmbright'><span itemprop='name'>hmbright</span></a>
+                
+              </span>
+
+                <link itemprop="mainEntityOfPage" href="https://forum.pololu.com/t/raspberry-pi-can-it-turn-itself-off-with-the-mini-pushbutton-power-switch/21371">
+
+
+              <span class="crawler-post-infos">
+                  <time  datetime='2021-04-12T09:21:16Z' class='post-time'>
+                    April 12, 2021,  9:21am
+                  </time>
+                  <meta itemprop='dateModified' content='2021-04-12T09:23:55Z'>
+              <span itemprop='position'>1</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>Hello</p>
+<p>Im trying to get a Raspberry Pi set up so that when I run ‘shutdown’ on the OS, it will also shut off it’s own power. Has anyone ever done this?</p>
+<p>I was hoping to use a Mini Pushbutton Power Switch but it has turned out to be non-simple. Under Linux, the GPIO pins apparently can be set to steady output high, or steady output low, after shutdown using the special gpio-poweroff setup in /boot/config.txt. There is also an ‘active_low’ feature which apparently will force a transition from  high to low to trigger events.</p>
+<p>My issue is that no matter how I try to hook a GPIO to the Power Switch, i can’t seem to make it happy. If power is off, and I connect GPIO 2 to ‘Off’ on the switch, then hit the pushbutton to turn on, the Pi power light flashes for a moment then shuts down - almost like as part of the bootup process, Gpio2 is going high for a moment and triggering the ‘off’ on the Power Switch momentarily, so it’s doing an endless loop of partial booting.</p>
+<p>I also tried GPIO17 instead of GPIO2, connecting to Off on the switch - this is supposedly naturally low so it seems like it’s OK when booting up, but then i can never seem to get it to trigger the ‘off’ pad on the switch after shutdown so its not shutting off power.</p>
+<p>Also tried connecting to Control instead of Off, this was a bit of a mess</p>
+<p>I will try again later but I was wondering if this has not been done before? Is it necessary to put some in-between circuit between the GPIO pin and the pushbutton switch?</p>
+<p>I also looked into the slide-switches but i couldnt figure out if / how they allow software self poweroff through a pin.</p>
+<p>Thanks</p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+          </div>
+          <div id='post_2' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" rel='nofollow' href='https://forum.pololu.com/u/kevin'><span itemprop='name'>kevin</span></a>
+                
+              </span>
+
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2021-04-13T04:43:28Z' class='post-time'>
+                    April 13, 2021,  4:43am
+                  </time>
+                  <meta itemprop='dateModified' content='2021-04-13T04:43:28Z'>
+              <span itemprop='position'>2</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>Hello, hmbright.</p>
+<p>I was able to get this working with <code>dtoverlay=gpio-poweroff,gpiopin=17</code> in my /boot/config.txt and GPIO17 connected to the pushbutton power switch’s OFF pin. (You’ll probably need to use GPIO 9+ since GPIO 0-8 are pulled high by default when the RPi starts up.)</p>
+<p>If you keep having trouble, could you post some pictures of your setup showing how you have everything connected? Do you have a screen connected to your RPi so you can make sure the shutdown sequence is finishing normally?</p>
+<p>Kevin</p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+          </div>
+          <div id='post_3' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" rel='nofollow' href='https://forum.pololu.com/u/hmbright'><span itemprop='name'>hmbright</span></a>
+                
+              </span>
+
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2021-04-13T23:27:57Z' class='post-time'>
+                    April 13, 2021, 11:27pm
+                  </time>
+                  <meta itemprop='dateModified' content='2021-04-13T23:27:57Z'>
+              <span itemprop='position'>3</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>Hi Kevin,</p>
+<p>Thank you, I really appreciate it.</p>
+<p>I was using this</p>
+<pre><code>dtoverlay=gpio-poweroff,gpiopin=27,active_low=1 
+</code></pre>
+<p>but when i changed it to what you had</p>
+<pre><code>dtoverlay=gpio-poweroff,gpiopin=27
+</code></pre>
+<p>it started working correctly.</p>
+<p>Thanks!!!</p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="1" />
+              <span class='post-likes'>1 Like</span>
+            </div>
+
+          </div>
+          <div id='post_4' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" rel='nofollow' href='https://forum.pololu.com/u/Berlin'><span itemprop='name'>Berlin</span></a>
+                
+              </span>
+
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2021-11-01T23:53:37Z' class='post-time'>
+                    November 1, 2021, 11:53pm
+                  </time>
+                  <meta itemprop='dateModified' content='2021-11-01T23:53:37Z'>
+              <span itemprop='position'>4</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>Hi,<br>
+I did ist on the same way as you did.</p>
+<p><code>dtoverlay=gpio-poweroff,gpiopin=17</code></p>
+<p>I use a Pi Zero W with a Big Power Switch MP.</p>
+<p>When the Pi shutdown, it seems to be very fast. The Pololu Switch cut the power very fast after shutdown. What is your meaning, is that the right behavior?</p>
+<p>Best regards!</p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="1" />
+              <span class='post-likes'>1 Like</span>
+            </div>
+
+          </div>
+          <div id='post_5' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" rel='nofollow' href='https://forum.pololu.com/u/Berlin'><span itemprop='name'>Berlin</span></a>
+                
+              </span>
+
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2021-11-08T08:58:00Z' class='post-time'>
+                    November 8, 2021,  8:58am
+                  </time>
+                  <meta itemprop='dateModified' content='2021-11-08T08:58:00Z'>
+              <span itemprop='position'>5</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>I checked the syslogs and generated a systemd service that start a script when system begin the shutdown.<br>
+I found no errors in my syslogs and the script is working well.<br>
+So, I think the shutdown with <code>dtoverlay=gpio-poweroff,gpiopin=17</code> is safe. <img src="https://forum.pololu.com/images/emoji/twitter/slight_smile.png?v=10" title=":slight_smile:" class="emoji" alt=":slight_smile:"></p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="1" />
+              <span class='post-likes'>1 Like</span>
+            </div>
+
+          </div>
+    </div>
+
+
+    
+
+
+
+
+    </div>
+    <footer class="container wrap">
+  <nav class='crawler-nav'>
+    <ul>
+      <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+        <span itemprop='name'>
+          <a href='/' itemprop="url">Home </a>
+        </span>
+      </li>
+      <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+        <span itemprop='name'>
+          <a href='/categories' itemprop="url">Categories </a>
+        </span>
+      </li>
+      <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+        <span itemprop='name'>
+          <a href='/guidelines' itemprop="url">Guidelines </a>
+        </span>
+      </li>
+        <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+          <span itemprop='name'>
+            <a href='/tos' itemprop="url">Terms of Service </a>
+          </span>
+        </li>
+        <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+          <span itemprop='name'>
+            <a href='/privacy' itemprop="url">Privacy Policy </a>
+          </span>
+        </li>
+    </ul>
+  </nav>
+  <p class='powered-by-link'>Powered by <a href="https://www.discourse.org">Discourse</a>, best viewed with JavaScript enabled</p>
+</footer>
+
+    
+    
+  </body>
+  
+</html>

@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-15",
+  "folder": "condensateurs-decouplage-100nf",
+  "ref": "KEMET C315C104K5R5TA",
+  "qty": 2,
+  "name": "Condensateur de découplage 100 nF",
+  "buy": "https://fr.rs-online.com/web/p/condensateurs-ceramique-multicouches/1463570",
+  "source": "https://search.kemet.com/component-documentation/download/specsheet/C315C104K5R5TA",
+  "pdf": "KEMET-C315C104K5R5TA-original.pdf",
+  "step": "kemet-c315c104k5r5ta-officiel.step",
+  "price": "RS 146-3570 : lot de 20 à 4,68 EUR HT / 5,62 EUR TTC affichés. Ne pas prendre la boîte industrielle de 500 du code 146-3482.",
+  "facts": [
+    [
+      "Valeur",
+      "100 nF ±10 %, 50 V DC, diélectrique X7R, non polarisé"
+    ],
+    [
+      "Rôle",
+      "Un par capteur entre VCC et GND, au plus près des broches"
+    ],
+    [
+      "Exigence TI",
+      "10 nF minimum ; 100 nF nominal retenu, capacité utile à vérifier si référence remplacée"
+    ],
+    [
+      "Enveloppe corps",
+      "L 3,81 max ; H 3,14 max ; T 2,54 mm max selon fiche spécifique"
+    ],
+    [
+      "Pattes",
+      "Pas 2,54 ±0,78 mm ; Ø0,51 +0,1/-0,025 mm ; longueur LL ≥7 mm"
+    ],
+    [
+      "CAO",
+      "STEP officiel obtenu par le lien de la fiche KEMET, conservé à l’identique"
+    ]
+  ],
+  "limits": "La CAO constructeur est conservée avec sa géométrie et ses couleurs. Ses arrondis et longueurs ne remplacent pas les tolérances du lot. La prose générique C0G de RS ne concerne pas cette référence X7R : la fiche spécifique KEMET prime.",
+  "hardware_tested": false,
+  "purchased": false,
+  "Amazon_exact_offer_verified": false
+}

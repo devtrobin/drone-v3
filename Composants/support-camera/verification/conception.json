@@ -1,0 +1,73 @@
+{
+  "hardware_tested": false,
+  "geometry_valid": true,
+  "clearance_grid": [
+    {
+      "height_mm": 190,
+      "down_pitch_deg": 10,
+      "overlap_with_fixed_wood_mm3": 0.0
+    },
+    {
+      "height_mm": 190,
+      "down_pitch_deg": 20,
+      "overlap_with_fixed_wood_mm3": 0.0
+    },
+    {
+      "height_mm": 190,
+      "down_pitch_deg": 35,
+      "overlap_with_fixed_wood_mm3": 0.0
+    },
+    {
+      "height_mm": 220,
+      "down_pitch_deg": 10,
+      "overlap_with_fixed_wood_mm3": 0.0
+    },
+    {
+      "height_mm": 220,
+      "down_pitch_deg": 20,
+      "overlap_with_fixed_wood_mm3": 0.0
+    },
+    {
+      "height_mm": 220,
+      "down_pitch_deg": 35,
+      "overlap_with_fixed_wood_mm3": 0.0
+    },
+    {
+      "height_mm": 230,
+      "down_pitch_deg": 10,
+      "overlap_with_fixed_wood_mm3": 0.0
+    },
+    {
+      "height_mm": 230,
+      "down_pitch_deg": 20,
+      "overlap_with_fixed_wood_mm3": 0.0
+    },
+    {
+      "height_mm": 230,
+      "down_pitch_deg": 35,
+      "overlap_with_fixed_wood_mm3": 0.0
+    }
+  ],
+  "max_fixed_overlap_mm3": 0,
+  "camera_cradle_clearance": [
+    {
+      "part": "CAM_Gabarit_PCB_32x32_estime",
+      "cradle_overlap_mm3": 0.0
+    },
+    {
+      "part": "CAM_Objectif_gabarit_estime",
+      "cradle_overlap_mm3": 0.0
+    },
+    {
+      "part": "CAM_Verre_gabarit_estime",
+      "cradle_overlap_mm3": 0.0
+    },
+    {
+      "part": "CAM_USB_gabarit_estime",
+      "cradle_overlap_mm3": 0.0
+    }
+  ],
+  "thread_geometry_included": false,
+  "USB_plug_and_cable_not_tested": true,
+  "structural_qualification": false
+}

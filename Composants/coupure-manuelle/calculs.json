@@ -1,0 +1,11 @@
+{
+  "current_study_A": 44.39,
+  "ED80_thermal_A": 80,
+  "ED80_typical_new_contact_drop_V": 0.04,
+  "ED80_drop_reference_A": 80,
+  "estimated_contact_R_ohm": 0.0005,
+  "estimated_drop_V": 0.022195,
+  "estimated_loss_W": 0.98523605,
+  "contact_model": "Linear approximation, new contacts only; no measurement",
+  "complete_galvanic_isolation": false
+}

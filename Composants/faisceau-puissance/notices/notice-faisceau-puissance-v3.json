@@ -1,0 +1,61 @@
+{
+  "file": "notice-faisceau-puissance-v3.pdf",
+  "pages": 8,
+  "sha256": "de63e3c50a2a0c4997de771436cd488a87e08474135d53ff4caabee17e8ce62f",
+  "generator": "tools/build_harness_pdf.py",
+  "generated_on": "2026-10-14",
+  "renders": [
+    {
+      "page": 1,
+      "render": "tools\\temp\\harness-review\\pdf\\page-1.png",
+      "chars": 1416
+    },
+    {
+      "page": 2,
+      "render": "tools\\temp\\harness-review\\pdf\\page-2.png",
+      "chars": 1437
+    },
+    {
+      "page": 3,
+      "render": "tools\\temp\\harness-review\\pdf\\page-3.png",
+      "chars": 1290
+    },
+    {
+      "page": 4,
+      "render": "tools\\temp\\harness-review\\pdf\\page-4.png",
+      "chars": 1282
+    },
+    {
+      "page": 5,
+      "render": "tools\\temp\\harness-review\\pdf\\page-5.png",
+      "chars": 1508
+    },
+    {
+      "page": 6,
+      "render": "tools\\temp\\harness-review\\pdf\\page-6.png",
+      "chars": 1347
+    },
+    {
+      "page": 7,
+      "render": "tools\\temp\\harness-review\\pdf\\page-7.png",
+      "chars": 2351
+    },
+    {
+      "page": 8,
+      "render": "tools\\temp\\harness-review\\pdf\\page-8.png",
+      "chars": 2115
+    }
+  ],
+  "visual_review_complete": true,
+  "visual_review_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "visual_review_notes": "Toutes les pages finales inspectees: images, tables, marges, titres, unites et pieds de page lisibles; aucun chevauchement ni texte coupe."
+}

@@ -1,0 +1,37 @@
+{
+  "file": "notice-dissipateur-relais-v3.pdf",
+  "pages": 4,
+  "sha256": "bce55ad48025e9ae156a9940cbf05a6a860028e2df88ec05a2dc0fa276829953",
+  "generator": "tools/build_heatsink_pdf.py",
+  "generated_on": "2026-10-13",
+  "renders": [
+    {
+      "page": 1,
+      "render": "tools\\temp\\heatsink-review\\pdf\\page-1.png",
+      "chars": 864
+    },
+    {
+      "page": 2,
+      "render": "tools\\temp\\heatsink-review\\pdf\\page-2.png",
+      "chars": 1857
+    },
+    {
+      "page": 3,
+      "render": "tools\\temp\\heatsink-review\\pdf\\page-3.png",
+      "chars": 1606
+    },
+    {
+      "page": 4,
+      "render": "tools\\temp\\heatsink-review\\pdf\\page-4.png",
+      "chars": 2156
+    }
+  ],
+  "visual_review_complete": true,
+  "visual_review_pages": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "visual_review_notes": "All final rendered pages inspected: text, tables, formula, images, source links and footer legible, no overlap or clipping"
+}

@@ -1,0 +1,292 @@
+{
+  "file": "paire-supports-vitesse-p1.step",
+  "title": "Deux stations P1 | presentation, pas voie du chassis",
+  "generated_on": "2026-10-15",
+  "unit": "mm",
+  "cadquery_version": "2.8.0",
+  "coordinate_system": "X shaft axis; rotor frontX0, backX8; sensor marked face on negativeX looking+X. Mounting planeZ0, nominal shaftZ24, magnet orbitR12.",
+  "bytes": 1150581,
+  "sha256": "f0841f04a46bf75ed1fb1579deaa77cdd33286ce3a7a541fae2ebb15348fa1d5",
+  "native_vendor_cad": false,
+  "hardware_measured": false,
+  "is_custom_project_design": true,
+  "published_nominal": [
+    "TI LPG body maximum4.1x1.62x3.25mm; magnet3x2mm +/-0.1 from existing primary-source dossier."
+  ],
+  "estimates_and_limitations": [
+    "Project prototype dimensions, not manufactured or tested.",
+    "Hall active point height, axle and magnet alignment require physical adjustment. Pins shown shortened to6mm; solder and cable routes absent.",
+    "Provisional screw envelopes without thread geometry. No final chassis, gear, bearing or wheel assembly is claimed."
+  ],
+  "parameters": {
+    "presentation_center_spacing_mm": 100,
+    "defines_vehicle_track": false
+  },
+  "source_pages": [
+    "../capteurs-vitesse/README.md; ../capteurs-vitesse/notices/TI-DRV5033-original.pdf; ../capteurs-vitesse/aimants-s-03-02-n/cotes.md"
+  ],
+  "bounds_mm": {
+    "xmin": -70.0,
+    "xmax": 70.0,
+    "ymin": -16.0000001,
+    "ymax": 16.0000001,
+    "zmin": 0.0,
+    "zmax": 52.0
+  },
+  "validation": {
+    "valid_after_reimport": true,
+    "solids": 26,
+    "faces": 318,
+    "colors": 4,
+    "volume_relative_error": 8.000589450943459e-15,
+    "volume_relative_error_limit": 0.0001,
+    "volume_before_mm3": 32739.39698027063,
+    "volume_after_mm3": 32739.396980270893,
+    "adaptive_volume_tolerance": 1e-09,
+    "bbox_error_mm": 0.0,
+    "bbox_error_limit_mm": 0.01,
+    "void_and_material_probes": [],
+    "elapsed_seconds": 1.3036159000002954
+  },
+  "parts": [
+    {
+      "name": "G_P01_Equerre_fourche",
+      "color_linear_rgb": [
+        0.035,
+        0.15,
+        0.23
+      ],
+      "solids": 1
+    },
+    {
+      "name": "G_P02_Porte_capteur",
+      "color_linear_rgb": [
+        0.035,
+        0.15,
+        0.23
+      ],
+      "solids": 1
+    },
+    {
+      "name": "G_P03_Retenue_capteur",
+      "color_linear_rgb": [
+        0.035,
+        0.15,
+        0.23
+      ],
+      "solids": 1
+    },
+    {
+      "name": "G_DRV5033_corps_nominal_face_plusX",
+      "color_linear_rgb": [
+        0.015,
+        0.018,
+        0.022
+      ],
+      "solids": 1
+    },
+    {
+      "name": "G_DRV5033_VCC_patte_raccourcie6",
+      "color_linear_rgb": [
+        0.48,
+        0.51,
+        0.54
+      ],
+      "solids": 1
+    },
+    {
+      "name": "G_DRV5033_GND_patte_raccourcie6",
+      "color_linear_rgb": [
+        0.48,
+        0.51,
+        0.54
+      ],
+      "solids": 1
+    },
+    {
+      "name": "G_DRV5033_OUT_patte_raccourcie6",
+      "color_linear_rgb": [
+        0.48,
+        0.51,
+        0.54
+      ],
+      "solids": 1
+    },
+    {
+      "name": "G_P04_Rotor_capteur_faceX0",
+      "color_linear_rgb": [
+        0.75,
+        0.19,
+        0.025
+      ],
+      "solids": 1
+    },
+    {
+      "name": "G_Aimant_3x2_-1",
+      "color_linear_rgb": [
+        0.48,
+        0.51,
+        0.54
+      ],
+      "solids": 1
+    },
+    {
+      "name": "G_Vis_blocage_M3x8_nominale_-1",
+      "color_linear_rgb": [
+        0.48,
+        0.51,
+        0.54
+      ],
+      "solids": 1
+    },
+    {
+      "name": "G_Aimant_3x2_1",
+      "color_linear_rgb": [
+        0.48,
+        0.51,
+        0.54
+      ],
+      "solids": 1
+    },
+    {
+      "name": "G_Vis_blocage_M3x8_nominale_1",
+      "color_linear_rgb": [
+        0.48,
+        0.51,
+        0.54
+      ],
+      "solids": 1
+    },
+    {
+      "name": "G_Axe5_gabarit_non_fourni",
+      "color_linear_rgb": [
+        0.48,
+        0.51,
+        0.54
+      ],
+      "solids": 1
+    },
+    {
+      "name": "D_P01_Equerre_fourche",
+      "color_linear_rgb": [
+        0.035,
+        0.15,
+        0.23
+      ],
+      "solids": 1
+    },
+    {
+      "name": "D_P02_Porte_capteur",
+      "color_linear_rgb": [
+        0.035,
+        0.15,
+        0.23
+      ],
+      "solids": 1
+    },
+    {
+      "name": "D_P03_Retenue_capteur",
+      "color_linear_rgb": [
+        0.035,
+        0.15,
+        0.23
+      ],
+      "solids": 1
+    },
+    {
+      "name": "D_DRV5033_corps_nominal_face_plusX",
+      "color_linear_rgb": [
+        0.015,
+        0.018,
+        0.022
+      ],
+      "solids": 1
+    },
+    {
+      "name": "D_DRV5033_VCC_patte_raccourcie6",
+      "color_linear_rgb": [
+        0.48,
+        0.51,
+        0.54
+      ],
+      "solids": 1
+    },
+    {
+      "name": "D_DRV5033_GND_patte_raccourcie6",
+      "color_linear_rgb": [
+        0.48,
+        0.51,
+        0.54
+      ],
+      "solids": 1
+    },
+    {
+      "name": "D_DRV5033_OUT_patte_raccourcie6",
+      "color_linear_rgb": [
+        0.48,
+        0.51,
+        0.54
+      ],
+      "solids": 1
+    },
+    {
+      "name": "D_P04_Rotor_capteur_faceX0",
+      "color_linear_rgb": [
+        0.75,
+        0.19,
+        0.025
+      ],
+      "solids": 1
+    },
+    {
+      "name": "D_Aimant_3x2_-1",
+      "color_linear_rgb": [
+        0.48,
+        0.51,
+        0.54
+      ],
+      "solids": 1
+    },
+    {
+      "name": "D_Vis_blocage_M3x8_nominale_-1",
+      "color_linear_rgb": [
+        0.48,
+        0.51,
+        0.54
+      ],
+      "solids": 1
+    },
+    {
+      "name": "D_Aimant_3x2_1",
+      "color_linear_rgb": [
+        0.48,
+        0.51,
+        0.54
+      ],
+      "solids": 1
+    },
+    {
+      "name": "D_Vis_blocage_M3x8_nominale_1",
+      "color_linear_rgb": [
+        0.48,
+        0.51,
+        0.54
+      ],
+      "solids": 1
+    },
+    {
+      "name": "D_Axe5_gabarit_non_fourni",
+      "color_linear_rgb": [
+        0.48,
+        0.51,
+        0.54
+      ],
+      "solids": 1
+    }
+  ],
+  "preview": {
+    "file": "paire-supports-vitesse-p1.png",
+    "sha256": "43e24c1eb760c0eb0f1d6cb20aaf15f351bab896666c17a7a9568fd48378081d"
+  },
+  "hardware_tested": false
+}

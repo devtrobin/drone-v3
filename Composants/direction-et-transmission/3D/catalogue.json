@@ -1,0 +1,2375 @@
+{
+  "generated_on": "2026-10-13",
+  "model_count": 29,
+  "folder_count": 14,
+  "models": [
+    {
+      "folder": "servo-direction",
+      "file": "servo-feetech-ft90m-detaille.step",
+      "title": "FEETECH FT90M | servo sans palonnier",
+      "generated_on": "2026-10-13",
+      "unit": "mm",
+      "cadquery_version": "2.8.0",
+      "coordinate_system": "Z vertical; corps centre X/Y, fond z=0; sortie x=-5.7; etiquette vers -Y",
+      "bytes": 1811882,
+      "sha256": "e381ee1a9f918e887b9c31f5d1d037d3da78069da430483f25482591dc75e739",
+      "native_vendor_cad": false,
+      "hardware_measured": false,
+      "is_custom_project_design": false,
+      "published_nominal": [
+        "PDF p.5: corps 23.3 x 12.1 mm; epaulement 21.45 mm; sortie 25.25 mm",
+        "Oreilles: longueur 32.5 mm, deux trous diametre 2 mm; sortie 20T OD3.95",
+        "Vue/photo PDF p.7: boitier noir, sortie laiton, cable brun/rouge/orange"
+      ],
+      "estimates_and_limitations": [
+        "Rayons, epaisseurs, petites vis et etiquettes reconstruits",
+        "Pas de moteur, electronique ou reducteur internes inventes",
+        "Cable dessine compact: longueur du routage NON equivalente a 200/250 mm",
+        "Connecteur non cote, pas de contacts propose 2.54 mm; variante recue a confirmer",
+        "FT90M revision 2020, variante actuelle a confirmer"
+      ],
+      "parameters": {
+        "body_width": 12.1,
+        "body_length": 23.3,
+        "body_shoulder_height": 21.45,
+        "cables": 3,
+        "each_cable_closed_solids": 1,
+        "cable_axis_and_joint_material_probes_passed": true,
+        "connector_pitch_assumed": 2.54
+      },
+      "source_pages": [
+        "FEETECH-FT90M-fiche-historique-miroir.pdf p.5 et p.7"
+      ],
+      "bounds_mm": {
+        "xmin": -41.5,
+        "xmax": 16.25,
+        "ymin": -6.2100001,
+        "ymax": 6.050000000000001,
+        "zmin": -6.2,
+        "zmax": 32.19702199076338
+      },
+      "validation": {
+        "valid_after_reimport": true,
+        "solids": 30,
+        "faces": 443,
+        "colors": 7,
+        "volume_relative_error": 1.449800140534056e-14,
+        "volume_relative_error_limit": 0.0001,
+        "volume_before_mm3": 6649.636435572257,
+        "volume_after_mm3": 6649.636435572354,
+        "adaptive_volume_tolerance": 1e-09,
+        "bbox_error_mm": 0.0034438241287375604,
+        "bbox_error_limit_mm": 0.01,
+        "void_and_material_probes": [],
+        "elapsed_seconds": 3.0571116999999504
+      },
+      "parts": [
+        {
+          "name": "Boitier_central_PC",
+          "color_linear_rgb": [
+            0.022,
+            0.026,
+            0.032
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Capot_inferieur_PC",
+          "color_linear_rgb": [
+            0.022,
+            0.026,
+            0.032
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Capot_reducteur_et_oreilles",
+          "color_linear_rgb": [
+            0.022,
+            0.026,
+            0.032
+          ],
+          "solids": 3
+        },
+        {
+          "name": "Sortie_laiton_20T_OD3_95_estimee",
+          "color_linear_rgb": [
+            0.54,
+            0.34,
+            0.085
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Tete_vis_boite_1_estimee",
+          "color_linear_rgb": [
+            0.62,
+            0.65,
+            0.69
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Tete_vis_boite_2_estimee",
+          "color_linear_rgb": [
+            0.62,
+            0.65,
+            0.69
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Tete_vis_boite_3_estimee",
+          "color_linear_rgb": [
+            0.62,
+            0.65,
+            0.69
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Tete_vis_boite_4_estimee",
+          "color_linear_rgb": [
+            0.62,
+            0.65,
+            0.69
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Etiquette_fond_blanc",
+          "color_linear_rgb": [
+            0.88,
+            0.87,
+            0.8
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Marquage_FEETECH",
+          "color_linear_rgb": [
+            0.022,
+            0.026,
+            0.032
+          ],
+          "solids": 7
+        },
+        {
+          "name": "Marquage_FT90M",
+          "color_linear_rgb": [
+            0.022,
+            0.026,
+            0.032
+          ],
+          "solids": 5
+        },
+        {
+          "name": "Cordon_1_trace_illustratif_longueur_non_imposee",
+          "color_linear_rgb": [
+            0.085,
+            0.033,
+            0.012
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Cordon_2_trace_illustratif_longueur_non_imposee",
+          "color_linear_rgb": [
+            0.57,
+            0.014,
+            0.009
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Cordon_3_trace_illustratif_longueur_non_imposee",
+          "color_linear_rgb": [
+            0.92,
+            0.33,
+            0.012
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Contact_femelle_1_estime",
+          "color_linear_rgb": [
+            0.54,
+            0.34,
+            0.085
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Contact_femelle_2_estime",
+          "color_linear_rgb": [
+            0.54,
+            0.34,
+            0.085
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Contact_femelle_3_estime",
+          "color_linear_rgb": [
+            0.54,
+            0.34,
+            0.085
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Connecteur_3_voies_geometrie_estimee",
+          "color_linear_rgb": [
+            0.022,
+            0.026,
+            0.032
+          ],
+          "solids": 1
+        }
+      ],
+      "preview": {
+        "file": "servo-feetech-ft90m-detaille.png",
+        "sha256": "36d6cb7d43c77a17e05ad7a4b149cfc41da565eecfe5596201ac10d24e6707f0"
+      }
+    },
+    {
+      "folder": "servo-direction",
+      "file": "palonnier-simple-ft90m.step",
+      "title": "FT90M | palonnier-simple",
+      "generated_on": "2026-10-13",
+      "unit": "mm",
+      "cadquery_version": "2.8.0",
+      "coordinate_system": "Z vertical; corps centre X/Y, fond z=0; sortie x=-5.7; etiquette vers -Y",
+      "bytes": 367540,
+      "sha256": "96411e2cc8d8a268d35e314a856ab6697f468aa82d1a832fe98d40510db77c3c",
+      "native_vendor_cad": false,
+      "hardware_measured": false,
+      "is_custom_project_design": false,
+      "published_nominal": [
+        "Accessoires blancs observes PDF p.7; famille de sortie 20T OD3.95"
+      ],
+      "estimates_and_limitations": [
+        "Toutes cotes de palonnier, trous et profil estimees; spline interne 20T reconstruite NON certifiee",
+        "Trou central Ø2.2, roof1.3 et socket1.9: choix geometriques non cotes",
+        "Table PDF p.6: No Accessories, malgre photo p.7; contenu du sachet non garanti",
+        "Dessins de pose uniquement: verifier accessoires du servo recu"
+      ],
+      "parameters": {},
+      "source_pages": [],
+      "bounds_mm": {
+        "xmin": -3.2,
+        "xmax": 11.0,
+        "ymin": -3.2,
+        "ymax": 3.2,
+        "zmin": 0.0,
+        "zmax": 3.2
+      },
+      "validation": {
+        "valid_after_reimport": true,
+        "solids": 1,
+        "faces": 94,
+        "colors": 1,
+        "volume_relative_error": 2.87189596183055e-14,
+        "volume_relative_error_limit": 0.0001,
+        "volume_before_mm3": 119.74761226680528,
+        "volume_after_mm3": 119.74761226680184,
+        "adaptive_volume_tolerance": 1e-09,
+        "bbox_error_mm": 1.7763568394002505e-15,
+        "bbox_error_limit_mm": 0.01,
+        "void_and_material_probes": [
+          {
+            "point": [
+              0,
+              0,
+              2.5
+            ],
+            "occupied": false
+          },
+          {
+            "point": [
+              1.2,
+              0,
+              2.5
+            ],
+            "occupied": true
+          }
+        ],
+        "elapsed_seconds": 0.4740498999999545
+      },
+      "parts": [
+        {
+          "name": "POM_blanc",
+          "color_linear_rgb": [
+            0.88,
+            0.87,
+            0.8
+          ],
+          "solids": 1
+        }
+      ],
+      "preview": {
+        "file": "palonnier-simple-ft90m.png",
+        "sha256": "52f8204bcf5c7ba5aa4d4e00b41899a508bcad9eb23f8d01ba78bdb4aaf4e324"
+      }
+    },
+    {
+      "folder": "servo-direction",
+      "file": "palonnier-double-ft90m.step",
+      "title": "FT90M | palonnier-double",
+      "generated_on": "2026-10-13",
+      "unit": "mm",
+      "cadquery_version": "2.8.0",
+      "coordinate_system": "Z vertical; corps centre X/Y, fond z=0; sortie x=-5.7; etiquette vers -Y",
+      "bytes": 402448,
+      "sha256": "37061f27d75ae25f2e87e8992f76917a76a85c38f6872ce5d1611d496945629f",
+      "native_vendor_cad": false,
+      "hardware_measured": false,
+      "is_custom_project_design": false,
+      "published_nominal": [
+        "Accessoires blancs observes PDF p.7; famille de sortie 20T OD3.95"
+      ],
+      "estimates_and_limitations": [
+        "Toutes cotes de palonnier, trous et profil estimees; spline interne 20T reconstruite NON certifiee",
+        "Trou central Ø2.2, roof1.3 et socket1.9: choix geometriques non cotes",
+        "Table PDF p.6: No Accessories, malgre photo p.7; contenu du sachet non garanti",
+        "Dessins de pose uniquement: verifier accessoires du servo recu"
+      ],
+      "parameters": {},
+      "source_pages": [],
+      "bounds_mm": {
+        "xmin": -13.0,
+        "xmax": 13.0,
+        "ymin": -3.2,
+        "ymax": 3.2,
+        "zmin": 0.0,
+        "zmax": 3.2
+      },
+      "validation": {
+        "valid_after_reimport": true,
+        "solids": 1,
+        "faces": 103,
+        "colors": 1,
+        "volume_relative_error": 1.576347935045127e-14,
+        "volume_relative_error_limit": 0.0001,
+        "volume_before_mm3": 187.51303028017085,
+        "volume_after_mm3": 187.5130302801679,
+        "adaptive_volume_tolerance": 1e-09,
+        "bbox_error_mm": 0.0,
+        "bbox_error_limit_mm": 0.01,
+        "void_and_material_probes": [
+          {
+            "point": [
+              0,
+              0,
+              2.5
+            ],
+            "occupied": false
+          },
+          {
+            "point": [
+              1.2,
+              0,
+              2.5
+            ],
+            "occupied": true
+          }
+        ],
+        "elapsed_seconds": 0.5150877999985823
+      },
+      "parts": [
+        {
+          "name": "POM_blanc",
+          "color_linear_rgb": [
+            0.88,
+            0.87,
+            0.8
+          ],
+          "solids": 1
+        }
+      ],
+      "preview": {
+        "file": "palonnier-double-ft90m.png",
+        "sha256": "9f6344df1f8671f8401c695f00716e85fd2d6b47b7001697d5abf36bd91d1fcb"
+      }
+    },
+    {
+      "folder": "servo-direction",
+      "file": "palonnier-croix-ft90m.step",
+      "title": "FT90M | palonnier-croix",
+      "generated_on": "2026-10-13",
+      "unit": "mm",
+      "cadquery_version": "2.8.0",
+      "coordinate_system": "Z vertical; corps centre X/Y, fond z=0; sortie x=-5.7; etiquette vers -Y",
+      "bytes": 458028,
+      "sha256": "0f90b25b76444beb15d75ffd1166f06105af7bc9277d86015c3fa5e9d9a4cfd4",
+      "native_vendor_cad": false,
+      "hardware_measured": false,
+      "is_custom_project_design": false,
+      "published_nominal": [
+        "Accessoires blancs observes PDF p.7; famille de sortie 20T OD3.95"
+      ],
+      "estimates_and_limitations": [
+        "Toutes cotes de palonnier, trous et profil estimees; spline interne 20T reconstruite NON certifiee",
+        "Trou central Ø2.2, roof1.3 et socket1.9: choix geometriques non cotes",
+        "Table PDF p.6: No Accessories, malgre photo p.7; contenu du sachet non garanti",
+        "Dessins de pose uniquement: verifier accessoires du servo recu"
+      ],
+      "parameters": {},
+      "source_pages": [],
+      "bounds_mm": {
+        "xmin": -13.0,
+        "xmax": 13.0,
+        "ymin": -13.0,
+        "ymax": 13.0,
+        "zmin": 0.0,
+        "zmax": 3.2
+      },
+      "validation": {
+        "valid_after_reimport": true,
+        "solids": 1,
+        "faces": 118,
+        "colors": 1,
+        "volume_relative_error": 1.6375701957106436e-14,
+        "volume_relative_error_limit": 0.0001,
+        "volume_before_mm3": 298.52363183173657,
+        "volume_after_mm3": 298.5236318317317,
+        "adaptive_volume_tolerance": 1e-09,
+        "bbox_error_mm": 0.0,
+        "bbox_error_limit_mm": 0.01,
+        "void_and_material_probes": [
+          {
+            "point": [
+              0,
+              0,
+              2.5
+            ],
+            "occupied": false
+          },
+          {
+            "point": [
+              1.2,
+              0,
+              2.5
+            ],
+            "occupied": true
+          }
+        ],
+        "elapsed_seconds": 0.6239185000013094
+      },
+      "parts": [
+        {
+          "name": "POM_blanc",
+          "color_linear_rgb": [
+            0.88,
+            0.87,
+            0.8
+          ],
+          "solids": 1
+        }
+      ],
+      "preview": {
+        "file": "palonnier-croix-ft90m.png",
+        "sha256": "89fb79afe8fd72c0541dc879e600bde82e189f1fe2fb97e1723a6db05a1098aa"
+      }
+    },
+    {
+      "folder": "servo-direction",
+      "file": "palonnier-disque-ft90m.step",
+      "title": "FT90M | palonnier-disque",
+      "generated_on": "2026-10-13",
+      "unit": "mm",
+      "cadquery_version": "2.8.0",
+      "coordinate_system": "Z vertical; corps centre X/Y, fond z=0; sortie x=-5.7; etiquette vers -Y",
+      "bytes": 394850,
+      "sha256": "72e1260d42a1690fcc78c2e01f13125294cdef692eb6bd699735f330ab7f280b",
+      "native_vendor_cad": false,
+      "hardware_measured": false,
+      "is_custom_project_design": false,
+      "published_nominal": [
+        "Accessoires blancs observes PDF p.7; famille de sortie 20T OD3.95"
+      ],
+      "estimates_and_limitations": [
+        "Toutes cotes de palonnier, trous et profil estimees; spline interne 20T reconstruite NON certifiee",
+        "Trou central Ø2.2, roof1.3 et socket1.9: choix geometriques non cotes",
+        "Table PDF p.6: No Accessories, malgre photo p.7; contenu du sachet non garanti",
+        "Dessins de pose uniquement: verifier accessoires du servo recu"
+      ],
+      "parameters": {},
+      "source_pages": [],
+      "bounds_mm": {
+        "xmin": -9.978875000000025,
+        "xmax": 9.978875000000025,
+        "ymin": -9.978875000000025,
+        "ymax": 9.978875000000025,
+        "zmin": 0.0,
+        "zmax": 3.2
+      },
+      "validation": {
+        "valid_after_reimport": true,
+        "solids": 1,
+        "faces": 102,
+        "colors": 1,
+        "volume_relative_error": 3.3641417930013295e-14,
+        "volume_relative_error_limit": 0.0001,
+        "volume_before_mm3": 425.800766861968,
+        "volume_after_mm3": 425.8007668619823,
+        "adaptive_volume_tolerance": 1e-09,
+        "bbox_error_mm": 2.6645352591003757e-14,
+        "bbox_error_limit_mm": 0.01,
+        "void_and_material_probes": [
+          {
+            "point": [
+              0,
+              0,
+              2.5
+            ],
+            "occupied": false
+          },
+          {
+            "point": [
+              1.2,
+              0,
+              2.5
+            ],
+            "occupied": true
+          }
+        ],
+        "elapsed_seconds": 0.5147264999977779
+      },
+      "parts": [
+        {
+          "name": "POM_blanc",
+          "color_linear_rgb": [
+            0.88,
+            0.87,
+            0.8
+          ],
+          "solids": 1
+        }
+      ],
+      "preview": {
+        "file": "palonnier-disque-ft90m.png",
+        "sha256": "f3d8b14c8a103835110d6979c8a5b62f7007fd66d27ff10b89c6bbebad971ec4"
+      }
+    },
+    {
+      "folder": "servo-direction",
+      "file": "vis-palonnier-m2x4.step",
+      "title": "FT90M | vis nominale M2 x 4",
+      "generated_on": "2026-10-13",
+      "unit": "mm",
+      "cadquery_version": "2.8.0",
+      "coordinate_system": "Z vertical; corps centre X/Y, fond z=0; sortie x=-5.7; etiquette vers -Y",
+      "bytes": 433914,
+      "sha256": "5ed6ae2e19474f2f28ff9ed945ed0458d7072fe3f34ca5768aebb4c1ff3acf3d",
+      "native_vendor_cad": false,
+      "hardware_measured": false,
+      "is_custom_project_design": false,
+      "published_nominal": [
+        "Vis M2 x 4 mentionnee dans la fiche"
+      ],
+      "estimates_and_limitations": [
+        "Pas ISO 0.4 et forme de tete proposes; vis recue a comparer"
+      ],
+      "parameters": {},
+      "source_pages": [],
+      "bounds_mm": {
+        "xmin": -1.8000001,
+        "xmax": 1.8000001,
+        "ymin": -1.8000001,
+        "ymax": 1.8000001,
+        "zmin": -1.0924340329407434e-07,
+        "zmax": 5.0
+      },
+      "validation": {
+        "valid_after_reimport": true,
+        "solids": 1,
+        "faces": 31,
+        "colors": 1,
+        "volume_relative_error": 7.008865227872124e-08,
+        "volume_relative_error_limit": 0.0001,
+        "volume_before_mm3": 18.5852553778017,
+        "volume_after_mm3": 18.5852540751862,
+        "adaptive_volume_tolerance": 1e-09,
+        "bbox_error_mm": 5.309603477611361e-14,
+        "bbox_error_limit_mm": 0.01,
+        "void_and_material_probes": [],
+        "elapsed_seconds": 0.5622062000002188
+      },
+      "parts": [
+        {
+          "name": "Vis_M2x4_estimee",
+          "color_linear_rgb": [
+            0.62,
+            0.65,
+            0.69
+          ],
+          "solids": 1
+        }
+      ],
+      "preview": {
+        "file": "vis-palonnier-m2x4.png",
+        "sha256": "577ca573ea1bbe48c6f5dbb0a4b497290d9d6efc7806de8a42f49dc28ec95a3b"
+      }
+    },
+    {
+      "folder": "biellettes-direction/rotules",
+      "file": "rotule-tamiya-50592-5mm.step",
+      "title": "Tamiya 50592 | rotule 5 mm",
+      "generated_on": "2026-10-13",
+      "unit": "mm",
+      "cadquery_version": "2.8.0",
+      "coordinate_system": "Axe principal Z; face de reference z=0; dimensions selon parametres",
+      "bytes": 35221,
+      "sha256": "8209c5ef0fe8b950051cc35a80b94fb823c032dfae19089bd4cd00e62ad8679f",
+      "native_vendor_cad": false,
+      "hardware_measured": false,
+      "is_custom_project_design": false,
+      "published_nominal": [
+        "Boule nominale diametre 5 mm; principe visible notice TT01R p.10"
+      ],
+      "estimates_and_limitations": [
+        "Hauteurs, hexagone AF4.5 et tige M3x0.5 reconstruits; pas un plan Tamiya cote",
+        "Profil de col et longueur de filetage a mesurer"
+      ],
+      "parameters": {},
+      "source_pages": [
+        "Tamiya-TT01R-notice-constructeur.pdf p.10"
+      ],
+      "bounds_mm": {
+        "xmin": -2.5980762113539866,
+        "xmax": 2.598076211353987,
+        "ymin": -2.5,
+        "ymax": 2.5,
+        "zmin": 0.0,
+        "zmax": 10.7
+      },
+      "validation": {
+        "valid_after_reimport": true,
+        "solids": 1,
+        "faces": 12,
+        "colors": 1,
+        "volume_relative_error": 2.3357293322035945e-14,
+        "volume_relative_error_limit": 0.0001,
+        "volume_before_mm3": 119.24872825704657,
+        "volume_after_mm3": 119.24872825704378,
+        "adaptive_volume_tolerance": 1e-09,
+        "bbox_error_mm": 6.710187960834446e-13,
+        "bbox_error_limit_mm": 0.01,
+        "void_and_material_probes": [],
+        "elapsed_seconds": 0.07147439999971539
+      },
+      "parts": [
+        {
+          "name": "Rotule_metal",
+          "color_linear_rgb": [
+            0.62,
+            0.65,
+            0.69
+          ],
+          "solids": 1
+        }
+      ],
+      "preview": {
+        "file": "rotule-tamiya-50592-5mm.png",
+        "sha256": "86de11f3fa2832e42a2cb1f5ada5a26ce722f882b42f87c9fd4675850e3a0ecd"
+      }
+    },
+    {
+      "folder": "biellettes-direction/chapes",
+      "file": "chape-tamiya-50596-5mm.step",
+      "title": "Tamiya 50596 | chape pour rotule 5 mm",
+      "generated_on": "2026-10-13",
+      "unit": "mm",
+      "cadquery_version": "2.8.0",
+      "coordinate_system": "Boule centre (0,0,0), ouverture Z, tige de biellette vers +X",
+      "bytes": 166618,
+      "sha256": "ef2866193fd1a5dedc5404f14ddfd7dfec43224062a3d0c5175557abac82b890",
+      "native_vendor_cad": false,
+      "hardware_measured": false,
+      "is_custom_project_design": false,
+      "published_nominal": [
+        "Famille 5 mm; tige M3 selon notice TT01R p.10"
+      ],
+      "estimates_and_limitations": [
+        "Longueur 14.4, anneau OD8, epaisseur3.6 et empreinte de prehension estimes",
+        "Logement spherique R2.55 estime; precharge, clip et taraudage non certifies"
+      ],
+      "parameters": {},
+      "source_pages": [
+        "Tamiya-TT01R-notice-constructeur.pdf p.10"
+      ],
+      "bounds_mm": {
+        "xmin": -4.0,
+        "xmax": 10.4,
+        "ymin": -4.0,
+        "ymax": 4.0,
+        "zmin": -1.8,
+        "zmax": 1.8
+      },
+      "validation": {
+        "valid_after_reimport": true,
+        "solids": 1,
+        "faces": 52,
+        "colors": 1,
+        "volume_relative_error": 1.309825467997042e-13,
+        "volume_relative_error_limit": 0.0001,
+        "volume_before_mm3": 215.90358085261977,
+        "volume_after_mm3": 215.9035808525915,
+        "adaptive_volume_tolerance": 1e-09,
+        "bbox_error_mm": 0.0,
+        "bbox_error_limit_mm": 0.01,
+        "void_and_material_probes": [
+          {
+            "point": [
+              0,
+              0,
+              0
+            ],
+            "occupied": false
+          }
+        ],
+        "elapsed_seconds": 0.22188019999885
+      },
+      "parts": [
+        {
+          "name": "Chape_plastique",
+          "color_linear_rgb": [
+            0.022,
+            0.026,
+            0.032
+          ],
+          "solids": 1
+        }
+      ],
+      "preview": {
+        "file": "chape-tamiya-50596-5mm.png",
+        "sha256": "3efd0e8ef8e43cce99352074eb84ec7415ab5ba86ae08325e9809254df2381a8"
+      }
+    },
+    {
+      "folder": "biellettes-direction/tiges",
+      "file": "tige-m3-longueur-etude-35mm.step",
+      "title": "Biellette | tige M3, exemple 35 mm",
+      "generated_on": "2026-10-13",
+      "unit": "mm",
+      "cadquery_version": "2.8.0",
+      "coordinate_system": "Axe principal Z; face de reference z=0; dimensions selon parametres",
+      "bytes": 1758264,
+      "sha256": "77bcab6c45c5ea4d1dcd8bc25ffca1e10a64f8a18c83b6c039b552c480e3274a",
+      "native_vendor_cad": false,
+      "hardware_measured": false,
+      "is_custom_project_design": true,
+      "published_nominal": [
+        "Famille retenue M3, pas nominal 0.5 mm"
+      ],
+      "estimates_and_limitations": [
+        "Longueur 35 mm: exemple parametrique, pas cote de la direction V3"
+      ],
+      "parameters": {
+        "diameter": 3,
+        "pitch": 0.5,
+        "example_length": 35
+      },
+      "source_pages": [],
+      "bounds_mm": {
+        "xmin": -1.5000231620765985,
+        "xmax": 1.5000231620765903,
+        "ymin": -1.5000231620767164,
+        "ymax": 1.5000231620765876,
+        "zmin": -1.0686396294876211e-07,
+        "zmax": 35.000035455065955
+      },
+      "validation": {
+        "valid_after_reimport": true,
+        "solids": 1,
+        "faces": 76,
+        "colors": 1,
+        "volume_relative_error": 4.858401614880422e-05,
+        "volume_relative_error_limit": 0.0001,
+        "volume_before_mm3": 200.40805426156498,
+        "volume_after_mm3": 200.41779088970958,
+        "adaptive_volume_tolerance": 1e-09,
+        "bbox_error_mm": 3.086420008457935e-13,
+        "bbox_error_limit_mm": 0.01,
+        "void_and_material_probes": [],
+        "elapsed_seconds": 2.532961000000796
+      },
+      "parts": [
+        {
+          "name": "Tige_filetee_M3x0_5_L35_etude",
+          "color_linear_rgb": [
+            0.62,
+            0.65,
+            0.69
+          ],
+          "solids": 1
+        }
+      ],
+      "preview": {
+        "file": "tige-m3-longueur-etude-35mm.png",
+        "sha256": "20831e462f030ca6541c64f7fe82996cfbf76bdbfc8e1755d8ce653692f5a6d6"
+      }
+    },
+    {
+      "folder": "roulements",
+      "file": "roulement-mr115zz-5x11x4.step",
+      "title": "MR115ZZ | 5 x 11 x 4 mm",
+      "generated_on": "2026-10-13",
+      "unit": "mm",
+      "cadquery_version": "2.8.0",
+      "coordinate_system": "Axe principal Z; face de reference z=0; dimensions selon parametres",
+      "bytes": 62048,
+      "sha256": "87d92a9e21c845433fb3260c5f062fb73e4deed88e48ffc7a9b6e36411d978f2",
+      "native_vendor_cad": false,
+      "hardware_measured": false,
+      "is_custom_project_design": false,
+      "published_nominal": [
+        "Alésage 5 mm; exterieur 11 mm; largeur 4 mm; double flasque metal ZZ"
+      ],
+      "estimates_and_limitations": [
+        "Diametres de partage bagues/flasques, chanfreins et epaisseurs estimes",
+        "Billes, cage, chemins internes et jeu non documentes: non representes"
+      ],
+      "parameters": {
+        "bore": 5,
+        "OD": 11,
+        "width": 4
+      },
+      "source_pages": [
+        "SMB-MR115ZZ-fiche-technique.pdf p.1"
+      ],
+      "bounds_mm": {
+        "xmin": -5.5,
+        "xmax": 5.5,
+        "ymin": -5.5,
+        "ymax": 5.5,
+        "zmin": -8.326672684688674e-17,
+        "zmax": 4.0
+      },
+      "validation": {
+        "valid_after_reimport": true,
+        "solids": 4,
+        "faces": 24,
+        "colors": 2,
+        "volume_relative_error": 2.1243020542674252e-13,
+        "volume_relative_error_limit": 0.0001,
+        "volume_before_mm3": 193.19732961260323,
+        "volume_after_mm3": 193.19732961256219,
+        "adaptive_volume_tolerance": 1e-09,
+        "bbox_error_mm": 8.326672684688674e-17,
+        "bbox_error_limit_mm": 0.01,
+        "void_and_material_probes": [
+          {
+            "point": [
+              2.49,
+              0,
+              2
+            ],
+            "occupied": false
+          },
+          {
+            "point": [
+              2.6,
+              0,
+              2
+            ],
+            "occupied": true
+          }
+        ],
+        "elapsed_seconds": 0.11006890000135172
+      },
+      "parts": [
+        {
+          "name": "Bague_exterieure",
+          "color_linear_rgb": [
+            0.38,
+            0.41,
+            0.45
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Bague_interieure",
+          "color_linear_rgb": [
+            0.62,
+            0.65,
+            0.69
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Flasque_Z_avant",
+          "color_linear_rgb": [
+            0.62,
+            0.65,
+            0.69
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Flasque_Z_arriere",
+          "color_linear_rgb": [
+            0.62,
+            0.65,
+            0.69
+          ],
+          "solids": 1
+        }
+      ],
+      "preview": {
+        "file": "roulement-mr115zz-5x11x4.png",
+        "sha256": "203f19ef467fd763d30c0232312ce6b9a2873eecfc11ef7f33000d5525f45ff1"
+      }
+    },
+    {
+      "folder": "axes-avant",
+      "file": "axe-tamiya-50823-35mm.step",
+      "title": "Tamiya 50823 | axe de roue 35 mm",
+      "generated_on": "2026-10-13",
+      "unit": "mm",
+      "cadquery_version": "2.8.0",
+      "coordinate_system": "Axe principal Z; face de reference z=0; dimensions selon parametres",
+      "bytes": 94414,
+      "sha256": "982c92044e79a647a71d01bcd373b52fce36ee7a554039598f211609378792f3",
+      "native_vendor_cad": false,
+      "hardware_measured": false,
+      "is_custom_project_design": false,
+      "published_nominal": [
+        "Longueur totale 35 mm (fiche Tamiya); famille roulement Ø5, ecrou M4, goupille Ø2"
+      ],
+      "estimates_and_limitations": [
+        "Coupelle OD9.8/L9, fentes, epaulements et trou de goupille z26 estimes",
+        "Longueur filetage M4x0.7 de 6 mm proposee; cote a mesurer",
+        "Coupelle conservee mais sans dogbone dans architecture avant non motrice"
+      ],
+      "parameters": {
+        "overall_length": 35,
+        "bearing_diameter": 5,
+        "wheel_thread": "M4x0.7 assumed",
+        "pin_diameter": 2
+      },
+      "source_pages": [
+        "Tamiya-TT01R-notice-constructeur.pdf p.10 et p.15"
+      ],
+      "bounds_mm": {
+        "xmin": -4.9,
+        "xmax": 4.9,
+        "ymin": -4.9,
+        "ymax": 4.9,
+        "zmin": 0.0,
+        "zmax": 35.0
+      },
+      "validation": {
+        "valid_after_reimport": true,
+        "solids": 1,
+        "faces": 17,
+        "colors": 1,
+        "volume_relative_error": 2.9259574708194804e-14,
+        "volume_relative_error_limit": 0.0001,
+        "volume_before_mm3": 777.091525460727,
+        "volume_after_mm3": 777.0915254607042,
+        "adaptive_volume_tolerance": 1e-09,
+        "bbox_error_mm": 0.0,
+        "bbox_error_limit_mm": 0.01,
+        "void_and_material_probes": [
+          {
+            "point": [
+              0,
+              0,
+              26
+            ],
+            "occupied": false
+          }
+        ],
+        "elapsed_seconds": 0.12008219999916037
+      },
+      "parts": [
+        {
+          "name": "Axe_acier",
+          "color_linear_rgb": [
+            0.38,
+            0.41,
+            0.45
+          ],
+          "solids": 1
+        }
+      ],
+      "preview": {
+        "file": "axe-tamiya-50823-35mm.png",
+        "sha256": "28812399e619ef7c1c67de5efef2d99fd5a20eb822bf5a1ddb00dd7e1c01bc38"
+      }
+    },
+    {
+      "folder": "moyeux",
+      "file": "moyeu-tamiya-53569-hex12-6mm.step",
+      "title": "Tamiya 53569 | moyeu aluminium 6 mm",
+      "generated_on": "2026-10-13",
+      "unit": "mm",
+      "cadquery_version": "2.8.0",
+      "coordinate_system": "Axe principal Z; face de reference z=0; dimensions selon parametres",
+      "bytes": 618714,
+      "sha256": "bde297c434df5a3080df56944553a0714450cbc41590ecc88b44b3e0c663ecbc",
+      "native_vendor_cad": false,
+      "hardware_measured": false,
+      "is_custom_project_design": false,
+      "published_nominal": [
+        "Epaisseur constructeur 6 mm; famille hexagone AF12 et arbre Ø5"
+      ],
+      "estimates_and_limitations": [
+        "Rainure de goupille, position fente, vis M1.6 et chanfreins estimes",
+        "Verifier le diametre et le passage reels de la vis de pince"
+      ],
+      "parameters": {
+        "across_flats": 12,
+        "thickness": 6,
+        "bore": 5
+      },
+      "source_pages": [],
+      "bounds_mm": {
+        "xmin": -6.838203230277184,
+        "xmax": 6.827166933168705,
+        "ymin": -6.000000000000004,
+        "ymax": 6.000000000000001,
+        "zmin": -1.501113831974e-35,
+        "zmax": 6.0
+      },
+      "validation": {
+        "valid_after_reimport": true,
+        "solids": 2,
+        "faces": 59,
+        "colors": 2,
+        "volume_relative_error": 2.603849618417884e-07,
+        "volume_relative_error_limit": 0.0001,
+        "volume_before_mm3": 608.9619966786922,
+        "volume_after_mm3": 608.9621552432385,
+        "adaptive_volume_tolerance": 1e-09,
+        "bbox_error_mm": 1.674216321134736e-12,
+        "bbox_error_limit_mm": 0.01,
+        "void_and_material_probes": [
+          {
+            "point": [
+              2.49,
+              0,
+              3
+            ],
+            "occupied": false
+          },
+          {
+            "point": [
+              0,
+              5.9,
+              3
+            ],
+            "occupied": true
+          }
+        ],
+        "elapsed_seconds": 0.8124186999993981
+      },
+      "parts": [
+        {
+          "name": "Moyeu_hexagonal_fendu",
+          "color_linear_rgb": [
+            0.58,
+            0.61,
+            0.65
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Vis_pince_estimee",
+          "color_linear_rgb": [
+            0.38,
+            0.41,
+            0.45
+          ],
+          "solids": 1
+        }
+      ],
+      "preview": {
+        "file": "moyeu-tamiya-53569-hex12-6mm.png",
+        "sha256": "77aa7ed1f624c047bc177396f9bb4984c1883d7bd11c879240ba5860b6bb7f50"
+      }
+    },
+    {
+      "folder": "fusees-avant",
+      "file": "fusee-a7-droite-tamiya-51002.step",
+      "title": "Tamiya A7 | fusee droite",
+      "generated_on": "2026-10-13",
+      "unit": "mm",
+      "cadquery_version": "2.8.0",
+      "coordinate_system": "A7: axe roue X, pivot Z, centre de roulements (0,0,0); A6/renvois: pivot Z",
+      "bytes": 566588,
+      "sha256": "3c52b305c85484a914d5a3abadaf53e8177d9568b6a554e378cd7b2b4ea40b83",
+      "native_vendor_cad": false,
+      "hardware_measured": false,
+      "is_custom_project_design": false,
+      "published_nominal": [
+        "A7, deux roulements 1150 et vis pivots 3x10 identifies TT01R p.10"
+      ],
+      "estimates_and_limitations": [
+        "Enveloppe, separation des roulements, bras et nervures reconstruits depuis notice",
+        "Logements nominaux Ø11 x4 sans ajustement; centre pivot et bras a relever sur A7 reel",
+        "Ne pas usiner les fourches a partir de ces estimations sans controle des pieces"
+      ],
+      "parameters": {
+        "bearing_seats_nominal": 11,
+        "bearing_width": 4,
+        "seat_start_x": [
+          -7,
+          2.9
+        ],
+        "pivot_extent_z_study": [
+          -11,
+          11
+        ]
+      },
+      "source_pages": [
+        "Tamiya-TT01R-notice-constructeur.pdf p.10"
+      ],
+      "bounds_mm": {
+        "xmin": -7.000000100000001,
+        "xmax": 7.000000100000001,
+        "ymin": -16.0,
+        "ymax": 7.9500001000000005,
+        "zmin": -11.0000001,
+        "zmax": 11.0000001
+      },
+      "validation": {
+        "valid_after_reimport": true,
+        "solids": 1,
+        "faces": 118,
+        "colors": 1,
+        "volume_relative_error": 4.110342806912879e-11,
+        "volume_relative_error_limit": 0.0001,
+        "volume_before_mm3": 1769.6992086508042,
+        "volume_after_mm3": 1769.6992085780635,
+        "adaptive_volume_tolerance": 1e-09,
+        "bbox_error_mm": 0.0,
+        "bbox_error_limit_mm": 0.01,
+        "void_and_material_probes": [
+          {
+            "point": [
+              0,
+              0,
+              0
+            ],
+            "occupied": false
+          }
+        ],
+        "elapsed_seconds": 0.6944777999997314
+      },
+      "parts": [
+        {
+          "name": "Fusee_A7_plastique_reconstruction",
+          "color_linear_rgb": [
+            0.022,
+            0.026,
+            0.032
+          ],
+          "solids": 1
+        }
+      ],
+      "preview": {
+        "file": "fusee-a7-droite-tamiya-51002.png",
+        "sha256": "2418421b5fc6bbc9a987b35d807dffdd0856a9fc490bcfa93899b72e2db73be9"
+      }
+    },
+    {
+      "folder": "fusees-avant",
+      "file": "fusee-a7-gauche-tamiya-51002.step",
+      "title": "Tamiya A7 | fusee gauche",
+      "generated_on": "2026-10-13",
+      "unit": "mm",
+      "cadquery_version": "2.8.0",
+      "coordinate_system": "A7: axe roue X, pivot Z, centre de roulements (0,0,0); A6/renvois: pivot Z",
+      "bytes": 577502,
+      "sha256": "8aea4fa43b5a3b8fd2592bf6439a2511546dbe9c7056b4a01a0552a483465218",
+      "native_vendor_cad": false,
+      "hardware_measured": false,
+      "is_custom_project_design": false,
+      "published_nominal": [
+        "A7, deux roulements 1150 et vis pivots 3x10 identifies TT01R p.10"
+      ],
+      "estimates_and_limitations": [
+        "Enveloppe, separation des roulements, bras et nervures reconstruits depuis notice",
+        "Logements nominaux Ø11 x4 sans ajustement; centre pivot et bras a relever sur A7 reel",
+        "Ne pas usiner les fourches a partir de ces estimations sans controle des pieces"
+      ],
+      "parameters": {
+        "bearing_seats_nominal": 11,
+        "bearing_width": 4,
+        "seat_start_x": [
+          -7,
+          2.9
+        ],
+        "pivot_extent_z_study": [
+          -11,
+          11
+        ]
+      },
+      "source_pages": [
+        "Tamiya-TT01R-notice-constructeur.pdf p.10"
+      ],
+      "bounds_mm": {
+        "xmin": -7.000000100000001,
+        "xmax": 7.000000100000001,
+        "ymin": -7.9500001000000005,
+        "ymax": 16.0,
+        "zmin": -11.0000001,
+        "zmax": 11.0000001
+      },
+      "validation": {
+        "valid_after_reimport": true,
+        "solids": 1,
+        "faces": 118,
+        "colors": 1,
+        "volume_relative_error": 2.23862633657055e-10,
+        "volume_relative_error_limit": 0.0001,
+        "volume_before_mm3": 1769.6992086508042,
+        "volume_after_mm3": 1769.6992090469737,
+        "adaptive_volume_tolerance": 1e-09,
+        "bbox_error_mm": 0.0,
+        "bbox_error_limit_mm": 0.01,
+        "void_and_material_probes": [
+          {
+            "point": [
+              0,
+              0,
+              0
+            ],
+            "occupied": false
+          }
+        ],
+        "elapsed_seconds": 0.726063800000702
+      },
+      "parts": [
+        {
+          "name": "Fusee_A7_plastique_reconstruction",
+          "color_linear_rgb": [
+            0.022,
+            0.026,
+            0.032
+          ],
+          "solids": 1
+        }
+      ],
+      "preview": {
+        "file": "fusee-a7-gauche-tamiya-51002.png",
+        "sha256": "68f6d06267f66f2fa3609028ddc20b365ce7eae9d64e9536fe2e57fb88a2d1b4"
+      }
+    },
+    {
+      "folder": "fusees-avant",
+      "file": "bague-pivot-a6-tamiya-51002.step",
+      "title": "Tamiya A6 | bague pivot",
+      "generated_on": "2026-10-13",
+      "unit": "mm",
+      "cadquery_version": "2.8.0",
+      "coordinate_system": "A7: axe roue X, pivot Z, centre de roulements (0,0,0); A6/renvois: pivot Z",
+      "bytes": 15210,
+      "sha256": "01ff4aea61bf7f9ac56aba32945eada9d77daf61f7218644562fc3106c1d16c3",
+      "native_vendor_cad": false,
+      "hardware_measured": false,
+      "is_custom_project_design": false,
+      "published_nominal": [
+        "Bague A6 identifiee dans la notice p.10"
+      ],
+      "estimates_and_limitations": [
+        "Tous diametres et hauteurs reconstruits; Ø3.1 trou de vis et forme a confirmer"
+      ],
+      "parameters": {},
+      "source_pages": [],
+      "bounds_mm": {
+        "xmin": -2.8,
+        "xmax": 2.8,
+        "ymin": -2.8,
+        "ymax": 2.8,
+        "zmin": 0.0,
+        "zmax": 2.8
+      },
+      "validation": {
+        "valid_after_reimport": true,
+        "solids": 1,
+        "faces": 6,
+        "colors": 1,
+        "volume_relative_error": 0.0,
+        "volume_relative_error_limit": 0.0001,
+        "volume_before_mm3": 21.8183609791811,
+        "volume_after_mm3": 21.8183609791811,
+        "adaptive_volume_tolerance": 1e-09,
+        "bbox_error_mm": 0.0,
+        "bbox_error_limit_mm": 0.01,
+        "void_and_material_probes": [],
+        "elapsed_seconds": 0.044374400000378955
+      },
+      "parts": [
+        {
+          "name": "Bague_pivot_A6",
+          "color_linear_rgb": [
+            0.022,
+            0.026,
+            0.032
+          ],
+          "solids": 1
+        }
+      ],
+      "preview": {
+        "file": "bague-pivot-a6-tamiya-51002.png",
+        "sha256": "b6d0257fe73de6ceddee3895addfe7eb435a48d80882e1715db207ca831c26ec"
+      }
+    },
+    {
+      "folder": "fusees-avant",
+      "file": "renvoi-a1-tamiya-51002.step",
+      "title": "Tamiya A1 | renvoi de direction",
+      "generated_on": "2026-10-13",
+      "unit": "mm",
+      "cadquery_version": "2.8.0",
+      "coordinate_system": "A7: axe roue X, pivot Z, centre de roulements (0,0,0); A6/renvois: pivot Z",
+      "bytes": 56093,
+      "sha256": "5ec8741fb8b635c152d29b7fcd1b41caa3761489a38714900f5e8da0e1339d07",
+      "native_vendor_cad": false,
+      "hardware_measured": false,
+      "is_custom_project_design": false,
+      "published_nominal": [
+        "Renvoi A1 et vis decollétees identifies TT01R p.10"
+      ],
+      "estimates_and_limitations": [
+        "Contours, epaisseurs, entraxes et alesages entierement reconstruits non mesures",
+        "Etude d implantation, pas une copie garantie du moulage Tamiya"
+      ],
+      "parameters": {},
+      "source_pages": [
+        "Tamiya-TT01R-notice-constructeur.pdf p.10"
+      ],
+      "bounds_mm": {
+        "xmin": -4.0,
+        "xmax": 19.5,
+        "ymin": -7.5,
+        "ymax": 4.0,
+        "zmin": 0.0,
+        "zmax": 7.0
+      },
+      "validation": {
+        "valid_after_reimport": true,
+        "solids": 1,
+        "faces": 16,
+        "colors": 1,
+        "volume_relative_error": 1.2399858657380145e-14,
+        "volume_relative_error_limit": 0.0001,
+        "volume_before_mm3": 678.4614424933337,
+        "volume_after_mm3": 678.4614424933253,
+        "adaptive_volume_tolerance": 1e-09,
+        "bbox_error_mm": 0.0,
+        "bbox_error_limit_mm": 0.01,
+        "void_and_material_probes": [],
+        "elapsed_seconds": 0.102480800000194
+      },
+      "parts": [
+        {
+          "name": "Renvoi_A1",
+          "color_linear_rgb": [
+            0.022,
+            0.026,
+            0.032
+          ],
+          "solids": 1
+        }
+      ],
+      "preview": {
+        "file": "renvoi-a1-tamiya-51002.png",
+        "sha256": "16052afcc7a0df105306b14aa1ebc6cd7d7f85e8952adb49096731d2ebd44371"
+      }
+    },
+    {
+      "folder": "fusees-avant",
+      "file": "renvoi-a8-tamiya-51002.step",
+      "title": "Tamiya A8 | renvoi de direction",
+      "generated_on": "2026-10-13",
+      "unit": "mm",
+      "cadquery_version": "2.8.0",
+      "coordinate_system": "A7: axe roue X, pivot Z, centre de roulements (0,0,0); A6/renvois: pivot Z",
+      "bytes": 92834,
+      "sha256": "9ef9d4cbebd24d2c67d00bf231baed19baf3d9f6135738c554afa5982c56506b",
+      "native_vendor_cad": false,
+      "hardware_measured": false,
+      "is_custom_project_design": false,
+      "published_nominal": [
+        "Renvoi A8 et vis decollétees identifies TT01R p.10"
+      ],
+      "estimates_and_limitations": [
+        "Contours, epaisseurs, entraxes et alesages entierement reconstruits non mesures",
+        "Etude d implantation, pas une copie garantie du moulage Tamiya"
+      ],
+      "parameters": {},
+      "source_pages": [
+        "Tamiya-TT01R-notice-constructeur.pdf p.10"
+      ],
+      "bounds_mm": {
+        "xmin": -4.0,
+        "xmax": 19.5,
+        "ymin": -4.0,
+        "ymax": 14.5,
+        "zmin": 0.0,
+        "zmax": 7.0
+      },
+      "validation": {
+        "valid_after_reimport": true,
+        "solids": 1,
+        "faces": 25,
+        "colors": 1,
+        "volume_relative_error": 2.97481803834681e-14,
+        "volume_relative_error_limit": 0.0001,
+        "volume_before_mm3": 890.44213285251,
+        "volume_after_mm3": 890.4421328525365,
+        "adaptive_volume_tolerance": 1e-09,
+        "bbox_error_mm": 0.0,
+        "bbox_error_limit_mm": 0.01,
+        "void_and_material_probes": [],
+        "elapsed_seconds": 0.1482782999992196
+      },
+      "parts": [
+        {
+          "name": "Renvoi_A8",
+          "color_linear_rgb": [
+            0.022,
+            0.026,
+            0.032
+          ],
+          "solids": 1
+        }
+      ],
+      "preview": {
+        "file": "renvoi-a8-tamiya-51002.png",
+        "sha256": "980fafedcd60fed22a0914c9506f7490a1546158f61062a8c3322531745e1e4b"
+      }
+    },
+    {
+      "folder": "transmission-arriere/pignon-moteur",
+      "file": "pignon-losi-los212054-16t.step",
+      "title": "Losi LOS212054 | 16 dents",
+      "generated_on": "2026-10-13",
+      "unit": "mm",
+      "cadquery_version": "2.8.0",
+      "coordinate_system": "Axe principal Z; face de reference z=0; dimensions selon parametres",
+      "bytes": 829680,
+      "sha256": "8e7324b680c32c3f13640e026ac9de045d01c6b6065e4f94084d1d0860881dfb",
+      "native_vendor_cad": false,
+      "hardware_measured": false,
+      "is_custom_project_design": false,
+      "published_nominal": [
+        "16 dents, module0.5, alesage2 mm publies par Losi"
+      ],
+      "estimates_and_limitations": [
+        "Angle20 deg, denture5, moyeu OD7/L4 et vis M3 proposes: NON publies",
+        "Compatibilite angle de pression avec KHK pas confirmee",
+        "Flancs par splines de developpante (12 points); raccord racine reconstruit non trochoidal",
+        "Pas un fichier natif KHK/Losi ni un profil de fabrication certifie"
+      ],
+      "parameters": {
+        "teeth": 16,
+        "module": 0.5,
+        "pressure_angle": 20,
+        "pressure_angle_verified": false,
+        "bore": 2,
+        "pitch_diameter": 8.0,
+        "tip_diameter": 9.0,
+        "face_width": 5,
+        "hub_diameter": 7,
+        "hub_length": 4,
+        "overall_length": 9,
+        "set_screw_axis_from_hub_end": 2
+      },
+      "source_pages": [
+        "Losi LOS212054 product page"
+      ],
+      "bounds_mm": {
+        "xmin": -4.500000100000468,
+        "xmax": 4.500000100000468,
+        "ymin": -4.500000100000468,
+        "ymax": 4.500000100000468,
+        "zmin": -1e-07,
+        "zmax": 9.0000001
+      },
+      "validation": {
+        "valid_after_reimport": true,
+        "solids": 2,
+        "faces": 145,
+        "colors": 2,
+        "volume_relative_error": 4.503846892235018e-13,
+        "volume_relative_error_limit": 0.0001,
+        "volume_before_mm3": 359.7008238282031,
+        "volume_after_mm3": 359.7008238280411,
+        "adaptive_volume_tolerance": 1e-09,
+        "bbox_error_mm": 4.662936703425657e-13,
+        "bbox_error_limit_mm": 0.01,
+        "void_and_material_probes": [
+          {
+            "point": [
+              0.99,
+              0,
+              2.5
+            ],
+            "occupied": false
+          },
+          {
+            "point": [
+              1.05,
+              0,
+              2.5
+            ],
+            "occupied": true
+          }
+        ],
+        "elapsed_seconds": 0.9487662999999884
+      },
+      "parts": [
+        {
+          "name": "Engrenage_denture_involute",
+          "color_linear_rgb": [
+            0.62,
+            0.65,
+            0.69
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Vis_pression_geometrie_estimee",
+          "color_linear_rgb": [
+            0.38,
+            0.41,
+            0.45
+          ],
+          "solids": 1
+        }
+      ],
+      "preview": {
+        "file": "pignon-losi-los212054-16t.png",
+        "sha256": "4f039f0911b51f86f7da27f7567d20dbb57a0b0f00a523e6a1f7597e902b2d3e"
+      }
+    },
+    {
+      "folder": "transmission-arriere/engrenages-54dents",
+      "file": "couronne-khk-ss0-5-54a.step",
+      "title": "KHK SS0.5-54A | 54 dents",
+      "generated_on": "2026-10-13",
+      "unit": "mm",
+      "cadquery_version": "2.8.0",
+      "coordinate_system": "Axe principal Z; face de reference z=0; dimensions selon parametres",
+      "bytes": 2225903,
+      "sha256": "b562472645d8f03bc8add1f9b65986995cd6acca15eb35f3677eecad553af0a1",
+      "native_vendor_cad": false,
+      "hardware_measured": false,
+      "is_custom_project_design": false,
+      "published_nominal": [
+        "54 dents, module0.5, angle20 deg, bore5",
+        "Diametre primitif27, exterieur28, moyeu25, denture5, moyeu7, total12",
+        "Vis M4; axe vis J=3.5 mm depuis face du moyeu; acier S45C noirci"
+      ],
+      "estimates_and_limitations": [
+        "Raccord pied de dent, chanfreins et geometrie vis non cotes; pas de tolerance H8 appliquee",
+        "Flancs par splines de developpante (12 points); raccord racine reconstruit non trochoidal",
+        "Pas un fichier natif KHK/Losi ni un profil de fabrication certifie"
+      ],
+      "parameters": {
+        "teeth": 54,
+        "module": 0.5,
+        "pressure_angle": 20,
+        "pressure_angle_verified": true,
+        "bore": 5,
+        "pitch_diameter": 27.0,
+        "tip_diameter": 28.0,
+        "face_width": 5,
+        "hub_diameter": 25,
+        "hub_length": 7,
+        "overall_length": 12,
+        "set_screw_axis_from_hub_end": 3.5
+      },
+      "source_pages": [
+        "KHK-engrenages-acier-SS.pdf p.1"
+      ],
+      "bounds_mm": {
+        "xmin": -14.000000099999898,
+        "xmax": 14.0000000999999,
+        "ymin": -13.986295776702228,
+        "ymax": 13.986295776702327,
+        "zmin": -1e-07,
+        "zmax": 12.0000001
+      },
+      "validation": {
+        "valid_after_reimport": true,
+        "solids": 2,
+        "faces": 340,
+        "colors": 2,
+        "volume_relative_error": 7.892437549901061e-13,
+        "volume_relative_error_limit": 0.0001,
+        "volume_before_mm3": 5947.341523036726,
+        "volume_after_mm3": 5947.34152304142,
+        "adaptive_volume_tolerance": 1e-09,
+        "bbox_error_mm": 4.4231285301066237e-13,
+        "bbox_error_limit_mm": 0.01,
+        "void_and_material_probes": [
+          {
+            "point": [
+              2.49,
+              0,
+              2.5
+            ],
+            "occupied": false
+          },
+          {
+            "point": [
+              2.55,
+              0,
+              2.5
+            ],
+            "occupied": true
+          }
+        ],
+        "elapsed_seconds": 2.795291800000996
+      },
+      "parts": [
+        {
+          "name": "Engrenage_denture_involute",
+          "color_linear_rgb": [
+            0.022,
+            0.026,
+            0.032
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Vis_pression_geometrie_estimee",
+          "color_linear_rgb": [
+            0.38,
+            0.41,
+            0.45
+          ],
+          "solids": 1
+        }
+      ],
+      "preview": {
+        "file": "couronne-khk-ss0-5-54a.png",
+        "sha256": "3fd967a2165b03e00498026e77ff0e0792512a0982fca999683021a7cb5d9dcc"
+      }
+    },
+    {
+      "folder": "transmission-arriere/pignon-intermediaire",
+      "file": "pignon-khk-ss0-5-24b.step",
+      "title": "KHK SS0.5-24B | 24 dents",
+      "generated_on": "2026-10-13",
+      "unit": "mm",
+      "cadquery_version": "2.8.0",
+      "coordinate_system": "Axe principal Z; face de reference z=0; dimensions selon parametres",
+      "bytes": 1025917,
+      "sha256": "a521ca8d80d23a5412bdcb281924dc02ddfe171410c25964d00dc73dfe361eac",
+      "native_vendor_cad": false,
+      "hardware_measured": false,
+      "is_custom_project_design": false,
+      "published_nominal": [
+        "24 dents, module0.5, angle20 deg, bore5H8 nominal",
+        "Diametre primitif12, exterieur13, moyeu13, denture5, moyeu11, total16",
+        "Vis M4; axe vis J=3 mm depuis face du moyeu; acier S45C noirci"
+      ],
+      "estimates_and_limitations": [
+        "Raccord pied de dent, chanfreins et geometrie vis non cotes; tolerance H8 non appliquee",
+        "24B: deux volumes BRep axiaux adjacents pour un seul engrenage physique; aucune separation reelle",
+        "Flancs par splines de developpante (12 points); raccord racine reconstruit non trochoidal",
+        "Pas un fichier natif KHK/Losi ni un profil de fabrication certifie"
+      ],
+      "parameters": {
+        "teeth": 24,
+        "module": 0.5,
+        "pressure_angle": 20,
+        "pressure_angle_verified": true,
+        "bore": 5,
+        "pitch_diameter": 12.0,
+        "tip_diameter": 13.0,
+        "face_width": 5,
+        "hub_diameter": 13,
+        "hub_length": 11,
+        "overall_length": 16,
+        "set_screw_axis_from_hub_end": 3
+      },
+      "source_pages": [
+        "KHK-engrenages-acier-SS.pdf p.1"
+      ],
+      "bounds_mm": {
+        "xmin": -6.5000001,
+        "xmax": 6.5000001,
+        "ymin": -6.5000001,
+        "ymax": 6.5000001,
+        "zmin": -1e-07,
+        "zmax": 16.0000001
+      },
+      "validation": {
+        "valid_after_reimport": true,
+        "solids": 3,
+        "faces": 162,
+        "colors": 2,
+        "volume_relative_error": 2.91489072107104e-13,
+        "volume_relative_error_limit": 0.0001,
+        "volume_before_mm3": 1678.650064020394,
+        "volume_after_mm3": 1678.6500640208833,
+        "adaptive_volume_tolerance": 1e-09,
+        "bbox_error_mm": 1.7763568394002505e-15,
+        "bbox_error_limit_mm": 0.01,
+        "void_and_material_probes": [
+          {
+            "point": [
+              2.49,
+              0,
+              2.5
+            ],
+            "occupied": false
+          },
+          {
+            "point": [
+              2.55,
+              0,
+              2.5
+            ],
+            "occupied": true
+          }
+        ],
+        "elapsed_seconds": 1.173395599998912
+      },
+      "parts": [
+        {
+          "name": "Engrenage_denture_involute",
+          "color_linear_rgb": [
+            0.022,
+            0.026,
+            0.032
+          ],
+          "solids": 2
+        },
+        {
+          "name": "Vis_pression_geometrie_estimee",
+          "color_linear_rgb": [
+            0.38,
+            0.41,
+            0.45
+          ],
+          "solids": 1
+        }
+      ],
+      "preview": {
+        "file": "pignon-khk-ss0-5-24b.png",
+        "sha256": "290950e7af666eca61203203df120848f4cc5d72dfe2b24f0de3d338d1360928"
+      }
+    },
+    {
+      "folder": "arbres-transmission",
+      "file": "arbre-a5-v3-intermediaire-etude.step",
+      "title": "A5-V3 | arbre intermediaire, etude 50 mm",
+      "generated_on": "2026-10-13",
+      "unit": "mm",
+      "cadquery_version": "2.8.0",
+      "coordinate_system": "Axe principal Z; face de reference z=0; dimensions selon parametres",
+      "bytes": 591151,
+      "sha256": "f90fc4f1bef2b356ca9bf79da00ca59dc86e567a8ea46e297c49846d8b837ff0",
+      "native_vendor_cad": false,
+      "hardware_measured": false,
+      "is_custom_project_design": true,
+      "published_nominal": [
+        "Ø5 interfaces roulements et engrenages choisis"
+      ],
+      "estimates_and_limitations": [
+        "L50, M5x0.8 aux deux bouts, portees et meplats: choix de conception provisoires",
+        "Ne pas fabriquer: ajustements, retenues et empilage doivent etre verifies"
+      ],
+      "parameters": {
+        "length_study": 50,
+        "diameter": 5,
+        "flat_start_z": [
+          10,
+          27
+        ],
+        "flat_depth": 0.5
+      },
+      "source_pages": [],
+      "bounds_mm": {
+        "xmin": -2.5000123042700344,
+        "xmax": 2.5000123042718894,
+        "ymin": -2.500012304271755,
+        "ymax": 2.5000122930681346,
+        "zmin": -1.2291890649758333e-07,
+        "zmax": 50.00000049520637
+      },
+      "validation": {
+        "valid_after_reimport": true,
+        "solids": 1,
+        "faces": 33,
+        "colors": 1,
+        "volume_relative_error": 2.523694190358927e-08,
+        "volume_relative_error_limit": 0.0001,
+        "volume_before_mm3": 927.5263567483739,
+        "volume_after_mm3": 927.5263333404451,
+        "adaptive_volume_tolerance": 1e-09,
+        "bbox_error_mm": 2.8110846983508964e-13,
+        "bbox_error_limit_mm": 0.01,
+        "void_and_material_probes": [],
+        "elapsed_seconds": 0.747089299999061
+      },
+      "parts": [
+        {
+          "name": "Arbre_intermediaire_acier",
+          "color_linear_rgb": [
+            0.38,
+            0.41,
+            0.45
+          ],
+          "solids": 1
+        }
+      ],
+      "preview": {
+        "file": "arbre-a5-v3-intermediaire-etude.png",
+        "sha256": "9694bdbffba7892000d68dda1ee68cf01b25877893ac71f85a95c15166db30b5"
+      }
+    },
+    {
+      "folder": "arbres-transmission",
+      "file": "arbre-a5m4-v3-sortie-etude.step",
+      "title": "A5M4-V3 | sortie de roue, etude 50 mm",
+      "generated_on": "2026-10-13",
+      "unit": "mm",
+      "cadquery_version": "2.8.0",
+      "coordinate_system": "Axe principal Z; face de reference z=0; dimensions selon parametres",
+      "bytes": 609531,
+      "sha256": "f208d62a430f7aa1f086cf209fb68b724e883b8b4e7edba56e4fd80d5a0fad5d",
+      "native_vendor_cad": false,
+      "hardware_measured": false,
+      "is_custom_project_design": true,
+      "published_nominal": [
+        "Ø5 aux roulements; famille roue M4 et goupille2"
+      ],
+      "estimates_and_limitations": [
+        "L50, reduction M4 a z40, filetage10 et goupillez38.5: choix provisoires",
+        "Longueur et position du moyeu dependent du deport reel de la roue; usinage non valide"
+      ],
+      "parameters": {
+        "length_study": 50,
+        "bearing_diameter": 5,
+        "M4_length": 10,
+        "pin_center_z": 38.5
+      },
+      "source_pages": [],
+      "bounds_mm": {
+        "xmin": -2.5000001,
+        "xmax": 2.5000001,
+        "ymin": -2.5000001,
+        "ymax": 2.5000001,
+        "zmin": -1e-07,
+        "zmax": 50.00663604790641
+      },
+      "validation": {
+        "valid_after_reimport": true,
+        "solids": 1,
+        "faces": 28,
+        "colors": 1,
+        "volume_relative_error": 3.05776971944958e-05,
+        "volume_relative_error_limit": 0.0001,
+        "volume_before_mm3": 859.8854471155615,
+        "volume_after_mm3": 859.8591537987377,
+        "adaptive_volume_tolerance": 1e-09,
+        "bbox_error_mm": 7.105427357601002e-15,
+        "bbox_error_limit_mm": 0.01,
+        "void_and_material_probes": [
+          {
+            "point": [
+              0,
+              0,
+              38.5
+            ],
+            "occupied": false
+          }
+        ],
+        "elapsed_seconds": 0.7523129000001063
+      },
+      "parts": [
+        {
+          "name": "Arbre_sortie_acier",
+          "color_linear_rgb": [
+            0.38,
+            0.41,
+            0.45
+          ],
+          "solids": 1
+        }
+      ],
+      "preview": {
+        "file": "arbre-a5m4-v3-sortie-etude.png",
+        "sha256": "29de75eef44edd6f2c473977e80eec9a2f70d7a6a7c74ff7013e49f6a0f0a619"
+      }
+    },
+    {
+      "folder": "paliers-transmission",
+      "file": "palier-p115-v3-un-appui-etude.step",
+      "title": "P115-V3 | appui et capot de retenue",
+      "generated_on": "2026-10-13",
+      "unit": "mm",
+      "cadquery_version": "2.8.0",
+      "coordinate_system": "Palier: axe arbre Z, face entree roulement z=0; fourche: axe pivot Z",
+      "bytes": 125700,
+      "sha256": "642115819e96f7cb86f790e9eb03c3c93ffd1498a2d4eeb1834dcaf82e6e5e14",
+      "native_vendor_cad": false,
+      "hardware_measured": false,
+      "is_custom_project_design": true,
+      "published_nominal": [
+        "Nominal roulement MR115ZZ OD11, largeur4; passage arbre5"
+      ],
+      "estimates_and_limitations": [
+        "Enveloppe23x25x6, trou11 profondeur4, chapeau1.5, fixationM3 nominale: conception provisoire",
+        "Un appui modelise: deux appuis par arbre; espacement a definir",
+        "Ajustement, vis, rigidite et retenue a valider avant fabrication"
+      ],
+      "parameters": {
+        "body": [
+          23,
+          25,
+          6
+        ],
+        "bearing_seat_OD": 11,
+        "seat_depth": 4,
+        "shaft_clearance": 6.2
+      },
+      "source_pages": [],
+      "bounds_mm": {
+        "xmin": -11.5,
+        "xmax": 11.5,
+        "ymin": -11.0,
+        "ymax": 14.0,
+        "zmin": -1.5,
+        "zmax": 6.0
+      },
+      "validation": {
+        "valid_after_reimport": true,
+        "solids": 2,
+        "faces": 36,
+        "colors": 1,
+        "volume_relative_error": 8.985889898333821e-15,
+        "volume_relative_error_limit": 0.0001,
+        "volume_before_mm3": 3087.0162797362823,
+        "volume_after_mm3": 3087.01627973631,
+        "adaptive_volume_tolerance": 1e-09,
+        "bbox_error_mm": 0.0,
+        "bbox_error_limit_mm": 0.01,
+        "void_and_material_probes": [
+          {
+            "point": [
+              0,
+              0,
+              2
+            ],
+            "occupied": false
+          }
+        ],
+        "elapsed_seconds": 0.2171794999994745
+      },
+      "parts": [
+        {
+          "name": "Corps_palier_aluminium",
+          "color_linear_rgb": [
+            0.58,
+            0.61,
+            0.65
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Capot_retenue",
+          "color_linear_rgb": [
+            0.58,
+            0.61,
+            0.65
+          ],
+          "solids": 1
+        }
+      ],
+      "preview": {
+        "file": "palier-p115-v3-un-appui-etude.png",
+        "sha256": "26f85c0ba50d109484b6d92e9c2371ba89d0a2a7061c07052a59dfcad9bc2ae5"
+      }
+    },
+    {
+      "folder": "paliers-transmission",
+      "file": "fourche-f-av-v3-etude.step",
+      "title": "F-AV-V3 | fourche de direction, etude",
+      "generated_on": "2026-10-13",
+      "unit": "mm",
+      "cadquery_version": "2.8.0",
+      "coordinate_system": "Palier: axe arbre Z, face entree roulement z=0; fourche: axe pivot Z",
+      "bytes": 147702,
+      "sha256": "8c01847d6a7f40d0289a4c6f67f787b9cbcd9ece7a4b80f7f0807a8dd152d69e",
+      "native_vendor_cad": false,
+      "hardware_measured": false,
+      "is_custom_project_design": true,
+      "published_nominal": [
+        "Principe: A7 et bagues A6 guides par deux appuis"
+      ],
+      "estimates_and_limitations": [
+        "Enveloppe, ouverture22, parois et trous: toutes cotes de conception provisoires",
+        "A7 reconstruit: alignement, jeu, debattement et mecanique non valides"
+      ],
+      "parameters": {
+        "pivot_gap_study": 22,
+        "arm_thickness": 3,
+        "pivot_hole": 3.1,
+        "backbone_y": 19
+      },
+      "source_pages": [],
+      "bounds_mm": {
+        "xmin": -4.0,
+        "xmax": 4.0,
+        "ymin": -6.5,
+        "ymax": 22.5,
+        "zmin": -18.0,
+        "zmax": 16.0
+      },
+      "validation": {
+        "valid_after_reimport": true,
+        "solids": 1,
+        "faces": 41,
+        "colors": 1,
+        "volume_relative_error": 2.778635027754621e-14,
+        "volume_relative_error_limit": 0.0001,
+        "volume_before_mm3": 3174.9756693762074,
+        "volume_after_mm3": 3174.9756693762956,
+        "adaptive_volume_tolerance": 1e-09,
+        "bbox_error_mm": 0.0,
+        "bbox_error_limit_mm": 0.01,
+        "void_and_material_probes": [],
+        "elapsed_seconds": 0.20529910000186646
+      },
+      "parts": [
+        {
+          "name": "Fourche_deux_appuis_aluminium",
+          "color_linear_rgb": [
+            0.58,
+            0.61,
+            0.65
+          ],
+          "solids": 1
+        }
+      ],
+      "preview": {
+        "file": "fourche-f-av-v3-etude.png",
+        "sha256": "92a0c2129bc7ac62c0ff2d32547d7049fe52bef10ad3464e7301172b22902701"
+      }
+    },
+    {
+      "folder": "fixations-train-roulant",
+      "file": "goupille-tamiya-50594-2x10.step",
+      "title": "Tamiya 50594 | goupille 2 x 10",
+      "generated_on": "2026-10-13",
+      "unit": "mm",
+      "cadquery_version": "2.8.0",
+      "coordinate_system": "Axe principal Z; face de reference z=0; dimensions selon parametres",
+      "bytes": 12769,
+      "sha256": "96df287f9924443abddcbf9ef12ede47edde193c61b69783b83ff11ac4cd2c27",
+      "native_vendor_cad": false,
+      "hardware_measured": false,
+      "is_custom_project_design": false,
+      "published_nominal": [
+        "Ø2 x10 mm identifies dans notice TT01R p.15"
+      ],
+      "estimates_and_limitations": [
+        "Chanfreins0.12 estimes"
+      ],
+      "parameters": {},
+      "source_pages": [],
+      "bounds_mm": {
+        "xmin": -1.0,
+        "xmax": 1.0,
+        "ymin": -1.0,
+        "ymax": 1.0,
+        "zmin": -1.3877787807814457e-17,
+        "zmax": 10.0
+      },
+      "validation": {
+        "valid_after_reimport": true,
+        "solids": 1,
+        "faces": 5,
+        "colors": 1,
+        "volume_relative_error": 1.7304827298205904e-13,
+        "volume_relative_error_limit": 0.0001,
+        "volume_before_mm3": 31.32906778221149,
+        "volume_after_mm3": 31.329067782206067,
+        "adaptive_volume_tolerance": 1e-09,
+        "bbox_error_mm": 1.3877787807814457e-17,
+        "bbox_error_limit_mm": 0.01,
+        "void_and_material_probes": [],
+        "elapsed_seconds": 0.03616150000016205
+      },
+      "parts": [
+        {
+          "name": "Goupille",
+          "color_linear_rgb": [
+            0.62,
+            0.65,
+            0.69
+          ],
+          "solids": 1
+        }
+      ],
+      "preview": {
+        "file": "goupille-tamiya-50594-2x10.png",
+        "sha256": "3d8eb141a0d1ba956a3ac248f1052e95e807fb8e504a93bfbda181808cc89aee"
+      }
+    },
+    {
+      "folder": "fixations-train-roulant",
+      "file": "ecrou-tamiya-9805557-m4-flasque.step",
+      "title": "Tamiya 9805557 | ecrou M4 a flasque",
+      "generated_on": "2026-10-13",
+      "unit": "mm",
+      "cadquery_version": "2.8.0",
+      "coordinate_system": "Axe principal Z; face de reference z=0; dimensions selon parametres",
+      "bytes": 48087,
+      "sha256": "ec0aba768a2afedff18ac0da3343f62f16313de92117f3132817d770dcd407c2",
+      "native_vendor_cad": false,
+      "hardware_measured": false,
+      "is_custom_project_design": false,
+      "published_nominal": [
+        "Ecrou de roue nylstop a flasque M4, MC4 dans la notice"
+      ],
+      "estimates_and_limitations": [
+        "AF7, flasqueOD9, hauteur4 et bague de couleur bleue estimes",
+        "Taraudage interieur represente par alesage4, sans tolerances ni helix interne"
+      ],
+      "parameters": {},
+      "source_pages": [],
+      "bounds_mm": {
+        "xmin": -4.5,
+        "xmax": 4.5,
+        "ymin": -4.5,
+        "ymax": 4.5,
+        "zmin": 0.0,
+        "zmax": 4.05
+      },
+      "validation": {
+        "valid_after_reimport": true,
+        "solids": 2,
+        "faces": 17,
+        "colors": 2,
+        "volume_relative_error": 7.484654090498723e-14,
+        "volume_relative_error_limit": 0.0001,
+        "volume_before_mm3": 140.12151601144015,
+        "volume_after_mm3": 140.12151601142966,
+        "adaptive_volume_tolerance": 1e-09,
+        "bbox_error_mm": 8.881784197001252e-16,
+        "bbox_error_limit_mm": 0.01,
+        "void_and_material_probes": [],
+        "elapsed_seconds": 0.08403239999825018
+      },
+      "parts": [
+        {
+          "name": "Ecrou_metal",
+          "color_linear_rgb": [
+            0.62,
+            0.65,
+            0.69
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Bague_nylon_estimee",
+          "color_linear_rgb": [
+            0.018,
+            0.09,
+            0.39
+          ],
+          "solids": 1
+        }
+      ],
+      "preview": {
+        "file": "ecrou-tamiya-9805557-m4-flasque.png",
+        "sha256": "40aa2b136dfc2902522764fb4c1ab32ed18ac126c4649b094c11fac3e4a5cfe5"
+      }
+    },
+    {
+      "folder": "fixations-train-roulant",
+      "file": "vis-tamiya-50577-3x10.step",
+      "title": "Tamiya 50577 | vis autotaraudeuse 3 x 10",
+      "generated_on": "2026-10-13",
+      "unit": "mm",
+      "cadquery_version": "2.8.0",
+      "coordinate_system": "Axe principal Z; face de reference z=0; dimensions selon parametres",
+      "bytes": 369194,
+      "sha256": "151eaa01b5fd879da6de3b47399552e1f388131689e7fd01c4513c9eec4137df",
+      "native_vendor_cad": false,
+      "hardware_measured": false,
+      "is_custom_project_design": false,
+      "published_nominal": [
+        "Diametre3 et longueur10 publies; vis autotaraudeuse et empreinte cruciforme illustrees"
+      ],
+      "estimates_and_limitations": [
+        "Pas1.2, diametre tete5.2, filetage et pointe estimes; ne pas confondre avec M3x0.5"
+      ],
+      "parameters": {},
+      "source_pages": [],
+      "bounds_mm": {
+        "xmin": -2.6000001,
+        "xmax": 2.6000001,
+        "ymin": -2.6000001,
+        "ymax": 2.6000001,
+        "zmin": -1.0211775516043254e-07,
+        "zmax": 11.5
+      },
+      "validation": {
+        "valid_after_reimport": true,
+        "solids": 1,
+        "faces": 29,
+        "colors": 1,
+        "volume_relative_error": 8.097552062715152e-08,
+        "volume_relative_error_limit": 0.0001,
+        "volume_before_mm3": 69.70209770209036,
+        "volume_after_mm3": 69.702103346254,
+        "adaptive_volume_tolerance": 1e-09,
+        "bbox_error_mm": 5.978822448620719e-07,
+        "bbox_error_limit_mm": 0.01,
+        "void_and_material_probes": [],
+        "elapsed_seconds": 0.5305813000013586
+      },
+      "parts": [
+        {
+          "name": "Vis_autotaraudeuse_estimee",
+          "color_linear_rgb": [
+            0.62,
+            0.65,
+            0.69
+          ],
+          "solids": 1
+        }
+      ],
+      "preview": {
+        "file": "vis-tamiya-50577-3x10.png",
+        "sha256": "d67dd2e664841072e71da91df8686bec21994a3ece5196255123fc27f25d383c"
+      }
+    },
+    {
+      "folder": "fixations-train-roulant",
+      "file": "vis-tamiya-9805945-3x18.step",
+      "title": "Tamiya 9805945 | vis decollétee 3 x 18",
+      "generated_on": "2026-10-13",
+      "unit": "mm",
+      "cadquery_version": "2.8.0",
+      "coordinate_system": "Axe principal Z; face de reference z=0; dimensions selon parametres",
+      "bytes": 355358,
+      "sha256": "7e3796cec3099ff045a832b72b90e34ec0025e621e495e04a96747b5f60dd0cc",
+      "native_vendor_cad": false,
+      "hardware_measured": false,
+      "is_custom_project_design": false,
+      "published_nominal": [
+        "Diametre3, longueur18; type step screw dans notice p.10"
+      ],
+      "estimates_and_limitations": [
+        "Portee lisse10, pas partie filetée1.2 et forme tete estimes",
+        "Pas, longueurs de portees et vis originale a relever"
+      ],
+      "parameters": {},
+      "source_pages": [],
+      "bounds_mm": {
+        "xmin": -2.6,
+        "xmax": 2.6,
+        "ymin": -2.6,
+        "ymax": 2.6,
+        "zmin": -1.026044274141408e-07,
+        "zmax": 19.5
+      },
+      "validation": {
+        "valid_after_reimport": true,
+        "solids": 1,
+        "faces": 30,
+        "colors": 1,
+        "volume_relative_error": 6.351109856325358e-08,
+        "volume_relative_error_limit": 0.0001,
+        "volume_before_mm3": 131.91911820030222,
+        "volume_after_mm3": 131.91912657863034,
+        "adaptive_volume_tolerance": 1e-09,
+        "bbox_error_mm": 5.973955725667303e-07,
+        "bbox_error_limit_mm": 0.01,
+        "void_and_material_probes": [],
+        "elapsed_seconds": 0.5312630999978865
+      },
+      "parts": [
+        {
+          "name": "Vis_pivot_tete_cruciforme",
+          "color_linear_rgb": [
+            0.62,
+            0.65,
+            0.69
+          ],
+          "solids": 1
+        }
+      ],
+      "preview": {
+        "file": "vis-tamiya-9805945-3x18.png",
+        "sha256": "456a8b69a764c6280dc2f6e268fa77aef820bff489ea52b92241f1f51ff1db86"
+      }
+    },
+    {
+      "folder": "fixations-train-roulant",
+      "file": "vis-tamiya-50582-3x14.step",
+      "title": "Tamiya 50582 | vis decollétee 3 x 14",
+      "generated_on": "2026-10-13",
+      "unit": "mm",
+      "cadquery_version": "2.8.0",
+      "coordinate_system": "Axe principal Z; face de reference z=0; dimensions selon parametres",
+      "bytes": 340174,
+      "sha256": "6b1846e509af9b8a2c994d8344cc0ea6c6c3ef803402e75bbb454f6f0c4bda38",
+      "native_vendor_cad": false,
+      "hardware_measured": false,
+      "is_custom_project_design": false,
+      "published_nominal": [
+        "Diametre3, longueur14; type step screw dans notice p.10"
+      ],
+      "estimates_and_limitations": [
+        "Portee lisse7, pas partie filetée1.2 et forme tete estimes",
+        "Pas, longueurs de portees et vis originale a relever"
+      ],
+      "parameters": {},
+      "source_pages": [],
+      "bounds_mm": {
+        "xmin": -2.6,
+        "xmax": 2.6,
+        "ymin": -2.6,
+        "ymax": 2.6,
+        "zmin": -1.0547440724534409e-07,
+        "zmax": 15.5
+      },
+      "validation": {
+        "valid_after_reimport": true,
+        "solids": 1,
+        "faces": 30,
+        "colors": 1,
+        "volume_relative_error": 8.942159580709851e-08,
+        "volume_relative_error_limit": 0.0001,
+        "volume_before_mm3": 106.4790380083621,
+        "volume_after_mm3": 106.4790475298876,
+        "adaptive_volume_tolerance": 1e-09,
+        "bbox_error_mm": 5.945255928465494e-07,
+        "bbox_error_limit_mm": 0.01,
+        "void_and_material_probes": [],
+        "elapsed_seconds": 0.48813720000180183
+      },
+      "parts": [
+        {
+          "name": "Vis_pivot_tete_cruciforme",
+          "color_linear_rgb": [
+            0.62,
+            0.65,
+            0.69
+          ],
+          "solids": 1
+        }
+      ],
+      "preview": {
+        "file": "vis-tamiya-50582-3x14.png",
+        "sha256": "115f0d652992803ca5d8dae8393a769a68f88cd638c7f181a1599a9de6578518"
+      }
+    }
+  ]
+}

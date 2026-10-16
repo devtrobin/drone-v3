@@ -1,0 +1,79 @@
+[
+  {
+    "id": "D01",
+    "type": "documentaire",
+    "objet": "Losi LOS212054 /KHK",
+    "condition": "Confirmer angle de pression20°, largeur utile, régime admissible et charge radiale du moteur ; sinon changer le pignon et recalculer.",
+    "impact": "Pas de libération de transmission motorisée. La CAO utilise un profil20° supposé."
+  },
+  {
+    "id": "D02",
+    "type": "documentaire",
+    "objet": "FEETECH FT5335M",
+    "condition": "Obtenir la fiche correspondant au lot : la page actuelle25T/13.5kg.cm nominal à6V diffère de l’ancienne fiche17T/4A. Commander le palonnier assorti, rayon20mm.",
+    "impact": "Servo retenu pour étude, pas panier validé. La fixation par berceau évite de recopier une empreinte incertaine."
+  },
+  {
+    "id": "D03",
+    "type": "documentaire",
+    "objet": "LFT /L60030M +JLLN /KLKD",
+    "condition": "Confirmation des terminaisons à brins fins, de l’association DC et de l’énergie maximale de coupure à8.4V et aux défauts étudiés.",
+    "impact": "La coordination électrique reste non démontrée ; un pouvoir de coupure catalogue ne suffit pas."
+  },
+  {
+    "id": "D04",
+    "type": "mesure de réception",
+    "objet": "Jante et moyeu HobbyPark /53569",
+    "condition": "Relever la position du fond hexagonal et de la face d’écrou. Les stations202.5/208.5/211.2 proviennent du modèle estimé.",
+    "impact": "Ajuster uniquement les entretoises de roue et les extrémités des arbres avant tournage final."
+  },
+  {
+    "id": "D05",
+    "type": "mesure de réception",
+    "objet": "ModulesTI, supports de fusibles, UBEC et palonnier",
+    "condition": "Vérifier enveloppes, accès et fixations. Conserver les cassettes démontables, ne pas percer des empreintes supposées.",
+    "impact": "Les réservations sont des limites d’étude, pas des dimensions fournisseur certifiées."
+  },
+  {
+    "id": "D06",
+    "type": "conception à terminer après D03/D05",
+    "objet": "Faisceau principal et ancrages",
+    "condition": "Fixer les coordonnées des bornes et concevoir les supports des corridors hautsP03-P06 ; reprendre les descentes avecR≥30mm.",
+    "impact": "P03-P06 restent des parcours candidats séparés ; ils sont exclus du STEP assemblé. Aucun débit définitif pour ces4liaisons."
+  },
+  {
+    "id": "D07",
+    "type": "prototype électrique",
+    "objet": "InterfacePWM isolée",
+    "condition": "Assembler les trois canaux sur adaptateursSOIC indépendants, contrôler le schéma et les états au démarrage. Aucun nouveau Gerber n’est fourni.",
+    "impact": "Évite les retours moteurs par les filsGND de commande ; circuit de banc défini, intégration à qualifier."
+  },
+  {
+    "id": "P01",
+    "type": "essai",
+    "objet": "Masse, charges et direction",
+    "condition": "Peser le véhicule : ≤9kg et charge avant≤45% pour appliquer les calculs ; mesurer le couple et la température du servo.",
+    "impact": "Recalcul obligatoire si ces hypothèses sont dépassées ; le couple de frottement au sol reste estimé."
+  },
+  {
+    "id": "P02",
+    "type": "essai",
+    "objet": "Transmission et interfaces",
+    "condition": "Contrôler montage à blanc, portée des roulements, jeu d’engrènement, échauffement, vibrations et retenues sous écran.",
+    "impact": "Les contrôles3D ne démontrent ni fatigue ni endurance ni confinement d’une rupture."
+  },
+  {
+    "id": "P03",
+    "type": "essai",
+    "objet": "Électricité /surveillanceM1P",
+    "condition": "Suivre le banc limitéM1P avant touteLiPo ; vérifier courant, chute de tension, température, faux défauts et arrêt sur perte de commande.",
+    "impact": "Conserver les interdictions de raccordement véhicule du dossierM1P."
+  },
+  {
+    "id": "P04",
+    "type": "essai",
+    "objet": "Vitesse, autonomie et vidéo",
+    "condition": "Mesurer progressivement après qualification du prototype ; pas de40km/h en intérieur de bureau.",
+    "impact": "40km/h,45min à20km/h et1080p60 restent des objectifs. Aucun essai ni achat effectué."
+  }
+]

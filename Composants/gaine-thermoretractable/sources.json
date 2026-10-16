@@ -1,0 +1,59 @@
+{
+  "checked_on": "2026-10-14",
+  "selection": {
+    "id": "teatum8",
+    "folder": "gaine-thermoretractable",
+    "reference": "TE / Raychem ATUM-8/2-0-STK (NB11802001)",
+    "role": "Isolation des canons nus des cosses 6 mm²",
+    "quantity": 1,
+    "mandatory": 1,
+    "conditional": 0,
+    "pack": 1,
+    "maker": "https://www.te.com/en/product-NB11802001.html",
+    "amazon_query": "Raychem ATUM-8/2-0-STK",
+    "spec": "Gaine noire double paroi 4:1 ; Øint fourni ≥8 mm ; libre rétreint ≤2 mm ; paroi totale rétreinte 1,0 ±0,3 mm, adhésif nominal0,5 mm ; STK1,2 m.",
+    "usage": "Passer les morceaux avant le sertissage des sept cosses nues prévues, dont une conditionnelle côté batterie. Huit coupes de 20 mm, réserve comprise, sont une estimation d’approvisionnement ; les longueurs définitives suivent les canons reçus et le recouvrement sur la gaine du fil.",
+    "dimensions": [
+      [
+        "Øint fourni / libre rétreint",
+        "8 mm min / 2 mm max",
+        "Plan TE A2,2023"
+      ],
+      [
+        "Paroi totale / adhésif",
+        "1,0 ±0,3 / 0,5 nominal mm",
+        "Après rétraction libre"
+      ],
+      [
+        "Retrait longitudinal",
+        "0 à −15 %",
+        "Plan TE A2 actuel ; ne pas reprendre −10 % par défaut"
+      ],
+      [
+        "Longueur STK",
+        "1,2 m",
+        "Fiche TE05/24 ; conditionnement distributeur à confirmer"
+      ],
+      [
+        "Températures",
+        "Début80 °C ; pleine rétraction110 °C ; service−55..+110 °C",
+        "Fiche TE05/24"
+      ]
+    ],
+    "source_files": [
+      "notices/TE-ATUM-fiche-via-Raytronics.pdf"
+    ],
+    "source_pages": "Plan TE A2 et fiche05/24 consultés en ligne ; PDF Raytronics secondaire conservé",
+    "fit": "8 mm passe nominalement au-dessus du canon Klauke Ø6 ; 2 mm libre peut se resserrer sur la gaine Ø4,7. L’état final sur ces surfaces n’a ni Ø2 ni la paroi libre de1mm. Vérifier diamètre de la transition, accès, recouvrement, chauffe locale et état du PVC. Ne pas couvrir la paume de contact.",
+    "amazon_search": "https://www.amazon.fr/s?k=Raychem+ATUM-8%2F2-0-STK",
+    "amazon_FR_verified": false,
+    "price_EUR_TTC": null
+  },
+  "manufacturer_source_verified": true,
+  "hardware_measured": false,
+  "model_3d_created": true,
+  "model_3d_manifest": "3D/provenance.json",
+  "source_archive_manifest": "../faisceau-puissance/assets.json",
+  "exact_reviews_verified": false,
+  "qualification_complete": false
+}

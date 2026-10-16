@@ -1,0 +1,140 @@
+{
+  "file": "cordon-secteur-c7-eu-etude.step",
+  "title": "S65 | cordon secteur EU, pose illustrative",
+  "generated_on": "2026-10-13",
+  "unit": "mm",
+  "cadquery_version": "2.8.0",
+  "coordinate_system": "Pose illustrative dans le plan XY; centreline du cable z=0",
+  "bytes": 443160,
+  "sha256": "99020742dee1369a5c9b905fd6218461bb61c350f39598fb491e0232b8c9ff72",
+  "native_vendor_cad": false,
+  "hardware_measured": false,
+  "is_custom_project_design": false,
+  "published_nominal": [
+    "Cordon secteur seul accessoire annoncé, PDF23; deux broches et fiche type8 visibles"
+  ],
+  "estimates_and_limitations": [
+    "Toutes dimensions de prise et longueur de câble estimées; pas un plan IEC ni modèle de fabrication",
+    "Longueur de la pose compacte ne représente pas la longueur livrée; pays et fiche de l offre à contrôler",
+    "Sections, isolation et performances électriques non déduites de la CAO"
+  ],
+  "parameters": {
+    "cable_pose_length_mm_estimated": 198.74196466031623,
+    "not_actual_delivered_length": true
+  },
+  "source_pages": [
+    "SkyRC S65 manual V2.10, PDF page 23; manufacturer cord photograph: ../assets.json"
+  ],
+  "bounds_mm": {
+    "xmin": -9.0000001,
+    "xmax": 145.5,
+    "ymin": -23.5000001,
+    "ymax": 72.53498399017954,
+    "zmin": -6.0,
+    "zmax": 6.0
+  },
+  "validation": {
+    "valid_after_reimport": true,
+    "solids": 9,
+    "faces": 127,
+    "colors": 2,
+    "volume_relative_error": 7.803814086936077e-15,
+    "volume_relative_error_limit": 0.0001,
+    "volume_before_mm3": 16782.46503521227,
+    "volume_after_mm3": 16782.4650352124,
+    "adaptive_volume_tolerance": 1e-09,
+    "bbox_error_mm": 1.4210854715202004e-14,
+    "bbox_error_limit_mm": 0.01,
+    "void_and_material_probes": [],
+    "elapsed_seconds": 0.754762299999129
+  },
+  "parts": [
+    {
+      "name": "Cordon_double_isolation_trace_estime",
+      "color_linear_rgb": [
+        0.016,
+        0.02,
+        0.024
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Contact_C7_-4.3",
+      "color_linear_rgb": [
+        0.48,
+        0.5,
+        0.53
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Contact_C7_4.3",
+      "color_linear_rgb": [
+        0.48,
+        0.5,
+        0.53
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Fiche_C7_reconstruction",
+      "color_linear_rgb": [
+        0.016,
+        0.02,
+        0.024
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Broche_EU_1_geometrie_estimee",
+      "color_linear_rgb": [
+        0.48,
+        0.5,
+        0.53
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Isolation_broche_EU_1",
+      "color_linear_rgb": [
+        0.016,
+        0.02,
+        0.024
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Broche_EU_2_geometrie_estimee",
+      "color_linear_rgb": [
+        0.48,
+        0.5,
+        0.53
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Isolation_broche_EU_2",
+      "color_linear_rgb": [
+        0.016,
+        0.02,
+        0.024
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Fiche_EU_deux_broches_estimee",
+      "color_linear_rgb": [
+        0.016,
+        0.02,
+        0.024
+      ],
+      "solids": 1
+    }
+  ],
+  "preview": {
+    "file": "cordon-secteur-c7-eu-etude.png",
+    "sha256": "485f17762b8d2322ade9370c2de454b7e1469e2c38979ebdda2e5702dbcfc382"
+  },
+  "generator": "tools/build_power_step.py",
+  "generator_sha256": "912334fa5130770c24bad6a77caf81239a6a43f5b98254ba40f70f95a2735563"
+}

@@ -1,0 +1,140 @@
+{
+  "file": "resistances-mesure-3x-ac03-100ohm.step",
+  "title": "Trois AC03 100 ohms | pattes droites non coupees",
+  "generated_on": "2026-10-15",
+  "unit": "mm",
+  "cadquery_version": "2.8.0",
+  "coordinate_system": "Three external axial resistors; nominal straight, uncut leads.",
+  "bytes": 56914,
+  "sha256": "17cfe947d754920331adb424f3c1e7bae8f7dda8aaf56243e1df051475f43f31",
+  "native_vendor_cad": false,
+  "hardware_measured": false,
+  "is_custom_project_design": true,
+  "published_nominal": [
+    "Vishay AC03 nominal body13xdiam4.8mm, leadsdiam0.8mm; straight25mm leads shown."
+  ],
+  "estimates_and_limitations": [
+    "Study reconstruction, not native vendor CAD; no measured hardware.",
+    "Package colours, component markings, solder fillets and micro-details estimated.",
+    "EVM and Pololu reserves are open frames, not their true geometry. Harnesses and mounting hardware not defined."
+  ],
+  "parameters": {
+    "part": "AC03000001000JAC00",
+    "lead_pose": "Straight nominal, not the harness routing or its final length."
+  },
+  "source_pages": [
+    "KiCad/implantation.json; notices/TI-TPS3700EVM-114-original.pdf; notices/Traco-TMR1-original.pdf"
+  ],
+  "bounds_mm": {
+    "xmin": -31.5,
+    "xmax": 31.5,
+    "ymin": -2.4,
+    "ymax": 18.4,
+    "zmin": -2.4,
+    "zmax": 2.4
+  },
+  "validation": {
+    "valid_after_reimport": true,
+    "solids": 9,
+    "faces": 27,
+    "colors": 2,
+    "volume_relative_error": 0.0,
+    "volume_relative_error_limit": 0.0001,
+    "volume_before_mm3": 781.1255973885659,
+    "volume_after_mm3": 781.1255973885659,
+    "adaptive_volume_tolerance": 1e-09,
+    "bbox_error_mm": 0.0,
+    "bbox_error_limit_mm": 0.01,
+    "void_and_material_probes": [],
+    "elapsed_seconds": 0.22079789999770583
+  },
+  "parts": [
+    {
+      "name": "AC03_0_corps_13x4_8",
+      "color_linear_rgb": [
+        0.18,
+        0.2,
+        0.17
+      ],
+      "solids": 1
+    },
+    {
+      "name": "AC03_0_fil_gauche",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "AC03_0_fil_droit",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "AC03_1_corps_13x4_8",
+      "color_linear_rgb": [
+        0.18,
+        0.2,
+        0.17
+      ],
+      "solids": 1
+    },
+    {
+      "name": "AC03_1_fil_gauche",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "AC03_1_fil_droit",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "AC03_2_corps_13x4_8",
+      "color_linear_rgb": [
+        0.18,
+        0.2,
+        0.17
+      ],
+      "solids": 1
+    },
+    {
+      "name": "AC03_2_fil_gauche",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    },
+    {
+      "name": "AC03_2_fil_droit",
+      "color_linear_rgb": [
+        0.58,
+        0.61,
+        0.64
+      ],
+      "solids": 1
+    }
+  ],
+  "preview": {
+    "file": "resistances-mesure-3x-ac03-100ohm.png",
+    "sha256": "c92073aa674ac85b79b66c66887cee25aefc0b156b453b2dae06450b7a310bc0"
+  },
+  "CAD_status": "Prototype exact board outline and checked routing; nominal package reconstructions and explicit reserved modules.",
+  "kicad_pcb_sha256": "5718bafb44bbc3d06ca01ec1fb87dfc1a3a8de3496c4c755b7ff713b3b4e6a05"
+}

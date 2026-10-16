@@ -1,0 +1,133 @@
+{
+  "checked_on": "2026-10-14",
+  "assets": [
+    {
+      "file": "porte-fusible/notices/Littelfuse-MIDI-498-fiche-2015.pdf",
+      "url": "https://static.chipdip.ru/lib/455/DOC012455921.pdf",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "status": "unavailable",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)>"
+    },
+    {
+      "file": "porte-fusible/notices/Littelfuse-MIDI-498-plan-catalogue-2012.pdf",
+      "url": "https://www.datasheets.com/littelfuse/0498125.MXT/datasheet.pdf",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "bytes": 14200753,
+      "sha256": "37f3349422b877696d77d1a3f59fdc746da949f735b415a7125253c65c0cc131",
+      "final_url": "https://static.datasheets.com/doc/9959043-littelfuse-0498125.mxt-ds.pdf",
+      "status": "downloaded"
+    },
+    {
+      "file": "porte-fusible/notices/Littelfuse-MIDI-498-fiche-2025.pdf",
+      "url": "https://www.littelfuse.com/assetdocs/littelfuse-fuse-holder-midi-498-datasheet-rd1?assetguid=b38a61f3-7d0b-4081-bfb5-86c4b4ea4f26",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "file": "fusible-60a/notices/Littelfuse-MIDI-32V-fiche-2024.pdf",
+      "url": "https://www.littelfuse.com/assetdocs/midi-32v-bolt-down-series-data-sheet?assetguid=b55e8034-180d-40f6-a0a7-bebc2d4a94f5",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "file": "sources-web/CAD-Littelfuse-formulaire.html",
+      "url": "https://info.littelfuse.com/midi-498-series-3dmodel-landingpage",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "bytes": 50501,
+      "sha256": "8265c11045ccd64355f6c09a24854147ecc8b2190f28b506b23a64077437b2fe",
+      "final_url": "https://info.littelfuse.com/midi-498-series-3dmodel-landingpage",
+      "status": "downloaded"
+    },
+    {
+      "file": "sources-web/TME-04980900ZXT.html",
+      "url": "https://www.tme.eu/en/details/04980900zxt/car-fuseholders/littelfuse/",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "bytes": 733771,
+      "sha256": "7b46fb32b8e3f6364456d1c314d4ca3ee3e96931c0414ff6bc7f2075d211d5fc",
+      "final_url": "https://www.tme.eu/en/details/04980900zxt/car-fuseholders/littelfuse/",
+      "status": "downloaded"
+    },
+    {
+      "file": "sources-web/Amazon-recherche-support.html",
+      "url": "https://www.amazon.fr/s?k=Littelfuse+04980900ZXT",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "bytes": 2292,
+      "sha256": "4b2e067b395e705a633f556327f20c899ce497934b381ab34e2cc9fcec3efc57",
+      "final_url": "https://www.amazon.fr/s?k=Littelfuse+04980900ZXT",
+      "status": "challenge_html",
+      "product_page": false
+    },
+    {
+      "file": "sources-web/Amazon-recherche-fusible.html",
+      "url": "https://www.amazon.fr/s?k=Littelfuse+0498060.M",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "bytes": 2287,
+      "sha256": "d8b4b4236356b8ba281c49d19ed64bf8013d29948ef073d660d36b9d5ccc0474",
+      "final_url": "https://www.amazon.fr/s?k=Littelfuse+0498060.M",
+      "status": "challenge_html",
+      "product_page": false
+    },
+    {
+      "file": "porte-fusible/notices/Littelfuse-MIDI-498-fiche-miroir-TME.pdf",
+      "url": "https://www.tme.eu/Document/751067cde59f8870ba92d17db0ce52da/04980900ZXT.pdf",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "bytes": 174306,
+      "sha256": "af3b25ba3642bd0a8d8f0d091b513a8e8831f7473bdaae7e5bc264ed10b0fb37",
+      "final_url": "https://www.tme.eu/Document/751067cde59f8870ba92d17db0ce52da/04980900ZXT.pdf",
+      "status": "downloaded"
+    },
+    {
+      "file": "fusible-60a/notices/Littelfuse-MIDI-32V-fiche-miroir-TME.pdf",
+      "url": "https://www.tme.eu/Document/c2a31dbed623c79f9b3491c387e36665/littelfuse_midi.pdf",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "bytes": 523787,
+      "sha256": "b4c31d8fc3ae468bf7bf31257eddb5ffdec3aa288829196993a401fe732f0fbe",
+      "final_url": "https://www.tme.eu/Document/c2a31dbed623c79f9b3491c387e36665/littelfuse_midi.pdf",
+      "status": "downloaded"
+    },
+    {
+      "file": "fusible-60a/notices/Littelfuse-MIDI-32V-revision-2021.pdf",
+      "url": "https://4donline.ihs.com/images/VipMasterIC/IC/LFSI/LFSI-S-A0013274556/LFSI-S-A0013277374-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "bytes": 654488,
+      "sha256": "0085d06673157536bc3f15cc1816d7ea537607baff4ae39527cb1111e599f12c",
+      "final_url": "https://4donline.ihs.com/images/VipMasterIC/IC/LFSI/LFSI-S-A0013274556/LFSI-S-A0013277374-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0",
+      "status": "downloaded"
+    },
+    {
+      "file": "fusible-60a/photos/distributeur-0498060M.jpg",
+      "url": "https://uk.farnell.com/productimages/standard/en_GB/3516004-40.jpg",
+      "checked_on": "2026-10-14",
+      "modified": false,
+      "bytes": 4225,
+      "sha256": "4096d3fc38ccdac3e12e40888f913992cfc4bf469da73f66727d3e5dbab280d7",
+      "final_url": "https://uk.farnell.com/productimages/standard/en_GB/3516004-40.jpg",
+      "status": "downloaded"
+    },
+    {
+      "file": "porte-fusible/photos/Littelfuse-photo-extraite-fiche-2008.jpeg",
+      "source_file": "porte-fusible/notices/Littelfuse-MIDI-498-fiche-miroir-TME.pdf",
+      "source_sha256": "af3b25ba3642bd0a8d8f0d091b513a8e8831f7473bdaae7e5bc264ed10b0fb37",
+      "source_page": 1,
+      "pdf_xref": 26,
+      "status": "extracted_embedded_image",
+      "bytes": 8568,
+      "sha256": "4740f44ded785e352014dfba6273acf087d77ca6b0baa136b6efe2bc7d521252",
+      "image_pixels_modified": false,
+      "checked_on": "2026-10-14"
+    }
+  ]
+}

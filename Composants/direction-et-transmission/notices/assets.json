@@ -1,0 +1,64 @@
+{
+  "collected_on": "2026-10-13",
+  "documents": [
+    {
+      "file": "FEETECH-FT90M-fiche-historique-miroir.pdf",
+      "url": "https://www.gotronic.fr/pj2-ft90m-2907.pdf",
+      "bytes": 447722,
+      "sha256": "66712ceddd8b37e9af7a3479a2d3034da3919ccc49740f003ef7563ce2eef33e",
+      "modified": false
+    },
+    {
+      "file": "Tamiya-TT01R-notice-constructeur.pdf",
+      "url": "https://www.tamiya.com/cms/english/rc/rcmanual/tt01r.pdf",
+      "bytes": 4744628,
+      "sha256": "c8ef6f865c9a81df967932ec86143cf1074ecc2f6d48df566a94c0d2643a9ed1",
+      "modified": false
+    },
+    {
+      "file": "Tamiya-TT01-notice-constructeur.pdf",
+      "url": "https://www.tamiya.com/cms/english/rc/rcmanual/tt01.pdf",
+      "bytes": 3561222,
+      "sha256": "c7424ca6ed1ef034eaf878b0d8a5c8dd1cff8da8ec85b71834f79264b3c7593f",
+      "modified": false
+    },
+    {
+      "file": "KHK-engrenages-acier-SS.pdf",
+      "url": "https://khkgears.net/pdf/ss.pdf",
+      "bytes": 718814,
+      "sha256": "f226fe80d3b8295cc8146be91280061474965f033cf4db471618b6d5f66dda74",
+      "modified": false
+    },
+    {
+      "file": "KHK-guide-technique-engrenages.pdf",
+      "url": "https://khkgears.net/pdf/spur-tech.pdf",
+      "bytes": 987550,
+      "sha256": "66cd4024617ee553e5e2cd52394552654f1f303d3cadc56ae244110d9c1a0e81",
+      "modified": false
+    },
+    {
+      "file": "SMB-MR115ZZ-fiche-technique.pdf",
+      "url": "https://www.smbbearings.com/firebrick/ckeditor/plugins/upload/Uploads/Documents/bearingpdfs/MR115ZZ-miniature-bearing-5x11x4mm.pdf",
+      "bytes": 110429,
+      "sha256": "47124fe7b5bda8ddf055701f9a28959712bba733bc043704eec517f020169c94",
+      "modified": false
+    }
+  ],
+  "unavailable_primary_documents": [
+    {
+      "file": "FEETECH-FT90M-fiche-constructeur.pdf",
+      "url": "https://www.feetechrc.com/Data/feetechrc/upload/file/20200612/6372758975497977502908661.pdf",
+      "download_error": "The read operation timed out"
+    },
+    {
+      "file": "FEETECH-FT90M-C001-fiche-2026.pdf",
+      "url": "https://www.feetech.cn/Data/feetechrc/upload/file/20260623/6391782436739490705352139.pdf",
+      "download_error": "The read operation timed out"
+    },
+    {
+      "file": "FEETECH-FT90M-C001-fiche-2020.pdf",
+      "url": "https://www.feetech.cn/Data/feetechrc/upload/file/20201231/6374502922105716084085377.pdf",
+      "download_error": "The read operation timed out"
+    }
+  ]
+}

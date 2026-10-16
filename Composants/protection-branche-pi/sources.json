@@ -1,0 +1,94 @@
+{
+  "checked_on": "2026-10-14",
+  "sources": [
+    {
+      "id": "support-fabricant",
+      "url": "https://www.bluesea.com/products/5065",
+      "support": "12AWG,30Amax,ATO/ATC,fusiblesepare; aucunplan ni IPnumerique publie sur la fiche"
+    },
+    {
+      "id": "catalogue-2024",
+      "url": "https://primemarine.com.pl/pli/141_Katalog%20BlueSea.pdf",
+      "support": "copie dejaarchivee dans distribution-alimentation; pages60/72 pour5065"
+    },
+    {
+      "id": "fuse-exact-fiche",
+      "url": "https://www.mouser.com/datasheet/2/240/media-3323444.pdf",
+      "support": "ficheATOaftermarket2022 exacte: cotes, courbes, declassement et1000A; miroirRSP archive"
+    },
+    {
+      "id": "fuse-copie-RSP",
+      "url": "https://rspsupply.com/images/downloads/Littelfuse/0/Littelfuse%200ATO020.VP/Specification%20Document.pdf",
+      "support": "fiche2022 avec banniereRSP et pageMouser, conservee tellequefournie"
+    },
+    {
+      "id": "pololu-2813",
+      "url": "https://www.pololu.com/product/2813",
+      "support": "MOSFET55C a6A dansessai12Vamb22Caircalme; pas delimitation courant"
+    },
+    {
+      "id": "pololu-2866",
+      "url": "https://www.pololu.com/product/2866",
+      "support": "regulateur5V, courbes dependenttension/chargetemperature"
+    },
+    {
+      "id": "amazon-support",
+      "url": "https://www.amazon.com/dp/B004ZIUA62",
+      "support": "reference5065 identifiee; aucuneoffreFrance confirmee"
+    },
+    {
+      "id": "amazon-fr-support",
+      "url": "https://www.amazon.fr/dp/B004ZIUA62",
+      "support": "verificationautomatique, prix/stocknonconfirmes"
+    },
+    {
+      "id": "amazon-fuse",
+      "url": "https://www.amazon.fr/s?k=Littelfuse+ATO7.5BP",
+      "support": "rechercheparreference, pasde ASINexactconfirme"
+    },
+    {
+      "id": "mesures-support",
+      "url": "https://shop.pkys.com/Blue-Sea-5065--Waterproof-In-Line-Fuse-Holder-for-ATOATC-Fuses_p_2716.html",
+      "support": "mesuresapproximatives PeterKennedy2017: trou3/16, centrebord5/32; pasplanfabricant"
+    },
+    {
+      "id": "dimensions-secondaires",
+      "url": "https://skysat.fr/en-gb/products/blue-sea-waterproof-inline-ato-atc-fuse-holder",
+      "support": "38x25x15 marchand ambigu; IP66marchand nonconfirme, nonrepriscommefabricant"
+    },
+    {
+      "id": "prix-support",
+      "url": "https://www.hodgesmarine.com/blu5065-blue-sea-5065-waterproof-inline-fuse-holder-atoa.html",
+      "support": "15.01USDaffiche, pasdevisFrance"
+    },
+    {
+      "id": "prix-fuse",
+      "url": "https://www.digikey.com/en/products/detail/littelfuse-inc/0ATO07-5V/2519125",
+      "support": "referenceexacte 1.35USD/unite, dimensionsmarchandesne remplacentpas plan18.8total"
+    },
+    {
+      "id": "pack-et-avis",
+      "url": "https://www.canadiantire.ca/en/pdp/littelfuse-ato-blade-fuse-5-pk-0201571p.0201576.html",
+      "support": "ATO7.5BPpack5; avis151 agregesplusieurscalibres, pasessai7.5exact"
+    },
+    {
+      "id": "forum-exact",
+      "url": "https://forums.sailboatowners.com/threads/what-are-you-using-as-a-bilge-pump-fuse-holder.162517/",
+      "support": "MaineSail2014-05-23message2 utilise5065; pasessaiV3"
+    },
+    {
+      "id": "avis-exacts",
+      "url": "https://www.ebay.com.au/urw/Blue%2BSea%2BSystems%2BWaterproof%2BIn-line%2BFuse%2BHolder%2B5065/product-reviews/721379242?_itm=391693814716",
+      "support": "5avisqualitatifs5065 consultes; aucunprotocoleIPoumesuredecourant"
+    },
+    {
+      "id": "alternative-MINI",
+      "url": "https://xonstorage.z8.web.core.windows.net/pdf/littelfuse_0fhm0002lxn_apr22_xonlink.pdf",
+      "support": "LittelfuseFHM14AWG20A: alternativepluspetitfusible, pasoffreAmazonexacteverifiee"
+    }
+  ],
+  "exact_youtube_test_found": false,
+  "manufacturer_contacted": false,
+  "all_hardware_measured": false,
+  "native_step_obtained": false
+}

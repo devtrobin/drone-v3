@@ -1,0 +1,66 @@
+{
+  "accessed": "2026-10-14",
+  "sources": [
+    {
+      "id": "Pololu-1925",
+      "url": "https://www.pololu.com/product/1925",
+      "accessed": "2026-10-14",
+      "original_unmodified": true,
+      "file": "sources/Pololu-1925-original.html",
+      "sha256": "d242ef3ed42b9ce313ba58dfd3069cc9ff4baa43aa822efb13034eb936f4e322",
+      "bytes": 50178,
+      "status": "archived"
+    },
+    {
+      "id": "Pololu-1925-images",
+      "url": "https://www.pololu.com/product/1925/pictures",
+      "accessed": "2026-10-14",
+      "original_unmodified": true,
+      "file": "sources/Pololu-1925-images-original.html",
+      "sha256": "65ddf44be705bc86746cda798c1c2605abdad690d24278a12d5a09c0705e0db4",
+      "bytes": 49306,
+      "status": "archived"
+    },
+    {
+      "id": "Amazon-JR-recherche",
+      "url": "https://www.amazon.fr/s?k=connecteur+servo+JR+sertir",
+      "accessed": "2026-10-14",
+      "original_unmodified": true,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "status": "unavailable",
+      "error": "Empty response"
+    },
+    {
+      "url": "https://a.pololu-files.com/picture/0J9699.1200.jpg",
+      "file": "photos/JR-boitier-cotes.jpg",
+      "sha256": "9b235a5d9acad55f2756d851839dd2053eaad6996fb9e065fb7bc53fee6cbb9a",
+      "status": "archived",
+      "original_unmodified": true
+    },
+    {
+      "url": "https://a.pololu-files.com/picture/0J9700.1200.jpg",
+      "file": "photos/JR-capot-cotes.jpg",
+      "sha256": "929c4e54d43bf3803a2fd7fc35e243d8d1f6483c0d1d6a7a11ccedbd90457f32",
+      "status": "archived",
+      "original_unmodified": true
+    },
+    {
+      "url": "https://a.pololu-files.com/picture/0J3444.1200.jpg",
+      "file": "photos/JR-assemble.jpg",
+      "sha256": "d5a7ad449debcc5c61ef84aae1b9cb3c91e4577a67e3434fde22e298ad6410a9",
+      "status": "archived",
+      "original_unmodified": true
+    },
+    {
+      "id": "Opencircuit-1925",
+      "url": "https://opencircuit.fr/produit/jr-connector-pack-male",
+      "accessed": "2026-10-14",
+      "original_unmodified": true,
+      "file": "sources/Opencircuit-1925-original.html",
+      "sha256": "24bc28f0621e48900786896f75a0f914063964886957dd40f917c0fe2042cdea",
+      "bytes": 94046,
+      "status": "archived"
+    }
+  ]
+}

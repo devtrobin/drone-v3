@@ -1,0 +1,46 @@
+{
+  "example_only": true,
+  "copper_rho_ohm_mm2_m": 0.01724,
+  "area_AWG22_mm2": 0.326,
+  "one_way_length_assumed_m": 0.15,
+  "Pi_current_study_A": 5,
+  "positive_parallel_paths": 2,
+  "negative_parallel_paths": 4,
+  "wire_loop_R_ohm": 0.0059493865030674845,
+  "positive_current_equal_share_A": 2.5,
+  "negative_current_equal_share_A": 1.25,
+  "rows": [
+    {
+      "contact_resistance_assumed_ohm": 0.01,
+      "loop_resistance_ohm": 0.013449386503067484,
+      "drop_V": 0.06724693251533742,
+      "loss_W": 0.3362346625766871
+    },
+    {
+      "contact_resistance_assumed_ohm": 0.02,
+      "loop_resistance_ohm": 0.020949386503067484,
+      "drop_V": 0.10474693251533743,
+      "loss_W": 0.5237346625766871
+    }
+  ],
+  "equal_share_guaranteed": false,
+  "current_and_temperature_measured": false,
+  "wire_supplier_ampacity_published": false,
+  "insulation_OD_announced_mm": 1.5,
+  "contact_insulation_OD_max_mm": 1.63,
+  "nominal_OD_margin_mm": 0.13,
+  "GPIO_body_ymin_in_Pi_study_mm": 49.9727,
+  "cooler_body_ymax_study_mm": 49.25,
+  "planar_gap_study_mm": 0.7227000000000032,
+  "cooler_mount_delta_y_read_from_Pi_plan_mm": 37.5,
+  "existing_cooler_model_delta_y_mm": 37,
+  "installed_fit_verified": false,
+  "supply_revision_scope": "historical_before_alimentation_r2",
+  "current_supply_source": "../verification-alimentation/selection-active.json",
+  "historical_values_preserved": true,
+  "current_removable_harness_contacts": 13,
+  "power_through_current_Molex": false,
+  "removable_contacts_at_alimentation_r2": 9,
+  "current_harness_revision": "vitesse-r1-after-alimentation-r2",
+  "current_harness_check": "../capteurs-vitesse/verification.json"
+}

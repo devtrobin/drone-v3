@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-15",
+  "assets": [
+    {
+      "file": "references\\Beez2B-BEEC1067-stock.json",
+      "sha256": "baf9c68ef39df27286d5b4eb5e6dca8864edf06c1af0a0a2362b0cbe7db76def",
+      "source_manifest": "../verification-alimentation/assets.json",
+      "unchanged_original_copy": true
+    },
+    {
+      "file": "references\\Beez2B-photo-0.jpg",
+      "sha256": "64c772e92b86765726dda61c2f4105381714b71df2ea6fb94bce38d2ae101be4",
+      "source_manifest": "../verification-alimentation/assets.json",
+      "unchanged_original_copy": true
+    },
+    {
+      "file": "references\\Beez2B-photo-1.jpg",
+      "sha256": "1249a8867e95f7f4078b173400f06fd796e40f3c828179c20598adc5bb780ea0",
+      "source_manifest": "../verification-alimentation/assets.json",
+      "unchanged_original_copy": true
+    }
+  ]
+}

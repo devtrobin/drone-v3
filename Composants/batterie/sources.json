@@ -1,0 +1,55 @@
+{
+  "selected_on": "2026-10-13",
+  "reference": "Zeee 2S1P 7,4 V 5 200 mAh 80C — boîtier rigide, XT60",
+  "purchased": false,
+  "hardware_measured": false,
+  "hardware_tested": false,
+  "model_3d_created": true,
+  "model_3d_manifest": "3D/provenance.json",
+  "amazon": {
+    "asin": "B08DCYVHSF",
+    "identity_verified_marketplace": "amazon.com",
+    "reference_url": "https://www.amazon.com/dp/B08DCYVHSF",
+    "france_offer_verified": false,
+    "price_eur": null,
+    "shipping_eur": null,
+    "seller": null,
+    "stock": null,
+    "status": "France product pages/search blocked; no validated French purchase basket"
+  },
+  "primary_source": "https://zeeebattery.com/products/zeee-2s-lipo-battery-5200mah-7-4v-80c-xt60-plug",
+  "specifications": {
+    "Configuration": "LiPo standard 2S1P, 7,4 V nominal, 8,4 V pleine charge ; pas LiHV",
+    "Capacité / énergie annoncée": "5 200 mAh / 38,48 Wh par batterie ; capacité réelle non mesurée",
+    "Dimensions fabricant": "138 × 47 × 25 mm, tolérance annoncée ±2 mm ; fils et connecteurs hors boîtier",
+    "Masse approximative": "250 g par pack annoncés",
+    "Prises": "Puissance XT60 ; prise d’équilibrage 3 voies visible, famille JST-XH à vérifier sur le pack reçu",
+    "80C": "Notation commerciale annoncée ; aucun essai indépendant de courant continu pour cet ASIN n’est validé",
+    "Limites cellule publiées": "Ne pas dépasser 4,2 V ; ne pas descendre sous 3,2 V par cellule. Une tension totale ne surveille pas chaque cellule.",
+    "Usage": "Un seul pack alimente les deux ESC et la branche Pi ; servo sur le BEC d’un seul ESC réglé à 6 V"
+  },
+  "assets": "assets.json",
+  "reviews": [
+    {
+      "url": "https://www.reddit.com/r/rccars/comments/13supw9/",
+      "access": "Extraits indexés seulement ; fil complet indisponible",
+      "finding": "Un utilisateur rapporte une capacité inférieure à la valeur affichée sur un pack Zeee 2S. La variante, les conditions et l’étalonnage ne permettent pas d’attribuer un chiffre garanti à notre ASIN."
+    },
+    {
+      "url": "https://www.msuk-forum.co.uk/forums/topic/244741-what-lipos-are-you-using/",
+      "access": "Extraits indexés ; accès complet 403",
+      "finding": "Des utilisateurs de 5 200 mAh 2S rigides rapportent un bon rapport prix/usage ; un fil d’équilibrage jugé court est signalé. Retours individuels, pas des mesures d’autonomie V3."
+    },
+    {
+      "url": "https://www.rctalk.com/forum/threads/what-is-your-favorite-lipo-battery.129416/page-3/",
+      "access": "Extraits indexés",
+      "finding": "Un témoignage critique décrit une chute de tension sous charge sur des packs Zeee, tandis que d’autres sont satisfaits. Prévoir une mesure de tension pendant les pointes plutôt que conclure à partir de la marque."
+    }
+  ],
+  "unknowns": [
+    "Capacité et Wh réellement utilisables, résistance interne et déséquilibre cellule par cellule",
+    "Autonomie avec caméra et Pi actives, tension pendant accélérations et vieillissement",
+    "Longueurs, sections et genres réels des connecteurs ; contenu du manuel papier fourni",
+    "Prix du lot, vendeur, livraison et disponibilité Amazon France"
+  ]
+}

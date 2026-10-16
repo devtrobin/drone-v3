@@ -1,0 +1,33 @@
+{
+  "checked_on": "2026-10-14",
+  "purchased": false,
+  "vehicle_need": [
+    {
+      "reference": "AMASS XT60H-F",
+      "quantity": 2,
+      "cap_required": true
+    },
+    {
+      "reference": "XT60 male on ESC",
+      "additional_quantity": 0,
+      "already_in_motor_kit": true
+    }
+  ],
+  "candidate_lot": {
+    "asin": "B074PN6N4K",
+    "brand_store": "SoloGood",
+    "announced_pairs": 10,
+    "expected_F": 10,
+    "expected_M": 10,
+    "expected_caps": 20,
+    "actual_contents_verified": false,
+    "F_installed": 2,
+    "F_spares": 8,
+    "M_spares": 10,
+    "price_TTC_EUR": null,
+    "Amazon_FR_stock_confirmed": false,
+    "shipping_FR_confirmed": false
+  },
+  "wires_and_splices_selected": false,
+  "pdf_notice": "notices/notice-connecteurs-xt60h-v3.pdf"
+}

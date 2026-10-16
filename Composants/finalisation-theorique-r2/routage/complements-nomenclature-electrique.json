@@ -1,0 +1,21 @@
+{
+  "direction": {
+    "servo": "FT5335M,révisionàconfirmer",
+    "converter_candidate": "Hobbywing30603003",
+    "fuse_candidate": "KLKD005.T",
+    "holder_candidate": "L60030M1PQ",
+    "feed": "UD80 aprèsSSR"
+  },
+  "negative_extension": {
+    "TE32151_additional": 1,
+    "SiF6mm2_negative_provision_mm": 160,
+    "ATUM8_2_required": true,
+    "lug_95R5_additional": 1,
+    "old_TE130191_no_longer_used_on_main_negative": true
+  },
+  "isolation": {
+    "ISO7710FDR": 3,
+    "MCP1703A3302": 3
+  },
+  "purchase_released": false
+}

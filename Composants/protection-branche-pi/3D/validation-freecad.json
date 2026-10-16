@@ -1,0 +1,85 @@
+{
+  "method": "FreeCAD Part.read, headless",
+  "version": [
+    "1",
+    "1",
+    "4",
+    "20260928 (Git shallow)",
+    "Unknown",
+    "2026/09/28 13:46:34",
+    "(HEAD detached at 4fd3bf320)",
+    "4fd3bf320d9566a27e60069fc8387448aaa3a094"
+  ],
+  "checked_on": "2026-10-14",
+  "GUI_tested": false,
+  "VSCode_CAD_View_tested": false,
+  "all_passed": true,
+  "checks": [
+    {
+      "file": "littelfuse-0ato07-5v-detaille.step",
+      "folder": "protection-branche-pi/fusible-7-5a",
+      "passed": true,
+      "valid": true,
+      "solids": 8,
+      "faces": 208,
+      "bbox_error_mm": 0.0,
+      "seconds": 0.5501963999995496,
+      "sha256": "7aea39d9a2c9654fc29503f162357cbc438cffc57bba6ceb65a5eeed3cf72449"
+    },
+    {
+      "file": "bluesea-5065-porte-fusible-detaille.step",
+      "folder": "protection-branche-pi/porte-fusible",
+      "passed": true,
+      "valid": true,
+      "solids": 49,
+      "faces": 321,
+      "bbox_error_mm": 0.0,
+      "seconds": 0.29362760000367416,
+      "sha256": "9dfe84cca283b8ead38144d9fd494e19c197ebbea7d0df87cb55ea885b195229"
+    },
+    {
+      "file": "bluesea-5065-corps-ouvert-detaille.step",
+      "folder": "protection-branche-pi/porte-fusible",
+      "passed": true,
+      "valid": true,
+      "solids": 48,
+      "faces": 278,
+      "bbox_error_mm": 0.0,
+      "seconds": 0.2332834000044386,
+      "sha256": "257aa5fa014c23ea2279c674cc134aedd7dfc55d70e5003be6a0452e8ad2279b"
+    },
+    {
+      "file": "bluesea-5065-capot-detaille.step",
+      "folder": "protection-branche-pi/porte-fusible",
+      "passed": true,
+      "valid": true,
+      "solids": 1,
+      "faces": 43,
+      "bbox_error_mm": 0.0,
+      "seconds": 0.06108430000313092,
+      "sha256": "dd43792bb7179d728dd18cb4421068961de585502b28ec40e35c878f9f935c58"
+    },
+    {
+      "file": "ensemble-pi-ato-7-5a-ferme-etude.step",
+      "folder": "protection-branche-pi",
+      "passed": true,
+      "valid": true,
+      "solids": 57,
+      "faces": 529,
+      "bbox_error_mm": 0.0,
+      "seconds": 0.5970518999965861,
+      "sha256": "f08a61c84014fb0fee9dc4f0fb1936d76608657aecb3bd9bacf01099defd9d9a"
+    },
+    {
+      "file": "ensemble-pi-ato-7-5a-ouvert-etude.step",
+      "folder": "protection-branche-pi",
+      "passed": true,
+      "valid": true,
+      "solids": 57,
+      "faces": 529,
+      "bbox_error_mm": 0.0,
+      "seconds": 0.5983961000019917,
+      "sha256": "22dd2a38f3a8636f7fe172331903459d5d0679364f7ff6315d26bb8c790ad280"
+    }
+  ]
+}

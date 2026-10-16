@@ -1,0 +1,40 @@
+{
+  "file": "notice-maintien-batterie-v3.pdf",
+  "pages": 6,
+  "sha256": "49a1e02e485627acfe56ec71cbbc05909a90a7b650434289059ffba5f98bef1e",
+  "rendered_pages": [
+    {
+      "page": 1,
+      "png": "tools\\temp\\final-components\\pdf\\maintien-batterie\\page-01.png",
+      "characters": 972
+    },
+    {
+      "page": 2,
+      "png": "tools\\temp\\final-components\\pdf\\maintien-batterie\\page-02.png",
+      "characters": 1433
+    },
+    {
+      "page": 3,
+      "png": "tools\\temp\\final-components\\pdf\\maintien-batterie\\page-03.png",
+      "characters": 2035
+    },
+    {
+      "page": 4,
+      "png": "tools\\temp\\final-components\\pdf\\maintien-batterie\\page-04.png",
+      "characters": 344
+    },
+    {
+      "page": 5,
+      "png": "tools\\temp\\final-components\\pdf\\maintien-batterie\\page-05.png",
+      "characters": 1028
+    },
+    {
+      "page": 6,
+      "png": "tools\\temp\\final-components\\pdf\\maintien-batterie\\page-06.png",
+      "characters": 1338
+    }
+  ],
+  "visual_review_complete": true,
+  "visual_review_date": "2026-10-14",
+  "visual_review_method": "Rendered every final page and viewed all contact sheets, with full page checks for layout issues."
+}

@@ -1,0 +1,188 @@
+{
+  "date": "2026-10-15",
+  "hardware_measured": false,
+  "goals_unchanged": true,
+  "normal_design": {
+    "motor_branch_continuous_A": 15,
+    "total_motor_continuous_A": 30,
+    "main_continuous_budget_A": 36,
+    "ambient_max_C": 40,
+    "peak_study_per_motor_A": 20,
+    "peak_study_duration_s": 2,
+    "active_current_limiter_implemented": false
+  },
+  "Pi_assumptions": {
+    "output_max_V": 5.15,
+    "output_current_A": 5,
+    "efficiency_min_study": 0.8,
+    "common_loop_R_max_acceptance_ohm": 0.005,
+    "Pi_input_path_R_max_acceptance_ohm": 0.05,
+    "dropout_typical_at5A_V": 0.25,
+    "dropout_design_margin_V": 0.2,
+    "minimum_VIN_acceptance_V": 5.8
+  },
+  "supply_rows": [
+    {
+      "Vpack_V": 6.4,
+      "motors_A": 30,
+      "Pi_VIN_V": 5.9517299699077775,
+      "Pi_branch_A": 5.423091456222223,
+      "main_A": 35.423091456222224,
+      "main_loss_W": 6.273977041579419,
+      "Pi_input_path_loss_W": 1.4704960471275237
+    },
+    {
+      "Vpack_V": 6.4,
+      "motors_A": 40,
+      "Pi_VIN_V": 5.899074983479119,
+      "Pi_branch_A": 5.471363936743292,
+      "main_A": 45.471363936743295,
+      "main_loss_W": 10.338224691338795,
+      "Pi_input_path_loss_W": 1.4967911664147528
+    },
+    {
+      "Vpack_V": 6.6,
+      "motors_A": 30,
+      "Pi_VIN_V": 6.161874010566555,
+      "Pi_branch_A": 5.23865435333536,
+      "main_A": 35.23865435333536,
+      "main_loss_W": 6.208813803169207,
+      "Pi_input_path_loss_W": 1.3721749716859757
+    },
+    {
+      "Vpack_V": 6.6,
+      "motors_A": 40,
+      "Pi_VIN_V": 6.1094066816943275,
+      "Pi_branch_A": 5.283514878284941,
+      "main_A": 45.28351487828494,
+      "main_loss_W": 10.252983598659268,
+      "Pi_input_path_loss_W": 1.3957764734529168
+    },
+    {
+      "Vpack_V": 7.4,
+      "motors_A": 30,
+      "Pi_VIN_V": 6.996133442910501,
+      "Pi_branch_A": 4.61575558344546,
+      "main_A": 34.61575558344546,
+      "main_loss_W": 5.991252673064179,
+      "Pi_input_path_loss_W": 1.0652599803053968
+    },
+    {
+      "Vpack_V": 7.4,
+      "motors_A": 40,
+      "Pi_VIN_V": 6.944242589864462,
+      "Pi_branch_A": 4.6501347297370605,
+      "main_A": 44.65013472973706,
+      "main_loss_W": 9.968172656918359,
+      "Pi_input_path_loss_W": 1.0811876502353381
+    },
+    {
+      "Vpack_V": 8.4,
+      "motors_A": 30,
+      "Pi_VIN_V": 8.028676323932704,
+      "Pi_branch_A": 4.024066837587186,
+      "main_A": 34.024066837587185,
+      "main_loss_W": 5.788185620843,
+      "Pi_input_path_loss_W": 0.8096556956684466
+    },
+    {
+      "Vpack_V": 8.4,
+      "motors_A": 40,
+      "Pi_VIN_V": 7.977254990922379,
+      "Pi_branch_A": 4.049909255956764,
+      "main_A": 44.04990925595676,
+      "main_loss_W": 9.701972527290128,
+      "Pi_input_path_loss_W": 0.8200882490742134
+    }
+  ],
+  "fault_bound": {
+    "conditional": true,
+    "voltage_max_V": 8.4,
+    "temperature_min_C": 0,
+    "credited_positive_segments": [
+      {
+        "ref": "SPMXCA510 positive wire",
+        "length_min_m": 0.085,
+        "section_max_acceptance_mm2": 6.0
+      },
+      {
+        "ref": "LAPP6 extension before F0",
+        "length_min_m": 0.12,
+        "section_max_acceptance_mm2": 6.64
+      }
+    ],
+    "positive_wire_R_min_ohm": 0.0005121137499598393,
+    "source_fault_upper_A": 16402.605867658778,
+    "main_fuse_AIC_DC_A": 20000,
+    "main_holder_withstand_DC_A": 20000,
+    "branch_fuse_AIC_DC_A": 50000,
+    "battery_internal_R_assumed_ohm": 0,
+    "return_wire_resistance_credited": false,
+    "fuse_resistance_credited": false,
+    "alternate_power_returns_forbidden": true,
+    "does_not_protect_unfused_balance_wiring": true
+  },
+  "short_wire_screening": {
+    "k_assumed_A_sqrt_s_per_mm2": 100,
+    "initial_temperature_limit_C": 85,
+    "final_temperature_limit_C": 160,
+    "scope": "Conservative copper screening for short faults; not a low-overload thermal proof",
+    "wires": [
+      {
+        "area_mm2": 5.26,
+        "allowable_I2t_A2s": 276676.0
+      },
+      {
+        "area_mm2": 6.0,
+        "allowable_I2t_A2s": 360000.0
+      },
+      {
+        "area_mm2": 3.31,
+        "allowable_I2t_A2s": 109561.0
+      },
+      {
+        "area_mm2": 1.31,
+        "allowable_I2t_A2s": 17161.0
+      },
+      {
+        "area_mm2": 0.823,
+        "allowable_I2t_A2s": 6773.29
+      },
+      {
+        "area_mm2": 0.7539822368615504,
+        "allowable_I2t_A2s": 5684.89213502747,
+        "reference": "BNTECHGO18,150 strands0.08mm, supplier claim not measured"
+      }
+    ],
+    "KLKD020_total_clearing_I2t_A2s": 1151,
+    "KLKD010_total_clearing_I2t_A2s": 455,
+    "manufacturer_I2t_test": "20 kA at 600 V DC; not a guaranteed maximum at 8.4 V",
+    "coordination_proven_at_our_voltage": false
+  },
+  "charge": {
+    "battery": "SPMX50002S30H5 G1 only",
+    "S65": "SK-100152",
+    "lead": "BEEC1067",
+    "balance": "3-RAL2S, additional dedicated cable",
+    "current_A": 5,
+    "cells": 2,
+    "end_per_cell_V": 4.2,
+    "power_max_W": 42,
+    "S65_power_W": 65,
+    "S65_current_max_A": 6,
+    "lead_length_m": 0.12,
+    "lead_supplier_section_published": false,
+    "charge_wiring_physical_checked": false
+  },
+  "energy": {
+    "nominal_Wh": 37,
+    "usable_fraction_assumption": 0.8,
+    "usable_Wh": 29.6,
+    "average_power_limits_W": {
+      "at20kmh_45min": 39.46666666666667,
+      "at40kmh_20min": 88.80000000000001,
+      "at40kmh_10min": 177.60000000000002
+    },
+    "runtime_at44A_nominal_minutes": 6.818181818181818
+  }
+}

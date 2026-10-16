@@ -1,0 +1,214 @@
+{
+  "file": "bluesea-2315-vue-eclatee.step",
+  "title": "MiniBus 2315 | vue eclatee",
+  "generated_on": "2026-10-14",
+  "unit": "mm",
+  "cadquery_version": "2.8.0",
+  "coordinate_system": "X longueur; Y largeur; Z vertical; centre XY du socle; dessous z=0. Assemblages: decalages explicites.",
+  "bytes": 20702538,
+  "sha256": "f5c368984ba912ab9ffd5a4bc97baa47eed9b6cd43c841a65550472dcf3528bb",
+  "native_vendor_cad": false,
+  "hardware_measured": false,
+  "is_custom_project_design": false,
+  "published_nominal": [
+    "2315: quatre goujons #10-32, bus commun, capot 2713 inclus.",
+    "Plan constructeur: L106.68 W22.86; fixation90.49; goujons extremes64.77.",
+    "Hauteur minimum avec capot31.75; cote verticale sans capot15.88 du plan."
+  ],
+  "estimates_and_limitations": [
+    "Reconstruction, pas un STEP natif fabricant; dimensions non mesurees sur pieces.",
+    "Hauteur31.75 est MINIMUM constructeur: ne garantit pas enveloppe maximum avec cosses.",
+    "Diametres de fixation5.5 et lamages11, epaisseurs, contour du bus et visserie estimes.",
+    "Filetages externes #10-32 UNF par sections reglees, erreur radiale de corde<=0.047mm; taraudages simplifies.",
+    "Manchons, clips, parois, reliefs, rayons et logos du capot non cotes estimes.",
+    "Cosses, cables, vis de chassis et fusibles de branches absents; implantation a terminer.",
+    "Cote15.88 du plan utilisee comme dessus de barre pour reconstruction; interpretation interne non cotee."
+  ],
+  "parameters": {
+    "base_envelope_mm": [
+      106.68,
+      22.86
+    ],
+    "mount_pitch_mm": 90.49,
+    "mount_bore_estimated_mm": 5.5,
+    "stud_thread": "#10-32 UNF",
+    "stud_diameter_mm": 4.826,
+    "stud_pitch_mm": 0.79375,
+    "extreme_stud_pitch_mm": 64.77,
+    "stud_centres_mm": [
+      -32.385,
+      -10.795,
+      10.795,
+      32.385
+    ],
+    "adjacent_stud_pitch_inferred_mm": 21.59,
+    "closed_minimum_height_mm": 31.75,
+    "bus_cross_section_estimated_mm": [
+      12.7,
+      1.98
+    ],
+    "cover_exploded_offset_mm": 19
+  },
+  "source_pages": [
+    "Plan JPG2315 officiel",
+    "Catalogue BlueSea2024: PDF p100",
+    "Photos Amazon.com ASINB000OTJ8A0"
+  ],
+  "bounds_mm": {
+    "xmin": -53.34,
+    "xmax": 53.34,
+    "ymin": -11.43,
+    "ymax": 11.43,
+    "zmin": 0.0,
+    "zmax": 50.7500001
+  },
+  "validation": {
+    "valid_after_reimport": true,
+    "solids": 11,
+    "faces": 4187,
+    "colors": 3,
+    "volume_relative_error": 2.972869262309736e-10,
+    "volume_relative_error_limit": 0.0001,
+    "volume_before_mm3": 34439.87247495377,
+    "volume_after_mm3": 34439.872485192296,
+    "adaptive_volume_tolerance": 1e-09,
+    "bbox_error_mm": 0.0,
+    "bbox_error_limit_mm": 0.01,
+    "void_and_material_probes": [],
+    "elapsed_seconds": 46.79144819999783,
+    "pairwise_overlap_limit_mm3": 1e-05,
+    "pairwise_material_overlaps": [],
+    "visible_thread_verified": true,
+    "external_thread_validation": {
+      "radius_mm": 2.2,
+      "z_start_mm": 22,
+      "z_step_mm": 0.049609375,
+      "samples_occupied": [
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "sections_per_turn_minimum": 16,
+      "maximum_radial_chord_error_mm": 0.047
+    }
+  },
+  "parts": [
+    {
+      "name": "Socle_noir_moule_reconstruction",
+      "color_linear_rgb": [
+        0.012,
+        0.014,
+        0.017
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Barre_cuivre_C110_etame_estimee",
+      "color_linear_rgb": [
+        0.65,
+        0.67,
+        0.69
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Goujon_10_32_UNF_1_longueur_estimee",
+      "color_linear_rgb": [
+        0.65,
+        0.67,
+        0.69
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Ecrou_flange_dentee_1_alesage_simplifie",
+      "color_linear_rgb": [
+        0.65,
+        0.67,
+        0.69
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Goujon_10_32_UNF_2_longueur_estimee",
+      "color_linear_rgb": [
+        0.65,
+        0.67,
+        0.69
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Ecrou_flange_dentee_2_alesage_simplifie",
+      "color_linear_rgb": [
+        0.65,
+        0.67,
+        0.69
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Goujon_10_32_UNF_3_longueur_estimee",
+      "color_linear_rgb": [
+        0.65,
+        0.67,
+        0.69
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Ecrou_flange_dentee_3_alesage_simplifie",
+      "color_linear_rgb": [
+        0.65,
+        0.67,
+        0.69
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Goujon_10_32_UNF_4_longueur_estimee",
+      "color_linear_rgb": [
+        0.65,
+        0.67,
+        0.69
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Ecrou_flange_dentee_4_alesage_simplifie",
+      "color_linear_rgb": [
+        0.65,
+        0.67,
+        0.69
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Capot_2713_PC_clair_affichage_opaque",
+      "color_linear_rgb": [
+        0.78,
+        0.81,
+        0.82
+      ],
+      "solids": 1
+    }
+  ],
+  "preview": {
+    "file": "bluesea-2315-vue-eclatee.png",
+    "sha256": "9667f4657a9ee647f4ca04d5136e45c9cb91721f634967564d7711758681e23c"
+  },
+  "appearance_note": "Polycarbonate transparent reel; teinte claire opaque dans cet export pour compatibilite. Aucun indice optique valide."
+}

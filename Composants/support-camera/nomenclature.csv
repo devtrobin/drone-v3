@@ -1,0 +1,13 @@
+﻿Repère;Désignation;Quantité;Note
+C01;Base CP6 80x70;1;Fabrication sur chute, deux lumières14x4,5
+C02;Montant CP6 40x240;1;Une lumière44,5x4,5 et deux trousØ4
+C03;Gousset CP6 triangle40x40;1;Collage bois, sans vis définitives
+C04;Berceau plastique P1;1;"PETG imprimé proposé ; dimensions de conception, pas une pièce achetée"
+P01;Vis nylon M2x20;4;"Provisoire ; longueur à contrôler avec pièces reçues"
+P02;Entretoise nylon M2 /12 mm /Øext<=4;4;Pas de contact sur les composants caméra
+P03;Écrou nylon M2;4;Provisoire
+P04;Rondelle nylon M2;8;Provisoire, non représentée individuellement au montage caméra
+P05;Vis M4x20 +écrou M4;1;Pivot, longueur de filetage à contrôler
+P06;Rondelle M4 métallique /1 mm;2;Øext9 et trou4,4 nominaux dans la CAO
+P07;Rondelle nylon M4 /1 mm;1;Friction, Øext10 nominal
+P08;Colle bois +collier de câble;1;"Consommables ; maintien définitif au châssis reporté"

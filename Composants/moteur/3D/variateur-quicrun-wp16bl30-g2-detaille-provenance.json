@@ -1,0 +1,1345 @@
+{
+  "name": "Hobbywing_QuicRun_WP16BL30_G2",
+  "file": "variateur-quicrun-wp16bl30-g2-detaille.step",
+  "generated_on": "2026-10-13",
+  "unit": "mm",
+  "vendor_native_cad": false,
+  "hardware_measured": false,
+  "parts": 106,
+  "solids": 143,
+  "sha256": "554460cb92f6b59cb3d3b7a0cd8079d79b5453ea326c4e51e1cf021e6ba8bef1",
+  "bytes": 7180492,
+  "generator": "../../../tools/build_motor_esc_step.py",
+  "generator_sha256": "11b7d999928902d33001e5281abeeef7b0fbb5612104948d6ae4ff3c51283338",
+  "renderer_source": "../../../tools/build_camera_step.py",
+  "renderer_source_sha256": "5321f7c94195e139d6b01b2687edd272cff6cf4b9b0e368a0cff626017be170e",
+  "confirmed_dimensions": {
+    "case_xyz_mm": [
+      33.4,
+      26.8,
+      15.1
+    ],
+    "nominal_input_wire_length_mm": 75,
+    "nominal_output_wire_length_mm": 60,
+    "wire_gauge": "16AWG",
+    "phase_contact_diameter_mm": 3.5,
+    "input_connector": "XT60"
+  },
+  "estimates": {
+    "case_height_without_heatsink_mm": 12.4,
+    "case_wall_mm": 1.5,
+    "heatsink_base_xy_mm": [
+      21.2,
+      23.4
+    ],
+    "capacitor_diameter_mm": 7.3,
+    "capacitor_height_mm": 3.35,
+    "switch_base_xyz_mm": [
+      17,
+      11.2,
+      4
+    ],
+    "power_insulation_diameter_mm": 3.2,
+    "receiver_connector_dimensions": "Generic JR photo estimate",
+    "cable_pose": "Illustrative; nominal published lengths not installed geometry"
+  },
+  "bounds_including_cables_mm": {
+    "xmin": -64.0,
+    "xmax": 115.4,
+    "ymin": -23.0,
+    "ymax": 47.2,
+    "zmin": 0.0,
+    "zmax": 21.4
+  },
+  "validation": {
+    "reimport_valid": true,
+    "solid_count_preserved": true,
+    "volume_relative_error": 1.7374078980907537e-14,
+    "bbox_error_mm": 0.0,
+    "xcaf_colours_reimported": 13
+  },
+  "cable_continuity_validation": [
+    {
+      "part": "ESC_phase_0_16AWG",
+      "curve": "bezier",
+      "valid_single_solid": true,
+      "centerline_samples_checked": 51,
+      "all_centerline_samples_inside_solid": true
+    },
+    {
+      "part": "ESC_phase_1_16AWG",
+      "curve": "bezier",
+      "valid_single_solid": true,
+      "centerline_samples_checked": 51,
+      "all_centerline_samples_inside_solid": true
+    },
+    {
+      "part": "ESC_phase_2_16AWG",
+      "curve": "bezier",
+      "valid_single_solid": true,
+      "centerline_samples_checked": 51,
+      "all_centerline_samples_inside_solid": true
+    },
+    {
+      "part": "Battery_red_16AWG",
+      "curve": "bezier",
+      "valid_single_solid": true,
+      "centerline_samples_checked": 51,
+      "all_centerline_samples_inside_solid": true
+    },
+    {
+      "part": "Battery_black_16AWG",
+      "curve": "bezier",
+      "valid_single_solid": true,
+      "centerline_samples_checked": 51,
+      "all_centerline_samples_inside_solid": true
+    },
+    {
+      "part": "Receiver_signal_white",
+      "curve": "bezier",
+      "valid_single_solid": true,
+      "centerline_samples_checked": 51,
+      "all_centerline_samples_inside_solid": true
+    },
+    {
+      "part": "Receiver_signal_red",
+      "curve": "bezier",
+      "valid_single_solid": true,
+      "centerline_samples_checked": 51,
+      "all_centerline_samples_inside_solid": true
+    },
+    {
+      "part": "Receiver_signal_black",
+      "curve": "bezier",
+      "valid_single_solid": true,
+      "centerline_samples_checked": 51,
+      "all_centerline_samples_inside_solid": true
+    },
+    {
+      "part": "Yellow_program_signal",
+      "curve": "bezier",
+      "valid_single_solid": true,
+      "centerline_samples_checked": 51,
+      "all_centerline_samples_inside_solid": true
+    },
+    {
+      "part": "Switch_wire_0",
+      "curve": "bezier",
+      "valid_single_solid": true,
+      "centerline_samples_checked": 51,
+      "all_centerline_samples_inside_solid": true
+    },
+    {
+      "part": "Switch_wire_1",
+      "curve": "bezier",
+      "valid_single_solid": true,
+      "centerline_samples_checked": 51,
+      "all_centerline_samples_inside_solid": true
+    }
+  ],
+  "limitations": [
+    "External appearance only; hidden motor electromagnetic and ESC electronics internals not reconstructed",
+    "No native manufacturer CAD and no physical measurement; unpublished dimensions estimated",
+    "Cable diameter, length where undocumented, pose, connector and switch geometry estimated",
+    "STEP solid colours and shallow geometric print only; approximate fonts and no textures",
+    "Mounting holes nominal cylinders, no hidden screw thread helices"
+  ],
+  "reference_assets": [
+    {
+      "file": "../photos/01-kit-moteur-variateur.jpg",
+      "sha256": "0a5ddd887fb4929669eb8d855072a5e4dc0964e0cc4084326797000f5d02b857"
+    },
+    {
+      "file": "../photos/02-moteur-2435-g3.jpg",
+      "sha256": "d4d2c6e011749447615151e0eea82f4680164bec16f75eeed16fdc6ff5ef0b53"
+    },
+    {
+      "file": "../photos/03-variateur-16bl30-g2.jpg",
+      "sha256": "3f6f8f2f769cec7f11f6049903a82b1d2a7c6693f7ff20264556647ada3a1fd9"
+    },
+    {
+      "file": "../photos/04-variateur-cables.jpg",
+      "sha256": "32d82208e05297d20022f1842f42e218195f672765adccf638a52a55c3c27219"
+    },
+    {
+      "file": "../photos/05-variateur-interrupteur.jpg",
+      "sha256": "175906cd21075176acdd6ca60c31ebf7971059dd697ed8a39cbd8d2fb8baad6c"
+    },
+    {
+      "file": "../notices/QuicRun-2435SL-G3-notice-constructeur.pdf",
+      "sha256": "9b2feb87c3ecf04a09cb1c86b1db07ddd40eb158b1ff21d8b900138a9068ec6c"
+    },
+    {
+      "file": "../notices/QuicRun-WP16BL30-G2-notice-constructeur.pdf",
+      "sha256": "eb8c7800573e6469e8030715b607a856bb7ab7527c0b1032bdf3d88f25367f7a"
+    }
+  ],
+  "part_manifest": [
+    {
+      "name": "Black_polymer_case_33_4x26_8",
+      "rgb": [
+        0.105,
+        0.115,
+        0.123
+      ],
+      "basis": "published_xy_estimated_wall_and_split",
+      "group": "body",
+      "solids": 1
+    },
+    {
+      "name": "Sealed_top_dark_potting",
+      "rgb": [
+        0.035,
+        0.041,
+        0.046
+      ],
+      "basis": "visible_potting_no_internals_reconstructed",
+      "group": "body",
+      "solids": 1
+    },
+    {
+      "name": "Bottom_base_cover",
+      "rgb": [
+        0.16,
+        0.17,
+        0.18
+      ],
+      "basis": "photo_estimate",
+      "group": "body",
+      "solids": 1
+    },
+    {
+      "name": "Red_anodised_heatsink_base",
+      "rgb": [
+        0.68,
+        0.018,
+        0.065
+      ],
+      "basis": "photo_estimate",
+      "group": "body",
+      "solids": 1
+    },
+    {
+      "name": "Red_heatsink_fin_0",
+      "rgb": [
+        0.68,
+        0.018,
+        0.065
+      ],
+      "basis": "photo_fin_layout_published_total_height",
+      "group": "body",
+      "solids": 1
+    },
+    {
+      "name": "Heatsink_crest_highlight_0",
+      "rgb": [
+        0.86,
+        0.05,
+        0.09
+      ],
+      "basis": "photo_estimate",
+      "group": "body",
+      "solids": 1
+    },
+    {
+      "name": "Red_heatsink_fin_1",
+      "rgb": [
+        0.68,
+        0.018,
+        0.065
+      ],
+      "basis": "photo_fin_layout_published_total_height",
+      "group": "body",
+      "solids": 1
+    },
+    {
+      "name": "Heatsink_crest_highlight_1",
+      "rgb": [
+        0.86,
+        0.05,
+        0.09
+      ],
+      "basis": "photo_estimate",
+      "group": "body",
+      "solids": 1
+    },
+    {
+      "name": "Red_heatsink_fin_2",
+      "rgb": [
+        0.68,
+        0.018,
+        0.065
+      ],
+      "basis": "photo_fin_layout_published_total_height",
+      "group": "body",
+      "solids": 1
+    },
+    {
+      "name": "Heatsink_crest_highlight_2",
+      "rgb": [
+        0.86,
+        0.05,
+        0.09
+      ],
+      "basis": "photo_estimate",
+      "group": "body",
+      "solids": 1
+    },
+    {
+      "name": "Red_heatsink_fin_3",
+      "rgb": [
+        0.68,
+        0.018,
+        0.065
+      ],
+      "basis": "photo_fin_layout_published_total_height",
+      "group": "body",
+      "solids": 1
+    },
+    {
+      "name": "Heatsink_crest_highlight_3",
+      "rgb": [
+        0.86,
+        0.05,
+        0.09
+      ],
+      "basis": "photo_estimate",
+      "group": "body",
+      "solids": 1
+    },
+    {
+      "name": "Red_heatsink_fin_4",
+      "rgb": [
+        0.68,
+        0.018,
+        0.065
+      ],
+      "basis": "photo_fin_layout_published_total_height",
+      "group": "body",
+      "solids": 1
+    },
+    {
+      "name": "Heatsink_crest_highlight_4",
+      "rgb": [
+        0.86,
+        0.05,
+        0.09
+      ],
+      "basis": "photo_estimate",
+      "group": "body",
+      "solids": 1
+    },
+    {
+      "name": "Red_heatsink_fin_5",
+      "rgb": [
+        0.68,
+        0.018,
+        0.065
+      ],
+      "basis": "photo_fin_layout_published_total_height",
+      "group": "body",
+      "solids": 1
+    },
+    {
+      "name": "Heatsink_crest_highlight_5",
+      "rgb": [
+        0.86,
+        0.05,
+        0.09
+      ],
+      "basis": "photo_estimate",
+      "group": "body",
+      "solids": 1
+    },
+    {
+      "name": "Red_heatsink_fin_6",
+      "rgb": [
+        0.68,
+        0.018,
+        0.065
+      ],
+      "basis": "photo_fin_layout_published_total_height",
+      "group": "body",
+      "solids": 1
+    },
+    {
+      "name": "Heatsink_crest_highlight_6",
+      "rgb": [
+        0.86,
+        0.05,
+        0.09
+      ],
+      "basis": "photo_estimate",
+      "group": "body",
+      "solids": 1
+    },
+    {
+      "name": "Red_heatsink_fin_7",
+      "rgb": [
+        0.68,
+        0.018,
+        0.065
+      ],
+      "basis": "photo_fin_layout_published_total_height",
+      "group": "body",
+      "solids": 2
+    },
+    {
+      "name": "Heatsink_crest_highlight_7",
+      "rgb": [
+        0.86,
+        0.05,
+        0.09
+      ],
+      "basis": "photo_estimate",
+      "group": "body",
+      "solids": 1
+    },
+    {
+      "name": "Heatsink_logo_platform",
+      "rgb": [
+        0.68,
+        0.018,
+        0.065
+      ],
+      "basis": "photo_estimate",
+      "group": "body",
+      "solids": 1
+    },
+    {
+      "name": "Heatsink_brand",
+      "rgb": [
+        0.91,
+        0.92,
+        0.91
+      ],
+      "basis": "visible_marking_font_approximation",
+      "group": "body",
+      "solids": 9
+    },
+    {
+      "name": "Visible_capacitor_black_sleeve",
+      "rgb": [
+        0.105,
+        0.115,
+        0.123
+      ],
+      "basis": "visible_capacitor_dimensions_estimated",
+      "group": "body",
+      "solids": 1
+    },
+    {
+      "name": "Capacitor_metal_top_rim",
+      "rgb": [
+        0.66,
+        0.69,
+        0.71
+      ],
+      "basis": "photo_estimate",
+      "group": "body",
+      "solids": 1
+    },
+    {
+      "name": "Capacitor_white_top_label",
+      "rgb": [
+        0.91,
+        0.92,
+        0.91
+      ],
+      "basis": "photo_estimate",
+      "group": "body",
+      "solids": 1
+    },
+    {
+      "name": "Capacitor_pink_label_edge",
+      "rgb": [
+        0.86,
+        0.17,
+        0.43
+      ],
+      "basis": "photo_estimate",
+      "group": "body",
+      "solids": 1
+    },
+    {
+      "name": "Top_recess_0",
+      "rgb": [
+        0.035,
+        0.041,
+        0.046
+      ],
+      "basis": "photo_estimate",
+      "group": "body",
+      "solids": 1
+    },
+    {
+      "name": "Top_recess_1",
+      "rgb": [
+        0.035,
+        0.041,
+        0.046
+      ],
+      "basis": "photo_estimate",
+      "group": "body",
+      "solids": 1
+    },
+    {
+      "name": "Side_label_front",
+      "rgb": [
+        0.035,
+        0.041,
+        0.046
+      ],
+      "basis": "photo_estimate",
+      "group": "body",
+      "solids": 1
+    },
+    {
+      "name": "Side_brand_front",
+      "rgb": [
+        0.91,
+        0.92,
+        0.91
+      ],
+      "basis": "visible_marking_font_approximation",
+      "group": "body",
+      "solids": 7
+    },
+    {
+      "name": "Side_model_front_WP",
+      "rgb": [
+        0.91,
+        0.92,
+        0.91
+      ],
+      "basis": "visible_marking_font_approximation",
+      "group": "body",
+      "solids": 2
+    },
+    {
+      "name": "Side_model_front_16",
+      "rgb": [
+        0.91,
+        0.92,
+        0.91
+      ],
+      "basis": "visible_marking_font_approximation",
+      "group": "body",
+      "solids": 2
+    },
+    {
+      "name": "BL_red_background_front",
+      "rgb": [
+        0.68,
+        0.018,
+        0.065
+      ],
+      "basis": "photo_estimate",
+      "group": "body",
+      "solids": 1
+    },
+    {
+      "name": "Side_model_front_BL",
+      "rgb": [
+        0.91,
+        0.92,
+        0.91
+      ],
+      "basis": "visible_marking_font_approximation",
+      "group": "body",
+      "solids": 2
+    },
+    {
+      "name": "Side_model_front_30",
+      "rgb": [
+        0.91,
+        0.92,
+        0.91
+      ],
+      "basis": "visible_marking_font_approximation",
+      "group": "body",
+      "solids": 2
+    },
+    {
+      "name": "Side_model_front_G2",
+      "rgb": [
+        0.91,
+        0.92,
+        0.91
+      ],
+      "basis": "visible_marking_font_approximation",
+      "group": "body",
+      "solids": 2
+    },
+    {
+      "name": "Water_mark_front",
+      "rgb": [
+        0.1,
+        0.3,
+        0.62
+      ],
+      "basis": "photo_estimate",
+      "group": "body",
+      "solids": 1
+    },
+    {
+      "name": "Side_label_rear",
+      "rgb": [
+        0.035,
+        0.041,
+        0.046
+      ],
+      "basis": "photo_estimate",
+      "group": "body",
+      "solids": 1
+    },
+    {
+      "name": "Side_brand_rear",
+      "rgb": [
+        0.91,
+        0.92,
+        0.91
+      ],
+      "basis": "visible_marking_font_approximation",
+      "group": "body",
+      "solids": 7
+    },
+    {
+      "name": "Side_model_rear_WP",
+      "rgb": [
+        0.91,
+        0.92,
+        0.91
+      ],
+      "basis": "visible_marking_font_approximation",
+      "group": "body",
+      "solids": 2
+    },
+    {
+      "name": "Side_model_rear_16",
+      "rgb": [
+        0.91,
+        0.92,
+        0.91
+      ],
+      "basis": "visible_marking_font_approximation",
+      "group": "body",
+      "solids": 2
+    },
+    {
+      "name": "BL_red_background_rear",
+      "rgb": [
+        0.68,
+        0.018,
+        0.065
+      ],
+      "basis": "photo_estimate",
+      "group": "body",
+      "solids": 1
+    },
+    {
+      "name": "Side_model_rear_BL",
+      "rgb": [
+        0.91,
+        0.92,
+        0.91
+      ],
+      "basis": "visible_marking_font_approximation",
+      "group": "body",
+      "solids": 2
+    },
+    {
+      "name": "Side_model_rear_30",
+      "rgb": [
+        0.91,
+        0.92,
+        0.91
+      ],
+      "basis": "visible_marking_font_approximation",
+      "group": "body",
+      "solids": 2
+    },
+    {
+      "name": "Side_model_rear_G2",
+      "rgb": [
+        0.91,
+        0.92,
+        0.91
+      ],
+      "basis": "visible_marking_font_approximation",
+      "group": "body",
+      "solids": 2
+    },
+    {
+      "name": "Water_mark_rear",
+      "rgb": [
+        0.1,
+        0.3,
+        0.62
+      ],
+      "basis": "photo_estimate",
+      "group": "body",
+      "solids": 1
+    },
+    {
+      "name": "Phase_mark_A",
+      "rgb": [
+        0.91,
+        0.92,
+        0.91
+      ],
+      "basis": "visible_print",
+      "group": "body",
+      "solids": 1
+    },
+    {
+      "name": "Phase_mark_B",
+      "rgb": [
+        0.91,
+        0.92,
+        0.91
+      ],
+      "basis": "visible_print",
+      "group": "body",
+      "solids": 1
+    },
+    {
+      "name": "Phase_mark_C",
+      "rgb": [
+        0.91,
+        0.92,
+        0.91
+      ],
+      "basis": "visible_print",
+      "group": "body",
+      "solids": 1
+    },
+    {
+      "name": "Right_cell_count",
+      "rgb": [
+        0.91,
+        0.92,
+        0.91
+      ],
+      "basis": "visible_marking_font_approximation",
+      "group": "body",
+      "solids": 4
+    },
+    {
+      "name": "Phase_0_exit_seal",
+      "rgb": [
+        0.035,
+        0.041,
+        0.046
+      ],
+      "basis": "photo_estimate",
+      "group": "cables",
+      "solids": 1
+    },
+    {
+      "name": "ESC_phase_0_16AWG",
+      "rgb": [
+        0.105,
+        0.115,
+        0.123
+      ],
+      "basis": "cable_diameter_and_pose_estimated",
+      "group": "cables",
+      "solids": 1
+    },
+    {
+      "name": "Phase_0_connector_insulation_neck",
+      "rgb": [
+        0.105,
+        0.115,
+        0.123
+      ],
+      "basis": "photo_estimated_overlapping_insulation_transition",
+      "group": "cables",
+      "solids": 1
+    },
+    {
+      "name": "Phase_0_black_socket_boot",
+      "rgb": [
+        0.105,
+        0.115,
+        0.123
+      ],
+      "basis": "photo_estimate",
+      "group": "cables",
+      "solids": 1
+    },
+    {
+      "name": "Phase_0_female_gold_socket",
+      "rgb": [
+        0.81,
+        0.62,
+        0.24
+      ],
+      "basis": "published_3_5mm_contact_estimated_boot",
+      "group": "cables",
+      "solids": 1
+    },
+    {
+      "name": "Phase_0_socket_dark_floor",
+      "rgb": [
+        0.035,
+        0.041,
+        0.046
+      ],
+      "basis": "photo_estimate",
+      "group": "cables",
+      "solids": 1
+    },
+    {
+      "name": "Phase_0_socket_boot_collar",
+      "rgb": [
+        0.16,
+        0.17,
+        0.18
+      ],
+      "basis": "photo_estimate",
+      "group": "cables",
+      "solids": 1
+    },
+    {
+      "name": "Phase_1_exit_seal",
+      "rgb": [
+        0.035,
+        0.041,
+        0.046
+      ],
+      "basis": "photo_estimate",
+      "group": "cables",
+      "solids": 1
+    },
+    {
+      "name": "ESC_phase_1_16AWG",
+      "rgb": [
+        0.105,
+        0.115,
+        0.123
+      ],
+      "basis": "cable_diameter_and_pose_estimated",
+      "group": "cables",
+      "solids": 1
+    },
+    {
+      "name": "Phase_1_connector_insulation_neck",
+      "rgb": [
+        0.105,
+        0.115,
+        0.123
+      ],
+      "basis": "photo_estimated_overlapping_insulation_transition",
+      "group": "cables",
+      "solids": 1
+    },
+    {
+      "name": "Phase_1_black_socket_boot",
+      "rgb": [
+        0.105,
+        0.115,
+        0.123
+      ],
+      "basis": "photo_estimate",
+      "group": "cables",
+      "solids": 1
+    },
+    {
+      "name": "Phase_1_female_gold_socket",
+      "rgb": [
+        0.81,
+        0.62,
+        0.24
+      ],
+      "basis": "published_3_5mm_contact_estimated_boot",
+      "group": "cables",
+      "solids": 1
+    },
+    {
+      "name": "Phase_1_socket_dark_floor",
+      "rgb": [
+        0.035,
+        0.041,
+        0.046
+      ],
+      "basis": "photo_estimate",
+      "group": "cables",
+      "solids": 1
+    },
+    {
+      "name": "Phase_1_socket_boot_collar",
+      "rgb": [
+        0.16,
+        0.17,
+        0.18
+      ],
+      "basis": "photo_estimate",
+      "group": "cables",
+      "solids": 1
+    },
+    {
+      "name": "Phase_2_exit_seal",
+      "rgb": [
+        0.035,
+        0.041,
+        0.046
+      ],
+      "basis": "photo_estimate",
+      "group": "cables",
+      "solids": 1
+    },
+    {
+      "name": "ESC_phase_2_16AWG",
+      "rgb": [
+        0.105,
+        0.115,
+        0.123
+      ],
+      "basis": "cable_diameter_and_pose_estimated",
+      "group": "cables",
+      "solids": 1
+    },
+    {
+      "name": "Phase_2_connector_insulation_neck",
+      "rgb": [
+        0.105,
+        0.115,
+        0.123
+      ],
+      "basis": "photo_estimated_overlapping_insulation_transition",
+      "group": "cables",
+      "solids": 1
+    },
+    {
+      "name": "Phase_2_black_socket_boot",
+      "rgb": [
+        0.105,
+        0.115,
+        0.123
+      ],
+      "basis": "photo_estimate",
+      "group": "cables",
+      "solids": 1
+    },
+    {
+      "name": "Phase_2_female_gold_socket",
+      "rgb": [
+        0.81,
+        0.62,
+        0.24
+      ],
+      "basis": "published_3_5mm_contact_estimated_boot",
+      "group": "cables",
+      "solids": 1
+    },
+    {
+      "name": "Phase_2_socket_dark_floor",
+      "rgb": [
+        0.035,
+        0.041,
+        0.046
+      ],
+      "basis": "photo_estimate",
+      "group": "cables",
+      "solids": 1
+    },
+    {
+      "name": "Phase_2_socket_boot_collar",
+      "rgb": [
+        0.16,
+        0.17,
+        0.18
+      ],
+      "basis": "photo_estimate",
+      "group": "cables",
+      "solids": 1
+    },
+    {
+      "name": "Battery_red_16AWG",
+      "rgb": [
+        0.68,
+        0.018,
+        0.065
+      ],
+      "basis": "cable_diameter_and_pose_estimated",
+      "group": "cables",
+      "solids": 1
+    },
+    {
+      "name": "Power_exit_seal_red",
+      "rgb": [
+        0.035,
+        0.041,
+        0.046
+      ],
+      "basis": "photo_estimate",
+      "group": "cables",
+      "solids": 1
+    },
+    {
+      "name": "Battery_black_16AWG",
+      "rgb": [
+        0.105,
+        0.115,
+        0.123
+      ],
+      "basis": "cable_diameter_and_pose_estimated",
+      "group": "cables",
+      "solids": 1
+    },
+    {
+      "name": "Power_exit_seal_black",
+      "rgb": [
+        0.035,
+        0.041,
+        0.046
+      ],
+      "basis": "photo_estimate",
+      "group": "cables",
+      "solids": 1
+    },
+    {
+      "name": "XT60_yellow_moulded_shell",
+      "rgb": [
+        0.95,
+        0.68,
+        0.08
+      ],
+      "basis": "connector_shape_and_pose_photo_estimate",
+      "group": "cables",
+      "solids": 1
+    },
+    {
+      "name": "XT60_gold_contact_0",
+      "rgb": [
+        0.81,
+        0.62,
+        0.24
+      ],
+      "basis": "photo_estimate",
+      "group": "cables",
+      "solids": 1
+    },
+    {
+      "name": "XT60_contact_base_0",
+      "rgb": [
+        0.81,
+        0.62,
+        0.24
+      ],
+      "basis": "photo_estimate",
+      "group": "cables",
+      "solids": 1
+    },
+    {
+      "name": "XT60_gold_contact_1",
+      "rgb": [
+        0.81,
+        0.62,
+        0.24
+      ],
+      "basis": "photo_estimate",
+      "group": "cables",
+      "solids": 1
+    },
+    {
+      "name": "XT60_contact_base_1",
+      "rgb": [
+        0.81,
+        0.62,
+        0.24
+      ],
+      "basis": "photo_estimate",
+      "group": "cables",
+      "solids": 1
+    },
+    {
+      "name": "XT60_black_rear_strain_relief",
+      "rgb": [
+        0.16,
+        0.17,
+        0.18
+      ],
+      "basis": "photo_estimate",
+      "group": "cables",
+      "solids": 1
+    },
+    {
+      "name": "XT60_boot_grip_rib_0",
+      "rgb": [
+        0.105,
+        0.115,
+        0.123
+      ],
+      "basis": "photo_estimate",
+      "group": "cables",
+      "solids": 1
+    },
+    {
+      "name": "XT60_boot_grip_rib_1",
+      "rgb": [
+        0.105,
+        0.115,
+        0.123
+      ],
+      "basis": "photo_estimate",
+      "group": "cables",
+      "solids": 1
+    },
+    {
+      "name": "XT60_boot_grip_rib_2",
+      "rgb": [
+        0.105,
+        0.115,
+        0.123
+      ],
+      "basis": "photo_estimate",
+      "group": "cables",
+      "solids": 1
+    },
+    {
+      "name": "XT60_embossing",
+      "rgb": [
+        0.95,
+        0.68,
+        0.08
+      ],
+      "basis": "visible_marking_font_approximation",
+      "group": "cables",
+      "solids": 4
+    },
+    {
+      "name": "XT60_polarity_plus",
+      "rgb": [
+        0.95,
+        0.68,
+        0.08
+      ],
+      "basis": "visible_marking_font_approximation",
+      "group": "cables",
+      "solids": 1
+    },
+    {
+      "name": "Receiver_signal_white",
+      "rgb": [
+        0.91,
+        0.92,
+        0.91
+      ],
+      "basis": "cable_diameter_and_pose_estimated",
+      "group": "cables",
+      "solids": 1
+    },
+    {
+      "name": "Receiver_signal_red",
+      "rgb": [
+        0.68,
+        0.018,
+        0.065
+      ],
+      "basis": "cable_diameter_and_pose_estimated",
+      "group": "cables",
+      "solids": 1
+    },
+    {
+      "name": "Receiver_signal_black",
+      "rgb": [
+        0.105,
+        0.115,
+        0.123
+      ],
+      "basis": "cable_diameter_and_pose_estimated",
+      "group": "cables",
+      "solids": 1
+    },
+    {
+      "name": "Yellow_program_signal",
+      "rgb": [
+        0.95,
+        0.68,
+        0.08
+      ],
+      "basis": "cable_diameter_and_pose_estimated",
+      "group": "cables",
+      "solids": 1
+    },
+    {
+      "name": "Receiver_3pin_black_housing",
+      "rgb": [
+        0.105,
+        0.115,
+        0.123
+      ],
+      "basis": "unpublished_connector_pitch_and_shell_estimates",
+      "group": "cables",
+      "solids": 1
+    },
+    {
+      "name": "Receiver_gold_contact_0",
+      "rgb": [
+        0.81,
+        0.62,
+        0.24
+      ],
+      "basis": "photo_estimate",
+      "group": "cables",
+      "solids": 1
+    },
+    {
+      "name": "Receiver_gold_contact_1",
+      "rgb": [
+        0.81,
+        0.62,
+        0.24
+      ],
+      "basis": "photo_estimate",
+      "group": "cables",
+      "solids": 1
+    },
+    {
+      "name": "Receiver_gold_contact_2",
+      "rgb": [
+        0.81,
+        0.62,
+        0.24
+      ],
+      "basis": "photo_estimate",
+      "group": "cables",
+      "solids": 1
+    },
+    {
+      "name": "Programmer_1pin_housing",
+      "rgb": [
+        0.105,
+        0.115,
+        0.123
+      ],
+      "basis": "photo_estimate",
+      "group": "cables",
+      "solids": 1
+    },
+    {
+      "name": "Switch_black_base",
+      "rgb": [
+        0.105,
+        0.115,
+        0.123
+      ],
+      "basis": "photo_estimated_switch_dimensions",
+      "group": "switch",
+      "solids": 1
+    },
+    {
+      "name": "Switch_metal_top_frame",
+      "rgb": [
+        0.66,
+        0.69,
+        0.71
+      ],
+      "basis": "photo_estimate",
+      "group": "switch",
+      "solids": 1
+    },
+    {
+      "name": "Switch_weather_boot",
+      "rgb": [
+        0.3,
+        0.28,
+        0.22
+      ],
+      "basis": "photo_estimate",
+      "group": "switch",
+      "solids": 1
+    },
+    {
+      "name": "Switch_slider_boot_bulge",
+      "rgb": [
+        0.3,
+        0.28,
+        0.22
+      ],
+      "basis": "photo_estimate",
+      "group": "switch",
+      "solids": 1
+    },
+    {
+      "name": "Switch_SET_boot_button",
+      "rgb": [
+        0.3,
+        0.28,
+        0.22
+      ],
+      "basis": "photo_estimate",
+      "group": "switch",
+      "solids": 1
+    },
+    {
+      "name": "Switch_cross_screw_0",
+      "rgb": [
+        0.42,
+        0.46,
+        0.49
+      ],
+      "basis": "photo_estimate",
+      "group": "switch",
+      "solids": 1
+    },
+    {
+      "name": "Switch_cross_screw_1",
+      "rgb": [
+        0.42,
+        0.46,
+        0.49
+      ],
+      "basis": "photo_estimate",
+      "group": "switch",
+      "solids": 1
+    },
+    {
+      "name": "Switch_cross_screw_2",
+      "rgb": [
+        0.42,
+        0.46,
+        0.49
+      ],
+      "basis": "photo_estimate",
+      "group": "switch",
+      "solids": 1
+    },
+    {
+      "name": "Switch_cross_screw_3",
+      "rgb": [
+        0.42,
+        0.46,
+        0.49
+      ],
+      "basis": "photo_estimate",
+      "group": "switch",
+      "solids": 1
+    },
+    {
+      "name": "Switch_wire_0",
+      "rgb": [
+        0.68,
+        0.018,
+        0.065
+      ],
+      "basis": "cable_diameter_and_pose_estimated",
+      "group": "switch",
+      "solids": 1
+    },
+    {
+      "name": "Switch_wire_1",
+      "rgb": [
+        0.68,
+        0.018,
+        0.065
+      ],
+      "basis": "cable_diameter_and_pose_estimated",
+      "group": "switch",
+      "solids": 1
+    }
+  ]
+}

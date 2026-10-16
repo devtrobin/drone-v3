@@ -1,0 +1,70 @@
+{
+  "file": "berceau-camera-provisoire-p1.step",
+  "title": "P1 | berceau monobloc, une vis de pivot",
+  "generated_on": "2026-10-15",
+  "unit": "mm",
+  "cadquery_version": "2.8.0",
+  "coordinate_system": "X lateral, -Y forward, Z up. Base bottomZ0. Pivot axisX atY0,Z220 in nominal assembly.",
+  "bytes": 152564,
+  "sha256": "636fb0ae57eec109a9b27a5304fe5fba94e1cd6d8247f51870bb3c60b62c2bb3",
+  "native_vendor_cad": false,
+  "hardware_measured": false,
+  "is_custom_project_design": true,
+  "published_nominal": [
+    "Camera board32x32mm and mounting holesdiam2.2 from existing local manufacturer dossier."
+  ],
+  "estimates_and_limitations": [
+    "Custom prototype, no strength or vibration test. Camera28mm pitch,1.2mm thickness,lens and USB shapes estimated from existing model.",
+    "Threads not modeled. Provisional hardware only. No chassis or USB cable route included."
+  ],
+  "parameters": {
+    "part": "C04",
+    "camera_spacing_estimated_mm": 28,
+    "slots_mm": [
+      7,
+      2.5
+    ]
+  },
+  "source_pages": [
+    "../camera/notices/U20CAM-4M-Usermanual.pdf; ../camera/3D/provenance.json"
+  ],
+  "bounds_mm": {
+    "xmin": -31.0,
+    "xmax": 24.0,
+    "ymin": -9.0,
+    "ymax": 15.0,
+    "zmin": -24.0,
+    "zmax": 24.0
+  },
+  "validation": {
+    "valid_after_reimport": true,
+    "solids": 1,
+    "faces": 39,
+    "colors": 1,
+    "volume_relative_error": 2.3065432626206264e-14,
+    "volume_relative_error_limit": 0.0001,
+    "volume_before_mm3": 8911.421950401516,
+    "volume_after_mm3": 8911.421950401722,
+    "adaptive_volume_tolerance": 1e-09,
+    "bbox_error_mm": 0.0,
+    "bbox_error_limit_mm": 0.01,
+    "void_and_material_probes": [],
+    "elapsed_seconds": 0.3822204000025522
+  },
+  "parts": [
+    {
+      "name": "C04_Berceau",
+      "color_linear_rgb": [
+        0.06,
+        0.16,
+        0.23
+      ],
+      "solids": 1
+    }
+  ],
+  "preview": {
+    "file": "berceau-camera-provisoire-p1.png",
+    "sha256": "ccfb7d9cb8970ed4c97f647ec6bb8fd910e5192572b1d4c1d66201fe499270fb"
+  },
+  "hardware_tested": false
+}

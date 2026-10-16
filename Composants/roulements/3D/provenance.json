@@ -1,0 +1,118 @@
+{
+  "generated_on": "2026-10-13",
+  "generator": "tools/build_running_gear_step.py",
+  "generator_sha256": "3cc48dca6f563d7222132a9fb3986d9d3a72dfa92d4309f8bec62fd5da2b6ec8",
+  "source_manifest_sha256": "39f448ceb321d4ac6979a72053b436e6d68592100ffde328eac1119eca2f2739",
+  "models": [
+    {
+      "file": "roulement-mr115zz-5x11x4.step",
+      "title": "MR115ZZ | 5 x 11 x 4 mm",
+      "generated_on": "2026-10-13",
+      "unit": "mm",
+      "cadquery_version": "2.8.0",
+      "coordinate_system": "Axe principal Z; face de reference z=0; dimensions selon parametres",
+      "bytes": 62048,
+      "sha256": "87d92a9e21c845433fb3260c5f062fb73e4deed88e48ffc7a9b6e36411d978f2",
+      "native_vendor_cad": false,
+      "hardware_measured": false,
+      "is_custom_project_design": false,
+      "published_nominal": [
+        "Alésage 5 mm; exterieur 11 mm; largeur 4 mm; double flasque metal ZZ"
+      ],
+      "estimates_and_limitations": [
+        "Diametres de partage bagues/flasques, chanfreins et epaisseurs estimes",
+        "Billes, cage, chemins internes et jeu non documentes: non representes"
+      ],
+      "parameters": {
+        "bore": 5,
+        "OD": 11,
+        "width": 4
+      },
+      "source_pages": [
+        "SMB-MR115ZZ-fiche-technique.pdf p.1"
+      ],
+      "bounds_mm": {
+        "xmin": -5.5,
+        "xmax": 5.5,
+        "ymin": -5.5,
+        "ymax": 5.5,
+        "zmin": -8.326672684688674e-17,
+        "zmax": 4.0
+      },
+      "validation": {
+        "valid_after_reimport": true,
+        "solids": 4,
+        "faces": 24,
+        "colors": 2,
+        "volume_relative_error": 2.1243020542674252e-13,
+        "volume_relative_error_limit": 0.0001,
+        "volume_before_mm3": 193.19732961260323,
+        "volume_after_mm3": 193.19732961256219,
+        "adaptive_volume_tolerance": 1e-09,
+        "bbox_error_mm": 8.326672684688674e-17,
+        "bbox_error_limit_mm": 0.01,
+        "void_and_material_probes": [
+          {
+            "point": [
+              2.49,
+              0,
+              2
+            ],
+            "occupied": false
+          },
+          {
+            "point": [
+              2.6,
+              0,
+              2
+            ],
+            "occupied": true
+          }
+        ],
+        "elapsed_seconds": 0.11006890000135172
+      },
+      "parts": [
+        {
+          "name": "Bague_exterieure",
+          "color_linear_rgb": [
+            0.38,
+            0.41,
+            0.45
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Bague_interieure",
+          "color_linear_rgb": [
+            0.62,
+            0.65,
+            0.69
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Flasque_Z_avant",
+          "color_linear_rgb": [
+            0.62,
+            0.65,
+            0.69
+          ],
+          "solids": 1
+        },
+        {
+          "name": "Flasque_Z_arriere",
+          "color_linear_rgb": [
+            0.62,
+            0.65,
+            0.69
+          ],
+          "solids": 1
+        }
+      ],
+      "preview": {
+        "file": "roulement-mr115zz-5x11x4.png",
+        "sha256": "203f19ef467fd763d30c0232312ce6b9a2873eecfc11ef7f33000d5525f45ff1"
+      }
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "file": "vis-tamiya-50582-3x14.step",
+  "title": "Tamiya 50582 | vis decollétee 3 x 14",
+  "generated_on": "2026-10-13",
+  "unit": "mm",
+  "cadquery_version": "2.8.0",
+  "coordinate_system": "Axe principal Z; face de reference z=0; dimensions selon parametres",
+  "bytes": 340174,
+  "sha256": "6b1846e509af9b8a2c994d8344cc0ea6c6c3ef803402e75bbb454f6f0c4bda38",
+  "native_vendor_cad": false,
+  "hardware_measured": false,
+  "is_custom_project_design": false,
+  "published_nominal": [
+    "Diametre3, longueur14; type step screw dans notice p.10"
+  ],
+  "estimates_and_limitations": [
+    "Portee lisse7, pas partie filetée1.2 et forme tete estimes",
+    "Pas, longueurs de portees et vis originale a relever"
+  ],
+  "parameters": {},
+  "source_pages": [],
+  "bounds_mm": {
+    "xmin": -2.6,
+    "xmax": 2.6,
+    "ymin": -2.6,
+    "ymax": 2.6,
+    "zmin": -1.0547440724534409e-07,
+    "zmax": 15.5
+  },
+  "validation": {
+    "valid_after_reimport": true,
+    "solids": 1,
+    "faces": 30,
+    "colors": 1,
+    "volume_relative_error": 8.942159580709851e-08,
+    "volume_relative_error_limit": 0.0001,
+    "volume_before_mm3": 106.4790380083621,
+    "volume_after_mm3": 106.4790475298876,
+    "adaptive_volume_tolerance": 1e-09,
+    "bbox_error_mm": 5.945255928465494e-07,
+    "bbox_error_limit_mm": 0.01,
+    "void_and_material_probes": [],
+    "elapsed_seconds": 0.48813720000180183
+  },
+  "parts": [
+    {
+      "name": "Vis_pivot_tete_cruciforme",
+      "color_linear_rgb": [
+        0.62,
+        0.65,
+        0.69
+      ],
+      "solids": 1
+    }
+  ],
+  "preview": {
+    "file": "vis-tamiya-50582-3x14.png",
+    "sha256": "115f0d652992803ca5d8dae8393a769a68f88cd638c7f181a1599a9de6578518"
+  }
+}

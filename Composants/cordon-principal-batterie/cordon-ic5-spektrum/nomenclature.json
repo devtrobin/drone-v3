@@ -1,0 +1,10 @@
+{
+  "ref": "SPMXCA510",
+  "quantity": 1,
+  "included": [
+    "IC5 Device",
+    "2x10AWG 4in"
+  ],
+  "connector_separate_purchase": false,
+  "wire_separate_purchase": false
+}

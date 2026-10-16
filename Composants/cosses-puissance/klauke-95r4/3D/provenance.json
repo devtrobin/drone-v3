@@ -1,0 +1,181 @@
+{
+  "generator": "tools/build_harness_step.py",
+  "generator_sha256": "343c45a6f573cd2d4205b4159948bddbdee9c39cf2bcf267fc7d6b8eb9957edc",
+  "models": [
+    {
+      "folder": "cosses-puissance/klauke-95r4",
+      "file": "cosse-klauke-95r4-6mm2.step",
+      "title": "Klauke 95R4 | 6 mm2, trou 4.3 mm",
+      "generated_on": "2026-10-14",
+      "unit": "mm",
+      "cadquery_version": "2.8.0",
+      "coordinate_system": "Cosses/cables/gaines: axe X, holecentreX0 Klauke; MB2 baseZ0; collier droitX0..100. Voir parametres.",
+      "bytes": 130822,
+      "sha256": "a5006abdc09b91313a74cb70a5b02c3e9c85d7667060c1bc077f7954ce91369c",
+      "native_vendor_cad": false,
+      "hardware_measured": false,
+      "is_custom_project_design": false,
+      "published_nominal": [
+        "d1=4; a=9; b=9.5; d2=4.3; d4=6; c1=5; c2=5.5; l=18 mm",
+        "Dessin famille archive: l est depuis centre trou; l+c1 donne23/25 mm dans reconstruction"
+      ],
+      "estimates_and_limitations": [
+        "Epaisseur de paume2mm, rayons, loft et trou inspection reconstruits; chanfrein interne non cote omis",
+        "Pas de marque gravee ni deformation de sertissage inventee; mesurer le lot avant usinage",
+        "Vis SSR #8-32 ou ecrous #10-32 conserves; trou M4/M5 ne change pas le filetage"
+      ],
+      "parameters": {
+        "section_mm2": 6,
+        "d1": 4,
+        "a": 9,
+        "b": 9.5,
+        "d2": 4.3,
+        "d4": 6,
+        "c1": 5,
+        "c2": 5.5,
+        "l": 18,
+        "reconstructed_overall_length_mm": 23,
+        "palm_thickness_assumed_mm": 2,
+        "inspection_hole_assumed_mm": 1.4,
+        "l_datum": "centre du trou -> extremite du canon, dessin famille archive"
+      },
+      "source_pages": [
+        "Klauke catalogue archive via PowerCables, PDF p.14 / imprimee12",
+        "Klauke tableau actuel 95R4/95R5"
+      ],
+      "bounds_mm": {
+        "xmin": -5.0,
+        "xmax": 18.0000001,
+        "ymin": -4.7500001,
+        "ymax": 4.7500001,
+        "zmin": -1e-07,
+        "zmax": 6.0000001
+      },
+      "validation": {
+        "valid_after_reimport": true,
+        "solids": 1,
+        "faces": 22,
+        "colors": 1,
+        "volume_relative_error": 2.199361183167748e-12,
+        "volume_relative_error_limit": 0.0001,
+        "volume_before_mm3": 380.16031856094367,
+        "volume_after_mm3": 380.1603185617798,
+        "adaptive_volume_tolerance": 1e-09,
+        "bbox_error_mm": 0.0,
+        "bbox_error_limit_mm": 0.01,
+        "void_and_material_probes": [
+          {
+            "point": [
+              0,
+              0,
+              1
+            ],
+            "occupied": false
+          },
+          {
+            "point": [
+              17.5,
+              0,
+              3
+            ],
+            "occupied": false
+          }
+        ],
+        "elapsed_seconds": 0.23246170000129496
+      },
+      "parts": [
+        {
+          "name": "Cosse_Cu_etame_non_sertie",
+          "color_linear_rgb": [
+            0.62,
+            0.65,
+            0.69
+          ],
+          "solids": 1
+        }
+      ],
+      "preview": {
+        "file": "cosse-klauke-95r4-6mm2.png",
+        "sha256": "a0ff387cec4d52aea2eb7ee8076920481fe4f3748d70e7a1c395c88f5a9d9e46"
+      },
+      "generator": "tools/build_harness_step.py",
+      "generator_sha256": "343c45a6f573cd2d4205b4159948bddbdee9c39cf2bcf267fc7d6b8eb9957edc"
+    },
+    {
+      "folder": "cosses-puissance/klauke-95r4",
+      "file": "cosse-klauke-95r4-coupe-etude.step",
+      "title": "Klauke 95R4 | coupe technique",
+      "generated_on": "2026-10-14",
+      "unit": "mm",
+      "cadquery_version": "2.8.0",
+      "coordinate_system": "Cosses/cables/gaines: axe X, holecentreX0 Klauke; MB2 baseZ0; collier droitX0..100. Voir parametres.",
+      "bytes": 94579,
+      "sha256": "84ee238014506ca9ae1d39cc558ff3fa1af0c3e6a02139424a54de6906a315e4",
+      "native_vendor_cad": false,
+      "hardware_measured": false,
+      "is_custom_project_design": false,
+      "published_nominal": [
+        "Meme cotes nominales que variante entiere"
+      ],
+      "estimates_and_limitations": [
+        "Coupe volontaire y>=0, pour lecture du canon et du trou inspection; piece non utilisable"
+      ],
+      "parameters": {
+        "section_mm2": 6,
+        "d1": 4,
+        "a": 9,
+        "b": 9.5,
+        "d2": 4.3,
+        "d4": 6,
+        "c1": 5,
+        "c2": 5.5,
+        "l": 18,
+        "reconstructed_overall_length_mm": 23,
+        "palm_thickness_assumed_mm": 2,
+        "inspection_hole_assumed_mm": 1.4,
+        "l_datum": "centre du trou -> extremite du canon, dessin famille archive"
+      },
+      "source_pages": [],
+      "bounds_mm": {
+        "xmin": -5.0,
+        "xmax": 18.0000001,
+        "ymin": -4.7500001,
+        "ymax": 1.0000000299760216e-07,
+        "zmin": -1e-07,
+        "zmax": 6.0000001
+      },
+      "validation": {
+        "valid_after_reimport": true,
+        "solids": 1,
+        "faces": 19,
+        "colors": 1,
+        "volume_relative_error": 7.339726858888624e-12,
+        "volume_relative_error_limit": 0.0001,
+        "volume_before_mm3": 190.0801593346339,
+        "volume_after_mm3": 190.08015933323875,
+        "adaptive_volume_tolerance": 1e-09,
+        "bbox_error_mm": 5.551115123125783e-17,
+        "bbox_error_limit_mm": 0.01,
+        "void_and_material_probes": [],
+        "elapsed_seconds": 0.15539490000082878
+      },
+      "parts": [
+        {
+          "name": "Demi_cossee_coupe_volontaire",
+          "color_linear_rgb": [
+            0.62,
+            0.65,
+            0.69
+          ],
+          "solids": 1
+        }
+      ],
+      "preview": {
+        "file": "cosse-klauke-95r4-coupe-etude.png",
+        "sha256": "e333456dc6497ec0161e6e8af0bfbdfa10d2ab60b75abf4c6c965210abda4b5a"
+      },
+      "generator": "tools/build_harness_step.py",
+      "generator_sha256": "343c45a6f573cd2d4205b4159948bddbdee9c39cf2bcf267fc7d6b8eb9957edc"
+    }
+  ]
+}

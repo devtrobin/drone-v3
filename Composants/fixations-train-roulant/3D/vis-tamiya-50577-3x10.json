@@ -1,0 +1,59 @@
+{
+  "file": "vis-tamiya-50577-3x10.step",
+  "title": "Tamiya 50577 | vis autotaraudeuse 3 x 10",
+  "generated_on": "2026-10-13",
+  "unit": "mm",
+  "cadquery_version": "2.8.0",
+  "coordinate_system": "Axe principal Z; face de reference z=0; dimensions selon parametres",
+  "bytes": 369194,
+  "sha256": "151eaa01b5fd879da6de3b47399552e1f388131689e7fd01c4513c9eec4137df",
+  "native_vendor_cad": false,
+  "hardware_measured": false,
+  "is_custom_project_design": false,
+  "published_nominal": [
+    "Diametre3 et longueur10 publies; vis autotaraudeuse et empreinte cruciforme illustrees"
+  ],
+  "estimates_and_limitations": [
+    "Pas1.2, diametre tete5.2, filetage et pointe estimes; ne pas confondre avec M3x0.5"
+  ],
+  "parameters": {},
+  "source_pages": [],
+  "bounds_mm": {
+    "xmin": -2.6000001,
+    "xmax": 2.6000001,
+    "ymin": -2.6000001,
+    "ymax": 2.6000001,
+    "zmin": -1.0211775516043254e-07,
+    "zmax": 11.5
+  },
+  "validation": {
+    "valid_after_reimport": true,
+    "solids": 1,
+    "faces": 29,
+    "colors": 1,
+    "volume_relative_error": 8.097552062715152e-08,
+    "volume_relative_error_limit": 0.0001,
+    "volume_before_mm3": 69.70209770209036,
+    "volume_after_mm3": 69.702103346254,
+    "adaptive_volume_tolerance": 1e-09,
+    "bbox_error_mm": 5.978822448620719e-07,
+    "bbox_error_limit_mm": 0.01,
+    "void_and_material_probes": [],
+    "elapsed_seconds": 0.5305813000013586
+  },
+  "parts": [
+    {
+      "name": "Vis_autotaraudeuse_estimee",
+      "color_linear_rgb": [
+        0.62,
+        0.65,
+        0.69
+      ],
+      "solids": 1
+    }
+  ],
+  "preview": {
+    "file": "vis-tamiya-50577-3x10.png",
+    "sha256": "d67dd2e664841072e71da91df8686bec21994a3ece5196255123fc27f25d383c"
+  }
+}

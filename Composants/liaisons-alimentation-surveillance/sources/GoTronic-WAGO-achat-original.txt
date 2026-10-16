@@ -1,0 +1,1526 @@
+ 
+ 
+ 
+     
+     
+    
+                                                                  Bornes de connexion Wago 0,5 à 2,5 mm² | Gotronic
+                         
+    
+     
+
+    
+
+                                                         
+            
+                                                     
+
+                             
+                 
+         
+
+             
+         
+
+
+
+    
+    
+
+ 
+     (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-PNDC9Z3');
+
+         function gtag(){dataLayer.push(arguments);}
+
+         gtag('consent', 'default', {
+             'ad_storage': 'denied',
+             'ad_user_data': 'denied',
+             'ad_personalization': 'denied',
+             'analytics_storage': 'denied'
+         });
+
+         gtag('js', new Date());
+
+         var consentPreferences = {};
+
+                                    
+         // Si l'objet contient des consentements, les envoyer avec gtag
+         if (Object.keys(consentPreferences).length > 0) {
+             gtag('consent', 'update', consentPreferences);
+         }
+
+      
+
+     
+        (function(c,l,a,r,i,t,y){
+            c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+            t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+            y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+        })(window, document, "clarity", "script", "uly70c4ujs");
+     
+ 
+
+ 
+
+                    
+                 
+
+    
+         
+             
+                     
+         
+                Menu   
+             
+     
+         
+             
+         
+     
+ 
+
+ 
+     
+         
+             
+                 
+                     
+                             
+     
+    
+       
+      Lancer la recherche  
+      
+      
+
+ 
+
+                     
+                 
+             
+         
+     
+ 
+
+
+ 
+     
+         
+             
+                     Nouveautés  
+                                     Promotions  
+                     Notre blog  
+             
+         
+         
+             
+                 
+                           
+                 
+                     Contact   
+                 
+
+                     
+            Compte  
+     
+
+
+                
+                 
+                         
+                        
+
+
+
+
+ 
+       Panier 
+     0 
+ 
+
+
+
+
+
+
+
+
+                     
+                     
+                        
+
+
+                     
+                 
+             
+         
+     
+ 
+
+
+
+ 
+     
+        
+
+
+     
+ 
+
+         
+     
+
+
+
+
+
+
+ 
+     Menu 
+       
+     
+         
+            
+
+     
+                        
+     
+                     
+                #ongletBit_1:hover >.navLink {background-color :#225093}
+             
+                 
+
+                                                                                     
+            
+              Cartes programmables 
+         
+
+         
+             
+                 
+                     
+                         
+                             
+                                 
+                                        Retour 
+                                     Cartes programmables 
+                                     
+                                                                                     
+                                                #subproduct-1 a:hover{color :#225093}
+                                             
+                                             
+                                                 
+                                                     
+                                                                                                                      Arduino originales  
+                                                                                                                      Compatibles Arduino  
+                                                                                                                      Raspberry Pi  
+                                                                                                                      Raspberry Pi Pico  
+                                                                                                                      micro:bit  
+                                                                                                                      ESP32  
+                                                                                                                      Teensy  
+                                                                                                                      Nvidia Jetson  
+                                                                                                                      M5Stack  
+                                                                                                                      Ordinateurs monocarte  
+                                                                                                                      Phidgets  
+                                                                                                                      LattePanda  
+                                                                                                                      Cartes XIAO  
+                                                                                                                      Cartes uPesy  
+                                                                                                                      Cartes Wemos  
+                                                                                                                      reTerminal  
+                                                                                                                      Autres cartes  
+                                                                                                                      Péri-informatique  
+                                                                                                                      Kits Vittascience  
+                                                                                                                      Interfaces à relais  
+                                                                                                                      Déstockage  
+                                                                                                             
+                                                 
+                                             
+                                                                             
+                                 
+                             
+                         
+
+                     
+                      Voir les nouveautés  
+                 
+             
+         
+     
+
+                        
+     
+                     
+                #ongletBit_2238:hover >.navLink {background-color :#ba0707}
+             
+                 
+
+                                                                                     
+            
+              Prototypage et capteurs 
+         
+
+         
+             
+                 
+                     
+                         
+                             
+                                 
+                                        Retour 
+                                     Prototypage et capteurs 
+                                     
+                                                                                     
+                                                #subproduct-2238 a:hover{color :#ba0707}
+                                             
+                                             
+                                                 
+                                                     
+                                                                                                                      Arduino Modulino®  
+                                                                                                                      Modules Grove  
+                                                                                                                      Modules Gravity  
+                                                                                                                      Modules Qwiic - Stemma QT - easyC  
+                                                                                                                      Makeblock mBuild  
+                                                                                                                      Capteurs  
+                                                                                                                      Prototypage  
+                                                                                                                      Communication  
+                                                                                                                      LoRaWAN  
+                                                                                                                      Meshtastic  
+                                                                                                                      NB-IoT  
+                                                                                                                      Destockage  
+                                                                                                             
+                                                 
+                                             
+                                                                             
+                                 
+                             
+                         
+
+                     
+                      Voir les nouveautés  
+                 
+             
+         
+     
+
+                        
+     
+                     
+                #ongletBit_1792:hover >.navLink {background-color :#f28909}
+             
+                 
+
+                                                                                     
+            
+              Robotique - 3D - Kits 
+         
+
+         
+             
+                 
+                     
+                         
+                             
+                                 
+                                        Retour 
+                                     Robotique - 3D - Kits 
+                                     
+                                                                                     
+                                                #subproduct-1792 a:hover{color :#f28909}
+                                             
+                                             
+                                                 
+                                                     
+                                                                                                                      Robots  
+                                                                                                                      Bras robotisés  
+                                                                                                                      Châssis  
+                                                                                                                      Moteurs et actionneurs  
+                                                                                                                      Commandes de moteurs  
+                                                                                                                      Accessoires robotiques  
+                                                                                                                      Kits et modules  
+                                                                                                                      Kits didactiques Makekit  
+                                                                                                                      Kits didactiques CircuitMess  
+                                                                                                                      Imprimantes et scanners 3D  
+                                                                                                                      Filaments 3D PLA et PETG  
+                                                                                                                      CNC et cartes CNC  
+                                                                                                                      Découpe laser  
+                                                                                                                      Déstockage  
+                                                                                                             
+                                                 
+                                             
+                                                                             
+                                 
+                             
+                         
+
+                     
+                      Voir les nouveautés  
+                 
+             
+         
+     
+
+                        
+     
+                     
+                #ongletBit_2237:hover >.navLink {background-color :#02512f}
+             
+                 
+
+                                                                                     
+            
+              Maison connectée - domotique 
+         
+
+         
+             
+                 
+                     
+                         
+                             
+                                 
+                                        Retour 
+                                     Maison connectée - domotique 
+                                     
+                                                                                     
+                                                #subproduct-2237 a:hover{color :#02512f}
+                                             
+                                             
+                                                 
+                                                     
+                                                                                                                      Maison connectée SmartLife  
+                                                                                                                      Maison connectée Konyks  
+                                                                                                                      Maison connectée DiO  
+                                                                                                                      Appareils ZigBee Lixee  
+                                                                                                                      Caméras réseau IP - intérieur  
+                                                                                                                      Caméras réseau IP - extérieur  
+                                                                                                                      Maison et loisirs  
+                                                                                                                      Autres appareils connectés  
+                                                                                                                      Télécommandes et récepteurs  
+                                                                                                             
+                                                 
+                                             
+                                                                             
+                                 
+                             
+                         
+
+                     
+                      Voir les nouveautés  
+                 
+             
+         
+     
+
+                        
+     
+                     
+                #ongletBit_3:hover >.navLink {background-color :#066582}
+             
+                 
+
+                                                                                     
+            
+              Outillage et mesure 
+         
+
+         
+             
+                 
+                     
+                         
+                             
+                                 
+                                        Retour 
+                                     Outillage et mesure 
+                                     
+                                                                                     
+                                                #subproduct-3 a:hover{color :#066582}
+                                             
+                                             
+                                                 
+                                                     
+                                                                                                                      Appareils de mesure  
+                                                                                                                      Outillage  
+                                                                                                                      Déstockage  
+                                                                                                             
+                                                 
+                                             
+                                                                             
+                                 
+                             
+                         
+
+                     
+                      Voir les nouveautés  
+                 
+             
+         
+     
+
+                        
+     
+                     
+                #ongletBit_4:hover >.navLink {background-color :#111188}
+             
+                 
+
+                                                                                     
+            
+              Energie et alimentation 
+         
+
+         
+             
+                 
+                     
+                         
+                             
+                                 
+                                        Retour 
+                                     Energie et alimentation 
+                                     
+                                                                                     
+                                                #subproduct-4 a:hover{color :#111188}
+                                             
+                                             
+                                                 
+                                                     
+                                                                                                                      Piles  
+                                                                                                                      Batteries et chargeurs  
+                                                                                                                      Cellules solaires et régulateurs  
+                                                                                                                      Alimentations  
+                                                                                                                      Alimentations pour LED  
+                                                                                                                      Compteurs électriques  
+                                                                                                                      Convertisseurs  
+                                                                                                                      Transformateurs  
+                                                                                                                      Fusibles  
+                                                                                                                      Eclairage  
+                                                                                                                      Générateurs de tension  
+                                                                                                             
+                                                 
+                                             
+                                                                             
+                                 
+                             
+                         
+
+                     
+                      Voir les nouveautés  
+                 
+             
+         
+     
+
+                        
+     
+                     
+                #ongletBit_5:hover >.navLink {background-color :#024926}
+             
+                 
+
+                                                                                     
+            
+              Composants électroniques 
+         
+
+         
+             
+                 
+                     
+                         
+                             
+                                 
+                                        Retour 
+                                     Composants électroniques 
+                                     
+                                                                                     
+                                                #subproduct-5 a:hover{color :#024926}
+                                             
+                                             
+                                                 
+                                                     
+                                                                                                                      Composants actifs  
+                                                                                                                      Composants passifs  
+                                                                                                                      Afficheurs  
+                                                                                                                      Optoélectronique  
+                                                                                                                      Hautes-fréquences  
+                                                                                                                      Commutateurs  
+                                                                                                                      Relais  
+                                                                                                                      Circuits imprimés  
+                                                                                                                      Boîtiers et accessoires  
+                                                                                                                      Entretoises  
+                                                                                                                      Visserie  
+                                                                                                                      Refroidissement - Ventilateurs  
+                                                                                                             
+                                                 
+                                             
+                                                                             
+                                 
+                             
+                         
+
+                     
+                      Voir les nouveautés  
+                 
+             
+         
+     
+
+                        
+     
+                     
+                #ongletBit_6:hover >.navLink {background-color :#180684}
+             
+                 
+
+                                                                                     
+            
+              Connectique 
+         
+
+         
+             
+                 
+                     
+                         
+                             
+                                 
+                                        Retour 
+                                     Connectique 
+                                     
+                                                                                     
+                                                #subproduct-6 a:hover{color :#180684}
+                                             
+                                             
+                                                 
+                                                     
+                                                                                                                      Borniers  
+                                                                                                                      Bornes Wago  
+                                                                                                                      Supports de CI  
+                                                                                                                      Connecteurs  
+                                                                                                                      Cordons  
+                                                                                                                      Cosses  
+                                                                                                                      Réseaux  
+                                                                                                                      Fils et câbles  
+                                                                                                                      Mesure  
+                                                                                                                      Gaine thermorétractable  
+                                                                                                                      Accessoires pour câbles  
+                                                                                                                      Gaine pour câble  
+                                                                                                                      Colliers de serrage  
+                                                                                                                      Déstockage  
+                                                                                                             
+                                                 
+                                             
+                                                                             
+                                 
+                             
+                         
+
+                     
+                      Voir les nouveautés  
+                 
+             
+         
+     
+
+                        
+     
+                     
+                #ongletBit_8:hover >.navLink {background-color :#106159}
+             
+                 
+
+                                                                                     
+            
+              Audio, Livres, Sécurité 
+         
+
+         
+             
+                 
+                     
+                         
+                             
+                                 
+                                        Retour 
+                                     Audio, Livres, Sécurité 
+                                     
+                                                                                     
+                                                #subproduct-8 a:hover{color :#106159}
+                                             
+                                             
+                                                 
+                                                     
+                                                                                                                      Audio  
+                                                                                                                      Livres techniques  
+                                                                                                                      Sécurité  
+                                                                                                                      Déstockage  
+                                                                                                             
+                                                 
+                                             
+                                                                             
+                                 
+                             
+                         
+
+                     
+                      Voir les nouveautés  
+                 
+             
+         
+     
+
+        
+         
+             
+                  Nouveautés  
+                                  Promotions  
+                  Notre blog  
+             
+         
+         
+             
+                  Nous écrire  
+                  Nous appeler  
+             
+         
+     
+
+
+         
+     
+ 
+  
+
+             
+         
+
+                                                
+         
+     
+         
+             
+                    Produit ajouté au panier avec succès 
+                 
+                     × 
+                 
+             
+             
+                 
+                      
+                     
+                          
+                          
+
+                         Quantité :     
+                         Prix :     
+                     
+                 
+             
+             
+               Continuer mes achats 
+                 Voir mon panier    
+             
+         
+     
+ 
+
+    
+     
+             
+
+     
+         
+                                                     
+        
+
+
+             
+         
+             
+                                                                                                                             
+                         
+                         
+                     
+                
+             
+             
+                 
+                     
+     
+          Accueil  
+
+                                     Categories 
+                                                  Connectique  
+                                                  Bornes Wago  
+                    
+         Bornes de connexion Wago 0,5 à 2,5 mm² 
+     
+ 
+
+                 
+                
+                     
+                         Bornes de connexion Wago 0,5 à 2,5 mm² 
+                         
+                             Bornes Wago à levier pour la connexion rapide et démontable de fils électriques  souples de section 0,2 à 4 mm² et rigides de 2,5 mm² . 
+
+ Nombre de contacts en fonction du type. 
+                         
+                     
+                 
+             
+
+         
+
+         
+             
+                                                                                                 
+                     Articles
+                     
+                     
+                         
+                             
+                                 Filtrer par  
+
+                             
+                             Filtres    
+                             
+                                       
+                                 
+                                    
+                     
+                             
+     
+         Prix 
+         
+             
+                                                                                                                                
+                     Prix minimum 
+                     
+                         € 
+                         
+                     
+                 
+                                                                                                                                
+                     Prix maximum 
+                     
+                         € 
+                         
+                     
+                 
+                         
+         
+     
+ 
+                                                
+                                    
+             
+                 
+                       Appliquer les filtres
+                 
+             
+
+         
+    
+ 
+                                 
+                             
+                         
+                     
+
+                     
+                         
+                             
+                                  Votre selection :                                                                                                                                                                                                                                                                                           
+                             
+                                 Affichage : 
+                                 
+                                     
+                                         
+                                               
+                                         
+                                         
+                                               
+                                         
+                                     
+                                 
+                             
+
+                         
+                     
+                     
+                         
+                             
+                                 
+                                     Catégorie  
+                                                                             
+                                                                                     
+                                                                     
+                             
+                             
+                                 
+                                     
+                                                                                
+                                        
+                                                                                                                                                                                                                                                                                                                                                             
+                                                    
+
+
+                            
+ 
+     
+         
+             
+                        
+
+     
+         
+         
+     
+             
+                                                             
+         
+             
+                 
+                     Borne à leviers 221-412 
+                                             
+                            2 contacts
+                         
+                                         
+                         Code : 48706 
+                     
+                 
+                 2 contacts 
+                  Borne Wago 2 contacts à levier permettant la connexion rapide et démontable de fils électriques souples de section 0,2 à 4 mm² et rigides de 2,5 mm².   
+             
+             
+                                 
+                                                                                                                                                                         0,75 €  TTC  
+                                 0,62 €  HT  
+                                                             
+                                  Code : 48706  
+             
+             
+                 
+                     
+                                                     
+                                 Achat rapide  
+                             
+
+                            
+                                  En stock  
+                            
+                                                                                                                                        
+
+
+    
+ 
+     
+         
+             
+                 
+                       
+                      Quantité   
+
+                       
+                 
+             
+             
+                  
+             
+              
+         
+     
+ 
+                                                                                                                                             
+                 
+                                                                                                                                                                             
+         
+     
+ 
+
+
+
+
+                                                 
+
+                                                                                                                                                                                                                                                                                                                                                                         
+                                                    
+
+
+                            
+ 
+     
+         
+             
+                        
+
+     
+         
+         
+     
+             
+                                                             
+         
+             
+                 
+                     Borne à leviers 221-413 
+                                             
+                            3 contacts
+                         
+                                         
+                         Code : 48707 
+                     
+                 
+                 3 contacts 
+                  Borne Wago contacts à levier permettant la connexion rapide et démontable de fils électriques souples de section 0,2 à 4 mm² et rigides de 2,5 mm².   
+             
+             
+                                 
+                                                                                                                                                                         0,75 €  TTC  
+                                 0,62 €  HT  
+                                                             
+                                  Code : 48707  
+             
+             
+                 
+                     
+                                                     
+                                 Achat rapide  
+                             
+
+                            
+                                  En stock  
+                            
+                                                                                                                                        
+
+
+    
+ 
+     
+         
+             
+                 
+                       
+                      Quantité   
+
+                       
+                 
+             
+             
+                  
+             
+              
+         
+     
+ 
+                                                                                                                                             
+                 
+                                                                                                                                                                             
+         
+     
+ 
+
+
+
+
+                                                 
+
+                                                                                                                                                                                                                                                                                                                                                                         
+                                                    
+
+
+                            
+ 
+     
+         
+             
+                        
+
+     
+         
+         
+     
+             
+                                                             
+         
+             
+                 
+                     Borne à leviers 221-415 
+                                             
+                            5 contacts
+                         
+                                         
+                         Code : 48709 
+                     
+                 
+                 5 contacts 
+                  Borne Wago 5 contacts à levier permettant la connexion rapide et démontable de fils électriques souples de section 0,2 à 4 mm² et rigides de 2,5 mm².   
+             
+             
+                                 
+                                                                                                                                                                         1,20 €  TTC  
+                                 1,00 €  HT  
+                                                             
+                                  Code : 48709  
+             
+             
+                 
+                     
+                                                     
+                                 Achat rapide  
+                             
+
+                            
+                                  En stock  
+                            
+                                                                                                                                        
+
+
+    
+ 
+     
+         
+             
+                 
+                       
+                      Quantité   
+
+                       
+                 
+             
+             
+                  
+             
+              
+         
+     
+ 
+                                                                                                                                             
+                 
+                                                                                                                                                                             
+         
+     
+ 
+
+
+
+
+                                                 
+
+                                                                                                                                    
+                                                                             
+                                        
+                                 
+                             
+                         
+                     
+                                         
+                          
+                     
+                 
+             
+         
+     
+
+
+
+        
+
+
+     
+
+            
+
+ 
+     
+         
+             
+                 
+                     
+                           
+                         une question? Un conseil? 
+                     
+                 
+                 
+                     
+                           
+                         Paiement  sécurisé 
+                     
+                 
+                 
+                     
+                           
+                         Livraison  rapide 
+                     
+                 
+                 
+                     
+                           
+                         Établissements scolaires 
+                     
+                 
+                 
+                     
+                           
+                         Plus 30 ans d’experience 
+                     
+                 
+
+
+             
+         
+     
+ 
+  
+     
+           Vos avis  et témoignages 
+         
+                
+         
+     
+ 
+                             
+ 
+     
+         
+             
+                 
+                     
+                        
+
+ 
+     
+          Commande  
+         
+
+                              Livraison   
+                              Paiement sécurisé   
+                              Etablissements scolaires   
+                     
+     
+ 
+
+
+
+ 
+     
+          Services  
+         
+
+                              Carte des fablabs   
+                              Mentions légales   
+                          FAQs  
+              Contact  
+              Rétractation  
+              Devis  
+         
+     
+ 
+
+
+
+ 
+     
+          Nous connaître  
+         
+                              Nous connaître   
+                              CGV   
+                          Blog  
+              Nos marques  
+         
+     
+ 
+ 
+     
+         
+ 
+     
+         Newsletter 
+     
+
+     
+         
+            Recevez en exclusivité nos dernières actualités
+             
+                  
+             
+         
+
+         
+             
+                  
+                 
+
+                 
+
+                 
+                    Cliquez pour vous inscrire
+                 
+
+                  
+             
+         
+     
+ 
+     
+ 
+
+ 
+     
+          Paiement sécurisé  
+         
+             
+                 
+                     
+                         
+                         
+                     
+                 
+                 
+                     
+                         
+                         
+                     
+                 
+                 
+                     
+                         
+                         
+                     
+                 
+                 
+                     
+                         
+                         
+                     
+                 
+                 
+                     
+                         
+                         
+                     
+                 
+                 
+                     
+                         
+                         
+                     
+                 
+                
+             
+             En savoir + 
+            
+         
+     
+  
+
+                     
+                 
+             
+         
+         
+             
+                 
+                     
+                         
+                             
+                                 
+                                 
+                             
+                         
+                         
+                             
+                                 
+                                 
+                             
+                         
+                         
+                             
+                                 
+                                 
+                             
+                         
+                         
+                             
+                                 
+                                 
+                             
+                         
+                         
+                             
+                                 
+                                 
+                             
+                         
+                         
+                             
+                                 
+                                 
+                             
+                         
+
+                     
+                      En savoir +  
+
+                 
+             
+         
+     
+
+
+
+     
+             
+                 
+                     
+                 
+                 Go Tronic, 35 ter route nationale, Blagny 08110, France. Tel : 03 24 27 93 42. Siret : 438.306.680.00028. © 2012-2026 www.gotronic.fr - Site réalisé par  Arobases 
+                 
+             
+         
+ 
+
+
+
+
+    
+    
+
+     
+         
+             Loading... 
+         
+     
+ 
+
+  
+   
+
+
+     
+
+ 
+   
+     
+          Continuer sans accepter   
+                      Nous respectons votre vie privée 
+        
+                     
+            Gotronic utilise des technologies telles que les cookies pour traiter certaines de vos données personnelles (comme votre adresse IP ou les identifiants de votre appareil) dans le but de : 
+             
+                 • améliorer votre expérience utilisateur sur notre site ,  
+                 • mesurer l'audience et les performances de nos contenus ,  
+                 • personnaliser nos offres et recommandations de produits ,  
+                 • afficher des publicités pertinentes en fonction de vos centres d'intérêt ,  
+                 • faciliter l'interaction avec des services tiers (ex. réseaux sociaux, services de chat ou de paiement).  
+             
+            Nous pouvons également, avec votre consentement, utiliser des données de géolocalisation précises et analyser activement les caractéristiques de votre appareil afin de l'identifier.   Vous pouvez accepter, refuser ou personnaliser vos choix. À tout moment, vous pouvez modifier vos préférences en cliquant sur le lien « Gérer les cookies » en bas de page.  Pour plus d'informations, consultez notre   Politique de confidentialité et notre Politique cookies. 
+             
+        
+         
+             
+                  
+                                                                 
+         
+                              Oui                               Non                      
+         
+             Acceptez-vous les cookies analytiques ? 
+              
+         
+     
+
+                                                                                     
+         
+                              Oui                               Non                      
+         
+             Acceptez-vous les cookies de suivi ? 
+              
+         
+     
+
+                                                                                     
+         
+                              Oui                               Non                      
+         
+             Acceptez-vous les publicités ciblées ? 
+              
+         
+     
+
+                                                                                     
+         
+                              Oui                               Non                      
+         
+             Acceptez-vous les cookies des réseaux sociaux ? 
+              
+         
+     
+
+                                                                                                                     
+                                                 
+         
+         
+                 
+         Accepter les cookies 
+     
+
+
+                             
+                     Afficher les détails 
+                     Masquer les détails 
+                 
+                     
+     
+ 
+
+
+      
+  
+  
+
+ 
+
+    jQuery(function ($) {
+        function changeImg(srcImg, srcImg2) {
+            document.getElementById('big').src = srcImg;
+            document.getElementById('bigLink').href = srcImg2;
+        }
+
+        function initZoomable(selector) {
+            if (selector) {
+                let $elt = $(selector),
+                    option = { url: $elt.attr('href') };
+                $(selector).on('click', function (e) {
+                    e.preventDefault();
+                }).trigger('zoom.destroy').zoom(option);
+            }
+        }
+    });
+ 
+
+
+
+  
+
+ 
+    var monsieurbizSearchPlugin = {
+        instantEnabled: true,
+        instantUrl: '\/instant', // URL for instant search
+        searchInputSelector: '.autocomplete-search input[type=search]', // Selector for search input text field
+        resultClosestSelector: '.autocomplete-search', // Selector used to display results, take the closest parent of searchInputSelector
+        resultFindSelector: '.autocomplete-results', // Selector used to display results, take the closest parent of searchInputSelector
+        keyUpTimeOut: 500, // Time in millisecond to wait to be sure the user ended typing
+        minQueryLength: 3, // Number of characters minimum to call instant search
+    };
+ 
+
+ 
+  
+ 
+ 

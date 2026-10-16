@@ -1,0 +1,65 @@
+﻿piece;x;y;z;diametre_mm;axe;type
+R301_montant_G_150;-146;142;25;4.5;(-1, 0, 0);traversant
+L01_R3_G;-142;142;25;4.5;(-1, 0, 0);traversant
+R301_montant_G_150;-146;158;25;4.5;(-1, 0, 0);traversant
+L01_R3_G;-142;158;25;4.5;(-1, 0, 0);traversant
+R312_bouchon_G_150;-151;150;136;3.3;(0, 0, 1);tarauderM4x0.7 traversant12
+R301_montant_G_355;-146;347;25;4.5;(-1, 0, 0);traversant
+L01_R3_G;-142;347;25;4.5;(-1, 0, 0);traversant
+R301_montant_G_355;-146;363;25;4.5;(-1, 0, 0);traversant
+L01_R3_G;-142;363;25;4.5;(-1, 0, 0);traversant
+R312_bouchon_G_355;-151;355;136;3.3;(0, 0, 1);tarauderM4x0.7 traversant12
+R301_montant_D_150;146;142;25;4.5;(1, 0, 0);traversant
+L01_R3_D;142;142;25;4.5;(1, 0, 0);traversant
+R301_montant_D_150;146;158;25;4.5;(1, 0, 0);traversant
+L01_R3_D;142;158;25;4.5;(1, 0, 0);traversant
+R312_bouchon_D_150;151;150;136;3.3;(0, 0, 1);tarauderM4x0.7 traversant12
+R301_montant_D_355;146;347;25;4.5;(1, 0, 0);traversant
+L01_R3_D;142;347;25;4.5;(1, 0, 0);traversant
+R301_montant_D_355;146;363;25;4.5;(1, 0, 0);traversant
+L01_R3_D;142;363;25;4.5;(1, 0, 0);traversant
+R312_bouchon_D_355;151;355;136;3.3;(0, 0, 1);tarauderM4x0.7 traversant12
+R305_eclisse_G_60;-131;52;146;3.4;(0, 0, 1);traversant
+R305_eclisse_G_60;-131;68;146;3.4;(0, 0, 1);traversant
+R305_eclisse_G_60;-151;52;146;3.4;(0, 0, 1);traversant
+R305_eclisse_G_60;-151;68;146;3.4;(0, 0, 1);traversant
+R305_eclisse_D_60;131;52;146;3.4;(0, 0, 1);traversant
+R305_eclisse_D_60;131;68;146;3.4;(0, 0, 1);traversant
+R305_eclisse_D_60;151;52;146;3.4;(0, 0, 1);traversant
+R305_eclisse_D_60;151;68;146;3.4;(0, 0, 1);traversant
+R305_eclisse_G_335;-131;327;146;3.4;(0, 0, 1);traversant
+R305_eclisse_G_335;-131;343;146;3.4;(0, 0, 1);traversant
+R305_eclisse_G_335;-151;327;146;3.4;(0, 0, 1);traversant
+R305_eclisse_G_335;-151;343;146;3.4;(0, 0, 1);traversant
+R305_eclisse_D_335;131;327;146;3.4;(0, 0, 1);traversant
+R305_eclisse_D_335;131;343;146;3.4;(0, 0, 1);traversant
+R305_eclisse_D_335;151;327;146;3.4;(0, 0, 1);traversant
+R305_eclisse_D_335;151;343;146;3.4;(0, 0, 1);traversant
+R304_traverse_60;60;52;136;3.4;(0, 0, 1);traversant
+R304_traverse_60;60;68;136;3.4;(0, 0, 1);traversant
+R304_traverse_60;0;52;136;3.4;(0, 0, 1);traversant
+R304_traverse_60;0;68;136;3.4;(0, 0, 1);traversant
+R306_console_03 et R303;-151;215;146;3.4;(0, 0, 1);traversant
+R306_console_03 et R303;-151;225;146;3.4;(0, 0, 1);traversant
+R306_console_03;-188;220;146;3.4;(0, 0, 1);traversant
+R306_console_03;-172;220;146;3.4;(0, 0, 1);traversant
+R306_console_04 et R303;-151;235;146;3.4;(0, 0, 1);traversant
+R306_console_04 et R303;-151;245;146;3.4;(0, 0, 1);traversant
+R306_console_04;-188;240;146;3.4;(0, 0, 1);traversant
+R306_console_04;-172;240;146;3.4;(0, 0, 1);traversant
+R306_console_05 et R303;-151;255;146;3.4;(0, 0, 1);traversant
+R306_console_05 et R303;-151;265;146;3.4;(0, 0, 1);traversant
+R306_console_05;-188;260;146;3.4;(0, 0, 1);traversant
+R306_console_05;-172;260;146;3.4;(0, 0, 1);traversant
+R304_traverse_335;-5;335;136;3.4;(0, 0, 1);traversant
+R304_traverse_335;5;335;136;3.4;(0, 0, 1);traversant
+R306_console_06;0;232;146;3.4;(0, 0, 1);traversant
+R306_console_06;0;248;146;3.4;(0, 0, 1);traversant
+R304_traverse_335;55;335;136;3.4;(0, 0, 1);traversant
+R304_traverse_335;65;335;136;3.4;(0, 0, 1);traversant
+R306_console_07;60;232;146;3.4;(0, 0, 1);traversant
+R306_console_07;60;248;146;3.4;(0, 0, 1);traversant
+R306_console_08 et R303;151;295;146;3.4;(0, 0, 1);traversant
+R306_console_08 et R303;151;305;146;3.4;(0, 0, 1);traversant
+R306_console_08;100;300;146;3.4;(0, 0, 1);traversant
+R306_console_08;116;300;146;3.4;(0, 0, 1);traversant

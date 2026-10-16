@@ -1,0 +1,1562 @@
+[
+  {
+    "code": "R301_montant_G_150",
+    "material": "Al6082-T6",
+    "group": "frame",
+    "volume_mm3": 13419.336514840588,
+    "estimated_mass_g": 36.23220859006959,
+    "envelope_mm": [
+      10.0,
+      30.0,
+      122.0
+    ],
+    "note": "Tube10x30x1.5 L122; 2 passagesM4 horizontaux; retenue du bouchonM3 àZ130,Y+8"
+  },
+  {
+    "code": "R312_bouchon_G_150",
+    "material": "Al6082-T6",
+    "group": "frame",
+    "volume_mm3": 2062.0376689019818,
+    "estimated_mass_g": 5.567501706035352,
+    "envelope_mm": [
+      6.900000000000006,
+      26.900000000000006,
+      12.0
+    ],
+    "note": "6.9x26.9x12; taraudageM4 axial; retenueM3 décaléeY+8 àZ130"
+  },
+  {
+    "code": "R313_anti_ecrasement_montant_G_142",
+    "material": "Al6082-T6",
+    "group": "frame",
+    "volume_mm3": 240.52818754046822,
+    "estimated_mass_g": 0.6494261063592642,
+    "envelope_mm": [
+      7.0,
+      8.0,
+      8.0
+    ],
+    "note": "OD8/ID4.5 L7; dans montant, autour desM4 de pied"
+  },
+  {
+    "code": "R313_anti_ecrasement_montant_G_158",
+    "material": "Al6082-T6",
+    "group": "frame",
+    "volume_mm3": 240.52818754046822,
+    "estimated_mass_g": 0.6494261063592642,
+    "envelope_mm": [
+      7.0,
+      8.0,
+      8.0
+    ],
+    "note": "OD8/ID4.5 L7; dans montant, autour desM4 de pied"
+  },
+  {
+    "code": "R302_cale1_G_142",
+    "material": "POM-C",
+    "group": "frame",
+    "volume_mm3": 80.09568719120168,
+    "estimated_mass_g": 0.11293491893959436,
+    "envelope_mm": [
+      1.0,
+      8.0,
+      12.0
+    ],
+    "note": "1 mm; cale de présentation, pas isolateur de sécurité"
+  },
+  {
+    "code": "R302_cale1_G_158",
+    "material": "POM-C",
+    "group": "frame",
+    "volume_mm3": 80.09568719120168,
+    "estimated_mass_g": 0.11293491893959436,
+    "envelope_mm": [
+      1.0,
+      8.0,
+      12.0
+    ],
+    "note": "1 mm; cale de présentation, pas isolateur de sécurité"
+  },
+  {
+    "code": "R301_montant_G_355",
+    "material": "Al6082-T6",
+    "group": "frame",
+    "volume_mm3": 13419.336514840585,
+    "estimated_mass_g": 36.232208590069575,
+    "envelope_mm": [
+      10.0,
+      30.0,
+      122.0
+    ],
+    "note": "Tube10x30x1.5 L122; 2 passagesM4 horizontaux; retenue du bouchonM3 àZ130,Y+8"
+  },
+  {
+    "code": "R312_bouchon_G_355",
+    "material": "Al6082-T6",
+    "group": "frame",
+    "volume_mm3": 2062.037668901982,
+    "estimated_mass_g": 5.567501706035353,
+    "envelope_mm": [
+      6.900000000000006,
+      26.899999999999977,
+      12.0
+    ],
+    "note": "6.9x26.9x12; taraudageM4 axial; retenueM3 décaléeY+8 àZ130"
+  },
+  {
+    "code": "R313_anti_ecrasement_montant_G_347",
+    "material": "Al6082-T6",
+    "group": "frame",
+    "volume_mm3": 240.52818754046837,
+    "estimated_mass_g": 0.6494261063592647,
+    "envelope_mm": [
+      7.0,
+      8.0,
+      8.0
+    ],
+    "note": "OD8/ID4.5 L7; dans montant, autour desM4 de pied"
+  },
+  {
+    "code": "R313_anti_ecrasement_montant_G_363",
+    "material": "Al6082-T6",
+    "group": "frame",
+    "volume_mm3": 240.52818754046837,
+    "estimated_mass_g": 0.6494261063592647,
+    "envelope_mm": [
+      7.0,
+      8.0,
+      8.0
+    ],
+    "note": "OD8/ID4.5 L7; dans montant, autour desM4 de pied"
+  },
+  {
+    "code": "R302_cale1_G_347",
+    "material": "POM-C",
+    "group": "frame",
+    "volume_mm3": 80.09568719120169,
+    "estimated_mass_g": 0.11293491893959438,
+    "envelope_mm": [
+      1.0,
+      8.0,
+      12.0
+    ],
+    "note": "1 mm; cale de présentation, pas isolateur de sécurité"
+  },
+  {
+    "code": "R302_cale1_G_363",
+    "material": "POM-C",
+    "group": "frame",
+    "volume_mm3": 80.09568719120169,
+    "estimated_mass_g": 0.11293491893959438,
+    "envelope_mm": [
+      1.0,
+      8.0,
+      12.0
+    ],
+    "note": "1 mm; cale de présentation, pas isolateur de sécurité"
+  },
+  {
+    "code": "R301_montant_D_150",
+    "material": "Al6082-T6",
+    "group": "frame",
+    "volume_mm3": 13419.336514840588,
+    "estimated_mass_g": 36.23220859006959,
+    "envelope_mm": [
+      10.0,
+      30.0,
+      122.0
+    ],
+    "note": "Tube10x30x1.5 L122; 2 passagesM4 horizontaux; retenue du bouchonM3 àZ130,Y+8"
+  },
+  {
+    "code": "R312_bouchon_D_150",
+    "material": "Al6082-T6",
+    "group": "frame",
+    "volume_mm3": 2062.0376689019818,
+    "estimated_mass_g": 5.567501706035352,
+    "envelope_mm": [
+      6.900000000000006,
+      26.900000000000006,
+      12.0
+    ],
+    "note": "6.9x26.9x12; taraudageM4 axial; retenueM3 décaléeY+8 àZ130"
+  },
+  {
+    "code": "R313_anti_ecrasement_montant_D_142",
+    "material": "Al6082-T6",
+    "group": "frame",
+    "volume_mm3": 240.52818754046822,
+    "estimated_mass_g": 0.6494261063592642,
+    "envelope_mm": [
+      7.0,
+      8.0,
+      8.0
+    ],
+    "note": "OD8/ID4.5 L7; dans montant, autour desM4 de pied"
+  },
+  {
+    "code": "R313_anti_ecrasement_montant_D_158",
+    "material": "Al6082-T6",
+    "group": "frame",
+    "volume_mm3": 240.52818754046822,
+    "estimated_mass_g": 0.6494261063592642,
+    "envelope_mm": [
+      7.0,
+      8.0,
+      8.0
+    ],
+    "note": "OD8/ID4.5 L7; dans montant, autour desM4 de pied"
+  },
+  {
+    "code": "R302_cale1_D_142",
+    "material": "POM-C",
+    "group": "frame",
+    "volume_mm3": 80.09568719120168,
+    "estimated_mass_g": 0.11293491893959436,
+    "envelope_mm": [
+      1.0,
+      8.0,
+      12.0
+    ],
+    "note": "1 mm; cale de présentation, pas isolateur de sécurité"
+  },
+  {
+    "code": "R302_cale1_D_158",
+    "material": "POM-C",
+    "group": "frame",
+    "volume_mm3": 80.09568719120168,
+    "estimated_mass_g": 0.11293491893959436,
+    "envelope_mm": [
+      1.0,
+      8.0,
+      12.0
+    ],
+    "note": "1 mm; cale de présentation, pas isolateur de sécurité"
+  },
+  {
+    "code": "R301_montant_D_355",
+    "material": "Al6082-T6",
+    "group": "frame",
+    "volume_mm3": 13419.336514840585,
+    "estimated_mass_g": 36.232208590069575,
+    "envelope_mm": [
+      10.0,
+      30.0,
+      122.0
+    ],
+    "note": "Tube10x30x1.5 L122; 2 passagesM4 horizontaux; retenue du bouchonM3 àZ130,Y+8"
+  },
+  {
+    "code": "R312_bouchon_D_355",
+    "material": "Al6082-T6",
+    "group": "frame",
+    "volume_mm3": 2062.037668901982,
+    "estimated_mass_g": 5.567501706035353,
+    "envelope_mm": [
+      6.900000000000006,
+      26.899999999999977,
+      12.0
+    ],
+    "note": "6.9x26.9x12; taraudageM4 axial; retenueM3 décaléeY+8 àZ130"
+  },
+  {
+    "code": "R313_anti_ecrasement_montant_D_347",
+    "material": "Al6082-T6",
+    "group": "frame",
+    "volume_mm3": 240.52818754046837,
+    "estimated_mass_g": 0.6494261063592647,
+    "envelope_mm": [
+      7.0,
+      8.0,
+      8.0
+    ],
+    "note": "OD8/ID4.5 L7; dans montant, autour desM4 de pied"
+  },
+  {
+    "code": "R313_anti_ecrasement_montant_D_363",
+    "material": "Al6082-T6",
+    "group": "frame",
+    "volume_mm3": 240.52818754046837,
+    "estimated_mass_g": 0.6494261063592647,
+    "envelope_mm": [
+      7.0,
+      8.0,
+      8.0
+    ],
+    "note": "OD8/ID4.5 L7; dans montant, autour desM4 de pied"
+  },
+  {
+    "code": "R302_cale1_D_347",
+    "material": "POM-C",
+    "group": "frame",
+    "volume_mm3": 80.09568719120169,
+    "estimated_mass_g": 0.11293491893959438,
+    "envelope_mm": [
+      1.0,
+      8.0,
+      12.0
+    ],
+    "note": "1 mm; cale de présentation, pas isolateur de sécurité"
+  },
+  {
+    "code": "R302_cale1_D_363",
+    "material": "POM-C",
+    "group": "frame",
+    "volume_mm3": 80.09568719120169,
+    "estimated_mass_g": 0.11293491893959438,
+    "envelope_mm": [
+      1.0,
+      8.0,
+      12.0
+    ],
+    "note": "1 mm; cale de présentation, pas isolateur de sécurité"
+  },
+  {
+    "code": "R303_rail_G",
+    "material": "Al6082-T6",
+    "group": "frame",
+    "volume_mm3": 24454.798693387336,
+    "estimated_mass_g": 66.0279564721458,
+    "envelope_mm": [
+      30.0,
+      325.0,
+      10.0
+    ],
+    "note": "Tube30x10x1 L325, Y50..375; Z136..146; anti-écrasement8mm"
+  },
+  {
+    "code": "R303_rail_D",
+    "material": "Al6082-T6",
+    "group": "frame",
+    "volume_mm3": 24527.43231553831,
+    "estimated_mass_g": 66.22406725195344,
+    "envelope_mm": [
+      30.0,
+      325.0,
+      10.0
+    ],
+    "note": "Tube30x10x1 L325, Y50..375; Z136..146; anti-écrasement8mm"
+  },
+  {
+    "code": "R304_traverse_60",
+    "material": "Al6082-T6",
+    "group": "frame",
+    "volume_mm3": 20526.732755698027,
+    "estimated_mass_g": 55.42217844038468,
+    "envelope_mm": [
+      272.0,
+      30.0,
+      10.0
+    ],
+    "note": "Tube30x10x1 L272, entre les rails; Z136..146; anti-écrasement8mm"
+  },
+  {
+    "code": "R305_eclisse_G_60",
+    "material": "Al6082-T6",
+    "group": "frame",
+    "volume_mm3": 3491.0495667735067,
+    "estimated_mass_g": 9.425833830288468,
+    "envelope_mm": [
+      40.0,
+      30.0,
+      3.0
+    ],
+    "note": "40x30x3, quatre trous Ø3.4, entraxes20x16"
+  },
+  {
+    "code": "R305_eclisse_D_60",
+    "material": "Al6082-T6",
+    "group": "frame",
+    "volume_mm3": 3491.0495667735067,
+    "estimated_mass_g": 9.425833830288468,
+    "envelope_mm": [
+      40.0,
+      30.0,
+      3.0
+    ],
+    "note": "40x30x3, quatre trous Ø3.4, entraxes20x16"
+  },
+  {
+    "code": "R304_traverse_335",
+    "material": "Al6082-T6",
+    "group": "frame",
+    "volume_mm3": 20526.73275569803,
+    "estimated_mass_g": 55.42217844038469,
+    "envelope_mm": [
+      272.0,
+      30.0,
+      10.0
+    ],
+    "note": "Tube30x10x1 L272, entre les rails; Z136..146; anti-écrasement8mm"
+  },
+  {
+    "code": "R305_eclisse_G_335",
+    "material": "Al6082-T6",
+    "group": "frame",
+    "volume_mm3": 3491.0495667735067,
+    "estimated_mass_g": 9.425833830288468,
+    "envelope_mm": [
+      40.0,
+      30.0,
+      3.0
+    ],
+    "note": "40x30x3, quatre trous Ø3.4, entraxes20x16"
+  },
+  {
+    "code": "R305_eclisse_D_335",
+    "material": "Al6082-T6",
+    "group": "frame",
+    "volume_mm3": 3491.0495667735067,
+    "estimated_mass_g": 9.425833830288468,
+    "envelope_mm": [
+      40.0,
+      30.0,
+      3.0
+    ],
+    "note": "40x30x3, quatre trous Ø3.4, entraxes20x16"
+  },
+  {
+    "code": "P03_R3",
+    "material": "SiF6",
+    "group": "cable",
+    "volume_mm3": 13721.053079987365,
+    "estimated_mass_g": 15.093158387986103,
+    "envelope_mm": [
+      181.5000002,
+      86.50000019999999,
+      68.2500001
+    ],
+    "note": "Enveloppe isolée Ø6.5; points extrêmes = approches, pas bornes exactes"
+  },
+  {
+    "code": "P04_R3",
+    "material": "SiF6",
+    "group": "cable",
+    "volume_mm3": 12825.110125091735,
+    "estimated_mass_g": 14.10762113760091,
+    "envelope_mm": [
+      99.50000020000002,
+      106.50000020000002,
+      103.2500001
+    ],
+    "note": "Enveloppe isolée Ø6.5; points extrêmes = approches, pas bornes exactes"
+  },
+  {
+    "code": "P05_R3",
+    "material": "SiF6",
+    "group": "cable",
+    "volume_mm3": 12825.110125091738,
+    "estimated_mass_g": 14.107621137600914,
+    "envelope_mm": [
+      99.50000019999999,
+      86.50000020000002,
+      118.2500001
+    ],
+    "note": "Enveloppe isolée Ø6.5; points extrêmes = approches, pas bornes exactes"
+  },
+  {
+    "code": "P06_R3",
+    "material": "SiF6",
+    "group": "cable",
+    "volume_mm3": 14081.955832095233,
+    "estimated_mass_g": 15.490151415304757,
+    "envelope_mm": [
+      194.5000002,
+      134.50000020000002,
+      85.2500001
+    ],
+    "note": "Enveloppe isolée Ø6.5; points extrêmes = approches, pas bornes exactes"
+  },
+  {
+    "code": "R307_base_01_P03",
+    "material": "POM-C",
+    "group": "clamp",
+    "volume_mm3": 1644.6009164926145,
+    "estimated_mass_g": 2.3188872922545865,
+    "envelope_mm": [
+      12.0,
+      24.0,
+      7.0
+    ],
+    "note": "Demi-bride12x24x7; alésage7.2; M3 entraxe16"
+  },
+  {
+    "code": "R308_capot_01_P03",
+    "material": "POM-C",
+    "group": "clamp",
+    "volume_mm3": 1104.9177275681127,
+    "estimated_mass_g": 1.557933995871039,
+    "envelope_mm": [
+      12.0,
+      24.0,
+      5.0
+    ],
+    "note": "Demi-bride12x24x5; serrer sur faces, pas écraser le câble"
+  },
+  {
+    "code": "R311_garniture_01",
+    "material": "Silicone50A",
+    "group": "liner",
+    "volume_mm3": 75.31968386981492,
+    "estimated_mass_g": 0.0903836206437779,
+    "envelope_mm": [
+      10.0,
+      7.200000000000003,
+      7.199999999999989
+    ],
+    "note": "Bande silicone nominale0.5, largeur10, longueur~21.5; épaisseur représentée comprimée0.35"
+  },
+  {
+    "code": "R309_entretoise_01_-1",
+    "material": "POM-C",
+    "group": "clamp",
+    "volume_mm3": 134.3659177940354,
+    "estimated_mass_g": 0.1894559440895899,
+    "envelope_mm": [
+      6.0,
+      6.0,
+      7.0
+    ],
+    "note": "Ø6/3.4 L7"
+  },
+  {
+    "code": "R309_entretoise_01_1",
+    "material": "POM-C",
+    "group": "clamp",
+    "volume_mm3": 134.3659177940354,
+    "estimated_mass_g": 0.1894559440895899,
+    "envelope_mm": [
+      6.0,
+      6.0,
+      7.0
+    ],
+    "note": "Ø6/3.4 L7"
+  },
+  {
+    "code": "R307_base_02_P03",
+    "material": "POM-C",
+    "group": "clamp",
+    "volume_mm3": 1644.6009164926145,
+    "estimated_mass_g": 2.3188872922545865,
+    "envelope_mm": [
+      12.0,
+      24.0,
+      7.0
+    ],
+    "note": "Demi-bride12x24x7; alésage7.2; M3 entraxe16"
+  },
+  {
+    "code": "R308_capot_02_P03",
+    "material": "POM-C",
+    "group": "clamp",
+    "volume_mm3": 1104.9177275681127,
+    "estimated_mass_g": 1.557933995871039,
+    "envelope_mm": [
+      12.0,
+      24.0,
+      5.0
+    ],
+    "note": "Demi-bride12x24x5; serrer sur faces, pas écraser le câble"
+  },
+  {
+    "code": "R311_garniture_02",
+    "material": "Silicone50A",
+    "group": "liner",
+    "volume_mm3": 75.31968386981492,
+    "estimated_mass_g": 0.0903836206437779,
+    "envelope_mm": [
+      10.0,
+      7.200000000000003,
+      7.199999999999989
+    ],
+    "note": "Bande silicone nominale0.5, largeur10, longueur~21.5; épaisseur représentée comprimée0.35"
+  },
+  {
+    "code": "R309_entretoise_02_-1",
+    "material": "POM-C",
+    "group": "clamp",
+    "volume_mm3": 134.36591779403543,
+    "estimated_mass_g": 0.18945594408958993,
+    "envelope_mm": [
+      6.0,
+      6.0,
+      7.0
+    ],
+    "note": "Ø6/3.4 L7"
+  },
+  {
+    "code": "R309_entretoise_02_1",
+    "material": "POM-C",
+    "group": "clamp",
+    "volume_mm3": 134.36591779403545,
+    "estimated_mass_g": 0.18945594408958996,
+    "envelope_mm": [
+      6.0,
+      6.0,
+      7.0
+    ],
+    "note": "Ø6/3.4 L7"
+  },
+  {
+    "code": "R307_base_03_P04",
+    "material": "POM-C",
+    "group": "clamp",
+    "volume_mm3": 1644.600916492615,
+    "estimated_mass_g": 2.318887292254587,
+    "envelope_mm": [
+      24.0,
+      12.0,
+      7.0
+    ],
+    "note": "Demi-bride12x24x7; alésage7.2; M3 entraxe16"
+  },
+  {
+    "code": "R308_capot_03_P04",
+    "material": "POM-C",
+    "group": "clamp",
+    "volume_mm3": 1104.9177275681134,
+    "estimated_mass_g": 1.5579339958710399,
+    "envelope_mm": [
+      24.0,
+      12.0,
+      5.0
+    ],
+    "note": "Demi-bride12x24x5; serrer sur faces, pas écraser le câble"
+  },
+  {
+    "code": "R311_garniture_03",
+    "material": "Silicone50A",
+    "group": "liner",
+    "volume_mm3": 75.31968386981498,
+    "estimated_mass_g": 0.09038362064377797,
+    "envelope_mm": [
+      7.199999999999989,
+      10.0,
+      7.199999999999989
+    ],
+    "note": "Bande silicone nominale0.5, largeur10, longueur~21.5; épaisseur représentée comprimée0.35"
+  },
+  {
+    "code": "R309_entretoise_03_-1",
+    "material": "POM-C",
+    "group": "clamp",
+    "volume_mm3": 76.78052445373453,
+    "estimated_mass_g": 0.10826053947976567,
+    "envelope_mm": [
+      6.0,
+      6.0,
+      4.0
+    ],
+    "note": "Ø6/3.4 L4"
+  },
+  {
+    "code": "R309_entretoise_03_1",
+    "material": "POM-C",
+    "group": "clamp",
+    "volume_mm3": 76.78052445373453,
+    "estimated_mass_g": 0.10826053947976567,
+    "envelope_mm": [
+      6.0,
+      6.0,
+      4.0
+    ],
+    "note": "Ø6/3.4 L4"
+  },
+  {
+    "code": "R306_console_03",
+    "material": "Al6082-T6",
+    "group": "frame",
+    "volume_mm3": 3491.0495667735067,
+    "estimated_mass_g": 9.425833830288468,
+    "envelope_mm": [
+      60.0,
+      20.0,
+      3.0
+    ],
+    "note": "Plat60x20x3; centres globaux table perçages"
+  },
+  {
+    "code": "R307_base_04_P04",
+    "material": "POM-C",
+    "group": "clamp",
+    "volume_mm3": 1644.600916492615,
+    "estimated_mass_g": 2.318887292254587,
+    "envelope_mm": [
+      24.0,
+      12.0,
+      7.0
+    ],
+    "note": "Demi-bride12x24x7; alésage7.2; M3 entraxe16"
+  },
+  {
+    "code": "R308_capot_04_P04",
+    "material": "POM-C",
+    "group": "clamp",
+    "volume_mm3": 1104.9177275681134,
+    "estimated_mass_g": 1.5579339958710399,
+    "envelope_mm": [
+      24.0,
+      12.0,
+      5.0
+    ],
+    "note": "Demi-bride12x24x5; serrer sur faces, pas écraser le câble"
+  },
+  {
+    "code": "R311_garniture_04",
+    "material": "Silicone50A",
+    "group": "liner",
+    "volume_mm3": 75.31968386981498,
+    "estimated_mass_g": 0.09038362064377797,
+    "envelope_mm": [
+      7.199999999999989,
+      10.0,
+      7.199999999999989
+    ],
+    "note": "Bande silicone nominale0.5, largeur10, longueur~21.5; épaisseur représentée comprimée0.35"
+  },
+  {
+    "code": "R309_entretoise_04_-1",
+    "material": "POM-C",
+    "group": "clamp",
+    "volume_mm3": 76.78052445373453,
+    "estimated_mass_g": 0.10826053947976567,
+    "envelope_mm": [
+      6.0,
+      6.0,
+      4.0
+    ],
+    "note": "Ø6/3.4 L4"
+  },
+  {
+    "code": "R309_entretoise_04_1",
+    "material": "POM-C",
+    "group": "clamp",
+    "volume_mm3": 76.78052445373453,
+    "estimated_mass_g": 0.10826053947976567,
+    "envelope_mm": [
+      6.0,
+      6.0,
+      4.0
+    ],
+    "note": "Ø6/3.4 L4"
+  },
+  {
+    "code": "R306_console_04",
+    "material": "Al6082-T6",
+    "group": "frame",
+    "volume_mm3": 3491.0495667735067,
+    "estimated_mass_g": 9.425833830288468,
+    "envelope_mm": [
+      60.0,
+      20.0,
+      3.0
+    ],
+    "note": "Plat60x20x3; centres globaux table perçages"
+  },
+  {
+    "code": "R307_base_05_P05",
+    "material": "POM-C",
+    "group": "clamp",
+    "volume_mm3": 1644.6009164926154,
+    "estimated_mass_g": 2.318887292254588,
+    "envelope_mm": [
+      24.0,
+      12.0,
+      7.0
+    ],
+    "note": "Demi-bride12x24x7; alésage7.2; M3 entraxe16"
+  },
+  {
+    "code": "R308_capot_05_P05",
+    "material": "POM-C",
+    "group": "clamp",
+    "volume_mm3": 1104.9177275681134,
+    "estimated_mass_g": 1.5579339958710399,
+    "envelope_mm": [
+      24.0,
+      12.0,
+      5.0
+    ],
+    "note": "Demi-bride12x24x5; serrer sur faces, pas écraser le câble"
+  },
+  {
+    "code": "R311_garniture_05",
+    "material": "Silicone50A",
+    "group": "liner",
+    "volume_mm3": 75.31968386981498,
+    "estimated_mass_g": 0.09038362064377797,
+    "envelope_mm": [
+      7.199999999999989,
+      10.0,
+      7.199999999999989
+    ],
+    "note": "Bande silicone nominale0.5, largeur10, longueur~21.5; épaisseur représentée comprimée0.35"
+  },
+  {
+    "code": "R309_entretoise_05_-1",
+    "material": "POM-C",
+    "group": "clamp",
+    "volume_mm3": 364.70749115523995,
+    "estimated_mass_g": 0.5142375625288883,
+    "envelope_mm": [
+      6.0,
+      6.0,
+      19.0
+    ],
+    "note": "Ø6/3.4 L19"
+  },
+  {
+    "code": "R309_entretoise_05_1",
+    "material": "POM-C",
+    "group": "clamp",
+    "volume_mm3": 364.70749115523995,
+    "estimated_mass_g": 0.5142375625288883,
+    "envelope_mm": [
+      6.0,
+      6.0,
+      19.0
+    ],
+    "note": "Ø6/3.4 L19"
+  },
+  {
+    "code": "R306_console_05",
+    "material": "Al6082-T6",
+    "group": "frame",
+    "volume_mm3": 3491.0495667735067,
+    "estimated_mass_g": 9.425833830288468,
+    "envelope_mm": [
+      60.0,
+      20.0,
+      3.0
+    ],
+    "note": "Plat60x20x3; centres globaux table perçages"
+  },
+  {
+    "code": "R307_base_06_P06",
+    "material": "POM-C",
+    "group": "clamp",
+    "volume_mm3": 1644.6009164926145,
+    "estimated_mass_g": 2.3188872922545865,
+    "envelope_mm": [
+      12.0,
+      24.0,
+      7.0
+    ],
+    "note": "Demi-bride12x24x7; alésage7.2; M3 entraxe16"
+  },
+  {
+    "code": "R308_capot_06_P06",
+    "material": "POM-C",
+    "group": "clamp",
+    "volume_mm3": 1104.9177275681127,
+    "estimated_mass_g": 1.557933995871039,
+    "envelope_mm": [
+      12.0,
+      24.0,
+      5.0
+    ],
+    "note": "Demi-bride12x24x5; serrer sur faces, pas écraser le câble"
+  },
+  {
+    "code": "R311_garniture_06",
+    "material": "Silicone50A",
+    "group": "liner",
+    "volume_mm3": 75.31968386981492,
+    "estimated_mass_g": 0.0903836206437779,
+    "envelope_mm": [
+      10.0,
+      7.199999999999989,
+      7.199999999999989
+    ],
+    "note": "Bande silicone nominale0.5, largeur10, longueur~21.5; épaisseur représentée comprimée0.35"
+  },
+  {
+    "code": "R309_entretoise_06_-1",
+    "material": "POM-C",
+    "group": "clamp",
+    "volume_mm3": 76.78052445373453,
+    "estimated_mass_g": 0.10826053947976567,
+    "envelope_mm": [
+      6.0,
+      6.0,
+      4.0
+    ],
+    "note": "Ø6/3.4 L4"
+  },
+  {
+    "code": "R309_entretoise_06_1",
+    "material": "POM-C",
+    "group": "clamp",
+    "volume_mm3": 76.78052445373453,
+    "estimated_mass_g": 0.10826053947976567,
+    "envelope_mm": [
+      6.0,
+      6.0,
+      4.0
+    ],
+    "note": "Ø6/3.4 L4"
+  },
+  {
+    "code": "R306_console_06",
+    "material": "Al6082-T6",
+    "group": "frame",
+    "volume_mm3": 6791.049566773507,
+    "estimated_mass_g": 18.33583383028847,
+    "envelope_mm": [
+      20.0,
+      115.0,
+      3.0
+    ],
+    "note": "Plat20x115x3, porte-à-faux95mm depuis la traverseY335"
+  },
+  {
+    "code": "R307_base_07_P06",
+    "material": "POM-C",
+    "group": "clamp",
+    "volume_mm3": 1644.6009164926145,
+    "estimated_mass_g": 2.3188872922545865,
+    "envelope_mm": [
+      12.0,
+      24.0,
+      7.0
+    ],
+    "note": "Demi-bride12x24x7; alésage7.2; M3 entraxe16"
+  },
+  {
+    "code": "R308_capot_07_P06",
+    "material": "POM-C",
+    "group": "clamp",
+    "volume_mm3": 1104.9177275681127,
+    "estimated_mass_g": 1.557933995871039,
+    "envelope_mm": [
+      12.0,
+      24.0,
+      5.0
+    ],
+    "note": "Demi-bride12x24x5; serrer sur faces, pas écraser le câble"
+  },
+  {
+    "code": "R311_garniture_07",
+    "material": "Silicone50A",
+    "group": "liner",
+    "volume_mm3": 75.31968386981492,
+    "estimated_mass_g": 0.0903836206437779,
+    "envelope_mm": [
+      10.0,
+      7.199999999999989,
+      7.199999999999989
+    ],
+    "note": "Bande silicone nominale0.5, largeur10, longueur~21.5; épaisseur représentée comprimée0.35"
+  },
+  {
+    "code": "R309_entretoise_07_-1",
+    "material": "POM-C",
+    "group": "clamp",
+    "volume_mm3": 76.78052445373454,
+    "estimated_mass_g": 0.10826053947976569,
+    "envelope_mm": [
+      6.0,
+      6.0,
+      4.0
+    ],
+    "note": "Ø6/3.4 L4"
+  },
+  {
+    "code": "R309_entretoise_07_1",
+    "material": "POM-C",
+    "group": "clamp",
+    "volume_mm3": 76.78052445373454,
+    "estimated_mass_g": 0.10826053947976569,
+    "envelope_mm": [
+      6.0,
+      6.0,
+      4.0
+    ],
+    "note": "Ø6/3.4 L4"
+  },
+  {
+    "code": "R306_console_07",
+    "material": "Al6082-T6",
+    "group": "frame",
+    "volume_mm3": 6791.049566773507,
+    "estimated_mass_g": 18.33583383028847,
+    "envelope_mm": [
+      20.0,
+      115.0,
+      3.0
+    ],
+    "note": "Plat20x115x3, porte-à-faux95mm depuis la traverseY335"
+  },
+  {
+    "code": "R307_base_08_P06",
+    "material": "POM-C",
+    "group": "clamp",
+    "volume_mm3": 1644.600916492615,
+    "estimated_mass_g": 2.318887292254587,
+    "envelope_mm": [
+      24.0,
+      12.0,
+      7.0
+    ],
+    "note": "Demi-bride12x24x7; alésage7.2; M3 entraxe16"
+  },
+  {
+    "code": "R308_capot_08_P06",
+    "material": "POM-C",
+    "group": "clamp",
+    "volume_mm3": 1104.9177275681134,
+    "estimated_mass_g": 1.5579339958710399,
+    "envelope_mm": [
+      24.0,
+      12.0,
+      5.0
+    ],
+    "note": "Demi-bride12x24x5; serrer sur faces, pas écraser le câble"
+  },
+  {
+    "code": "R311_garniture_08",
+    "material": "Silicone50A",
+    "group": "liner",
+    "volume_mm3": 75.3196838698151,
+    "estimated_mass_g": 0.09038362064377811,
+    "envelope_mm": [
+      7.199999999999989,
+      10.0,
+      7.199999999999989
+    ],
+    "note": "Bande silicone nominale0.5, largeur10, longueur~21.5; épaisseur représentée comprimée0.35"
+  },
+  {
+    "code": "R309_entretoise_08_-1",
+    "material": "POM-C",
+    "group": "clamp",
+    "volume_mm3": 76.7805244537347,
+    "estimated_mass_g": 0.10826053947976592,
+    "envelope_mm": [
+      6.0,
+      6.0,
+      4.0
+    ],
+    "note": "Ø6/3.4 L4"
+  },
+  {
+    "code": "R309_entretoise_08_1",
+    "material": "POM-C",
+    "group": "clamp",
+    "volume_mm3": 76.7805244537347,
+    "estimated_mass_g": 0.10826053947976592,
+    "envelope_mm": [
+      6.0,
+      6.0,
+      4.0
+    ],
+    "note": "Ø6/3.4 L4"
+  },
+  {
+    "code": "R306_console_08",
+    "material": "Al6082-T6",
+    "group": "frame",
+    "volume_mm3": 3791.0495667735063,
+    "estimated_mass_g": 10.235833830288469,
+    "envelope_mm": [
+      65.0,
+      20.0,
+      3.0
+    ],
+    "note": "Plat65x20x3; centres globaux table perçages"
+  },
+  {
+    "code": "R310_anti_ecrasement_01",
+    "material": "Al6082-T6",
+    "group": "frame",
+    "volume_mm3": 180.64157758141306,
+    "estimated_mass_g": 0.4877322594698153,
+    "envelope_mm": [
+      7.0,
+      7.0,
+      8.0
+    ],
+    "note": "Tube usiné OD7/ID4.5 L8, insérer par extrémité avant assemblage"
+  },
+  {
+    "code": "R310_anti_ecrasement_02",
+    "material": "Al6082-T6",
+    "group": "frame",
+    "volume_mm3": 180.64157758141346,
+    "estimated_mass_g": 0.4877322594698164,
+    "envelope_mm": [
+      7.0,
+      7.0,
+      8.0
+    ],
+    "note": "Tube usiné OD7/ID4.5 L8, insérer par extrémité avant assemblage"
+  },
+  {
+    "code": "R310_anti_ecrasement_03",
+    "material": "Al6082-T6",
+    "group": "frame",
+    "volume_mm3": 117.4327333911866,
+    "estimated_mass_g": 0.31706838015620387,
+    "envelope_mm": [
+      5.5,
+      5.5,
+      8.0
+    ],
+    "note": "Tube usiné OD5.5/ID3.4 L8, insérer par extrémité avant assemblage"
+  },
+  {
+    "code": "R310_anti_ecrasement_04",
+    "material": "Al6082-T6",
+    "group": "frame",
+    "volume_mm3": 117.4327333911865,
+    "estimated_mass_g": 0.3170683801562036,
+    "envelope_mm": [
+      5.5,
+      5.5,
+      8.0
+    ],
+    "note": "Tube usiné OD5.5/ID3.4 L8, insérer par extrémité avant assemblage"
+  },
+  {
+    "code": "R310_anti_ecrasement_05",
+    "material": "Al6082-T6",
+    "group": "frame",
+    "volume_mm3": 117.4327333911866,
+    "estimated_mass_g": 0.31706838015620387,
+    "envelope_mm": [
+      5.5,
+      5.5,
+      8.0
+    ],
+    "note": "Tube usiné OD5.5/ID3.4 L8, insérer par extrémité avant assemblage"
+  },
+  {
+    "code": "R310_anti_ecrasement_06",
+    "material": "Al6082-T6",
+    "group": "frame",
+    "volume_mm3": 117.4327333911865,
+    "estimated_mass_g": 0.3170683801562036,
+    "envelope_mm": [
+      5.5,
+      5.5,
+      8.0
+    ],
+    "note": "Tube usiné OD5.5/ID3.4 L8, insérer par extrémité avant assemblage"
+  },
+  {
+    "code": "R310_anti_ecrasement_07",
+    "material": "Al6082-T6",
+    "group": "frame",
+    "volume_mm3": 117.43273339118682,
+    "estimated_mass_g": 0.3170683801562044,
+    "envelope_mm": [
+      5.5,
+      5.5,
+      8.0
+    ],
+    "note": "Tube usiné OD5.5/ID3.4 L8, insérer par extrémité avant assemblage"
+  },
+  {
+    "code": "R310_anti_ecrasement_08",
+    "material": "Al6082-T6",
+    "group": "frame",
+    "volume_mm3": 117.43273339118682,
+    "estimated_mass_g": 0.3170683801562044,
+    "envelope_mm": [
+      5.5,
+      5.5,
+      8.0
+    ],
+    "note": "Tube usiné OD5.5/ID3.4 L8, insérer par extrémité avant assemblage"
+  },
+  {
+    "code": "R310_anti_ecrasement_09",
+    "material": "Al6082-T6",
+    "group": "frame",
+    "volume_mm3": 117.43273339118682,
+    "estimated_mass_g": 0.3170683801562044,
+    "envelope_mm": [
+      5.5,
+      5.5,
+      8.0
+    ],
+    "note": "Tube usiné OD5.5/ID3.4 L8, insérer par extrémité avant assemblage"
+  },
+  {
+    "code": "R310_anti_ecrasement_10",
+    "material": "Al6082-T6",
+    "group": "frame",
+    "volume_mm3": 117.43273339118682,
+    "estimated_mass_g": 0.3170683801562044,
+    "envelope_mm": [
+      5.5,
+      5.5,
+      8.0
+    ],
+    "note": "Tube usiné OD5.5/ID3.4 L8, insérer par extrémité avant assemblage"
+  },
+  {
+    "code": "R310_anti_ecrasement_11",
+    "material": "Al6082-T6",
+    "group": "frame",
+    "volume_mm3": 180.64157758141306,
+    "estimated_mass_g": 0.4877322594698153,
+    "envelope_mm": [
+      7.0,
+      7.0,
+      8.0
+    ],
+    "note": "Tube usiné OD7/ID4.5 L8, insérer par extrémité avant assemblage"
+  },
+  {
+    "code": "R310_anti_ecrasement_12",
+    "material": "Al6082-T6",
+    "group": "frame",
+    "volume_mm3": 180.64157758141346,
+    "estimated_mass_g": 0.4877322594698164,
+    "envelope_mm": [
+      7.0,
+      7.0,
+      8.0
+    ],
+    "note": "Tube usiné OD7/ID4.5 L8, insérer par extrémité avant assemblage"
+  },
+  {
+    "code": "R310_anti_ecrasement_13",
+    "material": "Al6082-T6",
+    "group": "frame",
+    "volume_mm3": 117.4327333911866,
+    "estimated_mass_g": 0.31706838015620387,
+    "envelope_mm": [
+      5.5,
+      5.5,
+      8.0
+    ],
+    "note": "Tube usiné OD5.5/ID3.4 L8, insérer par extrémité avant assemblage"
+  },
+  {
+    "code": "R310_anti_ecrasement_14",
+    "material": "Al6082-T6",
+    "group": "frame",
+    "volume_mm3": 117.4327333911865,
+    "estimated_mass_g": 0.3170683801562036,
+    "envelope_mm": [
+      5.5,
+      5.5,
+      8.0
+    ],
+    "note": "Tube usiné OD5.5/ID3.4 L8, insérer par extrémité avant assemblage"
+  },
+  {
+    "code": "R310_anti_ecrasement_15",
+    "material": "Al6082-T6",
+    "group": "frame",
+    "volume_mm3": 117.4327333911866,
+    "estimated_mass_g": 0.31706838015620387,
+    "envelope_mm": [
+      5.5,
+      5.5,
+      8.0
+    ],
+    "note": "Tube usiné OD5.5/ID3.4 L8, insérer par extrémité avant assemblage"
+  },
+  {
+    "code": "R310_anti_ecrasement_16",
+    "material": "Al6082-T6",
+    "group": "frame",
+    "volume_mm3": 117.4327333911865,
+    "estimated_mass_g": 0.3170683801562036,
+    "envelope_mm": [
+      5.5,
+      5.5,
+      8.0
+    ],
+    "note": "Tube usiné OD5.5/ID3.4 L8, insérer par extrémité avant assemblage"
+  },
+  {
+    "code": "R310_anti_ecrasement_17",
+    "material": "Al6082-T6",
+    "group": "frame",
+    "volume_mm3": 117.43273339118682,
+    "estimated_mass_g": 0.3170683801562044,
+    "envelope_mm": [
+      5.5,
+      5.5,
+      8.0
+    ],
+    "note": "Tube usiné OD5.5/ID3.4 L8, insérer par extrémité avant assemblage"
+  },
+  {
+    "code": "R310_anti_ecrasement_18",
+    "material": "Al6082-T6",
+    "group": "frame",
+    "volume_mm3": 117.43273339118682,
+    "estimated_mass_g": 0.3170683801562044,
+    "envelope_mm": [
+      5.5,
+      5.5,
+      8.0
+    ],
+    "note": "Tube usiné OD5.5/ID3.4 L8, insérer par extrémité avant assemblage"
+  },
+  {
+    "code": "R310_anti_ecrasement_19",
+    "material": "Al6082-T6",
+    "group": "frame",
+    "volume_mm3": 117.43273339118682,
+    "estimated_mass_g": 0.3170683801562044,
+    "envelope_mm": [
+      5.5,
+      5.5,
+      8.0
+    ],
+    "note": "Tube usiné OD5.5/ID3.4 L8, insérer par extrémité avant assemblage"
+  },
+  {
+    "code": "R310_anti_ecrasement_20",
+    "material": "Al6082-T6",
+    "group": "frame",
+    "volume_mm3": 117.43273339118682,
+    "estimated_mass_g": 0.3170683801562044,
+    "envelope_mm": [
+      5.5,
+      5.5,
+      8.0
+    ],
+    "note": "Tube usiné OD5.5/ID3.4 L8, insérer par extrémité avant assemblage"
+  },
+  {
+    "code": "R310_anti_ecrasement_21",
+    "material": "Al6082-T6",
+    "group": "frame",
+    "volume_mm3": 117.43273339118653,
+    "estimated_mass_g": 0.31706838015620364,
+    "envelope_mm": [
+      5.5,
+      5.5,
+      8.0
+    ],
+    "note": "Tube usiné OD5.5/ID3.4 L8, insérer par extrémité avant assemblage"
+  },
+  {
+    "code": "R310_anti_ecrasement_22",
+    "material": "Al6082-T6",
+    "group": "frame",
+    "volume_mm3": 117.43273339118642,
+    "estimated_mass_g": 0.31706838015620337,
+    "envelope_mm": [
+      5.5,
+      5.5,
+      8.0
+    ],
+    "note": "Tube usiné OD5.5/ID3.4 L8, insérer par extrémité avant assemblage"
+  },
+  {
+    "code": "R310_anti_ecrasement_23",
+    "material": "Al6082-T6",
+    "group": "frame",
+    "volume_mm3": 117.4327333911865,
+    "estimated_mass_g": 0.3170683801562036,
+    "envelope_mm": [
+      5.5,
+      5.5,
+      8.0
+    ],
+    "note": "Tube usiné OD5.5/ID3.4 L8, insérer par extrémité avant assemblage"
+  },
+  {
+    "code": "R310_anti_ecrasement_24",
+    "material": "Al6082-T6",
+    "group": "frame",
+    "volume_mm3": 117.43273339118642,
+    "estimated_mass_g": 0.31706838015620337,
+    "envelope_mm": [
+      5.5,
+      5.5,
+      8.0
+    ],
+    "note": "Tube usiné OD5.5/ID3.4 L8, insérer par extrémité avant assemblage"
+  },
+  {
+    "code": "R310_anti_ecrasement_25",
+    "material": "Al6082-T6",
+    "group": "frame",
+    "volume_mm3": 117.43273339118662,
+    "estimated_mass_g": 0.3170683801562039,
+    "envelope_mm": [
+      5.5,
+      5.5,
+      8.0
+    ],
+    "note": "Tube usiné OD5.5/ID3.4 L8, insérer par extrémité avant assemblage"
+  },
+  {
+    "code": "R310_anti_ecrasement_26",
+    "material": "Al6082-T6",
+    "group": "frame",
+    "volume_mm3": 117.43273339118662,
+    "estimated_mass_g": 0.3170683801562039,
+    "envelope_mm": [
+      5.5,
+      5.5,
+      8.0
+    ],
+    "note": "Tube usiné OD5.5/ID3.4 L8, insérer par extrémité avant assemblage"
+  },
+  {
+    "code": "R310_anti_ecrasement_27",
+    "material": "Al6082-T6",
+    "group": "frame",
+    "volume_mm3": 117.43273339118662,
+    "estimated_mass_g": 0.3170683801562039,
+    "envelope_mm": [
+      5.5,
+      5.5,
+      8.0
+    ],
+    "note": "Tube usiné OD5.5/ID3.4 L8, insérer par extrémité avant assemblage"
+  },
+  {
+    "code": "R310_anti_ecrasement_28",
+    "material": "Al6082-T6",
+    "group": "frame",
+    "volume_mm3": 117.43273339118662,
+    "estimated_mass_g": 0.3170683801562039,
+    "envelope_mm": [
+      5.5,
+      5.5,
+      8.0
+    ],
+    "note": "Tube usiné OD5.5/ID3.4 L8, insérer par extrémité avant assemblage"
+  },
+  {
+    "code": "R310_anti_ecrasement_29",
+    "material": "Al6082-T6",
+    "group": "frame",
+    "volume_mm3": 117.43273339118676,
+    "estimated_mass_g": 0.31706838015620425,
+    "envelope_mm": [
+      5.5,
+      5.5,
+      8.0
+    ],
+    "note": "Tube usiné OD5.5/ID3.4 L8, insérer par extrémité avant assemblage"
+  },
+  {
+    "code": "R310_anti_ecrasement_30",
+    "material": "Al6082-T6",
+    "group": "frame",
+    "volume_mm3": 117.43273339118682,
+    "estimated_mass_g": 0.3170683801562044,
+    "envelope_mm": [
+      5.5,
+      5.5,
+      8.0
+    ],
+    "note": "Tube usiné OD5.5/ID3.4 L8, insérer par extrémité avant assemblage"
+  },
+  {
+    "code": "R310_anti_ecrasement_31",
+    "material": "Al6082-T6",
+    "group": "frame",
+    "volume_mm3": 117.43273339118677,
+    "estimated_mass_g": 0.3170683801562043,
+    "envelope_mm": [
+      5.5,
+      5.5,
+      8.0
+    ],
+    "note": "Tube usiné OD5.5/ID3.4 L8, insérer par extrémité avant assemblage"
+  },
+  {
+    "code": "R310_anti_ecrasement_32",
+    "material": "Al6082-T6",
+    "group": "frame",
+    "volume_mm3": 117.43273339118677,
+    "estimated_mass_g": 0.3170683801562043,
+    "envelope_mm": [
+      5.5,
+      5.5,
+      8.0
+    ],
+    "note": "Tube usiné OD5.5/ID3.4 L8, insérer par extrémité avant assemblage"
+  },
+  {
+    "code": "R310_anti_ecrasement_33",
+    "material": "Al6082-T6",
+    "group": "frame",
+    "volume_mm3": 117.43273339118673,
+    "estimated_mass_g": 0.3170683801562042,
+    "envelope_mm": [
+      5.5,
+      5.5,
+      8.0
+    ],
+    "note": "Tube usiné OD5.5/ID3.4 L8, insérer par extrémité avant assemblage"
+  },
+  {
+    "code": "R310_anti_ecrasement_34",
+    "material": "Al6082-T6",
+    "group": "frame",
+    "volume_mm3": 117.43273339118677,
+    "estimated_mass_g": 0.3170683801562043,
+    "envelope_mm": [
+      5.5,
+      5.5,
+      8.0
+    ],
+    "note": "Tube usiné OD5.5/ID3.4 L8, insérer par extrémité avant assemblage"
+  },
+  {
+    "code": "R310_anti_ecrasement_35",
+    "material": "Al6082-T6",
+    "group": "frame",
+    "volume_mm3": 117.43273339118682,
+    "estimated_mass_g": 0.3170683801562044,
+    "envelope_mm": [
+      5.5,
+      5.5,
+      8.0
+    ],
+    "note": "Tube usiné OD5.5/ID3.4 L8, insérer par extrémité avant assemblage"
+  },
+  {
+    "code": "R310_anti_ecrasement_36",
+    "material": "Al6082-T6",
+    "group": "frame",
+    "volume_mm3": 117.43273339118682,
+    "estimated_mass_g": 0.3170683801562044,
+    "envelope_mm": [
+      5.5,
+      5.5,
+      8.0
+    ],
+    "note": "Tube usiné OD5.5/ID3.4 L8, insérer par extrémité avant assemblage"
+  },
+  {
+    "code": "L01_R3_G",
+    "material": "Al6082-T6",
+    "group": "frame",
+    "volume_mm3": 38441.009431015234,
+    "estimated_mass_g": 103.79072546374113,
+    "envelope_mm": [
+      25.0,
+      275.0,
+      25.0
+    ],
+    "note": "L01 R2 conservé, quatre trousØ4.5 supplémentaires dans aile verticale"
+  },
+  {
+    "code": "L01_R3_D",
+    "material": "Al6082-T6",
+    "group": "frame",
+    "volume_mm3": 38441.00943101527,
+    "estimated_mass_g": 103.79072546374125,
+    "envelope_mm": [
+      25.0,
+      275.0,
+      25.0
+    ],
+    "note": "L01 R2 conservé, quatre trousØ4.5 supplémentaires dans aile verticale"
+  }
+]

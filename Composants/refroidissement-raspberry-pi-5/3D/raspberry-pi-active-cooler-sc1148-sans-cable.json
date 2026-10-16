@@ -1,0 +1,264 @@
+{
+  "file": "raspberry-pi-active-cooler-sc1148-sans-cable.step",
+  "title": "Active Cooler SC1148 | module sans cable",
+  "generated_on": "2026-10-14",
+  "unit": "mm",
+  "cadquery_version": "2.8.0",
+  "coordinate_system": "Module:base z0..1.4; fins vers+Z; attaches aux(2.75,2.75)/(60.75,39.75); fan centre(42,27.5). Axe pins Z.",
+  "bytes": 16544782,
+  "sha256": "f79b7588cf5a4eabe2bacce7efbec9153602278b56bb5a6a44847a8255f5d453",
+  "native_vendor_cad": false,
+  "hardware_measured": false,
+  "is_custom_project_design": false,
+  "published_nominal": [
+    "Plan fabricant:63.5x42.5mm; hauteur13.7mm avec attaches; ventilateur30x30mm; cotes approximatives",
+    "Fiche janvier2026:5V, PWM/tach, dissipateur anodise,3vis,2attaches avec ressorts,pads preposes",
+    "Documentation Pi:connecteur JST-SH4voies pas1mm; ordre5V/PWM/GND/TACH et rouge/bleu/noir/jaune"
+  ],
+  "estimates_and_limitations": [
+    "Reconstruction, pas un STEP natif fabricant ni du materiel mesure. Le plan ne donne pas de tolerances de production.",
+    "Contour local, position/diametre des trous, epaisseur1.4mm et repartition de hauteur reconstruits.",
+    "54segments6x9 observes; epaisseur2.05, entraxes3.45/4.85mm et stries0.18mm estimes.",
+    "Rotor visible30aubes: nombre/profil estimes; moteur, bobinages et electronique internes non documentes non inventes.",
+    "Trois pads observes dessous; dimensions17x17/14x10/8x8, epaisseurs0.5/1/1.5 et placement estimes, non qualifies sur composants.",
+    "Attaches entraxes58x37 issus de lecture du plan Pi, et geometrie des clips/ressorts estimes, sans classe de tolerance.",
+    "Marquage vectoriel issu du plan, relief0.018mm de lecture non physique; couleur reconstituee.",
+    "Fils0.60mmOD et ame0.21mm equivalente, longueur et courbes de pose estimes; pas un cordon de remplacement specifie.",
+    "Connecteur:pas1mm documente, boitier et contacts reconstruits; vue de numerotation a confirmer avant fabrication.",
+    "L encombrement cable compris depend de la pose;13.7mm du dessin n est pas la hauteur reservee au-dessus du PCB installe.",
+    "Les quatre fichiers sont des variantes de lecture, pas quatre refroidisseurs a acheter."
+  ],
+  "parameters": {
+    "body_plan_mm": [
+      63.5,
+      42.5
+    ],
+    "module_height_with_pushpins_reference_mm": 13.7,
+    "fan_body_mm": [
+      30,
+      30
+    ],
+    "pin_centres_study_mm": [
+      [
+        2.75,
+        2.75
+      ],
+      [
+        60.75,
+        39.75
+      ]
+    ],
+    "pins2d_delta": [
+      58,
+      37
+    ],
+    "fin_segments": 54,
+    "fin_columns": 6,
+    "fin_rows": 9,
+    "rotor_blades_estimated": 30,
+    "connector_pitch_mm": 1,
+    "thermal_pads": 3,
+    "logo": {
+      "closed_loops_used": 9,
+      "source_line_segments": 548,
+      "nominal_relief_mm": 0.018,
+      "depth_estimated": true,
+      "source_pdf": "notices/RaspberryPi-ActiveCooler-plan-reference-original.pdf",
+      "drawing_scale_points_per_mm": 2.8346456692913384,
+      "optical_mark_only": true
+    },
+    "physical_pair_overlaps": []
+  },
+  "source_pages": [
+    "RaspberryPi-ActiveCooler-fiche-actuelle-originale.pdf p.2-6",
+    "RaspberryPi-ActiveCooler-plan-reference-original.pdf p.1",
+    "Photos fournisseur Waveshare original1/3/5/7",
+    "Documentation RaspberryPi computer hardware,FAN pinout"
+  ],
+  "bounds_mm": {
+    "xmin": 0.0,
+    "xmax": 63.5,
+    "ymin": 0.0,
+    "ymax": 42.5,
+    "zmin": -3.2000000000000854,
+    "zmax": 10.5
+  },
+  "validation": {
+    "valid_after_reimport": true,
+    "solids": 25,
+    "faces": 4276,
+    "colors": 6,
+    "volume_relative_error": 1.844416232715704e-12,
+    "volume_relative_error_limit": 0.0001,
+    "volume_before_mm3": 10824.6866077093,
+    "volume_after_mm3": 10824.686607729265,
+    "adaptive_volume_tolerance": 1e-09,
+    "bbox_error_mm": 8.526512829121202e-14,
+    "bbox_error_limit_mm": 0.01,
+    "void_and_material_probes": [],
+    "elapsed_seconds": 21.539631499999814
+  },
+  "parts": [
+    {
+      "name": "Dissipateur_aluminium_54segments_stries",
+      "color_linear_rgb": [
+        0.61,
+        0.63,
+        0.66
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Marquage_RaspberryPi_contours_plan",
+      "color_linear_rgb": [
+        0.16,
+        0.17,
+        0.18
+      ],
+      "solids": 9
+    },
+    {
+      "name": "Attache_blanche_1_clip_fendu",
+      "color_linear_rgb": [
+        0.89,
+        0.88,
+        0.83
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Ressort_helicoidal_1_pas0_85_estime",
+      "color_linear_rgb": [
+        0.42,
+        0.45,
+        0.49
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Rondelle_appui_1_estimee",
+      "color_linear_rgb": [
+        0.89,
+        0.88,
+        0.83
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Attache_blanche_2_clip_fendu",
+      "color_linear_rgb": [
+        0.89,
+        0.88,
+        0.83
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Ressort_helicoidal_2_pas0_85_estime",
+      "color_linear_rgb": [
+        0.42,
+        0.45,
+        0.49
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Rondelle_appui_2_estimee",
+      "color_linear_rgb": [
+        0.89,
+        0.88,
+        0.83
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Ventilateur_coque_noire_reconstruite",
+      "color_linear_rgb": [
+        0.015,
+        0.018,
+        0.023
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Capot_argente_et_deux_agrafes_estimes",
+      "color_linear_rgb": [
+        0.61,
+        0.63,
+        0.66
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Rotor_visible_30_aubes_nombre_estime",
+      "color_linear_rgb": [
+        0.015,
+        0.018,
+        0.023
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Tete_vis_1_empreinte_6lobes_estimee",
+      "color_linear_rgb": [
+        0.42,
+        0.45,
+        0.49
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Tete_vis_2_empreinte_6lobes_estimee",
+      "color_linear_rgb": [
+        0.42,
+        0.45,
+        0.49
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Tete_vis_3_empreinte_6lobes_estimee",
+      "color_linear_rgb": [
+        0.42,
+        0.45,
+        0.49
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Pad_CPU_17x17_ep0_5_estime",
+      "color_linear_rgb": [
+        0.49,
+        0.64,
+        0.94
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Pad_RAM_14x10_ep1_estime",
+      "color_linear_rgb": [
+        0.49,
+        0.64,
+        0.94
+      ],
+      "solids": 1
+    },
+    {
+      "name": "Pad_PMIC_8x8_ep1_5_estime",
+      "color_linear_rgb": [
+        0.49,
+        0.64,
+        0.94
+      ],
+      "solids": 1
+    }
+  ],
+  "preview": {
+    "file": "raspberry-pi-active-cooler-sc1148-sans-cable.png",
+    "sha256": "097aaa087ac92d3eb127a9e2056c5430bf210020612f2a49e4201c78810cb072"
+  },
+  "generator": "tools/build_pi_cooler_step.py",
+  "generator_sha256": "eed61a6e3dbe470a8f9f104b42603b1c112ccf70e72733f4c83beef7124d37f8",
+  "wire_continuity_checks": [],
+  "source_manifest_sha256": "af44435b4026745a243185865295d0051d8db338307f7eb3f8fa40e5a174766d"
+}

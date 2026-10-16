@@ -1,0 +1,8 @@
+{
+  "checked_on": "2026-10-15",
+  "manufacturer": "https://www.supermagnete.fr/data_sheet_S-03-02-N.pdf",
+  "purchase": "https://www.supermagnete.fr/aimants-disques-neodyme/disque-magnetique-3mm-2mm_S-03-02-N",
+  "original_pdf": "../notices/supermagnete-S-03-02-N-original.pdf",
+  "shared_assets": "../assets.json",
+  "research": "../recherche-technique.md"
+}

@@ -1,0 +1,3713 @@
+ 
+ 
+
+   
+    
+      	 
+ 	 
+
+	 (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-MZGZ7HPZ'); 
+
+ 
+	 
+ 
+
+  
+	 
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+
+	gtag('config', 'AW-979441115');
+	
+	 
+
+ 	
+	 
+ 
+  
+ 	
+	
+  
+ 
+ 
+	 
+
+   
+
+
+   
+
+
+
+   
+
+  
+		  Arrêt d'urgence,Coupe batterie 80A, 48Volts Maxi, type ED80-1, Monté sur tout type de chariots - Parts&Go 
+	  
+	   
+   
+    
+	 
+
+  	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+ 
+	   
+			{
+			  "@context": "http://www.schema.org",
+			  "@type": "Organization",
+			  "name": "Parts And Go",
+			  "url": "https://www.partsandgo.fr",
+			  "logo": "https://www.partsandgo.fr/img/partsandgo-sample-data-site-logo-1610119190.jpg",
+			  "description": "Pièces détachées pour chariots élévateurs. Parts & Go est le spécialiste en ligne de la pièce détachées et accessoires pour chariots élévateurs, auto-laveuses, balayeuses et engins de manutention. Faites votre choix parmi un des plus grand catalogue de pièce détachées pour chariot élévateur en ligne et disponible au meilleur prix.
+",
+			  "address": {
+				"@type": "PostalAddress",
+				"streetAddress": "490 Rue Yves Chauvin",
+				"postOfficeBoxNumber": "BP14",
+				"addressLocality": "TAUXIGNY",
+				"addressRegion": "Centre",
+				"postalCode": "37310",
+				"addressCountry": "France"
+			  },
+			  "contactPoint": {
+				"@type": "ContactPoint",
+				"telephone": "0970241125"
+			  }
+			}
+		 
+	 
+	 
+	      
+		{
+		  "@context": "https://schema.org",
+		  "@type": "WebSite",
+		  "url": "https://www.partsandgo.fr/",
+		  "potentialAction": {
+			"@type": "SearchAction",
+			"target": "https://www.partsandgo.fr/fr/recherche?controller=search&search_categories=2&search_query={search_term_string}&jx_submit_search=",
+			"query-input": "required name=search_term_string"
+		  }
+		}
+	 
+	
+ 
+	 
+
+	 
+
+   
+
+
+
+   
+   
+
+
+
+     
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+
+
+
+
+      
+
+   
+        var ASPath = "\/modules\/pm_advancedsearch4\/";
+        var ASSearchUrl = "https:\/\/www.partsandgo.fr\/fr\/module\/pm_advancedsearch4\/advancedsearch4";
+        var JXHEADERACCOUNT_AVATAR = "";
+        var JXHEADERACCOUNT_DISPLAY_STYLE = "onecolumn";
+        var JXHEADERACCOUNT_DISPLAY_TYPE = "popup";
+        var JXHEADERACCOUNT_FAPPID = "463752547961174";
+        var JXHEADERACCOUNT_FAPPSECRET = "4db15fbb168d8af60560b7d6721a850a";
+        var JXHEADERACCOUNT_FSTATUS = "0";
+        var JXHEADERACCOUNT_GAPPID = "demo";
+        var JXHEADERACCOUNT_GAPPSECRET = "demo";
+        var JXHEADERACCOUNT_GREDIRECT = "demo";
+        var JXHEADERACCOUNT_GSTATUS = "0";
+        var JXHEADERACCOUNT_USE_AVATAR = "0";
+        var JXHEADERACCOUNT_USE_REDIRECT = "0";
+        var JXHEADERACCOUNT_VKAPPID = "demo";
+        var JXHEADERACCOUNT_VKAPPSECRET = "demo";
+        var JXHEADERACCOUNT_VKREDIRECT = "demo";
+        var JXHEADERACCOUNT_VKSTATUS = "0";
+        var apple_pay_button_theme = "black";
+        var apple_pay_button_type = "plain";
+        var as4_orderBySalesAsc = "Meilleures ventes en dernier";
+        var as4_orderBySalesDesc = "Meilleures ventes en premier";
+        var capture_method = "automatic";
+        var controller = "product";
+        var ec_ps_version17 = true;
+        var enable_amazon_pay = "0";
+        var enable_apple_pay = "0";
+        var enable_google_pay = "0";
+        var enable_klarna_express = "0";
+        var enable_link_express = "0";
+        var enable_pay_pal = "0";
+        var express_checkout = "0";
+        var get_client_secret = "https:\/\/www.partsandgo.fr\/fr\/module\/stripe_official\/getClientSecret";
+        var google_pay_button_theme = "black";
+        var google_pay_button_type = "plain";
+        var handle_order_action_url = "https:\/\/www.partsandgo.fr\/fr\/module\/stripe_official\/handleOrderAction";
+        var isZeroDecimalCurrency = false;
+        var jxdd_msg_days = "days";
+        var jxdd_msg_hr = "hrs";
+        var jxdd_msg_min = "mins";
+        var jxdd_msg_sec = "secs";
+        var jxsearch_highlight = "";
+        var jxsearch_itemstoshow = "3";
+        var jxsearch_minlength = "3";
+        var jxsearch_navigation = "1";
+        var jxsearch_navigation_position = "bottom";
+        var jxsearch_pager = "1";
+        var jxsearch_showall_text = "Afficher tous les r\u00e9sultats(%s plus)";
+        var jxsearch_showallresults = "1";
+        var klarna_button_theme = "dark";
+        var klarna_button_type = "continue";
+        var mergado = [];
+        var mergado_GA4_settings = {"withShipping":true,"withVat":true,"sendTo":"G-EVD053NW06"};
+        var mergado_GAds_settings = {"remarketingActive":false,"remarketingType":"retail","sendTo":""};
+        var mergado_GUA_settings = {"enhancedActive":false,"withVat":true,"sendTo":""};
+        var order_button_content = "Cr\u00e9er un devis";
+        var pay_pal_button_theme = "black";
+        var pay_pal_button_type = "paypal";
+        var postcode = null;
+        var prestashop = {"cart":{"products":[],"totals":{"total":{"type":"total","label":"Total","amount":0,"value":"0,00\u00a0\u20ac"},"total_including_tax":{"type":"total","label":"Total TTC","amount":0,"value":"0,00\u00a0\u20ac"},"total_excluding_tax":{"type":"total","label":"Total HT :","amount":0,"value":"0,00\u00a0\u20ac"}},"subtotals":{"products":{"type":"products","label":"Sous-total","amount":0,"value":"0,00\u00a0\u20ac"},"discounts":null,"shipping":{"type":"shipping","label":"Livraison","amount":0,"value":"gratuit"},"tax":{"type":"tax","label":"Taxes incluses","amount":0,"value":"0,00\u00a0\u20ac"}},"products_count":0,"summary_string":"0 articles","labels":{"tax_short":"TTC","tax_long":"(TTC)"},"id_address_delivery":0,"id_address_invoice":0,"is_virtual":false,"vouchers":{"allowed":1,"added":[]},"discounts":[],"minimalPurchase":0,"minimalPurchaseRequired":""},"currency":{"name":"euro","iso_code":"EUR","iso_code_num":"978","sign":"\u20ac"},"customer":{"lastname":null,"firstname":null,"email":null,"last_passwd_gen":null,"birthday":null,"newsletter":null,"newsletter_date_add":null,"ip_registration_newsletter":null,"optin":null,"website":null,"company":null,"siret":null,"ape":null,"outstanding_allow_amount":0,"max_payment_days":0,"note":null,"is_guest":0,"id_shop":null,"id_shop_group":null,"id_default_group":1,"date_add":null,"date_upd":null,"reset_password_token":null,"reset_password_validity":null,"vatNumber":null,"id":null,"is_logged":false,"gender":{"type":null,"name":null,"id":null},"risk":{"name":null,"color":null,"percent":null,"id":null},"addresses":[]},"language":{"name":"Fran\u00e7ais (French)","iso_code":"fr","locale":"fr-FR","language_code":"fr","is_rtl":"0","date_format_lite":"d\/m\/Y","date_format_full":"d\/m\/Y H:i:s","id":1},"page":{"title":"","canonical":null,"meta":{"title":"Arr\u00eat d'urgence,Coupe batterie 80A, 48Volts Maxi, type ED80-1, Mont\u00e9 sur tout type de chariots","description":"","keywords":"","robots":"index"},"page_name":"product","body_classes":{"lang-fr":true,"lang-rtl":false,"country-FR":true,"currency-EUR":true,"layout-full-width":true,"page-product":true,"tax-display-enabled":true,"product-id-52668":true,"product-Arr\u00eat d'urgence,Coupe batterie 80A, 48Volts Maxi, type ED80-1, Mont\u00e9 sur tout type de chariots":true,"product-id-category-30010":true,"product-id-manufacturer-0":true,"product-id-supplier-0":true,"product-available-for-order":true},"admin_notifications":[]},"shop":{"name":"Parts & Go","email":"contact@partsandgo.fr","registration_number":"","long":false,"lat":false,"logo":"\/img\/partsandgo-sample-data-site-logo-1610119190.jpg","stores_icon":"\/img\/new-store-logo_stores-1474377800.gif","favicon":"\/img\/favicon.ico","favicon_update_time":"1610119190","address":{"formatted":"Parts & Go Node Park Touraine, 490 rue Yves Chauvin - BP14 - 37310 Tauxigny 37310 Tauxigny-Saint-Bauld France","address1":"Node Park Touraine, 490 rue Yves Chauvin - BP14 - 37310 Tauxigny","address2":"","postcode":"37310","city":"Tauxigny-Saint-Bauld","state":null,"country":"France"},"phone":"09 70 24 11 25","fax":""},"urls":{"base_url":"https:\/\/www.partsandgo.fr\/","current_url":"https:\/\/www.partsandgo.fr\/fr\/arrets-d-urgence\/52668-arret-d-urgence.html","shop_domain_url":"https:\/\/www.partsandgo.fr","img_ps_url":"https:\/\/www.partsandgo.fr\/img\/","img_cat_url":"https:\/\/www.partsandgo.fr\/img\/c\/","img_lang_url":"https:\/\/www.partsandgo.fr\/img\/l\/","img_prod_url":"https:\/\/www.partsandgo.fr\/img\/p\/","img_manu_url":"https:\/\/www.partsandgo.fr\/img\/m\/","img_sup_url":"https:\/\/www.partsandgo.fr\/img\/su\/","img_ship_url":"https:\/\/www.partsandgo.fr\/img\/s\/","img_store_url":"https:\/\/www.partsandgo.fr\/img\/st\/","img_col_url":"https:\/\/www.partsandgo.fr\/img\/co\/","img_url":"https:\/\/www.partsandgo.fr\/themes\/theme1514\/assets\/img\/","css_url":"https:\/\/www.partsandgo.fr\/themes\/theme1514\/assets\/css\/","js_url":"https:\/\/www.partsandgo.fr\/themes\/theme1514\/assets\/js\/","pic_url":"https:\/\/www.partsandgo.fr\/upload\/","pages":{"address":"https:\/\/www.partsandgo.fr\/fr\/adresse","addresses":"https:\/\/www.partsandgo.fr\/fr\/adresses","authentication":"https:\/\/www.partsandgo.fr\/fr\/connexion","cart":"https:\/\/www.partsandgo.fr\/fr\/panier","category":"https:\/\/www.partsandgo.fr\/fr\/index.php?controller=category","cms":"https:\/\/www.partsandgo.fr\/fr\/index.php?controller=cms","contact":"https:\/\/www.partsandgo.fr\/fr\/nous-contacter","discount":"https:\/\/www.partsandgo.fr\/fr\/reduction","guest_tracking":"https:\/\/www.partsandgo.fr\/fr\/suivi-commande-invite","history":"https:\/\/www.partsandgo.fr\/fr\/historique-commandes","identity":"https:\/\/www.partsandgo.fr\/fr\/identite","index":"https:\/\/www.partsandgo.fr\/fr\/","my_account":"https:\/\/www.partsandgo.fr\/fr\/mon-compte","order_confirmation":"https:\/\/www.partsandgo.fr\/fr\/confirmation-commande","order_detail":"https:\/\/www.partsandgo.fr\/fr\/detail-commande","order_follow":"https:\/\/www.partsandgo.fr\/fr\/suivi-commande","order":"https:\/\/www.partsandgo.fr\/fr\/commande","order_return":"https:\/\/www.partsandgo.fr\/fr\/index.php?controller=order-return","order_slip":"https:\/\/www.partsandgo.fr\/fr\/avoirs","pagenotfound":"https:\/\/www.partsandgo.fr\/fr\/page-introuvable","password":"https:\/\/www.partsandgo.fr\/fr\/recuperation-mot-de-passe","pdf_invoice":"https:\/\/www.partsandgo.fr\/fr\/facture-pdf","pdf_order_return":"https:\/\/www.partsandgo.fr\/fr\/index.php?controller=pdf-order-return","pdf_order_slip":"https:\/\/www.partsandgo.fr\/fr\/index.php?controller=pdf-order-slip","prices_drop":"https:\/\/www.partsandgo.fr\/fr\/promotions","product":"https:\/\/www.partsandgo.fr\/fr\/index.php?controller=product","search":"https:\/\/www.partsandgo.fr\/fr\/recherche","sitemap":"https:\/\/www.partsandgo.fr\/fr\/Sitemap","stores":"https:\/\/www.partsandgo.fr\/fr\/magasins","supplier":"https:\/\/www.partsandgo.fr\/fr\/fournisseur","register":"https:\/\/www.partsandgo.fr\/fr\/connexion?create_account=1","order_login":"https:\/\/www.partsandgo.fr\/fr\/commande?login=1"},"theme_assets":"\/themes\/theme1514\/assets\/","actions":{"logout":"https:\/\/www.partsandgo.fr\/fr\/?mylogout="}},"configuration":{"display_taxes_label":true,"low_quantity_threshold":3,"is_b2b":true,"is_catalog":false,"show_prices":true,"opt_in":{"partner":true},"quantity_discount":{"type":"discount","label":"Remise"},"voucher_enabled":1,"return_enabled":1,"number_of_days_for_return":14},"field_required":[],"breadcrumb":{"links":[{"title":"Accueil","url":"https:\/\/www.partsandgo.fr\/fr\/"},{"title":"CONTACTS - CONTACTEURS","url":"https:\/\/www.partsandgo.fr\/fr\/30-contacts-contacteurs"},{"title":"ARRETS D URGENCE","url":"https:\/\/www.partsandgo.fr\/fr\/30010-arrets-d-urgence"},{"title":"Arr\u00eat d'urgence,Coupe batterie 80A, 48Volts Maxi, type ED80-1, Mont\u00e9 sur tout type de chariots","url":"https:\/\/www.partsandgo.fr\/fr\/arrets-d-urgence\/52668-arret-d-urgence.html"}],"count":4},"link":{"protocol_link":"https:\/\/","protocol_content":"https:\/\/"},"time":1791999117,"static_token":"91476a3a6cbe69fad0b78c045ab522f0","token":"fda9f3c33a8dc0e405f11eb5eb7d55b5"};
+        var psemailsubscription_subscription = "https:\/\/www.partsandgo.fr\/fr\/module\/ps_emailsubscription\/subscription";
+        var psr_icon_color = "#F19D76";
+        var restrictedExpressCheckout = false;
+        var save_payment_method = "on_session";
+        var search_url_local = "https:\/\/www.partsandgo.fr\/fr\/module\/jxsearch\/ajaxsearch";
+        var server_time = "2026-10-14 19:31:57";
+        var stripe_address = {"id_customer":null,"id_manufacturer":null,"id_supplier":null,"id_warehouse":null,"id_country":null,"id_state":null,"country":null,"alias":null,"company":null,"lastname":null,"firstname":null,"address1":null,"address2":null,"postcode":null,"city":null,"other":null,"phone":null,"phone_mobile":null,"vat_number":null,"dni":null,"date_add":null,"date_upd":null,"deleted":0,"id":null,"id_shop_list":null,"force_id":false};
+        var stripe_address_country_code = false;
+        var stripe_amount = 0;
+        var stripe_api_version = "2022-08-01";
+        var stripe_calculate_shipping = "https:\/\/www.partsandgo.fr\/fr\/module\/stripe_official\/calculateShipping";
+        var stripe_create_elements = "https:\/\/www.partsandgo.fr\/fr\/module\/stripe_official\/createElements";
+        var stripe_create_intent = "https:\/\/www.partsandgo.fr\/fr\/module\/stripe_official\/createIntent";
+        var stripe_css = "{\"base\": {\"iconColor\": \"#666ee8\",\"color\": \"#31325f\",\"fontWeight\": 400,\"fontFamily\": \"-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen-Sans, Ubuntu, Cantarell, Helvetica Neue, sans-serif\",\"fontSmoothing\": \"antialiased\",\"fontSize\": \"15px\",\"::placeholder\": { \"color\": \"#aab7c4\" },\":-webkit-autofill\": { \"color\": \"#666ee8\" }}}";
+        var stripe_currency = "eur";
+        var stripe_email = null;
+        var stripe_enable_testing_assistant = false;
+        var stripe_express_amount = 8388;
+        var stripe_express_cart_id = null;
+        var stripe_express_currency_iso = "eur";
+        var stripe_express_customer_model = {"email":null,"name":"","firstname":null,"lastname":null,"id":null,"address":{"city":null,"countryIso":null,"street":null,"zipCode":null,"state":null}};
+        var stripe_express_phone = null;
+        var stripe_express_product_id = 52668;
+        var stripe_express_return_url = "https:\/\/www.partsandgo.fr\/fr\/module\/stripe_official\/orderConfirmationReturn?key=169837794660d14f1d746196cc804e7e17b6c87c61be450f7d86ae66a032f59c";
+        var stripe_fullname = " ";
+        var stripe_layout = "accordion";
+        var stripe_locale = "fr";
+        var stripe_locations = [""];
+        var stripe_log_js_error = "https:\/\/www.partsandgo.fr\/fr\/module\/stripe_official\/logJsError";
+        var stripe_merchant_country_code = "FR";
+        var stripe_message = {"processing":"Traitement","accept_cgv":"Veuillez accepter les CGV","redirecting":"Redirection"};
+        var stripe_module_dir = "\/modules\/stripe_official";
+        var stripe_order_confirm = "https:\/\/www.partsandgo.fr\/fr\/module\/stripe_official\/orderConfirmationReturn";
+        var stripe_order_flow = "1";
+        var stripe_payment_elements_enabled = "1";
+        var stripe_pk = "pk_live_51UI61t5SzsUyE6xIse6as5ttyFobQ63xtSiOedouRs6iCHFWPUGdq5ACIu8PeaiflE7LBx8BVFPTxA3G00PMNfTW00dtg9tNxK";
+        var stripe_position = "top";
+        var stripe_product_out_of_stock = 1;
+        var stripe_ps_version = "";
+        var stripe_test_mode = false;
+        var stripe_theme = "stripe";
+        var use_blog_search = false;
+        var use_jx_ajax_search = true;
+        var use_new_ps_translation = false;
+       
+
+
+
+  
+ 
+            var JX_PLG_LIVE_MODE = 1;
+            var JX_PLG_TYPE = 'rollover';
+            var JX_PLG_ROLLOVER_ANIMATION = 'opacity';
+            var JX_PLG_DISPLAY_ITEMS = 8;
+            var JX_PLG_USE_CAROUSEL = false;
+            var JX_PLG_CAROUSEL_NB = 3;
+            var JX_PLG_USE_PAGER = false;
+            var JX_PLG_USE_CONTROLS = false;
+      
+            var PS_DISPLAY_JQZOOM = false;
+            var JXPRODUCTZOOMER_LIVE_MODE = 1;
+            var JXPRODUCTZOOMER_FANCY_BOX = 1;
+            var JXPRODUCTZOOMER_EXTENDED_SETTINGS = false;
+            var JXPRODUCTZOOMER_IMAGE_CHANGE_EVENT = false;
+            var JXPRODUCTZOOMER_ZOOM_LEVEL = 1;
+            var JXPRODUCTZOOMER_ZOOM_SCROLL = false;
+            var JXPRODUCTZOOMER_ZOOM_SCROLL_INCREMENT = 0.1;
+            var JXPRODUCTZOOMER_ZOOM_MIN_LEVEL = false;
+            var JXPRODUCTZOOMER_ZOOM_MAX_LEVEL = false;
+            var JXPRODUCTZOOMER_ZOOM_EASING = 1;
+            var JXPRODUCTZOOMER_ZOOM_EASING_AMOUNT = 12;
+            var JXPRODUCTZOOMER_ZOOM_LENS_SIZE = 200;
+            var JXPRODUCTZOOMER_ZOOM_WINDOW_WIDTH = 400;
+            var JXPRODUCTZOOMER_ZOOM_WINDOW_HEIGHT = 400;
+            var JXPRODUCTZOOMER_ZOOM_WINDOW_OFFSET_X = false;
+            var JXPRODUCTZOOMER_ZOOM_WINDOW_OFFSET_Y = false;
+            var JXPRODUCTZOOMER_ZOOM_WINDOW_POSITION = 1;
+            var JXPRODUCTZOOMER_ZOOM_WINDOW_BG_COLOUR = '#ffffff';
+            var JXPRODUCTZOOMER_ZOOM_FADE_IN = 200;
+            var JXPRODUCTZOOMER_ZOOM_FADE_OUT = 200;
+            var JXPRODUCTZOOMER_ZOOM_WINDOW_FADE_IN = 200;
+            var JXPRODUCTZOOMER_ZOOM_WINDOW_FADE_OUT = 200;
+            var JXPRODUCTZOOMER_ZOOM_WINDOW_TINT_FADE_IN = 200;
+            var JXPRODUCTZOOMER_ZOOM_WINDOW_TINT_FADE_OUT = 200;
+            var JXPRODUCTZOOMER_ZOOM_BORDER_SIZE = 4;
+            var JXPRODUCTZOOMER_ZOOM_SHOW_LENS = 1;
+            var JXPRODUCTZOOMER_ZOOM_BORDER_COLOR = '#888888';
+            var JXPRODUCTZOOMER_ZOOM_LENS_BORDER_SIZE = 1;
+            var JXPRODUCTZOOMER_ZOOM_LENS_BORDER_COLOR = '#000000';
+            var JXPRODUCTZOOMER_ZOOM_LENS_SHAPE = 'square';
+            var JXPRODUCTZOOMER_ZOOM_TYPE = 'lens';
+            var JXPRODUCTZOOMER_ZOOM_CONTAIN_LENS_ZOOM = 1;
+            var JXPRODUCTZOOMER_ZOOM_LENS_COLOUR = '#ffffff';
+            var JXPRODUCTZOOMER_ZOOM_LENS_OPACITY = 0.4;
+            var JXPRODUCTZOOMER_ZOOM_TINT = false;
+            var JXPRODUCTZOOMER_ZOOM_TINT_COLOUR = '#333333';
+            var JXPRODUCTZOOMER_ZOOM_TINT_OPACITY = 0.4;
+            var JXPRODUCTZOOMER_ZOOM_CURSOR = 'default';
+            var JXPRODUCTZOOMER_ZOOM_RESPONSIVE = 1;
+        var JXPRODUCTZOOMER_IS_MOBILE = false;
+  
+            var formmakerPath = "https://www.partsandgo.fr/fr/forms/upload";
+            var titleFileUploadFM = "Aucun fichier sélectionné";
+            var titleChooseFileFM = "Choose file"; 
+ 
+            {
+            "@context": "http://schema.org",
+            "@type": "Organization",
+           "name": "partsandgo.fr",
+            "aggregateRating" : {
+            "@type": "AggregateRating",
+            "ratingValue" : "4.66",
+            "bestRating" : "5.00",
+           "ratingCount" : "408"
+           }}
+ 
+         
+          window.mmp = {};
+         
+                 
+          window.mmp.cookies = {
+            functions: {},
+            sections: {
+              functional: {
+                onloadStatus: 1,
+                functions: {},
+                names: {}
+              },
+              analytical: {
+                onloadStatus: 1,
+                functions: {},
+                names: {}
+              },
+              advertisement: {
+                onloadStatus: 1,
+                functions: {},
+                names: {}
+              }
+            }
+          };
+
+          window.mmp.cookies.sections.functional.names = ["DmCookiesFunctional"];
+          window.mmp.cookies.sections.advertisement.names = ["DmCookiesMarketing"];
+          window.mmp.cookies.sections.analytical.names = ["DmCookiesAnalytics"];
+         
+         
+
+
+ 
+  
+ 
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('consent', 'default', {
+      'analytics_storage': 'granted',
+      'ad_storage': 'granted',
+      'ad_user_data': 'granted',
+      'ad_personalization': 'granted',
+    });
+
+    
+            gtag('config', 'G-EVD053NW06' );
+    
+    
+            window.mmp.cookies.sections.analytical.functions.gtagAnalytics = function () {
+          gtag('consent', 'update', {
+            'analytics_storage': 'granted'
+          });
+        };
+    
+    
+    
+            gtag('config','G-EVD053NW06', {'allow_enhanced_conversions': true});
+
+            
+     
+
+
+
+
+	 
+
+
+ 
+  
+ 
+jQuery(document).ready(function(e){            
+    jQuery('.obflink').click(function(e){    
+        var t = jQuery(this);    
+        var link = atob(t.data('o'))        
+        window.open(link)                   
+    })
+})
+ 
+     
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+       
+     
+  
+   
+
+   
+
+    
+      
+
+ 
+    
+ 
+
+    
+
+     
+      
+              
+
+       
+        
+          
+
+	 
+
+
+	 
+   
+     
+       
+         
+            
+         
+         
+            
+            
+           
+              
+              
+           
+            
+         
+       
+       
+          
+          
+          
+          
+          
+          
+       
+     
+   
+
+
+  
+
+ 
+
+ 
+
+ 
+
+        
+       
+                   
+             
+              Accueil
+             
+           
+                   
+             
+              Contactez-nous
+             
+           
+               
+     
+   
+
+
+  
+   
+     
+                
+         Se connecter 
+           
+           
+         
+           
+              
+             
+              
+ 
+       
+       
+            
+         
+                                
+  
+     
+  
+
+
+                      
+   
+         
+
+      
+        
+           
+                  
+
+      
+      
+              
+
+     
+   
+
+
+                      
+   
+         
+
+      
+        
+           
+             
+             
+                
+             
+           
+        
+
+      
+      
+              
+
+     
+   
+
+
+                   
+         
+           
+            Se connecter
+           
+           
+             
+     
+        Pas de compte ? Créez-en un
+     
+     
+                     
+                 
+                    Compte particulier
+                 
+             
+                 
+             
+                Compte professionnel
+             
+         
+     
+ 
+
+           
+           
+             
+            Mot de passe oublié?
+             
+           
+          
+         
+       
+     
+     
+       
+        
+            
+         
+                                
+   
+           
+        Titre
+       
+         
+
+      
+        
+                       
+               
+                 
+                 M 
+               
+             
+                       
+               
+                 
+                 Mme 
+               
+             
+                  
+
+      
+      
+              
+
+     
+   
+
+
+                      
+   
+         
+
+      
+        
+           
+                       
+              Seules les lettres et le caractère point (.), suivi d’un espace, sont autorisés.
+             
+                  
+
+      
+      
+              
+
+     
+   
+
+
+                      
+   
+         
+
+      
+        
+           
+                       
+              Seules les lettres et le caractère point (.), suivi d’un espace, sont autorisés.
+             
+                  
+
+      
+      
+              
+
+     
+   
+
+
+                      
+   
+         
+
+      
+        
+           
+                  
+
+      
+      
+              
+
+     
+   
+
+
+                      
+   
+         
+
+      
+        
+           
+             
+             
+                
+             
+           
+        
+
+      
+      
+              
+
+     
+   
+
+
+                      
+   
+         
+
+      
+        
+           
+             
+               
+               Recevoir les offres de nos partenaires et SMS 
+             
+           
+        
+
+      
+      
+              
+
+     
+   
+
+
+                      
+   
+         
+
+      
+        
+           
+             
+               
+               Recevoir notre newsletter  Vous pouvez vous désinscrire à tout moment. Vous trouverez pour cela nos informations de contact dans les conditions d'utilisation du site.  
+             
+           
+        
+
+      
+      
+              
+
+     
+   
+
+
+                   
+         
+          
+  <div class="form-group">
+      <input type="hidden" id="g-recaptcha-response" name="g-recaptcha-response">
+  </div>
+
+  <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=6LcSiqAqAAAAALvaRa45w0ha70VmZQqnT70rbN7z" async defer ></script>
+  <script type="text/javascript">
+        var onloadCallback = function() {
+                grecaptcha.ready(function() {
+                    grecaptcha.execute('6LcSiqAqAAAAALvaRa45w0ha70VmZQqnT70rbN7z', {action: 'contact'}).then(function(token) {
+                var recaptchaResponse = document.getElementById('g-recaptcha-response');
+                if(recaptchaResponse) {
+                        recaptchaResponse.value = token;
+                }
+              });
+            });
+            
+            $.ajaxSetup({
+                beforeSend: function(jqXHR, settings) {
+                    if ($('#g-recaptcha-response').length) {
+		        if (settings.data.indexOf('submitAccount') !== -1 && settings.data.indexOf('g-recaptcha-response') === -1) {
+		            settings.data += '&g-recaptcha-response=' + $('#g-recaptcha-response').val();
+		        }
+	            }
+                },
+	        complete: function(jqXHR,status) {
+	            if ($('#g-recaptcha-response').length) {
+		        onloadCallback();
+	            }
+	        }
+            });
+        };
+
+</script>
+           
+             
+             
+             
+             
+              Enregistrer
+             
+             
+               
+                Retour à la connexion
+               
+             
+           
+         
+       
+     
+     
+       
+         
+              
+           Veuillez renseigner l'adresse e-mail que vous avez utilisée à la création de votre compte. Vous recevrez un lien temporaire pour réinitialiser votre mot de passe. 
+           
+             
+               
+                 
+               
+             
+             
+               
+                Envoyer
+               
+             
+           
+         
+         
+           
+             
+              Retour à la connexion
+             
+           
+         
+       
+     
+   
+             
+           
+         
+       
+       
+  
+ 
+
+
+ 
+
+  
+   
+      
+     Français 
+      
+   
+   
+           Français 
+           English 
+           Deutsch 
+       
+   
+     Langue : 
+     
+               Français 
+               English 
+               Deutsch 
+           
+   
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+   
+     
+   
+ 
+
+
+ 
+ 
+   Contact et devis gratuit sur Parts&Go 
+       
+          Contactez-nous  
+   Du lundi au vendredi de 8h15 à 12h et de 13h30 à 18h 
+    09 70 24 11 25  
+     
+   
+
+  
+
+
+  
+	
+  
+   
+    
+     
+             
+         
+           
+           
+           
+			  
+			  
+             
+             
+                
+              
+             
+           
+         
+               
+     
+   
+  
+ 
+
+
+ 
+
+  
+         Besoin d'un spécialiste ?    
+ 
+ 
+
+ 
+   Besoin d'un spécialiste en pièces détachées chariot élévateur ? 
+       
+              Besoin d'un spécialiste ?    
+     
+   
+
+  
+   
+     
+        
+       Panier 
+       0 
+     
+   
+   
+      
+     
+       Panier 
+       
+               
+       
+                               
+               Sous-total 
+               0,00 € 
+                           
+                                                           
+               Livraison 
+               gratuit 
+                           
+                                         
+               Taxes incluses 
+               0,00 € 
+                           
+                         
+       
+       
+         Total 
+         0,00 € 
+       
+		
+       
+         COMMANDER 
+       
+		
+		 Ou 
+		
+		 
+         Transformer ce panier en devis 
+       
+     
+   
+  
+ 
+
+
+ 
+
+   
+   
+     
+       
+           
+              Menu
+           
+       
+
+         
+                   
+                           
+                          Moteurs                                           
+                                                   
+                                                       
+                                                                         
+                             
+                              
+ 
+   Pièces moteurs et culasses 
+  
+ 
+
+ 
+   ARBRES A CAME 
+ 
+
+ 
+   BIELLES 
+ 
+
+ 
+   CALES 
+ 
+
+ 
+   COURROIES 
+ 
+
+ 
+   CULASSES 
+ 
+
+ 
+   DISTRIBUTION 
+ 
+
+ 
+   HELICES 
+ 
+
+ 
+   JOINTS MOTEUR 
+ 
+
+ 
+   MANO CONTACTS 
+ 
+
+ 
+   PISTONS & SEGMENTS 
+ 
+
+ 
+   POMPES A GASOIL & ESSENCE 
+ 
+
+ 
+   POMPES A HUILE 
+ 
+
+ 
+   SILENT BLOC 
+ 
+
+ 
+   SOUPAPES 
+ 
+
+ 
+   VILEBREQUINS 
+ 
+
+                             
+                           
+                                                   
+                             
+                              
+ 
+   Démarrage 
+  
+ 
+
+ 
+   ALTERNATEURS 
+ 
+
+ 
+   COURONNES DEMARREUR 
+ 
+
+ 
+   DEMARREURS 
+ 
+
+ 
+   VOLANTS MOTEURS 
+ 
+
+       
+                                 ALTERNATEURS/DEMARREURS 
+           
+  
+                             
+                           
+                                                   
+                             
+                              
+ 
+   Allumage 
+  
+ 
+
+ 
+   ALLUMEURS 
+ 
+
+ 
+   BOBINES 
+ 
+
+ 
+   BOUGIES D'ALLUMAGE 
+ 
+
+ 
+   BOUGIES DE PRECHAUFFAGE 
+ 
+
+ 
+   CONDENSATEURS, ROTORS, VIS 
+ 
+
+ 
+   FAISCEAUX D'ALLUMAGE 
+ 
+
+ 
+   MODULES, REGULATEURS, SOLENOID 
+ 
+
+ 
+   TETE D'ALLUMAGE 
+ 
+
+                             
+                           
+                                                   
+                             
+                              
+ 
+   Transmission 
+  
+ 
+
+       
+                                 EMBRAYAGE - TRANSMISSION 
+           
+  
+       
+                                 CABLES D ACCELERATEUR 
+           
+  
+       
+                                 PEDALES - COUVRE PEDALE 
+           
+  
+                             
+                           
+                                                   
+                             
+                              
+ 
+   Refroidissement 
+  
+ 
+
+       
+                                 POMPE A EAU 
+           
+  
+       
+                                 RADIATEUR - DURITE 
+           
+  
+       
+                                 ECHAPPEMENTS 
+           
+  
+                             
+                           
+                                                   
+                             
+                              
+ 
+   Pièces carburation GPL 
+  
+ 
+
+ 
+   COUPLEURS-LYRES GAZ 
+ 
+
+       
+                                 GAZ 
+           
+  
+                             
+                           
+                                                                   
+                                                 
+                       
+                   
+                           
+                          Filtres                                           
+                                                   
+                                                       
+                                                                         
+                             
+                              
+       
+                                 FILTRES A AIR 
+           
+  
+       
+                                 FILTRES A HUILE - TRANSMISSION 
+           
+  
+                             
+                           
+                                                   
+                             
+                              
+       
+                                 FILTRES HYDRAULIQUES 
+           
+  
+       
+                                 FILTRES A ESSENCE / GASOIL 
+           
+  
+                             
+                           
+                                                   
+                             
+                              
+       
+                                 KITS FILTRES 
+           
+  
+       
+                                 AUTRES 
+           
+  
+                             
+                           
+                                                                   
+                                                 
+                       
+                   
+                           
+                          Batterie & Accessoires                                           
+                                                   
+                                                       
+                                                                         
+                             
+                              
+ 
+   Chargeurs et Batterie 
+  
+ 
+
+       
+                                 CHARGEURS ET BATTERIES 
+           
+  
+                             
+                           
+                                                   
+                             
+                              
+ 
+   Entretien batterie 
+  
+ 
+
+       
+                                 ACCESSOIRES DE BATTERIE 
+           
+  
+       
+                                 CABLES 
+           
+  
+ 
+   COLLIERS DE BATTERIE 
+ 
+
+ 
+   COSSES A SERTIR 
+ 
+
+ 
+   COSSES TUBULAIRES 
+ 
+
+ 
+   Pince à sertir 
+ 
+
+                             
+                           
+                                                   
+                             
+                              
+ 
+   Connecteurs DIN 
+  
+ 
+
+       
+                                 FEM 
+           
+  
+                             
+                           
+                                                   
+                             
+                              
+ 
+   Connecteurs plats 
+  
+ 
+
+       
+                                 XA 
+           
+  
+       
+                                 RB 
+           
+  
+       
+                                 XBE 
+           
+  
+       
+                                 ACCESSOIRES XA RB ET XBE 
+           
+  
+                             
+                           
+                                                   
+                             
+                              
+ 
+   Autres connecteurs 
+  
+ 
+
+       
+                                 AUTRES RAVIOLI 
+           
+  
+                             
+                           
+                                                   
+                             
+                              
+ 
+   Connecteurs sur-mesure 
+  
+ 
+
+ 
+   CONNECTEURS PERSONNALISABLES 
+ 
+
+       
+                                 CONNECTEURS CABLÉS 
+           
+  
+                             
+                           
+                                                                   
+                                                 
+                       
+                   
+                           
+                          Freinage                                           
+                                                   
+                                                       
+                                                                         
+                             
+                              
+       
+                                 MAITRES CYLINDRES 
+           
+  
+       
+                                 MACHOIRES DE FREINS 
+           
+  
+       
+                                 FREINS A MAIN 
+           
+  
+       
+                                 CYLINDRES DE ROUE 
+           
+  
+                             
+                           
+                                                   
+                             
+                              
+       
+                                 CABLES DE FREIN 
+           
+  
+       
+                                 CABLES DE RATTRAPAGE AUTO 
+           
+  
+       
+                                 RESSORTS 
+           
+  
+                             
+                           
+                                                   
+                             
+                              
+       
+                                 PLATEAUX ET TAMBOURS DE FREIN 
+           
+  
+                             
+                           
+                                                   
+                             
+                              
+
+       
+                                 AUTRES 
+           
+  
+                             
+                           
+                                                                   
+                                                 
+                       
+                   
+                           
+                          Contacteurs                                           
+                                                   
+                                                       
+                                                                         
+                             
+                              
+       
+                                 CONTACTS ET CONTACTEURS 
+           
+  
+       
+                                 CONTACTEURS ALBRIGHT 
+           
+  
+       
+                                 CONTACTS GENERAL ELECTRIC 
+           
+  
+       
+                                 CONTACTS HB 
+           
+  
+       
+                                 CONTACTS SCH 
+           
+  
+                             
+                           
+                                                   
+                             
+                              
+       
+                                 CONTACTEURS A CLE 
+           
+  
+                             
+                           
+                                                   
+                             
+                              
+       
+                                 INTERRUPTEURS 
+           
+  
+       
+                                 MICRORUPTEURS 
+           
+  
+       
+                                 ACCELERATEURS 
+           
+  
+                             
+                           
+                                                   
+                             
+                              
+       
+                                 ARRETS D URGENCE 
+           
+  
+                             
+                           
+                                                                   
+                                                 
+                       
+                   
+                           
+                          Roues                                           
+                                                   
+                                                       
+                                                                         
+                             
+                              
+ 
+   Roues et galets 
+  
+ 
+
+       
+                                 GALETS TRANSPALETTES 
+           
+  
+       
+                                 ROUES 
+           
+  
+       
+                                 BANDAGES 
+           
+  
+                             
+                           
+                                                   
+                             
+                              
+ 
+   Roues équipées 
+  
+ 
+
+       
+                                 STABILISATEURS ET CHAPES 
+           
+  
+       
+                                 CHAPES 
+           
+  
+       
+                                 PIECES DE DIRECTION 
+           
+  
+ 
+    
+  
+ 
+
+                             
+                           
+                                                   
+                             
+                              
+ 
+   Pneus 
+  
+ 
+
+       
+                                 PNEUMATIQUES 
+           
+  
+       
+                                 JANTES 
+           
+  
+                             
+                           
+                                                   
+                             
+                              
+ 
+   Accessoires roues 
+  
+ 
+
+       
+                                 ROULEMENTS 
+           
+  
+       
+                                 PARE FILS, CACHES, RONDELLES 
+           
+  
+ 
+   GOUJONS 
+ 
+
+                             
+                           
+                                                   
+                             
+                              
+	 
+    	 
+        	 
+                                 
+     
+
+                             
+                           
+                                                                   
+                                                 
+                       
+                   
+                           
+                          Equipement                                           
+                                                   
+                                                       
+                                                                         
+                             
+                              
+ 
+   Batterie 
+  
+ 
+
+       
+                                 ACCESSOIRES DE BATTERIE 
+           
+  
+       
+                                 CABLES 
+           
+  
+       
+                                 CHARGEURS ET BATTERIES 
+           
+  
+ 
+   CONNECTEURS CABLES 
+ 
+
+                             
+                           
+                                                   
+                             
+                              
+ 
+   Cabine 
+  
+ 
+
+       
+                                 AVERTISSEURS 
+           
+  
+       
+                                 CHAUFFAGES 
+           
+  
+       
+                                 ESSUIE GLACE 
+           
+  
+       
+                                 INDICATEURS 
+           
+  
+       
+                                 RETROVISEURS 
+           
+  
+       
+                                 VERINS A GAZ 
+           
+  
+       
+                                 POIGNEES DE VOLANT 
+           
+  
+       
+                                 PEDALES - COUVRE PEDALE 
+           
+  
+       
+                                 VENTILATEURS 
+           
+  
+       
+                                 DIVERS 
+           
+  
+                             
+                           
+                                                   
+                             
+                              
+ 
+   Entretien 
+  
+ 
+
+       
+                                 COSSES 
+           
+  
+       
+                                 FUSIBLES 
+           
+  
+       
+                                 GAINES-MANCHONS 
+           
+  
+       
+                                 AEROSOLS, PRODUITS D'ENTRETIEN 
+           
+  
+ 
+   CRICS, CHANDELLES ET TRANSPALETTES 
+ 
+
+                             
+                           
+                                                   
+                             
+                              
+ 
+   Securité 
+  
+ 
+
+       
+                                 ADHESIFS DE SECURITE 
+           
+  
+       
+                                 CAMERAS 
+           
+  
+       
+                                 EXTINCTEURS/1ER SECOURS 
+           
+  
+       
+                                 DIGICODES 
+           
+  
+ 
+   PLAQUES DE CHARGE 
+ 
+
+       
+                                 ENROULEURS 
+           
+  
+       
+                                 EQUILIBREURS 
+           
+  
+                             
+                           
+                                                                   
+                                                 
+                       
+                   
+                           
+                          Sièges                                           
+                                                   
+                                                       
+                                                                         
+                             
+                              
+ 
+   Sièges économiques 
+  
+ 
+
+       
+                                 SIEGES TYPE GS12 
+           
+  
+       
+                                 SIEGES DIVERS 
+           
+  
+                             
+                           
+                                                   
+                             
+                              
+ 
+   Sièges premium 
+  
+ 
+
+       
+                                 SIEGES & ACCESSOIRES GRAMMER 
+           
+  
+                             
+                           
+                                                   
+                             
+                              
+ 
+   Accessoires sièges 
+  
+ 
+
+       
+                                 CEINTURES DE SECURITE 
+           
+  
+       
+                                 MICRO CONTACT & ACCESSOIRES 
+           
+  
+                             
+                           
+                                                                   
+                                                 
+                       
+                   
+                           
+                          Eclairage                                           
+                                                   
+                                                       
+                                                                         
+                             
+                              
+ 
+   Signalisation 
+  
+ 
+
+       
+                                 GYROPHARES 
+           
+  
+       
+                                 FEUX ECLATS 
+           
+  
+       
+                                 FEUX BLOC AVANT ET ARRIERE 
+           
+  
+                             
+                           
+                                                   
+                             
+                              
+ 
+   Securité 
+  
+ 
+
+       
+                                 ÉCLAIRAGE SÉCURITÉ 
+           
+  
+       
+                                 PHARES DE TRAVAIL 
+           
+  
+                             
+                           
+                                                   
+                             
+                              
+ 
+   Accessoires éclairage 
+  
+ 
+
+       
+                                 AMPOULES 
+           
+  
+       
+                                 CENTRALES CLIGNOTANTES 
+           
+  
+                             
+                           
+                                                                   
+                                                 
+                       
+                   
+                           
+                          Pièces de Mat                                           
+                                                   
+                                                       
+                                                                         
+                             
+                              
+ 
+   Mat 
+  
+ 
+
+       
+                                 CHAINE 
+           
+  
+       
+                                 GALETS DE MAT 
+           
+  
+       
+                                 COUSSINNETS DE MAT 
+           
+  
+                             
+                           
+                                                   
+                             
+                              
+ 
+   Tablier de mat 
+  
+ 
+
+       
+                                 CALES DE TDL 
+           
+  
+       
+                                 FOURCHES 
+           
+  
+                             
+                           
+                                                   
+                             
+                              
+ 
+   Meilleurs produits 
+  
+ 
+
+   
+     
+       
+         
+           
+         
+       
+       
+         
+           
+            Chaine à maillons plastiques (vendu au mètre) 25,4 - LINDE - L.axe : 61,4
+           
+         
+         
+                     144,30 € 
+         
+
+       
+     
+   
+
+   
+     
+       
+         
+           
+         
+       
+       
+         
+           
+            Galet de mât 40x119.7x28 monté sur TOYOTA
+           
+         
+         
+                     90,00 € 
+         
+
+       
+     
+   
+
+                             
+                           
+                                                                   
+                                                 
+                       
+                   
+                           
+                          Plus                                           
+                                                   
+                                                       
+                                                                         
+                             
+                              
+       
+                                 AUTOLAVEUSE & BALAYEUSE 
+              
+   
+           
+         BAVETTES 
+               
+           
+         BROSSES 
+               
+           
+         PLATEAUX POUR DISQUES 
+               
+           
+         MOTEURS D'ASPIRATION 
+               
+           
+         ROUES 
+               
+           
+         ACCESSOIRES 
+               
+       
+
+           
+  
+                             
+                           
+                                                   
+                             
+                              
+       
+                                 ELECTRONIQUE 
+              
+   
+           
+         ACCELERATEURS 
+               
+           
+         CONNECTEURS 
+               
+           
+         FAISCEAUX 
+               
+           
+         POTENTIOMETRES 
+               
+           
+         THYRISTORS 
+               
+           
+         VARIATEURS & CARTES ELECTRONIQUES 
+               
+           
+         CONVERTISSEURS 
+               
+           
+         DIVERS 
+               
+           
+         COMPOSANTS ELECTRONIQUES 
+               
+       
+
+           
+  
+                             
+                           
+                                                   
+                             
+                              
+       
+                                 MOTEURS ELECTRIQUES 
+              
+   
+           
+         BALAIS 
+               
+           
+         MOTEURS ELECTRIQUES 
+               
+           
+         ELECTRO FREIN 
+               
+           
+         POMPE HYDRAULIQUE, DISTRIBUTION 
+               
+           
+         AUTRES 
+               
+       
+
+           
+  
+                             
+                           
+                                                   
+                             
+                              
+       
+                                 MECANIQUE 
+              
+   
+           
+         JOINTS 
+               
+           
+         MECANIQUE 
+               
+           
+         PIECES DE DIRECTION 
+               
+           
+         FLEXIBLES HYDRAULIQUES 
+               
+       
+
+           
+  
+       
+                                 NACELLES 
+           
+  
+       
+                                 POIDS LOURDS 
+           
+  
+                             
+                           
+                                                                   
+                                                 
+                       
+               
+     
+   
+ 
+ 
+ 
+ 
+
+	         
+       
+
+      
+            
+
+
+
+        
+        
+ 
+   
+    
+    
+    
+       
+ 
+      
+
+       
+        		  
+		 
+		  
+          
+
+            
+              
+         
+           
+             
+                              
+                   
+                                            Accueil  
+                                         
+                   
+                
+                              
+                   
+                                            CONTACTS - CONTACTEURS  
+                                         
+                   
+                
+                              
+                   
+                                            ARRETS D URGENCE  
+                                         
+                   
+                
+                              
+                   
+                                           Arrêt d'urgence,Coupe batterie 80A, 48Volts Maxi, type ED80-1, Monté sur tout type de chariots 
+                                         
+                   
+                
+                           
+           
+       
+              
+		  
+		  
+
+           
+			  
+			  
+			
+             
+				
+				
+				
+              
+   
+    
+    
+   
+     
+
+     
+       
+        
+           
+            
+              
+                 
+  
+     
+       
+                   
+             
+           
+               
+        
+        
+     
+  
+  
+     
+       
+      
+         
+                   
+      
+          
+     
+  
+ 
+
+              
+            
+           
+        
+       
+
+       
+        
+          
+                           
+                 Référence  
+                 52668 
+                 
+               
+                      
+
+          
+             Arrêt d'urgence,Coupe batterie 80A, 48Volts Maxi, type ED80-1, Monté sur tout type de chariots 
+          
+
+          
+            
+                           
+                Arrêt d'urgence,Coupe batterie 80A, 48Volts Maxi, type ED80-1, Monté sur tout type de chariots : pièce détachée, de rechange compatible pour les appareils industriels et véhicules de manutention  
+                                                                                                                                                                                                                                                                                                   
+                           JUNGHEINRICH, ALBRIGHT 
+                                                                    
+                  
+        
+                Convient pour la réparation, maintenance, entretien ou remplacement des pièces 
+                
+                                  ARRETS D URGENCE
+                                parmi nos pièces 
+
+                CONTACTS - CONTACTEURS.
+                Arrêt d'urgence,Coupe batterie 80A, 48Volts Maxi, type ED80-1, Monté sur tout type de chariots : pièce neuve disponible en ligne.
+                  
+                 
+                  Toutes nos pièces détachées 
+                                      ARRETS D URGENCE
+                                    sont conformes aux pièces d'origine des constructeurs. 
+                 
+                  
+                 
+                    Livraison 24/48h 
+                    Retour possible sous 14 jours 
+                    Paiement sécurisé 
+                 
+               
+                      
+        
+
+        
+                  
+               
+    
+          
+
+    
+       
+         
+         
+		   
+
+         83,88 € 
+
+        
+                  
+       
+    
+
+    
+          
+
+    
+          
+
+    
+          
+
+    
+
+     
+              TTC
+            
+      
+     
+   
+             69,90 € HT 
+          
+
+           
+            
+             
+              
+                 
+                   
+                   
+                   
+
+                  
+                     
+   
+                  
+
+                  
+                                      
+
+                  
+
+                  
+                     
+  
+    
+       
+         
+           
+         
+
+         
+           
+            Ajouter au panier
+           
+         
+       
+    
+
+    
+       
+                   
+			En stock - Livraison dès le lendemain
+           
+               
+    
+    
+    
+          
+   
+                  
+
+                  
+                     
+    
+
+       
+       
+                   
+             
+                
+               Partager 
+             
+           
+                   
+             
+                
+               Tweet 
+             
+           
+                   
+             
+                
+               Pinterest 
+             
+           
+               
+     
+  
+
+ 
+ 
+ 
+
+ 
+
+ 
+   
+ 
+ 
+   
+ 
+
+ 
+   
+ 
+
+
+
+ 
+                  
+
+                  
+                     
+                  
+                 
+              
+             
+           
+                
+       
+     
+
+    
+       
+         
+           
+              
+             Caractéristiques 
+           
+			
+                       
+                
+               Descriptif 
+             
+                    
+          
+                   
+
+         
+                       
+              
+                 Descriptif 
+                 
+                   Arrêt d'urgence, Coupe batterie 80A, 48Volts Maxi, type ED80-1, Monté sur tout type de chariots     Caractéristiques Techniques :   Type :  Coupe Batterie  Tension :  48Volts Maxi  Ampérage :  80A   Marque :  Albright  Modèle :  ED80-1  Monté sur :  Tout type de chariots   
+                 
+              
+             
+          
+          
+             
+
+   Caractéristiques 
+   
+     
+     
+
+      
+
+      
+
+      
+              
+     
+
+    
+
+    
+       
+        
+       
+    
+
+    
+               
+           
+                           Ref 
+               52668 
+                           modèle 
+               ED80-1 
+                           Tension 
+               48Volts 
+                           Info supplémentaire 
+               Arrêt d'urgence 
+                           Ampère 
+               80A 
+                           Poids 
+               220 g 
+                           Famille 
+               CONTACTS - CONTACTEURS 
+                           Marques compatibles 
+               JUNGHEINRICH, ALBRIGHT 
+                           Marques 
+               Albright 
+                       
+         
+          
+
+    
+    
+          
+   
+ 
+          
+
+          
+                      
+
+                   
+       
+    
+
+    
+                 
+   
+          4 autres produits dans la même catégorie :
+       
+   
+          
+   
+	   
+	   
+	   
+	   
+	  
+     
+       
+         
+          
+             
+                                                               
+            
+                           
+          
+          
+             
+                           
+          
+         
+       
+
+       
+        
+            Arrêt d'urgence, Coup de poing ø57mm Monté sur tout type de...  
+        
+
+        
+            
+        
+
+        
+            
+        
+
+        
+                  
+
+        
+                       
+              
+                
+				
+               
+               
+               
+				
+                               Prix 
+                 166,50 €  TTC
+              
+
+              
+
+              
+             
+             
+                           138,75 € HT 
+                              
+
+       
+
+        
+          
+        
+
+       
+     
+     
+       
+         
+           
+              
+             
+               
+                 
+                  
+                     
+  
+     
+       
+                   
+             
+           
+               
+        
+        
+     
+  
+  
+     
+       
+      
+         
+                   
+      
+          
+     
+  
+ 
+
+                  
+                 
+                 
+                   Arrêt d'urgence, Coup de poing ø57mm Monté sur tout type de chariots 
+
+                    
+                  
+                      
+                  
+                 
+               
+             
+              
+           
+         
+       
+     
+   
+
+
+          
+   
+	   
+	   
+	   
+	   
+	  
+     
+       
+         
+          
+             
+                                                               
+            
+                           
+          
+          
+             
+                           
+          
+         
+       
+
+       
+        
+            Coupe batterie, 150A, 24Volts, Unipolaire, Corp métal avec...  
+        
+
+        
+            
+        
+
+        
+            
+        
+
+        
+                  
+
+        
+                       
+              
+                
+				
+               
+               
+               
+				
+                               Prix 
+                 24,20 €  TTC
+              
+
+              
+
+              
+             
+             
+                           20,17 € HT 
+                              
+
+       
+
+        
+          
+        
+
+       
+     
+     
+       
+         
+           
+              
+             
+               
+                 
+                  
+                     
+  
+     
+       
+                   
+             
+           
+               
+        
+        
+     
+  
+  
+     
+       
+      
+         
+                   
+      
+          
+     
+  
+ 
+
+                  
+                 
+                 
+                   Coupe batterie, 150A, 24Volts, Unipolaire, Corp métal avec fixation M10 Monté sur tout type de chariots 
+
+                    
+                  
+                      
+                  
+                 
+               
+             
+              
+           
+         
+       
+     
+   
+
+
+          
+   
+	   
+	   
+	   
+	   
+	  
+     
+       
+         
+          
+             
+                                                               
+            
+                           
+          
+          
+             
+                           
+          
+         
+       
+
+       
+        
+            arret d'urgence 250A-80Vmaxi S134 unipolar avec serrure  
+        
+
+        
+            
+        
+
+        
+            
+        
+
+        
+                  
+
+        
+                       
+              
+                
+				
+               
+               
+               
+				
+                               
+     
+         Produit indisponible.  
+        Contactez un conseiller pour les alternatives ou le réapprovisionnement.
+     
+     
+        Contactez-nous
+     
+ 
+              
+
+              
+
+              
+             
+             
+                              
+
+       
+
+        
+          
+        
+
+       
+     
+     
+       
+         
+           
+              
+             
+               
+                 
+                  
+                     
+  
+     
+       
+                   
+             
+           
+               
+        
+        
+     
+  
+  
+     
+       
+      
+         
+                   
+      
+          
+     
+  
+ 
+
+                  
+                 
+                 
+                   arret d'urgence 250A-80Vmaxi S134 unipolar avec serrure 
+
+                    
+                  
+                      
+                  
+                 
+               
+             
+              
+           
+         
+       
+     
+   
+
+
+          
+   
+	   
+	   
+	   
+	   
+	  
+     
+       
+         
+          
+             
+                                                               
+            
+                           
+          
+          
+             
+                           
+          
+         
+       
+
+       
+        
+            Arrêt d'urgence, Coupe Batterie clé amovible, chaîne et...  
+        
+
+        
+            
+        
+
+        
+            
+        
+
+        
+                  
+
+        
+                       
+              
+                
+				
+               
+               
+               
+				
+                               Prix 
+                 38,40 €  TTC
+              
+
+              
+
+              
+             
+             
+                           32,00 € HT 
+                              
+
+       
+
+        
+          
+        
+
+       
+     
+     
+       
+         
+           
+              
+             
+               
+                 
+                  
+                     
+  
+     
+       
+                   
+             
+           
+               
+        
+        
+     
+  
+  
+     
+       
+      
+         
+                   
+      
+          
+     
+  
+ 
+
+                  
+                 
+                 
+                   Arrêt d'urgence, Coupe Batterie clé amovible, chaîne et capuchon, 250A, 24Vmaxi Monté sur tout type de chariots 
+
+                    
+                  
+                      
+                  
+                 
+               
+             
+              
+           
+         
+       
+     
+   
+
+
+       
+ 
+
+          
+
+    
+                
+
+    
+      
+    
+
+ 
+  
+  
+
+    
+       
+        
+           
+        
+       
+    
+   
+
+    
+   
+
+			
+              
+
+              
+             
+           
+          
+               
+
+       
+                          
+
+ 
+
+ 
+
+ 
+ 
+   Pièces neuves chariot élévateur 
+       
+       
+ Pièces d'origine et neuves 
+ Compatibles avec votre chariot 
+ 
+     
+    
+
+
+ 
+ 
+   Echange et retour possible de vos pièces 
+       
+       
+ Échange et retours 
+ jusqu'à 14 jours 
+ 
+     
+    
+
+
+ 
+ 
+   Livraison point relais et domicile sur Parts&Go 
+       
+       
+ Livraison rapide 
+ Sous 24h/48h 
+ 
+     
+    
+
+
+ 
+ 
+   Equipe technique à votre écoute 
+       
+       
+ Équipe technique 
+ disponible au 09 70 24 11 25 
+ 
+     
+    
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+
+  
+   
+ 
+  Pièces détachées pour chariots élévateurs  
+ Parts & Go est le spécialiste en ligne de la pièce détachées et accessoires pour chariots élévateurs, auto-laveuses, balayeuses et engins de manutention.   Faites votre choix parmi un des plus grand catalogue de pièce détachées pour chariot élévateur en ligne et disponible au meilleur prix. 
+ 
+ 
+ 
+
+
+ 
+ 
+   
+     Informations 
+      
+   
+   
+           
+          
+        Node Park Touraine, 490 rue Yves Chauvin - BP14 - 37310 Tauxigny
+       
+               
+          
+        09 70 24 11 25
+       
+                   
+       
+ 
+ 
+ 
+
+
+ 
+
+ 
+
+
+   
+     
+		 Catégories 
+		
+      
+		
+            AUTOLAVEUSE & BALAYEUSE    ACCESSOIRES    CONTACTS - CONTACTEURS    CONNECTEURS-PRISES    ELECTRONIQUE    ECLAIRAGE    FILTRES    FREINAGE    CHAINES FOURCHES NACELLES    MECANIQUE    MOTEURS ELECTRIQUES    ROUES & PNEUS    THERMIQUES    Sièges pour chariots élévateurs, autolaveuses et engins de manutention    
+     
+   
+ 
+ 
+
+
+ 
+
+        
+             
+        La société
+          
+       
+       
+                   
+             
+              Livraison
+             
+           
+                   
+             
+              Mentions légales
+             
+           
+                   
+             
+              Conditions d'utilisation et générales de ventes
+             
+           
+                   
+             
+              A propos
+             
+           
+                   
+             
+              Paiement sécurisé
+             
+           
+                   
+             
+              Confidentialité & Vie Privée
+             
+           
+                   
+             
+              Besoin d'un spécialiste ?
+             
+           
+                   
+             
+              Contactez-nous
+             
+           
+                   
+             
+              Plan du site
+             
+           
+               
+     
+   
+ 
+
+
+ 
+
+  
+   
+     
+      Votre compte
+     
+      
+   
+   
+             
+           
+            Informations personnelles
+           
+         
+             
+           
+            Retours produit
+           
+         
+             
+           
+            Commandes
+           
+         
+             
+           
+            Avoirs
+           
+         
+             
+           
+            Adresses
+           
+         
+             
+           
+            Bons de réduction
+           
+         
+        
+ 
+   
+    Mes alertes
+   
+ 
+
+	 
+  
+
+ 
+   Informations 
+       
+        Pourquoi choisir Parts&Go ?  
+  L'entretien des chariots élévateurs  
+  Historique des chariots élévateurs  
+  Paramètres Cookies  
+     
+    
+ 
+ 
+
+
+ 
+
+ 
+
+  
+
+
+ 
+ 
+   Paiement sécurisé Parts&Go 
+       
+       
+ 
+ Paiements sécurisés garantis 
+          
+ 
+     
+    
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+       
+        © 2026 - Tous droits réservés Parts And Go  
+     
+  
+
+ 
+
+ 
+console.log("TB 5 in Trusted Shops Module: start")
+ 
+
+ 
+ 
+  
+console.log("TB 5 in Trusted Shops Module: End")
+  
+ 
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+    
+             
+                             
+                     
+                                                     
+                                 
+                             
+                                                                             Besoin d'un spécialiste ? 
+                                             
+                 
+                     
+    
+    
+             
+                             
+                     
+                                                     
+                                 
+                             
+                                                                             Besoin d'un spécialiste ? 
+                                             
+                 
+                     
+     
+ 
+ 
+ 
+ 
+
+               
+
+     
+
+    
+          
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+
+    
+      
+ 
+   
+     
+    $(document).ready(function() {
+      var elem = $('.home-parallax-1');
+      if (elem.length) {
+        $('body').append('            \r\n \r\n Get yourself a smart washing machine! \r\n This one does not simply save time, it also saves money on your water consumption bills! \r\n \r\n    \n  ');
+        var wrapper = $('.rd-parallax-1');
+        elem.before(wrapper);
+        $('.rd-parallax-1 .parallax-main-layout').replaceWith(elem);
+        win = $(window);
+              }
+    });
+   
+     
+    $(document).ready(function() {
+      var elem = $('.home-parallax-2');
+      if (elem.length) {
+        $('body').append('        Enhance your shower experience! \r\n Buy a smart, music-playing set of shower heads! \r\n  Shop now           \n  ');
+        var wrapper = $('.rd-parallax-2');
+        elem.before(wrapper);
+        $('.rd-parallax-2 .parallax-main-layout').replaceWith(elem);
+        win = $(window);
+              }
+    });
+   
+   
+    $(document).ready(function() {
+      $(window).on('load', function() {
+        $.RDParallax();
+        $('.rd-parallax-layer video').each(function() {
+          $(this)[0].play();
+        });
+      });
+    });
+   
+
+ 
+                          
+          $(document).ready(function() {
+            if ($('#displayhome-block-category-120020').length) {
+              initJXCategoryProductsCarousel('#displayhome-block-category-120020', 5, 20, 1, 1, 500, 3000, 1);
+            }
+          });
+        
+              function initJXCategoryProductsCarousel(cp_id_carousel, cp_caroucel_nb, cp_caroucel_slide_margin, cp_caroucel_item_scroll, cp_caroucel_auto, cp_caroucel_speed, cp_caroucel_auto_pause, cp_caroucel_loop) {
+      var cp_slider = new Swiper(cp_id_carousel, {
+        slideClass: 'product-miniature',
+                slidesPerView: cp_caroucel_nb,
+        spaceBetween: cp_caroucel_slide_margin,
+        slidesPerGroup: cp_caroucel_item_scroll,
+        speed: cp_caroucel_speed,
+        loop: cp_caroucel_loop,
+        pagination: {
+          el: cp_id_carousel + '-swiper-pagination',
+          clickable: true,
+          type: 'bullets'
+        },
+        navigation: {
+          nextEl: cp_id_carousel + '-swiper-next',
+          prevEl: cp_id_carousel + '-swiper-prev'
+        },
+        breakpoints: {
+          767: {
+            spaceBetween: 10,
+            slidesPerView: 2
+          },
+          991: {
+            slidesPerView: 3
+          },
+          1199: {
+            slidesPerView: 4
+          },
+          1615: {
+            slidesPerView: 5
+          }
+        }
+      });
+    }
+    
+            
+        $(document).ready(function() {
+          if ($('#jx_manufacturers_block_displayHome').length) {
+            initJXManufacturerCarousel('#jx_manufacturers_block_displayHome', 8, 30, 1, 0, 500, 3000, 1);
+          }
+        });
+      
+        function initJXManufacturerCarousel(m_id_carousel, m_caroucel_nb, m_caroucel_slide_margin, m_caroucel_item_scroll, m_caroucel_auto, m_caroucel_speed, m_caroucel_auto_pause, m_caroucel_loop) {
+    var m_jxslider = new Swiper(m_id_carousel,{
+              autoplay: {
+          delay: m_caroucel_auto_pause
+        },
+            slidesPerView: m_caroucel_nb,
+      spaceBetween: m_caroucel_slide_margin,
+      slidesPerGroup: m_caroucel_item_scroll,
+      speed: m_caroucel_speed,
+      loop: m_caroucel_loop,
+      pagination: {
+        el: m_id_carousel + '-swiper-pagination',
+        clickable: true,
+        type: 'bullets'
+      },
+      navigation: {
+        nextEl: m_id_carousel + '-swiper-next',
+        prevEl: m_id_carousel + '-swiper-prev'
+      },
+      breakpoints: {
+        450: {
+          slidesPerView: 2
+        },
+        767: {
+          slidesPerView: 3
+        },
+        991: {
+          slidesPerView: 4,
+          spaceBetween: 5
+        },
+        1199: {
+          slidesPerView: 5,
+          spaceBetween: 10
+        }
+      }
+    });
+  }
+ 
+
+	  
+ 
+ 
+var prodid;
+var g_category;
+var g_pagetype;
+var g_totalvalue;
+
+			prodid = '52668';
+		g_pagetype = 'product';
+		g_totalvalue = 83.88 - 0;
+	 
+ 
+
+  gtag('event', 'page_view', {
+    'send_to': 'AW-979441115',
+    'ecomm_pagetype': g_pagetype,
+    'ecomm_prodid': prodid,
+    'ecomm_totalvalue': g_totalvalue
+});
+
+ 	
+ 
+	  
+    
+	  
+ 
+  
+     
+        var lazyLoadInstance = new LazyLoad({
+            elements_selector: ".lazy"
+        });
+     
+ 
+	  
+ 
+	  
+     
+    window.axeptioSettings = {
+      // 
+    };
+
+    
+    window.axeptioModuleStep = [];
+
+    (function(d, s) {
+      var t = d.getElementsByTagName(s)[0], e = d.createElement(s);
+      e.async = true; e.src = "//static.axept.io/sdk.js";
+      t.parentNode.insertBefore(e, t);
+    })(document, "script");
+
+    if (window.axeptioModuleStep !== null && !Array.isArray(window.axeptioModuleStep)) {
+      (_axcb = window._axcb || []).push(function (sdk) {
+        if(!sdk.cookiesConfig){
+          return;
+        }
+        sdk.cookiesConfig.steps.splice(1, 0, window.axeptioModuleStep)
+      });
+    }
+
+    (_axcb = window._axcb || []).push(function (sdk) {
+      var currentCookiesConfig = typeof window.axeptioSDK.userPreferencesManager === "undefined"
+          ? {}
+          : window.axeptioSDK.userPreferencesManager.choices;
+      var isCookiesSet = true;
+      sdk.on('cookies:complete', function(choices) {
+        currentCookiesConfig = Object.assign({
+        }, choices);
+        for (const [key, value] of Object.entries(currentCookiesConfig)) {
+          if (typeof value === 'undefined') {
+            currentCookiesConfig[key] = false;
+          }
+        }
+      });
+      sdk.on('ready', function() {
+        var choices = typeof window.axeptioSDK.userPreferencesManager === "undefined"
+            ? {}
+            : window.axeptioSDK.userPreferencesManager.choices;
+        if (Object.keys(choices).length === 0) {
+          isCookiesSet = false;
+        }
+      });
+      sdk.on('close', function(choices) {
+        for (const [key, value] of Object.entries(choices)) {
+          if (typeof value === 'undefined') {
+            choices[key] = false;
+          }
+        }
+        for (const [key, value] of Object.entries(choices)) {
+          if (!isCookiesSet || (typeof currentCookiesConfig[key] === 'undefined' || currentCookiesConfig[key] !== value)) {
+            // window.location.reload();
+            break;
+          }
+        }
+      });
+    });
+   
+ 
+
+ 

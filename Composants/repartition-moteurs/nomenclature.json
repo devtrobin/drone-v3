@@ -1,0 +1,35 @@
+{
+  "checked_on": "2026-10-14",
+  "status": "selected for study, not purchased",
+  "items": [
+    {
+      "ref": "JM1",
+      "part": "nVent ERIFLEX UD-80A",
+      "article": "569010",
+      "quantity_installed": 1,
+      "included": "one block with hinged blue cover",
+      "connections_used": 3,
+      "reserved_outputs": 4,
+      "amazon_exact_asin": null,
+      "amazon_fr_offer_confirmed": false
+    }
+  ],
+  "french_alternative": {
+    "seller": "RS France",
+    "code": "277-6180",
+    "price_each_HT_EUR": 17.61,
+    "price_each_TTC_EUR": 21.13,
+    "shipping_included": false,
+    "stock_page_announced": true,
+    "checked_on": "2026-10-14"
+  },
+  "additional_parts": [
+    "one power cable SSR1 to IN,6mm2 proposed",
+    "matching single lug on SSR terminal1",
+    "appropriate conductor ferrules/crimp tooling if used",
+    "panel fasteners and cable retention"
+  ],
+  "install_on_panel_proposed": true,
+  "DIN_rail_added_to_bom": false,
+  "total_delivered_price_eur": null
+}

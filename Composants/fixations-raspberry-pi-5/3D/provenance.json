@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-14",
+  "kit_asin": "B0DCS5C7SN",
+  "native_vendor_cad": false,
+  "physical_measured": false,
+  "sources": [
+    "../observation-amazon.json",
+    "../photos/Ewwtrey-longueurs-original.jpg",
+    "../photos/Ewwtrey-details-original.jpg",
+    "../notices/RaspberryPi-5-plan-mecanique-original.pdf"
+  ],
+  "nominal_published": [
+    "Lengths and quantities, commercial M2.5 designation",
+    "Pi mounting pattern, reference only"
+  ],
+  "estimated": [
+    "All fine fastener dimensions, material grade unknown",
+    "Pitch .45 assumed",
+    "Thread root/crest/clearance, entry bevels, head recess",
+    "MF blind depth and FF through bore",
+    "Assembly thicknesses, provisional 10mm height"
+  ],
+  "chassis_design_deferred": true,
+  "chassis_is_final_component": true,
+  "hardware_tested": false
+}
